@@ -1,0 +1,1058 @@
+[
+  {
+    "root_id": "A_recovery_train_00",
+    "family_id": "A_recovery_train_00",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019700,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_00",
+    "family_id": "B_recovery_train_00",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019701,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_train_01",
+    "family_id": "A_recovery_train_01",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019702,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_01",
+    "family_id": "B_recovery_train_01",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019703,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_train_02",
+    "family_id": "A_recovery_train_02",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019704,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_02",
+    "family_id": "B_recovery_train_02",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019705,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_train_03",
+    "family_id": "A_recovery_train_03",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019706,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_03",
+    "family_id": "B_recovery_train_03",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019707,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_train_04",
+    "family_id": "A_recovery_train_04",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019708,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_04",
+    "family_id": "B_recovery_train_04",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019709,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_train_05",
+    "family_id": "A_recovery_train_05",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019710,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_train_05",
+    "family_id": "B_recovery_train_05",
+    "environment": "B",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019711,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_development_00",
+    "family_id": "A_recovery_development_00",
+    "environment": "A",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019712,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_development_00",
+    "family_id": "B_recovery_development_00",
+    "environment": "B",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019713,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_development_01",
+    "family_id": "A_recovery_development_01",
+    "environment": "A",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019714,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_development_01",
+    "family_id": "B_recovery_development_01",
+    "environment": "B",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019715,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_development_02",
+    "family_id": "A_recovery_development_02",
+    "environment": "A",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019716,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_development_02",
+    "family_id": "B_recovery_development_02",
+    "environment": "B",
+    "split": "development",
+    "dev_role": null,
+    "seed": 261019717,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_evaluation_00",
+    "family_id": "A_recovery_evaluation_00",
+    "environment": "A",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019718,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_evaluation_00",
+    "family_id": "B_recovery_evaluation_00",
+    "environment": "B",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019719,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "primary_color": "blue",
+    "matched_color": "pink",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_evaluation_01",
+    "family_id": "A_recovery_evaluation_01",
+    "environment": "A",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019720,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_evaluation_01",
+    "family_id": "B_recovery_evaluation_01",
+    "environment": "B",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019721,
+    "initial_state": "open_held",
+    "held_color": "blue",
+    "primary_color": "pink",
+    "matched_color": "red",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "A_recovery_evaluation_02",
+    "family_id": "A_recovery_evaluation_02",
+    "environment": "A",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019722,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  },
+  {
+    "root_id": "B_recovery_evaluation_02",
+    "family_id": "B_recovery_evaluation_02",
+    "environment": "B",
+    "split": "evaluation",
+    "dev_role": null,
+    "seed": 261019723,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "primary_color": "red",
+    "matched_color": "blue",
+    "branches": [
+      [
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "fault_branch": 2,
+    "fault_action_index": 1
+  }
+]

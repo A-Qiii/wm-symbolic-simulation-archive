@@ -1,0 +1,5 @@
+from common import *
+guard();verify()
+note='''<section class="note"><h2>执行器与真值边界</h2><p>本轮沿用已有PhysicalOracle，其低层控制内部读取仿真物体位置、抽屉关节和接触以定位目标、检查执行前提及完成情况；该执行器不是公共观测驱动的HULC。被评估的四个世界模型完全不接收这些私有量、成功位或故障位，GT标签只在模型侧用于评价。本结果是该固定执行器条件下的关系表征与转移检验，不能作为“整个执行系统的GT只用于初始化和评价”或无GT端到端执行的证据。更换执行器不在本轮范围内，且未自行更换。</p><p>新布局独立于既有记录，但仍来自原A/B几何采样范围；不宣称跨新场景或广泛几何分布外泛化。三个持续Held窗口只跨原抓取完成阶段的12个控制时刻，不能外推到长时间持物或持物移动任务。</p></section>'''
+p=S/'reports/REPORT.html';s=p.read_text();assert note not in s;s=s.replace('<h2>范围、模型与成本</h2>',note+'<h2>范围、模型与成本</h2>');p.write_text(s)
+save(S/'results/scope_limitations.json',{'utc':now(),'executor':'PhysicalOracle existing simulator-private physical executor, unchanged','executor_reads_private_GT':True,'world_models_receive_private_GT':False,'entire_system_GT_only_initialization_and_evaluation':False,'new_executor_not_introduced':True,'hold_transition_tested':False,'hold_observation_scope':'Existing completion controls4,8,12 only; no additional controls','geometry_scope':'Independent layouts within original A/B sampling domain','old_GUIDE_and_planning_acceptance_not_claimed':True})

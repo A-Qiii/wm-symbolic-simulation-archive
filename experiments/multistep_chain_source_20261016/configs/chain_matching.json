@@ -1,0 +1,714 @@
+{
+  "created_utc": "2026-10-16T13:53:25.462652+00:00",
+  "old_source_seal_files": 3969,
+  "query_correction_seal_files": 1377,
+  "old_roots": 12,
+  "new_roots": 12,
+  "windows_per_arm": 24,
+  "window_length": 3,
+  "matched_on": [
+    "A/B environment",
+    "target color",
+    "replicate count",
+    "3-skill sequence",
+    "full8D action including96-control posthold",
+    "2windows per root",
+    "root-balanced draws"
+  ],
+  "all_within_one_episode": true,
+  "adjacent_after_equals_next_before": true,
+  "old_pair_indices_from_original_pack": true,
+  "new_pair_indices_from_actual_normal_branch": true,
+  "ground_truth_or_outcomes_used_to_select_chains": false,
+  "not_matched": [
+    "Exact initial layout, images and measured trajectories differ by data source. This is the intended source treatment; no claim of state-distribution equality."
+  ],
+  "root_pairs": [
+    {
+      "environment": "A",
+      "target": "red",
+      "replicate": 0,
+      "old_root": "A_longpair_red_closed_0",
+      "new_root": "A_intermediate_v3_red_0",
+      "old_pairs": [
+        960,
+        961,
+        962,
+        963
+      ],
+      "new_pairs": [
+        1206,
+        1207,
+        1208,
+        1209
+      ]
+    },
+    {
+      "environment": "A",
+      "target": "red",
+      "replicate": 1,
+      "old_root": "A_longpair_red_closed_1",
+      "new_root": "A_intermediate_v3_red_1",
+      "old_pairs": [
+        968,
+        969,
+        970,
+        971
+      ],
+      "new_pairs": [
+        1214,
+        1215,
+        1216,
+        1217
+      ]
+    },
+    {
+      "environment": "A",
+      "target": "blue",
+      "replicate": 0,
+      "old_root": "A_longpair_blue_closed_0",
+      "new_root": "A_intermediate_v3_blue_0",
+      "old_pairs": [
+        980,
+        981,
+        982,
+        983
+      ],
+      "new_pairs": [
+        1222,
+        1223,
+        1224,
+        1225
+      ]
+    },
+    {
+      "environment": "A",
+      "target": "blue",
+      "replicate": 1,
+      "old_root": "A_longpair_blue_closed_1",
+      "new_root": "A_intermediate_v3_blue_1",
+      "old_pairs": [
+        984,
+        985,
+        986,
+        987
+      ],
+      "new_pairs": [
+        1230,
+        1231,
+        1232,
+        1233
+      ]
+    },
+    {
+      "environment": "A",
+      "target": "pink",
+      "replicate": 0,
+      "old_root": "A_longpair_pink_closed_0",
+      "new_root": "A_intermediate_v3_pink_0",
+      "old_pairs": [
+        996,
+        997,
+        998,
+        999
+      ],
+      "new_pairs": [
+        1238,
+        1239,
+        1240,
+        1241
+      ]
+    },
+    {
+      "environment": "A",
+      "target": "pink",
+      "replicate": 1,
+      "old_root": "A_longpair_pink_closed_1",
+      "new_root": "A_intermediate_v3_pink_1",
+      "old_pairs": [
+        1000,
+        1001,
+        1002,
+        1003
+      ],
+      "new_pairs": [
+        1246,
+        1247,
+        1248,
+        1249
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "red",
+      "replicate": 0,
+      "old_root": "B_longpair_red_closed_0",
+      "new_root": "B_intermediate_v3_red_0",
+      "old_pairs": [
+        1012,
+        1013,
+        1014,
+        1015
+      ],
+      "new_pairs": [
+        1254,
+        1255,
+        1256,
+        1257
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "red",
+      "replicate": 1,
+      "old_root": "B_longpair_red_closed_1",
+      "new_root": "B_intermediate_v3_red_1",
+      "old_pairs": [
+        1016,
+        1017,
+        1018,
+        1019
+      ],
+      "new_pairs": [
+        1262,
+        1263,
+        1264,
+        1265
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "blue",
+      "replicate": 0,
+      "old_root": "B_longpair_blue_closed_0",
+      "new_root": "B_intermediate_v3_blue_0",
+      "old_pairs": [
+        1028,
+        1029,
+        1030,
+        1031
+      ],
+      "new_pairs": [
+        1270,
+        1271,
+        1272,
+        1273
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "blue",
+      "replicate": 1,
+      "old_root": "B_longpair_blue_closed_1",
+      "new_root": "B_intermediate_v3_blue_1",
+      "old_pairs": [
+        1032,
+        1033,
+        1034,
+        1035
+      ],
+      "new_pairs": [
+        1278,
+        1279,
+        1280,
+        1281
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "pink",
+      "replicate": 0,
+      "old_root": "B_longpair_pink_closed_0",
+      "new_root": "B_intermediate_v3_pink_0",
+      "old_pairs": [
+        1040,
+        1041,
+        1042,
+        1043
+      ],
+      "new_pairs": [
+        1286,
+        1287,
+        1288,
+        1289
+      ]
+    },
+    {
+      "environment": "B",
+      "target": "pink",
+      "replicate": 1,
+      "old_root": "B_longpair_pink_closed_1",
+      "new_root": "B_intermediate_v3_pink_1",
+      "old_pairs": [
+        1044,
+        1045,
+        1046,
+        1047
+      ],
+      "new_pairs": [
+        1294,
+        1295,
+        1296,
+        1297
+      ]
+    }
+  ],
+  "chain_pairs": [
+    {
+      "pair_index": 0,
+      "start_slot": 0,
+      "old": [
+        960,
+        961,
+        962
+      ],
+      "new": [
+        1206,
+        1207,
+        1208
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 0,
+      "start_slot": 1,
+      "old": [
+        961,
+        962,
+        963
+      ],
+      "new": [
+        1207,
+        1208,
+        1209
+      ],
+      "skills": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 1,
+      "start_slot": 0,
+      "old": [
+        968,
+        969,
+        970
+      ],
+      "new": [
+        1214,
+        1215,
+        1216
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 1,
+      "start_slot": 1,
+      "old": [
+        969,
+        970,
+        971
+      ],
+      "new": [
+        1215,
+        1216,
+        1217
+      ],
+      "skills": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 2,
+      "start_slot": 0,
+      "old": [
+        980,
+        981,
+        982
+      ],
+      "new": [
+        1222,
+        1223,
+        1224
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 2,
+      "start_slot": 1,
+      "old": [
+        981,
+        982,
+        983
+      ],
+      "new": [
+        1223,
+        1224,
+        1225
+      ],
+      "skills": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 3,
+      "start_slot": 0,
+      "old": [
+        984,
+        985,
+        986
+      ],
+      "new": [
+        1230,
+        1231,
+        1232
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 3,
+      "start_slot": 1,
+      "old": [
+        985,
+        986,
+        987
+      ],
+      "new": [
+        1231,
+        1232,
+        1233
+      ],
+      "skills": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 4,
+      "start_slot": 0,
+      "old": [
+        996,
+        997,
+        998
+      ],
+      "new": [
+        1238,
+        1239,
+        1240
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 4,
+      "start_slot": 1,
+      "old": [
+        997,
+        998,
+        999
+      ],
+      "new": [
+        1239,
+        1240,
+        1241
+      ],
+      "skills": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 5,
+      "start_slot": 0,
+      "old": [
+        1000,
+        1001,
+        1002
+      ],
+      "new": [
+        1246,
+        1247,
+        1248
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 5,
+      "start_slot": 1,
+      "old": [
+        1001,
+        1002,
+        1003
+      ],
+      "new": [
+        1247,
+        1248,
+        1249
+      ],
+      "skills": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 6,
+      "start_slot": 0,
+      "old": [
+        1012,
+        1013,
+        1014
+      ],
+      "new": [
+        1254,
+        1255,
+        1256
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 6,
+      "start_slot": 1,
+      "old": [
+        1013,
+        1014,
+        1015
+      ],
+      "new": [
+        1255,
+        1256,
+        1257
+      ],
+      "skills": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 7,
+      "start_slot": 0,
+      "old": [
+        1016,
+        1017,
+        1018
+      ],
+      "new": [
+        1262,
+        1263,
+        1264
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 7,
+      "start_slot": 1,
+      "old": [
+        1017,
+        1018,
+        1019
+      ],
+      "new": [
+        1263,
+        1264,
+        1265
+      ],
+      "skills": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 8,
+      "start_slot": 0,
+      "old": [
+        1028,
+        1029,
+        1030
+      ],
+      "new": [
+        1270,
+        1271,
+        1272
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 8,
+      "start_slot": 1,
+      "old": [
+        1029,
+        1030,
+        1031
+      ],
+      "new": [
+        1271,
+        1272,
+        1273
+      ],
+      "skills": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 9,
+      "start_slot": 0,
+      "old": [
+        1032,
+        1033,
+        1034
+      ],
+      "new": [
+        1278,
+        1279,
+        1280
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 9,
+      "start_slot": 1,
+      "old": [
+        1033,
+        1034,
+        1035
+      ],
+      "new": [
+        1279,
+        1280,
+        1281
+      ],
+      "skills": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 10,
+      "start_slot": 0,
+      "old": [
+        1040,
+        1041,
+        1042
+      ],
+      "new": [
+        1286,
+        1287,
+        1288
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 10,
+      "start_slot": 1,
+      "old": [
+        1041,
+        1042,
+        1043
+      ],
+      "new": [
+        1287,
+        1288,
+        1289
+      ],
+      "skills": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    {
+      "pair_index": 11,
+      "start_slot": 0,
+      "old": [
+        1044,
+        1045,
+        1046
+      ],
+      "new": [
+        1294,
+        1295,
+        1296
+      ],
+      "skills": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ]
+    },
+    {
+      "pair_index": 11,
+      "start_slot": 1,
+      "old": [
+        1045,
+        1046,
+        1047
+      ],
+      "new": [
+        1295,
+        1296,
+        1297
+      ],
+      "skills": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    }
+  ]
+}

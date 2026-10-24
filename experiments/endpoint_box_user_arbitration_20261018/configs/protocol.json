@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-18T12:06:05.938998+00:00",
+  "primary_ids": [
+    0,
+    1,
+    8,
+    9,
+    32,
+    33,
+    38,
+    39
+  ],
+  "only_changed_ids": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "user_semantics_not_pixel_gold": true,
+  "no_model_output_file_reads_until_labels_and_readonly_audit_frozen": true,
+  "historical_model_context_disclosed": true,
+  "audit_scope": "Read-only32 A/B training/development images for repeated handle/finger identity confusion; only4user-disputed images may change in new8image eval version. The other28 ABimages receive suspicion ledger only, not new labels or metric recomputation. Remaining4 C/Dimages outside8 not reviewed. No claim remaining32fully audited.",
+  "labels": "Use user component evidence plus original RGB and original definitions. Unknown remains if a reliable visible boundary cannot be determined; do not invent invisible parts or infer not_visible from one negative candidate.",
+  "comparisons": "Saved original/corrected decoder outputs at224/448,seeds0/1; score>=.5,existingNMS.3,matchingIoU.5. No decoder reexecution. Compare user_v2 versus assistant_v1 and original on fixed common-known support, newly included support, and full known selected8 separately.",
+  "new_work": "No training,features,forward,threshold change or architecture change. No automatic batch edits, no old-file modification.",
+  "method_goal": "State support for handle/finger hard-negative and local parent-connection checking; tightly cropped appearance alone can lose context; this evidence does not establish a required architecture replacement.",
+  "stop": "Freeze decisions, score saved outputs, report concrete confirmed/suspected/unverified items and a minimal proposed next step; do not train."
+}

@@ -1,0 +1,1352 @@
+[
+  {
+    "root_id": "D5_objective_pink_01",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970021,
+    "target": "pink",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.17501706262342115,
+        -0.10325853016627634,
+        0.46,
+        0.0,
+        0.0,
+        -2.5607144615422017
+      ],
+      "block_blue": [
+        0.2995324529488755,
+        -0.04745348772837847,
+        0.46,
+        0.0,
+        0.0,
+        -0.21983918680995407
+      ],
+      "block_pink": [
+        0.047450029269254804,
+        -0.08768676006039626,
+        0.46,
+        0.0,
+        0.0,
+        -2.123071230401029
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 0
+  },
+  {
+    "root_id": "D5_objective_pink_08",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970028,
+    "target": "pink",
+    "replicate": 8,
+    "layout": {
+      "block_red": [
+        0.28850734866757144,
+        -0.10498098600071774,
+        0.46,
+        0.0,
+        0.0,
+        -2.4735586291005305
+      ],
+      "block_blue": [
+        0.18072757827722666,
+        -0.09380410496221231,
+        0.46,
+        0.0,
+        0.0,
+        -0.2429493528342035
+      ],
+      "block_pink": [
+        0.04200041198463053,
+        -0.04754069940956476,
+        0.46,
+        0.0,
+        0.0,
+        -1.3092741536917214
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 1
+  },
+  {
+    "root_id": "D5_objective_red_05",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970005,
+    "target": "red",
+    "replicate": 5,
+    "layout": {
+      "block_red": [
+        0.16636325351252032,
+        -0.09035586440415871,
+        0.46,
+        0.0,
+        0.0,
+        2.3009763297610464
+      ],
+      "block_blue": [
+        0.038815474663402405,
+        -0.05819224384115214,
+        0.46,
+        0.0,
+        0.0,
+        0.35309765317360187
+      ],
+      "block_pink": [
+        0.29838792505410233,
+        -0.12218153385197936,
+        0.46,
+        0.0,
+        0.0,
+        -2.1767662052388186
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 2
+  },
+  {
+    "root_id": "D5_objective_blue_00",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970010,
+    "target": "blue",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.16673010586955903,
+        -0.059635809201570564,
+        0.46,
+        0.0,
+        0.0,
+        2.743828730540777
+      ],
+      "block_blue": [
+        0.039535264952171384,
+        -0.06003435776925738,
+        0.46,
+        0.0,
+        0.0,
+        2.8812826265990177
+      ],
+      "block_pink": [
+        0.297661856844469,
+        -0.13481186830806163,
+        0.46,
+        0.0,
+        0.0,
+        -0.8362057906622233
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 3
+  },
+  {
+    "root_id": "D5_objective_pink_07",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970027,
+    "target": "pink",
+    "replicate": 7,
+    "layout": {
+      "block_red": [
+        0.2999946057386108,
+        -0.0918233811541717,
+        0.46,
+        0.0,
+        0.0,
+        -2.924969199985367
+      ],
+      "block_blue": [
+        0.04878528295769751,
+        -0.060837290616748974,
+        0.46,
+        0.0,
+        0.0,
+        1.0524785868566173
+      ],
+      "block_pink": [
+        0.17732297499140134,
+        -0.04595904309636656,
+        0.46,
+        0.0,
+        0.0,
+        -2.5032144813455206
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 4
+  },
+  {
+    "root_id": "D5_objective_blue_01",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970011,
+    "target": "blue",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.1769236010041099,
+        -0.10038501983573832,
+        0.46,
+        0.0,
+        0.0,
+        2.6044350932939286
+      ],
+      "block_blue": [
+        0.04294178014782463,
+        -0.12178926852250088,
+        0.46,
+        0.0,
+        0.0,
+        2.3888864468420605
+      ],
+      "block_pink": [
+        0.2928238851412333,
+        -0.05451309290068046,
+        0.46,
+        0.0,
+        0.0,
+        0.3689890893051251
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 5
+  },
+  {
+    "root_id": "D5_objective_pink_03",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970023,
+    "target": "pink",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.2979446614935978,
+        -0.11054637534182615,
+        0.46,
+        0.0,
+        0.0,
+        0.5873000070392531
+      ],
+      "block_blue": [
+        0.04384337065168828,
+        -0.06631708349864514,
+        0.46,
+        0.0,
+        0.0,
+        0.4470018648706948
+      ],
+      "block_pink": [
+        0.1701239835389776,
+        -0.13292295687752592,
+        0.46,
+        0.0,
+        0.0,
+        -1.552093838565257
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 6
+  },
+  {
+    "root_id": "D5_objective_red_06",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970006,
+    "target": "red",
+    "replicate": 6,
+    "layout": {
+      "block_red": [
+        0.285897879122746,
+        -0.06811901217414282,
+        0.46,
+        0.0,
+        0.0,
+        -2.200158826043542
+      ],
+      "block_blue": [
+        0.047642784285989226,
+        -0.05075504371896604,
+        0.46,
+        0.0,
+        0.0,
+        0.10545096130677534
+      ],
+      "block_pink": [
+        0.16246830756993877,
+        -0.0770848042312969,
+        0.46,
+        0.0,
+        0.0,
+        -0.8071231552053457
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 7
+  },
+  {
+    "root_id": "D5_objective_pink_05",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970025,
+    "target": "pink",
+    "replicate": 5,
+    "layout": {
+      "block_red": [
+        0.2863272487510789,
+        -0.10796489315909692,
+        0.46,
+        0.0,
+        0.0,
+        1.4540049018894532
+      ],
+      "block_blue": [
+        0.05525204776738035,
+        -0.08979452049077521,
+        0.46,
+        0.0,
+        0.0,
+        -1.924266594168731
+      ],
+      "block_pink": [
+        0.16039038993487964,
+        -0.09264840383843503,
+        0.46,
+        0.0,
+        0.0,
+        2.597332161448451
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 8
+  },
+  {
+    "root_id": "D5_objective_blue_03",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970013,
+    "target": "blue",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.30087100999181254,
+        -0.12249744310386534,
+        0.46,
+        0.0,
+        0.0,
+        -2.1949860707097404
+      ],
+      "block_blue": [
+        0.038741881099532055,
+        -0.0739515137096967,
+        0.46,
+        0.0,
+        0.0,
+        0.6526840700018197
+      ],
+      "block_pink": [
+        0.17780367152079815,
+        -0.09229067058116694,
+        0.46,
+        0.0,
+        0.0,
+        2.079464282736982
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 9
+  },
+  {
+    "root_id": "D5_objective_blue_02",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970012,
+    "target": "blue",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.18275069645805492,
+        -0.0870322944068595,
+        0.46,
+        0.0,
+        0.0,
+        2.421581754878239
+      ],
+      "block_blue": [
+        0.03805030327721248,
+        -0.04988927583175906,
+        0.46,
+        0.0,
+        0.0,
+        -0.23158884254412992
+      ],
+      "block_pink": [
+        0.294211310410629,
+        -0.06797615374105065,
+        0.46,
+        0.0,
+        0.0,
+        2.248495231695003
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 10
+  },
+  {
+    "root_id": "D5_objective_pink_06",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970026,
+    "target": "pink",
+    "replicate": 6,
+    "layout": {
+      "block_red": [
+        0.30395197221668213,
+        -0.08923475807431802,
+        0.46,
+        0.0,
+        0.0,
+        -0.6081430287960115
+      ],
+      "block_blue": [
+        0.058288387329350586,
+        -0.09535259192568159,
+        0.46,
+        0.0,
+        0.0,
+        1.0292144042000055
+      ],
+      "block_pink": [
+        0.1655640828719044,
+        -0.06048311869274431,
+        0.46,
+        0.0,
+        0.0,
+        0.03751242888658668
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 11
+  },
+  {
+    "root_id": "D5_objective_red_02",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970002,
+    "target": "red",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.3014033107915346,
+        -0.12296117685010943,
+        0.46,
+        0.0,
+        0.0,
+        -1.0800381982132272
+      ],
+      "block_blue": [
+        0.16659620982533863,
+        -0.10303553636385625,
+        0.46,
+        0.0,
+        0.0,
+        -1.2213799216525165
+      ],
+      "block_pink": [
+        0.04730313335886623,
+        -0.10777144654393438,
+        0.46,
+        0.0,
+        0.0,
+        2.129399555358649
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 12
+  },
+  {
+    "root_id": "D5_objective_pink_00",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970020,
+    "target": "pink",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.05708403473563751,
+        -0.08076948727870498,
+        0.46,
+        0.0,
+        0.0,
+        -3.1014532655286424
+      ],
+      "block_blue": [
+        0.17071684814016438,
+        -0.12987153003247567,
+        0.46,
+        0.0,
+        0.0,
+        -1.289221182449391
+      ],
+      "block_pink": [
+        0.3032266020468297,
+        -0.09997702785391144,
+        0.46,
+        0.0,
+        0.0,
+        0.43237156166283164
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 13
+  },
+  {
+    "root_id": "D5_objective_blue_04",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970014,
+    "target": "blue",
+    "replicate": 4,
+    "layout": {
+      "block_red": [
+        0.17517871103430896,
+        -0.13329033098222381,
+        0.46,
+        0.0,
+        0.0,
+        -0.16954173478336187
+      ],
+      "block_blue": [
+        0.3053839570065441,
+        -0.10045078382075813,
+        0.46,
+        0.0,
+        0.0,
+        -2.7830625336541717
+      ],
+      "block_pink": [
+        0.060786918236872683,
+        -0.08489486592194187,
+        0.46,
+        0.0,
+        0.0,
+        2.747004834065862
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 14
+  },
+  {
+    "root_id": "D5_objective_red_03",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970003,
+    "target": "red",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.30361020991448223,
+        -0.10918527703386842,
+        0.46,
+        0.0,
+        0.0,
+        -0.7667219145437647
+      ],
+      "block_blue": [
+        0.16043268453210446,
+        -0.11691913414243456,
+        0.46,
+        0.0,
+        0.0,
+        1.2119825464506242
+      ],
+      "block_pink": [
+        0.05537788128594157,
+        -0.08977708533071226,
+        0.46,
+        0.0,
+        0.0,
+        -0.07725207812264578
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 15
+  },
+  {
+    "root_id": "D5_objective_pink_02",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970022,
+    "target": "pink",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.16134915993327548,
+        -0.06688294962314642,
+        0.46,
+        0.0,
+        0.0,
+        -0.504661124028777
+      ],
+      "block_blue": [
+        0.2824693554228091,
+        -0.05070692179825734,
+        0.46,
+        0.0,
+        0.0,
+        -0.296851921912368
+      ],
+      "block_pink": [
+        0.0460989553683145,
+        -0.11197652833679367,
+        0.46,
+        0.0,
+        0.0,
+        1.1965862691038875
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 16
+  },
+  {
+    "root_id": "D5_objective_pink_04",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970024,
+    "target": "pink",
+    "replicate": 4,
+    "layout": {
+      "block_red": [
+        0.18311542722434096,
+        -0.11155486653398727,
+        0.46,
+        0.0,
+        0.0,
+        -2.0238558260743975
+      ],
+      "block_blue": [
+        0.2978293816357464,
+        -0.1348206716493992,
+        0.46,
+        0.0,
+        0.0,
+        1.5856795623692772
+      ],
+      "block_pink": [
+        0.05993883499858223,
+        -0.08426351446372304,
+        0.46,
+        0.0,
+        0.0,
+        1.1503431624325238
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 17
+  },
+  {
+    "root_id": "D5_objective_blue_05",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970015,
+    "target": "blue",
+    "replicate": 5,
+    "layout": {
+      "block_red": [
+        0.04507247363232032,
+        -0.12228461571951087,
+        0.46,
+        0.0,
+        0.0,
+        1.702685808741779
+      ],
+      "block_blue": [
+        0.2864593244537075,
+        -0.05910673680071725,
+        0.46,
+        0.0,
+        0.0,
+        0.7758490136697551
+      ],
+      "block_pink": [
+        0.16447315963994144,
+        -0.0472035870834219,
+        0.46,
+        0.0,
+        0.0,
+        -2.629147892998378
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 18
+  },
+  {
+    "root_id": "D5_objective_blue_07",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970017,
+    "target": "blue",
+    "replicate": 7,
+    "layout": {
+      "block_red": [
+        0.17916179767846505,
+        -0.1120018458791256,
+        0.46,
+        0.0,
+        0.0,
+        -2.0271580460422474
+      ],
+      "block_blue": [
+        0.2989990668302001,
+        -0.11492719538796657,
+        0.46,
+        0.0,
+        0.0,
+        0.09434317467875442
+      ],
+      "block_pink": [
+        0.04825951978709815,
+        -0.07611473845989908,
+        0.46,
+        0.0,
+        0.0,
+        -1.2642943093499914
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 19
+  },
+  {
+    "root_id": "D5_objective_red_07",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970007,
+    "target": "red",
+    "replicate": 7,
+    "layout": {
+      "block_red": [
+        0.298362848709299,
+        -0.11332010639767334,
+        0.46,
+        0.0,
+        0.0,
+        0.5631088173746677
+      ],
+      "block_blue": [
+        0.04855761461164612,
+        -0.05343496335987907,
+        0.46,
+        0.0,
+        0.0,
+        2.9051743253820437
+      ],
+      "block_pink": [
+        0.17700067339923184,
+        -0.08454726037104343,
+        0.46,
+        0.0,
+        0.0,
+        -1.6897185079388766
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 20
+  },
+  {
+    "root_id": "D5_objective_red_00",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970000,
+    "target": "red",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.18310532191362083,
+        -0.07058219972206049,
+        0.46,
+        0.0,
+        0.0,
+        1.6490422256111739
+      ],
+      "block_blue": [
+        0.28789096666716746,
+        -0.045310331501872775,
+        0.46,
+        0.0,
+        0.0,
+        -1.452789553737873
+      ],
+      "block_pink": [
+        0.059388508220323016,
+        -0.12774797828449472,
+        0.46,
+        0.0,
+        0.0,
+        -0.07418412003682517
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 21
+  },
+  {
+    "root_id": "D5_objective_red_01",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970001,
+    "target": "red",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.048056899132882074,
+        -0.07256344461064664,
+        0.46,
+        0.0,
+        0.0,
+        -1.4469432729823501
+      ],
+      "block_blue": [
+        0.2916136962069031,
+        -0.07235647875873134,
+        0.46,
+        0.0,
+        0.0,
+        -1.3655232335208238
+      ],
+      "block_pink": [
+        0.16154320158260266,
+        -0.09113410347714523,
+        0.46,
+        0.0,
+        0.0,
+        2.2395106384327033
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 22
+  },
+  {
+    "root_id": "D5_objective_red_04",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970004,
+    "target": "red",
+    "replicate": 4,
+    "layout": {
+      "block_red": [
+        0.1638181385758066,
+        -0.06084547665080131,
+        0.46,
+        0.0,
+        0.0,
+        0.2628438386514209
+      ],
+      "block_blue": [
+        0.3014258568312605,
+        -0.09315451655485368,
+        0.46,
+        0.0,
+        0.0,
+        -0.45193875789693383
+      ],
+      "block_pink": [
+        0.05612640429360645,
+        -0.12459695492895845,
+        0.46,
+        0.0,
+        0.0,
+        2.480464077762888
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 23
+  },
+  {
+    "root_id": "D5_objective_pink_09",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970029,
+    "target": "pink",
+    "replicate": 9,
+    "layout": {
+      "block_red": [
+        0.28476482515789303,
+        -0.05325346560687906,
+        0.46,
+        0.0,
+        0.0,
+        1.0989646636959582
+      ],
+      "block_blue": [
+        0.17874034459405866,
+        -0.05131131231141557,
+        0.46,
+        0.0,
+        0.0,
+        0.0015491683686201796
+      ],
+      "block_pink": [
+        0.043461563568119484,
+        -0.09474851671661112,
+        0.46,
+        0.0,
+        0.0,
+        1.8297654571766016
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 24
+  },
+  {
+    "root_id": "D5_objective_red_09",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970009,
+    "target": "red",
+    "replicate": 9,
+    "layout": {
+      "block_red": [
+        0.28671706114585477,
+        -0.09350880313221627,
+        0.46,
+        0.0,
+        0.0,
+        -0.8671475702438172
+      ],
+      "block_blue": [
+        0.04129907920092573,
+        -0.1305004112617,
+        0.46,
+        0.0,
+        0.0,
+        2.472637414617047
+      ],
+      "block_pink": [
+        0.17036312637251547,
+        -0.122638977556059,
+        0.46,
+        0.0,
+        0.0,
+        0.14545017197021437
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 25
+  },
+  {
+    "root_id": "D5_objective_blue_08",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970018,
+    "target": "blue",
+    "replicate": 8,
+    "layout": {
+      "block_red": [
+        0.05748436293627224,
+        -0.08893087632858938,
+        0.46,
+        0.0,
+        0.0,
+        -2.3863649216750247
+      ],
+      "block_blue": [
+        0.2966144854202853,
+        -0.059138330819783785,
+        0.46,
+        0.0,
+        0.0,
+        -2.2212924834017214
+      ],
+      "block_pink": [
+        0.18153656875120652,
+        -0.09197966288786058,
+        0.46,
+        0.0,
+        0.0,
+        -1.832893380180243
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 26
+  },
+  {
+    "root_id": "D5_objective_blue_06",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970016,
+    "target": "blue",
+    "replicate": 6,
+    "layout": {
+      "block_red": [
+        0.18301676272243747,
+        -0.11551795884091107,
+        0.46,
+        0.0,
+        0.0,
+        1.5372197984336466
+      ],
+      "block_blue": [
+        0.2960826358552063,
+        -0.049651948953798805,
+        0.46,
+        0.0,
+        0.0,
+        0.5650327367040333
+      ],
+      "block_pink": [
+        0.052691190510352676,
+        -0.07343804912976223,
+        0.46,
+        0.0,
+        0.0,
+        -0.06252455614851149
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 27
+  },
+  {
+    "root_id": "D5_objective_red_08",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970008,
+    "target": "red",
+    "replicate": 8,
+    "layout": {
+      "block_red": [
+        0.29545070356086045,
+        -0.08148205629389885,
+        0.46,
+        0.0,
+        0.0,
+        -2.140739621036322
+      ],
+      "block_blue": [
+        0.17169773781161918,
+        -0.1057064386020907,
+        0.46,
+        0.0,
+        0.0,
+        -1.8945927090859838
+      ],
+      "block_pink": [
+        0.05755627167989192,
+        -0.09708215679968143,
+        0.46,
+        0.0,
+        0.0,
+        1.6286652061924896
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 2,
+    "execution_order": 28
+  },
+  {
+    "root_id": "D5_objective_blue_09",
+    "environment": "D",
+    "split": "test_D5",
+    "seed": 16970019,
+    "target": "blue",
+    "replicate": 9,
+    "layout": {
+      "block_red": [
+        0.17888832092382898,
+        -0.055619612843463104,
+        0.46,
+        0.0,
+        0.0,
+        0.09979369922710157
+      ],
+      "block_blue": [
+        0.05106579401548599,
+        -0.10580222994192609,
+        0.46,
+        0.0,
+        0.0,
+        2.146550920458462
+      ],
+      "block_pink": [
+        0.2822688298054651,
+        -0.10879722983617593,
+        0.46,
+        0.0,
+        0.0,
+        0.5394314952775665
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    },
+    "generation_attempt": 1,
+    "execution_order": 29
+  }
+]

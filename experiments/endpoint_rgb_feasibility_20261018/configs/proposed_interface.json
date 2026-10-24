@@ -1,0 +1,19 @@
+{
+  "status": "proposed interface only; no production detector implemented",
+  "input": "current RGB image plus optional past RGB for separately validated association; never simulator mask, coordinates, robot_obs or future frames",
+  "instance_fields": {
+    "category": "known colour block / drawer / gripper",
+    "instance_id": "assigned only by validated image association; uncertain identity remains unknown",
+    "camera": "static or wrist",
+    "localization_state": "localized / partially_localized / unknown; unknown does not mean absent",
+    "bbox": "RGB-derived tight visible box or null",
+    "visible_mask": "RGB-predicted visible parts or null; human masks allowed only as training/evaluation labels",
+    "part_visibility": "which drawer structures / gripper fingers are observed; no hidden-part completion",
+    "localization_score": "requires held-out calibration; cosine alone not confidence",
+    "feature": "same frozen DINO384 local-crop descriptor per view plus validity mask, or null",
+    "pixel_geometry": "image-normalized box/part geometry; no metric3D claim"
+  },
+  "node": "per-instance per-view local descriptor, visibility and type; do not silently fuse uncertain identities",
+  "edge": "ordered pair of localized node descriptors + within-camera relative pixel geometry + explicit validity; no fixed-ROI endpoint fallback",
+  "scope": "single-frame visual relation evidence; no guarantee of Holding force or In support"
+}

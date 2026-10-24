@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-15T16:18:53.885139+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/source/collect_extension.py": "e5e378ed2d17800d5cfc0087c6b4a6e78a069888ea9eb57ca3e68088c6e37ddb",
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/source/common.py": "190edf7a1998ee3cb43b4ae57195ca3c46bee235fff0eb03d85c54515723abd3",
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/source/prepare.py": "8423e14a81028a8cd610e8e599fe8c0562ddb90efe13f142b1cccd5edcb6863e",
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/configs/protocol.json": "a15dc491e5aca2f394cd0bb9598af2ce63aa67254d53ee2ded8e24c1041ee8d1",
+    "/home/robot/research/projects/wm_symbolic/experiments/containment_diagnostic_20261015/configs/close_extension_roots.json": "0e61fac0e11dd332b95ddb333bbbcb238702a8dc632097515c4a43ce2c0caf3a",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/metadata.json": "ba560ee05cd34cacf2b1b8b11c6f328c2b7bd0dcd3a91fbc4b13c92612a28c23",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/targets.npz": "a9fbd14827796ec425948d3492c5c5ee933835614605f602f622806b0b857089",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/inputs.npz": "af46b4b1b15f9c9c045efc63d717a6ec7b7891d54504dfe30b37f6ea3b3a1acd",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/reader_frozen.json": "860637e902f486b1f332f3edbd37eb44f33717e6f2cd76ef5db9a9510d98d5ac",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f"
+  },
+  "old_report_manifest_sha256": "66759f1b09a16c0f965dc9d9abbe283944d8aaebe516901bafbd8b4028780013",
+  "preserve_old_source_manifest": "/home/robot/research/projects/wm_symbolic/reports/state_semantics_v2_20261015/tables/source_data_manifest.json"
+}

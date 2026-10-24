@@ -1,0 +1,78 @@
+{
+  "utc": "2026-10-22T03:37:52.776089+00:00",
+  "scope": "Latest expanded868 fixed checkpoints; no optimizer, collection, parameter/threshold selection. New posthoc visualization only.",
+  "model_seeds": [
+    0,
+    1
+  ],
+  "checkpoints": {
+    "0": "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed0_step1500.pt",
+    "1": "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed1_step1500.pt"
+  },
+  "cohorts": [
+    "development",
+    "combination_test"
+  ],
+  "boundaries": "Each80episodes all6executed-after boundaries1..6. Root state0 excluded. Observed posterior updated along actual public observation/action history, no coldreset perboundary.",
+  "latent": "ObjectAug.history posts[t][:,:3,:],128-dimensional object h_i afterobserve. Context c128 stored separately, never mixed as same kind of point. Readout consumes[h_i,c], so h-only map need not separate all readout errors.",
+  "points_each_model": 2880,
+  "sampling": "All160episodes*6boundaries*3objects, balanced1440points percohort and960perobject identity; no outcome/label-based sampling.",
+  "preprocessing": {
+    "standardization": "Per dimension jointdev+holdout visualization mean/std, clampstd1e-8",
+    "PCA": {
+      "dimensions": 50,
+      "svd_solver": "full",
+      "whiten": false
+    },
+    "fit_uses_labels": false,
+    "transductive_viz_only": "Joint PCA/tSNE is posthoc visualization, not model fitting orout-of-sample testevaluation."
+  },
+  "tsne": {
+    "n_components": 2,
+    "perplexity": 30.0,
+    "early_exaggeration": 12.0,
+    "learning_rate": "auto",
+    "max_iter": 1500,
+    "init": "pca",
+    "random_state": 20261022,
+    "method": "barnes_hut",
+    "angle": 0.5,
+    "metric": "euclidean",
+    "n_jobs": 4
+  },
+  "stability": {
+    "model_seed": 0,
+    "alternative_perplexity": 50.0,
+    "same_preprocessing_and_rng": true,
+    "selected_for_prettiness": false,
+    "diagnostics": "k15neighbour overlap, trustworthiness. Alternative coordinates retained; main alwaysp30."
+  },
+  "inference": {
+    "original_entry_batch_layout": 8,
+    "BF16": true,
+    "float32_matmul_precision": "high",
+    "deterministic_algorithms": true,
+    "serial_single_GPU_lock": true,
+    "existing_probability_parity_check": true
+  },
+  "annotations_only": [
+    "identity",
+    "true_In",
+    "true_Held",
+    "true_object_category",
+    "pred_In",
+    "pred_Held",
+    "In_error_type",
+    "drawer_true",
+    "split",
+    "episode_id",
+    "family_id",
+    "root_id",
+    "step",
+    "validity",
+    "probabilities_for_annotations_only"
+  ],
+  "figures": "One shared coordinate set permodel across4panels:truthIn/Held/other,split,identity,Inerroroutlines. Seed1projectedindependently; never compare absolute axes acrossmodels.",
+  "Chinese_font": "Noto Sans CJK SC",
+  "upload_scope": "Only newplots andnewderivative CSV/scripts/README bundle. No original frames,data,models,oldreports orlatent npz."
+}

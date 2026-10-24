@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-18T07:45:25.347230+00:00",
+  "source_sha256": "d66ae7096e233db4cc8bfba20cbd769e0ce457643bd0e2554caca4b6667feff7",
+  "batch_size": 8,
+  "parity": "existing8 A/B images; objects,scene,z max absolute difference<=1e-4; stop on mismatch",
+  "canonical_order": [
+    "red",
+    "blue",
+    "pink"
+  ],
+  "no_label_payload_access": true
+}

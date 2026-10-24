@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-16T10:58:15.566691+00:00",
+  "scope": "Prediction only. No task/plan success evaluation, training, simulation, search or threshold changes.",
+  "model": "canonical_matched seed0 selected update1000",
+  "step_unit": "one complete recorded skill call, including a refused request; never one low-level control frame",
+  "recursive_definition": "Encode only real initial observation; recursively apply logged actions to predicted latent; no real-observation correction.",
+  "strict_correctness": "all9 propositions exactly match true labels; existing0.5 threshold for first6 and drawer3 argmax. All9 must be valid.",
+  "main_cohorts": "All complete4-skill reference sequences (5 expected), and separately all recorded matching-arm first4-skill streams containing a refusal (10 expected). Do not pool the two policies/overlapping roots. No selection by prediction correctness.",
+  "coverage": "Report original12 reference roots and12 logged streams; preserve failed/unreached and original3-step sequences. Also show all-available horizons with variable denominators as supplementary only.",
+  "cumulative": "Correct at every step1..h, excluding initial state accuracy from this definition.",
+  "real_readout_control": "Encode each real successor through the same frozen query; reuse the corresponding saved probabilities. Does not feed into recursive trajectory.",
+  "error_groups": "Count states with any erroneous Holding / In / drawer proposition per horizon; groups can overlap. Also retain per-proposition FP/FN.",
+  "no_unrelated_sequence_splicing": true
+}

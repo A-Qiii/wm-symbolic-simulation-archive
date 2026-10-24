@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T23:18:04.678849+00:00",
+  "checkpoint": 1500,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/models/global_seed0_step1500.pt": "9d5215e6caecbad8adc3eddd12d9e3308caed6a1a24a5001bc9e8119208a04f8",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/models/global_seed1_step1500.pt": "7f5a4c2cad93d36c95bde1a478b115ab9754750e395e40c30afc436e7566d392",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/models/object_seed0_step1500.pt": "d4a8614c139069d322a8d16e64711983b93d944732334fd9f9219b0b0a016a48",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/models/object_seed1_step1500.pt": "0737269ccd27e2fa38a0075746388891a466c14fd08a5f63987087409cff4575"
+  },
+  "no_selection": true
+}

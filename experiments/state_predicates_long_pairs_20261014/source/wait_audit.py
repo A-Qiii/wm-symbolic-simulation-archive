@@ -1,0 +1,20 @@
+from pathlib import Path
+import json,gzip
+import numpy as np
+P=Path('/home/robot/research/projects/wm_symbolic');E=P/'experiments/state_predicates_long_pairs_20261014';B=P/'data/predicate_long_pairs_20261014';C=['red','blue','pink']
+def read(p):return json.loads(Path(p).read_text())
+def main():
+ m=read(B/'data_manifest.json');assert len(m['roots'])==30;intervals=[];boundaries=[]
+ for root in m['roots']:
+  rid=root['root_id'];d=B/'episodes'/rid
+  with gzip.open(d/'_private/trace.json.gz','rt')as f:tr=json.load(f)
+  pairs=read(d/'_private/pairs.json');holds=[{'id':rid+'__initial_history','kind':'outside_macro_initial_history',**root['initial_history_hold']}]+[{'id':r['pair_id'],'kind':'inside_macro_posthold',**r['posthold']}for r in pairs]
+  for h in holds:
+   start=h['start_frame'];end=h['end_frame'];rr=tr[start:end+1];assert end-start==96 and len(rr)==97;held=np.array([[q['objects_audit'][c]['held']for c in C]for q in rr],bool);y=np.array([q['targets']['y']for q in rr]);v=np.array([q['targets']['valid']for q in rr]);loss=np.argwhere(held[:-1]&~held[1:]);changes=np.argwhere((y[:-1]!=y[1:])&v[:-1]&v[1:]);validity=np.argwhere(v[:-1]!=v[1:]);tcp=np.array([q['robot_obs'][:3]for q in rr]);positions=np.array([[q['objects_audit'][c]['position_m']for c in C]for q in rr]);delta=positions-positions[:1]
+   intervals.append({'id':h['id'],'root_id':rid,'kind':h['kind'],'controls':96,'start_frame':start,'end_frame':end,'all_held_true_to_false_events':[{'frame':start+int(i)+1,'color':C[j]}for i,j in loss],'all_valid_fact_change_events':[{'frame':start+int(i)+1,'column':int(j),'from':bool(y[i,j]),'to':bool(y[i+1,j])}for i,j in changes],'all_fact_validity_change_events':[{'frame':start+int(i)+1,'column':int(j)}for i,j in validity],'all_objects_max_displacement_mm':float(np.linalg.norm(delta,axis=-1).max()*1000),'object_max_downward_motion_mm':{c:float(max(0,-delta[:,:,2].min(0)[j])*1000)for j,c in enumerate(C)},'TCP_max_displacement_mm':float(np.linalg.norm(tcp-tcp[:1],axis=-1).max()*1000)})
+  for w in read(d/'public/windows.json'):
+   end=w['anchor_frame'];rr=tr[end-63:end+1];positions=np.array([[q['objects_audit'][c]['position_m']for c in C]for q in rr]);tcp=np.array([q['robot_obs'][:3]for q in rr]);held=np.array([[q['objects_audit'][c]['held']for c in C]for q in rr],bool)
+   boundaries.append({'window_id':w['window_id'],'root_id':rid,'first_frame':end-63,'last_frame':end,'actual_span_seconds':(rr[-1]['physics_ticks_since_reset']-rr[0]['physics_ticks_since_reset'])/240,'held_at_anchor':held[-1].tolist(),'held_all64_by_color':held.all(0).tolist(),'all_objects_max_displacement_mm':float(np.linalg.norm(positions-positions[:1],axis=-1).max()*1000),'TCP_max_displacement_mm':float(np.linalg.norm(tcp-tcp[:1],axis=-1).max()*1000)})
+ result={'roots':30,'intervals':len(intervals),'initial_intervals':sum(r['kind']=='outside_macro_initial_history'for r in intervals),'posthold_intervals':sum(r['kind']=='inside_macro_posthold'for r in intervals),'total_real_hold_controls':sum(r['controls']for r in intervals),'held_loss_events':sum(len(r['all_held_true_to_false_events'])for r in intervals),'valid_fact_change_events':sum(len(r['all_valid_fact_change_events'])for r in intervals),'validity_change_events':sum(len(r['all_fact_validity_change_events'])for r in intervals),'all_boundary_spans_2point1_seconds':all(r['actual_span_seconds']==2.1 for r in boundaries),'boundary_windows':len(boundaries),'held_anchor_windows':sum(any(r['held_at_anchor'])for r in boundaries),'held_anchor_but_not_stable_all64_windows':sum(any(a and not b for a,b in zip(r['held_at_anchor'],r['held_all64_by_color']))for r in boundaries),'boundary_max_object_motion_mm':max(r['all_objects_max_displacement_mm']for r in boundaries),'boundary_max_TCP_motion_mm':max(r['TCP_max_displacement_mm']for r in boundaries),'interval_details':intervals,'boundary_details':boundaries}
+ (E/'results/wait_audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in result.items()if not k.endswith('_details')},ensure_ascii=False),flush=True)
+if __name__=='__main__':main()

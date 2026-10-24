@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-20T02:11:52.657767+00:00",
+  "user_requested_during_training": true,
+  "training_protocol_unchanged": true,
+  "no_hidden_vector_alignment": true,
+  "posthoc_analysis_existing_train_development_only": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_cooccurrence.py": "902961d6feb8750bb4f8e38c8366ef36495258497266e3e2a6800e9907e24a04"
+  }
+}

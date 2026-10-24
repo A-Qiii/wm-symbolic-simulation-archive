@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-18T08:10:57.728893+00:00",
+  "scope": "Single fixed-representation readout training-method exploration; no formal adoption",
+  "heads": [
+    "Holding",
+    "In"
+  ],
+  "arms": [
+    "bce",
+    "supcon"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "max_runs": 8,
+  "updates_each": 600,
+  "batch_states": 32,
+  "architecture": "same shared64->32->SiLU->1,2113parameters",
+  "input": "same frozen own-object64; no extra actions,colors,coordinates or IDs fed to network",
+  "data": "exact previous augmented arm, including unchanged24old+8official schedule; no new sampling",
+  "positive_weights": {
+    "Holding": [
+      8.545454545454545,
+      8.545454545454545,
+      8.545454545454545
+    ],
+    "In": [
+      5.142857074737549,
+      5.142857074737549,
+      5.142857074737549
+    ]
+  },
+  "optimizer": "unchanged AdamW lr.001 wd.001 clip1, fresh optimizer",
+  "BCE": "identical previous masked weighted BCE, mean valid objects/state then batchmean",
+  "contrastive": {
+    "temperature": 0.1,
+    "coefficient": 0.1,
+    "hidden": "L2-normalized post-SiLU32, no extra parameters",
+    "form": "Eq2 positive log terms averaged outside log; denominator all allowed known positive and negative facts within current predicate",
+    "identity": "SHA256 canonical rgb_static,rgb_gripper,robot_obs arrays + object color; same identity excluded from both numerator and denominator, including every duplicate draw",
+    "anchor": "known fact with >=1 distinct-identity same-label positive and >=1 opposite-label negative",
+    "reduction": "0.5 mean eligible label0 anchors +0.5 mean eligible label1 anchors; if either class has no eligible anchor, whole regularizer=0 and BCE proceeds unchanged",
+    "duplicates": "repeated draws cannot form self-positive pairs; their other comparisons keep fixed schedule multiplicity, reported explicitly",
+    "unknown": "excluded as anchors and candidates; no relabeling",
+    "no_positive": "skip anchor, never resample or change batch"
+  },
+  "applicability_before_outcomes": {
+    "both_classes_active_batches_fraction_min": 0.9,
+    "eligible_known_anchors_each_class_fraction_min": 0.75,
+    "positive_pairs_each_class_cross_episode_fraction_min": 0.5,
+    "eligible_anchors_each_class_with_same_color_negative_fraction_min": 0.5,
+    "meaning": "exploratory feasibility limits, not paper acceptance criteria; fail stops fitting, no batch repair"
+  },
+  "baseline_reproduction": "Run four BCE baselines first; require exact previous augmented parameter tensor hashes before any SupCon fitting. If mismatch, stop and explain, no extra baseline retries.",
+  "selection": "fixed final600 and threshold.5; no validation/D tuning, no predicted-z secondary this round",
+  "evaluation_cohorts": [
+    "official_validation",
+    "C_all_available",
+    "old_C_selection",
+    "old_C_validation",
+    "C_selection",
+    "C_validation",
+    "C_endpoints48",
+    "new_AB_validation",
+    "D12_seen_actual135"
+  ],
+  "frozen_query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "no_updates": [
+    "DINO",
+    "representation",
+    "all T",
+    "drawer Query"
+  ],
+  "no_new_collection_or_download": true,
+  "literature": {
+    "paper": "https://arxiv.org/pdf/2004.11362",
+    "implementation": "https://github.com/HobbitLong/SupContrast",
+    "loss_source_read": "https://raw.githubusercontent.com/HobbitLong/SupContrast/master/losses.py",
+    "access_date": "2026-10-18",
+    "basis": "paper section3.2.2 Eq2; author code equality mask, self exclusion, dot-product/temperature and mean log positives inspected only",
+    "differences": "single-view frozen tokens, joint BCE regularizer on existing hidden32, class-balanced valid anchors and duplicate/unknown masks; tau=.1 and lambda=.1 are fixed exploratory choices, not paper reproduction; no temperature/base-temperature extra factor"
+  }
+}

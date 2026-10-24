@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-14T02:58:12.709209+00:00",
+  "controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+  "evaluation_script_sha256": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+  "roots_manifest_sha256": "7ff86a3d27b24f986d40c7ae3daf72c008a99ad237988cc4ba2b665ff39085f0",
+  "main_manifest_sha256": "3efd5c23f0da99da4048f70362ef4ade8846e046f32130a6740771f619a9968d",
+  "main_transitions": 4215,
+  "method": "Standard robot motors only. Runtime mutation guard, no direct object or table actuation. GT private. Public execute returns allowlisted observations only.",
+  "acceptance_plan": {
+    "split": "acceptance",
+    "roots": 18,
+    "chain_episodes": 18,
+    "negative_episodes": 18,
+    "full_chain_criteria": "4 official+private stable successes; designated block remains in drawer after closed (<.02m). No unrequested block drift >=.01m, no sampled robot penetration >=.01m, no final device/slider state change >.003.",
+    "negative_requests_per_root": [
+      "place empty",
+      "close already closed",
+      "lift named (feasible prerequisite setup)",
+      "place drawer closed",
+      "open while holding",
+      "lift other while holding"
+    ],
+    "note": "Report unexpected contacts even when below pass threshold; force/penetration sampled at 30Hz control boundaries, not all physics substeps. No code/threshold tuning after acceptance starts."
+  }
+}

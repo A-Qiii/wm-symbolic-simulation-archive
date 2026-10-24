@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-20T02:08:26.319089+00:00",
+  "requested_during_training_before_new_model_evaluation": true,
+  "purpose": "Same physical intermediate state, different learned internal initialization path; compare identical current observation and same next action. Existing prediction arrays only, no training change.",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_paired_paths.py": "9445abde9b30603235c787eb28733e325c2234d7098a5a741a24f116c48592ac"
+  }
+}

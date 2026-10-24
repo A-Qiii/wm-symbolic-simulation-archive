@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-19T17:51:46.916127+00:00",
+  "frozen_before_new_forecasts": true,
+  "goal": "Task-relevant held identity, drawer ownership, action consequences, extra false relations across broader existing A/B geometry",
+  "data": "All existing 60 A/B coverage roots, 180 four-action branches,720 transitions; no C/D",
+  "models": [
+    "original roots40 joint RSSM seed0/1 unchanged",
+    "original object head seed0/1",
+    "coverage object head seed0/1",
+    "previous selected accurate-relation dynamics seed0/1",
+    "previous selected physics-enriched dynamics seed0/1"
+  ],
+  "compatibility": "RSSM retains its original symbol head. Object heads operate on current object/global frozen E features, are NOT inserted into RSSM. Their hard relations only feed the separate frozen small relation model as an explicit composed diagnostic.",
+  "new_forward": "Reuse cached global E, pad last boundary to7 exactly as original evaluator; original 8 posterior samples, seed81831,batch4,BF16,matmul high. Must exactly reproduce old test predictions before new RSSM replay. No DINO or spatial encoder forward.",
+  "initial_controls": "Same frozen relation model separately receives accurate relation state, native RSSM current hard state, original-object current hard state, coverage-object current hard state. One-step uses actual current observation; free uses only h0 and actions. Physical model receives true before state, original train-only normalization.",
+  "hard_decision": "Each held/in-drawer probability>=.5, drawer argmax. No thresholds fitted.",
+  "soft_mixed_definition": "Within hard-all-correct states, mark mixed if any truth-aligned binary confidence<.8 or true drawer probability<.8; retain actual probabilities and wrong-identity mass. This is descriptive, not a calibrated uncertainty detector.",
+  "cohorts": "Report train40 separately (seen by coverage head only; semantic templates paired to old training roots) and old_band10/gap10 (unseen in training by all compared models). All previously inspected; no fresh blind claim. Per-model root-level overlap CSV.",
+  "metrics": "Current held identity; post-place InDrawer true positives/false positives; one-step and free1..4 exact fields, full-prefix, changed fields and extra-positive relations; strata starting hard correct/confident vs mixed vs wrong. Root-weighted and A/B separated.",
+  "sufficiency": "Group real before relation+skill against old train successors/status; preserve new conflicts and examples. No hand-coded dynamics.",
+  "limits": {
+    "new_fits": 0,
+    "new_collection": 0,
+    "C_D_samples": 0,
+    "uploads": 0,
+    "gpu_seconds": 600,
+    "round_minutes": 30
+  },
+  "no_adaptive_tuning": true
+}

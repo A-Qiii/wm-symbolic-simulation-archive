@@ -1,0 +1,71 @@
+{
+  "frozen_utc": "2026-10-16T14:34:31.661566+00:00",
+  "scope": "One finite recursion supervision-span comparison, same real AB data in both arms. No new data, query supervision, architecture, encoder or controller change.",
+  "arms": [
+    "span3",
+    "span4"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "updates_per_run": 1000,
+  "initial_transition": "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt",
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "frozen": "DINO/preprocessing,encoder,decoder,corrected query perseed,normalization,thresholds,controller",
+  "data": "Same12newAB normal full4 chains,4percolor,A/B6each. All complete observed chains retained, including the actual failed close; no filtering by success or labels.",
+  "single": "Exactly same previous single schedule in both arms:1000x64,48old+12newnormal+4newheldclosed, same sample order.",
+  "multi": {
+    "frequency": "every4updates",
+    "batch_starts": 48,
+    "root_balance": "same12roots each4times per multi batch; same root ordering",
+    "span3": "prior two windows (open,lift,place) and (lift,place,close),each root/window twice; localdepth2 and3 each weight.25",
+    "span4": "one full(open,lift,place,close) chain from trueinitial,eachroot4times; depths2/3/4 weights.125/.25/.125",
+    "total_weight_per_multistep_update": 0.5,
+    "equal_effective_global_skill_weights": {
+      "lift": 0.125,
+      "place": 0.25,
+      "close": 0.125
+    },
+    "loss_per_target": "same feature_error+.25raw latentMSE, no query/semantic loss",
+    "why_weights": "span3 balanced windows induce globalweights.125/.25/.125. span4 preserves both their sum and global-position allocation, rather than merely adding supervision strength.",
+    "difference": "span4 replaces intermediate true-state starts with deeper predicted context and introduces depth4 gradient path. The place term no longer mixes depths2and3.",
+    "compute": "span3=48x3=144transition-state evaluations/multi-update,span4=48x4=192 (+33.3%). Including64single x1000, totals100000 vs112000(+12%). Decoder targets88000vs100000(+13.6%). Equal updates/draw schedules/weights, not equal FLOPs or walltime."
+  },
+  "optimizer": "sameAdamW lr1e-4 wd1e-4 clip5; onlytransition",
+  "checkpoints": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "C_selection": {
+    "roots": "Same6preassignednewCselect normal full4chains,rootbalanced,shared botharms",
+    "score": "From trueinitial recursively4steps; common weighted feature-only mean over steps2/3/4 with normalizedweights.25/.5/.25. Minimum,earlier tie. No latent/proposition score for selection.",
+    "old_single_score": "Retain previous .5oldC37root+.5newCselect6root one-step feature score as diagnostic only.",
+    "isolation": "Cvalidate6roots excluded from trainer/checkpoint selection; D3/D4 not accessed except immutable filehash verification. C has been repeatedly used for development; cannot call it fresh generalization evidence."
+  },
+  "evaluation": "All12AB train,6Cselect,6Cvalidate,percolor+globalstep full9/Holding/In/drawer,actualreadout,trueprevioussingle,initial-only full4,exactwindow1,per-root cumulative all4 correct. Normal primary,refusal separate.",
+  "gate": {
+    "both_seeds_required": true,
+    "C_selection": "selectedspan4commonmulti feature score strictly less than span3",
+    "C_validate_normal": "bothseeds step3rec >=span3;step4rec>=span3+1;sumstep3+4>=span3+2;all4-boundary cumulative correct>=span3+1",
+    "retention": "eachseed first2recursive steps and every one-step skill may lose at most1/6C root; trainAB all4cumulative may lose at most1/12root; actualreadout must remain identical",
+    "if_fail": "Stop with no freshD collection and no additional tuning.",
+    "if_pass": "Generate exactly12newD5roots4percolor,sameenvironment,normal+refusal2branches,max96calls;sealroots+models before collection;900controls+96hold,internal2/external0,no replacement.",
+    "interpretation": "Operational advancement gate, not significance test or replacement project acceptance."
+  },
+  "stop": "After this finite stage return evidence to parent; never automatically start another model or correction."
+}

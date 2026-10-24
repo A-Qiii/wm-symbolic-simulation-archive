@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib,datetime
+import numpy as np
+P=Path('/home/robot/research/projects/wm_symbolic');BASE=P/'experiments/visual_state_semantics_v2_20261015';B=P/'data/visual_state_semantics_v2_ABC_20261015';SP=P/'experiments/spatial_shared_query_20261015';DIAG=P/'experiments/containment_diagnostic_20261015';RGB=P/'experiments/state_predicates_rgb_registry_v1_20261014';CAND=P/'experiments/state_predicates_held_down_20261014/candidate';E=P/'experiments/query_coverage_audit_20261016';R=P/'reports/query_coverage_audit_20261016'
+COLORS=['red','blue','pink'];FACTS=['Holding(red)','Holding(blue)','Holding(pink)','In(red,drawer)','In(blue,drawer)','In(pink,drawer)','Closed(drawer)','Open(drawer)','Intermediate(drawer)']
+def read(p):return json.loads(Path(p).read_text())
+def save(p,x):p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,ensure_ascii=False,indent=2,default=lambda a:a.tolist()if isinstance(a,np.ndarray)else a.item()if isinstance(a,np.generic)else str(a))+'\n')
+def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def sha(p):
+ h=hashlib.sha256()
+ with Path(p).open('rb')as f:
+  for b in iter(lambda:f.read(4*1024*1024),b''):h.update(b)
+ return h.hexdigest()

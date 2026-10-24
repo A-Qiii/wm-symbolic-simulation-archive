@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-19T20:49:30.501524+00:00",
+  "single_factor": "Existing new-root branch composition changes from b1/b2 roughly1/2 each to b0/b1/b2 roughly1/3 each. Same root identity at every draw, unchanged old draw and latent RNG. Branches cyclically balanced within each root, counts differ at most1.",
+  "model": "Exact current residual model source; all original modules and W trainable as before. No loss/gate/regularizer/architecture change.",
+  "initialization": "Same original joint6000 model and AdamW112 shared state entries; same zero W and absent W moments.",
+  "old_data": "40roots120episodes480transitions unchanged",
+  "new_data": "Same12roots; unique episodes24->36, actual unique transitions144->216, all already collected/cached. Draw count unchanged8000 per fit; b1/b2 exposure each falls from about4000 to about2667.",
+  "training": "2seeds0/1,1000updates each; microbatch4old+4new,accumulate2; same lr1e-4,clip E/R1,BF16,deterministic,full k3+terminal.",
+  "selection": "Same dev6rootsall3branches; full objective500/1000 minimum,tie earlier; fixed1000 also reported. No dev training.",
+  "gates": {
+    "train": "Both seeds h0held12/12, b1/b2 h2+future3 joint12/12 maintained; b0 whole observed h0-h6 trajectory correct root count AND b0 h2+future3 joint root count strictly improve over residual paired control.",
+    "retention": "Per seed, split and branch: any root with a true stable nonaction InDrawer prior-correct->posterior-wrong event is a forgetting root. Treatment forgetting root sets must be subsets of control sets, not just equal aggregate counts.",
+    "development": "Both seeds h0held and b1/b2 h2+future3 joint root counts do not regress versus residual paired control; b0 whole-trajectory root count does not regress; apply per-root retention condition. Report absolute low performance; these diagnostic gates are not guide acceptance.",
+    "historical_evaluation": "Prior6roots exploratory only, no selection/training."
+  },
+  "resource": "Only2new1000-update fits; target20minutes, training1200secondcap. No new simulation,C/D,upload."
+}

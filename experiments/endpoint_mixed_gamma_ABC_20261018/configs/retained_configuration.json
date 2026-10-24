@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-18T14:30:18.519972+00:00",
+  "configuration": "original focal gamma2 for all three slots",
+  "work_point": 0.5,
+  "source": "training-before-frozen paired-seed selection rule",
+  "both_seeds": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/models/final_seed0.pt",
+      "sha256": "c1cb3230abc9762d57493ab1df1bb283018263b38393d269b1741a9d08387349"
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/models/final_seed1.pt",
+      "sha256": "ef6f6bc1b4d5223702b45381e700aa838ed4aa08cb203b7774624f98f05adce2"
+    }
+  },
+  "normalization": {
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/normalization.npz",
+    "sha256": "ee995abdb5c7a378d6cf4bf0d4413efb944eee6d1bc9dc9f584cef9291e31d8a"
+  },
+  "deployment": false,
+  "meaning": "readonly research reference retained; no new candidate or production acceptance",
+  "loss_search_closed": true,
+  "new_root_protocol_only": "/home/robot/research/projects/wm_symbolic/reports/endpoint_mixed_gamma_ABC_20261018/FUTURE_HOLDOUT_PROTOCOL.md"
+}

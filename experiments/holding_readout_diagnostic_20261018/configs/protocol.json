@@ -1,0 +1,98 @@
+{
+  "utc": "2026-10-18T05:55:14.787241+00:00",
+  "purpose": "bounded independent Holding readout diagnostic, not a formal-model replacement",
+  "seeds": [
+    0,
+    1
+  ],
+  "initialization_seeds": [
+    17078000,
+    17078001
+  ],
+  "forms": {
+    "object": "own contextualized object64 ->32SiLU->1 shared",
+    "context": "own64 + scene64 + mean_objects64 ->32SiLU->1 shared"
+  },
+  "updates": 600,
+  "batch": 32,
+  "optimizer": "AdamW lr0.001 wd0.001 clip1; fixed final600 only",
+  "positive_weight": 8.545454545454545,
+  "loss": "shared pooled valid-positive weighted BCE; mean valid objects per state then mean batch; root-balanced fixed schedule",
+  "training_states": 210,
+  "training_roots": 36,
+  "train_roots": [
+    "A_combination_blue_00",
+    "A_combination_pink_00",
+    "A_combination_red_00",
+    "A_intermediate_v3_blue_0",
+    "A_intermediate_v3_blue_1",
+    "A_intermediate_v3_pink_0",
+    "A_intermediate_v3_pink_1",
+    "A_intermediate_v3_red_0",
+    "A_intermediate_v3_red_1",
+    "A_semantics_v2_chain_blue_0",
+    "A_semantics_v2_chain_pink_0",
+    "A_semantics_v2_chain_red_0",
+    "A_semantics_v2_fixtures_blue_0",
+    "A_semantics_v2_fixtures_blue_1",
+    "A_semantics_v2_fixtures_pink_0",
+    "A_semantics_v2_fixtures_pink_1",
+    "A_semantics_v2_fixtures_red_0",
+    "A_semantics_v2_fixtures_red_1",
+    "B_combination_blue_00",
+    "B_combination_pink_00",
+    "B_combination_red_00",
+    "B_intermediate_v3_blue_0",
+    "B_intermediate_v3_blue_1",
+    "B_intermediate_v3_pink_0",
+    "B_intermediate_v3_pink_1",
+    "B_intermediate_v3_red_0",
+    "B_intermediate_v3_red_1",
+    "B_semantics_v2_chain_blue_0",
+    "B_semantics_v2_chain_pink_0",
+    "B_semantics_v2_chain_red_0",
+    "B_semantics_v2_fixtures_blue_0",
+    "B_semantics_v2_fixtures_blue_1",
+    "B_semantics_v2_fixtures_pink_0",
+    "B_semantics_v2_fixtures_pink_1",
+    "B_semantics_v2_fixtures_red_0",
+    "B_semantics_v2_fixtures_red_1"
+  ],
+  "normalization": "training states only, per input feature dimension; std floor.01",
+  "threshold": 0.5,
+  "no_inputs": [
+    "action",
+    "coordinates",
+    "simulation state",
+    "original query output",
+    "labels as input"
+  ],
+  "no_updates": [
+    "encoder",
+    "world model",
+    "formal query"
+  ],
+  "evaluation_order": "actual AB validation and C first; D actual descriptive only; saved predicted latents only if a form is reliable in both initializations",
+  "reliability_diagnostic_gate": {
+    "not_a_project_acceptance_gate": true,
+    "cohorts": [
+      "new_AB_validation",
+      "old_C_validation",
+      "C_validation"
+    ],
+    "both_initializations_required_per_form": true,
+    "each_cohort": {
+      "all_three_Holding_accuracy_min": 0.95,
+      "empty_state_any_FP_rate_max": 0.05,
+      "each_color_FPR_max": 0.05,
+      "each_color_FNR_max": 0.1,
+      "each_color_positive_roots_min": 2
+    },
+    "if_fail": "Stop prediction attribution for that input form; report failure, no retuning. C_selection descriptive, no selection. D not used in this eligibility gate."
+  },
+  "max_fits": 4,
+  "postfit_no_new_training": true,
+  "D": "existing diagnostic only; no selection",
+  "prefix_replacement": "If at least one independent form passes the prespecified actual gate: exactly one fixed intervention on all11 complete normal-branch roots, replace after-lift z with saved actual z; predict place then close without another correction. Both mixed/alphaZ, both seeds. Compare Holding after each; empty-close branch omitted because one-step already wrong.",
+  "device": "CUDA serial, no batch change; performance measured separately from quality"
+}

@@ -1,0 +1,36 @@
+from common import *
+from wm_symbolic.vision_cache import FrozenVision,VisibleRegistry,WEIGHTS
+E=P/'experiments/state_predicates_countermotion_20261014';B=P/'data/predicate_countermotion_replay_20261014';T=P/'experiments/state_predicates_temporal_20261014';R=P/'experiments/state_predicates_causal_windows_20261014';COLORS=['red','blue','pink']
+def main():
+ assert not(E/'results/evaluation.json').exists()and not(E/'data/inputs.npz').exists();protocol=read(E/'configs/protocol.json')
+ for p,h in protocol['frozen_sha256'].items():assert sha(p)==h,p
+ for p,h in read(T/'configs/protocol.json')['frozen_sha256'].items():assert sha(p)==h,p
+ assert not read(E/'configs/additional_windows_frozen.json')['windows'],'Additionalcompletewindowswouldneedexplicitmanifestintegration'
+ assert sha(WEIGHTS/'model.safetensors')==read(R/'results/feature_parity.json')['backbone_sha256']
+ manifest=read(B/'data_manifest.json');assert len(manifest['records'])==6 and all(s['verification']['within_predefined_tolerance']for s in manifest['trajectories']);rows=manifest['records'];stats=read(O/'data/normalization.json');vm=np.array(stats['vision_mean'],np.float32);vs=np.array(stats['vision_std'],np.float32);rm=np.array(stats['robot_mean'],np.float32);rs=np.array(stats['robot_std'],np.float32);oldmeta=read(A/'data/metadata_train_dev.json')
+ with np.load(A/'data/supplement_train_dev.npz')as z:old={k:z[k].copy()for k in ['objects','context','robot']}
+ enc=FrozenVision(P);arrays={k:[]for k in ['objects','context','robot','y','v']};audit=[];metadata=[]
+ for r in rows:
+  assert r['eligible'];reg=VisibleRegistry();f=enc.encode(r['public_frames'],reg);fp=E/'data/features'/(r['sample_id']+'.npz');np.savez_compressed(fp,**f);tok=((f['tokens'].astype(np.float32)-vm)/vs).reshape(4,2,64,384);geo=f['geometry'].reshape(4,2,64,8);valid=f['valid'].reshape(4,2,64);ids=f['visible_registry_ids'].tolist();ob=np.zeros((4,3,2,390),np.float32)
+  for j in range(3):
+   uid=reg.colour_ids.get(j);assert uid in ids;slot=ids.index(uid);sl=slice(slot*4,slot*4+4);vv=valid[:,:,slot*4];ob[:,j,:,:384]=tok[:,:,sl].mean(2)*vv[:,:,None];ob[:,j,:,384:389]=geo[:,:,slot*4,:5];ob[:,j,:,389]=geo[:,:,sl,5].mean(2)
+  grid=tok[:,:,48:].reshape(4,2,4,4,384).reshape(4,2,2,2,2,2,384).mean((3,5)).reshape(4,-1);rob=[]
+  for pp in r['public_frames']:
+   with np.load(pp)as z:rob.append(z['robot_obs'])
+  current={'objects':ob.reshape(4,3,780),'context':grid,'robot':(np.stack(rob).astype(np.float32)-rm)/rs}
+  idx=next(i for i,q in enumerate(oldmeta)if q['trajectory_id']==r['trajectory_id']and q['condition']=='far_closed_negative');assert oldmeta[idx]['anchor_frame']==r['anchor_frame'];parity={k:float(np.abs(v[-1]-old[k][idx,-1]).max())for k,v in current.items()};assert max(parity.values())<1e-5
+  # Labels and contact facts are loaded only after public visual encoding.
+  label=read(r['labels_private']);last=label['frames'][-1];cat=np.array(last['labels']['categorical'][:4]);y=np.r_[cat[:3]==6,cat[:3]==3,cat[3]==2].astype(np.float32);vis=np.array([all(max(t['objects_audit'][c]['visible_pixels'].values())>=4 for t in label['frames'])for c in COLORS]);v=np.r_[np.array(last['labels']['categorical_valid'][:3])&vis,np.array(last['labels']['categorical_valid'][:3])&vis,last['labels']['categorical_valid'][3]].astype(bool);assert not y[:3].any();identity={c:reg.colour_ids[j]==last['objects_audit'][c]['object_uid_evaluator_only']for j,c in enumerate(COLORS)};assert all(identity.values())
+  for k,x in current.items():arrays[k].append(x)
+  arrays['y'].append(y);arrays['v'].append(v);metadata.append(r|{'target_index':COLORS.index(r['target_color']),'feature_path':str(fp),'feature_sha256':sha(fp),'current_category':cat.tolist(),'visible_all4_by_colour':vis.tolist(),'TCP_z_change_mm':float((rob[-1][2]-rob[0][2])*1000),'gripper_width_mm':float(rob[-1][6]*1000)});audit.append({'sample_id':r['sample_id'],'entity_identity':identity,'same_current_anchor_features':parity})
+ data={k:np.stack(v)for k,v in arrays.items()};np.savez_compressed(E/'data/inputs.npz',**data);save(E/'data/metadata.json',metadata);save(E/'results/cache_audit.json',{'windows':len(rows),'entity_checks':18,'only_public_inputs':True,'all_current_anchor_features_exact':all(max(q['same_current_anchor_features'].values())==0 for q in audit),'details':audit})
+ freeze={'created_utc':now(),'before_predictions':True,'metadata_sha256':sha(E/'data/metadata.json'),'arrays_sha256':sha(E/'data/inputs.npz'),'source_protocol_sha256':sha(E/'configs/protocol.json'),'DINO_weights_sha256':sha(WEIGHTS/'model.safetensors'),'samples':[{'sample_id':r['sample_id'],'root_id':r['root_id'],'anchor_frame':r['anchor_frame'],'history_frame_indices':r['history_frame_indices'],'public_frames':r['public_frames']}for r in metadata],'models':protocol['models'],'additional_existing_complete_windows':0};save(E/'configs/evaluation_inputs_frozen.json',freeze);(E/'configs/evaluation_inputs_frozen.json').chmod(0o444)
+ del enc;torch.cuda.empty_cache();import fcntl
+ lock=(P/'runs/gpu.lock').open('a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);torch.set_num_threads(4);torch.set_float32_matmul_precision('high');out=[];cases=[]
+ for model in protocol['models']:
+  assert sha(model['checkpoint'])==model['checkpoint_sha256'];m=loadmodel(model['checkpoint']);pred=infer(m,data);np.save(E/'results'/f'seed{model["seed"]}_predictions.npy',pred);knownmask=known(pred,model['thresholds']);met=evaluate_predictions(pred,data,model['thresholds']);target=np.array([r['target_index']for r in metadata]);ii=np.arange(len(metadata));rootraw=(pred[:,:3]>=.5).any(1);rootknown=((pred[:,:3]>=.5)&knownmask[:,:3]).any(1);result={'seed':model['seed'],'checkpoint':model['checkpoint'],'checkpoint_sha256':model['checkpoint_sha256'],'thresholds':model['thresholds'],'inference_batches':1,'metrics':met,'target_held_FP_roots':int((pred[ii,target]>=.5).sum()),'target_held_known_FP_roots':int(((pred[ii,target]>=.5)&knownmask[ii,target]).sum()),'any_object_held_FP_roots':int(rootraw.sum()),'any_object_held_known_FP_roots':int(rootknown.sum()),'max_held_probability':float(pred[:,:3].max()),'root_details':[]}
+  for i,r in enumerate(metadata):
+   detail={'sample_id':r['sample_id'],'root_id':r['root_id'],'target_color':r['target_color'],'held_truth':data['y'][i,:3].tolist(),'held_probabilities_RGB':pred[i,:3].tolist(),'held_known_RGB':knownmask[i,:3].tolist(),'all_probabilities':pred[i].tolist(),'all_valid':data['v'][i].tolist(),'target_held_probability':float(pred[i,target[i]]),'any_held_raw':bool(rootraw[i]),'any_held_known':bool(rootknown[i])};result['root_details'].append(detail)
+  out.append(result);del m
+ save(E/'results/evaluation.json',{'scope':'Singlefrozendevelopmentchallenge,sixpreselectedexistingCroots; no newtraining/calibration/independenttest.','models':out,'no_threshold_change':True,'additional_held_down_or_stationary_evaluated':False,'reason':'No qualifying complete existing2.10spublicwindows.'});print(json.dumps({'FROZEN_EVALUATION_COMPLETE':True,'results':[{k:r[k]for k in ['seed','target_held_FP_roots','any_object_held_FP_roots','any_object_held_known_FP_roots','max_held_probability']}for r in out],'valid_held_atoms':int(data['v'][:,:3].sum())},ensure_ascii=False))
+if __name__=='__main__':main()

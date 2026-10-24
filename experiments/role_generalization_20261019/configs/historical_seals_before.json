@@ -1,0 +1,48 @@
+{
+  "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019": {
+    "utc": "2026-10-19T19:46:45.306069+00:00",
+    "manifest_sha256": "91eb51b4f37100250e346703e2b48cb3209a0b6c1c4d0129e7cd7b8f5817e324",
+    "files": 6956,
+    "bytes": 1482992133,
+    "verification_passed": true,
+    "no_further_training_or_model_selection": true
+  },
+  "/home/robot/research/projects/wm_symbolic/experiments/initial_state_audit_20261019": {
+    "utc": "2026-10-19T20:02:02.241253+00:00",
+    "manifest_sha256": "98bab3d23901edaef1d4e8ece77cd2628728f49dd697691c8cc53d58ea7104bb",
+    "files": 55,
+    "bytes": 8746905,
+    "verification_passed": true
+  },
+  "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019": {
+    "utc": "2026-10-19T20:18:55.237336+00:00",
+    "manifest_sha256": "ab8413498e64d2b0bb430e9a9f184808413c9059e96c284f0f3740420d79cde0",
+    "files": 89,
+    "bytes": 201703655,
+    "verification_passed": true,
+    "no_further_training_or_selection": true
+  },
+  "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019": {
+    "utc": "2026-10-19T20:38:17.644820+00:00",
+    "manifest_sha256": "62946fabc4212dd4321a9dbe552887b519563730e82e212da363aef8581e99cd",
+    "files": 86,
+    "bytes": 201124860,
+    "verification_passed": true,
+    "no_further_training_or_selection": true
+  },
+  "/home/robot/research/projects/wm_symbolic/experiments/observation_retention_audit_20261019": {
+    "utc": "2026-10-19T20:48:15.935209+00:00",
+    "manifest_sha256": "060de1d78fd756f6886eef6026b55d1c6e2e836e2107918821cacafb9b6c035b",
+    "files": 21,
+    "bytes": 2071597,
+    "verified": true
+  },
+  "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019": {
+    "utc": "2026-10-19T21:03:14.984357+00:00",
+    "manifest_sha256": "6281e5cb234a686137937181bacf4d7434f93860b53f43c91dca47a524855310",
+    "files": 77,
+    "bytes": 201339565,
+    "verification_passed": true,
+    "no_further_training_or_selection": true
+  }
+}

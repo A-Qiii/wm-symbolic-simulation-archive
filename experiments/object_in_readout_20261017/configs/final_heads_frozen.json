@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-17T04:26:40.008638+00:00",
+  "before_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/control_seed0_update0600.pt": "9c14d82998ea9b2e94672e614cf267212a1cc9a43b113e9a11759f8b0cc4155a",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/coverage_seed0_update0600.pt": "5545c3bdbe3503428c8510da7cef09494037f59a12586f9bb1a93ed972c06b75",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/control_seed1_update0600.pt": "7ad7524fbfea22b2a38c4ed04857ed019c8a4f0d1ac1c19577ae628173121bc9",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/coverage_seed1_update0600.pt": "3089fecbe0de9fde619680149270796f5d9f77e64b46cdca37f769db0669dfdc"
+  }
+}

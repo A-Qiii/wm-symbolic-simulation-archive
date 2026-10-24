@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-15T07:14:19.070947+00:00",
+  "torch": "2.11.0+cu128",
+  "python": "3.11.13",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "total_vram_bytes": 16611278848,
+  "pid": 7272,
+  "single_gpu_sequential": true
+}

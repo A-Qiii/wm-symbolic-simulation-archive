@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-10-16T15:13:51.783021+00:00",
+  "previous_sealed_files_verified": 135,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/configs/schedule_seed0.npz": "488eb6c3e58b45dd26cc133183213b0f9a955e5268bfce9e24434223ef7bdaf3",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/configs/schedule_seed1.npz": "d902807457f71472a99bdc24d8eeaf9cf101c7d07a9b0595ff60fbcb5564cd57",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/score.py": "78456f8b24ba2f4f7e3f58661bd81c9ead85e86123c6ddb1f7ad8e46b97d07cf",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/config.py": "a7b17b608a9c788066d5587936e75305f20be9882c7277e78c2a6a59a1625660",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/calibrate.py": "87b98b177440d061e43ace460395710284c25987170063fc0e5410a1bf22c64c",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/losses.py": "be96e266f4105f6d78d43a713c8b814d04aedfc9d9e1df61eabde5db2dd50dad",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/train.py": "ddf4abd7509f7f28e2450f3e8a616b2e28420de8793347c0b5080f216f3fd0f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/evaluate.py": "a0ba1dc4a3cae81c2306bed42ccf9833ecff6ab9daabc1be9615afacad53c104",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/freeze.py": "7c6fa2e36d9304b1445beb77b1ae39c91c3b45656b53bffefeafa10bf95f7dcc",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/setup.py": "e5572130ff7c267201fce8f90a1fd21345e12f8656474e69855a3b0874e65fb1",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/source/gate.py": "4899d2b71ddcde53a65e2285c41bf67d5035f11e23e18e6df560a0214a438a89",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/configs/protocol.json": "bffd5e3727c0b5656337f89b50682290fbd9f7e7e0464321bb6c2218a67e0685",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/configs/chains.json": "406cc346b3606cfcd8ef55e6e9912abee1729baad209e14c77624ad7651b680b",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/inputs.npz": "bd36dc47ab961d17aa1fa80633071f05b732c2c9a29fd0ca31386402e59c90cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/pairs.json": "930bd084b4a1dab2b83fff563d6f532ea8d16c09873aeb557a0abeb506be1eb6",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/selected.json": "8daf06cd29817d89b7e1c9d8848cf05fecd7707d819ba9dd107a096e958fb267",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/public/normalization.npz": "7511375c9c0f257e8c043e11a5f4818dad985dc15c27743739a206fee09b226a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/model.py": "ac39f4266f8d73d9784cdee91732f479e1e02c8436bdc874a8f2978f6059695b",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/runtime.py": "d06cd37015747b73bc7537b908176a3b782fab0100d1f8e5cf1d8186ec143f35",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3"
+  }
+}

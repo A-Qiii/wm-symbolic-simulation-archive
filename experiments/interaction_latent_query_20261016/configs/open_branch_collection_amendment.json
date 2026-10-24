@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-16T07:06:56.672377+00:00",
+  "causal_evidence": "Four collected open-start chains ended on zero-control drawer_already_open refusal. Inherited collector stops any non-success before lift/place/close.",
+  "bounded_collection_repair": "Keep every original refusal. For all six predeclared open roots, collect one separate reset branch with actual lift/place/close. Same root IDs/seeds/layouts, no new independent roots; never link original refusal to new branch as continuous. Closed-root and challenge collectors unchanged.",
+  "model_predictions_D_seen": false,
+  "neural_model_updates": 0,
+  "new_root_count": 0,
+  "max_additional_skill_calls": 18,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/collector_open.py": "fae9afc0f04d323500535096a9efceb723e4570e38dd481ca042984214576a24",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/run_D_open.py": "258933889093258f3bb3c7432d8687972bdb78e2b307bac06435508a44554aef"
+  }
+}

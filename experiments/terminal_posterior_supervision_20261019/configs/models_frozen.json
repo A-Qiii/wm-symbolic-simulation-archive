@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-19T18:49:39.575574+00:00",
+  "before_exploration_inference": true,
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "control",
+      "update": 250,
+      "dev_score": 5.4878882249196375,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed0_step250.pt",
+      "sha256": "5e3ef2a4c794c03795953f2d645a6bed0b36ca9b38601232e1b64a203e1e5ccd"
+    },
+    {
+      "seed": 0,
+      "arm": "terminal",
+      "update": 250,
+      "dev_score": 5.452963892618815,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed0_step250.pt",
+      "sha256": "cb4ef02eadc3ddded9bb6b44f4130197add513bf9bc0caa3efb6155b2f5d94b1"
+    },
+    {
+      "seed": 1,
+      "arm": "control",
+      "update": 250,
+      "dev_score": 5.010994219779969,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed1_step250.pt",
+      "sha256": "d761cb96d1d5fa4a5f23683969857674755aee09a2fb5e1cc29d20ea07d9d8c0"
+    },
+    {
+      "seed": 1,
+      "arm": "terminal",
+      "update": 250,
+      "dev_score": 4.991310040156047,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed1_step250.pt",
+      "sha256": "49adb5eaf8b83048c8ab55e49186f588f2f3412b72cc8a272ca5dc9bfae78d62"
+    }
+  ],
+  "fits": 4,
+  "updates": 3000,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed0_step250.pt": "5e3ef2a4c794c03795953f2d645a6bed0b36ca9b38601232e1b64a203e1e5ccd",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed0_step500.pt": "8dafcfae6330d3d01923c1f9bac8d9ffcd854edb848b68c5c5be55fcc5bd41e0",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed0_step750.pt": "fc9ab400f61f4e697edc26d2330a72c90575c740d2a2fe771c6b9acf855733b7",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed0_step250.pt": "cb4ef02eadc3ddded9bb6b44f4130197add513bf9bc0caa3efb6155b2f5d94b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed0_step500.pt": "e11d0c5e9c0c3890a3f2f1a42a0a598aa60cd28c8ab614057f6f231c758c3687",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed0_step750.pt": "101b2192121a204dd17be3c3396166dafa3f0f5a12841886bfb83bc0e5c27aef",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed1_step250.pt": "d761cb96d1d5fa4a5f23683969857674755aee09a2fb5e1cc29d20ea07d9d8c0",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed1_step500.pt": "eaebc44ff80c6764225f061282f0e1d72a72687c91f5c6093047180c16f42aa8",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/control_seed1_step750.pt": "46eb5b31de905b844eb66792217aefcb31b1a4b40112d36e22071aa858fa996e",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed1_step250.pt": "49adb5eaf8b83048c8ab55e49186f588f2f3412b72cc8a272ca5dc9bfae78d62",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed1_step500.pt": "2db34246a21ae49cc222d3a4b5be4864169e82f71728df3f86004bd715c6179b",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/models/terminal_seed1_step750.pt": "12e7c27bcfdc935f02eece1195c0a2846d48a2aade55e84fd9cf1ec064e46643"
+  }
+}

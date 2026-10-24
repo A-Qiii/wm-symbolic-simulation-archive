@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-18T15:01:26.672742+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/controller_freeze.json": "2edce65d7f521667472557a3cf065a6b40f6c924bbec3bec75b07104180f0696",
+    "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/independent_acceptance/COMPLETE.json": "19724f83f7a54ea494989615e39b5a94d81a892da7fa8c04c3fb0c86b7e1cb02",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/historical_registry.json": "423c98a0de1883d23ff89ee5a4e7a2585e6d27417bb99c69fce51b1dd7d5766b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/protocol.json": "114b11d05ca72b4a5459517348df73ee810ae463854e81bc8cce1c20e02fae74",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/configs/root_exclusion.json": "58695b6ed6c60649ebff0a274663d40ee8d5358500d26a2e2afb1cfbeb406001",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/configs/roots.json": "033d42b085e742ad72dd8823f72e0a04e11a20f53561f0395066796901c8e7a8",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/historical_initialization_exclusion.json": "3142507a15ca6111780c8490aec9dff5f1bc0143a986bd42c26d542faf5e54aa",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/protocol.json": "cacd29341c27c2eea445dad2cdbf926001de646cec3934055c3f53c449157648",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/configs/roots.json": "bdc4f3bd8b0efe4221ed239dccd4dc0081b45617ed47224a15c2b9f619f843b2",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/configs/root_exclusion.json": "bca80531e819e7996a1805ee85a47b4dffb2f87a1d95a428ef5e464988fc4411",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/configs/roots.json": "8476672bdd2e2a465585e011404ae1ba39d0c11317065b1eea7b403c3f1a580c",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/root_exclusion.json": "75d8fb63ba1daf5da72eac6fcbcbea9bd2e5b9ad5f84c22d284f6eb7beb25a68",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/roots.json": "41ceda1a74500810a4f3c55f63df1e2429e8d7e289e40b6aa1fc8ebe84101674",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_coverage_control_20261015/configs/root_exclusion.json": "73a5266238f313a8b04f81beb00bdca468f8f5dff52b4fc82cf574f9c84dbcb4",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/configs/root_exclusion.json": "73a5266238f313a8b04f81beb00bdca468f8f5dff52b4fc82cf574f9c84dbcb4",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_drawer_factor_C_20261015/configs/root_exclusion.json": "646d5eb45c75d9bce4933f1c47a7703ca9301d3acd502d01373d6ec18c091b40",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/configs/root_exclusion.json": "01d74b73cbc9d157952fd16f3ceb252a1619f9430a970285aec4e40aae111f05",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_long_pairs_20261014/configs/root_exclusion.json": "73d40111dac3bd595668a8c067e597bf0d4f692932a25ac1960ef4c89fa326b7",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_state_dependence_20261014/configs/root_exclusion.json": "07d5c32a7753b24b78d804419a0f4a1cc9d908fe5a5639ab007b963b3e2786e4",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_minimal_20261015/configs/root_exclusion.json": "3256996ef34276e4e3d23fd20531181d92697d6854cbc03958f4271e33d96aac",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_monitor_alignment_20261015/configs/root_exclusion.json": "1c230e7f478e1bcb5f9ce9b56aa56873942506fe1b20cacab7635f9181ee67fb",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/configs/root_exclusion.json": "3cbabe7d7cec07eb13c688838265d086d3321a7f4487c7ca0ecaeb3201417f95",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/root_exclusion.json": "a399e24fe0ac611546dd95c3ff2adc74a8b1362efa24be2fef8aa7eaebc0ff5b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/data/public/images.json": "e69b98a09183a018e76de60505eebde92eb32a2549a6215826c9994ba70b3f62"
+  },
+  "old_data_used_for_learning": false
+}

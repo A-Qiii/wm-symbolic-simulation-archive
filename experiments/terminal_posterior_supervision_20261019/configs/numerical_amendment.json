@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-19T18:52:01.506628+00:00",
+  "before_rescoring": true,
+  "reason": "Float32 upper clipping bound1-1e-9 rounds to1, causing0*log0 NaNs in offline NumPy NLL.",
+  "sole_change": "Promote offline NLL inputs tofloat64 before same clipping and same equation. All accuracy metrics, thresholds, training loss, dev selection, model weights, predictions and source analyze.py unchanged.",
+  "original_outputs_sha256": {
+    "metrics.csv": "56677af38cb05f8a4d252b7cd824327931aac2609bfaa0d7102b371a9c859144",
+    "current_pairs.csv": "0dc569e36ab36bb4388c7777c718109485349adfa82ea0e3b4fe4e0ec92f5d9d",
+    "assimilation.csv": "d9492fbfb661b231c3c8e7b96f963eb124ad6a400adfaf62430e5aa4731cdfe2",
+    "memory.csv": "1f3e2ebb117fe76b45e4d875b280a2956513a0791b73ff1e0bdd6eb358080a07",
+    "false_relations.csv": "41bfed4f861bd7210b0a60a702c1b54851aa1775e82c7c45f01344e4df75ef5c",
+    "internal_changes.csv": "18dbda8922392650ade36a0a18689f0fe8d58f755b61e6ea6057d5989510fc63",
+    "cases.json": "fc925e792c06ce3f9afbc96b75a9801edfef219b5927086699a21a283eb44609",
+    "analysis_complete.json": "b10a6254144c75d4fd3a9fc4bdd14097585b8590305f44aa0276f5702f62ddd5",
+    "analysis_records.json": "c7c2c48980b247e50bba3ba54925429e2fb15d21af6c8207864c79a47a3255bb"
+  },
+  "wrapper_sha256": "645e3a7ae040076d2601eba855be791e0982e8b611d086f039eb106f5d242845",
+  "new_forwards": 0,
+  "new_training": 0
+}

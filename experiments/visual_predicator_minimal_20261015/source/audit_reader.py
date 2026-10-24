@@ -1,0 +1,19 @@
+"""AB/C-only implementation, supervision and coverage audit after v1. No D access."""
+from common import *
+import torch,importlib.util,collections
+from model import QueryRelationReader
+def main():
+ torch.set_num_threads(4);m=read(E/'data/public/windows.json');t=dict(np.load(E/'data/_private/reader_targets.npz'));x=dict(np.load(E/'data/public/reader_inputs.npz'));p=np.load(E/'results/reader_probabilities.npy');cp=read(E/'configs/reader_frozen.json');net=QueryRelationReader().eval();net.load_state_dict(torch.load(cp['path'],map_location='cpu',weights_only=False)['model']);ids=np.array([i for i,r in enumerate(m)if r['split']=='dev']);perm=[2,0,1]
+ with torch.inference_mode():base_cpu=net(objects=torch.tensor(x['objects'][ids]),context=torch.tensor(x['context'][ids]),robot=torch.tensor(x['robot'][ids])).sigmoid().numpy();pp=net(objects=torch.tensor(x['objects'][ids][:,:,perm]),context=torch.tensor(x['context'][ids]),robot=torch.tensor(x['robot'][ids])).sigmoid().numpy()
+ delta=float(np.abs(pp-base_cpu[:,perm+[j+3 for j in perm]+[6]]).max());assert delta<1e-5
+ sample=np.load(E/'logs/train_sample_indices.npy');assert all(m[int(i)]['split']=='train'for i in sample.flat);roots=collections.Counter(m[int(i)]['root_id']for i in sample.flat);rows={}
+ for split in ['train','dev']:
+  ii=np.array([r['split']==split for r in m]);y=t['y'][ii];v=t['v'][ii];known0=known(p[ii]);cor=known0&((p[ii]>=.5)==y)&v
+  rows[split]={'positive_counts':(y&v).sum(0).tolist(),'negative_counts':(~y&v).sum(0).tolist(),'raw_FP':((p[ii]>=.5)&~y&v).sum(0).tolist(),'raw_FN':((p[ii]<.5)&y&v).sum(0).tolist(),'UNKNOWN':(~known0&v).sum(0).tolist(),'full7_wrong':int((~cor.all(1)).sum()),'max_simultaneous_In':int(y[:,3:6].sum(1).max()),'windows_two_or_more_In':int((y[:,3:6].sum(1)>=2).sum()),'windows_Holding_and_other_In':int((y[:,:3].any(1)&y[:,3:6].any(1)).sum()),'hard_condition_counts':dict(collections.Counter(r['condition']for r in m if r['split']==split and r['source']=='contact_hard_examples'))}
+ # Each new hard-window supervision is recomputed directly from saved independent labels.
+ checks=0
+ for i,r in enumerate(m):
+  if r['source']!='contact_hard_examples':continue
+  a=read(r['labels_private'])['frames'][-1]['labels'];c=np.array(a['categorical'][:4]);vv=np.array(a['categorical_valid'][:4],bool);yy=np.r_[c[:3]==6,c[:3]==3,c[3]==2];assert np.array_equal(yy,t['y'][i])and np.array_equal(np.r_[vv[:3],vv[:3],vv[3]],t['v'][i]);checks+=1
+ result={'scope':'AB/C only; no D frames or scores consumed','labels_recomputed_hard_windows':checks,'permutation_max_abs_probability_difference_C':delta,'CPU_vs_saved_GPU_probability_maxdiff':float(np.abs(base_cpu-p[ids]).max()),'train_schedule_only_AB':True,'root_sample_min':min(roots.values()),'root_sample_max':max(roots.values()),'class_weights':read(E/'results/training.json')['class_weights_AB_only'],'metrics':rows,'conclusion':'No binding, label or root-split implementation fault found. Class positives exist and inverse-frequency weighting is active; C mistakes include high-confidence false positives, not merely majority-negative collapse. Joint Holding+In and multiple-In states are absent from this small training corpus. Old frozen reader succeeds on identical C inputs; new from-scratch representation/head training regressed. This does not uniquely identify a neural internal cause.','bounded_repair':'Transfer only the old frozen object/scene temporal encoder, discard old classification heads, train a fresh shared predicate-conditioned binary query head on exactly the same AB312-window corpus split. Same seed1200 updates/checkpoint schedule/C selection; no D optimization. This reuses pretraining knowledge and is not a matched-data superiority claim.'};save(E/'results/reader_implementation_audit.json',result);print(json.dumps(result,ensure_ascii=False),flush=True)
+if __name__=='__main__':main()

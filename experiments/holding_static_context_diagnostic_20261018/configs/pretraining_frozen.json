@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-18T16:13:31.339728+00:00",
+  "before_features_and_fits": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/configs/schedule_seed1.npz": "317774ad4fb00f94a814af49c859f7f6f102dbe9f3e1f5c961d5ec22457f3773",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/configs/protocol.json": "41eb1d7fde7ae371e2680ce8b5c741f8301175251de228f250aed4732a5636b9",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/configs/input_hashes.json": "250d54e015c169f3583e1c6600f1008ccb0c97b325c3c22af4098b8cacafa3db",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/configs/schedule_seed0.npz": "9729c98b4946d0bc5b378ea3947ed98666300ae29dfd6c0121a372a248e8f46f",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/configs/visual_projection.npy": "63a5108c026983e0e9928c9a00db9fd135910d40c8ea928ef6eb9f2ca91df6e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/initial_seed1.pt": "7ac4c66e083b3e5cd00c219fb35c9af414f0d66d27bf55e0e5b938184683f2c0",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/initial_seed0.pt": "793b029e9f3680ce6bb39d5791c48b0664db8127df6a6aad38d5c5fa07a3d779",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/source/predict.py": "ca7a6b8a5fb7b7d9fab7ccd5622140768ad43c952fc29b56a45e50a23a6bbb82",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/source/features.py": "103c5f716d70876eb093a2ac28ab2ae3e76e78df847a621a9052ef9fd048d34c",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/source/train.py": "c1af44284f0a58473d220e5c6f4b29feb1892d35350903f7791f86e93717bab7",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/source/common.py": "61f3d0654968a088498c900dad3c387b0d73f6d936df8089780286f221dc531c",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/source/prepare.py": "3679c4178ba2841215975a1ea19025cfe3d2a8f4f65aa89e1f47077ec824420a",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/data/context_jobs.json": "12bd74bd571560ab2b0f520c0009999615921322a980ba9ac6048fa5454ace8d",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/data/query_context_map.json": "2c51f771425233317acbcc41fe2befb52a2d7924810591dbc88c9ad38364b7dc"
+  }
+}

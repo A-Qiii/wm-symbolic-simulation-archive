@@ -1,0 +1,20 @@
+[
+  {
+    "environment": "executor",
+    "python": "3.10.18 (main, Sep 18 2025, 19:50:32) [Clang 20.1.4 ]",
+    "executable": "/home/robot/research/projects/wm_symbolic/.envs/executor/bin/python",
+    "package_count": 124
+  },
+  {
+    "environment": "world_model",
+    "python": "3.11.13 (main, Sep 18 2025, 19:46:39) [Clang 20.1.4 ]",
+    "executable": "/home/robot/research/projects/wm_symbolic/.envs/world_model/bin/python",
+    "package_count": 54
+  },
+  {
+    "environment": "planner",
+    "python": "3.11.13 (main, Sep 18 2025, 19:46:39) [Clang 20.1.4 ]",
+    "executable": "/home/robot/research/projects/wm_symbolic/.envs/planner/bin/python",
+    "package_count": 5
+  }
+]

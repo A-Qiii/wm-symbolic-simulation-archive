@@ -1,0 +1,13 @@
+{
+  "steps": {
+    "drawer": 240,
+    "slider": 120,
+    "device": 120,
+    "push": 120,
+    "lift": 360,
+    "place": 360
+  },
+  "frozen_for": "storage_probe_v2",
+  "source": "C baseline + colour contrast + container reference; no D roots",
+  "limitations": "Red/blue table lift not validated in C; failures retained. Place/lift use 360 tested steps."
+}

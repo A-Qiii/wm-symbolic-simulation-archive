@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-19T21:33:28.774075+00:00",
+  "changes": [
+    {
+      "file": "metrics.py",
+      "previous_sha256": "6a7c85f7368bf9e547d382a895b59372ec020a8b50b83c04e8878a84d4731e0e",
+      "new_sha256": "136d2f0573ced4d512a62ebee3def8699514664bf0d3e95e8727ce0d0d7a3216"
+    },
+    {
+      "file": "verify_pretraining.py",
+      "previous_sha256": null,
+      "new_sha256": "a41bcb049d4508e2b0bb3515c76029548639d7c6f9aadb7c29bae064f1af36fb"
+    }
+  ],
+  "reason": "Before any fit: distinguish absolute InDrawer correctness from positive-only retention; validate exact exposure schedule remainder; frozen scientific metrics and budgets unchanged."
+}

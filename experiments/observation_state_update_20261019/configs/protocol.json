@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-19T20:25:01.234499+00:00",
+  "single_change": "observe returns h_post = h_prior + W LayerNorm(E_actual), with non-affine LayerNorm and zero-initialized bias-free W512x512. q and z are computed exactly as before from h_prior,E. initial() is unchanged. Corrected h persists into next imagine GRU and the existing shared symbol/outcome/reconstruction heads.",
+  "rationale": "Same-prefix actual success/failure E differs and q responds, but deterministic h is equal. On both final1000 control seeds, all24 nonzero local current-vs-representation-KL E-gradient comparisons oppose. This motivates testing a direct observation update; it does not establish a unique cause or exclude all undertraining.",
+  "undertraining_limit": "Control500->1000 h2 train pair4->6 and8->8; dev objectives worsen4.4776->5.5897 and4.6983->5.7314. No claim that longer training could never help. No added updates.",
+  "added_parameters": 262144,
+  "initialization_matching": "All original tensors AND AdamW moments copied from the same original6000 checkpoint; new W starts exactly zero with zero/absent AdamW moments. Added capacity and new optimizer state cannot be perfectly matched. Exact initial forward identity checked under shared RNG.",
+  "training": {
+    "initialization": "Same original joint latest6000 weights AND AdamW moments, seeds0/1",
+    "new_roots": 12,
+    "new_episodes": 24,
+    "new_transitions": 144,
+    "old_roots": 40,
+    "old_episodes": 120,
+    "old_transitions": 480,
+    "schedule": "Exact byte copies of old/new/latent schedules from prior trial. Same root×slot at each sample; map slot0 to b1 instead of b0. Every root and both branches must have positive counts. No per-batch forced pair or reshuffling.",
+    "mix": "4 old+4 new per microbatch; accumulation2",
+    "updates_each_seed": 1000,
+    "lr": 0.0001,
+    "optimizer": "AdamW betas(.9,.999),weight_decay.0001; original E/R separate clip1",
+    "loss": "Exact previous original full k3 + same corrected true-terminal posterior term",
+    "precision": "BF16,matmulhigh,deterministic,4CPUthreads; same CUDA/runtime",
+    "frozen_DINO": true
+  },
+  "selection": "Same development6 roots/all3 branches. Evaluate objective at500/1000 using same scorer/RNG81831; choose minimum, tie earlier. Also report fixed1000; no criterion/threshold/checkpoint changes after results.",
+  "evaluation": {
+    "splits": [
+      "train",
+      "development",
+      "historical_evaluation_exploratory_only"
+    ],
+    "inference": "Same previous sealed evaluator, 8 samples, paired root RNG, continuous real observations; one-step and pure suffix1/2/3 from h2",
+    "hidden_fault_not_input": true,
+    "no_new_blind_test": true,
+    "no_new_collection": true
+  },
+  "diagnostic_gates": {
+    "training_necessary": "Both seeds: h0 held12/12 AND h2 matched b1/b2 Held plus correct all InDrawer and drawer simultaneously12/12. This is an internal mechanism gate, not original-guide acceptance.",
+    "development_generalizing_support": "Both seeds must improve complete h2 pair correctness AND complete paired3-step-prefix over prior paired b1+b2 control; h0 held and h2 true-A-InDrawer retention must not regress. Report failure of any component; no post-hoc relaxed gate.",
+    "historical_evaluation": "Exploratory regression only; never model selection or blind acceptance.",
+    "predictive_meaning": "Pre-h2 prior must be identical across hidden-fault pair; do not demand advance prediction of exogenous noise. Count prior-to-posterior corrections and regressions, pair discrimination, past relation retention, then actual post-h2 consequences."
+  },
+  "control": "Previous paired b1+b2, two1000-update fits. Reuse after source/schedule/initialization and candidate dev-score checks.",
+  "effect_scope": "Observation route plus262144 new parameters. Not an isolated causal claim that h dominance alone is responsible. Does not change loss or remove valid uncertain-prior supervision. No independent readout head.",
+  "h0_scope": "initial() has h=0 exactly as before; no explicit new observation-to-h path at h0. Shared training may still affect h0, evaluated separately.",
+  "budget": "Two1000-update fits only; 1200second training cap; no follow-on training.",
+  "no_new_simulation_C_D_upload": true
+}

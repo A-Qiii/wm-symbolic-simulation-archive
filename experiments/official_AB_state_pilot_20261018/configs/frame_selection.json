@@ -1,0 +1,788 @@
+{
+  "utc": "2026-10-18T06:32:40.200970+00:00",
+  "seed": 170818,
+  "scene_mapping_sha256": "7063272363e8fddbc562b490eb8398ffc709061eedae9e23eae5ae5f29c38dda",
+  "episode_boundary_sha256": "30bc4268506c90c2f34bf526f486cf4abf34767cc6a5ddb4429deef52e7626c9",
+  "roots": [
+    {
+      "scene": "A",
+      "official_episode_index": 146,
+      "official_episode_inclusive": [
+        1785231,
+        1795044
+      ],
+      "clip_inclusive": [
+        1793606,
+        1793621
+      ],
+      "frame_ids": [
+        1793606,
+        1793607,
+        1793608,
+        1793609,
+        1793610,
+        1793611,
+        1793612,
+        1793613,
+        1793614,
+        1793615,
+        1793616,
+        1793617,
+        1793618,
+        1793619,
+        1793620,
+        1793621
+      ],
+      "root_id": "official_ABC_A_episode_0146",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true
+    },
+    {
+      "scene": "A",
+      "official_episode_index": 109,
+      "official_episode_inclusive": [
+        1233060,
+        1248612
+      ],
+      "clip_inclusive": [
+        1244236,
+        1244251
+      ],
+      "frame_ids": [
+        1244236,
+        1244237,
+        1244238,
+        1244239,
+        1244240,
+        1244241,
+        1244242,
+        1244243,
+        1244244,
+        1244245,
+        1244246,
+        1244247,
+        1244248,
+        1244249,
+        1244250,
+        1244251
+      ],
+      "root_id": "official_ABC_A_episode_0109",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true
+    },
+    {
+      "scene": "B",
+      "official_episode_index": 52,
+      "official_episode_inclusive": [
+        301603,
+        322957
+      ],
+      "clip_inclusive": [
+        317038,
+        317053
+      ],
+      "frame_ids": [
+        317038,
+        317039,
+        317040,
+        317041,
+        317042,
+        317043,
+        317044,
+        317045,
+        317046,
+        317047,
+        317048,
+        317049,
+        317050,
+        317051,
+        317052,
+        317053
+      ],
+      "root_id": "official_ABC_B_episode_0052",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true
+    },
+    {
+      "scene": "B",
+      "official_episode_index": 16,
+      "official_episode_inclusive": [
+        72876,
+        74330
+      ],
+      "clip_inclusive": [
+        74131,
+        74146
+      ],
+      "frame_ids": [
+        74131,
+        74132,
+        74133,
+        74134,
+        74135,
+        74136,
+        74137,
+        74138,
+        74139,
+        74140,
+        74141,
+        74142,
+        74143,
+        74144,
+        74145,
+        74146
+      ],
+      "root_id": "official_ABC_B_episode_0016",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true
+    }
+  ],
+  "members": [
+    {
+      "name": "task_ABC_D/training/episode_0074131.npz",
+      "compressed_size": 410015,
+      "uncompressed_size": 411338,
+      "offset": 21995785812,
+      "crc32": 3408070954,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74131
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074132.npz",
+      "compressed_size": 410812,
+      "uncompressed_size": 412202,
+      "offset": 21996195924,
+      "crc32": 1019999463,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74132
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074133.npz",
+      "compressed_size": 411129,
+      "uncompressed_size": 412495,
+      "offset": 21996606833,
+      "crc32": 3970140418,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74133
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074134.npz",
+      "compressed_size": 411222,
+      "uncompressed_size": 412582,
+      "offset": 21997018059,
+      "crc32": 1397368863,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74134
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074135.npz",
+      "compressed_size": 411137,
+      "uncompressed_size": 412564,
+      "offset": 21997429378,
+      "crc32": 1043832607,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74135
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074136.npz",
+      "compressed_size": 411209,
+      "uncompressed_size": 412646,
+      "offset": 21997840612,
+      "crc32": 1606217927,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74136
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074137.npz",
+      "compressed_size": 410771,
+      "uncompressed_size": 412197,
+      "offset": 21998251918,
+      "crc32": 2156322915,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74137
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074138.npz",
+      "compressed_size": 410551,
+      "uncompressed_size": 411872,
+      "offset": 21998662786,
+      "crc32": 480807243,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74138
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074139.npz",
+      "compressed_size": 410198,
+      "uncompressed_size": 411600,
+      "offset": 21999073434,
+      "crc32": 2476784210,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74139
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074140.npz",
+      "compressed_size": 410235,
+      "uncompressed_size": 411640,
+      "offset": 21999483729,
+      "crc32": 2310151640,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74140
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074141.npz",
+      "compressed_size": 410274,
+      "uncompressed_size": 411600,
+      "offset": 21999894061,
+      "crc32": 639776716,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74141
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074142.npz",
+      "compressed_size": 410283,
+      "uncompressed_size": 411621,
+      "offset": 22000304432,
+      "crc32": 2155348175,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74142
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074143.npz",
+      "compressed_size": 410442,
+      "uncompressed_size": 411793,
+      "offset": 22000714812,
+      "crc32": 3725679442,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74143
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074144.npz",
+      "compressed_size": 410220,
+      "uncompressed_size": 411542,
+      "offset": 22001125351,
+      "crc32": 557166054,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74144
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074145.npz",
+      "compressed_size": 410263,
+      "uncompressed_size": 411555,
+      "offset": 22001535668,
+      "crc32": 2441366848,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74145
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074146.npz",
+      "compressed_size": 410232,
+      "uncompressed_size": 411566,
+      "offset": 22001946028,
+      "crc32": 4070223389,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74146
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317038.npz",
+      "compressed_size": 274467,
+      "uncompressed_size": 275663,
+      "offset": 108668277680,
+      "crc32": 1164129240,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317038
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317039.npz",
+      "compressed_size": 274064,
+      "uncompressed_size": 275217,
+      "offset": 108668552244,
+      "crc32": 3353044889,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317039
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317040.npz",
+      "compressed_size": 273456,
+      "uncompressed_size": 274605,
+      "offset": 108668826405,
+      "crc32": 582207809,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317040
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317041.npz",
+      "compressed_size": 273306,
+      "uncompressed_size": 274481,
+      "offset": 108669099958,
+      "crc32": 2107983165,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317041
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317042.npz",
+      "compressed_size": 273087,
+      "uncompressed_size": 274295,
+      "offset": 108669373361,
+      "crc32": 1642081707,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317042
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317043.npz",
+      "compressed_size": 272676,
+      "uncompressed_size": 273883,
+      "offset": 108669646545,
+      "crc32": 2121614176,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317043
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317044.npz",
+      "compressed_size": 272809,
+      "uncompressed_size": 273982,
+      "offset": 108669919318,
+      "crc32": 1072088489,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317044
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317045.npz",
+      "compressed_size": 272710,
+      "uncompressed_size": 273961,
+      "offset": 108670192224,
+      "crc32": 3971656281,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317045
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317046.npz",
+      "compressed_size": 272656,
+      "uncompressed_size": 273912,
+      "offset": 108670465031,
+      "crc32": 1469851588,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317046
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317047.npz",
+      "compressed_size": 272678,
+      "uncompressed_size": 273882,
+      "offset": 108670737784,
+      "crc32": 2630407336,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317047
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317048.npz",
+      "compressed_size": 272531,
+      "uncompressed_size": 273759,
+      "offset": 108671010559,
+      "crc32": 2026979802,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317048
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317049.npz",
+      "compressed_size": 272700,
+      "uncompressed_size": 273922,
+      "offset": 108671283187,
+      "crc32": 867529243,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317049
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317050.npz",
+      "compressed_size": 272754,
+      "uncompressed_size": 273938,
+      "offset": 108671555984,
+      "crc32": 2685701598,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317050
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317051.npz",
+      "compressed_size": 271539,
+      "uncompressed_size": 272839,
+      "offset": 108671828835,
+      "crc32": 588115669,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317051
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317052.npz",
+      "compressed_size": 272189,
+      "uncompressed_size": 273376,
+      "offset": 108672100471,
+      "crc32": 993678872,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317052
+    },
+    {
+      "name": "task_ABC_D/training/episode_0317053.npz",
+      "compressed_size": 413012,
+      "uncompressed_size": 414086,
+      "offset": 108672372757,
+      "crc32": 4232910243,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 317053
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244236.npz",
+      "compressed_size": 367550,
+      "uncompressed_size": 368758,
+      "offset": 362836261087,
+      "crc32": 4029736110,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244236
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244237.npz",
+      "compressed_size": 369380,
+      "uncompressed_size": 370620,
+      "offset": 362836628734,
+      "crc32": 1099037848,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244237
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244238.npz",
+      "compressed_size": 367906,
+      "uncompressed_size": 369065,
+      "offset": 362836998211,
+      "crc32": 547540404,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244238
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244239.npz",
+      "compressed_size": 366470,
+      "uncompressed_size": 367640,
+      "offset": 362837366214,
+      "crc32": 4265015638,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244239
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244240.npz",
+      "compressed_size": 368164,
+      "uncompressed_size": 369540,
+      "offset": 362837732781,
+      "crc32": 2105420554,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244240
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244241.npz",
+      "compressed_size": 366757,
+      "uncompressed_size": 368639,
+      "offset": 362838101042,
+      "crc32": 1450754237,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244241
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244242.npz",
+      "compressed_size": 369053,
+      "uncompressed_size": 370180,
+      "offset": 362838467896,
+      "crc32": 3233376723,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244242
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244243.npz",
+      "compressed_size": 369838,
+      "uncompressed_size": 371035,
+      "offset": 362838837046,
+      "crc32": 3812136547,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244243
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244244.npz",
+      "compressed_size": 369385,
+      "uncompressed_size": 370579,
+      "offset": 362839206981,
+      "crc32": 1064594142,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244244
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244245.npz",
+      "compressed_size": 369810,
+      "uncompressed_size": 370971,
+      "offset": 362839576463,
+      "crc32": 2177243318,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244245
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244246.npz",
+      "compressed_size": 369812,
+      "uncompressed_size": 370962,
+      "offset": 362839946370,
+      "crc32": 250517483,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244246
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244247.npz",
+      "compressed_size": 262459,
+      "uncompressed_size": 263796,
+      "offset": 362840316279,
+      "crc32": 3971954284,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244247
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244248.npz",
+      "compressed_size": 262358,
+      "uncompressed_size": 263688,
+      "offset": 362840578835,
+      "crc32": 2738365962,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244248
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244249.npz",
+      "compressed_size": 262500,
+      "uncompressed_size": 263847,
+      "offset": 362840841290,
+      "crc32": 2194909349,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244249
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244250.npz",
+      "compressed_size": 262529,
+      "uncompressed_size": 263885,
+      "offset": 362841103887,
+      "crc32": 1583438548,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244250
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244251.npz",
+      "compressed_size": 262591,
+      "uncompressed_size": 263948,
+      "offset": 362841366513,
+      "crc32": 849065263,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244251
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793606.npz",
+      "compressed_size": 246561,
+      "uncompressed_size": 248093,
+      "offset": 525938423302,
+      "crc32": 1774551245,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793606
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793607.npz",
+      "compressed_size": 246600,
+      "uncompressed_size": 248240,
+      "offset": 525938669960,
+      "crc32": 3791209609,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793607
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793608.npz",
+      "compressed_size": 246230,
+      "uncompressed_size": 247901,
+      "offset": 525938916657,
+      "crc32": 1060588150,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793608
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793609.npz",
+      "compressed_size": 245880,
+      "uncompressed_size": 247663,
+      "offset": 525939162984,
+      "crc32": 3476421232,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793609
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793610.npz",
+      "compressed_size": 245737,
+      "uncompressed_size": 247496,
+      "offset": 525939408961,
+      "crc32": 3166280455,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793610
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793611.npz",
+      "compressed_size": 258306,
+      "uncompressed_size": 260067,
+      "offset": 525939654795,
+      "crc32": 121853137,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793611
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793612.npz",
+      "compressed_size": 245247,
+      "uncompressed_size": 247095,
+      "offset": 525939913198,
+      "crc32": 2844554840,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793612
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793613.npz",
+      "compressed_size": 257348,
+      "uncompressed_size": 259237,
+      "offset": 525940158542,
+      "crc32": 4069585024,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793613
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793614.npz",
+      "compressed_size": 256794,
+      "uncompressed_size": 258681,
+      "offset": 525940415987,
+      "crc32": 2190325449,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793614
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793615.npz",
+      "compressed_size": 244732,
+      "uncompressed_size": 246724,
+      "offset": 525940672878,
+      "crc32": 2871014348,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793615
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793616.npz",
+      "compressed_size": 244718,
+      "uncompressed_size": 246721,
+      "offset": 525940917707,
+      "crc32": 2101531856,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793616
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793617.npz",
+      "compressed_size": 244659,
+      "uncompressed_size": 246667,
+      "offset": 525941162522,
+      "crc32": 802767404,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793617
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793618.npz",
+      "compressed_size": 256767,
+      "uncompressed_size": 258822,
+      "offset": 525941407278,
+      "crc32": 763418359,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793618
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793619.npz",
+      "compressed_size": 255549,
+      "uncompressed_size": 257626,
+      "offset": 525941664142,
+      "crc32": 2758451674,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793619
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793620.npz",
+      "compressed_size": 255948,
+      "uncompressed_size": 257998,
+      "offset": 525941919788,
+      "crc32": 2293576196,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793620
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793621.npz",
+      "compressed_size": 257192,
+      "uncompressed_size": 259282,
+      "offset": 525942175833,
+      "crc32": 1259474937,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793621
+    }
+  ],
+  "compressed_frame_bytes": 20450457,
+  "conservative_local_header_budget_bytes": 24646617,
+  "network_used_before_frames": 229217457,
+  "no_outcome_selection": true,
+  "no_C_or_D": true,
+  "no_language_windows_used": true
+}

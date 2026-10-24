@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-19T14:14:38.365054+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/roots_manifest.json": "8a4c9cb66f997e24d84932be22c9457b77e8f6611d09eec144b5404fdf3ba5e8",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/configs/protocol.json": "1508df725ba8ee4251a7a717d959d80668640e8da19fec967d91171c2478febc",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/configs/domain_rule_before_queries.json": "c55767e1daf42a7c64e98f457eb01e80eada9f6cf66a276472f4c2dfe9fa9e1c",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/configs/joint_rule_before_solver.json": "1bd49a7ef03972895249dfed1f67ee6ebe79b0b1b4193787ffe101febc3726a0",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/configs/joint_quantile_assignment.json": "85057578f7d1a85ce61973922cfecfd144d1d58c209e4a1bdb060a4f685b76c8"
+  },
+  "roots": 60,
+  "historical_exclusions": 906,
+  "seconds": 60.11094425999909,
+  "accepted_mesh_checks": 60
+}

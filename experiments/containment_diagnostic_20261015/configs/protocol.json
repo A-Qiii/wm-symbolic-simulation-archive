@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-15T16:18:53.884982+00:00",
+  "scope": "One bounded task-relevance, feature-content and state-sufficiency diagnosis. C reused development, never blind acceptance. Preserve all prior labels/models/results.",
+  "geometry_audit": {
+    "report_mm_bins": [
+      0,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "do_not_relabel_old_results": true,
+    "distinguish_side_front_height_floor": true,
+    "visibility": "Current RGB colour region pixels and both-camera visibility, not a claim of metric depth or hidden-corner visibility.",
+    "closure": "Use real existing calls and 9 deterministic matched reset extensions; unexecuted windows are not labelled as would-close."
+  },
+  "close_extension": {
+    "roots": 9,
+    "selection": "Existing fixtures replicate0, all3colours in A/B/C",
+    "initial_condition": "outside_front_supported, unchanged reset construction",
+    "skill": "one frozen Close per reset; max900controls plus127settle and96posthold",
+    "controller_changes": false,
+    "new_D": 0
+  },
+  "probes": {
+    "input_population": "630 existing new-semantics windows,3 object queries each; labels only targets_v2_1 valid In",
+    "train": "A/B roots only",
+    "evaluate": "C only; no checkpoint/hyperparameter selection",
+    "versions": [
+      "frozen_edge_latent384",
+      "existing_pooled_visual3852",
+      "cached_spatial_patch_visual15372",
+      "RGB_bbox_geometry12",
+      "GT_relative_geometry_upper_bound"
+    ],
+    "model": "weighted linear ridge classifier on AB-standardized features, target -1/+1, intercept; feature-normalized kernel X X^T/d; ridge 0.1; threshold0",
+    "weight": "equal roots then equal label class mass within split train; root-class absent receives no fabricated samples",
+    "normalization": "AB weighted means and standard deviations only, drop features with std<1e-6",
+    "budget": "one closed-form fit per5 feature definitions, no seed/hyperparameter search, no D, no network download, CPU",
+    "frozen_latent": "existing initial query model encoder, includes causal history/proprio; raw visual probes current-frame only; not an architecture fairness claim",
+    "patch": "Use already cached local2x2 object ROI and global4x4 DINO patch features; no new backbone",
+    "geometry": "RGB bbox positions are image-space only; no RGBD/calibration saved. GT signed cavity clearances, floor, support, held form a privileged diagnostic bound and must never enter deployable reader."
+  },
+  "Close_state_diagnostic": {
+    "single_relation": "AboveRim(x,drawer): drawer-associated object highest corner exceeds cavity top by >2mm at Close start. Report continuous mm and sensitivity as diagnostic; no learned rule deployment.",
+    "association": "GT upward support path for audit only",
+    "also_report": "full clearance, contact start/peak and post-contact displacement; same relation/same9 conflicts that remain",
+    "no_new_dynamic_precondition_or_effect": true
+  },
+  "termination": "Finish these audits/probes/9calls and report minimum next experiment. No production model repair, newD, controller modification or tuning loops."
+}

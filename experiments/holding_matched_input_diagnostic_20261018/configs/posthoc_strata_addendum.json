@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-18T16:00:11.323701+00:00",
+  "reason": "Coordinator independent audit requested difficult target/support strata after overall outcomes were already available. Descriptive exploratory extension; no new fits, predictions, labels or threshold choice.",
+  "strata": [
+    "target_only: color==target_color",
+    "non_target: color!=target_color",
+    "target_closed_supported_negatives: target color, closed_on_support anchor and original y==0"
+  ],
+  "uncertainty": "Same original12root bootstrap for target_only; pure-negative support stratum reports FP/TN/FPR and undefined recall/BA null.",
+  "scoring_bookkeeping_correction": "Initial score output negative_queries used bitwise inversion on integer0/1 array; corrected to boolean array. TP/FP/FN/TN, precision, recall, BA, NLL and bootstrap were already correct because vec explicitly cast to bool. No training or predictions repeated."
+}

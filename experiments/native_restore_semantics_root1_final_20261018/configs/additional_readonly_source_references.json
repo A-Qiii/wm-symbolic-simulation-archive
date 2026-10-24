@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/robot.py": "65721aa5f6bbb74a7bfabd53fe05699c0fc281d682363f065600f94622a396a7",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/mixed_ik.py": "a8c3f9942969d9d630f5648d4cb6e3ea281d47ddfed4dba78a43c5d1e514333e",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/urdf/calvin_table_A.urdf": "b2b84edb36450bc7cf807b2c6c7e9a7838aa03d17951b9188bd739b07a233bc9",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/meshes/base_link.obj": "4ca1451397fa9649d97c69b8c4f5c203c57a5a4c383c5643d414f4dcb355a0f2"
+  },
+  "purpose": "postexecution source citations and native geometry evidence only"
+}

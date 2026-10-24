@@ -1,0 +1,154 @@
+{
+  "created_utc": "2026-10-14T13:04:11.986400+00:00",
+  "before_predictions": true,
+  "metadata_sha256": "fbbe9124fa6ab389708b50b40ad655a560723fed7dcd5c554a9bd91b3f3c2e93",
+  "arrays_sha256": "328781c0aad4aaab33944f2401e315a3c89f9b4c11bfb9f4d0d5fa2aaa71cc76",
+  "source_protocol_sha256": "0aae37b28ae1d0f87ef9634c217ea72121324a50855ebacbe35f9cfa3c3e949b",
+  "DINO_weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+  "samples": [
+    {
+      "sample_id": "C_predicate_gap_blue_closed__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_blue_closed",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/public/0006.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/public/0027.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/public/0048.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/public/0069.npz"
+      ]
+    },
+    {
+      "sample_id": "C_predicate_gap_blue_open__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_blue_open",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/public/0006.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/public/0027.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/public/0048.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/public/0069.npz"
+      ]
+    },
+    {
+      "sample_id": "C_predicate_gap_pink_closed__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_pink_closed",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/public/0006.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/public/0027.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/public/0048.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/public/0069.npz"
+      ]
+    },
+    {
+      "sample_id": "C_predicate_gap_pink_open__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_pink_open",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/public/0006.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/public/0027.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/public/0048.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/public/0069.npz"
+      ]
+    },
+    {
+      "sample_id": "C_predicate_gap_red_closed__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_red_closed",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/public/0006.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/public/0027.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/public/0048.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/public/0069.npz"
+      ]
+    },
+    {
+      "sample_id": "C_predicate_gap_red_open__near_closed_empty__upward_empty",
+      "root_id": "C_predicate_gap_red_open",
+      "anchor_frame": 91,
+      "history_frame_indices": [
+        28,
+        49,
+        70,
+        91
+      ],
+      "public_frames": [
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/public/0028.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/public/0049.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/public/0070.npz",
+        "/home/robot/research/projects/wm_symbolic/data/predicate_countermotion_replay_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/public/0091.npz"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "arm": "long_history",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt",
+      "checkpoint_sha256": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+      "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt",
+      "checkpoint_sha256": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "additional_existing_complete_windows": 0
+}

@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-16T06:55:15.347513+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/model.py": "ac39f4266f8d73d9784cdee91732f479e1e02c8436bdc874a8f2978f6059695b",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/features.py": "9e4e7f674aa8d237abbe3da815d4a82995a07bb5a7f98051126d933e7a9f8b14",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/representation.py": "1a17c2ba853bdf8c44f2b97b88a209e729d5cdab663f1aafd5e1ff901f35f1f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/registry.py": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/train_stage1.py": "03c8528287e974adcfd5e3e2db552da0094ba27435a32daf5cd23c89d35dc740",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/freeze.py": "4437a91a994f8d79bf602637b8683d1b89b1f79593f0a44234b0c1ba908e154d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/common.py": "27e9898fa14b9c6013c0a435bedfdd5dfddf0d5e4ae49dbb3f0e95e8e58a84bb",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/prepare.py": "b4bc5db907dbcde8e39183462880e11b93c36e23d88aa47183cf0b57050e4238",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/configs/protocol.json": "130d600be3c863668814be2b918d95990f11ef3d25c51d20e059ab66218e7e50",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/configs/semantic_budget.json": "5db2dcb26e0771a84f988539898c419432e2f3d2ecc15342cce6c8b7e37d8e85",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/pairs.json": "ccfce8679d5ef76d4679095bde51298595a866764195325c16c949d9cac1b03d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/chains.json": "6ff2b5ac52a9a8be8ca8c99a4a8f055c833122599bdecb7ded009212223460de",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/states.json": "47f6ada6e0de8cfd662cee37b7b6ce1ee3133466e26b310dbffd585f798ea7e1",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/roots.json": "2dcb096bd5aba59f02869af323f6f32ba7dedb2f7d1c56239aae5f7b280d993e",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/inputs.npz": "c67a77e01e47e9ab5741f5b995a6e71040a51de166110497f9137cb14ab5c6e0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/normalization.npz": "7511375c9c0f257e8c043e11a5f4818dad985dc15c27743739a206fee09b226a",
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f"
+  }
+}

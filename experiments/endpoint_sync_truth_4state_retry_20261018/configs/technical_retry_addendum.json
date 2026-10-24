@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-18T12:54:23.164670+00:00",
+  "authorization": "Explicit delegated instruction from parent01a14e2c-4647-734c-b1aa-a3a4547ec02a: fix technical persistence failure and retry original A/B/C/D once; keep failed attempt, do not change selection, label definitions, or quality gates.",
+  "previous_experiment": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018",
+  "previous_manifest_sha256": "e962be4279cfe93960b359de4124378e699c43c091df33ca524d35df5e2a6336",
+  "previous_attempts": [
+    {
+      "scene": "A",
+      "status": "metadata_serialization_failure",
+      "usable_saved_samples": 0
+    }
+  ],
+  "scope_override": "The earlier technical stop rule does not require abandoning this already authorized implementation task. This new attempt runs the same four planned states; no data-dependent replacement. Further technical failures are recorded and may be repaired with explicit evidence, without changing conditions or gates.",
+  "changes_only": [
+    "Encode ALL native bytes as tagged base64 with optional strictly decodedUTF8 text, never guess decoding; preserve original bytes.",
+    "Persist and reopen-verify primary RGB/depth/nativeID buffers atomically inside each camera callback before optional metadata queries.",
+    "Use same safe serializer when comparing physical snapshots.",
+    "New experiment directory preserves old sealed failure files."
+  ],
+  "unchanged": [
+    "four scene/seed/drawer/robot/object choices",
+    "mesh face semantic labels",
+    "camera parameters and renderer",
+    "pixel sample convention and depth tolerance",
+    "unknown and visiblebbox validity rules",
+    "no models or training",
+    "old40 labels and samples"
+  ],
+  "attempt_accounting": "Prior failed A world remains recorded separately. This retry completes at most4 planned state records/8primary camera records; 5totalworld attempts across rounds if all4retry states run, not5successful samples.",
+  "offline_tests_passed": [
+    "source syntax",
+    "all256byte values base64 roundtrip",
+    "validUTF8 name reversible",
+    "atomicNPZ raw arrays save/read equality with allow_pickleFalse"
+  ],
+  "failure_scope": "No new software, no physical/visual resource edits, no cloud simulation."
+}

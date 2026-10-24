@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-19T13:07:24.999391+00:00",
+  "before_any_training": true,
+  "protocol_sha256": "822a92f821779890727d5a30fc3efb339b6f1c248b58bf10746182f180ecbc0c",
+  "routing_amendment_sha256": "df473b4a2707050542d82ef210d751bf6ac86297dea113b6448b211ad200e236",
+  "source_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/run.py": "b5e7f007a7b3e963a56a9a6bb4180e3405889e659346a92cb1d0a85c6d4acc8b",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/preregister.py": "1648190372d6edfafcd5bdafc2833f20a2a07090e3da344750da9b73ebfbce8c",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/run_attempt1.py": "73cc0a180cde9907e6fe28d5a8f8b8e69657553ddde4b30b6d63be45ef64a4df",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/common.py": "dfed2757b545d1329424694d354776194cde29d35cbbc6e5465c248535ad1ab4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-18T06:39:29.906827+00:00",
+  "native_scenes_only": [
+    "A",
+    "B"
+  ],
+  "roots": 4,
+  "frames": 128,
+  "restore_procedure": "fresh native world reload per frame; scene/robot positions restored without env.reset automatic integration; zero movable velocities explicitly; performCollisionDetection then record t0; exactly1 native 1/240s physics tick then record t1",
+  "missing_state": "historical contact manifold, joint/base velocities, applied motor targets/forces are not in frame; native robot.reset holds recorded finger width, not original unknown force",
+  "raw_restored_labels": "frozen native evaluator output for comparison only; never presumed historical GT",
+  "original_label_mask": "all positives requiring historical support/force unknown; allow conservative geometric negatives only after scene color mapping and stability evidence; no gripper-closure proxy",
+  "known_negative_buffers_m": {
+    "max_one_tick_position_drift": 0.002,
+    "Holding_min_gap_all_finger_families": 0.01,
+    "In_min_outside_margin": 0.01,
+    "In_floor_below_tolerance": -0.013
+  },
+  "scene_mapping_evidence": "native URDF order + original RGB color purity on restored segmentation; require every native color dominant at least50% of visible original-color pixels and unique identity; median color-mask IoU>=.3 for every color on frames with>=5 rendered pixels. Report full confusion matrix; no manual slot swapping",
+  "color_thresholds": "red r>65,r>1.5g,r>1.5b;blue b>55,b>1.4r,b>1.4g;pink r,b>65,min(r,b)>1.4g,.55<r/b<1/.55",
+  "no_model_training": true,
+  "no_features_or_model_forward": true,
+  "source_sha256": {
+    "/home/robot/Documents/Codex/2026-10-13/task-4/official_ab_restore.py": "777f9e1423484c813cda03c53de5ae6dddd7e620d3ed7cd9b43f3ac3e24e90e4",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/evaluator_review_v1/source/native_evaluator.py": "7790f8482900766607dc2ae26a41f790222b14ddae8ba819952622a879d7aa78",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0"
+  }
+}

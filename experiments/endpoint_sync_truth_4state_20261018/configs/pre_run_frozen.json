@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T12:45:35.033420+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/source/collect.py": "edcc70f4563cdcf0dddbaf327790dc77973c9eabd801ebf180443743680a655e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/source/geometry.py": "e81746c91c8b0d2ee97ce98792f6b089c4634a2c78a04adae070d2f3168827a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/source/common.py": "11ef432a24ea137af08c3feba4baa74fb0495fe3c18dcdd1871d0e4a048b0de9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/source/prepare.py": "1108705561140acb0b3cc13ad1111cbfb5add06035845f0c26c735fb95dceb73",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/configs/mesh_semantics.json": "1d258543d98d58659c4994bd9f55d34abd318e064f29dd8cf4fb6e66406edd68",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/configs/protocol.json": "9435332fd0a0a5370e1199e8cb76ec39a2ce207209ad50ac0df607320305ef6c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/configs/mesh_visual_review.json": "dff03b124bf951630b1d031d50f9e6a5f0cc4e3b41500a38b1818d12f6dc9c32",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/configs/source_references.json": "b0d7eea68cb818168672b5106ccb9afae9475805d105aeeaca6f67547ff23564"
+  }
+}

@@ -1,0 +1,29 @@
+from training_core import *
+import torch,fcntl,time,platform,os
+from torch.nn import functional as F
+def main():
+ q,freeze=dataset_frozen();assert not(E/'configs/model_selection_frozen.json').exists();z=dict(np.load(E/'data/training/public/inputs.npz'));t=dict(np.load(E/'data/training/_private/targets.npz'));cohorts=read(E/'data/training/public/cohorts.json');public=read(E/'data/training/public/pairs.json');lock=(P/'runs/gpu.lock').open('a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);torch.set_num_threads(4);torch.set_float32_matmul_precision('high');torch.backends.cudnn.benchmark=False;reader,logits,digest_model,balanced_bce,Net=old_modules();m=reader();digest=digest_model(m);weights=torch.tensor(q['class_weights_common_to_both_cohorts'],device='cuda');data={}
+ for name,ids in cohorts.items():
+  assert len(ids)==138 and all(public[i]['split']=='train'for i in ids);data[name]={k:torch.as_tensor(z[k][ids],device='cuda')for k in ['current_objects','current_scene','declared_actions']};data[name].update({k:torch.as_tensor(t[k][ids],device='cuda')for k in ['next_objects','next_scene','after_y','after_valid']})
+ schedules={};schedule_files={}
+ for seed in q['seeds']:
+  gen=torch.Generator().manual_seed(10000+seed);pool=torch.empty(0,dtype=torch.long);sch=[]
+  for _ in range(1500):
+   if len(pool)<16:pool=torch.cat([pool,torch.randperm(138,generator=gen)])
+   sch.append(pool[:16].numpy().copy());pool=pool[16:]
+  a=np.stack(sch);assert a.shape==(1500,16);counts=np.bincount(a.ravel(),minlength=138);assert counts.max()-counts.min()<=1;schedules[seed]=a;fp=E/'configs'/f'shared_batch_schedule_seed{seed}.npz';assert not fp.exists();np.savez_compressed(fp,local_indices=a,closed_global_indices=np.array(cohorts['closed138']),open_global_indices=np.array(cohorts['open138']));fp.chmod(0o444);schedule_files[str(fp)]=sha(fp)
+ save(E/'configs/batch_schedules_frozen.json',{'created_utc':now(),'files_sha256':schedule_files,'all_written_before_first_optimizer_update':True});(E/'configs/batch_schedules_frozen.json').chmod(0o444);save(E/'configs/runtime.json',{'torch':torch.__version__,'python':platform.python_version(),'cuda':torch.version.cuda,'device':torch.cuda.get_device_name(),'pid':os.getpid(),'serial_gpu_lock':True});runs=[];started=time.perf_counter()
+ for seed in q['seeds']:
+  init=None
+  for cohort in q['cohorts']:
+   rid=f'{cohort}_seed{seed}';out=E/'runs'/rid;out.mkdir();md=E/'models'/rid;md.mkdir();torch.manual_seed(seed);torch.cuda.manual_seed_all(seed);net=Net('full').cuda();assert sum(p.numel()for p in net.parameters())==76224;initial=digest_model(net);oldinit=read(TRAIN/'runs'/f'aug132_seed{seed}'/'summary.json')['initial_digest'];assert initial==oldinit
+   if init is None:init=initial
+   else:assert init==initial
+   opt=torch.optim.AdamW(net.parameters(),lr=q['optimizer']['lr'],weight_decay=q['optimizer']['weight_decay']);torch.cuda.synchronize();torch.cuda.reset_peak_memory_stats();t0=time.perf_counter();cps=[];log=(out/'curve.jsonl').open('w')
+   for update,ix in enumerate(schedules[seed],1):
+    ix=torch.as_tensor(ix,device='cuda');d={k:v[ix]for k,v in data[cohort].items()};net.train();opt.zero_grad(set_to_none=True);h,s=net(d['current_objects'],d['current_scene'],d['declared_actions']);bce=balanced_bce(logits(m,h,s),d['after_y'],d['after_valid'],weights);obj=F.smooth_l1_loss(h,d['next_objects']);scene=F.smooth_l1_loss(s,d['next_scene']);lat=.5*(obj+scene);loss=bce+.05*lat;assert torch.isfinite(loss);loss.backward();gn=float(torch.nn.utils.clip_grad_norm_(net.parameters(),1));opt.step();log.write(json.dumps({'update':update,'BCE':float(bce.detach()),'object_SmoothL1':float(obj.detach()),'scene_SmoothL1':float(scene.detach()),'latent_SmoothL1':float(lat.detach()),'weighted_latent':float((.05*lat).detach()),'total_loss':float(loss.detach()),'gradient_norm_before_clip':gn,'seconds':time.perf_counter()-t0})+'\n')
+    if update in q['selection']['checkpoints_saved']:
+     fp=md/f'update{update:04d}.pt';torch.save({'model':net.state_dict(),'optimizer':opt.state_dict(),'seed':seed,'cohort':cohort,'update':update,'protocol_sha256':sha(E/'configs/protocol.json'),'dataset_sha256':sha(E/'configs/dataset_frozen.json'),'shared_schedule_sha256':schedule_files[str(E/'configs'/f'shared_batch_schedule_seed{seed}.npz')]},fp);cp={'update':update,'path':str(fp),'sha256':sha(fp)};cps.append(cp);save(out/'checkpoints.json',cps);print(json.dumps({'run':rid,**cp}),flush=True)
+   log.close();torch.cuda.synchronize();assert digest_model(m)==digest and all(p.grad is None for p in m.parameters());counts=np.bincount(schedules[seed].ravel(),minlength=138);result={'run':rid,'seed':seed,'cohort':cohort,'updates':1500,'train_pairs':138,'presentations':24000,'min_presentations':int(counts.min()),'max_presentations':int(counts.max()),'initial_digest':initial,'same_as_original132_initialization':True,'final1500':cps[-1],'checkpoints':cps,'shared_schedule_sha256':schedule_files[str(E/'configs'/f'shared_batch_schedule_seed{seed}.npz')],'reader_digest':digest,'frozen_reader_no_grad':True,'C_rows_used_for_optimizer_or_selection':0,'wall_seconds':time.perf_counter()-t0,'peak_torch_allocated_bytes':torch.cuda.max_memory_allocated()};save(out/'summary.json',result);runs.append(result);save(E/'results/training_progress.json',{'completed_runs':len(runs),'optimizer_updates':1500*len(runs),'last_run':rid});del net,opt;torch.cuda.empty_cache()
+ selection={'created_utc':now(),'runs':runs,'all_training_complete':True,'total_optimizer_updates':9000,'fixed_final1500_no_C_selection':True,'representatives':{c:c+'_seed0'for c in q['cohorts']},'reader_digest':digest,'elapsed_seconds':time.perf_counter()-started};assert sum(r['updates']for r in runs)==9000;save(E/'configs/model_selection_frozen.json',selection);(E/'configs/model_selection_frozen.json').chmod(0o444);print('TRAINING_COMPLETED',json.dumps(selection['representatives']),flush=True)
+if __name__=='__main__':main()

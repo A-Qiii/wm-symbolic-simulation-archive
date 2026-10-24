@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-19T11:59:18.299156+00:00",
+  "fits": 8,
+  "updates_each": 600,
+  "all_mainmodels_frozen": true,
+  "before_ABtest_orC_predictions": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots20/models/probe_joint_seed0.pt": "a6b5002b2002d4cfce61116d6117d438ca827f503b490df7b1ef4975d79012c0",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots20/models/probe_joint_seed1.pt": "7e922abe3009d06761ee950ce9165d222de8dbbd18e5ab8e943af8981c9c046c",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots20/models/probe_route_current_only_seed1.pt": "54819af68b3182b2bb0bdc07fac27b8642c134829446a7f62ac0f92f65f8fa34",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots20/models/probe_route_current_only_seed0.pt": "b97e1dfbb0e88a10d5059d0b6c70d4b5be45c7ac5154b49db518a7f4bcb878ed",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/probe_joint_seed0.pt": "742455bc08ddaed9abc6e1995b69f1715c9696ca9d6e83bb0d8b199bba6f7122",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/probe_joint_seed1.pt": "f94410bba5438e689f85ab9b463c2ab5e9ad59b41efd65d87b716e5090d0508f",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/probe_route_current_only_seed1.pt": "39bc53ffc55a61fc6419e341dc003e94dd10630b7e69c0c68a63d8a47ddb5ed6",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/probe_route_current_only_seed0.pt": "3e8e00d453d1592369f834aa6dc7e91e62ec9fdde9a5a88e699ff2f55c916e73"
+  }
+}

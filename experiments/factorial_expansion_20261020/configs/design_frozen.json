@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-20T12:34:01.146309+00:00",
+  "before_geometry_and_motor_outcomes": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/source/collect.py": "1742a1841971f7c0acc5f1ed62bd010fd5936df376d50fe79d9f5ff5c2394d9e",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/source/geometry.py": "e956e863073bcf4086503f2223cb19e90b91f2e0c33adeb6156f48b71e7a3390",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/source/episode.py": "4520c6b7e03fd2a6a3218d33f6f66a752f122c47fd3d44a1dc547d495c848bfd",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/source/common.py": "fdd3ee6e46d23cf726b88511efd71cf81bb890732e610b1c7ea1d65aaf9a5c9e",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/source/prepare.py": "c7abb934a3706857d0310ee1b00a583e6710ed45c6f5db8de3a246463d866bce",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/configs/protocol.json": "0d541c3643dbefbc74776b5d08323649d6231aca5aeb27245dc9f409e5b1c91d",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/configs/family_proposal.json": "e16952c42025bd0ae87ad8cb88006e7bf859851bdc7d7db8b7e153373bd02bdc",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/configs/AB_exclusion_inventory.json": "4d1ab340c843fd200fc140abbcf23d14aba692b52ce91c4ab11d76d127e1b99b",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/configs/data_inventory.json": "9a81cb8ddaea28755c06a83f5376cdfbf68a5f53eafca3cef02d260d7a3266a4",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/preflight_feasible.py": "82e418575c6da87aca8c6ff3fd8c1f925f43cf3106b9ea1585c22664f3c84f91"
+  }
+}

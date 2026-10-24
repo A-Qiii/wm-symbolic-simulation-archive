@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-14T11:21:23.536895+00:00",
+  "evidence_before_training": "Exact packing and label audit passed. Old reader drops explicit non-target instance representations, while drawer ROI is retained in all1200 audited caches;12-slot truncation does not drop that drawer in this audit. Existing bbox/context/proprio preserve spatial information, so test an inductive bias rather than claim no relationship ability.",
+  "two_arms": [
+    "appearance_only",
+    "relative_geometry"
+  ],
+  "same_parameters_and_inputs_except_8D_relative_geometry": "Two target-neighbor center deltas, two log size ratios, IoU, intersection/target area, intersection/neighbor area, occupancy difference; appearance control sets these8values tozero.",
+  "no_GT_or_numeric_ids": "Only cached normalized pooled DINO appearance, visible box/mask attributes. No semantic drawer identity or simulator coordinates.",
+  "extra_collection_criterion": "At least2/3 relational seeds pass full joint dev. Additionally fewer total tune+cal raw gate failures than appearance control, or if equal at least20% lower mean joint tune BCE. No test scores enter this rule.",
+  "reused_old_B_normalization_sampling_loss": true
+}

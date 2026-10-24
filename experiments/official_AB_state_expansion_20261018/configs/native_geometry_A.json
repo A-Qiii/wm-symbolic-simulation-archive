@@ -1,0 +1,82 @@
+{
+  "environment": "A",
+  "global_scaling": 0.8,
+  "scene": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml",
+  "scene_sha256": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+  "baseline_sha256": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+  "algorithm": "unchanged frozen v2.1 function bytecode; only scene-native SIZES in isolated globals",
+  "objects": {
+    "red": {
+      "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf",
+      "sha256": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+      "unscaled_collision_box_m": [
+        0.07,
+        0.05,
+        0.05
+      ],
+      "scaled_collision_box_m": [
+        0.05600000000000001,
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      "collision_origin_xyz": [
+        0,
+        0,
+        0
+      ],
+      "collision_origin_rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    "blue": {
+      "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf",
+      "sha256": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+      "unscaled_collision_box_m": [
+        0.1,
+        0.05,
+        0.05
+      ],
+      "scaled_collision_box_m": [
+        0.08000000000000002,
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      "collision_origin_xyz": [
+        0,
+        0,
+        0
+      ],
+      "collision_origin_rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    "pink": {
+      "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_small.urdf",
+      "sha256": "eb0c1a324fd79652fbabba26cd88755c5136015528f30de5ed2f50f77657a868",
+      "unscaled_collision_box_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "scaled_collision_box_m": [
+        0.04000000000000001,
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      "collision_origin_xyz": [
+        0,
+        0,
+        0
+      ],
+      "collision_origin_rpy": [
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

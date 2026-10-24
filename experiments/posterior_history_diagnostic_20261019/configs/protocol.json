@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-19T18:13:50.093022+00:00",
+  "before_new_forwards": true,
+  "purpose": "Diagnose whether continuous RSSM history prevents correction by a real current observation after execution failure; retain useful-memory regressions",
+  "scope": "Existing old_band10+gap10 A/B roots only; 60 branches,240 transitions; two original joint seeds; no train/C/D samples",
+  "conditions": {
+    "continuous": "Original recursive prior+posterior history",
+    "reset": "At each real boundary, same cached four-frame two-camera E window, call model.initial(E_current); deterministic h reset to zero, sampled z from same posterior network. Earlier recurrent memory removed; window information retained. Each boundary reset is independent; it does not alter the continuous trajectory at subsequent observed boundaries."
+  },
+  "sampling": "8 samples,original RNG81831,batch4,BF16,matmul high. Capture RNG before each original posterior draw, reuse exact GPU RNG state for reset; common random numbers, not forced identical categories under different distributions. Original next-step transition RNG reused for both conditions. Root free rollout uses original saved transition RNGs; suffix rollout uses shared prespecified seed91831+100000*model_seed+10000*split_index+100*batch_offset+10*origin+target. Restore global RNG after comparisons.",
+  "alignment": "Before inference audit public input paths, final public vs final window frame, control-step indices vs private trace robot states, label positions vs endpoint info, feature-cache robot and E label indexing. No per-frame wall-clock timestamp exists: report this limitation and verify simulator control ordering rather than invent times. Zero-control refusals legitimately retain the previous window.",
+  "fresh_pixel_check": "Re-encode the5 windows of B_coverage_gap_04_b0 with frozen DINO and verify raw feature cache exact; then reproduce global E for the original4-episode batch containing that branch for both frozen spatial models. No new fitting.",
+  "baseline_parity": "Continuous current,one_step,wrong_action,persistence and free1..4 must reproduce previous replay arrays exactly before interpreting results.",
+  "metrics": "Current relation exact for held identity/InDrawer/drawer, root-paired corrections and regressions, extra positives; immediate-after-executed-failure subset and later-after-first-failure subset separately; retention on known already-correct held/InDrawer states and visibility strata. One-step forecasts and anchored open-loop suffix forecasts separated from after-observation correction.",
+  "future_observation_rule": "Root free1..4 preserved. Suffix prediction starts only at a real boundary and then imagines all remaining actions without reading any later E. Never aggregate re-observed states as a free rollout.",
+  "prior_reference": "Retain native action prior before absorbing current E; observe keeps deterministic h and updates z. Natural prior sampling is the original stream. Reset changes h and conditional z together; cannot uniquely localize a module.",
+  "labels": "Private labels only audit/scoring; independent object heads are references, never GT and not inputs to this diagnostic.",
+  "limits": {
+    "round_minutes": 20,
+    "gpu_seconds": 600,
+    "fits": 0,
+    "collection": 0,
+    "C_D_samples": 0,
+    "uploads": 0
+  },
+  "interpretation": "Reset changes hidden-state distribution and removes useful memory; diagnostic, not deployment or a proof of root cause. Do not claim post-failure correction predicts failure beforehand."
+}

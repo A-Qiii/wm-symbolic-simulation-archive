@@ -1,0 +1,238 @@
+{
+  "checked_saved_configs": 5,
+  "historical_configs": [
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_20261018/data/A/annotation_private/resolved_config.yaml",
+      "sha256": "43cd457a8ad1fcda611d86767380fb98aacece6fc977d01916cddfe7a8c109d4",
+      "layout": {
+        "scene": "calvin_env.scene.play_table_scene.PlayTableScene",
+        "drawer": 0.0,
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/data/C/annotation_private/resolved_config.yaml",
+      "sha256": "183ab4f0d668215d657a76f42e97c59e2c603550e808ae0a348b8cb225e720f7",
+      "layout": {
+        "scene": "calvin_env.scene.play_table_scene.PlayTableScene",
+        "drawer": 0.22,
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/data/D/annotation_private/resolved_config.yaml",
+      "sha256": "c92200bcf22be5cffb0603234c5ca208767d2b1f6f40075efe5bada3350a4786",
+      "layout": {
+        "scene": "calvin_env.scene.play_table_scene.PlayTableScene",
+        "drawer": 0.275,
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/data/B/annotation_private/resolved_config.yaml",
+      "sha256": "4118bf6fb6bf60697a239e62f7fea8a6f362976d5e39f2ce3fef93acc0bbb7b8",
+      "layout": {
+        "scene": "calvin_env.scene.play_table_scene.PlayTableScene",
+        "drawer": 0.1,
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/data/A/annotation_private/resolved_config.yaml",
+      "sha256": "43cd457a8ad1fcda611d86767380fb98aacece6fc977d01916cddfe7a8c109d4",
+      "layout": {
+        "scene": "calvin_env.scene.play_table_scene.PlayTableScene",
+        "drawer": 0.0,
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.1,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3,
+              -0.08,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "new_signature_unique": true,
+  "within_1mm_reuse": false,
+  "does_not_claim_unseen_assets_or_all_possible_historical_states": true
+}

@@ -1,0 +1,216 @@
+{
+  "created_utc": "2026-10-14T16:13:29.909978+00:00",
+  "task": "Bounded one-step ABC development only. No new D, closed loop, upload, changes to RGB registry/encoder/readout, or generalized acceptance claims.",
+  "data": {
+    "AB_train_pairs": 96,
+    "C_tune_pairs": 12,
+    "C_calibration_pairs": 12,
+    "train_roots": [
+      "A_longpair_blue_closed_0",
+      "A_longpair_blue_closed_1",
+      "A_longpair_blue_open_0",
+      "A_longpair_blue_open_1",
+      "A_longpair_pink_closed_0",
+      "A_longpair_pink_closed_1",
+      "A_longpair_pink_open_0",
+      "A_longpair_pink_open_1",
+      "A_longpair_red_closed_0",
+      "A_longpair_red_closed_1",
+      "A_longpair_red_open_0",
+      "A_longpair_red_open_1",
+      "B_longpair_blue_closed_0",
+      "B_longpair_blue_closed_1",
+      "B_longpair_blue_open_0",
+      "B_longpair_blue_open_1",
+      "B_longpair_pink_closed_0",
+      "B_longpair_pink_closed_1",
+      "B_longpair_pink_open_0",
+      "B_longpair_pink_open_1",
+      "B_longpair_red_closed_0",
+      "B_longpair_red_closed_1",
+      "B_longpair_red_open_0",
+      "B_longpair_red_open_1"
+    ],
+    "dev_roots": [
+      "C_longpair_blue_closed_0",
+      "C_longpair_blue_open_0",
+      "C_longpair_pink_closed_0",
+      "C_longpair_pink_open_0",
+      "C_longpair_red_closed_0",
+      "C_longpair_red_open_0"
+    ],
+    "dev_roles": {
+      "tune": [
+        "C_longpair_blue_open_0",
+        "C_longpair_pink_closed_0",
+        "C_longpair_red_closed_0"
+      ],
+      "calibration": [
+        "C_longpair_blue_closed_0",
+        "C_longpair_pink_open_0",
+        "C_longpair_red_open_0"
+      ]
+    },
+    "all_pairs_retained": true,
+    "GT_usage": "training target and evaluation only",
+    "observed_next_latent_usage": "training-only target / evaluation reference; never transition input",
+    "history": "4 genuine frames at[t-63,t-42,t-21,t],2.1 seconds; prior validated RGB-only interface",
+    "macro": "original physical skill plus96realpostholdcontrols; initial96historycontrols outside macros; no reset/recollection"
+  },
+  "input_contract": [
+    "current_objects[3,96]",
+    "current_scene[96]",
+    "declared_actions[9]"
+  ],
+  "action_semantics": "Only recorded public declaration. Explicit target colour exists only for lift. place/open/close have no colour argument; action-only receives no root-intent colour, held truth or result. Root intent is used solely for evaluation target/other grouping.",
+  "architectures": {
+    "full": {
+      "parameters": 76224,
+      "object": "shared199→128GELU→96 residual",
+      "scene": "201→128GELU→96 residual",
+      "ablated_inputs": "none"
+    },
+    "action_only": {
+      "parameters": 76224,
+      "object": "shared199→128GELU→96 residual",
+      "scene": "201→128GELU→96 residual",
+      "ablated_inputs": "current object and scene latents zeroed before residual and MLP"
+    },
+    "state_only": {
+      "parameters": 76224,
+      "object": "shared199→128GELU→96 residual",
+      "scene": "201→128GELU→96 residual",
+      "ablated_inputs": "all9 declared action inputs including target match zeroed"
+    }
+  },
+  "frozen": "DINO/RGB registry/normalizer/current-state encoders+GRUs and exact held/in/open heads. Gradients through frozen heads to predicted latent only. No new symbol head.",
+  "initialization": "same PyTorch seed per architecture; final residual layer zeros. Action-only has zero residual base; other models begin at state persistence.",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "modes": [
+    "full",
+    "action_only",
+    "state_only"
+  ],
+  "updates_each": 600,
+  "batch_size": 16,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip_norm": 1.0
+  },
+  "batch_sampling": "fresh permutation of96ABexamples each6updates, identical ordering per seed across modes",
+  "loss": {
+    "predicate": "Mean of held/in/open group BCE; class weights fitted only on AB after labels; validallentitymask retained",
+    "class_counts_AB_after": {
+      "held": {
+        "negative": 264,
+        "positive": 24
+      },
+      "in": {
+        "negative": 228,
+        "positive": 60
+      },
+      "open": {
+        "negative": 24,
+        "positive": 72
+      }
+    },
+    "class_weights_negative_positive": [
+      [
+        0.5454545454545454,
+        6.0
+      ],
+      [
+        0.631578947368421,
+        2.4
+      ],
+      [
+        2.0,
+        0.6666666666666666
+      ]
+    ],
+    "latent": "0.05 * mean(object SmoothL1 and scene SmoothL1) to detached actual-next encoded state",
+    "no_target_filtering": true
+  },
+  "selection": {
+    "checkpoints": [
+      200,
+      400,
+      600
+    ],
+    "score": "C tune root-macro mean of same3group class-weighted BCE only; no latent loss in selection",
+    "per_seed": "lowest tune score, tie earlier checkpoint",
+    "representative_per_mode": "lowest tune score among3selectedseeds, tie lower seed",
+    "calibration": "No C calibration scoring/prediction in training loop. Freeze all choices before final evaluation. Already used in previous input diagnostics, so development data, not blind acceptance."
+  },
+  "reporting": {
+    "sets": [
+      "AB_all",
+      "C_all",
+      "C_tune",
+      "C_calibration"
+    ],
+    "fact_masks": [
+      "all7",
+      "changed",
+      "unchanged",
+      "target_entity",
+      "other_entity",
+      "target_object",
+      "other_object",
+      "drawer"
+    ],
+    "objects": "lift target=declared colour; place target=planned root colour for scoring only; drawer action target=drawer; remaining entities=others",
+    "subsets": [
+      "all",
+      "current_reader_all7_correct",
+      "current_reader_any_wrong_or_UNKNOWN",
+      "at_least_one_endpoint_has_missing_entity"
+    ],
+    "metrics": [
+      "root-macro raw/strict accuracy",
+      "FP/FN",
+      "UNKNOWN/coverage",
+      "all7knowncorrect pairs and roots",
+      "pergroup recall/FPR",
+      "real next observed state readout versus GT separately"
+    ],
+    "time_memory": "wall and CUDA elapsed time, PyTorch peak allocated/reserved, device; perupdate train losses and C tune checkpoint curve only"
+  },
+  "test_decision_predeclared": {
+    "scope": "whether worth ONE future independent test, not acceptance",
+    "representative_full_gate": "On Ccal: positive recall>=.95 and FPR<=.01 in eachheld/in/open group; UNKNOWN rate<=.05",
+    "need_state_and_action_gain": "Across3seeds Ccal root-macro strict changed-fact accuracy AND all7correct pair fraction must be strictly higher than persistence, action-only and state-only averages",
+    "unchanged_constraint": "Full mean Ccal strict unchanged-fact accuracy must not be below the strongest simple baseline",
+    "if_any_requirement_fails": "Do not recommend an independent test yet; stop without extra training, threshold tuning, alternate architecture, or filtering. Report evidence."
+  },
+  "total_optimizer_updates_cap": 5400,
+  "no_budget_extension": true,
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/ONE_STEP_PROPOSAL.json": "857b2fb353f7293d8d096925feb2c7b70c1abaac62bef9abea6de53ee493c4e3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/delivery_manifest.json": "17f95af209650288b12f887ac2f6b0679cbd034377dca1a2ff0fd40adc679076",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/source/registry.py": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/configs/frozen_before_C.json": "3a96311de4eecd8fa6d840d782a3a76522ee5d0fdec9cd50f753d7f4ff8796ea",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/public/paired_inputs_v1.npz": "3528144c6231f3a9493bf3471b9732718f0839cc8c6a407cd3d400b877507c99",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/public/windows_v1.json": "09d428e77520dd7e9f85f21fca31c2b22dcea704e97bba36032e20beab088f55",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/public/pairs_v1.json": "f4abaf0da165860517569ec5dd5af2e175b862bd9805f28a76af9cfca06a0b17",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/_private/supervision.npz": "de30515c8bc1114f5d6e77b1cc4ebb0063a0a1d82d76792b194b9d9d64f6efde",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/results/reader_probabilities.npz": "f2ebf3d40ba2180fbd59da140720aa9ff5edbbd271a9697289a04ebad39f4def",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/metrics.py": "65f8032066ff75ff10f2fee1a18117dc5496af1c236ef5f07da21446bb45cbaf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/INPUT_CONTRACT.json": "983daf6994d9e4624fc6a90fe895e097117fc22bc1139b63e062a8b6ac034fe6",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_long_pairs_20261014/roots_manifest.json": "77ad581dfe6534d81592f3cd3b42dd05f4821a14651bee1855fd9bed67589266",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/common.py": "ee2169a62de62340d8c419f252098eb8537850ae612b9c7c60a62176f8a093a3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/transition.py": "4a3ed0eae72c61bec6d25a2f568191cf73a714b3cb9aa5864c15ef1408d6187c",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/extract.py": "3a22a63057b929b42d81e04fc4ef1a7abe95e4e84a2ef2dec55a170d7a6e8d75",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/train.py": "578fe3e05f867f9b0de3a4452c6693bc5352e14aef2fc11cdae85a5ac151fcad",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/prepare.py": "1e8972e28ac79edf6418a4e8c7e2b9c96c56f1da79efc3864db2ab2c3d03a187"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-18T06:14:22.356733+00:00",
+  "scope": "EXPLORATORY SKILL ENDPOINTS ONLY; global actual reliability failure preserved",
+  "no_training_or_threshold_changes": true,
+  "all_conditions": [
+    "open",
+    "empty_close",
+    "place",
+    "close_after_place",
+    "lift_c",
+    "lift_d_after_place",
+    "lift_d_after_openclose"
+  ],
+  "report_all": true,
+  "agreement_subset": "All four actual probe H3 equal physical truth; supplementary descriptive tags only, never substitutes for overall results",
+  "condition_eligibility": "At least6 roots; EVERY fixed probe H3>=.95, per-color FPR<=.05; for present positives FNR<=.1 and >=2 positive roots. No claim on absent-positive recall. Evaluate all fixed heads; no model selection.",
+  "predicted_readout": "Only eligible WHOLE conditions, matched seed of world-model and probe; both input forms, all rows, preserve disagreements with original query.",
+  "prefix": "Exactly once per fixed mixed/alphaZ model and seed: all11 complete normal roots; replace after-lift state with actual z, then predict place -> close with no further observation. Original Query all9; independent of global probe gate.",
+  "prefix_reproduction_tolerance": 1e-05,
+  "examples": "fixed D_identity_blue_red_00, seed0,alphaZ; no result-based example search",
+  "D": "previously viewed D diagnostic; not independent validation or model selection",
+  "training_updates": 0,
+  "physical_calls": 0
+}

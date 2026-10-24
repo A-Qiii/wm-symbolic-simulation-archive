@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-19T18:53:34.255510+00:00",
+  "use": "Posthoc case images only, no training/selection",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_gap_04_b0/00_lift_red_block_table/initial_public.npz": "875eeb71a346f5b55a357c3371663b06522355decd6f14abcb3db765af87b8ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_gap_04_b0/00_lift_red_block_table/final_public.npz": "6bb3c957a7b34cca7b78a28f410e75be1aa16f2a2b6ffa7a62be16c216be5dde",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_gap_04_b0/01_place_in_drawer/final_public.npz": "6bb3c957a7b34cca7b78a28f410e75be1aa16f2a2b6ffa7a62be16c216be5dde",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_gap_04_b0/02_close_drawer/final_public.npz": "a0b4ec8fa7e39b63849763678510636bdf2f4e960789a0ace89f9b464d2d670c",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_gap_04_b0/03_open_drawer/final_public.npz": "a0b4ec8fa7e39b63849763678510636bdf2f4e960789a0ace89f9b464d2d670c",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_old_band_02_b2/00_lift_blue_block_table/initial_public.npz": "a8c28add0e0e32e8fedd3c726dddfabf9359a137df6de188d5bf93c8c83f0f4d",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_old_band_02_b2/00_lift_blue_block_table/final_public.npz": "a8c28add0e0e32e8fedd3c726dddfabf9359a137df6de188d5bf93c8c83f0f4d",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_old_band_02_b2/01_place_in_drawer/final_public.npz": "b1201e9ced1035205464c98445bf7443b70019a3bc5bf5bb847b4488a43fd4ad",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_old_band_02_b2/02_lift_blue_block_table/final_public.npz": "bb01793af94b70cf0b5f00f83a3a82e6feb4b8ccaa4ae78eab9fbbd9829eb7ba",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/data/episodes/B_coverage_old_band_02_b2/03_place_in_drawer/final_public.npz": "20e51a60a1102eef087d92b0a50d9eb111d691fd8c0c30def653c94680090325",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/00_lift_red_block_table/initial_public.npz": "3793e3325f74cd7768f15bdb4959a3019421d2da945aa10ab26f5742ce3e0709",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/00_lift_red_block_table/final_public.npz": "3793e3325f74cd7768f15bdb4959a3019421d2da945aa10ab26f5742ce3e0709",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/01_place_in_drawer/final_public.npz": "4109791e0a8b2cc87a3835ee8c366d46eb3325b97ac623fd1152d15a70cb6579",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/02_lift_red_block_table/final_public.npz": "6357ffa3124f26dfef88f1c7370d9a5fa36fa29b148c9e3f071f66f835e1fbf5",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/03_place_in_drawer/final_public.npz": "8cb8e7b299af3d2c2223292c5935a6c12242581575fb83553980d0ea718332c1"
+  }
+}

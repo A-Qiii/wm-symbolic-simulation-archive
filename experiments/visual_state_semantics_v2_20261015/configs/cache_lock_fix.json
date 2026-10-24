@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-15T15:50:22.527703+00:00",
+  "old_sha256": "d8985c861fd6c3af3a108b5a1ca5f31109a435810116d05a71e43361d9587a01",
+  "new_sha256": "8983a1d7f66d6ca7944590fcc4d4588cdf3f4b325ea3a89bb246dde6a1162c3f",
+  "reason": "Outer cache script and existing RGBEncoder both took independent exclusive file locks. Remove outer duplicate; encoder retains original GPU lock. No feature or training update existed when this failure happened.",
+  "model_training_design_unchanged": true,
+  "failed_log_preserved": "logs/cache.log"
+}

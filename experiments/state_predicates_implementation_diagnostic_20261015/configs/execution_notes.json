@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-15T08:42:06.769513+00:00",
+  "scope_unchanged_no_training_collection_or_D_inference": true,
+  "metadata_assertion_repair": "Initial audit expected C to contain all3 colour pairings; actual C2 is a subset. Saved failed log; changed only this audit assertion. All saved action checks had already passed.",
+  "gradient_numeric_assertion_repair": "Initial original-high-precision run completed AB300 and stopped during C300 decomposition check. A targeted C300 float32/high andfloat64/highest check found relativeL2 1.80e-4 versus4.27e-16; diagnostic comparison now records differences and uses0.1% of component-gradient norms. Original experiment code/weights unchanged.",
+  "main_gradient_probe_attempts": 32,
+  "completed_reported_main_probes": 30,
+  "additional_precision_check_forward_backward_probes": 2,
+  "total_forward_backward_probe_attempts": 34,
+  "extra_AB_tensor_forward_calls_for_binding": 2,
+  "reader_windows_reencoded": 258,
+  "reader_check_reused_on_resume": true,
+  "D_forward_calls": 0,
+  "optimizer_updates": 0,
+  "no_checkpoint_selection": true
+}

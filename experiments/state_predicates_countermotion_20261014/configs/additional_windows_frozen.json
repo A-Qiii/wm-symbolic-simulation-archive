@@ -1,0 +1,110 @@
+{
+  "selection_before_predictions": true,
+  "windows": [],
+  "counts": {
+    "held_down": {
+      "candidate_windows": 6611,
+      "roots": 20,
+      "trajectories": 63,
+      "complete_exact_public_windows": 0,
+      "selected_windows": 0,
+      "examples": [
+        {
+          "source": "core",
+          "root_id": "C_core1200_00",
+          "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer",
+          "condition": "held_down",
+          "colour": "red",
+          "anchor": 67,
+          "indices": [
+            4,
+            25,
+            46,
+            67
+          ],
+          "held_all64": true,
+          "TCP_z_change_mm": -20.933246595109644,
+          "object_z_change_mm": -21.38886277033403,
+          "relative_drift_mm": 0.8939226720629402,
+          "TCP_max_move_mm": 194.75065256523322,
+          "object_max_move_mm": 195.56455527079675,
+          "exact_public_complete": false,
+          "visible_all4": null,
+          "missing_indices": [
+            4,
+            25,
+            46,
+            67
+          ],
+          "public_paths": []
+        },
+        {
+          "source": "core",
+          "root_id": "C_core1200_00",
+          "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer",
+          "condition": "held_down",
+          "colour": "red",
+          "anchor": 68,
+          "indices": [
+            5,
+            26,
+            47,
+            68
+          ],
+          "held_all64": true,
+          "TCP_z_change_mm": -25.39402538631741,
+          "object_z_change_mm": -25.856888957747735,
+          "relative_drift_mm": 0.9020782952115672,
+          "TCP_max_move_mm": 199.05421504199586,
+          "object_max_move_mm": 199.88150577755613,
+          "exact_public_complete": false,
+          "visible_all4": null,
+          "missing_indices": [
+            5,
+            26,
+            47,
+            68
+          ],
+          "public_paths": []
+        },
+        {
+          "source": "core",
+          "root_id": "C_core1200_00",
+          "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer",
+          "condition": "held_down",
+          "colour": "red",
+          "anchor": 69,
+          "indices": [
+            6,
+            27,
+            48,
+            69
+          ],
+          "held_all64": true,
+          "TCP_z_change_mm": -27.867784546596997,
+          "object_z_change_mm": -28.14827623961358,
+          "relative_drift_mm": 0.8288646567784521,
+          "TCP_max_move_mm": 203.19658105241717,
+          "object_max_move_mm": 204.00770873945697,
+          "exact_public_complete": false,
+          "visible_all4": null,
+          "missing_indices": [
+            6,
+            27,
+            48,
+            69
+          ],
+          "public_paths": []
+        }
+      ]
+    },
+    "held_stationary": {
+      "candidate_windows": 0,
+      "roots": 0,
+      "trajectories": 0,
+      "complete_exact_public_windows": 0,
+      "selected_windows": 0,
+      "examples": []
+    }
+  }
+}

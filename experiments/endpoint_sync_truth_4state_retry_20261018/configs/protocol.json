@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-18T12:43:10.330566+00:00",
+  "scope": "New synchronous simulator technical samples, not old40 annotations, no model/load/forward/training or bulk collection.",
+  "fixed_states": [
+    {
+      "scene": "A",
+      "seed": 2026101801,
+      "drawer_initial_q_m": 0.0,
+      "root_id": "A_sync_truth_tech_20261018"
+    },
+    {
+      "scene": "B",
+      "seed": 2026101802,
+      "drawer_initial_q_m": 0.1,
+      "root_id": "B_sync_truth_tech_20261018"
+    },
+    {
+      "scene": "C",
+      "seed": 2026101803,
+      "drawer_initial_q_m": 0.22,
+      "root_id": "C_sync_truth_tech_20261018"
+    },
+    {
+      "scene": "D",
+      "seed": 2026101804,
+      "drawer_initial_q_m": 0.275,
+      "root_id": "D_sync_truth_tech_20261018"
+    }
+  ],
+  "selection": "One deterministic fresh native world per scene A/B/C/D, in this order, no success-based replacement or repeats. Same robot native initial posture; blocks red/blue/pink fixed at [-.10,-.08,.46],[.10,-.08,.46],[.30,-.08,.46],Euler[0,0,0]. These are initialization settings, not dynamics/resource changes.",
+  "budgets": {
+    "worlds": 4,
+    "saved_primary_camera_records": 8,
+    "native_getCameraImage_calls_per_state": 4,
+    "meaning": "2 primary with object/link flags +2 same-state flag-off baseline checks, not4 additional dataset images",
+    "max_initialization_physics_ticks_each": 8,
+    "steps_after_first_primary_render": 0,
+    "skill_calls": 0
+  },
+  "semantics": {
+    "finger": "Runtime names panda_leftfinger/finger_left_tip and panda_rightfinger/finger_right_tip; unordered class two instances. Exclude palm/arm/heldobject.",
+    "front": "Visible exterior front wooden board including exposed narrow edges plus attached pull handle. Exclude cavity floor/interior/sideboards, including cavity-facing inner-front-wall triangles82,83.",
+    "mesh_rule": "Unscaled local mesh z>=.2−5e-6 is board slab/handle. Any vertex z>.225+5e-6 identifies protruding handle faces. Central inner front wall atz=.2,xwithin±.225,y>=.025 belongs excluded interior. Explicit frozen face indices are authoritative; all4geometries identical.",
+    "visual_confirm_before_run": true
+  },
+  "method": "Native same-tuple RGB+zbuffer+object/link segmentation. For drawer pixels only, intersect center-pixel camera rays with the unchanged scaled world-transformed visual mesh, assign nearest face semantic class only if camera-axis depth agrees with captured depth. No added simulation bodies, materials, colors, visual edits or extra semantic render.",
+  "numeric_rules": {
+    "pixel_sample": "u+.5,v+.5",
+    "face_boundary_source_tolerance_mesh_units": 5e-06,
+    "max_camera_depth_error_m": 0.0005,
+    "ray_det_epsilon": 1e-12,
+    "barycentric_epsilon": 1e-09,
+    "cross_semantic_equal_depth_tie_m": 1e-07
+  },
+  "verification": {
+    "RGB_and_depth_primary_vs_same_state_flag_off": "bitwise equal, maxabs0",
+    "snapshot_before_after_all_cameras": "all body poses, individual joints and velocities bitwise equal",
+    "semantic_partition": "each native drawer pixel assigned exactly one of frontwood/handle/interior or explicit255unknown, zero non-drawer semantic assignments",
+    "trusted_front_bbox": "Only if every native drawer pixel is classified and target is nonempty; otherwise tentative positive-pixel bbox is diagnostic only, bbox_validfalse",
+    "technical_pass": "All8 complete RGB/depth/ID records, zero post-primary physics ticks, exact RGB/depth baseline and state invariance; semantic complete gate separately reports all8 with zero unknown. Do not collapse technical success into semantic success."
+  },
+  "visibility": "Visible mask/bbox only, no amodal completion. Record touches_image_border; truncation and occlusion states unknown unless separately established. Zero pixels means no observed target pixels, not proof of nonexistence, outside-FOV or full occlusion.",
+  "failure": "Persist attempt ledger before world creation. Technical error stops remaining worlds, no replacement. Semantic mismatch is retained and does not select another state. At most one justified offline implementation correction from saved8 buffers, separately versioned and reported; no rerender or threshold relaxation.",
+  "output_boundary": "Save annotation_private raw masks, geometry, complete snapshots, matrices, resource hashes and frame/tick/call indices. public files contain RGB only. Old40/oldmodels/oldlabels/manualaudit unchanged.",
+  "stop": "Finish at4states, create one native Library visualization attachment, seal and deliver before any expansion."
+}

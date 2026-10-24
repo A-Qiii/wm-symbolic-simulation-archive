@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-18T15:55:48.701209+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/configs/schedule_seed1.npz": "317774ad4fb00f94a814af49c859f7f6f102dbe9f3e1f5c961d5ec22457f3773",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/configs/protocol.json": "a6afafd6836e40ba81d21c73c2745ad2ebcbca46c703fbb8c244f065e54cf22d",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/configs/train_normalization.npz": "0f421a618e50be483d4b9b53c2fee92f39c74b251df5afd50141c60c531dc067",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/configs/input_hashes.json": "c5095b5e0763b4dd34ee06a203744a6c834565a21a4c7a1ada64d61a7c3e20c7",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/configs/schedule_seed0.npz": "9729c98b4946d0bc5b378ea3947ed98666300ae29dfd6c0121a372a248e8f46f",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/initial_pair_seed0.pt": "c04fae3718f9b5a9b98d5dae3c5a1ed8e516e753b2fdf111a2c1c235237e4d03",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/initial_pair_seed1.pt": "9a06648548d1c7f8cbf792ed0455b2ca291b13ac09f55b050ce9854d930527a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/source/predict.py": "3980ea3d34f4a763e2c9acea15d5f7b4b25a13069bade486a7f83841039cdcec",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/source/train.py": "7b1b2698637182965c89168c613b622ee2dfb971d6f470b8096f6f568a952e55",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/source/common.py": "5a37b61824d8a4968597b720dc979fb6a2570203b5ad11d076dae193aeba1ea7",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/source/prepare.py": "b4e426684775904ef98738608688438af129cbd75d56ab0589fa90f82da3cd6a"
+  },
+  "original_manifest_files_verified": 3255,
+  "before_any_new_fit": true
+}

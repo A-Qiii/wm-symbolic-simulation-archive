@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-19T22:14:32.142194+00:00",
+  "before_test_collection": true,
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "random",
+      "update": 500,
+      "development_objective": 3.617094799876213,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed0_step500.pt",
+      "sha256": "402c17c343d4d808481171fded090e2c94ad3811e167897632cedf5a54da43ef",
+      "eligible_selection": true
+    },
+    {
+      "seed": 0,
+      "arm": "balanced",
+      "update": 500,
+      "development_objective": 3.693549245595932,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed0_step500.pt",
+      "sha256": "485d1b3ccf8d8b33c9b8d97961b4869d7e91e79c0dad359d06d1d9709a42502c",
+      "eligible_selection": true
+    },
+    {
+      "seed": 1,
+      "arm": "random",
+      "update": 500,
+      "development_objective": 3.780503138899803,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed1_step500.pt",
+      "sha256": "f69385bb45a8db845ce462fc637644a322a23fd19115fee120c4bd0819c343b3",
+      "eligible_selection": true
+    },
+    {
+      "seed": 1,
+      "arm": "balanced",
+      "update": 1000,
+      "development_objective": 4.558882057666779,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed1_step1000.pt",
+      "sha256": "4a53526f09ba8d5796631904dd37b5844fb4b060eedcbf7dad7e9a43313f1cb1",
+      "eligible_selection": true
+    }
+  ],
+  "fits": 4,
+  "updates": 4000,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed0_step250.pt": "4a852041cc42a080c44f2568790234e66a14a1796b0e1065a221c4d5f532d9d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed0_step500.pt": "402c17c343d4d808481171fded090e2c94ad3811e167897632cedf5a54da43ef",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed0_step1000.pt": "ab75760025fdd5af12b23f7ba6e896d0286d38444b8fe8c89f51e62c28be8a1f",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed0_step250.pt": "f5dfa68e5ab201725271fa4f1b20a7b10a969aa873dd1418e47202cd1c2d50aa",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed0_step500.pt": "485d1b3ccf8d8b33c9b8d97961b4869d7e91e79c0dad359d06d1d9709a42502c",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed0_step1000.pt": "b6fc647d03da173ae21aff3bb52c459afdb3f58b595b145c256223261aeb302b",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed1_step250.pt": "1c54feac72622bc28278b197d31ba632911bc87d67ba4b15ff71328262489653",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed1_step500.pt": "f69385bb45a8db845ce462fc637644a322a23fd19115fee120c4bd0819c343b3",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/random_seed1_step1000.pt": "86673c27ec4248136590e829ff1cddffce4b1cdcfd6e3747947414b7cfc383dd",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed1_step250.pt": "f87c7d3edb2e929835e1f7cb5dac451b81f7dc17f9644f2a3c1b2f85ada75efd",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed1_step500.pt": "0af958c60d196136715feacbde3c46d9c4422f13cad7a7cfefb4238197cb0deb",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/models/balanced_seed1_step1000.pt": "4a53526f09ba8d5796631904dd37b5844fb4b060eedcbf7dad7e9a43313f1cb1"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "frozen_utc": "2026-10-16T14:11:00.376769+00:00",
+  "scope": "Frozen model inference only. No optimization, new simulation, data collection, threshold or checkpoint reselection.",
+  "models": {
+    "frozen_utc": "2026-10-16T13:54:09.122380+00:00",
+    "selected": {
+      "old_chains_seed0": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/old_chains_seed0/update0750.pt",
+        "sha256": "5c6e125bfba4bb895d96c2ffc4cb9d506afdc377abb54f6632fcbad7568b039f",
+        "C_score": 0.9296442102473061
+      },
+      "new_chains_seed0": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/new_chains_seed0/update0500.pt",
+        "sha256": "aab6ed1fe4fdbe9e6c0f383354591a8f15f5f7646dec70e6031d37fb26108790",
+        "C_score": 0.9309306772979531
+      },
+      "old_chains_seed1": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/old_chains_seed1/update0750.pt",
+        "sha256": "667247adb08bfc7e8fb4686fbd95c6df26eca0b4e3a4e0cdf0245580b05c7fc4",
+        "C_score": 0.9311368574161787
+      },
+      "new_chains_seed1": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/new_chains_seed1/update0750.pt",
+        "sha256": "d8a934a734941c669b6b0c6c4936f61f2980a1248cc5a0de5581ca998e2f0abe",
+        "C_score": 0.9266063534730189
+      }
+    },
+    "query_heads": {
+      "0": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+        "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+        "C_score": 0.2316754311323166
+      },
+      "1": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+        "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+        "C_score": 0.22401409596204758
+      }
+    },
+    "criterion": "unchanged old/new C-select equal root-macro one-step feature error; earlier checkpoint",
+    "C_validation_or_test_used": false,
+    "sha256": {
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/old_chains_seed0/update0750.pt": "5c6e125bfba4bb895d96c2ffc4cb9d506afdc377abb54f6632fcbad7568b039f",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/results/train_old_chains_seed0.json": "edd98e54a32ea4385e0ed37c94f9182efe05e3d73186bb55b092f59cfa58f985",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/new_chains_seed0/update0500.pt": "aab6ed1fe4fdbe9e6c0f383354591a8f15f5f7646dec70e6031d37fb26108790",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/results/train_new_chains_seed0.json": "4cff627435ce6c98d96288cf1fcef6ab03ec08b06dddb985fdb0652473753b4f",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/old_chains_seed1/update0750.pt": "667247adb08bfc7e8fb4686fbd95c6df26eca0b4e3a4e0cdf0245580b05c7fc4",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/results/train_old_chains_seed1.json": "607e9b3f3491d337fb107ee2ddddc9a16735bcc319250f394cc6afc2be54d877",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/models/new_chains_seed1/update0750.pt": "d8a934a734941c669b6b0c6c4936f61f2980a1248cc5a0de5581ca998e2f0abe",
+      "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/results/train_new_chains_seed1.json": "c27cca1d189c51ddb91566b8b701da8b9a72353daf323272481ce32e110bf0b1"
+    }
+  },
+  "normal_roots": {
+    "old_AB": 12,
+    "new_AB": 12,
+    "C_select": 6,
+    "C_validate": 6
+  },
+  "cross_evaluation": "All4selected models on both training source cohorts and C cohorts. Own-source AB identifies fit; cross-source AB is descriptive and differs in root distribution.",
+  "paths": [
+    "actual successor readout",
+    "true predecessor one-step",
+    "full4 from root initial only",
+    "exact3-skill training window start0",
+    "exact3-skill training window start1"
+  ],
+  "refusals": "newAB/C held_closed branches separate; not pooled with normal",
+  "C_role": "Cselect was used for model selection; Cvalidate was held out from training/choice but historically seen. Neither is a new test.",
+  "loss_diagnostic": "Read sparse logged loss; frozen inference of all20saved checkpoints on own training windows and exact frequency-weighted single-step schedule. Also show C3/4-step recursive curves diagnostically as newly authorized; never change the previously selected checkpoints or claim newly chosen best C as formal performance.",
+  "truth": "same9propositions; old60 endpoint states reconstructed offline from existing XYZ/Euler+contacts and native assets, native transform validated against1100 prior full snapshots. Contact censoring and10um transformation uncertainty are conservatively masked, never filled false.",
+  "representation": "current2RGB+current15D robot_obs only; robot_history field name is misleading. No observation history and no recurrent posterior. Transition recursion carries its predicted latent only.",
+  "length": "Trained windows3skills with losses at local steps2/3. The second window supervises globalstep4 from true post-open state at localdepth3; no loss at depth4 from initial."
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-10-18T11:33:26.414978+00:00",
+  "no_model_outputs_read_before_freeze": true,
+  "prior_context_exposure_disclosed": true,
+  "version": "eval8_v1",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/labels/adjudicated_eval_v1.json": "f72fed08593c739a6c199b25ba26bbf718bd6376d54d0ca69e74f62b8c291add",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/labels/decision_ledger.json": "9710571261a0ca36a5f24107c9bf3afd9e99d66300d7063b8e82d3450f5379c2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/labels/external_arbitration_needed.json": "b5e2d4e21e4cc047c6a819cb111f5b15515c1509db55cdb158536e01969981a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/source/adjudicate.py": "0fc7b3b69bfbda7efb21171182ee3600cd662b22392a479ecd9f7c1634e688f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/configs/pre_adjudication_frozen.json": "0e9acb932506cac6f48e5024c021b1d72183f21358e18f5a45213a61b3f59462"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T20:59:31.560259+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/configs/protocol.json": "6212057f0935df3cd62efda7370c981ac749d774a59a2286826796594f1783f8",
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/source/evaluate_balanced.py": "51fba5784bd6569fec958dba5a01a8b9b8c448e03f53f5abbd19d26e98d4cf87",
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/source/analyze.py": "c8a92165c3a52495c9d9d03a6d059951fade82d706dd1541d51ecf7d67a66958",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/evaluate.py": "4f06065f7b213e7c965adb8cf249f582da922c4c1a37854b2ed91a3b484ed3cc"
+  },
+  "before_new_predictions": true,
+  "historical_evaluation_exploratory_only": true
+}

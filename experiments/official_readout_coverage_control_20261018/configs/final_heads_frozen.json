@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-18T07:47:03.317876+00:00",
+  "before_actual_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/Holding_control_seed0_update0600.pt": "ea41f6457400b6255ec3fc25ac71b5cf417cc32ee3827b50b4d1195a6b6d10f4",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/Holding_augmented_seed0_update0600.pt": "53416080c1c2cade3f9844c365846b29d9fc90f4c7592521fdffc3770972571e",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/Holding_control_seed1_update0600.pt": "27893c67bf98e5b0ab9ee8dfe16b28557d5048fca999140faae9b88b3056ea66",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/Holding_augmented_seed1_update0600.pt": "4b29c56f87eb580821abdc323b91cdffda2c2a5a72ed0e47d0fe99cc3d12a137",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/In_control_seed0_update0600.pt": "adfafd909cda211db258615a77668b5472e6e45e9381581b96870f87490d09fd",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/In_augmented_seed0_update0600.pt": "13a2adebaa274420f889e19f2537ab81e8d970bbe6fbfcc4ca20694cf888a6c1",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/In_control_seed1_update0600.pt": "684c1e13b17c39583e8fca272fc7dfe23ca9e1160d2b21e8fcc91a3a9251afde",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_readout_coverage_control_20261018/models/In_augmented_seed1_update0600.pt": "312124393927912b56459e3178d93b15c8ad1cc3a6a48da05f9a1e46f6dc6184"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "entity_permutation_max_error": 0.0,
+  "variable_entity_count_output_shape": [
+    2,
+    5
+  ],
+  "multiple_held_conflict_preserved": true,
+  "no_entity_index_embedding": true,
+  "future_boundary_not_in_forward_signature": true,
+  "extension_selection_calibration_excludes_pink": true,
+  "D_used_only_for_final_fixed_evaluation": true
+}

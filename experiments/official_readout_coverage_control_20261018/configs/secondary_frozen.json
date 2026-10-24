@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-18T07:48:33.633223+00:00",
+  "eligible_heads": [
+    "In"
+  ],
+  "In_only": true,
+  "Holding_prediction_reads": false,
+  "no_T_forward": true,
+  "D_previously_seen_diagnostic_only": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/data/combo/public/pairs.json": "8e583c2dbe889c2a55db7360ce6f77be8964314d6788767390a8a5fc13fd7e45",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/data/combo/_private/labels.json": "96e65b40eebcc25a997574ec57053df46e68d1f1d23b6e617fc1a813ac27c123",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/latents_mixed_seed0.npz": "ba7cebbfb3507d3c24edbb6df5d10710bc909d040b8d3155b902ede9d1ec5c60",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/latents_latent_seed0.npz": "08dabda4f423eb81683c9defeff9aa6fb5ddebd5cce611364d20b96a2ae534ec",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/latents_mixed_seed1.npz": "15bd8e15de6dba4ba93c87bec86a9b45c299029a5b7f9bcd434ff956d5adc906",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/latents_latent_seed1.npz": "c72b4633c1634efea9d5dae10c804fdadf279495507eb225d2f8379a8764d7c6"
+  },
+  "head_seal_sha256": "115d169e0d74eb47f457b7f402cfaab1876fce127893ecd1fb3e582fb076dfc7"
+}

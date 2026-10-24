@@ -1,0 +1,1002 @@
+[
+  {
+    "task_id": "D_test_root000_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root000_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root001_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root001_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root002_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root002_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root003_task0",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root003_task1",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root004_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root004_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root005_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root005_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root006_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root006_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root007_task0",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root007_task1",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root008_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root008_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root009_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root009_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root010_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root010_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root011_task0",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root011_task1",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root012_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root012_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root013_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root013_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root014_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root014_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root015_task0",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root015_task1",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root016_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root016_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root017_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root017_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root018_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root018_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root019_task0",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root019_task1",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root020_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root020_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root021_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root021_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root022_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root022_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root023_task0",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root023_task1",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root024_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root024_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root025_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root025_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root026_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root026_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root027_task0",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root027_task1",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root028_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root028_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root029_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root029_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root030_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root030_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root031_task0",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root031_task1",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root032_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root032_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root033_task0",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root033_task1",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root034_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root034_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root035_task0",
+    "actions": [
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root035_task1",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root036_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root036_task1",
+    "actions": [
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root037_task0",
+    "actions": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root037_task1",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root038_task0",
+    "actions": [
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root038_task1",
+    "actions": [
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root039_task0",
+    "actions": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  },
+  {
+    "task_id": "D_test_root039_task1",
+    "actions": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "verified_executable": false,
+    "access": "evaluator_only"
+  }
+]

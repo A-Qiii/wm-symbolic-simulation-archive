@@ -1,0 +1,12 @@
+{
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/delivery_manifest.json": "9d8c3926e5d3a50ccb52287e47648f3fcab6caaf1fc9927bf4dc761fcaee0590",
+  "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/records.json": "00ed7ad4a4d5b5f68f96382f5b23c47e76d675e8dfc11880e14df212b3948ed3",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/model_inputs.json": "dfbf18c4423fcbf1127d38b497480ac7c63c0ad52b4e32b45be75543ef8bd39f",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/train_normalization.npz": "0f421a618e50be483d4b9b53c2fee92f39c74b251df5afd50141c60c531dc067",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/results/bootstrap_draws.npz": "ba0c7811161a5e53b7a38abc19cfdad83446358a0c223321a2fdbe3e564fb4c9",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/features/train.npz": "1cfd42618218e3d47476e5bee7996b21a1d2b9e10e1cd0ccf242504da2dce7b2",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/features/dev.npz": "bc7cbea1f1cb4f2c33fcde68e2215b7cc87310ebf3ba2707f85de68d7d98e441",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/supervision/train_targets.json": "f953415cd379d8723a7c211c5175d576e7190475ecca086de766126cba1f941c",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/supervision/dev_targets.json": "4da4b0828b2983a05d3efa1d8f809c001f73147a12227c5ff2f3ab00443f8919"
+}

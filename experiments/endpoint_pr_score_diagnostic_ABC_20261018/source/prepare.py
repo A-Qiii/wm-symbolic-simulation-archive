@@ -1,0 +1,20 @@
+from common import *
+import shutil
+def input_paths():
+ paths=[]
+ for scene in 'ABC':
+  for root in range(8):
+   for sample in range(8):
+    for cam in ['static','gripper']:
+     d=BASE/'data/annotation_private'/f'sync256_{scene}_{root:02d}'/f's{sample:02d}';paths.extend([d/f'labels_{cam}.json',d/f'camera_{cam}.json'])
+ paths.extend(BASE/f'data/predictions/raw_seed{s}_{split}.npz'for s in [0,1]for split in ['train','dev']);paths.append(BASE/'data/train/train.npz');return paths
+def main():
+ assert not E.exists()
+ for d in ['configs','source','data','results','logs']:(E/d).mkdir(parents=True)
+ R.mkdir(parents=True);(R/'figures').mkdir()
+ protocol={'utc':now(),'scope':'Descriptive PR/AP and score audit of saved AB train / C development outputs only. No training, model inference, D read/evaluation, calibration fit, operating threshold selection or old artifact mutation.','splits':{'train':'A/B, 16 roots, 256 images','dev':'C, 8 roots, 128 images'},'allowed_input_files':[str(p)for p in input_paths()],'forbidden':'all D files, all-split aggregate image/label/prediction/metric files, all model weights; old experiment writes','decoding':{'input':'saved 1024 patches x 3 slots x 5 outputs','slots':{'drawer_front':[0],'gripper_finger':[1,2]},'box':'same tanh center / sigmoid size, clipped [0,1], positive area only','candidate_min_score':None,'classwise_NMS_IoU_strictly_greater_than':.5,'tie_order':'score descending, patch ascending, slot ascending within image; image_id ascending across images','no_local_peaks_no_max_detections':True,'threshold_sweep_equivalence':'greedy score-ordered NMS full output prefixes equal threshold-before-NMS output at each inclusive score threshold; verify at fixed 0.5','matching':'greedy score-order one-to-one to unmatched same-class GT at IoU >= 0.5; select largest IoU, on exact IoU tie larger GT index as original scorer','unknown':'ignore whole unknown image-class; retain all valid GT in recall denominator including never-matched targets'},'AP':{'name':'AP50, all-points interpolated precision-envelope area','formula':'sum over distinct recall increases (r_i-r_prev)*max precision at recall >= r_i; missing recall range contributes zero','equal_score_groups':'PR threshold points include entire equal-score group; deterministic per-image matching inside ties','not_COCO_mAP':True,'overall':'micro pooled candidates/GT across both classes; report separately from unweighted mean of two class AP50','strata':'each seed x split x [all/static/gripper] x [all/front/finger]'},'descriptive_points':{'fixed_score_thresholds':[.5,.4,.3,.2,.1,.05,.01,0.0],'precision_floor_frontiers':[.90,.95],'meaning':'seen-data description only, not a selected deployment threshold or new unseen result'},'score_distribution':{'bins':'20 fixed equal-width intervals spanning [0,1]','TP_FP':'post-NMS full-list one-to-one assignment, not GT-center lookup','normalization':'counts / all valid GT; TP bins + never-matched GT fraction = 1; FP is extra candidates per GT, need not sum to 1','unmatched':'explicit separate never-matched GT bar and count'},'secondary_audits':{'GT_center':'train-only assigned-positive-slot regression IoU and confidence, explicitly oracle scalar diagnostic, never PR/AP','slot_sparsity':'count true positive slots from saved train targets and roots/images; not refit','NMS_conflict':'count valid two-finger GT pairs with IoU>.5 separately in AB and C; no altered-NMS performance experiment'},'inference_budget':0,'training_updates':0,'new_data':0,'old_threshold_stays':.5,'reporting':'all seeds, all strata, no statistical significance claims for correlated frames; do not conclude representations unlearned solely from fixed-point F1'}
+ save(E/'configs/protocol.json',protocol)
+ for f in Path(__file__).parent.glob('*.py'):shutil.copy2(f,E/'source'/f.name)
+ save(E/'configs/input_frozen.json',{'utc':now(),'sha256':{str(p):sha(p)for p in input_paths()}})
+ save(E/'configs/pre_run_frozen.json',{'utc':now(),'sha256':{str(p):sha(p)for sub in ['configs','source']for p in(E/sub).glob('*')if p.is_file()}});print('ABC_PR_PROTOCOL_FROZEN',E,flush=True)
+if __name__=='__main__':main()

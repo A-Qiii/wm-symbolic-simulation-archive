@@ -1,0 +1,98 @@
+{
+  "frozen_utc": "2026-10-16T13:32:13.561292+00:00",
+  "scope": "One controlled correction of missing empty-gripper/open-drawer pre-grasp query coverage. No environment complexity expansion; no encoder,transition,loss,architecture,threshold,controller or interface change. No new AB/C collection.",
+  "causal_evidence": "Previous head-only coverage update changed empty-open readout from original6/6 to0/6 on C; original transition held fixed. Actual AB pre-grasp observations exist but were absent from previous new48 training states.",
+  "data": {
+    "control_pool": 144,
+    "treatment_pool": 156,
+    "added_true_AB_states": 12,
+    "source_root_split": "same existing12AB roots,4 percolour; all9valid; predeclared phase before grasp, no outcome filtering",
+    "old_states_retained": 96,
+    "existing_intermediate_states_retained": 48,
+    "C": "same old/new C-selection only; C-validation is now previously seen development backtest, never selection; D3 not used in training/selection",
+    "D4": "12 unseen initial configurations in same physical environmentD,4 percolour; no complexity added"
+  },
+  "query_training": {
+    "initial_heads": {
+      "0": {
+        "arm": "new_coverage",
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed0/update0900.pt",
+        "sha256": "8d90f8603094779242207df185195338e084e7e8ead8b868eee98e2f6421b893",
+        "C_score": 0.2517159953713417,
+        "selection": "minimum equal-weight old/new C-select root-macro masked loss, earlier tie"
+      },
+      "1": {
+        "arm": "new_coverage",
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed1/update0600.pt",
+        "sha256": "00673636ff9d68a1f10c536ce882c35d11f9e7c2a99146a1f77f0b0b6d215a8d",
+        "C_score": 0.23914200067520142,
+        "selection": "minimum equal-weight old/new C-select root-macro masked loss, earlier tie"
+      }
+    },
+    "arms": [
+      "control",
+      "empty_open"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "updates": 600,
+    "batch": 32,
+    "draws_per_run": 19200,
+    "shared_draws_per_update": 29,
+    "contrast": "Exactly3 of20 shared-old draws replaced by new empty-open draws. Remaining17 old +12 existing-intermediate draws identical. Original sample schedule first600 updates reused; initialization identical perseed.",
+    "optimizer": "same AdamW lr.001 wd.001 clip1, fresh optimizer in both arms",
+    "loss": "same original masked HoldingBCE/InBCE/drawerCE mean, same fixed positive weights",
+    "checkpoints": [
+      0,
+      150,
+      300,
+      450,
+      600
+    ],
+    "selection": "same minimum .5oldC-rootmacro masked loss+.5newC-selection-rootmacro masked loss, earlier tie; include0 to retain starting model if no improvement",
+    "normalization": "original query_seed0 unchanged",
+    "class_weights": [
+      20.0,
+      20.0,
+      20.0,
+      5.142857074737549,
+      5.142857074737549,
+      5.142857074737549,
+      0.6760563254356384,
+      0.8888888955116272,
+      2.526315689086914
+    ]
+  },
+  "collection": {
+    "D4_roots": 12,
+    "episodes": 24,
+    "max_calls": 96,
+    "max_controls_per_skill": 900,
+    "posthold": 96,
+    "reset_settle": 127,
+    "internal_attempts": 2,
+    "external_retries": 0,
+    "conditions": "same normal4-skill chain and held-closed4-call branch",
+    "failure": "retain failed/refused/unreached; no replacement roots, no collect-until-success",
+    "reset": "native initial xyz/yaw and closed drawer only, not an action transition",
+    "full_physical_truth": "same immutable9-label definition, full quaternion/contact snapshot; masks remain unknown when uncertain",
+    "wall_minutes_soft_ceiling": 30
+  },
+  "evaluation": {
+    "fixed_world_model": "canonical_matched_seed0/update1000 throughout",
+    "references": [
+      "original frozen head",
+      "previous C-selected new-coverage head for each seed",
+      "same-budget control fine-tune",
+      "empty-open corrected head"
+    ],
+    "normal_primary": true,
+    "refusal_separate": true,
+    "metrics": "same full9 root/state accuracy, perHolding/In/drawer, real-successor vs single-step vs initial-only recursive1..4, paired propositions, old-state retention",
+    "D4_freeze": "all model choices and thresholds sealed before D4 collection, no test adaptation",
+    "complexity_gate": "Do not expand on a targeted gain alone. Require consistent normal and intermediate-state and multi-step improvement in both seeds on independent roots, with no clear other-state regression. This is an expansion decision gate, not replacement of original project acceptance standards.",
+    "finite_stop": "This is one causal correction round, no repeated sampling/threshold tuning on D4. If multi-step remains poor or states regress, report unresolved cause; do not automatically grow complexity."
+  }
+}

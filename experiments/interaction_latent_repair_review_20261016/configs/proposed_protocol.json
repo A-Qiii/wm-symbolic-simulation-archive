@@ -1,0 +1,112 @@
+{
+  "status": "frozen proposal for independent acceptance; not approved execution and not an implemented trainer",
+  "scope": "One controlled transition-only repair experiment in a new version. Does not complete or change original HULC guide criteria.",
+  "rationale": "Old place intent target was not forwarded to executor; missing held_closed place rejection coverage exists in unused AB/C real data; current readout also has held_closed errors.",
+  "action_contract": {
+    "place": "place_in_drawer() without object parameter; action target bits 4:7 all zero for every place sample and search option",
+    "lift": "keep three named colour actions and their object target bits",
+    "goal": "In(requested colour) AND Closed unchanged",
+    "options_order": [
+      "open_drawer",
+      "close_drawer",
+      "lift_red_block_table",
+      "lift_blue_block_table",
+      "lift_pink_block_table",
+      "place_in_drawer"
+    ],
+    "posthold": "preserve recorded 0/96 bit for old data; extra matched and online96; no GT-fill targets"
+  },
+  "seeds": [
+    0,
+    1
+  ],
+  "initialization": "Each arm starts from the identical corresponding v1 interaction selected model and query head. Preserve entire original files read-only.",
+  "freeze": [
+    "DINO",
+    "AB normalization and PCA",
+    "RGB object registry",
+    "object and scene encoders",
+    "all decoders",
+    "shared semantic query head and thresholds"
+  ],
+  "trainable": "Only shared object/scene transition parameters; no new symbolic labels or feasibility classifier.",
+  "arms": {
+    "canonical_control": "Original AB888 pairs; auxiliary samples from original AB place pairs.",
+    "canonical_matched": "Same original AB888 pairs plus 12 pre-existing matched place pairs on4 additional AB roots; auxiliary samples only from these12. Common canonical interface in both arms."
+  },
+  "additional_AB_pair_ids": [
+    "A_statedep_place_red_1__b0__diagnostic",
+    "A_statedep_place_red_1__b1__diagnostic",
+    "A_statedep_place_red_1__b2__diagnostic",
+    "A_statedep_place_pink_0__b0__diagnostic",
+    "A_statedep_place_pink_0__b1__diagnostic",
+    "A_statedep_place_pink_0__b2__diagnostic",
+    "B_statedep_place_red_0__b0__diagnostic",
+    "B_statedep_place_red_0__b1__diagnostic",
+    "B_statedep_place_red_0__b2__diagnostic",
+    "B_statedep_place_blue_1__b0__diagnostic",
+    "B_statedep_place_blue_1__b1__diagnostic",
+    "B_statedep_place_blue_1__b2__diagnostic"
+  ],
+  "additional_C_pair_ids": [
+    "C_statedep_place_blue_0__b0__diagnostic",
+    "C_statedep_place_blue_0__b1__diagnostic",
+    "C_statedep_place_blue_0__b2__diagnostic",
+    "C_statedep_place_pink_1__b0__diagnostic",
+    "C_statedep_place_pink_1__b1__diagnostic",
+    "C_statedep_place_pink_1__b2__diagnostic"
+  ],
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 5,
+    "updates": 1000,
+    "checkpoints": [
+      0,
+      250,
+      500,
+      750,
+      1000
+    ]
+  },
+  "sampler": {
+    "batch": 64,
+    "common_base": 48,
+    "auxiliary_place": 16,
+    "base": "Precompute same root-uniform AB indices and observed chains for each seed and both arms.",
+    "control_aux": "Root-uniform original AB place, then uniform pair in root.",
+    "matched_aux": "Uniform among4 AB roots, then among its3 collected branches; no condition values enter input/loss.",
+    "rng_seeds": [
+      16962000,
+      16962001
+    ],
+    "save": "Persist complete pair-index/chain schedule before first optimizer update. No D/GT-dependent sampling."
+  },
+  "loss": "Reuse v1 equal4-group changed-weighted after-observation loss plus0.25 stopgrad real-successor latent MSE. Every4 updates same common-base observed2/3-step terms at0.25 each. Current reconstruction and variance omitted as constants under frozen representation. No zero-delta target imposed on refusals; use recorded actual after including96 hold.",
+  "selection": "Per arm/seed choose minimum0.5*(old C35-root-macro changed-weighted observation MSE)+0.5*(additional C2-root-macro same MSE), checkpoints0/250/500/750/1000; earlier checkpoint breaks exact tie. Never use D1, D2, semantic scores or closed-loop success for selection.",
+  "development_reporting": "Report both terms, every condition, all current/actual-successor/predicted-successor semantic denominators, normal-call regressions and refusal false-positive rate. Current readout is frozen and known imperfect; no hidden head calibration.",
+  "test": {
+    "root_manifest": "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/configs/proposed_D2_roots.json",
+    "root_count": 12,
+    "normal_reference_attempts_if_all_skills_reached": 42,
+    "matched_place_attempts": 48,
+    "preparation": "Each branch reset to same declared root. Real existing PhysicalOracle preparation; GT can verify/score preparation but never enter model or planner. Keep every failed preparation and root denominator, no replacement root. Preparation calls logged separately.",
+    "offline": "Both seeds on same stored true before/after windows; all90 planned calls stratified into success/refused/failed/unreached with exact denominators.",
+    "closed_loop": "Both arms seed0 only;12 matched roots each; max6 calls/rollout,24 rollouts,at most144 task calls. No stored reference sequence used by search.",
+    "planner": "Same beam32,horizon4,threshold0.8,reobserve each call,max6; options differ only by canonical place. Record selected action and actual native contract; no hard-coded preconditions/effects.",
+    "no_test_repair": "D1 used historical evidence only. D2 collect once after accepted implementation, no tuning/reselection/extra seeds/failure-specific retries after opening. Root-level paired reporting; do not treat branches/windows as independent."
+  },
+  "acceptance_boundary": "Independent protocol acceptance and code/data/interface audit precede any optimizer update or D2 collection. No numerical original-guide threshold is changed. Report a failed repair as a failure; no guaranteed improvement or complete-project claim.",
+  "known_limits": [
+    "Freezing encoder/head cannot repair current-state HeldClosed query errors.",
+    "The matched AB coverage adds only4 independent roots; C adds2 and lacks red.",
+    "This compares extra coverage under a common corrected interface; it does not isolate interface correction against v1 on the same new test.",
+    "Closed-loop seed1 is not scheduled; no claim of across-seed closed-loop reproducibility."
+  ],
+  "current_execution": {
+    "training_updates": 0,
+    "new_physical_calls": 0,
+    "new_test_observations": 0
+  }
+}

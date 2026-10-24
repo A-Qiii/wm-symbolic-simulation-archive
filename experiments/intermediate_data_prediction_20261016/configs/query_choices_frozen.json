@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-16T13:07:30.180766+00:00",
+  "criterion": "perseed lower old/new C selection score; old first on exact tie",
+  "selected": {
+    "0": {
+      "arm": "new_coverage",
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed0/update0900.pt",
+      "sha256": "8d90f8603094779242207df185195338e084e7e8ead8b868eee98e2f6421b893",
+      "C_score": 0.2517159953713417,
+      "selection": "minimum equal-weight old/new C-select root-macro masked loss, earlier tie"
+    },
+    "1": {
+      "arm": "new_coverage",
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed1/update0600.pt",
+      "sha256": "00673636ff9d68a1f10c536ce882c35d11f9e7c2a99146a1f77f0b0b6d215a8d",
+      "C_score": 0.23914200067520142,
+      "selection": "minimum equal-weight old/new C-select root-macro masked loss, earlier tie"
+    }
+  },
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_old_coverage_seed0/update0300.pt": "f2139a4bb347be6f1d5a2e518bc7f065457ddf4fdd56c7bbe8ce76a4c75d8427",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed0/update0900.pt": "8d90f8603094779242207df185195338e084e7e8ead8b868eee98e2f6421b893",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_old_coverage_seed1/update0300.pt": "0b6347d95b10a1842664cac8a739bd2745f0afdb20cbc6b7b62be66175e5be65",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/models/query_new_coverage_seed1/update0600.pt": "00673636ff9d68a1f10c536ce882c35d11f9e7c2a99146a1f77f0b0b6d215a8d"
+  },
+  "C_validation_and_D_used": false
+}

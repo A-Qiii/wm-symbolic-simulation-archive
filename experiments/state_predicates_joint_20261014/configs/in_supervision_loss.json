@@ -1,0 +1,5 @@
+{
+  "variant": "in_supervision",
+  "weights": "unweighted_per_valid_fact",
+  "balanced_formula": null
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-18T16:14:14.050506+00:00",
+  "before_dev_prediction": true,
+  "fits": 4,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/final_context_zero_seed0.pt": "72ec17f8de3ecdf55a9894c8edf3c1892f787df6593d950acac1fa18e964533e",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/final_context_present_seed1.pt": "ba9d1c4732f82280384d741f102810f58cbd236eaaad01c678dec1330a0ef997",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/final_context_present_seed0.pt": "1f1427f9a239789e53395cb3c2948a81530618b40a2895fb53ca879b74b5d1fa",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_static_context_diagnostic_20261018/models/final_context_zero_seed1.pt": "41db5f3387bdd387a5cdb49e0906a566c6a4093ea59d34ccf627abd43a54912e"
+  },
+  "normalization_sha256": "e846e3f7a39a52c0aafe7a110b52d685b25c78a7203e8dcd4282bca7fa6e14a3"
+}

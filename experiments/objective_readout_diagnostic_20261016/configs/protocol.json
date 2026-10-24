@@ -1,0 +1,75 @@
+{
+  "frozen_utc": "2026-10-16T14:53:10.117550+00:00",
+  "scope": "Frozen decoder/objective/query mechanism diagnostic only; no network optimization, simulation, data collection, loss change or newD.",
+  "sampling": "All240 boundaries of60 existing diagnostic trajectories:oldAB12normal,newAB12x2branches,Cselect6x2,Cvalidate6x2. No sampling on outcome, prediction or label.",
+  "selected_models": {
+    "span3_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed0/update0250.pt",
+      "sha256": "3b601d2d5a5b2f03737a5bb1cb744f55be2187a778ca6588dc7d5f532939c64b",
+      "C_score": 1.1888126581907272
+    },
+    "span4_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed0/update0250.pt",
+      "sha256": "9100c1a1605b86ce8fa54946717f36d4e592ae648a26e491f1f10102f2808d64",
+      "C_score": 1.1990782022476196
+    },
+    "span3_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed1/update0250.pt",
+      "sha256": "db5d643c1f74c21d8ca40d2150f46c4c7520fd2486050e74551d0e56628007e9",
+      "C_score": 1.2024592906236649
+    },
+    "span4_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed1/update0250.pt",
+      "sha256": "4937f19665012b9a6ae01e369f283e8c78b392f2735fa1eaf889b87443109d1b",
+      "C_score": 1.2049647867679596
+    }
+  },
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "initializations": "Each queryseed has240 actual successor latents. Each of4selectedtransitionmodels has240trueprevious single-step and240initial-only full4 recursive latents. 2400 cases total; two objectives share each exact start.",
+  "losses": {
+    "mixed": "F+0.25Z",
+    "latent_only": "0.25Z",
+    "F": "mean of4groupmeans:object_visual256x3,object_geometry12x3,scene_visual1024,robot15; percoordinate weight1+4*clamp(abs(actual_after-actual_before),max1)",
+    "Z": "raw latent MSE over4x64, no query normalization; coefficient held at0.25 in both arms to isolate removing F"
+  },
+  "optimization": {
+    "parameters": "only independent per-sample latent tensor; all model parameters requires_grad=False",
+    "optimizer": "plain gradient descent; sum independent per-sample objective (no batch averaging)",
+    "learning_rate": 4.0,
+    "steps": 32,
+    "snapshots": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "clipping": false,
+    "line_search": false,
+    "early_stopping": false,
+    "nonfinite": "stop and report; do not retune",
+    "selection": "no best-step or C-based selection; step32 is primary endpoint, earlier steps diagnostic"
+  },
+  "gradients": "At every initial case compute F gradient and0.25Z gradient, individual F-group gradients, norms/cosine; compute query logit JVP along -gradF without labels. True labels only in post-hoc scoring.",
+  "checkpoint_pairs": "All20existingSPANcheckpoints:4runs x0/250/500/750/1000. Evaluate same240boundaries in single and fullrecursive paths. Adjacent-update sample pairs primary; no reselection.",
+  "scoring": "Full9/group correctness, signed logit margin, baseline-error cohorts, true-state strata, AB/C and normal/refusal. Positive logit margin denotes correct side of boundary, not calibrated confidence. Report objective decrease with correct-to-wrong flips and target distance.",
+  "thresholds": {
+    "objective_decrease": 1e-06,
+    "gradient_nonzero_rms": 1e-08,
+    "margin_direction": 1e-06
+  },
+  "limits": "Latent optimization points need not be physically realizable states; finite diagnostic cannot establish causal training improvement or latent information loss. C is repeatedly seen development data.",
+  "stop": "Report whether controlled latent-only vs mixed training is justified; do not start it."
+}

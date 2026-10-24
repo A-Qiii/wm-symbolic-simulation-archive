@@ -1,0 +1,956 @@
+{
+  "created_utc": "2026-10-14T13:23:08.224434+00:00",
+  "scope": "OnlysixpreviouslylistedexistingChelddownwindows. Replayoriginalepisodeinitialization/setup/prefix/targetactions; noadditionalroot/control/training/thresholdchanges.",
+  "sources": [
+    {
+      "root": {
+        "root_id": "C_core1200_00",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223000,
+        "initial_state": "closed_empty",
+        "held_color": null,
+        "layout": {
+          "block_red": [
+            0.05850782210248704,
+            -0.09572576025798737,
+            0.46,
+            0.0,
+            0.0,
+            0.16500888054021745
+          ],
+          "block_blue": [
+            0.18493990790614848,
+            -0.11059359483514294,
+            0.46,
+            0.0,
+            0.0,
+            -2.9254284192638123
+          ],
+          "block_pink": [
+            0.3075187960348052,
+            -0.07769767030856436,
+            0.46,
+            0.0,
+            0.0,
+            -0.8378844119755269
+          ]
+        },
+        "branches": [
+          [
+            "open_drawer",
+            "lift_red_block_table",
+            "place_in_drawer",
+            "close_drawer"
+          ],
+          [
+            "place_in_drawer",
+            "open_drawer",
+            "lift_blue_block_table",
+            "place_in_drawer"
+          ],
+          [
+            "open_drawer",
+            "lift_pink_block_table",
+            "close_drawer",
+            "place_in_drawer"
+          ]
+        ],
+        "setup_skills": []
+      },
+      "episode_id": "C_core1200_00_b0",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer"
+      ],
+      "target_color": "red",
+      "anchor_frame": 67,
+      "history_frame_indices": [
+        4,
+        25,
+        46,
+        67
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_00",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer",
+        "condition": "held_down",
+        "colour": "red",
+        "anchor": 67,
+        "indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -20.933246595109644,
+        "object_z_change_mm": -21.38886277033403,
+        "relative_drift_mm": 0.8939226720629402,
+        "TCP_max_move_mm": 194.75065256523322,
+        "object_max_move_mm": 195.56455527079675,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    },
+    {
+      "root": {
+        "root_id": "C_core1200_01",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223001,
+        "initial_state": "open_empty",
+        "held_color": null,
+        "layout": {
+          "block_red": [
+            0.18862730269104594,
+            -0.13161685509823912,
+            0.46,
+            0.0,
+            0.0,
+            1.2499258178133354
+          ],
+          "block_blue": [
+            0.04692756429706199,
+            -0.1286383599256662,
+            0.46,
+            0.0,
+            0.0,
+            -0.30590326789709765
+          ],
+          "block_pink": [
+            0.28592810149944076,
+            -0.11185587542802326,
+            0.46,
+            0.0,
+            0.0,
+            -1.2595168593420398
+          ]
+        },
+        "branches": [
+          [
+            "lift_blue_block_table",
+            "place_in_drawer",
+            "close_drawer",
+            "open_drawer"
+          ],
+          [
+            "open_drawer",
+            "lift_pink_block_table",
+            "place_in_drawer",
+            "close_drawer"
+          ],
+          [
+            "lift_red_block_table",
+            "close_drawer",
+            "place_in_drawer",
+            "close_drawer"
+          ]
+        ],
+        "setup_skills": [
+          "open_drawer"
+        ]
+      },
+      "episode_id": "C_core1200_01_b2",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer"
+      ],
+      "target_color": "red",
+      "anchor_frame": 68,
+      "history_frame_indices": [
+        5,
+        26,
+        47,
+        68
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_01",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer",
+        "condition": "held_down",
+        "colour": "red",
+        "anchor": 68,
+        "indices": [
+          5,
+          26,
+          47,
+          68
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -22.63707645967916,
+        "object_z_change_mm": -22.966778407317868,
+        "relative_drift_mm": 0.5394057623074828,
+        "TCP_max_move_mm": 185.16551966599707,
+        "object_max_move_mm": 185.21143986211848,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          5,
+          26,
+          47,
+          68
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    },
+    {
+      "root": {
+        "root_id": "C_core1200_02",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223002,
+        "initial_state": "open_held",
+        "held_color": "pink",
+        "layout": {
+          "block_red": [
+            0.3071724279350366,
+            -0.07357392550916511,
+            0.46,
+            0.0,
+            0.0,
+            1.9492566201305621
+          ],
+          "block_blue": [
+            0.17292008086457733,
+            -0.11008718417574012,
+            0.46,
+            0.0,
+            0.0,
+            -1.5599531151127497
+          ],
+          "block_pink": [
+            0.04649057767250302,
+            -0.05319990606126307,
+            0.46,
+            0.0,
+            0.0,
+            -1.5282247168955394
+          ]
+        },
+        "branches": [
+          [
+            "place_in_drawer",
+            "close_drawer",
+            "open_drawer",
+            "lift_blue_block_table"
+          ],
+          [
+            "close_drawer",
+            "place_in_drawer",
+            "close_drawer",
+            "open_drawer"
+          ],
+          [
+            "lift_blue_block_table",
+            "place_in_drawer",
+            "lift_blue_block_table",
+            "place_in_drawer"
+          ]
+        ],
+        "setup_skills": [
+          "open_drawer",
+          "lift_pink_block_table"
+        ]
+      },
+      "episode_id": "C_core1200_02_b2",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer"
+      ],
+      "target_color": "blue",
+      "anchor_frame": 67,
+      "history_frame_indices": [
+        4,
+        25,
+        46,
+        67
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_02",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer",
+        "condition": "held_down",
+        "colour": "blue",
+        "anchor": 67,
+        "indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -21.65679955579236,
+        "object_z_change_mm": -21.93787407509329,
+        "relative_drift_mm": 0.6797421304366141,
+        "TCP_max_move_mm": 190.82322411180996,
+        "object_max_move_mm": 191.43606987537322,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    },
+    {
+      "root": {
+        "root_id": "C_core1200_03",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223003,
+        "initial_state": "closed_empty",
+        "held_color": null,
+        "layout": {
+          "block_red": [
+            0.3034771119466967,
+            -0.10859158757172924,
+            0.46,
+            0.0,
+            0.0,
+            0.9394358887830743
+          ],
+          "block_blue": [
+            0.042233989136699485,
+            -0.13812158511488512,
+            0.46,
+            0.0,
+            0.0,
+            2.084223319576134
+          ],
+          "block_pink": [
+            0.16985458070466955,
+            -0.08979600486742574,
+            0.46,
+            0.0,
+            0.0,
+            -1.6576889424444883
+          ]
+        },
+        "branches": [
+          [
+            "open_drawer",
+            "lift_red_block_table",
+            "place_in_drawer",
+            "close_drawer"
+          ],
+          [
+            "place_in_drawer",
+            "open_drawer",
+            "lift_blue_block_table",
+            "place_in_drawer"
+          ],
+          [
+            "open_drawer",
+            "lift_pink_block_table",
+            "close_drawer",
+            "place_in_drawer"
+          ]
+        ],
+        "setup_skills": []
+      },
+      "episode_id": "C_core1200_03_b1",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer"
+      ],
+      "target_color": "blue",
+      "anchor_frame": 67,
+      "history_frame_indices": [
+        4,
+        25,
+        46,
+        67
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_03",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer",
+        "condition": "held_down",
+        "colour": "blue",
+        "anchor": 67,
+        "indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -22.602607810450426,
+        "object_z_change_mm": -22.894909639947446,
+        "relative_drift_mm": 0.9098843533007194,
+        "TCP_max_move_mm": 168.38579788185498,
+        "object_max_move_mm": 168.59281979446743,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    },
+    {
+      "root": {
+        "root_id": "C_core1200_04",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223004,
+        "initial_state": "open_empty",
+        "held_color": null,
+        "layout": {
+          "block_red": [
+            0.04414022950948533,
+            -0.13203217177163365,
+            0.46,
+            0.0,
+            0.0,
+            2.941931316044613
+          ],
+          "block_blue": [
+            0.2912615306949665,
+            -0.12933952620349623,
+            0.46,
+            0.0,
+            0.0,
+            -3.11974009093477
+          ],
+          "block_pink": [
+            0.1842604842090109,
+            -0.13455930730704688,
+            0.46,
+            0.0,
+            0.0,
+            -2.517287876873244
+          ]
+        },
+        "branches": [
+          [
+            "lift_blue_block_table",
+            "place_in_drawer",
+            "close_drawer",
+            "open_drawer"
+          ],
+          [
+            "open_drawer",
+            "lift_pink_block_table",
+            "place_in_drawer",
+            "close_drawer"
+          ],
+          [
+            "lift_red_block_table",
+            "close_drawer",
+            "place_in_drawer",
+            "close_drawer"
+          ]
+        ],
+        "setup_skills": [
+          "open_drawer"
+        ]
+      },
+      "episode_id": "C_core1200_04_b1",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer"
+      ],
+      "target_color": "pink",
+      "anchor_frame": 68,
+      "history_frame_indices": [
+        5,
+        26,
+        47,
+        68
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_04",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer",
+        "condition": "held_down",
+        "colour": "pink",
+        "anchor": 68,
+        "indices": [
+          5,
+          26,
+          47,
+          68
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -22.800192059315272,
+        "object_z_change_mm": -23.187884697602357,
+        "relative_drift_mm": 0.7386637547362096,
+        "TCP_max_move_mm": 180.58366195378767,
+        "object_max_move_mm": 180.8233946798388,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          5,
+          26,
+          47,
+          68
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    },
+    {
+      "root": {
+        "root_id": "C_core1200_05",
+        "environment": "C",
+        "split": "dev",
+        "dev_role": "tune",
+        "seed": 223005,
+        "initial_state": "closed_empty",
+        "held_color": null,
+        "layout": {
+          "block_red": [
+            0.2915495882041601,
+            -0.05280488862139346,
+            0.46,
+            0.0,
+            0.0,
+            -0.6251364487663409
+          ],
+          "block_blue": [
+            0.17342712440910552,
+            -0.08623342645399451,
+            0.46,
+            0.0,
+            0.0,
+            1.829879814822423
+          ],
+          "block_pink": [
+            0.06651925497067131,
+            -0.11042343534159224,
+            0.46,
+            0.0,
+            0.0,
+            -2.655010883502885
+          ]
+        },
+        "branches": [
+          [
+            "open_drawer",
+            "lift_pink_block_table",
+            "place_in_drawer",
+            "close_drawer"
+          ],
+          [
+            "place_in_drawer",
+            "open_drawer",
+            "lift_red_block_table",
+            "place_in_drawer"
+          ],
+          [
+            "open_drawer",
+            "lift_blue_block_table",
+            "close_drawer",
+            "place_in_drawer"
+          ]
+        ],
+        "setup_skills": []
+      },
+      "episode_id": "C_core1200_05_b0",
+      "source_episode": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0",
+      "source_target": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer",
+      "prefix_segments": [
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table",
+        "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer"
+      ],
+      "target_color": "pink",
+      "anchor_frame": 67,
+      "history_frame_indices": [
+        4,
+        25,
+        46,
+        67
+      ],
+      "original_candidate": {
+        "source": "core",
+        "root_id": "C_core1200_05",
+        "trajectory": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer",
+        "condition": "held_down",
+        "colour": "pink",
+        "anchor": 67,
+        "indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "held_all64": true,
+        "TCP_z_change_mm": -20.07240891881512,
+        "object_z_change_mm": -20.457506738711718,
+        "relative_drift_mm": 0.9014623683262266,
+        "TCP_max_move_mm": 188.32250814280906,
+        "object_max_move_mm": 188.96428616639523,
+        "exact_public_complete": false,
+        "visible_all4": null,
+        "missing_indices": [
+          4,
+          25,
+          46,
+          67
+        ],
+        "public_paths": []
+      },
+      "split_status": "existing_C_development_used_in_prior_selection; not unseen or independentacceptance",
+      "new_independent_root": false
+    }
+  ],
+  "models": [
+    {
+      "arm": "long_history",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt",
+      "checkpoint_sha256": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+      "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt",
+      "checkpoint_sha256": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "history": "Exact[t-63,t-42,t-21,t]at30Hz,2.10s,samefrozenDINOreader.",
+  "replay": "NativeCseedandoriginalblockinitialposes. Same24settlecontrols; originalrecordedsetupactions and alloriginalprecedingsegmentactions throughfulltargetsegment. NeverresettointermediatesavedGTstate. Savefullpublicframesoftargetsegment.",
+  "tolerances": {
+    "exact_numeric_max_abs": 1e-09,
+    "max_TCP_or_object_position_m": 0.0001,
+    "max_robot_or_object_angle_rad": 0.001,
+    "max_gripper_width_m": 0.0001,
+    "max_settled_scene_or_robot_vector_abs": 0.0001,
+    "event_transition_max_shift_controls": 1,
+    "saved_RGB_mean_absolute_pixel_error_0_255": 2.0,
+    "saved_target_mask_IoU_min": 0.95,
+    "exact_recovery_requires": "All numeric<=1e-9, identical event sequences, all saved RGB and visible mask arrays bitwise equal. Otherwise within tolerance marked NEW_REPLAY, never original-frame restoration.",
+    "failure": "Outside tolerance stops continuation for evidence review; preserve outputs, do not relax tolerance or resample root."
+  },
+  "full_state_checks": "Rootfullrobot/scenecheckpoint; eachprefix/targetrobot,scene/objectstates; physicalheld/bilateral/supportevents; originalrootandsegmentinitial/boundaryRGB/masks. Exactmeansnumeric<=1e-9andbitwiseavailablepixels. Outsidefrozenlimitsstop; withintolerancebutnonexactrecordnewreplay.",
+  "target_label": "Unchangedphysicalheldatanchor; continuouslyheld64frameconditionverifiedoffline; nofutureinput.",
+  "missing_visibility": "Retainandreport; no substituteanchors or roots. Additionalin/open/otherheldscoresonlyforvalidandall4visibleentities.",
+  "evaluation": "Threealreadyfrozenlong_historyupdate600models,originalthresholds,onebatchpermodel. No checkpointchoice or thresholdadjustment.",
+  "interpretation": "ExistingCdevelopment,notindependenttest. Combinewithprior0/.1/2.1sdiagnosticandemptyupwardchallenge; preservehistoricalerrors. Stopafterthese6.",
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/setup_private.json": "145ef8a10735d4a994cf43b690e73b0577819b124f52b946757da8a308ebb946",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/root_reset_private.npz": "dd4b372aa269a2239ac152865aa2143da95c00bf9385d5609a29f6a380947464",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/root_observation_0.npz": "994cc6e35f99793e72e8a34ad042f49419e5f153a9db0d14b242a2ac607dd495",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/root_observation_1.npz": "39f296109af81c1c8058ba5b5e1f3b08dab7ef34265c049102add1abb6f8f81f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/root_observation_2.npz": "2d50deb66829ef018e4386fe348b026b85f1392e90ed255d75d4876cb2bdc8c4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/root_observation_3.npz": "1a7dbc9959d8a12d7b05442cb4758170be6a30abb2031a07c7ffbf12ca1d61e5",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/controls.json": "bc89639c284156233f0fe7e6af102621c0f134d016a5b8b252fc957f61ec8c32",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/trace_private.json.gz": "5085913f1fec5e83c2b53674715f322b343263edda1b4a03aab1bd115e33395b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/endpoint_info_private.json": "ddbe1b715e06671a8172aa6a7eccc8f9b1ffe9b98d3c8f7adc932bae1ed9a03e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/labels_ownership_v2_private.json": "70d3149d4e9017e93296c29f84adb9a5c3e697d0749ec87f7defbdca3c55a7e1",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/initial_public.npz": "1a7dbc9959d8a12d7b05442cb4758170be6a30abb2031a07c7ffbf12ca1d61e5",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/final_public.npz": "37050d35f706ea92d84ce5d791e1e2d1794b2aa361bfb51827283958eb56e554",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/boundary_history_0.npz": "5f481776e226dd3a450b4630bfc31ab07dcb5929a3cb77fd0f0deb98e0680287",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/boundary_history_1.npz": "2af07180f0f02da42406851e4cf0b57afee0ab58a796cd62442c481f1f98686b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/boundary_history_2.npz": "5029829167cb699f19dd6d36ec4cc68c639558ddd2f6af64998f8e735703739c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/00_open_drawer/boundary_history_3.npz": "37050d35f706ea92d84ce5d791e1e2d1794b2aa361bfb51827283958eb56e554",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/controls.json": "d719ef894ef5c5303ba737e9b998da63ffa0bdae180459eb4c693f6e5b6e2dc3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/trace_private.json.gz": "9639fec8dd5446c2a203233b7e413e41e6ae813515095d414d7258a41111fd72",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/endpoint_info_private.json": "9e51ac769bfc643ee8179a4671fc24ed76ef50f381f334f5c1c9b3856615546b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/labels_ownership_v2_private.json": "333ce1978671586118132fa1059e97e68a018f51650cfb2bdec63a00d50ea582",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/initial_public.npz": "37050d35f706ea92d84ce5d791e1e2d1794b2aa361bfb51827283958eb56e554",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/final_public.npz": "0e36b092ce740266aeb9dd3b7ee22f8331cf16a337a99b6413bd5943a76c472d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/boundary_history_0.npz": "096192b19bc44137e661f56dbd9ddb18277297135caa2c1d93d9d46694360281",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/boundary_history_1.npz": "0a22e85312a9cb5ca5f55f7500bb9cca52e0c12c8256881b4c646c81cf8e16dd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/boundary_history_2.npz": "fe8f3ee7ee893264f6164221d5db840e14b4c342ef11f29a6854ec5ffc5a5005",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/01_lift_red_block_table/boundary_history_3.npz": "0e36b092ce740266aeb9dd3b7ee22f8331cf16a337a99b6413bd5943a76c472d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/controls.json": "e25d8f8deb035c26a0086c8506a5710149b010703840b2769b9f43ce563c5b3f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/trace_private.json.gz": "beda2f1a068c5f147c7a7d2de5722b1894b01d25cbd417fdadae9c381fe3b7b0",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/endpoint_info_private.json": "1d9af7226d7a0e4c87876ff8eab5b3f532693a044ba6a1df5b03c5706c01e8fa",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/labels_ownership_v2_private.json": "941156eaf1c2f2bbe7b1666b51933c9a36568c5a238d27571e2b2d47b0efe93a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/initial_public.npz": "0e36b092ce740266aeb9dd3b7ee22f8331cf16a337a99b6413bd5943a76c472d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/final_public.npz": "41f1f7c0e39ed06e2cdaf106ca9dba9263ed2b974795c5e5a01bea60f2a9f83b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/boundary_history_0.npz": "ecf81ed2e0a8439df8b5f4ea04d0fd620da75d8fdc665cd98d83881b76536e67",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/boundary_history_1.npz": "bd5f33bb381a4972db4cb438c1dd98b5f59c2531b1c0265b4f4ddd4e873badd6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/boundary_history_2.npz": "f4b419f464e18bbc88520b9ac822450a14401f9211867c2c56523d3ff088139f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_00_b0/02_place_in_drawer/boundary_history_3.npz": "41f1f7c0e39ed06e2cdaf106ca9dba9263ed2b974795c5e5a01bea60f2a9f83b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/setup_private.json": "2a7fe8c78eca534ce057d4b15f1cd6af97dc2e31cf4a2200859eba7f9799fb79",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/root_reset_private.npz": "4454096170bc6782cf9df16b0739ab0a8ea74c9641fd0e2e14e3dd45f2521104",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/root_observation_0.npz": "279185b1e9205ac7c4aead67f703aed48f3d96547a186a1c4a56e24e49e44ada",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/root_observation_1.npz": "8ab320fbd51b064f5f5712d8e7943965f31c4937070f76820a9460f22ec6776d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/root_observation_2.npz": "45ce6ae5a2cf4c6294f4fc99fa9b25204d5fdc90143a0b1033853e8d642895a4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/root_observation_3.npz": "5f2556912d78a45bfad1e89e91b2c62d0945e9aa23771598dba6a42269c9f21b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/controls.json": "4f5ba58fa22551c4c4db6df98af34824c8b206b1128f63ce0697d3aa3c810b74",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/trace_private.json.gz": "9a9817d2398b193ad49c36b0a215298586f09adb2c065993f81f1f5f567095bf",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/endpoint_info_private.json": "5b2abc7dd7d23ea8a2ebe45df037864324a02f366fd1b92fbbf9d7656f94d8d1",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/labels_ownership_v2_private.json": "afa0545e81c911cb244b30db790a9d1f1180cc5af7d8574c5d92c72599881f58",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/initial_public.npz": "5f2556912d78a45bfad1e89e91b2c62d0945e9aa23771598dba6a42269c9f21b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/final_public.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/boundary_history_0.npz": "e3423c9f9c328081b20845d93266b461dd73011111ce8631627f3fcb43a12635",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/boundary_history_1.npz": "d87e1cc35d60b0ff8b1a796976437caeef5e1d6584b20b401f7240cd14b9f9b8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/boundary_history_2.npz": "8e32ab19ed4586fca10166d093ed37617600bbe6e5fa103d567bc38fa725044a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/00_lift_red_block_table/boundary_history_3.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/controls.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/trace_private.json.gz": "3e6ca82900516b3412ac0b3e9b0bda686b01d3276f867d2964169c0d93010923",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/endpoint_info_private.json": "413e919f99e39684942a0489379d3752026db9e4e69cbab0060e685d43eeda50",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/labels_ownership_v2_private.json": "39759fd467d10ccb17cca2edf6985c80c62fcbf7274a0363a75e5fc827836104",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/initial_public.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/final_public.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/boundary_history_0.npz": "e3423c9f9c328081b20845d93266b461dd73011111ce8631627f3fcb43a12635",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/boundary_history_1.npz": "d87e1cc35d60b0ff8b1a796976437caeef5e1d6584b20b401f7240cd14b9f9b8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/boundary_history_2.npz": "8e32ab19ed4586fca10166d093ed37617600bbe6e5fa103d567bc38fa725044a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/01_close_drawer/boundary_history_3.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/controls.json": "e3149b933f5df2179d772145caaed7685609b2b541f2efa5d89560b1a046642d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/trace_private.json.gz": "d05ff4b46062daf390d6e1347c49581e70c3875eeea6842fe94d486544733470",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/endpoint_info_private.json": "6a987507518682f6fd912e3fd98edeec8fbb7d7462b0bac5ab176fd7d4aa4d30",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/labels_ownership_v2_private.json": "4e9c3c1641cdec3c6cd6fd8c99c0b83c1093c69ace975ff94fd2e39189ac9b3e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/initial_public.npz": "7767d46099c9839d3b7f8fcc71a5223341cda5ca17839c324c3d4ea265def53b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/final_public.npz": "eef18e770c0f1a4e4855a570673d12254d50d75a84ff76e9083bb43ce46f4a82",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/boundary_history_0.npz": "f5e489c6db873e22161ae338c9dfeff8a874901bc7def888c9eeff915e5e3fcb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/boundary_history_1.npz": "26fc0d26da35ef457728b603a0ee4ddd11536cb3861943eb8d8518038cbdd034",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/boundary_history_2.npz": "35f531d92b789b0ec329e8980a9d6139267a9dd6f590d793db6ab8fb00442673",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_01_b2/02_place_in_drawer/boundary_history_3.npz": "eef18e770c0f1a4e4855a570673d12254d50d75a84ff76e9083bb43ce46f4a82",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/setup_private.json": "7083e51d8c99bd6e24a1bb2f736176e9816e6f3b3372063e9c6a931fc447ee2f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/root_reset_private.npz": "ebee1d977224fe31688ec5daa59c477e128850c10ff800b2fb175e9bc74a9094",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/root_observation_0.npz": "3b4fd7e1ad335983607110fe5887c544486c40ca312e5d0406340efa24323f8a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/root_observation_1.npz": "88c5a459a178bde4984af628f17ee49108220c910ddda647e19cbd77b601e40c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/root_observation_2.npz": "c14947823677d4cb42bedf45741ea1cada0f86039d55321c1578e68a19dcb064",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/root_observation_3.npz": "f9b51a6d5d82b8f320b09b71fa0e91e4eadec94c1be490875383e005a5cc341c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/controls.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/trace_private.json.gz": "f5b076ab8882db4e769be3a067afc2eac45cc888a2d21a217eebc4d39352740c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/endpoint_info_private.json": "797adbfc5dc1f2592bc69cdd7a66f90ac7519b3841c834dc9b478c5f28d7f794",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/labels_ownership_v2_private.json": "95aabc348a6dcfe9232c6ef15562c170d3e057f26af1514bfb72edabd42da619",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/initial_public.npz": "f9b51a6d5d82b8f320b09b71fa0e91e4eadec94c1be490875383e005a5cc341c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/final_public.npz": "f9b51a6d5d82b8f320b09b71fa0e91e4eadec94c1be490875383e005a5cc341c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/boundary_history_0.npz": "3b4fd7e1ad335983607110fe5887c544486c40ca312e5d0406340efa24323f8a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/boundary_history_1.npz": "88c5a459a178bde4984af628f17ee49108220c910ddda647e19cbd77b601e40c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/boundary_history_2.npz": "c14947823677d4cb42bedf45741ea1cada0f86039d55321c1578e68a19dcb064",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/00_lift_blue_block_table/boundary_history_3.npz": "f9b51a6d5d82b8f320b09b71fa0e91e4eadec94c1be490875383e005a5cc341c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/controls.json": "bbd842d711551afaad56bd97d000dbf8100cbd672394d1db5460ac96ec3dcfeb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/trace_private.json.gz": "6b47e62551b99db87518ccf98f9c2ec02fc9ac2e157e9086f3db08ea30918aca",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/endpoint_info_private.json": "d814d6512d60d8010ad97f570d3d803061f802f76707609005976e5fd4564ad0",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/labels_ownership_v2_private.json": "1797ec548bd4a63415ebfad6e780f00b078e3bcf6fe3d8121a30d0133f09145a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/initial_public.npz": "f9b51a6d5d82b8f320b09b71fa0e91e4eadec94c1be490875383e005a5cc341c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/final_public.npz": "4661807551e6d5f8f13e244467df6be7b052712e150844ea041db5aa27be8d97",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/boundary_history_0.npz": "a141d03647b9b2f646cc21de2950345fc38cd71c35b05cf92760bfc80390fe80",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/boundary_history_1.npz": "9c4fc4bb69dead537906cd3054494408b47fa16b4be04fef6c2d88f2b1cccceb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/boundary_history_2.npz": "43d0c9f310c7372fde1b62bd435bbce2acd34280389168c3ca98b7b9ad5ec345",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/01_place_in_drawer/boundary_history_3.npz": "4661807551e6d5f8f13e244467df6be7b052712e150844ea041db5aa27be8d97",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/controls.json": "9ad3b7da498349005b14afd72220f88b80b82746f11f5886f1710676cc30adad",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/trace_private.json.gz": "00434c4a38c0ebad87241d203cc45691ee0898675c4ca8304d627844d62095f6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/endpoint_info_private.json": "0dc78475f7f9f81212a2e14ad137eb65350a77f29e8354ef4d903a6ff22fe7de",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/labels_ownership_v2_private.json": "2670498af8d996eaf5bfdd63cad380681f3517e7b83d351277035a2c6c67ea7e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/initial_public.npz": "4661807551e6d5f8f13e244467df6be7b052712e150844ea041db5aa27be8d97",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/final_public.npz": "aaa3f55eb6cf135b99a568d6e835d9d3877bb6d831e43993356abbebb512d4b3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/boundary_history_0.npz": "2bb3b9013656b8254f4fa5af55fdd6e62da15f91dfa5511722b189c970bf0d26",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/boundary_history_1.npz": "024a5be98480dc39e1001cc600dbf07a2643841a5bb286856af169b61da65014",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/boundary_history_2.npz": "b9d1e1a779952776b3c198ed54c03e50e1a8f2119c09f966df9235383c6f0693",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/02_lift_blue_block_table/boundary_history_3.npz": "aaa3f55eb6cf135b99a568d6e835d9d3877bb6d831e43993356abbebb512d4b3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/controls.json": "19d6d09ede2d045d0ba49f73f10a8ff95e742427d6a375c5afe8ea9ecebca09e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/trace_private.json.gz": "67db677a1e1f9e7efd0221aa1bc479274af83f8870fdca73d28a5135586818d8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/endpoint_info_private.json": "3993ea0473f43d0f0fe01106aee5b193651405f304f3def78701f94d85f5ce7d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/labels_ownership_v2_private.json": "4039e47a5a892606a20294fc94e6ddf6b40fc63f6b7c7c798fab9ef48894a81d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/initial_public.npz": "aaa3f55eb6cf135b99a568d6e835d9d3877bb6d831e43993356abbebb512d4b3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/final_public.npz": "a925561265850c5a1e6bb056aff046d55490fd4754cd0349b229a32e0683fae7",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/boundary_history_0.npz": "da65de88aff0c836e63c4032eca735a3c7857e3e02462c0bac734b7fe4161707",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/boundary_history_1.npz": "b6d97c5794a83bb01bccc1fac9a8fa8694d114513aacbbcbb1a880d61b26f81f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/boundary_history_2.npz": "79d0e57a1bc1ad3b9e2e8412a5af0fed3d41f2cf575fd05e479f25c5a594fb40",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_02_b2/03_place_in_drawer/boundary_history_3.npz": "a925561265850c5a1e6bb056aff046d55490fd4754cd0349b229a32e0683fae7",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/setup_private.json": "a862b423e6fc91f2dd273b3476e56f5e99189e9b04533b245fc2d32e77be6024",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/root_reset_private.npz": "97b65b7c6750bbff6972630e3af3cea8c54e014ec7f07f149969b10a780b1101",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/root_observation_0.npz": "bba45edfede6f00b2923564aff480080819508ed981770b100b3a4bbbfac4af4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/root_observation_1.npz": "6e286bee4347c10c345f867bc70cac195a3cd28a210eb62ea6ea3b2002027d99",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/root_observation_2.npz": "f719d6ce548b24bd3d996dbc0a7136ac2e3e435bf08cf25b4aefde0bf237181e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/root_observation_3.npz": "b4abe64b65b86ea908f5b1b3433626f6743e02f22949bb6044861ac2bfd23502",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/controls.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/trace_private.json.gz": "a174af64c6f3ba0e7f83ece2d0ee863fdf384cb2aac8beb3206a01a87c399cee",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/endpoint_info_private.json": "a0fc38f96c195ee818d9a0500f2a05a272aae39ca774e11cd37e7f6e7f79e232",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/labels_ownership_v2_private.json": "814a89525d9eb3b25b950811acbb09c504740bdd697f921813a778066c0d6b16",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/initial_public.npz": "b4abe64b65b86ea908f5b1b3433626f6743e02f22949bb6044861ac2bfd23502",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/final_public.npz": "b4abe64b65b86ea908f5b1b3433626f6743e02f22949bb6044861ac2bfd23502",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/boundary_history_0.npz": "bba45edfede6f00b2923564aff480080819508ed981770b100b3a4bbbfac4af4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/boundary_history_1.npz": "6e286bee4347c10c345f867bc70cac195a3cd28a210eb62ea6ea3b2002027d99",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/boundary_history_2.npz": "f719d6ce548b24bd3d996dbc0a7136ac2e3e435bf08cf25b4aefde0bf237181e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/00_place_in_drawer/boundary_history_3.npz": "b4abe64b65b86ea908f5b1b3433626f6743e02f22949bb6044861ac2bfd23502",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/controls.json": "e53c1548969ed54bf6b8ccb459411be9d5839931a4b6c7af02709d42aec4c6c8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/trace_private.json.gz": "5181bbd2d5981abdc13f4fd0cb427ba4c6b0dc0de44fecf75888c720ae95abe3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/endpoint_info_private.json": "248f3d3c51e9720e7e1ce751a2aa5c83873b1d21a205daa5f8603dbbffdba6c3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/labels_ownership_v2_private.json": "9d3af35e08104b94991d930ee8529aa933e31f68e2bc8affe4f597073e43d0e4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/initial_public.npz": "b4abe64b65b86ea908f5b1b3433626f6743e02f22949bb6044861ac2bfd23502",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/final_public.npz": "f07d26b34f15198403e41faa606da689aefe7547b060efc9e99916d1cbc92291",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/boundary_history_0.npz": "159a6265a6ba25f61979fff4e881375ce694141577106b6260244cfef3b9f50b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/boundary_history_1.npz": "d56a06f104c5e9f43fb88c35aaf09d95810ca5c0efb1aad3f379ef0e6315a5f0",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/boundary_history_2.npz": "b7b7f062065c1dc073404b1faacb5f3d78e97e72fb297447419bd57c3e5b450b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/01_open_drawer/boundary_history_3.npz": "f07d26b34f15198403e41faa606da689aefe7547b060efc9e99916d1cbc92291",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/controls.json": "fa31f94b637b22762b23266d355fa1e821848eacffa12d0c4b6f93b586a58b5c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/trace_private.json.gz": "a984689060df30e12b99a42ddd5f548c3a97726e574535a3f01648e86e7c48c1",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/endpoint_info_private.json": "c02e1d3a98a344eeb3d1dd2bf012e99a7168d5362634f36c2474ca59c645f769",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/labels_ownership_v2_private.json": "7af4908abd996556f6e292ccbd44ce91eed5a02b28c0313b909ef197af1827d1",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/initial_public.npz": "f07d26b34f15198403e41faa606da689aefe7547b060efc9e99916d1cbc92291",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/final_public.npz": "a3d07afa0af2e5562e39b8e5b0419157702a447c1776928424c839f1b6ae67cd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/boundary_history_0.npz": "60739feca2991b9622a01ef4a741902791e23c3858e20e37513400cacc4e626b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/boundary_history_1.npz": "674ca83c19f28be333fc0717cab2ceb83c678487410ff7afa43702b69ebf8fc6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/boundary_history_2.npz": "c0fb4e08455f4a48a4fc1d9259b9687c42dae2b1ab64f9ba3e770c3615d42cd0",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/02_lift_blue_block_table/boundary_history_3.npz": "a3d07afa0af2e5562e39b8e5b0419157702a447c1776928424c839f1b6ae67cd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/controls.json": "c9340a1367ca3af49fc608438a70ea6d33937bd1b90a4655c1b75b93e146611b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/trace_private.json.gz": "91afe2838824877f02dd2bc140afc13e4f0fd76f0345d026d8ff2797c883cf6f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/endpoint_info_private.json": "8f987d21a579c86861d885bfe3b2821fa8771149d56afca83782d712b40a68b8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/labels_ownership_v2_private.json": "58e5b9ed084ed8ba088652f63c4f6ceb220ba945664314ca71ade44545b1a5b6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/initial_public.npz": "a3d07afa0af2e5562e39b8e5b0419157702a447c1776928424c839f1b6ae67cd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/final_public.npz": "daadcca7b812d0e245c58ea744950c0cc06b65f1668a76d7b95747ca1e04126f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/boundary_history_0.npz": "7441955de264930b5924078e081de57d1e0eea54fc129aefd826355a92d77c19",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/boundary_history_1.npz": "3b234276b32b38255da746faa4d7fe1724f78b0799d48993bfbb9f705ca5fa89",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/boundary_history_2.npz": "6bc85ac6a8853bd84b8f053593e9fd8186f0467e8981807133d339b3e3c23c17",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_03_b1/03_place_in_drawer/boundary_history_3.npz": "daadcca7b812d0e245c58ea744950c0cc06b65f1668a76d7b95747ca1e04126f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/setup_private.json": "c9d31e396487677658b8d1df5c1711b1033a19f7e20de3f8508a0a2b976481ee",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/root_reset_private.npz": "2949af384d6e01e7ce7847bf03ad8683ec9324ef2cb420165d4ef5b2166a484c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/root_observation_0.npz": "cd6361e7ba13775a78be5e69b0f66d626b0c78db21fc551840ad290948ed2d18",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/root_observation_1.npz": "87f89e8244de8940cf138bf015d5351756f4bba17f81f29c15208b78d3632d65",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/root_observation_2.npz": "2317182433893cdee7770fba2d2a1d410d239d711ebe91a15e094a2822d671cd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/root_observation_3.npz": "fe5ea3d85a85e30a822a68c79c2a358eddb37a0d6b1ec477da0d81026fe43855",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/controls.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/trace_private.json.gz": "979f028ef0a24b2a642dad8b1393cccbbf3097e10444c7282224862ecf8788f3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/endpoint_info_private.json": "6af78fce3215b613f2875612a323028e83e0da2d9e5261b65311c4ba8bdd3847",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/labels_ownership_v2_private.json": "bcc345186a6fff1e388a305e61504e9f7db625d8533379efc6b9146356dcd298",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/initial_public.npz": "fe5ea3d85a85e30a822a68c79c2a358eddb37a0d6b1ec477da0d81026fe43855",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/final_public.npz": "fe5ea3d85a85e30a822a68c79c2a358eddb37a0d6b1ec477da0d81026fe43855",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/boundary_history_0.npz": "cd6361e7ba13775a78be5e69b0f66d626b0c78db21fc551840ad290948ed2d18",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/boundary_history_1.npz": "87f89e8244de8940cf138bf015d5351756f4bba17f81f29c15208b78d3632d65",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/boundary_history_2.npz": "2317182433893cdee7770fba2d2a1d410d239d711ebe91a15e094a2822d671cd",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/00_open_drawer/boundary_history_3.npz": "fe5ea3d85a85e30a822a68c79c2a358eddb37a0d6b1ec477da0d81026fe43855",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/controls.json": "19977a0df6852424121eb022f86213dcb409606443aa6313d27ead5fdadd68b6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/trace_private.json.gz": "cb92388daa97e0b3110da4d0740327144471ad9204c4af85d77e897a41086ee8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/endpoint_info_private.json": "90bfb1fcfcd7f10860a1e00629b722006821863628806daeb17a0a8dbb8f3f3e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/labels_ownership_v2_private.json": "c827db0c2f291340b9e20c7b0ff60e0a89c27b9df4a8582e3a45244d4a7545d9",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/initial_public.npz": "fe5ea3d85a85e30a822a68c79c2a358eddb37a0d6b1ec477da0d81026fe43855",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/final_public.npz": "427e9d48167c98ed2c1f950580e4f71150eb779d529497c8d3719c82193299eb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/boundary_history_0.npz": "8e18f894c5df2734d9459c8a1af2503a61799242adbcb4d7f41cfff99c026e9c",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/boundary_history_1.npz": "4680c0c37e0b282ca4d202c76f9ac8f297738ea43bc83b9cfc4c2bd2acbb985e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/boundary_history_2.npz": "91b7607dde66cbcbe83762f701e45ec581c3513a2744dd4356d9a3e8073ec7d8",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/01_lift_pink_block_table/boundary_history_3.npz": "427e9d48167c98ed2c1f950580e4f71150eb779d529497c8d3719c82193299eb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/controls.json": "6c0d444381ca64e29474a3770850a83a546118a63f93654b3df4c06ea0fa71f1",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/trace_private.json.gz": "ddb90ed2eb9aa16757e489e0517ff2f68baba7e7f0de747a3b5c354143256f4e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/endpoint_info_private.json": "3653309921a810ea93d6c5b256a511c8a55338e7d0aa61ebe756c6c06da0d7cf",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/labels_ownership_v2_private.json": "0872924e16876d23a2c36bef136beab16a257f0c4e0f85ff492e76a56fd4f23e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/initial_public.npz": "427e9d48167c98ed2c1f950580e4f71150eb779d529497c8d3719c82193299eb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/final_public.npz": "b6a1e9cf8773343fa792b66be702414aa928abd352add4564d4d39de0b19bab4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/boundary_history_0.npz": "0f168eff829662b3df8dda2441789ffbcc02b147fd27155c2ac1062f8e48df5a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/boundary_history_1.npz": "3b0bb4b46f02c459cc63d6ac719617a753ea189b5aa16d8bc24c6ddd9528e09b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/boundary_history_2.npz": "4776c962154e4135d752a97cef12f476c144d26da4303088319401e4f0d3b09a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_04_b1/02_place_in_drawer/boundary_history_3.npz": "b6a1e9cf8773343fa792b66be702414aa928abd352add4564d4d39de0b19bab4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/setup_private.json": "04ddf2c5ec28935eb8db856b05b0ddd0eff4e93f94d0c9f89e527cc9fdb3a8ea",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/root_reset_private.npz": "26cd5f3918471862b035f60040f71835bfb4cd2319041a437f9013c06ad7c187",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/root_observation_0.npz": "1377ad8094175fb3c4e85fe8835fb7be9735014096297e2bc0429c8cb928890d",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/root_observation_1.npz": "005328e959e0fcd5eadf3403c730d86477c4a2711c125e0c1f99d94801a9876b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/root_observation_2.npz": "f497f7ba5909c08b299db3af819421f88248e51d63444b0e37bbbe4bcf9ee149",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/root_observation_3.npz": "d0187d8639e9cb80ece610a034f4f96c0e71c29a1c176e07b17a6799634e6598",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/controls.json": "97cd709a58c0d878fd3a98493d60616da96ef09719a154013f1ffd0f9553cbd5",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/trace_private.json.gz": "b60dfb751e684affe4c02c7bdc006468082a0bd7e2a7281570267cabd4fc269b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/endpoint_info_private.json": "5721a21a5c7f7a5e68b99eba4f3a4dc4802f54887fed858747fa6722cdea73ed",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/labels_ownership_v2_private.json": "9cdab726336ade221f82f7ec857f78ae55a3730ea585632d1ccca77bf381205f",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/initial_public.npz": "d0187d8639e9cb80ece610a034f4f96c0e71c29a1c176e07b17a6799634e6598",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/final_public.npz": "d2b0d8b8d3d491d5d116383b1e332198d69f37037a528bb9052f173558010708",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/boundary_history_0.npz": "648451274ec43104f1b8864660789745bff69f64a42dcd1cb3b726cc1cc7615e",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/boundary_history_1.npz": "20d20f7dc4cb5d23f180248bb1aa4bfbd1e82338f7bfd912f6a9fdfe35d344a9",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/boundary_history_2.npz": "f2e7b9c89e47d0676be1370c6f648af41ff435698c025d63f089f4da9bb1d7d4",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/00_open_drawer/boundary_history_3.npz": "d2b0d8b8d3d491d5d116383b1e332198d69f37037a528bb9052f173558010708",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/controls.json": "a2ad84b9fba47509a4f6c47d8f277e8fa71d1a9b9d0c589b06d265fe3f813ddb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/trace_private.json.gz": "673c4edaaafc22a8989a2c32ebbbc20d810570bccee2e1ba9465067737e1f0c6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/endpoint_info_private.json": "0eee54642b479cd1f522521a85e038c38ac188f613dc6dd240f7fd3d305d3349",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/labels_ownership_v2_private.json": "4dbcf7cb2cd7aeeeed2f398f82c3e87cb6170812de39a5ba3a8b120789239ab7",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/initial_public.npz": "d2b0d8b8d3d491d5d116383b1e332198d69f37037a528bb9052f173558010708",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/final_public.npz": "6daed7f1ab1930cb326a6380b266f2c285617320f5b75eb4be78b7c7425f0ec6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/boundary_history_0.npz": "dd2bb31fd7493f0e29918e6957b4a83a1e9abb727f585b36324692eae587fffb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/boundary_history_1.npz": "1ef8e7c5aff4fd2521cfcf7f88ad4ea821d62c0aae192c8c9bd773c6720f0526",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/boundary_history_2.npz": "eb31ed556c6abd007874aa401dd0d1dbb0361602a0b49ea672a70b0406f431cb",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/01_lift_pink_block_table/boundary_history_3.npz": "6daed7f1ab1930cb326a6380b266f2c285617320f5b75eb4be78b7c7425f0ec6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/controls.json": "088932dac2e7394478255eece8ff0d63af7ce7431833968640fa7a787134ef8a",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/trace_private.json.gz": "dd62be8028c0cce328257e6b708fd9e80cc9ba74e3dc624698394ed8412c5c25",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/endpoint_info_private.json": "04490d1477336ca2e33b7a009c97e9f604c02553f2c0f534b00e7963735349b6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/labels_ownership_v2_private.json": "ef9530f44d56a34f84e9a6a1b95d222725382395e372c52d908d9932635af0f9",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/initial_public.npz": "6daed7f1ab1930cb326a6380b266f2c285617320f5b75eb4be78b7c7425f0ec6",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/final_public.npz": "dcb90a7bf17128283bd6509475cc76deeac6f644c7eedafb2d40cd6b2dca7533",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/boundary_history_0.npz": "f5519e0bd97a67a561b4f0d8d1ad1c0ee986fe0e733a5c6ed0aaf9ac6da0332b",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/boundary_history_1.npz": "706f3cac41c98c7732f5c251f1312e4e4da5de555fe5f5b5f6b7393bda7c97c3",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/boundary_history_2.npz": "b33bdee4c47ede832f4009b3d2d41e75f6733725d5c9daae606d3050867ba5ca",
+    "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/C_core1200_05_b0/02_place_in_drawer/boundary_history_3.npz": "dcb90a7bf17128283bd6509475cc76deeac6f644c7eedafb2d40cd6b2dca7533",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_countermotion_20261014/results/next_step_candidates.json": "4f888bf4e4ca958b422171eb15cab8bd46b826fa651d7213b8a9a7de3601772e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_countermotion_20261014/delivery_manifest.json": "13ca5ba728055b99c5fe4a58add51fbcd2c1f055598a130b4b502abcdfc1a400",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2"
+  },
+  "D_or_prior_test_sources": [],
+  "new_roots": 0
+}

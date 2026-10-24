@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-18T08:35:29.103010+00:00",
+  "before_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/Holding_node_seed0_update0600.pt": "fd7b72ed813d0525482be9f14b3f4b66c5572c0c79b97bfe62863a0b21b2c133",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/Holding_edge_seed0_update0600.pt": "dc5c6922067332946daece41cdc64bf9e26ea358310e24536f1cbc927430c253",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/Holding_node_seed1_update0600.pt": "4d6518e205151743397a4bca77fbe8d3cb922f86ddbd821185594d22a42a1087",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/Holding_edge_seed1_update0600.pt": "52714d9a6d6b109887ee3ba4e2994d5ac04534d7d08df898d11ff94f529a810b",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/In_node_seed0_update0600.pt": "b6f92287afe53f0826a4b21f73c4526ce5935fa9dc350216f0b05c126cec90cf",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/In_edge_seed0_update0600.pt": "2c9cb72a8f2a1a1ba93303a6c7442578595006a8521c6d5b7aac196989b30fc8",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/In_node_seed1_update0600.pt": "d1df2bddc90c5c5da92412414d86f8eeba5838f64a4b1f92be1bceccc592c04e",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/models/In_edge_seed1_update0600.pt": "861f147cee5da2259a35312dd5b4f161836fec26e0490b665870eb0c2d1fe731"
+  }
+}

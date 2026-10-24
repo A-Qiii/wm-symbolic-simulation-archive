@@ -1,0 +1,27 @@
+{
+  "complete_train_roots": [
+    "A_predicate_gap_blue_closed",
+    "A_predicate_gap_blue_open",
+    "A_predicate_gap_pink_closed",
+    "A_predicate_gap_pink_open",
+    "A_predicate_gap_red_closed",
+    "A_predicate_gap_red_open",
+    "B_predicate_gap_blue_closed",
+    "B_predicate_gap_blue_open",
+    "B_predicate_gap_pink_closed",
+    "B_predicate_gap_pink_open",
+    "B_predicate_gap_red_closed",
+    "B_predicate_gap_red_open"
+  ],
+  "pool_size": 997,
+  "append_windows": 24,
+  "identical_target_masks_and_label_counts": true,
+  "arms": [
+    "ordinary_negative",
+    "hard_negative"
+  ],
+  "old_data_unchanged": true,
+  "new_dev_not_train": true,
+  "metadata_sha256": "e69465100e963cdc64b8c219e56eb64cb61bd985de5919a1d714032a460f486e",
+  "arrays_sha256": "b69834a0bdf807e39aebbaa1ff226a9e7d6c5e1699d88826d8f53c359de21816"
+}

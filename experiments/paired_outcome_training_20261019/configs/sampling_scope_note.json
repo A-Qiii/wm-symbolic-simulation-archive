@@ -1,0 +1,74 @@
+{
+  "scope_note": "Global target-color quota equality refers to24 distinct training episodes, not exact weighted sampled exposure. Reusing the identical root×slot schedule induces a small target-frequency change when slot0 target changes; this is part of the recorded substitution effect, not hidden resampling.",
+  "rows": [
+    {
+      "seed": 0,
+      "scope": "control",
+      "unique_episode_target_counts": {
+        "lift_blue_block_table": 8,
+        "lift_pink_block_table": 8,
+        "lift_red_block_table": 8
+      },
+      "sampled_episode_target_counts": {
+        "lift_blue_block_table": 2654,
+        "lift_pink_block_table": 2713,
+        "lift_red_block_table": 2633
+      },
+      "slot_sample_min": 298,
+      "slot_sample_max": 375,
+      "total_new_episode_samples": 8000
+    },
+    {
+      "seed": 0,
+      "scope": "paired",
+      "unique_episode_target_counts": {
+        "lift_pink_block_table": 8,
+        "lift_red_block_table": 8,
+        "lift_blue_block_table": 8
+      },
+      "sampled_episode_target_counts": {
+        "lift_pink_block_table": 2635,
+        "lift_red_block_table": 2719,
+        "lift_blue_block_table": 2646
+      },
+      "slot_sample_min": 298,
+      "slot_sample_max": 375,
+      "total_new_episode_samples": 8000
+    },
+    {
+      "seed": 1,
+      "scope": "control",
+      "unique_episode_target_counts": {
+        "lift_blue_block_table": 8,
+        "lift_pink_block_table": 8,
+        "lift_red_block_table": 8
+      },
+      "sampled_episode_target_counts": {
+        "lift_blue_block_table": 2670,
+        "lift_pink_block_table": 2659,
+        "lift_red_block_table": 2671
+      },
+      "slot_sample_min": 285,
+      "slot_sample_max": 364,
+      "total_new_episode_samples": 8000
+    },
+    {
+      "seed": 1,
+      "scope": "paired",
+      "unique_episode_target_counts": {
+        "lift_pink_block_table": 8,
+        "lift_red_block_table": 8,
+        "lift_blue_block_table": 8
+      },
+      "sampled_episode_target_counts": {
+        "lift_pink_block_table": 2601,
+        "lift_red_block_table": 2739,
+        "lift_blue_block_table": 2660
+      },
+      "slot_sample_min": 285,
+      "slot_sample_max": 364,
+      "total_new_episode_samples": 8000
+    }
+  ],
+  "frozen_protocol_unchanged": true
+}

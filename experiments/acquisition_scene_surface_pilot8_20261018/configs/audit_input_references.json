@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "/home/robot/research/projects/wm_symbolic/scripts/prepare_physical_v2.py": "8efdce12487f6ea9de0d756df47cc75ad10246a6b51c55f19781b46f64b17825",
+    "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/CONTROLLER_NOT_PROMOTED.json": "7cf6577613fa33eb462ea122cb5f29d5186de8ecae5a13e75f3f4d33f79e246d",
+    "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/causal_clearance_development_evidence.json": "b16341cd3c67fd401e7a75c3d337f191702dbdd81d892ba735a8a28f641ce837",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_C.yaml": "a7cf204d27465ae80ec41aaa3a62ea4fc30346dda8413d6702969fc1e70a7ddc"
+  },
+  "old_experiment_full_manifest_verified": "4823571c19297461d26903e6d804ff5b2bcebe999d9170eb89c7bcd2a030975c"
+}

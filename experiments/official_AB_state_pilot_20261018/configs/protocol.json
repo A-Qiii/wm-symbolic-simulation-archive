@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T06:28:26.084458+00:00",
+  "authorization": "Parent human-approved official-data pilot, total<=512MiB including central directory; no training",
+  "url": "http://calvin.cs.uni-freiburg.de/dataset/task_ABC_D.zip",
+  "source_size": 555309812705,
+  "source_etag": "\"814b0b4be1-5e8bad7e824c0\"",
+  "central_directory_offset": 555080601096,
+  "central_directory_bytes": 229211511,
+  "total_body_read_cap": 536870912,
+  "untrusted_pickle": "disassemble only, never pickle.load or np.load allow_pickle=True",
+  "data_scope": "A/B episodes only, selected after official scene mapping and episode boundary verification; human play only state labels, no fixed-controller transitions",
+  "new_model_updates": 0
+}

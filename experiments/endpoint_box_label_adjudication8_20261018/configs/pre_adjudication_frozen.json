@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-18T11:27:06.714848+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/source/common.py": "890d03f8bf863f9d61245c294b8423aaa5defc8c4925e5d88bd9ef8fcc930d8a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/source/prepare.py": "26e472d6e87024fd981f9aa0b9d79e5750c7582e6f2527f8518f0ce22f58ba54",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/images.json": "9aee3a22a5719ea771c143dfd1cd2f362662cf7d468117e6ad3dec895ef70d5e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/review/comparison.json": "08c90c47a8bc86035bf7ba8ad964d7bbbbaf6b74967a1c9a7b15e2174aec3841",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/review/selection.json": "e40ae198fe4f176bb890235801801f512207976851e6cced4c06a7c0219a43b8",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/review/comparison_contact_sheet.png": "e5aac27e23946ac818c19560be01cd716d27c995e452db8ec781c2a147172f5a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/review/REPORT.md": "ae7685f3f7d2115cac850f2d153b6704dea1dcba6e2c88ffbd5aa519d57b1aac",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/review/independent_annotations.json": "52dc33e26c05cae7771b7648d16b9fb84c643891eb8e42f4bce01d811ae46759",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/labels/original_selected.json": "3f429c940b1a37df1e2bbb96e826bb83e3c1b9c80d2e32319b4f5e2ac2c7891d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/state_00.npz": "82963790b6e2e27a8639da6087d6bf28a57d68a96317573e8762d8f70e9a43da",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id08.png": "d734086a367c60912625b9079e03229cc8a3d7d6dd4a25bbca6d4f8a9a29ee23",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id38.png": "18197269d82a4db3c4a3caad5423f129a423dc73c060c992f5a7b6f0e9aeda7e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/state_16.npz": "7514db72e9bde61b92a67ecd52e330294f8ebe8b716c414453820b288e7bbd73",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id01.png": "f123b7737b9b50be4eb13d2b120d3111255dde68e1d245ee7f3b38df426df3e6",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/state_19.npz": "49ef55a57e927d36413a52f24a19172fc9885ca832467cf0cd473359ae75d087",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id00.png": "e0857dc451957dab226ded482dcc749a3238225238be21b33edf1f50909f4f8b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id09.png": "69c56524ebb819003f0a03be4140c3a80ccf9d0902b7ade9a9bacbc8a054eb75",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id32.png": "0d0c643d64d81bfed199ea5062302d9fc5e6e15f3abf2526822e119ba72fd2cf",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/state_04.npz": "04f71c7c72efc1bcccde89bc92cbdc4d2f2ec924686d9fcaf2d582d04d4cc989",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id39.png": "2d014276930a2321e45a960038e5c7344174db83113005115b8f7d9d517f4d5d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/observations/id33.png": "07188cc52f872a637a00de593add877603f2ecf134db76e3fc3bc2761bb33ba3",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/configs/frozen_component_definitions.json": "83ff0dfd2df48412ce34176975487f69d3f8d7d51b8bb87b5b5117f0afe1d0a9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/configs/protocol.json": "7c0f6a5d4c6dff44dd407a2f0c515cb055a41b92220a834517a7aa107a89b6cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/configs/source_references.json": "0875f5bc1494caa4c714939aafe3c776123692a0849d002f604166a2b84f32c6"
+  }
+}

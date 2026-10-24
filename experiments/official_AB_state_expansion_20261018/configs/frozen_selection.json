@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-18T07:16:06.240287+00:00",
+  "before_new_frame_download_and_simulation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/configs/eligible_episodes.json": "b77d22b2c4dde7edd42586396efdd8375a06f3b59c29f48c3033202516c1a9f3",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/configs/episode_split.json": "83dc332ae49618aed4b9a1027375aecfc1292f044a33945771e6d055249e5a84",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/configs/inputs.json": "37c5661311cb37a1d6617a449c2c3fbbad757d8a9a5ba973d322ed2eda5d19b0",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/configs/frame_members.json": "33cc5a43b6b972b142c964de0521926fa76558682f5e0d0d32edd2b251a62eed",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/configs/protocol.json": "b93a84fbc6bdda8f840385dbcb97f5dd4d4c0bbae0c812b2e9307995b36fed69",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/source/official_expansion_select.py": "bf3e7dafcdf6b4932f49131fe92ce774cab96975850423bbe7fffb737c93d98a",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/source/official_language_safe_parse.py": "05386ad82a25ef5a54c93aa5f4e394a3b678728c37e3191dbc177309fe25cb75",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/results/task_segments_A_B.json": "b7847ebbfd356f1ebafd7a6342b14e82f2ddc8c569202ac46ed1b9b96286a7df",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_expansion_20261018/results/metadata_safe_summary.json": "7ef0048d09cf5fac6a877a22384761eebec7b7c6f99bf2ce7c1f46cf8f319105",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/configs/delivery_manifest.json": "a6b89fbc4944dec27a4dcfbba5da5031d14cd243d87726e53273bde4c88b6583",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_state_resimulation_20261018/configs/delivery_manifest.json": "28abd06faad7340a7db71caeee8310ef33c9dbca19afc58723b86e219be09c45"
+  }
+}

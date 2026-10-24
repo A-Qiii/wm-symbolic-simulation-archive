@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T12:45:35.033212+00:00",
+  "mesh_figure_actually_viewed": true,
+  "front_wood_faces": 44,
+  "handle_faces": 178,
+  "excluded_interior_side_floor_faces": 24,
+  "no_semantically_crossing_triangles": true,
+  "inner_front_wall_faces82_83_excluded_by_original_interior_exclusion": true,
+  "no_simulation_yet": true
+}

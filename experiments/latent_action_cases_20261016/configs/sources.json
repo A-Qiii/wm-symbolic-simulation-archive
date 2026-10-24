@@ -1,0 +1,26 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/latent_tsne_20261016/data/main_states.json": "76c95d6a0ff2b6f1ffaee922619d1358d36df2f27e2e5070ed5828f4a84c72d7",
+    "/home/robot/research/projects/wm_symbolic/experiments/latent_tsne_20261016/data/main_latents.npz": "352da775989290c25cd5b3ddc6a132fa0771b874c7ccdcfb7ed865eb03d5b4c7",
+    "/home/robot/research/projects/wm_symbolic/experiments/latent_tsne_20261016/results/coordinates.npz": "5dbbd2e850dd705bd63d6c65874458ed5ec87828f9b383765ed828406adae129",
+    "/home/robot/research/projects/wm_symbolic/experiments/latent_tsne_20261016/configs/delivery_manifest.json": "40b6d3a0cf77cda6d04200052f9872ff7fc4d0cc6ebbc7e28a1d6cb4c941e115",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/pairs.json": "349fc98b6487e879546f3e74cb3308fb591d5e01653d4539c3caf7a3c802500a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/states.json": "92a9dd425c83a49a6f097297f9956fe958aed94d095dee141c0021ecf744006d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/inputs.npz": "f7d9eb6f92905dba7f41c6366af31685cff48850aaef1fda119fb0d670422b93",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/_private/outcomes.json": "9d554bcd9b84703e1750d0fdf28ad0971cd4e2ee73c09d7b3d7a3d5deb32dab5",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/results/D2_canonical_matched_seed0.npz": "d301237497284bba046b90a9fdffc7393ef89400d881434e8b2bf60d1465afd7",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/results/D2_records.json": "005b6e36d72ce03a841ab08e6969ff4ecefe1d16464498e6cef8125f31eab1f4",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/selected.json": "8daf06cd29817d89b7e1c9d8848cf05fecd7707d819ba9dd107a096e958fb267",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/public/normalization.npz": "7511375c9c0f257e8c043e11a5f4818dad985dc15c27743739a206fee09b226a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/models/interaction_seed0/selected.json": "5ea5d04b11df121a0c02c44b18a5a1cb026a49ba2b1fc5e3bae75a7477259076",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_blue_0/reference/public/boundary00.npz": "cb0c48df434c03e604bbe7830b681da3235fa85c66b7054764fd911384651ed1",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_blue_0/reference/public/boundary01.npz": "12d591ec967c8b4ca2212e2c11b4bc609b60b6ac01216851ca66c7cb014f2021",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_pink_0/reference/public/boundary01.npz": "c0617a996dc36922f0fc77c705e423a07456691710d28d06fb2e561869de93fe",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_pink_0/reference/public/boundary02.npz": "2952fcbca9ab10c5497efa9a42a039042da2af508c3f05e8729ee09e63ae79ba",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_red_0/held_open/public/boundary00.npz": "5ec6982cae9855b196cdbda1a1efcb8c99b39a2e88e5afd3e496bf0e68c15901",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_red_0/held_open/public/boundary01.npz": "9d4abf2819178b38458db376c644c19c326e799143c05e3d041981e1f87c5e3d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_blue_1/held_closed/public/boundary00.npz": "f4a363e3dbd8b392df9ab244228f16457458b616cf1092caf99339f26c3621a0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2_raw/D2_place_repair_blue_1/held_closed/public/boundary01.npz": "b4444661fba191aa0fb73a5e7fba3c8b529216f13bb38badd1f3d3dee824b36f",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/cache/calvin_debug_dataset.zip",
+    "bytes": 1299150917,
+    "sha256": "c66d09147e2c806b244f18ea7d61e388d4dac11f828929779437f728d03e1204",
+    "included_in_snapshot": false
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/cache/HULC_ABC_D.zip",
+    "bytes": 479026990,
+    "sha256": "010b514df5d43d242a19cff5c852b99969e734d0c1e90dba5e7477f9cb7e498f",
+    "included_in_snapshot": false
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed0_step1500.pt",
+    "bytes": 9981076,
+    "sha256": "84a6639a88ad9445fe2a2c8eae143d31c50a8158b075c4a8a77603cc84d16a26",
+    "included_in_snapshot": false
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed1_step1500.pt",
+    "bytes": 9981076,
+    "sha256": "d5ca3cde8594a9f9b34da5b787a579f30d75104d8533bc27e11c693e038e6e2e",
+    "included_in_snapshot": false
+  }
+]

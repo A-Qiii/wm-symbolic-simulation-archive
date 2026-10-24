@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-18T07:12:06.133497+00:00",
+  "sources": "official training A/B only; metadata includes ABC but only A/B segments may select frames; no C/D source frames",
+  "prior_body_bytes": 268218222,
+  "cumulative_cap_bytes": 536870912,
+  "max_new_source_episodes": 8,
+  "new_episode_cap_per_scene": 4,
+  "max_new_source_frames": 256,
+  "max_new_bounded_simulation_runs_including_old_source_retests": 256,
+  "metadata_scope": "one standard training/lang_annotations/auto_lang_ann.npy only, checked against retained central directory",
+  "untrusted_pickle": "Never pickle.load, numpy.load allow_pickle=True, imports or callable invocation from input. Use pickletools symbolic opcode parsing and inert constructor records. Reject unsupported structures.",
+  "no_training": true,
+  "no_model_based_sampling": true,
+  "final_frame_selection_and_episode_split_frozen_before_new_frame_download_or_simulation": true
+}

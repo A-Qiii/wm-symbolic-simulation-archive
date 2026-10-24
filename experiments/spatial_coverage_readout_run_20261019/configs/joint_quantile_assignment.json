@@ -1,0 +1,722 @@
+[
+  {
+    "root": "A_coverage_train_00",
+    "color": "blue",
+    "rank": 0,
+    "center_x": 0.1640628125
+  },
+  {
+    "root": "A_coverage_train_00",
+    "color": "pink",
+    "rank": 1,
+    "center_x": -0.12395862499999999
+  },
+  {
+    "root": "A_coverage_train_00",
+    "color": "red",
+    "rank": 10,
+    "center_x": 0.061979312499999994
+  },
+  {
+    "root": "A_coverage_train_01",
+    "color": "blue",
+    "rank": 10,
+    "center_x": 0.11510443749999999
+  },
+  {
+    "root": "A_coverage_train_01",
+    "color": "pink",
+    "rank": 7,
+    "center_x": -0.03541675
+  },
+  {
+    "root": "A_coverage_train_01",
+    "color": "red",
+    "rank": 3,
+    "center_x": 0.29421884374999996
+  },
+  {
+    "root": "A_coverage_train_02",
+    "color": "blue",
+    "rank": 6,
+    "center_x": 0.3128125625
+  },
+  {
+    "root": "A_coverage_train_02",
+    "color": "pink",
+    "rank": 11,
+    "center_x": 0.044270937499999996
+  },
+  {
+    "root": "A_coverage_train_02",
+    "color": "red",
+    "rank": 1,
+    "center_x": -0.12395862499999999
+  },
+  {
+    "root": "A_coverage_train_03",
+    "color": "blue",
+    "rank": 7,
+    "center_x": 0.0
+  },
+  {
+    "root": "A_coverage_train_03",
+    "color": "pink",
+    "rank": 10,
+    "center_x": 0.10625024999999999
+  },
+  {
+    "root": "A_coverage_train_03",
+    "color": "red",
+    "rank": 1,
+    "center_x": 0.20744815625
+  },
+  {
+    "root": "A_coverage_train_04",
+    "color": "blue",
+    "rank": 7,
+    "center_x": 0.29421884374999996
+  },
+  {
+    "root": "A_coverage_train_04",
+    "color": "pink",
+    "rank": 12,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "A_coverage_train_04",
+    "color": "red",
+    "rank": 0,
+    "center_x": -0.141667
+  },
+  {
+    "root": "A_coverage_train_05",
+    "color": "blue",
+    "rank": 2,
+    "center_x": 0.21364606249999998
+  },
+  {
+    "root": "A_coverage_train_05",
+    "color": "pink",
+    "rank": 8,
+    "center_x": -0.0088541875
+  },
+  {
+    "root": "A_coverage_train_05",
+    "color": "red",
+    "rank": 6,
+    "center_x": -0.07968768749999999
+  },
+  {
+    "root": "A_coverage_train_06",
+    "color": "blue",
+    "rank": 1,
+    "center_x": 0.18265653125
+  },
+  {
+    "root": "A_coverage_train_06",
+    "color": "pink",
+    "rank": 0,
+    "center_x": -0.1328128125
+  },
+  {
+    "root": "A_coverage_train_06",
+    "color": "red",
+    "rank": 5,
+    "center_x": -0.061979312499999994
+  },
+  {
+    "root": "A_coverage_train_07",
+    "color": "blue",
+    "rank": 4,
+    "center_x": 0.2632293125
+  },
+  {
+    "root": "A_coverage_train_07",
+    "color": "pink",
+    "rank": 5,
+    "center_x": -0.061979312499999994
+  },
+  {
+    "root": "A_coverage_train_07",
+    "color": "red",
+    "rank": 8,
+    "center_x": 0.017708375
+  },
+  {
+    "root": "A_coverage_train_08",
+    "color": "blue",
+    "rank": 11,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "A_coverage_train_08",
+    "color": "pink",
+    "rank": 3,
+    "center_x": 0.2508335
+  },
+  {
+    "root": "A_coverage_train_08",
+    "color": "red",
+    "rank": 3,
+    "center_x": -0.09739606249999999
+  },
+  {
+    "root": "A_coverage_train_09",
+    "color": "blue",
+    "rank": 2,
+    "center_x": -0.08854187499999999
+  },
+  {
+    "root": "A_coverage_train_09",
+    "color": "pink",
+    "rank": 1,
+    "center_x": 0.19505234375
+  },
+  {
+    "root": "A_coverage_train_09",
+    "color": "red",
+    "rank": 13,
+    "center_x": 0.11510443749999999
+  },
+  {
+    "root": "A_coverage_train_10",
+    "color": "blue",
+    "rank": 5,
+    "center_x": -0.044270937499999996
+  },
+  {
+    "root": "A_coverage_train_10",
+    "color": "pink",
+    "rank": 0,
+    "center_x": 0.1640628125
+  },
+  {
+    "root": "A_coverage_train_10",
+    "color": "red",
+    "rank": 11,
+    "center_x": 0.10625024999999999
+  },
+  {
+    "root": "A_coverage_train_11",
+    "color": "blue",
+    "rank": 3,
+    "center_x": 0.17026071874999998
+  },
+  {
+    "root": "A_coverage_train_11",
+    "color": "pink",
+    "rank": 4,
+    "center_x": -0.044270937499999996
+  },
+  {
+    "root": "A_coverage_train_11",
+    "color": "red",
+    "rank": 7,
+    "center_x": 0.0
+  },
+  {
+    "root": "A_coverage_train_12",
+    "color": "blue",
+    "rank": 5,
+    "center_x": 0.2880209375
+  },
+  {
+    "root": "A_coverage_train_12",
+    "color": "pink",
+    "rank": 9,
+    "center_x": 0.0
+  },
+  {
+    "root": "A_coverage_train_12",
+    "color": "red",
+    "rank": 2,
+    "center_x": -0.11510443749999999
+  },
+  {
+    "root": "A_coverage_train_13",
+    "color": "blue",
+    "rank": 9,
+    "center_x": 0.09739606249999999
+  },
+  {
+    "root": "A_coverage_train_13",
+    "color": "pink",
+    "rank": 6,
+    "center_x": -0.03541675
+  },
+  {
+    "root": "A_coverage_train_13",
+    "color": "red",
+    "rank": 4,
+    "center_x": 0.33140628125
+  },
+  {
+    "root": "A_coverage_train_14",
+    "color": "blue",
+    "rank": 6,
+    "center_x": 0.0088541875
+  },
+  {
+    "root": "A_coverage_train_14",
+    "color": "pink",
+    "rank": 2,
+    "center_x": -0.08854187499999999
+  },
+  {
+    "root": "A_coverage_train_14",
+    "color": "red",
+    "rank": 0,
+    "center_x": 0.17026071874999998
+  },
+  {
+    "root": "A_coverage_train_15",
+    "color": "blue",
+    "rank": 0,
+    "center_x": -0.1328128125
+  },
+  {
+    "root": "A_coverage_train_15",
+    "color": "pink",
+    "rank": 5,
+    "center_x": 0.2880209375
+  },
+  {
+    "root": "A_coverage_train_15",
+    "color": "red",
+    "rank": 14,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "A_coverage_train_16",
+    "color": "blue",
+    "rank": 1,
+    "center_x": -0.11510443749999999
+  },
+  {
+    "root": "A_coverage_train_16",
+    "color": "pink",
+    "rank": 2,
+    "center_x": 0.21984396875
+  },
+  {
+    "root": "A_coverage_train_16",
+    "color": "red",
+    "rank": 4,
+    "center_x": -0.061979312499999994
+  },
+  {
+    "root": "A_coverage_train_17",
+    "color": "blue",
+    "rank": 8,
+    "center_x": 0.03541675
+  },
+  {
+    "root": "A_coverage_train_17",
+    "color": "pink",
+    "rank": 3,
+    "center_x": -0.0708335
+  },
+  {
+    "root": "A_coverage_train_17",
+    "color": "red",
+    "rank": 2,
+    "center_x": 0.2508335
+  },
+  {
+    "root": "A_coverage_train_18",
+    "color": "blue",
+    "rank": 3,
+    "center_x": -0.07968768749999999
+  },
+  {
+    "root": "A_coverage_train_18",
+    "color": "pink",
+    "rank": 4,
+    "center_x": 0.26942721875
+  },
+  {
+    "root": "A_coverage_train_18",
+    "color": "red",
+    "rank": 12,
+    "center_x": 0.03541675
+  },
+  {
+    "root": "A_coverage_train_19",
+    "color": "blue",
+    "rank": 4,
+    "center_x": -0.061979312499999994
+  },
+  {
+    "root": "A_coverage_train_19",
+    "color": "pink",
+    "rank": 6,
+    "center_x": 0.325208375
+  },
+  {
+    "root": "A_coverage_train_19",
+    "color": "red",
+    "rank": 9,
+    "center_x": 0.03541675
+  },
+  {
+    "root": "B_coverage_train_00",
+    "color": "blue",
+    "rank": 0,
+    "center_x": -0.1328128125
+  },
+  {
+    "root": "B_coverage_train_00",
+    "color": "pink",
+    "rank": 10,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "B_coverage_train_00",
+    "color": "red",
+    "rank": 4,
+    "center_x": -0.20125025
+  },
+  {
+    "root": "B_coverage_train_01",
+    "color": "blue",
+    "rank": 9,
+    "center_x": 0.03541675
+  },
+  {
+    "root": "B_coverage_train_01",
+    "color": "pink",
+    "rank": 9,
+    "center_x": 0.10625024999999999
+  },
+  {
+    "root": "B_coverage_train_01",
+    "color": "red",
+    "rank": 5,
+    "center_x": -0.1640628125
+  },
+  {
+    "root": "B_coverage_train_02",
+    "color": "blue",
+    "rank": 0,
+    "center_x": -0.2632293125
+  },
+  {
+    "root": "B_coverage_train_02",
+    "color": "pink",
+    "rank": 4,
+    "center_x": -0.03541675
+  },
+  {
+    "root": "B_coverage_train_02",
+    "color": "red",
+    "rank": 13,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "B_coverage_train_03",
+    "color": "blue",
+    "rank": 12,
+    "center_x": 0.07968768749999999
+  },
+  {
+    "root": "B_coverage_train_03",
+    "color": "pink",
+    "rank": 3,
+    "center_x": -0.053125124999999995
+  },
+  {
+    "root": "B_coverage_train_03",
+    "color": "red",
+    "rank": 1,
+    "center_x": -0.30041675
+  },
+  {
+    "root": "B_coverage_train_04",
+    "color": "blue",
+    "rank": 2,
+    "center_x": -0.2508335
+  },
+  {
+    "root": "B_coverage_train_04",
+    "color": "pink",
+    "rank": 7,
+    "center_x": 0.053125124999999995
+  },
+  {
+    "root": "B_coverage_train_04",
+    "color": "red",
+    "rank": 0,
+    "center_x": -0.1328128125
+  },
+  {
+    "root": "B_coverage_train_05",
+    "color": "blue",
+    "rank": 3,
+    "center_x": -0.07968768749999999
+  },
+  {
+    "root": "B_coverage_train_05",
+    "color": "pink",
+    "rank": 5,
+    "center_x": -0.226041875
+  },
+  {
+    "root": "B_coverage_train_05",
+    "color": "red",
+    "rank": 7,
+    "center_x": 0.0088541875
+  },
+  {
+    "root": "B_coverage_train_06",
+    "color": "blue",
+    "rank": 6,
+    "center_x": -0.017708375
+  },
+  {
+    "root": "B_coverage_train_06",
+    "color": "pink",
+    "rank": 2,
+    "center_x": -0.29421884374999996
+  },
+  {
+    "root": "B_coverage_train_06",
+    "color": "red",
+    "rank": 10,
+    "center_x": 0.0708335
+  },
+  {
+    "root": "B_coverage_train_07",
+    "color": "blue",
+    "rank": 8,
+    "center_x": 0.017708375
+  },
+  {
+    "root": "B_coverage_train_07",
+    "color": "pink",
+    "rank": 1,
+    "center_x": -0.31901046875
+  },
+  {
+    "root": "B_coverage_train_07",
+    "color": "red",
+    "rank": 1,
+    "center_x": -0.11510443749999999
+  },
+  {
+    "root": "B_coverage_train_08",
+    "color": "blue",
+    "rank": 4,
+    "center_x": -0.15786490625
+  },
+  {
+    "root": "B_coverage_train_08",
+    "color": "pink",
+    "rank": 2,
+    "center_x": -0.07968768749999999
+  },
+  {
+    "root": "B_coverage_train_08",
+    "color": "red",
+    "rank": 6,
+    "center_x": -0.0088541875
+  },
+  {
+    "root": "B_coverage_train_09",
+    "color": "blue",
+    "rank": 11,
+    "center_x": 0.07968768749999999
+  },
+  {
+    "root": "B_coverage_train_09",
+    "color": "pink",
+    "rank": 3,
+    "center_x": -0.27562512499999997
+  },
+  {
+    "root": "B_coverage_train_09",
+    "color": "red",
+    "rank": 4,
+    "center_x": -0.053125124999999995
+  },
+  {
+    "root": "B_coverage_train_10",
+    "color": "blue",
+    "rank": 1,
+    "center_x": -0.11510443749999999
+  },
+  {
+    "root": "B_coverage_train_10",
+    "color": "pink",
+    "rank": 6,
+    "center_x": -0.20744815625
+  },
+  {
+    "root": "B_coverage_train_10",
+    "color": "red",
+    "rank": 12,
+    "center_x": 0.11510443749999999
+  },
+  {
+    "root": "B_coverage_train_11",
+    "color": "blue",
+    "rank": 3,
+    "center_x": -0.18265653125
+  },
+  {
+    "root": "B_coverage_train_11",
+    "color": "pink",
+    "rank": 5,
+    "center_x": 0.0
+  },
+  {
+    "root": "B_coverage_train_11",
+    "color": "red",
+    "rank": 3,
+    "center_x": -0.0708335
+  },
+  {
+    "root": "B_coverage_train_12",
+    "color": "blue",
+    "rank": 5,
+    "center_x": -0.03541675
+  },
+  {
+    "root": "B_coverage_train_12",
+    "color": "pink",
+    "rank": 8,
+    "center_x": -0.15786490625
+  },
+  {
+    "root": "B_coverage_train_12",
+    "color": "red",
+    "rank": 9,
+    "center_x": 0.053125124999999995
+  },
+  {
+    "root": "B_coverage_train_13",
+    "color": "blue",
+    "rank": 7,
+    "center_x": 0.0
+  },
+  {
+    "root": "B_coverage_train_13",
+    "color": "pink",
+    "rank": 8,
+    "center_x": 0.07968768749999999
+  },
+  {
+    "root": "B_coverage_train_13",
+    "color": "red",
+    "rank": 3,
+    "center_x": -0.23223978125
+  },
+  {
+    "root": "B_coverage_train_14",
+    "color": "blue",
+    "rank": 14,
+    "center_x": 0.1328128125
+  },
+  {
+    "root": "B_coverage_train_14",
+    "color": "pink",
+    "rank": 0,
+    "center_x": -0.34380209375
+  },
+  {
+    "root": "B_coverage_train_14",
+    "color": "red",
+    "rank": 11,
+    "center_x": 0.09739606249999999
+  },
+  {
+    "root": "B_coverage_train_15",
+    "color": "blue",
+    "rank": 10,
+    "center_x": 0.061979312499999994
+  },
+  {
+    "root": "B_coverage_train_15",
+    "color": "pink",
+    "rank": 4,
+    "center_x": -0.2508335
+  },
+  {
+    "root": "B_coverage_train_15",
+    "color": "red",
+    "rank": 2,
+    "center_x": -0.09739606249999999
+  },
+  {
+    "root": "B_coverage_train_16",
+    "color": "blue",
+    "rank": 4,
+    "center_x": -0.061979312499999994
+  },
+  {
+    "root": "B_coverage_train_16",
+    "color": "pink",
+    "rank": 6,
+    "center_x": 0.026562562499999998
+  },
+  {
+    "root": "B_coverage_train_16",
+    "color": "red",
+    "rank": 0,
+    "center_x": -0.3376041875
+  },
+  {
+    "root": "B_coverage_train_17",
+    "color": "blue",
+    "rank": 1,
+    "center_x": -0.29421884374999996
+  },
+  {
+    "root": "B_coverage_train_17",
+    "color": "pink",
+    "rank": 1,
+    "center_x": -0.10625024999999999
+  },
+  {
+    "root": "B_coverage_train_17",
+    "color": "red",
+    "rank": 5,
+    "center_x": -0.03541675
+  },
+  {
+    "root": "B_coverage_train_18",
+    "color": "blue",
+    "rank": 13,
+    "center_x": 0.11510443749999999
+  },
+  {
+    "root": "B_coverage_train_18",
+    "color": "pink",
+    "rank": 0,
+    "center_x": -0.1328128125
+  },
+  {
+    "root": "B_coverage_train_18",
+    "color": "red",
+    "rank": 2,
+    "center_x": -0.1888544375
+  },
+  {
+    "root": "B_coverage_train_19",
+    "color": "blue",
+    "rank": 2,
+    "center_x": -0.09739606249999999
+  },
+  {
+    "root": "B_coverage_train_19",
+    "color": "pink",
+    "rank": 7,
+    "center_x": -0.17026071874999998
+  },
+  {
+    "root": "B_coverage_train_19",
+    "color": "red",
+    "rank": 8,
+    "center_x": 0.03541675
+  }
+]

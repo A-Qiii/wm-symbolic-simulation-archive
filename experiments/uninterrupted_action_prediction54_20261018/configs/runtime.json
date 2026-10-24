@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T18:19:13.508810+00:00",
+  "pid": 52793,
+  "python": "3.10.18 (main, Sep 18 2025, 19:50:32) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "single_gpu_lock": true,
+  "fits": 0,
+  "renderer": "native CALVIN EGL",
+  "runs_on": "local host"
+}

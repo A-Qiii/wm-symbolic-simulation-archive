@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T18:49:54.069670+00:00",
+  "before_exploration_prediction": true,
+  "files": {
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/source/evaluate.py": "094c7214d433574d5ccc38d9008e981d8113a7fd9aff4a36fbd40cbcd86e5bf4",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/source/analyze.py": "3df463e4b709a1cd3d405b338315bd53dbb8ee1b656560688c429fe2ebd8d7be"
+  },
+  "protocol_sha256": "2c7919a96fc2820233387d5261cd5337425e1784ad27d358601c6d29dd0291a2",
+  "model_selection_sha256": "fafcecb829b39ac213a7dcb1105f5877ee4f95c8867531ecd3cf7d883010ca5a"
+}

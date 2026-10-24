@@ -1,0 +1,18 @@
+{
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/delivery_manifest.json": "9d8c3926e5d3a50ccb52287e47648f3fcab6caaf1fc9927bf4dc761fcaee0590",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/train_normalization.npz": "0f421a618e50be483d4b9b53c2fee92f39c74b251df5afd50141c60c531dc067",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/schedule_seed0.npz": "9729c98b4946d0bc5b378ea3947ed98666300ae29dfd6c0121a372a248e8f46f",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/schedule_seed1.npz": "317774ad4fb00f94a814af49c859f7f6f102dbe9f3e1f5c961d5ec22457f3773",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/initial_pair_seed0.pt": "c04fae3718f9b5a9b98d5dae3c5a1ed8e516e753b2fdf111a2c1c235237e4d03",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/initial_pair_seed1.pt": "9a06648548d1c7f8cbf792ed0455b2ca291b13ac09f55b050ce9854d930527a7",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/features/train.npz": "1cfd42618218e3d47476e5bee7996b21a1d2b9e10e1cd0ccf242504da2dce7b2",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/features/dev.npz": "bc7cbea1f1cb4f2c33fcde68e2215b7cc87310ebf3ba2707f85de68d7d98e441",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/supervision/train_targets.json": "f953415cd379d8723a7c211c5175d576e7190475ecca086de766126cba1f941c",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/supervision/dev_targets.json": "4da4b0828b2983a05d3efa1d8f809c001f73147a12227c5ff2f3ab00443f8919",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/data/records.json": "00ed7ad4a4d5b5f68f96382f5b23c47e76d675e8dfc11880e14df212b3948ed3",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/results/bootstrap_draws.npz": "ba0c7811161a5e53b7a38abc19cfdad83446358a0c223321a2fdbe3e564fb4c9",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/source/train.py": "dbb7a94c422826f483310c581e2cc80fbb728cf96b326ee11515318ef57f9a62",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/source/predict.py": "bbe36e5ed201f721fe31f18a01d6879560956685ca0374a9202b3cfb9dd851d2",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/source/collect.py": "e930524744fdfbe599beb6715b79b08ee447d59d5fb437630024f04f51a12739",
+  "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9"
+}

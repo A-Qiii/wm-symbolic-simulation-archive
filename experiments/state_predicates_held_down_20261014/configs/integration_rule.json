@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-14T13:25:21.220981+00:00",
+  "before_current_predictions": true,
+  "prospective_reference_seed": 1,
+  "reference_model": {
+    "arm": "long_history",
+    "seed": 1,
+    "mode": "fixed600",
+    "update": 600,
+    "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+    "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "thresholds": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "reason": "Prior temporaloldC andfreshC plus emptyupwardchallenge all errorfree at frozenupdate600; seeds0/2 retain knownoldCerrors. Chosenbeforehelddownpredictions,not switched posthoc.",
+  "decision": "Ifthisreferencekeepscorrectknownheldonall6eligiblehelddownrootswithno validin/open/otherhelderror,it is a limitedresearchcandidate for separatelyfrozen independentstate-interfaceacceptance; not deployment or fullguidecompletion. Ifnot, do not switchseed or retune; summarize concentratedfailures andlimits.",
+  "otherseeds": "Diagnosticreplicatesonly; no selectionorcalibrationafterthischallenge.",
+  "independent_acceptance_needed": "Newrootidentities not used intraining,selection,calibration,orpriorDdiagnostics; prespecifiedpositive/negativeheldregimes includingmotiondirectionsandlongstationary, supportedcontact, emptyupward, plusinpositive/openregression. Reportknownfalseassertions,positiverecall,UNKNOWNperroot andindependentinteraction,not only one aggregate threshold. No acceptance run here."
+}

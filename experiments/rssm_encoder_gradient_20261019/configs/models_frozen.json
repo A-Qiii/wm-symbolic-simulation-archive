@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T03:49:16.526247+00:00",
+  "before_dev_prediction": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/models/joint_seed0/final6000.pt": "982cab8cc4031dfdbd95151c9bda5175bf6b55c336267f90501911fa7e572fe1",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/models/route_current_only_seed0/final6000.pt": "777a8da26bd01839aef1a93a0e56485edab285a83e38d577aa0ed4c09e750e1b",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/models/route_current_only_seed1/final6000.pt": "b45e2380f1d14f5d1655770ec1655d4fd3d5fd621a0a67943d4290faa6503ae2",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/models/joint_seed1/final6000.pt": "f1dcef2f61a233703ef29862f09ba032bb45dffe13be10c724ecc78f4ca53359"
+  },
+  "fits": 4
+}

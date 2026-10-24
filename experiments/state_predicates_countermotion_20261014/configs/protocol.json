@@ -1,0 +1,490 @@
+{
+  "created_utc": "2026-10-14T13:00:05.442367+00:00",
+  "scope": "SixpreidentifiedexistingCemptyupwardtrajectories,originalactionreplay,singlefrozenmodelevaluation; existingCdataauditforhelddown/still. No newroots, training, calibration, Dtest, WM/planning.",
+  "sources": [
+    {
+      "root_id": "C_predicate_gap_blue_closed",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914202,
+      "target_color": "blue",
+      "drawer_setting": "closed",
+      "drawer_reset_m": 0.0,
+      "layout": {
+        "block_red": [
+          0.28330976351402276,
+          -0.07157809220534218,
+          0.46,
+          0.0,
+          0.0,
+          -1.0427546300635968
+        ],
+        "block_blue": [
+          0.16574422341650744,
+          -0.11317233931362733,
+          0.46,
+          0.0,
+          0.0,
+          -0.06373282379174167
+        ],
+        "block_pink": [
+          0.038458491531647244,
+          -0.11657786998298102,
+          0.46,
+          0.0,
+          0.0,
+          1.0938878317183525
+        ]
+      },
+      "near_probe_yaw_offset_rad": 1.5707963267948966,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        -0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_blue_closed__near_closed_empty",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    },
+    {
+      "root_id": "C_predicate_gap_blue_open",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914203,
+      "target_color": "blue",
+      "drawer_setting": "open",
+      "drawer_reset_m": 0.22,
+      "layout": {
+        "block_red": [
+          0.30277724440942677,
+          -0.08421198098049976,
+          0.46,
+          0.0,
+          0.0,
+          0.0003057751446625956
+        ],
+        "block_blue": [
+          0.17150226393289553,
+          -0.08755622291642143,
+          0.46,
+          0.0,
+          0.0,
+          1.0892147702436312
+        ],
+        "block_pink": [
+          0.04790134245814747,
+          -0.09754253249480249,
+          0.46,
+          0.0,
+          0.0,
+          -1.0443260532112544
+        ]
+      },
+      "near_probe_yaw_offset_rad": 0.0,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_blue_open__near_closed_empty",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    },
+    {
+      "root_id": "C_predicate_gap_pink_closed",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914204,
+      "target_color": "pink",
+      "drawer_setting": "closed",
+      "drawer_reset_m": 0.0,
+      "layout": {
+        "block_red": [
+          0.18214389186416688,
+          -0.06760553474331198,
+          0.46,
+          0.0,
+          0.0,
+          -0.06502864298506898
+        ],
+        "block_blue": [
+          0.2859950513337274,
+          -0.09441028905516977,
+          0.46,
+          0.0,
+          0.0,
+          1.0865039021270169
+        ],
+        "block_pink": [
+          0.04919583928194114,
+          -0.11190065911946423,
+          0.46,
+          0.0,
+          0.0,
+          -1.0143660404427512
+        ]
+      },
+      "near_probe_yaw_offset_rad": 0.0,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_pink_closed__near_closed_empty",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    },
+    {
+      "root_id": "C_predicate_gap_pink_open",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914205,
+      "target_color": "pink",
+      "drawer_setting": "open",
+      "drawer_reset_m": 0.22,
+      "layout": {
+        "block_red": [
+          0.16301101913825453,
+          -0.06913272036500233,
+          0.46,
+          0.0,
+          0.0,
+          0.9836480987546179
+        ],
+        "block_blue": [
+          0.2882832256100773,
+          -0.074978148817331,
+          0.46,
+          0.0,
+          0.0,
+          -1.0366946851297216
+        ],
+        "block_pink": [
+          0.049930938905881524,
+          -0.10480357587395811,
+          0.46,
+          0.0,
+          0.0,
+          0.04555042757359605
+        ]
+      },
+      "near_probe_yaw_offset_rad": 1.5707963267948966,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        -0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_pink_open__near_closed_empty",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    },
+    {
+      "root_id": "C_predicate_gap_red_closed",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914200,
+      "target_color": "red",
+      "drawer_setting": "closed",
+      "drawer_reset_m": 0.0,
+      "layout": {
+        "block_red": [
+          0.1771709985510628,
+          -0.06684008954974516,
+          0.46,
+          0.0,
+          0.0,
+          1.0381541343570981
+        ],
+        "block_blue": [
+          0.04418339565594818,
+          -0.08411085434379034,
+          0.46,
+          0.0,
+          0.0,
+          -1.0412565547961992
+        ],
+        "block_pink": [
+          0.29719339360066543,
+          -0.06921876246436236,
+          0.46,
+          0.0,
+          0.0,
+          0.027712059853952392
+        ]
+      },
+      "near_probe_yaw_offset_rad": 0.0,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_red_closed__near_closed_empty",
+      "anchor_frame": 69,
+      "history_frame_indices": [
+        6,
+        27,
+        48,
+        69
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    },
+    {
+      "root_id": "C_predicate_gap_red_open",
+      "environment": "C",
+      "split": "dev",
+      "seed": 914201,
+      "target_color": "red",
+      "drawer_setting": "open",
+      "drawer_reset_m": 0.22,
+      "layout": {
+        "block_red": [
+          0.30559096750654835,
+          -0.10772890463076114,
+          0.46,
+          0.0,
+          0.0,
+          -1.1178218880728346
+        ],
+        "block_blue": [
+          0.047787780390498455,
+          -0.06622425360351061,
+          0.46,
+          0.0,
+          0.0,
+          -0.07185524602035742
+        ],
+        "block_pink": [
+          0.18008365499924006,
+          -0.08571224224982957,
+          0.46,
+          0.0,
+          0.0,
+          1.0277149693314906
+        ]
+      },
+      "near_probe_yaw_offset_rad": 1.5707963267948966,
+      "near_probe_translation_m": [
+        0,
+        -0.055,
+        0.025
+      ],
+      "follow_probe_translation_m": [
+        -0.015,
+        0,
+        0
+      ],
+      "trajectories": [
+        "grasp",
+        "near_closed_empty"
+      ],
+      "source_trajectory": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_open__near_closed_empty",
+      "trajectory_id": "C_predicate_gap_red_open__near_closed_empty",
+      "anchor_frame": 91,
+      "history_frame_indices": [
+        28,
+        49,
+        70,
+        91
+      ],
+      "origin": "existing_C_replay",
+      "new_independent_root": false
+    }
+  ],
+  "models": [
+    {
+      "arm": "long_history",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt",
+      "checkpoint_sha256": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+      "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt",
+      "checkpoint_sha256": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "history": "Exact[t-63,t-42,t-21,t],30Hz,2.10seconds,originalfrozenDINO/normalization/reader. Targetanchorisfrozenbeforepredictions.",
+  "replay": "Fulloriginalinitialrootlayoutandseed,originalactionsincluding24settlingcontrols;nointermediateGTreset. Keep originalroot/split. Actualnewlyrenderedpublicframes, not fabricatedoriginalmissingfiles.",
+  "tolerances": {
+    "exact_numeric_max_abs": 1e-09,
+    "max_TCP_or_object_position_m": 0.0001,
+    "max_robot_or_object_angle_rad": 0.001,
+    "max_gripper_width_m": 0.0001,
+    "max_settled_scene_or_robot_vector_abs": 0.0001,
+    "event_transition_max_shift_controls": 1,
+    "saved_RGB_mean_absolute_pixel_error_0_255": 2.0,
+    "saved_target_mask_IoU_min": 0.95,
+    "exact_recovery_requires": "All numeric<=1e-9, identical event sequences, all saved RGB and visible mask arrays bitwise equal. Otherwise within tolerance marked NEW_REPLAY, never original-frame restoration.",
+    "failure": "Outside tolerance stops continuation for evidence review; preserve outputs, do not relax tolerance or resample root."
+  },
+  "on_mismatch": "Outsidepredeclaredtolerancestopandpreserve;withintolerancebutnotexactlabelnewreplay,neverclaimoriginalframerecovery.",
+  "scoring": {
+    "primary": "Targetheldandany-objectheldfalsepositivecountsperroot; alsoall3entityheldnegatives18atoms, rawp>=.5andfrozencalibratedknown/UNKNOWN.",
+    "regression": "in/openatcurrentframeusingunchangedlabelsandfrozenthresholds.",
+    "visibility": "Requiretargetvisible>=4pixelsinatleastonecameraoneachselectedframe;missingretainedandreported,neverreselectanchors.",
+    "prediction_policy": "Eachfrozenmodelrunsonebatchoverallfrozeneligiblewindows. No selection/retraining/thresholdtuningafterpredictions."
+  },
+  "additional_existing_data_audit": {
+    "scope": "Ccoretrajectorysegments,Csupplementtrajectories,andfullrecoveredfreshCgrasptrajectoriesonly. Do not reconstruct missinginputfromGTorlossyvideo.",
+    "window_frames": 64,
+    "input_offsets": [
+      63,
+      42,
+      21,
+      0
+    ],
+    "held_continuously": "Samephysicalbilateralfingerforce>.01N,noexternalforcecontactthroughoutall64frames.",
+    "held_down": "TCPzandheldobjectzdecrease>=20mmover2.1s;relativeobjectTCPvectordrift<=15mm.",
+    "held_stationary": "MaxTCPandobjectdistancefromfirstframe<=1mmthroughout2.1s.",
+    "selection": "Atmostearliestphysicallyqualifyingwindowpertrajectory/colour/conditionwithall4exactpublicRGBD/mask/propriopresentandvisible. Freezeindexbeforemodelprediction. Ifnonecomplete,reportgaps; noadditionalreplay/collection."
+  },
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/trace_private.json.gz": "3d1b52d9f0c0b8ee0cf3ab2b547597dbc157c7debc5301c850336efcb442ef52",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/reset_provenance.json": "0126c92573ac745ba8fdde76680f9623506c630ccffce8eae2f3cfbc6dfb42f4",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/settled_root_private.npz": "c68949ae1b4c28ece5450011c801c275610e2e56abec2a3ce3240b7c11144689",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_closed__near_closed_empty/samples_manifest.json": "e1ab3a86b1551a208c4ff81e2fb066ff6ae8eddf07eb0fbba05ecca344b6fddf",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/trace_private.json.gz": "519eb42b80e30b7e8c8dcebfd6007cea1e5025729860740a95e40b2c8939b9c4",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/reset_provenance.json": "d06bb78a11d41219f73fcf771a1405678a91d66854fec40d1409d94b5cf2d447",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/settled_root_private.npz": "d04667a14d599bb9766d2f8990dab70026b36d692a84d537f01c0d33217dd43b",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_blue_open__near_closed_empty/samples_manifest.json": "8726acc03aa4b6440cb2196ff30452cb68195c58ca98201f23bd55059e0abc68",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/trace_private.json.gz": "c93ae83d4d074049f063f391809f62407d51f9f0e29eaf331138eb1b2b967d01",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/reset_provenance.json": "70ae72801995e9d6cb4fe840dede46178fac2372bc86aee531eb6481fe384760",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/settled_root_private.npz": "d83c9a8671f28d3c484150c59521433c5bdfc0df3cc58bac39770134c99bd5d9",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_closed__near_closed_empty/samples_manifest.json": "5225b43dc2a15ed9aa6f78a380baa448b9a76ddd462f5d8c0e25ce04e9ed8e20",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/trace_private.json.gz": "e6043641dbd0e2df591b4bbeae9c7c1ac0993bac6b6c3650feb12b46ca09fafd",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/reset_provenance.json": "c305551f7abe37f9ec9dc3894f180797d4ec31c319ad76d1c0b3ee2c940cf5bd",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/settled_root_private.npz": "c49da9b3c1b15147d42cbdb34bcbd55f2081effc106dec62604bcfe2a0d568fd",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_pink_open__near_closed_empty/samples_manifest.json": "e0014792a663d7edb47ac9e537b5e51565e53220ebd6257d4fe08dd041130a6d",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/trace_private.json.gz": "94ff4223f90ac93546c311025295444cca61cbacd03c31c4772742d7cd6e83de",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/reset_provenance.json": "42be3e01c969b7a7334518e0635d140b262a89941f9bae571b7f48c958dc398e",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/settled_root_private.npz": "e9233648aa48c83b26e7feb279789060be21cf88a4a113b59ce9a4513fe461b9",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_closed__near_closed_empty/samples_manifest.json": "078b199e8dd94f4fca34c5597f5d9094e6cdce3d0743c6700fcf7f38b28c3c6a",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/trace_private.json.gz": "00316fb2dae8c6722ef733dc96eab23939b40e0276065930ba4dadfad9e1eccf",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/reset_provenance.json": "a74677c13a3ad8a65e68ec432dd6b34adeb1a4c9527b3244d1e7422d6607349c",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/settled_root_private.npz": "28b9169d7515df045b06c0268fa52a0789fc62a8c567dca3a7e882dd50301d3a",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/C_predicate_gap_red_open__near_closed_empty/samples_manifest.json": "3b58b601db012d439252711b4dff87a6b1f6dbb2a37093940d3a9ee47cca1857",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/delivery_manifest.json": "00aabf9fe2601b9e13978d82cebd8f7c1329a628ee44095d1080e53c87954a82",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/configs/protocol.json": "c6f880608071675bd26f53fdcb75d943153a3b5a5c896c9b231ffa9ec9f56173",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/results/direction_confound.json": "2723bcffd416f93be75856acb6299df1cd41e91fe8bb34fe91bcfbb5a0724592",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/configs/protocol.json": "2f4b974d83983f7a152e303a8188ce059ad3558e02b2a2403c351ab49ba13240",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/franka_panda/panda_longer_finger.urdf": "264bbb28f54af13f9392f5a2a3ee8e9be2e9dfc3a9231cf4f9147b6acc8d7ab9",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2"
+  },
+  "no_new_roots": true,
+  "no_training_or_threshold_change": true
+}

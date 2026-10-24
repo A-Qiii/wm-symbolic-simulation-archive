@@ -1,0 +1,121 @@
+{
+  "utc": "2026-10-17T04:43:59.133591+00:00",
+  "authorization": "One independent fixed-candidate D12diagnostic;stop afterthisrun regardlessoutcome. No furthertraining/tuning/adoption/expansion.",
+  "models": {
+    "mixed_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed0/update0750.pt",
+      "sha256": "be3b7ec4530b109f016c31821e92b5e558fb463191ea6b45c2b11037ff24f2f6",
+      "C_score": 0.3717340752482414
+    },
+    "latent_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed0/update1000.pt",
+      "sha256": "6d3ca5f910db0524921b8b7f7437174bb39c5f1ed18e5a1f3651204df1547a68",
+      "C_score": 0.28229083120822906
+    },
+    "mixed_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed1/update0750.pt",
+      "sha256": "293ee347ca07cff85fc3c73b528243b06c33487400ec6bbeac30792426895cc7",
+      "C_score": 0.37214062362909317
+    },
+    "latent_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed1/update1000.pt",
+      "sha256": "60363e3887861e7f46a1b955bb0b10a900c3827114cf21d83fc4bde59738a735",
+      "C_score": 0.28225962817668915
+    }
+  },
+  "query_heads": {
+    "0": {
+      "original": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+        "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+        "C_score": 0.2316754311323166
+      },
+      "object_control": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/control_seed0_update0600.pt",
+        "sha256": "9c14d82998ea9b2e94672e614cf267212a1cc9a43b113e9a11759f8b0cc4155a"
+      },
+      "object_coverage": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/coverage_seed0_update0600.pt",
+        "sha256": "5545c3bdbe3503428c8510da7cef09494037f59a12586f9bb1a93ed972c06b75"
+      }
+    },
+    "1": {
+      "original": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+        "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+        "C_score": 0.22401409596204758
+      },
+      "object_control": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/control_seed1_update0600.pt",
+        "sha256": "7ad7524fbfea22b2a38c4ed04857ed019c8a4f0d1ac1c19577ae628173121bc9"
+      },
+      "object_coverage": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/models/coverage_seed1_update0600.pt",
+        "sha256": "3089fecbe0de9fde619680149270796f5d9f77e64b46cdca37f769db0669dfdc"
+      }
+    }
+  },
+  "thresholds": {
+    "binary": 0.5,
+    "drawer": "argmax"
+  },
+  "roots": 12,
+  "seen_pair_roots": 6,
+  "reverse_pair_roots": 6,
+  "directed_pairs": [
+    [
+      "red",
+      "blue"
+    ],
+    [
+      "blue",
+      "pink"
+    ],
+    [
+      "pink",
+      "red"
+    ],
+    [
+      "blue",
+      "red"
+    ],
+    [
+      "pink",
+      "blue"
+    ],
+    [
+      "red",
+      "pink"
+    ]
+  ],
+  "root_seed_range": [
+    17076000,
+    17076011
+  ],
+  "root_order_seed": 17076100,
+  "branches": "normal:open,liftc,place,close;reverse_then_lift:open,close,open,liftd;place_then_other_lift:open,liftc,place,liftd",
+  "budget": {
+    "resets": 36,
+    "skills_max": 144,
+    "controls_per_skill_max": 900,
+    "internal_attempts_max": 2,
+    "external_retries": 0,
+    "replacement_roots": 0,
+    "reset_settle": 127,
+    "posthold": 96,
+    "wall_minutes": 45,
+    "storage_GiB": 5
+  },
+  "reset_comparator": "exact everyvalue, only tuple/list representation normalization;same controller and reset as prior validatedrun",
+  "failure_rule": "first physical nonsuccess stopsbranch;observed failure remains scored, later slots unreached;next fixed branch allowed. Infrastructure stop preserves partial, no external retry or root replacement.",
+  "primary": "For one root,branch2and3terminal: predictIn(c)=false/true respectively AND In(d)=false inboth. Compareobjectcoverage vsobjectcontrol samequeryseed,worldmodel,path. Originalsecondary.",
+  "eligibility": "Bothterminalobserved,native In(c/d),Holding(d),Open valid;actualIn(c)false/true,actualIn(d)falseboth,Holding(d)trueboth,Openboth. Ineligible never synthesized;report planned,observed,valid,contextmatched,reasons and n/eligible plus n/planned. All observed failures scored separately.",
+  "secondary": "AddHolding(d)correctboth;all3Holdingcorrectboth;all9bothterminal;all9all4boundariesperbranchandpairedbranches;perfactconfusions inclselfheldIn;firsteffectiveerror.",
+  "grouping": "all12,seen6,reverse6;rootindependentunit,branch/seednotextraN;pairedgain/lossrootcounts,noconfidenceclaim from repeatedframes",
+  "truth": "frozen native evaluator only forlabels/score; no expected-planlabels, no trueHolding masking, no GT dynamics",
+  "model_inputs": "currenttwoRGBandrobot15, frozenDINO/encoder and8Dcanonicalaction. No branch/root/groundtruthinputs. FrozenobjectIn uses context-enrichedcorresponding64token only; originalHolding/drawer unchanged.",
+  "selection": "no model,threshold,normalization or checkpoint selection;bothseedsallheadsallpathsreported",
+  "examples": "After scoring,seed0 latent recursive,firstlexicographic eligible objectcoverage primarysuccess andfirstfailure;prefer reverse within each outcome. If no outcome exists saynone rather than fabricate. Shownegative/positive actualimages,truth and allheads probabilities.",
+  "prior_C_retention": "ExistingCdegradation remainsvalid evidence; independentDcannoterase it.",
+  "end": "seal and cleanprocesses,stop thisround regardlessresult"
+}

@@ -1,0 +1,41 @@
+{
+  "version": "physical_oracle_v1",
+  "created_utc": "2026-10-14T02:47:39.028142+00:00",
+  "authorization": "Explicit user: establish reliable control endpoint; simulator GT and physical scripted/IK trajectories allowed.",
+  "scope": "New independent executor. Main 4215 transitions/HULC unchanged. No formal collection/training.",
+  "boundary": "GT confined to controller and private evaluator. Public observation allowlist unchanged. No high-level planner or WM receives GT.",
+  "physics": "Unmodified CALVIN URDF/dynamics/contact, standard motor actions. No object teleport/reset, collision disable, artificial attachment or external object forces during skills.",
+  "roots": "9 development and18 independent acceptance, native A/B/C; no D. Deterministic physically separated tabletop placements; no outcome screening.",
+  "skills": [
+    "open_drawer",
+    "close_drawer",
+    "lift_red_block_table",
+    "lift_blue_block_table",
+    "lift_pink_block_table",
+    "place_in_drawer"
+  ],
+  "chain": "open_drawer -> lift designated color -> place_in_drawer -> close_drawer",
+  "acceptance_chain_colors": "Each root has predeclared color; 2 roots/color/environment. Stop chain on first failed skill, retain all failures.",
+  "negative_cases": [
+    "place_in_drawer empty gripper",
+    "close_drawer already closed",
+    "lift then place_in_drawer while drawer remains closed"
+  ],
+  "acceptance": "Report successes and correct precondition refusals separately. Target all feasible predeclared chains, no claim universal reliability. Hold code fixed before acceptance; no tune on acceptance.",
+  "limits": {
+    "max_controls_per_skill": 900,
+    "max_attempts_per_skill": 2,
+    "completion_stability_controls": 12
+  },
+  "audits": [
+    "controls",
+    "attempts/retries",
+    "official task completion",
+    "final goal validity",
+    "contacts/penetration",
+    "unrequested block/device changes",
+    "dual RGB cameras",
+    "reset hash"
+  ],
+  "main_manifest_sha256": null
+}

@@ -1,0 +1,590 @@
+[
+  {
+    "root_id": "D4_empty_open_red_0",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966000,
+    "target": "red",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.040420941792016524,
+        -0.06636605627630056,
+        0.46,
+        0.0,
+        0.0,
+        1.0142629073987717
+      ],
+      "block_blue": [
+        0.30438281580319876,
+        -0.09953728312632151,
+        0.46,
+        0.0,
+        0.0,
+        -0.254108802252186
+      ],
+      "block_pink": [
+        0.15958915032994078,
+        -0.10747963145450032,
+        0.46,
+        0.0,
+        0.0,
+        -1.7913534151288222
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_red_1",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966001,
+    "target": "red",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.04671360332390358,
+        -0.08706936659488743,
+        0.46,
+        0.0,
+        0.0,
+        3.0263374278646484
+      ],
+      "block_blue": [
+        0.1820700316844457,
+        -0.04784310855141556,
+        0.46,
+        0.0,
+        0.0,
+        -2.2326924789219564
+      ],
+      "block_pink": [
+        0.2954676751410346,
+        -0.12693892253141667,
+        0.46,
+        0.0,
+        0.0,
+        -1.0474350056178015
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_red_2",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966002,
+    "target": "red",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.3029735001882461,
+        -0.10867683820829918,
+        0.46,
+        0.0,
+        0.0,
+        -2.082661203671183
+      ],
+      "block_blue": [
+        0.17859037347323467,
+        -0.09205741029979997,
+        0.46,
+        0.0,
+        0.0,
+        2.53158589598406
+      ],
+      "block_pink": [
+        0.05580039234113281,
+        -0.09570644954610265,
+        0.46,
+        0.0,
+        0.0,
+        -2.8418372557965066
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_red_3",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966003,
+    "target": "red",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.2889029719016695,
+        -0.11910451518782597,
+        0.46,
+        0.0,
+        0.0,
+        2.221109944111462
+      ],
+      "block_blue": [
+        0.1735569729466678,
+        -0.1058731889903195,
+        0.46,
+        0.0,
+        0.0,
+        0.06994402655115328
+      ],
+      "block_pink": [
+        0.042396868447500353,
+        -0.08712831740241495,
+        0.46,
+        0.0,
+        0.0,
+        1.3993296535637558
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_blue_0",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966004,
+    "target": "blue",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.16532499262715883,
+        -0.0681455726750797,
+        0.46,
+        0.0,
+        0.0,
+        0.558475515253309
+      ],
+      "block_blue": [
+        0.29296485262248123,
+        -0.10407847213607527,
+        0.46,
+        0.0,
+        0.0,
+        1.0001189220487854
+      ],
+      "block_pink": [
+        0.04664500992972405,
+        -0.04880645960075758,
+        0.46,
+        0.0,
+        0.0,
+        1.5807002533294163
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_blue_1",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966005,
+    "target": "blue",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.05840418190452458,
+        -0.10376743659127899,
+        0.46,
+        0.0,
+        0.0,
+        1.7484572546929664
+      ],
+      "block_blue": [
+        0.17019946797499286,
+        -0.11026447523087643,
+        0.46,
+        0.0,
+        0.0,
+        1.1046142951937776
+      ],
+      "block_pink": [
+        0.29448604827031216,
+        -0.045498088448304885,
+        0.46,
+        0.0,
+        0.0,
+        0.37953934542458434
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_blue_2",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966006,
+    "target": "blue",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.17884713280061046,
+        -0.08016695809677377,
+        0.46,
+        0.0,
+        0.0,
+        1.1144302412395337
+      ],
+      "block_blue": [
+        0.05054460131598838,
+        -0.12923333795704847,
+        0.46,
+        0.0,
+        0.0,
+        1.7778355645199184
+      ],
+      "block_pink": [
+        0.3013397755343709,
+        -0.053962556850022506,
+        0.46,
+        0.0,
+        0.0,
+        -2.747559450632826
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_blue_3",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966007,
+    "target": "blue",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.050953405906259824,
+        -0.09619282845883975,
+        0.46,
+        0.0,
+        0.0,
+        1.851430603445392
+      ],
+      "block_blue": [
+        0.302739853985099,
+        -0.09032924858996796,
+        0.46,
+        0.0,
+        0.0,
+        2.792698923383268
+      ],
+      "block_pink": [
+        0.16735429959183987,
+        -0.09489119853345529,
+        0.46,
+        0.0,
+        0.0,
+        3.058440613649288
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_pink_0",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966008,
+    "target": "pink",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.1685517765431151,
+        -0.09237940296048769,
+        0.46,
+        0.0,
+        0.0,
+        0.6221112186635169
+      ],
+      "block_blue": [
+        0.30583507088338374,
+        -0.07800741121473076,
+        0.46,
+        0.0,
+        0.0,
+        -2.766702139051906
+      ],
+      "block_pink": [
+        0.0391180222824065,
+        -0.06473829843343655,
+        0.46,
+        0.0,
+        0.0,
+        -2.639410994412673
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_pink_1",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966009,
+    "target": "pink",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.06064911942832022,
+        -0.06580620330829332,
+        0.46,
+        0.0,
+        0.0,
+        -2.537817107197391
+      ],
+      "block_blue": [
+        0.2986292996282471,
+        -0.05334925041669002,
+        0.46,
+        0.0,
+        0.0,
+        -2.6393633778821037
+      ],
+      "block_pink": [
+        0.170176741374758,
+        -0.05766883687302454,
+        0.46,
+        0.0,
+        0.0,
+        0.7794869213523237
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_pink_2",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966010,
+    "target": "pink",
+    "replicate": 2,
+    "layout": {
+      "block_red": [
+        0.29484797494020604,
+        -0.04921128902943353,
+        0.46,
+        0.0,
+        0.0,
+        2.177634103519517
+      ],
+      "block_blue": [
+        0.1656760117759157,
+        -0.10989626506415925,
+        0.46,
+        0.0,
+        0.0,
+        -1.5182952416767035
+      ],
+      "block_pink": [
+        0.03994416850076471,
+        -0.12210856913795406,
+        0.46,
+        0.0,
+        0.0,
+        0.6190769488751275
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  },
+  {
+    "root_id": "D4_empty_open_pink_3",
+    "environment": "D",
+    "split": "test_D4",
+    "seed": 16966011,
+    "target": "pink",
+    "replicate": 3,
+    "layout": {
+      "block_red": [
+        0.17926418106062325,
+        -0.08397179870348273,
+        0.46,
+        0.0,
+        0.0,
+        1.3993349364527532
+      ],
+      "block_blue": [
+        0.042051591108749356,
+        -0.0878090391039776,
+        0.46,
+        0.0,
+        0.0,
+        2.5978844985956604
+      ],
+      "block_pink": [
+        0.29716395909948584,
+        -0.07726740337615849,
+        0.46,
+        0.0,
+        0.0,
+        -0.6227020395741434
+      ]
+    },
+    "drawer_reset_m": 0.0,
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "held_closed": [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "open_drawer",
+        "close_drawer"
+      ]
+    }
+  }
+]

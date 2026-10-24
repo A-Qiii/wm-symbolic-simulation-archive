@@ -1,0 +1,6 @@
+{
+  "start_epoch": 1792461120.0,
+  "deadline_epoch": 1792463820.0,
+  "training_deadline_epoch": 1792462920.0,
+  "maximum_minutes": 45
+}

@@ -1,0 +1,45 @@
+{
+  "seed": 170819,
+  "selection": "Hash rank seed|episode selects4 eligible new episodes per scene. Eligibility requires each color lift_table and lift_drawer interval plus2 place_in_drawer intervals. Rank seed|segment chooses1 of each color/location and2 place intervals. Lift phase fractions0,1/3,2/3,1; place0,1/2,1; floor to frame, deduplicate without replacement. No outcome or model prediction is read for new sources.",
+  "episode_split": "Old4 stay train_candidate because inspected. New4 per scene: two smallest seed|split hashes validation_candidate, remainingtwo train_candidate. All original and derived records inherit root split; no frame leakage. C/D absent. No training authorized.",
+  "old_retest": "4 per original episode: first distinct source frame in prior H-positive, In-positive, all-six-negative, unknown classes; missing category uses first remaining frame. Uses sealed prior labels for descriptive change analysis only, not new episode selection.",
+  "max_runs": 256,
+  "new_frame_count": 240,
+  "old_retest_count": 16,
+  "run_count": 256,
+  "max_physics_steps_per_run": 96,
+  "physics_dt_seconds": 0.004166666666666667,
+  "image_checkpoints": [
+    32,
+    64,
+    96
+  ],
+  "stable_window_inclusive": [
+    32,
+    96
+  ],
+  "final_candidate_step": 96,
+  "controller": "Same recorded absolute TCP xyz/euler and robot_obs[-1] reissued through native apply_action before steps1,9,...89;12 control periods,8 native physics ticks each; scene.step every8. No action trajectory replay. Joint/motor targets audited.",
+  "initialization": "fresh native world each source once; restore recorded state and zero unrecorded movable-object velocities; no env.reset implicit tick",
+  "strict_labels": "Frozen native Holding and In unchanged; same per-tick confidence .005/.015N and certain support normal .55 as previous resimulation",
+  "stable_labels": "Every tick32..96 must have same value as96, valid native label and unambiguous per-tick force evidence. Otherwise unknown.",
+  "force_stability": "Holding positive additionally requires coefficient of variation(population std/mean)<=0.25 for each finger-family TOTAL positive normal force across all65 ticks. In positive additionally requires at least one same certain contained object-to-drawer path at every tick, and CV<=0.25 of total certain upward force on each body-to-body edge across all65 ticks. Certain edges use force>=.015N,nz>=.55,gap<=.003. No force-variation constraint for negatives beyond all-tick confident negative evidence.",
+  "supplementary_table_state": "Diagnostic only: native table base link -1 supports object with certain upward contact at all65ticks and final Holding/In both reliable false; not a new learned predicate. Empty hand requires all3 Holding reliable false.",
+  "basic_coverage_check": "Descriptive target: per split and color Holding positive and negative each represented by>=2 distinct episodes; separately report In positive/negative and tabletop-negative episodes without claiming formal acceptance. No adaptive replenishment.",
+  "drift": "Record all object translations/rotations and TCP pose drift each step; report regardless of outcome. No drift-based posthoc filtering.",
+  "prohibited_after_init": [
+    "state teleport/reset",
+    "new constraint",
+    "changeDynamics",
+    "external force/torque"
+  ],
+  "failure_policy": "Each frozen initialization once. Technical failure saves partial state and stops whole run without retry; physical failure/unstable/unknown is recorded and next frozen initialization continues.",
+  "max_total_ticks": 24576,
+  "formal_training": false,
+  "original_RGB_labels_unchanged": true,
+  "network_cumulative_cap_bytes": 536870912,
+  "network_used_before_new_frames": 291249980,
+  "compressed_new_frame_bytes": 77617810,
+  "conservative_remaining_download_bound": 93353410,
+  "projected_cumulative_upper_bytes": 384603390
+}

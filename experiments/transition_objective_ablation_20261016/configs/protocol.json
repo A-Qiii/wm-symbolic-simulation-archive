@@ -1,0 +1,61 @@
+{
+  "frozen_utc": "2026-10-16T15:13:51.782832+00:00",
+  "scope": "Finite transition objective ablation only. No fresh data, no perception/architecture/query changes, no automatic D or adoption.",
+  "arms": [
+    "mixed",
+    "latent"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "updates_per_run": 1000,
+  "initial_transition": "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt",
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "single": "Exact prior1000x64 schedules perseed,48old+12newnormal+4newheldclosed,identical botharms.",
+  "multi": "Fixed3step baseline only:every4updates,48starts,12ABnormal roots eachwindow(open,lift,place)/(lift,place,close)twice,localdepth2/3 eachweight.25. No simultaneous span intervention.",
+  "objectives": {
+    "mixed": "Each target F+0.25Z, same feature weighting as baseline",
+    "latent": "Each target alpha*Z, same target/root/span weights; alpha frozen by initial AB gradient calibration",
+    "Z": "raw4x64 latent MSE, no query normalization",
+    "forbidden": "no proposition/GT label loss"
+  },
+  "calibration": {
+    "data": "First32update indices0..31 of each fixedseed0/1 schedule;64ABbatches,16include multistep; assert every used pair split=train",
+    "initial": "same fixed initialtransition, no optimizer updates",
+    "gradients": "L2 norm of full transition parameter gradient, before clipping, actual scheduled combined single+multi objective",
+    "formula": "one shared alpha=median(norm(grad(F+.25Z)))/median(norm(grad(Z))) over64batches",
+    "fixed_after": "freeze alpha and raw calibration records/hashes before training; no adaptation and no C involvement"
+  },
+  "optimizer": "AdamW lr1e-4 weight_decay1e-4 clip5, same params/order,seeds and1000updates. Gradient matching does not make Adam moments, direction,clipping,epsilon or later dynamics equivalent.",
+  "checkpoints": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "C_selection": "Shared6newCselect normal full4roots; trueinitial recursive rawZ perh2/h3/h4 weighted.25/.5/.25; minimum andearlier tie. No feature or proposition score selection.",
+  "diagnostics": "SameAB12new,12old andC6full4 feature/Z perstep atcheckpoints; exactsingle-schedule frequencyweightedAB F/Z; previousCsingle(.5old37+.5new6)F/Z. Record raw F/Z, never compare scaledobjective magnitudes acrossarms.",
+  "gate": {
+    "both_seeds": true,
+    "normal_C_validate": "Eachseed:h3full9>=mixed+1root,h4full9>=mixed+1root,all4boundariescorrect>=mixed+1root (N6).",
+    "retention": "Eachseed:Crecursiveh1/h2 and eachCsingle-step may lose atmost1of6; oldABandnewAB all4cumulative may lose atmost1of12 each. Actual-state readout probabilities identical.",
+    "C_score": "reported and used for within-armselection, not an extra semantic promotion condition",
+    "if_fail": "Stop,noextra tuning or D",
+    "if_pass": "Report to parent for review only; do not collect newD until separate decision"
+  },
+  "evaluation": "Selectedmodels only onoldAB12normal,newAB12x2,Cselect6x2,Cvalidate6x2;full4andpost-opentrue-state replacement;full9/group/margins/perfact paired andall4cumulative. Existing D not accessed for selection or scoring.",
+  "limits": "C repeatedly used development; predicted correctness is not physical task success. Purelatent experiment is candidate only, not adoption."
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py",
+    "sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "relevance": "step55,hold70;run130 containsoutcome/refusal/retry andmustnotbecalled"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py",
+    "sha256": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "relevance": "shadowcheck39,monitor64,plan_lift83; unchanged thresholds, notpromoted"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py",
+    "sha256": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "relevance": "model_view52 hasdepth;segmentation62 addsprivilegedfields; explicitnarrowallowlistrequired"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/robot.py",
+    "sha256": "65721aa5f6bbb74a7bfabd53fe05699c0fc281d682363f065600f94622a396a7",
+    "relevance": "get_observation181 Euler15;apply_action244 andcontrol_gripper359 nativecommands"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py",
+    "sha256": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "relevance": "physics_guard blocksworldmutation butdoesnotalreadylistrestoreState/loadBullet; newwrappermustblockthem"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/source/collect.py",
+    "sha256": "e930524744fdfbe599beb6715b79b08ee447d59d5fb437630024f04f51a12739",
+    "relevance": "MotorAdapter23 andcapture65 reusable; run()/postcleanupnotreused"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v3_20261018/source/collect.py",
+    "sha256": "36fe129f1361ed309803637b495429a8efed08ace421f71745c752a8940fc913",
+    "relevance": "capture_native143 andtarget/supportaudit158 read-only reference; restorepathclosed"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/holding_static_context_diagnostic_20261018/REPORT.md",
+    "sha256": "7dff7af091fc1b69332d9c15c843dfbc5b41dff5faac88408c713da746779acf",
+    "relevance": "supportnegativecoveragegap andstaticoptimizationclosed"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/holding_matched_input_diagnostic_20261018/REPORT.md",
+    "sha256": "7f6460f1a98496f561407ab4ddc01ab1c91e33a54f086897cd851bbe11917fdb",
+    "relevance": "matchedRGBpredictiveevidence andsameboxnot sameRGB"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/relation_GT_boxes36_ABC_20261018/REPORT.md",
+    "sha256": "5f9db37a92e203e408804f90c9d7aa7560f0c87b4382d0796f232029e5936d17",
+    "relevance": "36roots264states andoracleboxeslimitations"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/native_restore_semantics_root1_final_20261018/supported_start_geometry.json",
+    "sha256": "65ea61a96e01c3e3dd410022701f24c3605b4e7e0dd1773f665b1705d9d7e1d3",
+    "relevance": "20close alreadyHolding;0.765mmtableclearance, cannotassumepresupport"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/acquisition_scene_surface_pilot8_20261018/REPORT.md",
+    "sha256": "bb8ec5c3c49892dd5715fbc3bd1ead83ebc65b679b53a7a506c34c3819109c93",
+    "relevance": "historicalpostprocessingnon-targetcontacts; omittranslate/returncleanup"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/CONTROLLER_NOT_PROMOTED.json",
+    "sha256": "7cf6577613fa33eb462ea122cb5f29d5186de8ecae5a13e75f3f4d33f79e246d",
+    "relevance": "27chainspassedbut134/135feasible; noexecutorpromotion"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/reports/holding_action_fork_feasibility12_v3_20261018/AUDIT.json",
+    "sha256": "a6890b6c53411a990ed6ca66225e017cb51593e8e3e4da1f8c073020221a7877",
+    "relevance": "exactforknegativequalificationclosed"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/source/世界模型与TS-LTL符号规划_核心预实验方案.md",
+    "sha256": "f4cb908e26db79176263d5002290ac4c94daf3025ce2523fc546eb896e2ad0d4",
+    "relevance": "authoritativeguide, noacceptance/scalesubstitution"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "question": "Can existing public static/gripper ROI geometry distinguish table middle/right across fixed training40, ABtest10, C20?",
+  "primary": "h0 b0 per independent root",
+  "secondary": "all boundaries, repeated-root descriptive only",
+  "statistics": "Class support ranges, 2D convex hull coverage, 4D axis-box coverage, cross-class hull overlap, archived error counts",
+  "train_reference": "All coverage ranges/hulls computed from train only before comparing fixed test/C. No thresholds/classifiers fitted.",
+  "model_forward_passes": 0,
+  "fits": 0,
+  "collection": 0,
+  "uploads": 0,
+  "old_outputs": "read only",
+  "depth": "Not processed; distinct unused sensor channel, not silently added"
+}

@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-21T09:20:48.880043+00:00",
+  "scope": "Old228 versus expanded868 data, existing frozen-vision ObjectAug/cold_mix architecture only; no closed-loop or architecture changes",
+  "data": {
+    "old_training_episodes": 228,
+    "new_training_episodes": 640,
+    "combined_training_episodes": 868,
+    "old_training_transitions": 1128,
+    "new_training_transitions": 3840,
+    "combined_training_transitions": 4968,
+    "new_development_episodes": 80,
+    "old_development_regression_episodes": 78,
+    "heldout_combination_episodes": 80,
+    "two_failed_setup_episodes": "Retained in train with actual all-table labels; intended state kind is reporting metadata, never a model input",
+    "heldout": "New A/B family-disjoint combination:>=2In and every object In or Held. Test payload inaccessible before model freeze. No C/D."
+  },
+  "comparison": {
+    "baseline": "Reuse sealed M cold_mix seeds0,1 step1500, not continued finetuning",
+    "new": "Two new fits from exact matching initializations, seeds0,1;1500 updates each",
+    "optimizer": "AdamW3e-4,weight_decay1e-4,clip1;BF16 autocast;two microbatches of8",
+    "sampling": "Per microbatch4 old four-step core +4 six-step. Keep original core IDs, crop-start schedule and sequence lengths. Expand six-step pool108->748. No uniform868 claim. Same24000 draws and89834/89839 effective transitions per seed.",
+    "loss": "Unchanged M losses.py:current+.5*(prior+multi3+terminal_relative_h2+outcome)",
+    "normalization": "Original old-training-only geometry means/std and class weights unchanged",
+    "encoder": "Existing DINO and CELL learned encoder per seed frozen; old228 and old78 cached features reused exactly. New boundary-only causal four-frame dual-camera cache, fresh visible registry per episode, no probe-window insertion",
+    "selection": "Fixed step1500 only; no checkpoint or threshold selection, no planned hyperparameter repairs"
+  },
+  "evaluation": {
+    "thresholds": "Held/In0.5;drawer argmax; masks exclude invalid labels from denominators",
+    "cohorts": [
+      "old_development78",
+      "new_development80",
+      "combination_test80_after_freeze"
+    ],
+    "primary": "Cold initial relations at every nonterminal origin; h0 and middle separately. Complete observed-path state and one-step from origin0. Free1/3/5 and full6 from cold origins. Held/In TP,FP,positive/negative denominators; joint Held3+In3+drawer on fully valid states. Shared GT-stable non-target In and Held intervals, both-correct and prior-correct forgetting denominators.",
+    "heldout_subset": "Report all test conditions AND conditions whose actual target state satisfies frozen>=2In/allInOrHeld combination. Eligibility from labels only after model/metric freeze, no outcome-driven replacement.",
+    "strata": "Prepared state kind, actual initial relation, environment, requested skill, nominal/miss/order branch, color and horizon; report exact eligible denominators and two seeds separately.",
+    "single_item_diagnostic": "For middle origins on development only, replace zero recurrent prior with existing causal public-prefix prior. Same current window, model, actions and future targets. No GT initializer; no fitting. Diagnose earliest initial-versus-transition error, not repair individual cases.",
+    "uncertainty": "If bootstrap used, paired resampling by layout family,2000 draws fixed seed; not independent windows or extra training-seed evidence"
+  },
+  "budget": {
+    "new_fits": 2,
+    "updates_total": 3000,
+    "training_wall_minutes": 45,
+    "total_wall_minutes": 90,
+    "single_GPU_serial": true,
+    "no_downloads_or_uploads": true
+  }
+}

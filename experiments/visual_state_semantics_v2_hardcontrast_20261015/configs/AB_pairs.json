@@ -1,0 +1,194 @@
+[
+  {
+    "positive_index": 76,
+    "negative_index": 85,
+    "fact_column": 4,
+    "root_id": "A_semantics_v2_fixtures_blue_0",
+    "positive_window_id": "A_semantics_v2_fixtures_blue_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_blue_0__stacked__t00127"
+  },
+  {
+    "positive_index": 76,
+    "negative_index": 99,
+    "fact_column": 4,
+    "root_id": "A_semantics_v2_fixtures_blue_0",
+    "positive_window_id": "A_semantics_v2_fixtures_blue_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_blue_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 106,
+    "negative_index": 115,
+    "fact_column": 4,
+    "root_id": "A_semantics_v2_fixtures_blue_1",
+    "positive_window_id": "A_semantics_v2_fixtures_blue_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_blue_1__stacked__t00127"
+  },
+  {
+    "positive_index": 106,
+    "negative_index": 129,
+    "fact_column": 4,
+    "root_id": "A_semantics_v2_fixtures_blue_1",
+    "positive_window_id": "A_semantics_v2_fixtures_blue_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_blue_1__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 146,
+    "negative_index": 155,
+    "fact_column": 5,
+    "root_id": "A_semantics_v2_fixtures_pink_0",
+    "positive_window_id": "A_semantics_v2_fixtures_pink_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_pink_0__stacked__t00127"
+  },
+  {
+    "positive_index": 146,
+    "negative_index": 169,
+    "fact_column": 5,
+    "root_id": "A_semantics_v2_fixtures_pink_0",
+    "positive_window_id": "A_semantics_v2_fixtures_pink_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_pink_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 176,
+    "negative_index": 185,
+    "fact_column": 5,
+    "root_id": "A_semantics_v2_fixtures_pink_1",
+    "positive_window_id": "A_semantics_v2_fixtures_pink_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_pink_1__stacked__t00127"
+  },
+  {
+    "positive_index": 176,
+    "negative_index": 199,
+    "fact_column": 5,
+    "root_id": "A_semantics_v2_fixtures_pink_1",
+    "positive_window_id": "A_semantics_v2_fixtures_pink_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_pink_1__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 6,
+    "negative_index": 15,
+    "fact_column": 3,
+    "root_id": "A_semantics_v2_fixtures_red_0",
+    "positive_window_id": "A_semantics_v2_fixtures_red_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_red_0__stacked__t00127"
+  },
+  {
+    "positive_index": 6,
+    "negative_index": 57,
+    "fact_column": 3,
+    "root_id": "A_semantics_v2_fixtures_red_0",
+    "positive_window_id": "A_semantics_v2_fixtures_red_0__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_red_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 34,
+    "negative_index": 43,
+    "fact_column": 3,
+    "root_id": "A_semantics_v2_fixtures_red_1",
+    "positive_window_id": "A_semantics_v2_fixtures_red_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_red_1__stacked__t00127"
+  },
+  {
+    "positive_index": 34,
+    "negative_index": 59,
+    "fact_column": 3,
+    "root_id": "A_semantics_v2_fixtures_red_1",
+    "positive_window_id": "A_semantics_v2_fixtures_red_1__single_inside__t00127",
+    "negative_window_id": "A_semantics_v2_fixtures_red_1__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 286,
+    "negative_index": 295,
+    "fact_column": 4,
+    "root_id": "B_semantics_v2_fixtures_blue_0",
+    "positive_window_id": "B_semantics_v2_fixtures_blue_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_blue_0__stacked__t00127"
+  },
+  {
+    "positive_index": 286,
+    "negative_index": 309,
+    "fact_column": 4,
+    "root_id": "B_semantics_v2_fixtures_blue_0",
+    "positive_window_id": "B_semantics_v2_fixtures_blue_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_blue_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 316,
+    "negative_index": 325,
+    "fact_column": 4,
+    "root_id": "B_semantics_v2_fixtures_blue_1",
+    "positive_window_id": "B_semantics_v2_fixtures_blue_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_blue_1__stacked__t00127"
+  },
+  {
+    "positive_index": 316,
+    "negative_index": 339,
+    "fact_column": 4,
+    "root_id": "B_semantics_v2_fixtures_blue_1",
+    "positive_window_id": "B_semantics_v2_fixtures_blue_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_blue_1__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 356,
+    "negative_index": 365,
+    "fact_column": 5,
+    "root_id": "B_semantics_v2_fixtures_pink_0",
+    "positive_window_id": "B_semantics_v2_fixtures_pink_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_pink_0__stacked__t00127"
+  },
+  {
+    "positive_index": 356,
+    "negative_index": 379,
+    "fact_column": 5,
+    "root_id": "B_semantics_v2_fixtures_pink_0",
+    "positive_window_id": "B_semantics_v2_fixtures_pink_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_pink_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 386,
+    "negative_index": 395,
+    "fact_column": 5,
+    "root_id": "B_semantics_v2_fixtures_pink_1",
+    "positive_window_id": "B_semantics_v2_fixtures_pink_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_pink_1__stacked__t00127"
+  },
+  {
+    "positive_index": 386,
+    "negative_index": 409,
+    "fact_column": 5,
+    "root_id": "B_semantics_v2_fixtures_pink_1",
+    "positive_window_id": "B_semantics_v2_fixtures_pink_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_pink_1__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 216,
+    "negative_index": 225,
+    "fact_column": 3,
+    "root_id": "B_semantics_v2_fixtures_red_0",
+    "positive_window_id": "B_semantics_v2_fixtures_red_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_red_0__stacked__t00127"
+  },
+  {
+    "positive_index": 216,
+    "negative_index": 239,
+    "fact_column": 3,
+    "root_id": "B_semantics_v2_fixtures_red_0",
+    "positive_window_id": "B_semantics_v2_fixtures_red_0__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_red_0__outside_front_supported__t00127"
+  },
+  {
+    "positive_index": 246,
+    "negative_index": 255,
+    "fact_column": 3,
+    "root_id": "B_semantics_v2_fixtures_red_1",
+    "positive_window_id": "B_semantics_v2_fixtures_red_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_red_1__stacked__t00127"
+  },
+  {
+    "positive_index": 246,
+    "negative_index": 269,
+    "fact_column": 3,
+    "root_id": "B_semantics_v2_fixtures_red_1",
+    "positive_window_id": "B_semantics_v2_fixtures_red_1__single_inside__t00127",
+    "negative_window_id": "B_semantics_v2_fixtures_red_1__outside_front_supported__t00127"
+  }
+]

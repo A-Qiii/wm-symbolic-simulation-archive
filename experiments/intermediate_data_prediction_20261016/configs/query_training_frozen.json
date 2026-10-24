@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-16T13:07:07.872694+00:00",
+  "D3_collected": false,
+  "same20_base_draws": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_train/C_selection.npz": "f433e14767e6f1db9924955665dd5faf029d559216475cc700c9e6e226ee270b",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_train/old_coverage.npz": "2d56b67ddb23608c507c03548e59b9b59eb8abfbc77ac6a983b52c5fc63ef5dc",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_train/new_coverage.npz": "7364ab12df602d0b94586fb8f4d75189b445d29c6f09c1f890e3bbb46f370c18",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_train/old_C_selection.npz": "3467ceb7dc6fd4536e7c461a91bedd44294cc0f1e8acf049cd90802389747d42",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_evaluator/C_validation.npz": "2a2279f390e5f57fd41962cc924e1f4732fb606b022e13a59bc2a0bc93813408",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/query_evaluator/old_C_validation.npz": "9dcbdf3cdc6111255b9f704294333d7303da346edc60885cff3fdba65ee8e856",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/query_schedule_new_coverage_seed0.npz": "7345c332a05267ec88ed56276d6fba61baeb7761a249d0cb7721e2b421e7b7ac",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/query_schedule_old_coverage_seed1.npz": "a48c580dffb282142bfbeecd8512606c125c5d34543dc4b1db51b76f6f7cc1ca",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/query_schedule_new_coverage_seed1.npz": "9786d2fbeb91a567099c658e09d45a3d27c7e0b6948b678cfd85999405b8bb12",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/query_schedule_old_coverage_seed0.npz": "baf4609742fa681436fa96db408ead45497dff6b46f6c7106c6176381cc8ed97",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/query_inputs.json": "5656cbeb704b6a8c88a2296ac12f437983523bd49aaf16db62e67e00579ace19",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/protocol.json": "41de791db311ab49a46b9f3c234b45929150eac1ba35b1e217d952e47bb27888",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/roots.json": "41ceda1a74500810a4f3c55f63df1e2429e8d7e289e40b6aa1fc8ebe84101674",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/model.py": "ac39f4266f8d73d9784cdee91732f479e1e02c8436bdc874a8f2978f6059695b",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/config.py": "65572b59ca09f8b09cfce164b8377ae6a5cf93f6dc85ff943afcaa0a766d5072",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/prepare_query.py": "786e2ed7d396356dc386fc7179e25336127a7b76865182dc544df8570f50543d",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/train_query.py": "c1c5c15b8fb9ccfbe34b06fcebadcc61edc1665143ee2c7f98c75af8a5677479",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/freeze_query.py": "5db4a3d46984119cc8d1d8672129a281b731d65df634002a54add2b6524c4530"
+  }
+}

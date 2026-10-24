@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T14:10:54.677996+00:00",
+  "reason": "Unconditional Latin bin exhausted because approach collides with cabinet; use predeclared class ranges intersected with fixed-y/yaw support and geometric reach, as proposal requires",
+  "finite_grid_per_object": 33,
+  "new_candidate_limit_per_root": 256,
+  "no_model_scores_used": true,
+  "all_first_attempts_retained": true,
+  "yaw": "Use V1 nearest modulo pi at native initial pose; no executor change",
+  "scope": "No new y/yaw, class, skill, root budget or evaluation score changes"
+}

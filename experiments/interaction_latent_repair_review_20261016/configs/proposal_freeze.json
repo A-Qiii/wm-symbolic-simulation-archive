@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-16T07:50:24.329274+00:00",
+  "status": "reviewable proposal only; no training or D2 collection authorized by this file",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/configs/proposed_protocol.json": "3adaae96aef6d6785bd9bc35b468899cd55e9015dceaa84df94703d815d090d2",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/configs/proposed_D2_roots.json": "bbda2106391e10f4c172a96d55dfef6286d47a378ce16248ffc58b5fa70df598",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/configs/proposed_D2_exclusion.json": "b4ddfa7df273c055dc939fd9c17b79611ef0d910e7b0e9f076d225a1ef5bee44",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/configs/matched_source_freeze.json": "01be381682049e60021202b4d2244cdb12d54313e827bb2737cb77fd476c464c",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/source/proposal.py": "db3ee38dfcb0541fd9d298c5e30491b9521761eee8a482412a36a2a8f6ecadb1",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_review_20261016/results/extra_matched_place.json": "6a6384d1e86182b6ad8e5ac79915183baf6490a03a16019e3b9e7cf6e8a01049",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/configs/final_before_D.json": "3713d8886ce7eddf712559895169c738fb49c1fb92275d5328d1a07071036c4d"
+  }
+}

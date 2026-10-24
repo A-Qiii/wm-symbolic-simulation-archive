@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-19T09:40:47.328191+00:00",
+  "before_any_new_model_prediction": true,
+  "files": {
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/evaluate.py": "3b9b824835460550d5f46cd469f94984e81d08e6e289a6a4c190bbd0f0ffcf01",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/probes.py": "7313efdf7bad32eac7fc818a7f29d7dd6363afb74c5a00c657f46016524d4a70",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/score.py": "2351078f05833c64f2757dcabb0110650020c3e67854d40f087f5dec2ef865e0",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/finish_compute.py": "921ddffef4aa294491738668e88828dbadde9867c7f50213447db826fd2622c7",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/report.py": "21f67c8452b59c93dcd48ebc31eb68077b3cc286d0782ac34ddd52354ee15ab3",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/source/verify_and_seal.py": "6dc4932a912c2a6b2e2e4fe72e0d835cf80184b89b92843cffe3589329200d03"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "cause": "First completed fit reached result logging; numpy int64 pair counts were not JSON serializable.",
+  "change": "Only log serializer converts numpy scalar; restart reuses saved first fit after checking identical AB normalization, continues remaining four fits. No hyperparameters, labels, features or C selection changed.",
+  "first_fit_preserved_sha256": "e5601878398791f60e628e85973b3ba239295e3f527dee1ae99076a1fd386f30",
+  "unique_fits_budget": 5,
+  "new_D": 0
+}

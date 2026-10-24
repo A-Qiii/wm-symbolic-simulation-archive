@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-18T10:24:47.250497+00:00",
+  "before_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/models/localizer_seed0_update0600.pt": "7bab5f3362841cc4c067497c4db5a2da5431a59bbb9e4e887b791b02fa070988",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/models/localizer_seed1_update0600.pt": "d15b261f4d82b69d406088342048f3da3c7a2af7097e6c9e1b2aae8c10dd6043"
+  }
+}

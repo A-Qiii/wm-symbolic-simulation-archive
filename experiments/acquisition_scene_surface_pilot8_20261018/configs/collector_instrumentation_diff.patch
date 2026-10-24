@@ -1,0 +1,60 @@
+--- frozen_relation32_collector
++++ engineering8_collector
+@@ -39,7 +39,7 @@
+  return out
+ 
+ def run_root(spec):
+- rid=spec['root_id'];d=E/'data/private'/rid;d.mkdir();env=ctl=None;rows=[];checks=[];hist=deque(maxlen=12);captured=set();orig_image=pb.getCameraImage;orig_step=pb.stepSimulation;mode='initialize';caps=[];ticks=0
++ rid=spec['root_id'];d=E/'data/private'/rid;d.mkdir();env=ctl=None;rows=[];checks=[];hist=deque(maxlen=12);captured=set();orig_image=pb.getCameraImage;orig_step=pb.stepSimulation;mode='initialize';caps=[];ticks=0;tracefile=(d/'control_trace_private.jsonl').open('w');stage='initial_settle'
+  def step(*a,**kw):
+   nonlocal ticks
+   assert mode in ['initialize','move'],'physics advanced within capture';ticks+=1;return orig_step(*a,**kw)
+@@ -58,7 +58,7 @@
+   finally:env.get_obs=getobs
+   adapter=MotorAdapter(env)
+   def record(obs,act):
+-   snap=truth.snapshot(adapter,ctl);hist.append({'control':adapter.controls,'tick':ticks,'physical':snap,'holding_at_cutoffs':force_labels(ctl)})
++   snap=truth.snapshot(adapter,ctl);tracefile.write(json.dumps({'control':adapter.controls,'tick':ticks,'stage':stage,'action':act,'physical':snap,'scene_obs':env.scene.get_obs(),'robot_obs':obs['robot_obs']},default=json_default)+'\n');hist.append({'control':adapter.controls,'tick':ticks,'physical':snap,'holding_at_cutoffs':force_labels(ctl)})
+   ctl=PhysicalOracleV2(adapter,record,max_controls=900);robot=env.robot.robot_uid;families=[sorted(f)for f in ctl.finger_families];mapping={'robot_uid':robot,'object_uids':{c:ctl.objects['block_'+c].uid for c in COLORS},'finger_families':families,'robot_links':{pb.getJointInfo(robot,j,physicsClientId=env.cid)[12].decode():j for j in range(pb.getNumJoints(robot,physicsClientId=env.cid))}}
+   assert families==[sorted([mapping['robot_links'][a],mapping['robot_links'][b]])for a,b in [('panda_leftfinger','finger_left_tip'),('panda_rightfinger','finger_right_tip')]]
+   save(d/'body_link_mapping.json',mapping);save(d/'physics_parameters.json',pb.getPhysicsEngineParameters(physicsClientId=env.cid))
+@@ -93,7 +93,7 @@
+   ctl.move=wrapped_move;ctl.hold=wrapped_hold;mode='move';result={}
+   with physics_guard(adapter,ctl):
+    orighold(24,1);capture('initial_settled');initial_target=ctl.xyz('block_'+spec['target_color']).copy()
+-   result=ctl.run('lift_'+spec['target_color']+'_block_table');save(d/'frozen_controller_result.json',result)
++   stage='frozen_grasp';result=ctl.run('lift_'+spec['target_color']+'_block_table');stage='post_grasp_anchors';save(d/'frozen_controller_result.json',result)
+    try:
+     ctl.phase='post_run_hold';orighold(12,adapter.last_grip);capture('post_run_stable')
+     orn=ctl.pose()[3:];origmove([initial_target[0]+spec['post_lift_translate_x_m'],initial_target[1],.60],orn,-1,'fixed_translate_after_run',settle=12);capture('translated_closed')
+@@ -101,25 +101,25 @@
+    except ExecutionFailure as ex:result['post_anchor_failure']=str(ex)
+   summary={'root_id':rid,'controller_result':result,'captured_anchors':sorted(captured,key=protocol['anchors'].index),'missing_anchors':[a for a in protocol['anchors']if a not in captured],'controls':adapter.controls,'ticks':ticks,'states':len(captured),'physics_guard_passed':True};save(d/'root_summary.json',summary);return rows,checks,summary
+  finally:
+-  pb.getCameraImage=orig_image;pb.stepSimulation=orig_step
++  pb.getCameraImage=orig_image;pb.stepSimulation=orig_step;tracefile.close()
+   if ctl is not None:ctl.close()
+   if env is not None and env.ownsPhysicsClient:env.close();env.ownsPhysicsClient=False
+ 
+ def main():
+  global protocol
+- install_guard([]);protocol=read(E/'configs/protocol.json');assert all(sha(p)==h for p,h in read(E/'configs/precollection_frozen.json')['sha256'].items());assert not(E/'results/attempts.json').exists()
++ install_guard([]);protocol=read(E/'configs/protocol.json');assert all(sha(p)==h for p,h in read(E/'configs/precollection_frozen.json')['sha256'].items());assert not(E/'results/attempts.json').exists();assert len(protocol['roots'])==8
+  lock=(P/'runs/gpu.lock').open('r+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);start=time.perf_counter();rows=[];checks=[];attempts=[];summaries=[]
+  save(E/'configs/runtime.json',{'utc':now(),'python':sys.version,'platform':platform.platform(),'pybullet':importlib.metadata.version('pybullet'),'pid':os.getpid(),'renderer':'native CALVIN EGL','new_downloads':0})
+  try:
+   for spec in protocol['roots']:
+    attempts.append({'root_id':spec['root_id'],'status':'started','utc':now()});save(E/'results/attempts.json',attempts)
+    try:
+-    rr,cc,ss=run_root(spec);rows+=rr;checks+=cc;summaries.append(ss);assert len(checks)<=256
++    rr,cc,ss=run_root(spec);rows+=rr;checks+=cc;summaries.append(ss);assert len(checks)<=64
+     attempts[-1]['status']='completed_with_actual_outcomes';save(E/'data/records.json',rows);save(E/'results/integrity.json',checks);save(E/'results/root_summaries.json',summaries);save(E/'results/attempts.json',attempts)
+-    for boundary in [50,128]:
++    for boundary in [50]:
+      fn=E/f'results/storage_first{boundary}.json'
+      if len(checks)>=boundary and not fn.exists():
+-      selected=checks[:boundary];private=sum(p.stat().st_size for c in selected for p in (E/'data/private'/c['root_id']/f's{c["sample"]:02d}').rglob('*')if p.is_file());public=sum(Path(c['public_path']).stat().st_size for c in selected);save(fn,{'states':boundary,'private_bytes':private,'public_RGB_bytes':public,'bytes_per_state':(private+public)/boundary,'projected_256_state_bytes':256*(private+public)/boundary,'excludes':'shared configs/root metadata; raw baseline renders verified in memory, their call metadata saved'})
++      selected=checks[:boundary];private=sum(p.stat().st_size for c in selected for p in (E/'data/private'/c['root_id']/f's{c["sample"]:02d}').rglob('*')if p.is_file());public=sum(Path(c['public_path']).stat().st_size for c in selected);save(fn,{'states':boundary,'private_bytes':private,'public_RGB_bytes':public,'bytes_per_state':(private+public)/boundary,'projected_64_state_bytes':64*(private+public)/boundary,'excludes':'shared configs/root metadata; raw baseline renders verified in memory, their call metadata saved'})
+     print('ROOT',spec['root_id'],'states',ss['states'],'status',ss['controller_result']['status'],'reason',ss['controller_result']['reason'],'eligible_pos',sum(r['eligible']and r['y']for r in rr),'eligible_neg',sum(r['eligible']and not r['y']for r in rr),flush=True)
+    except Exception:
+     attempts[-1].update(status='infrastructure_or_integrity_failure',traceback=traceback.format_exc());save(E/'results/attempts.json',attempts);raise

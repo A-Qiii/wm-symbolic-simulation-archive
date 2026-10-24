@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/robot.py": "65721aa5f6bbb74a7bfabd53fe05699c0fc281d682363f065600f94622a396a7",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/mixed_ik.py": "a8c3f9942969d9d630f5648d4cb6e3ea281d47ddfed4dba78a43c5d1e514333e",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60"
+  }
+}

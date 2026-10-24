@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-18T05:42:22.020714+00:00",
+  "purpose": "post hoc descriptive error localization; no change to frozen scoring or acceptance",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/predictions.json": "624e4b3d7885ba04483027234973094f22af148245ef37f99285147ab1f664f1",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/collection.json": "7952b5bcfe81eb975f08a2c89b4fd2f964e5b53c516981d03c5cf21f6e77ae5f",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/data/combo/public/pairs.json": "8e583c2dbe889c2a55db7360ce6f77be8964314d6788767390a8a5fc13fd7e45",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/data/combo/_private/labels.json": "96e65b40eebcc25a997574ec57053df46e68d1f1d23b6e617fc1a813ac27c123",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/configs/roots.json": "bdc4f3bd8b0efe4221ed239dccd4dc0081b45617ed47224a15c2b9f619f843b2",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/root_contexts.json": "fe45c0669491ac323cdc3f3abd18cb2436c3d94e3530bc6a26e11dbd12e7a32a",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/chain_root_results.json": "e8eabd1f10ab8723f146fbfb3508b475f5ac5272c03451c24bc674e6750bf150",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/stage_metrics.json": "04cfedd3bab8154e27f583f26befec0062322840243535599b5eda7b5fd919e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/primary.json": "39ef4a8fcdd763c3b4ad732443816d824cf51a3f7c7f660423a66e8b653ff6fd",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/configs/delivery_manifest.json": "bf5c7548bf77ff8369bf9561fb8d368ae41186b6e86e6a9fd51dcfa7879b29da",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_identity_D12_20261017/results/completion_audit.json": "a7290198e02e7576e9161acacb087902a507a647c49b4436e8b5fb5792204ecb"
+  },
+  "source_sha256": "9626e9bc8cf56374994ef6c658eed2c536d16bc6fa69a15a92397c1496f31c7e",
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "collection_calls": 0,
+  "threshold_changes": 0
+}

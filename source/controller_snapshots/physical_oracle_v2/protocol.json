@@ -1,0 +1,31 @@
+{
+  "version": "physical_oracle_v2",
+  "created_utc": "2026-10-14T03:15:58.244397+00:00",
+  "authorization": "Repair full-hand/gripper obstacle clearance; preserve v1, old18 acceptance roots are now regression only; fresh roots frozen before development. No new WM collection/training.",
+  "development_and_regression": "v1 development9 + old acceptance18; v1 outcome remains17/18 and immutable.",
+  "fresh_acceptance": "27 new nativeABC tabletop roots:9 per environment,3 per named color, seeds91000/91100/91200+i. Same spacing/yaw distribution asv1, no outcome screening; no D.",
+  "criteria_unchanged": {
+    "split": "acceptance",
+    "roots": 27,
+    "chain_episodes": 27,
+    "negative_episodes": 27,
+    "full_chain_criteria": "4 official+private stable successes; designated block remains in drawer after closed (<.02m). No unrequested block drift >=.01m, no sampled robot penetration >=.01m, no final device/slider state change >.003.",
+    "negative_requests_per_root": [
+      "place empty",
+      "close already closed",
+      "lift named (feasible prerequisite setup)",
+      "place drawer closed",
+      "open while holding",
+      "lift other while holding"
+    ],
+    "note": "Report unexpected contacts even when below pass threshold; force/penetration sampled at 30Hz control boundaries, not all physics substeps. No code/threshold tuning after acceptance starts."
+  },
+  "runtime_limits": {
+    "max_controls_per_skill": 900,
+    "max_attempts": 2,
+    "stable_completion_controls": 12
+  },
+  "planned_method": "Private separate-client kinematic collision queries over exact robot/table/block collision geometry. Only actual robot motor actions change execution world; no actual object reset, direct table actuation, collision disable or external force. GT never supplied to WM/planner.",
+  "main_manifest_sha256": "3efd5c23f0da99da4048f70362ef4ade8846e046f32130a6740771f619a9968d",
+  "v1_freeze_sha256": "70bb767226e0babf373663a6d1b44c0270fb9e9ce33c7dc28fc46bbc5b1e8b67"
+}

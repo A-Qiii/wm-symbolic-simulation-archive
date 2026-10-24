@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-19T17:30:33.322525+00:00",
+  "before_test_prediction": true,
+  "fits": 4,
+  "updates": 6000,
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "relations",
+      "update": 1500,
+      "validation_objective": 0.007254591211676598,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/action_consequence_diagnostic_20261019/models/relations_seed0_step1500.pt",
+      "sha256": "af84de3aa9b20b215c616f03ea1c26df7b902a5d1d0c53be8ce82bd69b973df4"
+    },
+    {
+      "seed": 0,
+      "arm": "physics_enriched",
+      "update": 1500,
+      "validation_objective": 0.10282361507415771,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/action_consequence_diagnostic_20261019/models/physics_enriched_seed0_step1500.pt",
+      "sha256": "803e937bc889d9e6907cd1251efbfcb4dbdce3fe1e9c6bcdacac2d6c413134df"
+    },
+    {
+      "seed": 1,
+      "arm": "relations",
+      "update": 1500,
+      "validation_objective": 0.007744639180600643,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/action_consequence_diagnostic_20261019/models/relations_seed1_step1500.pt",
+      "sha256": "18180ea85bee1faf627f53f34703a0128e2cc8157bf731b00fad37f52db93526"
+    },
+    {
+      "seed": 1,
+      "arm": "physics_enriched",
+      "update": 1500,
+      "validation_objective": 0.08339695632457733,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/action_consequence_diagnostic_20261019/models/physics_enriched_seed1_step1500.pt",
+      "sha256": "221af486a14b4a6f6ef0e5c73d4b0c2e9624c772cdac0dce930b756abeb6a32d"
+    }
+  ]
+}

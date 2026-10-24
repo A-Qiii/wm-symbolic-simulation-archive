@@ -1,0 +1,218 @@
+[
+  {
+    "branch": "normal",
+    "step": 1,
+    "skill": "open_drawer",
+    "expected_before": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "normal",
+    "step": 2,
+    "skill": "lift_TARGET_block_table",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": "red",
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "normal",
+    "step": 3,
+    "skill": "place_in_drawer",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": "red",
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": [
+        "red"
+      ]
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "normal",
+    "step": 4,
+    "skill": "close_drawer",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": [
+        "red"
+      ]
+    },
+    "expected_after": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": [
+        "red"
+      ]
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "reverse_then_lift",
+    "step": 1,
+    "skill": "open_drawer",
+    "expected_before": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "reverse_then_lift",
+    "step": 2,
+    "skill": "close_drawer",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "reverse_then_lift",
+    "step": 3,
+    "skill": "open_drawer",
+    "expected_before": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "reverse_then_lift",
+    "step": 4,
+    "skill": "lift_TARGET_block_table",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": "red",
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "place_then_other_lift",
+    "step": 1,
+    "skill": "open_drawer",
+    "expected_before": {
+      "drawer": "Closed",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "place_then_other_lift",
+    "step": 2,
+    "skill": "lift_TARGET_block_table",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": "red",
+      "inside": []
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "place_then_other_lift",
+    "step": 3,
+    "skill": "place_in_drawer",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": "red",
+      "inside": []
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": [
+        "red"
+      ]
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  },
+  {
+    "branch": "place_then_other_lift",
+    "step": 4,
+    "skill": "lift_OTHER_block_table",
+    "expected_before": {
+      "drawer": "Open",
+      "holding": null,
+      "inside": [
+        "red"
+      ]
+    },
+    "expected_after": {
+      "drawer": "Open",
+      "holding": "blue",
+      "inside": [
+        "red"
+      ]
+    },
+    "target_placeholder_color": "red",
+    "design_only_not_truth": true
+  }
+]

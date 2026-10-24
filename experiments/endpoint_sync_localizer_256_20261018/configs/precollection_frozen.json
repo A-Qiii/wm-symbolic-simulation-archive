@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-18T13:17:33.109735+00:00",
+  "before_first_new_render": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/mesh_semantics.json": "1d258543d98d58659c4994bd9f55d34abd318e064f29dd8cf4fb6e66406edd68",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/protocol.json": "cacd29341c27c2eea445dad2cdbf926001de646cec3934055c3f53c449157648",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/historical_initialization_exclusion.json": "3142507a15ca6111780c8490aec9dff5f1bc0143a986bd42c26d542faf5e54aa",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/net.py": "09482358350203a4e562f5f804b4adaeff74764b00606954eb18faae26e098b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/collect.py": "8ad7c3d17775257b0ecb602cce27ebfbfe3c22a7d08404d139c7ba9c3f77907d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/geometry.py": "e81746c91c8b0d2ee97ce98792f6b089c4634a2c78a04adae070d2f3168827a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/common.py": "4eec80b80d2b2589c5f8d5a5740eed4b39bf7102e1fc8db27b7d64d3e1080be2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/prepare.py": "63ef8752ecba5e35f69856fd05ec0fb197bc41ad8543f59ba5a138b5a29d72e6",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/gate.py": "34a0e6c8081b6ae192454fe0804e20e2ee31a1b3d40691869e66272512e07646"
+  }
+}

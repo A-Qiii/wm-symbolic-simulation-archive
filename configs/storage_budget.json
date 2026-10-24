@@ -1,0 +1,10 @@
+{
+  "measured_50_bytes": 245829911,
+  "estimated_6000_raw_bytes": 29499589320,
+  "raw_trajectory_cap_GiB": 50,
+  "frozen_feature_cache_cap_GiB": 25,
+  "checkpoint_and_report_cap_GiB": 25,
+  "total_project_experiment_cap_GiB": 100,
+  "action_on_cap": "Stop and report; never silently delete failures or shrink quotas",
+  "cache_model": "Reuse existing local DINOv2-small weights"
+}

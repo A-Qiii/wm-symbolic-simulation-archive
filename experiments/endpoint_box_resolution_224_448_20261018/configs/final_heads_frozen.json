@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T10:46:33.415715+00:00",
+  "before_new_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_resolution_224_448_20261018/models/r448/localizer_seed0_update0600.pt": "d9a0c9c0d42449f5c81d3fff17511890565c5e6939e84d28f384db8d09453022",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_resolution_224_448_20261018/models/r448/localizer_seed1_update0600.pt": "df01ce5d498ceb26781629df991ab82d7cb75d16392f17e076de26595147e9a3",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_resolution_224_448_20261018/models/r224/localizer_seed0_update0600.pt": "7bab5f3362841cc4c067497c4db5a2da5431a59bbb9e4e887b791b02fa070988",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_resolution_224_448_20261018/models/r224/localizer_seed1_update0600.pt": "d15b261f4d82b69d406088342048f3da3c7a2af7097e6c9e1b2aae8c10dd6043"
+  }
+}

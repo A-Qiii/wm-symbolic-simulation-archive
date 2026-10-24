@@ -1,0 +1,22 @@
+{
+  "status": "bounded_retrieval_authorized_by_parent_20261018",
+  "purpose": "state readout coverage and label quality only; not controller transition training",
+  "sampling_seed": 170818,
+  "proposed_scene_episode_count": {
+    "A": 2,
+    "B": 2
+  },
+  "episode_selection": "Select independent official episode ranges using scene_info and ep_start_end_ids before inspecting state labels; no C/D; preserve root isolation",
+  "frames": "8 evenly spaced anchors per episode plus next frame, at most64 frames; never use 64-frame language window as skill boundary",
+  "approved_hard_download_budget_bytes": 536870912,
+  "central_directory_budget_bytes": 229211511,
+  "budget_source": "parent explicit approval, 2026-10-18",
+  "no_model_training": true,
+  "before_download": "Use parent-verified official ZIP64 offsets and ETag. Cache bounded229211511-byte central directory within total512MiB. Verify scene mapping, official episode boundaries and config first. On HTTP200 or mismatched Content-Range stop before reading body. Validate ZIP member name, CRC, compression ratio/size bounds and hashes. If scope exceeds cap, stop.",
+  "color_mapping": "Check per-scene config order, URDF dimensions and RGB projections; do not blindly apply issue41 swap. Any ambiguity makes object labels unknown.",
+  "restoration": "Compare original RGB/depth and scene/robot slots against restored renderer/geometry; record immediately after reset and one native physics tick; quantify per-object position/orientation, joints, RGB mismatch and contacts/forces. A reset is not a full physical snapshot.",
+  "labels": "Keep same strict Holding/In definitions. No gripper-closed proxy; absent/unstable restored contacts do not prove original negative. Unknown mask for unsupported or unstable evidence; geometric In only where mapping, containment/support evidence and restore checks jointly suffice. No speculative thresholds frozen here.",
+  "split": "Official episode is isolation key; selected pilot roots stay quarantine/evidence-only until data-label review. C/D remain excluded from training.",
+  "training_updates": 0,
+  "allowed_now": "bounded official member retrieval and label-quality pilot authorized; none performed during this inventory"
+}

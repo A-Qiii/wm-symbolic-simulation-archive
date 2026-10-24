@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-20T01:04:26.217016+00:00",
+  "checkpoint": 1500,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/models/coarse_seed0_step1500.pt": "d2467e6c4d553f07f834fa1ee005670d7451ac7a328869d3c453ab51f5a4d1e7",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/models/coarse_seed1_step1500.pt": "0a7293172b692151657e1c3828b47239348244f7151d91507b1868b3f7be3b95",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/models/local_seed0_step1500.pt": "42aa2e0faed060edcd148f49195f2e616290a21ea8419685a88a72765a0be2c0",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/models/local_seed1_step1500.pt": "56537a7c985626b74b6c85d68ada26a18adefb7f0fb05f08798d3f5653336a4b"
+  },
+  "no_selection": true
+}

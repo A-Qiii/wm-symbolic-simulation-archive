@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-15T08:29:33.265938+00:00",
+  "scope": "One finite implementation and combination diagnosis. No training, collection, D forward inference, D rescoring, model selection, parameter edits or optimization. Prior D findings immutable.",
+  "metadata": "All174ABC and84savedD rows: held-colour × declared target-colour × drawer state; verify declarations against saved9-dimensional actions and RGB entity ordering. D used only completed-error attribution.",
+  "forward_and_gradient_budget": {
+    "datasets": [
+      "AB132",
+      "C42"
+    ],
+    "checkpoints": [
+      {
+        "seed": 0,
+        "update": 300,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0300.pt",
+        "sha256": "80973d1c99902023527fb14240e77b8732b6c5ab50df3dfc9669d6c54b269f7c"
+      },
+      {
+        "seed": 0,
+        "update": 600,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0600.pt",
+        "sha256": "f7916b92a57ee8527b7fe00d412ac1371dfb0be518b1cf5bca61f8d0a0fe6099"
+      },
+      {
+        "seed": 0,
+        "update": 900,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0900.pt",
+        "sha256": "fc1b9313573418428f5a70155425c9edcf3cae982f2215c2a67fd2ee205ba331"
+      },
+      {
+        "seed": 0,
+        "update": 1200,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1200.pt",
+        "sha256": "65dab42e3674ca9bb869109caf29bc93a4efc7f721a48a15d21e781c444eabef"
+      },
+      {
+        "seed": 0,
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1500.pt",
+        "sha256": "40c015a4f15a1652c40054120a3759d02c25b2de67948f6fff118d1d00d59764"
+      },
+      {
+        "seed": 1,
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1500.pt",
+        "sha256": "20cf680a8e431dd864602a17827d2d3321723b9ec23504956dbb9c8ee8af15b3"
+      },
+      {
+        "seed": 2,
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1500.pt",
+        "sha256": "a285dd546395929621913cfcd6c7efe80c9b65d5d3c61d5d11e978bad5ed91a1"
+      }
+    ],
+    "checkpoint_full_dataset_probes": 14,
+    "fixed_final_checkpoint_saved_AB_batches": 16,
+    "saved_batch_indices_zero_based": [
+      1484,
+      1499
+    ],
+    "reader_reencoding": "Existing258ABC windows only, compare stored current/next caches; no D encoding",
+    "binding_checks": "Manual feature concatenation and simultaneous object/target slot permutation using AB inputs only; no synthetic outcome scoring",
+    "optimizer_updates": 0
+  },
+  "loss_probe": "Exactly training BCE (three equally weighted class-balanced groups) plus0.05*mean(object SmoothL1,scene SmoothL1). autograd.grad only; report component parameter/output gradient L2, weighted latent ratio and cosine. Fullbatch gradients can cancel; additionally report16fixed saved minibatches at unchanged final checkpoint, not historical gradient replay.",
+  "no_diagnostic_acceptance_gate_or_checkpoint_selection": true,
+  "frozen_files": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/data/public/inputs.npz": "4e7f282f376e68a658dbaaa345e707a635aae2ff5100008071da4f8899faf095",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/data/_private/targets.npz": "bf445489c930e4f92fa7d7b134217868779437f3f7d7c96dc2db982282ccdf44",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/data/_private/evaluation_metadata.json": "e3caf3a314702b810792ee63ec70cd50f3313489f60096e58985406523279f30",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/source/train.py": "9ecaa449276a25048b98508305e37d2ec4a4cb1fbe829074f80967204e1719a8",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/configs/protocol.json": "eabfbcf779792ed66efded2956d79e6aeca5075c106d29f6a086a7122e41b5d1",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/configs/model_selection_frozen.json": "c5f093a36b06bf0b4f51c291b7519bc38a2557f598e6feb3116e15a516421823",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/INPUT_CONTRACT.json": "983daf6994d9e4624fc6a90fe895e097117fc22bc1139b63e062a8b6ac034fe6",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/common.py": "ee2169a62de62340d8c419f252098eb8537850ae612b9c7c60a62176f8a093a3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/transition.py": "4a3ed0eae72c61bec6d25a2f568191cf73a714b3cb9aa5864c15ef1408d6187c",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/source/extract.py": "3a22a63057b929b42d81e04fc4ef1a7abe95e4e84a2ef2dec55a170d7a6e8d75",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_state_dependence_20261014/source/cache.py": "976094ec41c7ce6fa64ae71f5fe5b11e318555a0ce7de151118a08dd4d8ec9bf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_state_dependence_20261014/source/evaluate.py": "6d8f6c5963a337eb4c37fadca57104ff9ca4b8d82b6741cb9cb3ac2a78ae5baf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/source/cache.py": "d235ee0a0b0969e9551d3990683dc4aa9b58f87dfff7ca6213e0fc06fa80b17a",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/source/registry.py": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/source/worker.py": "b1c927ac8477e098cf9dd48d1e64af9b7c83fb088083ab5bf5d45a55b76f1c6a",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/source/collect.py": "9df56b00bef49d9995df2f4557dbac0a7090fecf6ab3ead41a8a75ea4ec166ff",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/configs/protocol.json": "1f3a964e773e82b8fcc05b724acd2ca369dc5395c54afc5b52c14f2cba877475",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/results/evaluation.json": "ae034a74fff9b15f04704b2d08a2d369c2a13ba07c6578c3406643ec8d50f276",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/results/latent_predictions.npz": "97db99da31626d34bc48078cf9cc3ff2dd450fb9cce36bef34ad61a34e37ccbb",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_independent_D_20261015/results/final_validation.json": "70049c4a272d81775eeebaa8e69fe68dd08ed5704b10cb6a18018c7300b74bab",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_independent_D_20261015/data_manifest.json": "990e4ac2270a2c7a39b1accbdaa1dc7885fe52792f966aa0ff55d2c70b237c13",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_independent_D_20261015/roots_manifest.json": "03397bd9b90c94378da2895db01c7f681bc17a5126628f4f4bfb723a74f51f96",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0300.pt": "80973d1c99902023527fb14240e77b8732b6c5ab50df3dfc9669d6c54b269f7c",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0600.pt": "f7916b92a57ee8527b7fe00d412ac1371dfb0be518b1cf5bca61f8d0a0fe6099",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0900.pt": "fc1b9313573418428f5a70155425c9edcf3cae982f2215c2a67fd2ee205ba331",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1200.pt": "65dab42e3674ca9bb869109caf29bc93a4efc7f721a48a15d21e781c444eabef",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1500.pt": "40c015a4f15a1652c40054120a3759d02c25b2de67948f6fff118d1d00d59764",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1500.pt": "20cf680a8e431dd864602a17827d2d3321723b9ec23504956dbb9c8ee8af15b3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1500.pt": "a285dd546395929621913cfcd6c7efe80c9b65d5d3c61d5d11e978bad5ed91a1"
+  },
+  "old_D_verdict_must_remain": "candidate68/84,paired20/36,failed; source sealed unchanged"
+}

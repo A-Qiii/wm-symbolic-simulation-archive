@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T14:13:38.261424+00:00",
+  "reason": "Independent Latin ranks create overlapping footprints. Jointly allocate the same per-scene/color/class quantile ranks under original within-class ordering and >=14mm rectangle clearance; then bounded actual mesh/IK/reset verification.",
+  "solver_time_limit_seconds": 60,
+  "candidate_limit_each": 256,
+  "x_jitter_m": 0.001,
+  "sole_design_factor": "x coverage on geometrically admitted subset; fixed y,yaw,class,actions",
+  "candidate_acceptance_not_action_success": true,
+  "no_outcome_or_test_scores": true,
+  "prior_attempts_retained": true
+}

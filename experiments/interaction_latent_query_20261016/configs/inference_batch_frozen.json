@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-16T07:16:03.775944+00:00",
+  "causal_evidence": "AB core features re-encoded with batches1/4/8: only batch8 exactly reproduces stored local/global DINO and all reassembled inputs; geometry and proprio all identical. Single-state generic query differed by0.05337596 at AB index5. Older generic raw caches had batch4, also exact atbatch4.",
+  "inference_contract": "NewD offline and online feature inference always8 current observations (16camera images); pad with duplicate current observations, discard padded outputs. This changes numerical kernel batch shape only, no history/GT input.",
+  "unchanged": "All training caches, normalization, model weights, thresholds, architecture, selection and budget. Older AB/C numerical batch provenance remains mixed and disclosed.",
+  "D_model_predictions_seen_before_fix": false,
+  "new_training_updates": 0,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/worker_fixed_batch.py": "fd9ac447b05c5843017c6dd8ab9b4e64193d8af395103fb7f2bb5bf83a7a1dee",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/convert_D_fixed_batch.py": "d3ab156c6a0c6b35862cb71a2b2e0f966dfa0606cc0fdc9799f4ef21207bec89",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/closed_loop_fixed_batch.py": "0d6f5e7003534e5b364a06d7443beccca8211b3e14975300e128764fa73dfcbf"
+  }
+}

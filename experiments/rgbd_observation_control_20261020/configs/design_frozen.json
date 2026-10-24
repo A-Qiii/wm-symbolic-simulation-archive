@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-20T00:12:27.561715+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/losses.py": "12eb5a2021a4e568a63d2acaf5d95151f560924031d548eaee5e235ef1c1cc52",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/losses_reference.py": "b22660095f0dd10a0a9446a3bc6d346208cd6958e577e71131c118dd87752341",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/models.py": "d9248fa21e25651c4835403c102f212f514dfb65ee68bfc4f4e1a1eb4d4697ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/rgbd_install.py": "7fa5e86c2b8f22e307fbc923d906a79b26443bdf7823a1026ca677c500719a88",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/data.py": "1d65337dba114ba13705708ed504c80f23dbccf3ccd72da4e0b4d23709e4d09b",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/train.py": "cdc8b54544f75bf693a5faa27c7c2aa47514aca27291d198b0a5de2b46827be3",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/previous_metrics_reference.py": "136d2f0573ced4d512a62ebee3def8699514664bf0d3e95e8727ce0d0d7a3216",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/evaluate.py": "79843ed196e5f9cd2e55cfd4c5f8227df9fcb2b6a229cbace9a6fde43b954c88",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/input_preflight.py": "ff6c6a8b0a922a05dcc7dec15012dbafdfcec26524ce65f0883643422d094bd4",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/common.py": "aa25660eddeb6b0b3b595a357c4edf7c09e553a5fcd0854088663eee75f6f56e",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/source/rgbd_setup.py": "63cf3964194dbf232c9440c1b0df8fca4641b53ab73008a74993e6ebdecb1f14",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/protocol.json": "fdac42f5e7bcb51d7c838c8bbe21271ebcaca56745788d7111b5e7d927c91b2a",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/data_membership.json": "c45b5d80e5462950c3cb3ab7c65f60447c2f966ea3038ece04f01735928b05a6",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/episode_order.json": "5eebb6f7511247671b4050673298d153432095b56b5e4e46ef0848106f7d7977",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/schedule_seed0.npz": "1306f840f16931c6eec48c73cca3e999764246da33501ca10f40d906dfc33ca7",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/schedule_seed1.npz": "4f3d9b64ede43d3809337fbe81f187d708242b605eef64d08815777e64456f18",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/configs/input_normalization.json": "2790c24c214ef3424ce7ab309b67e70d09dddb1c458e49296397ae86a6b2b7a7"
+  },
+  "training_updates_at_freeze": 0
+}

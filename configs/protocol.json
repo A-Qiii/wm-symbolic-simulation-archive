@@ -1,0 +1,161 @@
+{
+  "guide_sha256": "f4cb908e26db79176263d5002290ac4c94daf3025ce2523fc546eb896e2ad0d4",
+  "environment": "local_only",
+  "executor": "HULC_ABC_D_frozen",
+  "splits": {
+    "train": {
+      "environments": [
+        "A",
+        "B"
+      ],
+      "roots": 240,
+      "branches": 3,
+      "length": 6,
+      "transitions": 4320
+    },
+    "dev": {
+      "environments": [
+        "C"
+      ],
+      "roots": 30,
+      "branches": 2,
+      "length": 6,
+      "transitions": 360
+    },
+    "calibration": {
+      "environments": [
+        "C"
+      ],
+      "roots": 30,
+      "branches": 2,
+      "length": 6,
+      "transitions": 360
+    },
+    "test": {
+      "environments": [
+        "D"
+      ],
+      "roots": 80,
+      "branches": 2,
+      "length": 6,
+      "transitions": 960
+    }
+  },
+  "pilot": {
+    "train_roots": 60,
+    "branches": 2,
+    "length": 6,
+    "transitions": 720,
+    "dev_roots": 10,
+    "storage_probe_transitions": 50,
+    "training_leakage_probe_transitions": 128,
+    "updates": 6000
+  },
+  "training": {
+    "updates": 30000,
+    "one_step_until": 5000,
+    "three_step_until": 15000,
+    "final_horizon": 5,
+    "batch": 8,
+    "accumulate": 2,
+    "window": 6,
+    "lr": 0.0003,
+    "min_lr": 3e-05,
+    "warmup": 1000,
+    "weight_decay": 0.0001,
+    "clip_grad": 1.0,
+    "checkpoint_every": 1000,
+    "seeds_functional": 1,
+    "seeds_comparison": 3
+  },
+  "model": {
+    "vision": "dinov2_vits14_frozen",
+    "input": [
+      224,
+      224
+    ],
+    "patch": [
+      16,
+      16,
+      384
+    ],
+    "roi": [
+      2,
+      2
+    ],
+    "transformer_layers": 2,
+    "transformer_dim": 256,
+    "heads": 4,
+    "obs_dim": 512,
+    "rssm_gru": 512,
+    "rssm_categories": [
+      32,
+      32
+    ],
+    "unimix": 0.01,
+    "shared_symbol_head": true,
+    "task_text_in_transition": false
+  },
+  "loss": {
+    "obs": 1.0,
+    "sym": 1.0,
+    "kl": 0.5,
+    "out": 0.5,
+    "multi": 0.5,
+    "kl_balance": [
+      0.8,
+      0.2
+    ],
+    "free_nats_total": 1.0,
+    "class_weight_cap": 5.0
+  },
+  "search": {
+    "beam": 32,
+    "horizon": 8,
+    "successor_query_budget": 5000,
+    "samples_per_sequence": 8,
+    "replan_after_every_skill": true,
+    "merge_by_symbols_only": false,
+    "dynamic_preconditions_from_gt": false
+  },
+  "execution": {
+    "budget_candidates": [
+      120,
+      240,
+      360
+    ],
+    "use_gt_early_stop": false,
+    "reset_hulc_each_skill": true,
+    "reset_rssm_each_skill": false,
+    "single_gpu_serial": true,
+    "keep_failed_transitions": true
+  },
+  "evaluation": {
+    "closed_loop_roots": 40,
+    "tasks_per_root": 2,
+    "families": 4,
+    "main_tasks": 80,
+    "main_length": [
+      4,
+      8
+    ],
+    "stress_tasks": 20,
+    "stress_length": [
+      8,
+      10
+    ],
+    "false_confirmation_target": 0.05,
+    "reference_success_fraction_target": 0.6,
+    "max_causal_corrections": 1
+  },
+  "stage0_gate": {
+    "skill_families": 4,
+    "reference_chain_length": [
+      3,
+      4
+    ],
+    "dual_camera": true,
+    "reset": true,
+    "planning_regression": true
+  }
+}

@@ -1,0 +1,3330 @@
+{
+  "utc": "2026-10-18T18:18:40.285171+00:00",
+  "design_sha256": "761f74ce71f41a2a2a6c2e05e672e1fc1f536c5e56a3145c01b322f45d4d7698",
+  "assignments_sha256": "72bab16eb2f08202026d5e9558c1c546676c01a0b5f0f980e74da6fe47f0b44e",
+  "roots": [
+    {
+      "root_id": "obs54_A_00",
+      "layout_seed": "261020800",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 8,
+      "seed": 261020800,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09127415517467302,
+            -0.08821290972478349,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11442182177279286
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06677747145759617,
+            -0.0907244001479876,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.15785191237151786
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.25811834907770653,
+            -0.10824651874471596,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14297250644575488
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.019158579309138626,
+      "initialization_signature": "3d909020ec2c29a801b3f78ad73f7cadb8dab84d9239a8e4d4c8968e2a1c3315"
+    },
+    {
+      "root_id": "obs54_A_01",
+      "layout_seed": "261020801",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 6,
+      "seed": 261020801,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.09320948471133488,
+            -0.09829111615323094,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1177498870362162
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06961411895246154,
+            -0.09952360692195855,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0413476549727021
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2412873256107566,
+            -0.10871175595330636,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.060983943572732624
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.02350343116337522,
+      "initialization_signature": "853abfa012ba9d232408b6b4d3a46942495840c4afd8e9d34b662fa0ebff8756"
+    },
+    {
+      "root_id": "obs54_A_02",
+      "layout_seed": "261020802",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 51,
+      "seed": 261020802,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.08976075622723183,
+            -0.09602198769695618,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11347400857286463
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.08676427535748457,
+            -0.09353936001178821,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.15913222512684744
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.24832660249977795,
+            -0.062424464047976774,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19452219036153906
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.018599679647973738,
+      "initialization_signature": "2bc8651d7d533e7ad4ed62a19a15f8fa1009a0fdf0b4cb9dd2aa5ca92a10b77d"
+    },
+    {
+      "root_id": "obs54_A_03",
+      "layout_seed": "261020803",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 14,
+      "seed": 261020803,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.10718246316707568,
+            -0.08698143400623419,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10402241657013656
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06769542507558256,
+            -0.05660890077924286,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10003398665480978
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2427487550353704,
+            -0.07316309678334293,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.06966362011356095
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.0209830648274932,
+      "initialization_signature": "74c736fedb55a19b288fc2db615581d8a7f8170d61fd830264ada7dd709403e6"
+    },
+    {
+      "root_id": "obs54_A_04",
+      "layout_seed": "261020804",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 28,
+      "seed": 261020804,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.09010478357484979,
+            -0.10940534683184208,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.010043532008968292
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.07130830744443725,
+            -0.08030838451141459,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.08337367362376424
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.24150737905556596,
+            -0.09689500810201734,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1602275249220516
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.018527213349949556,
+      "initialization_signature": "8da14d3ccc2609d519c9ebb82c6e5d48782dac59d2ef645e255382dea542ebd9"
+    },
+    {
+      "root_id": "obs54_A_05",
+      "layout_seed": "261020805",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 18,
+      "seed": 261020805,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.10989583684514664,
+            -0.10330500727135296,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16647551374567215
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06444666548372548,
+            -0.07490626276204054,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.007285128489593395
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2615017739056958,
+            -0.06007133604180873,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1644779145277211
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.009700231253432279,
+      "initialization_signature": "2e2ec3372c2f01756c8da25f64a99b6c06171ce760a0a044f2225602c49f5fe0"
+    },
+    {
+      "root_id": "obs54_A_06",
+      "layout_seed": "261020806",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 13,
+      "seed": 261020806,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.09059216842811482,
+            -0.06764555964165679,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0637857640938668
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.08359284002713499,
+            -0.10832056311494935,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.005020312210864908
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.24956689114690775,
+            -0.0815836766761072,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.17347109825228058
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.020937332994414776,
+      "initialization_signature": "14bc75b5675332b4d1a2f00a383dd26dc6188e4bdc0e25eb4479585590673bbb"
+    },
+    {
+      "root_id": "obs54_A_07",
+      "layout_seed": "261020807",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 42,
+      "seed": 261020807,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.11240641660437713,
+            -0.09698225000581184,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.0022899121290384516
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.08119637224536093,
+            -0.11223611171209522,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03785862037805715
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2463881437891735,
+            -0.061098876976955666,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07118248384731235
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.02045276337168199,
+      "initialization_signature": "01db34a7fffaafc5340e7b13ee3177cfe309b1a2837b4a2a3558fd929eaa3d94"
+    },
+    {
+      "root_id": "obs54_A_08",
+      "layout_seed": "261020808",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 2,
+      "seed": 261020808,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.09537945230946485,
+            -0.061112637604203414,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.014973185523295157
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06647127406724615,
+            -0.08074251078132796,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.09086371294906202
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.24204455576294293,
+            -0.10974833305301862,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07966381247116999
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.035127753446146937,
+      "initialization_signature": "b469b6461d82b18a3d9400b77683ea56fd6cf1e7e908e612430cfa3e9bad913f"
+    },
+    {
+      "root_id": "obs54_A_09",
+      "layout_seed": "261020809",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 49,
+      "seed": 261020809,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.11158869182359643,
+            -0.09032508901333541,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07457844564967556
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07370542154714622,
+            -0.06165242452132193,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08482506337757086
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.24931782872259847,
+            -0.0855467687094826,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.14740713539995492
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.013522216329015152,
+      "initialization_signature": "9228ab504f78d421f4c3218abf727d528ea973c2b52047ddd8f662cf4ff4974a"
+    },
+    {
+      "root_id": "obs54_A_10",
+      "layout_seed": "261020810",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 43,
+      "seed": 261020810,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.10848343118909845,
+            -0.07341204021948161,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.17339971291428874
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06921209943094256,
+            -0.11048772683868803,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14790825681471753
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2626593971326366,
+            -0.06191144354538385,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.09297462123020811
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.014480269572717822,
+      "initialization_signature": "f138cefc14090fe2a8b161ce7924b7eb402a5bd2c3e3c8389cc3caf9f7dc55ed"
+    },
+    {
+      "root_id": "obs54_A_11",
+      "layout_seed": "261020811",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 4,
+      "seed": 261020811,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.09270323688049642,
+            -0.08587928253862354,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.13042054004575487
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.0759791015426495,
+            -0.0852081184064487,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1951779156127197
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2577195129780819,
+            -0.08576216198605319,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.14207482685935124
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.01991488537537378,
+      "initialization_signature": "32e0fb477e766c6626844e4a700ef4c03b20a803e394a67521972b4860adaa92"
+    },
+    {
+      "root_id": "obs54_A_12",
+      "layout_seed": "261020812",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 46,
+      "seed": 261020812,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09295215642178374,
+            -0.11448326073212947,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16565037685268932
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.08660821070271843,
+            -0.071954607627291,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16158122075200237
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2558710993937263,
+            -0.060846990867189026,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0044377091877555175
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.016026410716541387,
+      "initialization_signature": "aeb0f06cacdf061c99cfbd8a085d9e767a3c5de19cb8db043bc5cfc06c626931"
+    },
+    {
+      "root_id": "obs54_A_13",
+      "layout_seed": "261020813",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 17,
+      "seed": 261020813,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.11262094320966944,
+            -0.08391951662640085,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.02076296150084636
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07069783128108818,
+            -0.11288780136294274,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03985080395117796
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.24446971679380203,
+            -0.08197925746305054,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18462850032508982
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.012912464896411485,
+      "initialization_signature": "c1f80d99d7d938d3315a978903d47932fa1ebcdaf49efcb698258006772a7292"
+    },
+    {
+      "root_id": "obs54_A_14",
+      "layout_seed": "261020814",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 44,
+      "seed": 261020814,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.09444838719486787,
+            -0.11155282345960423,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18971491199558177
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07633619633175431,
+            -0.10574345924192437,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.052250070813713634
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2513342119541708,
+            -0.08517704270541197,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10768103180813703
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.015501498244311865,
+      "initialization_signature": "bbd5f8840aa09f8c4d06a7fa96423b2a43f0883e440e77129d451aee65d0c5aa"
+    },
+    {
+      "root_id": "obs54_A_15",
+      "layout_seed": "261020815",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 16,
+      "seed": 261020815,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09319423723145559,
+            -0.102122659887299,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.01086282258099952
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07723281342259836,
+            -0.08652094005675803,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14038306667472894
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.25252285480624825,
+            -0.08607463717255084,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03969404747784239
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.015166198643749976,
+      "initialization_signature": "df651720c7a451a480b2f2b04c4e14bcb12b89d1d49e03ed27514a3fe16296a5"
+    },
+    {
+      "root_id": "obs54_A_16",
+      "layout_seed": "261020816",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 34,
+      "seed": 261020816,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.09709784318955011,
+            -0.06471875757285497,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.04291221498328168
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07016753352863062,
+            -0.05913744169139925,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08219245009177306
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2504948424767858,
+            -0.06664710488659137,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.15242281280936637
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.014857688180087841,
+      "initialization_signature": "7bd29ea45ed2fd98f39b6f5525fa7517eea41d594f9b208f97d9e0aeb5c97597"
+    },
+    {
+      "root_id": "obs54_A_17",
+      "layout_seed": "261020817",
+      "scene": "A",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 11,
+      "seed": 261020817,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.10926934267986174,
+            -0.07791567740561844,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.15406837093855769
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.07111256147159888,
+            -0.055299631854366045,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.17721011814822366
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2604105156285442,
+            -0.1098309981977596,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.05236188755374316
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.0157089103323445,
+      "initialization_signature": "b06c7787f8c99e34bf98d74ae504334dfb83881ff4db7b345113f86422722095"
+    },
+    {
+      "root_id": "obs54_B_18",
+      "layout_seed": "261020818",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 20,
+      "seed": 261020818,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.2680481342846515,
+            -0.05531518819555943,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1857695348228029
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.11120351225048392,
+            -0.11337284027367811,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.05531079565075431
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.0691468127846907,
+            -0.09982208210072366,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.010806874924230575
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.01896981100697996,
+      "initialization_signature": "4612de54753aac753faa81792ebddf185792acd0382dc66fb4992598b1acf00f"
+    },
+    {
+      "root_id": "obs54_B_19",
+      "layout_seed": "261020819",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 45,
+      "seed": 261020819,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.2511997829804467,
+            -0.09359562412515687,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1228007974897104
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.09146030687287918,
+            -0.08096834310149384,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16828348006134786
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.05151690502291869,
+            -0.05873681032503391,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.19604688539506093
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.02602366706688925,
+      "initialization_signature": "a3fa57effad82a3b0ba19d646fd5cad3785feade6b456fe4f418e286fe5a2d8f"
+    },
+    {
+      "root_id": "obs54_B_20",
+      "layout_seed": "261020820",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 54,
+      "seed": 261020820,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.25320141981877864,
+            -0.07352977422442529,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.00907766964465187
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.110615611528727,
+            -0.06823674854538667,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.023903902212950634
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.07027818574539486,
+            -0.11012737714970058,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07537490210835607
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.010433695329815973,
+      "initialization_signature": "0b8e88bfc926a36df1318e1a825716d4f011b7ff9c05b8794e403af618d075e6"
+    },
+    {
+      "root_id": "obs54_B_21",
+      "layout_seed": "261020821",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 38,
+      "seed": 261020821,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.26992252742219575,
+            -0.10640711853535247,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1590211629371286
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.10933897264730226,
+            -0.07836923430277237,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19103445853668927
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.051075302627989635,
+            -0.06584257866647786,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03460786302737412
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.028821606850572723,
+      "initialization_signature": "df0529d50f625c5668bd4c5c02db87c3a750548f55dc99975e5c77651d2e62c4"
+    },
+    {
+      "root_id": "obs54_B_22",
+      "layout_seed": "261020822",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 47,
+      "seed": 261020822,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.25771511934689234,
+            -0.0981410749093441,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.018000193674883536
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09295807898961952,
+            -0.07043263230079605,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.054943871775682496
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06893006500853191,
+            -0.10327482168509115,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19071878332391026
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.016477974210246965,
+      "initialization_signature": "9a988a6c4e2a4f092140a4e4e8636b5344081ee9f4399194b412b112fc5765da"
+    },
+    {
+      "root_id": "obs54_B_23",
+      "layout_seed": "261020823",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 15,
+      "seed": 261020823,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.2480749535294778,
+            -0.09738538128953629,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03145485838585477
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.09767796899293621,
+            -0.06760118152995877,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.027006236580136983
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.05260483304108233,
+            -0.09054573735556709,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03416589543469581
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.018635735909497096,
+      "initialization_signature": "a186bd0a84f8a29e47462adaf814209ca2d13b31ba51e0e6ed7603805b7795a4"
+    },
+    {
+      "root_id": "obs54_B_24",
+      "layout_seed": "261020824",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 30,
+      "seed": 261020824,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26139364796277387,
+            -0.07139560608777862,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.019654388460251887
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.10659152344790075,
+            -0.06336503507476905,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1009951905010905
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.07196500476686332,
+            -0.08957684882305902,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08807015882126175
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.006214963184087874,
+      "initialization_signature": "a71b8299ba26d899ab1a34f0016c187b36f92bbb43926de922acf53407bf3189"
+    },
+    {
+      "root_id": "obs54_B_25",
+      "layout_seed": "261020825",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 41,
+      "seed": 261020825,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.2547643407117124,
+            -0.10491748903953427,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1991736583396313
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.09589479166275339,
+            -0.08033838629018542,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.0927709541983196
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06943498297429458,
+            -0.11493948104277218,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0033920864935135797
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.02283123365521983,
+      "initialization_signature": "8bd9f83718c8ba175da922246eb40c3cf0514bcb9e5331d7aab3453138f586c3"
+    },
+    {
+      "root_id": "obs54_B_26",
+      "layout_seed": "261020826",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 7,
+      "seed": 261020826,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.27017188204047016,
+            -0.06247235365223271,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10005955544553513
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.09987041040408313,
+            -0.07667556735103322,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08240287577229899
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.0704369938989984,
+            -0.08497536376159685,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.186952145048923
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.010751262935700022,
+      "initialization_signature": "4876a47b5d11584d359422ddac16dd8369b4df9b779ced33b9f7223d70188136"
+    },
+    {
+      "root_id": "obs54_B_27",
+      "layout_seed": "261020827",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 10,
+      "seed": 261020827,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.268352481249786,
+            -0.05724362953050225,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.12629710634330116
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.09462949529679482,
+            -0.11075374914201946,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1008412092521081
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.07014507262336864,
+            -0.08110179687513949,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.048194317747744325
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.010651188389575753,
+      "initialization_signature": "c034582d95b643380c45fd27984f7151096738b62eff8703029d44ad6a9fd05a"
+    },
+    {
+      "root_id": "obs54_B_28",
+      "layout_seed": "261020828",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 39,
+      "seed": 261020828,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.24991055931988954,
+            -0.11233782714434602,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.032181973372232026
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.10105540401429311,
+            -0.11005416599758555,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1007699890384243
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.0716089827062019,
+            -0.10361026565097332,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05988383363820213
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.026759209014366542,
+      "initialization_signature": "c5d68e3ac8b98d1df1aa7305d020ac8b605df00d367eba9c407b33775cf961f8"
+    },
+    {
+      "root_id": "obs54_B_29",
+      "layout_seed": "261020829",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 50,
+      "seed": 261020829,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.25893934126422485,
+            -0.08159831305430786,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.13157751497940434
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09376951201661382,
+            -0.11333265334569369,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.09131442892918967
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.0626592816049788,
+            -0.09826658897021431,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05970524832593341
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.014817530393007289,
+      "initialization_signature": "448f0b680dcf5486303a6a966da7100721dcc1ae872e3fb870875ef8e31a0be6"
+    },
+    {
+      "root_id": "obs54_B_30",
+      "layout_seed": "261020830",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 12,
+      "seed": 261020830,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.25261891808988823,
+            -0.06102398869243088,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.17360157816283656
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.10359029613282424,
+            -0.08590932533936099,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1447830031994869
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06058095095907484,
+            -0.08196481410797699,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05500721916737636
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.018657643982205915,
+      "initialization_signature": "331b18d1b34a0562c5c8bda6050b1bf9dbf037d18a116a45cc990fa4c42fdc00"
+    },
+    {
+      "root_id": "obs54_B_31",
+      "layout_seed": "261020831",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 37,
+      "seed": 261020831,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.2596695406442605,
+            -0.09504778289273769,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.018481676643185063
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09768207780104508,
+            -0.0846036701114212,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07844880536077309
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.07150203190555758,
+            -0.062460922713019514,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10767056760126897
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.025567020109166394,
+      "initialization_signature": "4cff14222898769458bcc06721646ed7ab9340cda54156b30721237b0f6711e2"
+    },
+    {
+      "root_id": "obs54_B_32",
+      "layout_seed": "261020832",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 9,
+      "seed": 261020832,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.2632082575724405,
+            -0.09504364323480063,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.17866779614905431
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09235868523185148,
+            -0.09331332767609216,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.04007666973507126
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.05142344928522392,
+            -0.07301385433415336,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07690987471219018
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.015404248583864591,
+      "initialization_signature": "c20c407a52b99f24f741432ecdfdb629572cebc49c409964090c3a16201d2ae7"
+    },
+    {
+      "root_id": "obs54_B_33",
+      "layout_seed": "261020833",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 1,
+      "seed": 261020833,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.2666965558811942,
+            -0.10920500696331892,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.17672556890066146
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.08877771380627612,
+            -0.0645068767277111,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.04561949916865543
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.050853661241354674,
+            -0.055163945964372484,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07553538905962187
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.020648370664202907,
+      "initialization_signature": "0ecdeb1efb2d979ceecfaec41d1dc7eb4d2630eb1c9f504c504bd0c873e4bd0c"
+    },
+    {
+      "root_id": "obs54_B_34",
+      "layout_seed": "261020834",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 3,
+      "seed": 261020834,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.2597215860693833,
+            -0.11326381253085316,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11981474776265927
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.10974341087556892,
+            -0.07655588318167027,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1036762048976616
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06660234684145083,
+            -0.06444562143475188,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07804464832807155
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.016647734082998536,
+      "initialization_signature": "b2b075872e8e900013820074815c99f5e34714fbd9e422ba8d6e8979615c05a7"
+    },
+    {
+      "root_id": "obs54_B_35",
+      "layout_seed": "261020835",
+      "scene": "B",
+      "split": "train",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 19,
+      "seed": 261020835,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.2684659534823932,
+            -0.09581950111811824,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16817499124938345
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.11145672546154566,
+            -0.06456256770767624,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.13969912934498208
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06403597300008143,
+            -0.07058915714707298,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.15915782544620471
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.016623475803386092,
+      "initialization_signature": "4832af5e7dc0ec38bcdea9b4dfde1d2d64742dad3c51af6717e11942255d6fec"
+    },
+    {
+      "root_id": "obs54_C_36",
+      "layout_seed": "261020836",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 23,
+      "seed": 261020836,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.0539685042635394,
+            -0.05943128547637955,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11655393097971584
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.1689454784608877,
+            -0.08633018734542301,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10406699087625526
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2965148061761876,
+            -0.09616666316881095,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.019088220479653473
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.00713866427857994,
+      "initialization_signature": "6c0ff0aca52d534eea45060740c23cc553f70b98211b4ff3cae6aa81f55ee192"
+    },
+    {
+      "root_id": "obs54_C_37",
+      "layout_seed": "261020837",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 27,
+      "seed": 261020837,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.061926961827288164,
+            -0.0827065485834694,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1807597983477372
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17222214432365043,
+            -0.06570038161274724,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.04200409779070896
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.28435941455274755,
+            -0.11144225541708179,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19078418012866774
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.009952690817083581,
+      "initialization_signature": "1d331e33a5a7499d07421a883b3f14e2d2029adbeb0007c4ad86d5d756888404"
+    },
+    {
+      "root_id": "obs54_C_38",
+      "layout_seed": "261020838",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 24,
+      "seed": 261020838,
+      "target_color": "red",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.0543029503026612,
+            -0.07047505202707927,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.09853426731314785
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17724000339947676,
+            -0.07410870064442074,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.167882990491795
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2864416588217375,
+            -0.07842756672675669,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08101017232097525
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.0110612793993531,
+      "initialization_signature": "5a7c9bb089916deef5bf411d937aaa8fb71431bae52118c9f911f9a28165919a"
+    },
+    {
+      "root_id": "obs54_C_39",
+      "layout_seed": "261020839",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 22,
+      "seed": 261020839,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.054439726524051685,
+            -0.06093830281123191,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.06896939469004881
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17029241410304824,
+            -0.08576540766748046,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07939067747224314
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28811811207571236,
+            -0.0936106513916628,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.12923326400930618
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.007333223128507094,
+      "initialization_signature": "ec99fb4abfcb3b2a6b141f63fcd36149a827c06dce557f04344ff48538df6e4b"
+    },
+    {
+      "root_id": "obs54_C_40",
+      "layout_seed": "261020840",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 40,
+      "seed": 261020840,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.055383202371605884,
+            -0.08279500372183937,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11425867323564581
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17626543621938223,
+            -0.0913918863754147,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.0627141894646398
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.27760963529823107,
+            -0.07535586847373796,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05511579652440163
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.017283185730993966,
+      "initialization_signature": "4baa30dca404b1338e48a8608cd1b6e41757547071d03138a8976f1698d54bbe"
+    },
+    {
+      "root_id": "obs54_C_41",
+      "layout_seed": "261020841",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "red",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 29,
+      "seed": 261020841,
+      "target_color": "red",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.052007938680923155,
+            -0.1126855452724084,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.024917180089304602
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.16818615488236513,
+            -0.07081271485172774,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.06123696436100698
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28936807129965314,
+            -0.07530430948396816,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.043538880804706415
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.015034291263938265,
+      "initialization_signature": "4d7a1afa07fde4317864e565862ac10169c782be21b846523effd3ea4c20a7a5"
+    },
+    {
+      "root_id": "obs54_C_42",
+      "layout_seed": "261020842",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 36,
+      "seed": 261020842,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.05532009383936084,
+            -0.09533988948860883,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.051630068397756496
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17991203769990338,
+            -0.10677430155766399,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.12120453555558575
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2796647746824662,
+            -0.06915054808605176,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10940610153771396
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.015530940702339228,
+      "initialization_signature": "f10115ed6049aaf6e6fa14e77fcaca4ef75f0aa577db1697842118385f8c0e81"
+    },
+    {
+      "root_id": "obs54_C_43",
+      "layout_seed": "261020843",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 21,
+      "seed": 261020843,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "lift_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.072988811999522,
+            -0.09199748862244414,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18518642161111892
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17108315593378431,
+            -0.09391241039928602,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1486363541656205
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2988581274000546,
+            -0.06388026214118342,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.017181681277125715
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.021248492101823502,
+      "initialization_signature": "1553400e34850e0019d01175d5958a040cb05a1dcf09db6442e335ff74ad1575"
+    },
+    {
+      "root_id": "obs54_C_44",
+      "layout_seed": "261020844",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 25,
+      "seed": 261020844,
+      "target_color": "blue",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06937111034371672,
+            -0.06690727677886447,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1909511004402038
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.16405801778122103,
+            -0.10878712280512307,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1731763698347999
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28503941510311825,
+            -0.07323648578922035,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0749152686687014
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.018282678301599575,
+      "initialization_signature": "f21d53b7f57ec67bef9a0883b592e2c524668222430e6024d83e7093b19512f0"
+    },
+    {
+      "root_id": "obs54_C_45",
+      "layout_seed": "261020845",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 35,
+      "seed": 261020845,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.0708888159773757,
+            -0.07194560862796397,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05997328232234539
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17320739279714584,
+            -0.06691397814319922,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10907502630876648
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2762338339707777,
+            -0.06862143581406652,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.038438175083397474
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.01609543219006622,
+      "initialization_signature": "eea42f345242dea41841f253d8e2571ca4b544ea1bb83f78062e298b29756599"
+    },
+    {
+      "root_id": "obs54_C_46",
+      "layout_seed": "261020846",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 33,
+      "seed": 261020846,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.06823183899124867,
+            -0.08506106708937297,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1541949124736373
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.16370470764956743,
+            -0.10446822447525987,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05899039312293075
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.29306473586765663,
+            -0.10677658070129975,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11093253917456547
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.01287090783869943,
+      "initialization_signature": "cc24076218620a3bd15e9b2cded0a88d929fac91802584f1252eb88915e15683"
+    },
+    {
+      "root_id": "obs54_C_47",
+      "layout_seed": "261020847",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "blue",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 5,
+      "seed": 261020847,
+      "target_color": "blue",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.07249644125901263,
+            -0.0734288253919722,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.042567749026148016
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.16364747922632858,
+            -0.06287842439260638,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.06028408238899449
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.28340479603813096,
+            -0.1123948035277234,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16077893434078144
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.01997062148993488,
+      "initialization_signature": "ac6bbe6eda6dc2ec985e90d5e8c3a758df5f215eef364dff260d43293d0ff5cf"
+    },
+    {
+      "root_id": "obs54_C_48",
+      "layout_seed": "261020848",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 52,
+      "seed": 261020848,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "closed_near_table",
+      "action": "lift_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.061195727927500713,
+            -0.10532762918436257,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18364591415257037
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.1764909778332768,
+            -0.11320216250895151,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07645685946346298
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.286804135765999,
+            -0.10540301789027944,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.17995961004844904
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.008548953687503857,
+      "initialization_signature": "89ba90bf5601b0140ed1c6f4fd2ea84ad1fd337ea74bcea01f43ebeed1e77ee1"
+    },
+    {
+      "root_id": "obs54_C_49",
+      "layout_seed": "261020849",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 31,
+      "seed": 261020849,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "empty_grasp_high",
+      "action": "hold_open",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06685094100146954,
+            -0.07548418227185621,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07865208134057722
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17218723234320446,
+            -0.05534123228221748,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1929040818350207
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2963178193131226,
+            -0.09870333255723737,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1960499097735265
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.020747254916484686,
+      "initialization_signature": "417e6a244d9de30e5ed0d09b1dcf8c2e9b9754b93e5510d468d7a7515aab8205"
+    },
+    {
+      "root_id": "obs54_C_50",
+      "layout_seed": "261020850",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "aligned",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 53,
+      "seed": 261020850,
+      "target_color": "pink",
+      "geometry": "aligned",
+      "preparation": "grasp_attempt_high",
+      "action": "hold_closed",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.074787443024984,
+            -0.08269193498497848,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1529557384316756
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17061621455928425,
+            -0.10768325946252151,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14501339375708444
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28168064669759296,
+            -0.10323400158589541,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03815809012874821
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.014150122477716992,
+      "initialization_signature": "002b84a5792976eee10dee9944ba82a2a42caaa5561d225536c30bc6debd1898"
+    },
+    {
+      "root_id": "obs54_C_51",
+      "layout_seed": "261020851",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "closed_near_table",
+      "assigned_action_private": "hold_open",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 26,
+      "seed": 261020851,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "closed_near_table",
+      "action": "hold_open",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.07262204133029647,
+            -0.07600575436558883,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.09797308327888515
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.18225075614656847,
+            -0.09427550371018262,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1348569314260183
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.28413557004292567,
+            -0.10393044122188952,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.01432088211914001
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.014141505974286261,
+      "initialization_signature": "b4e98f6a1604b562129601139fe548373d5a64f073df4978653160fd9fe7be87"
+    },
+    {
+      "root_id": "obs54_C_52",
+      "layout_seed": "261020852",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "empty_grasp_high",
+      "assigned_action_private": "hold_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 32,
+      "seed": 261020852,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "empty_grasp_high",
+      "action": "hold_closed",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06375548181072617,
+            -0.10679284100797262,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.19073745237748263
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17901368335350373,
+            -0.07231538307302206,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07452819854726245
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2976771394918175,
+            -0.063972618436923,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18861364138582576
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.00900054164466961,
+      "initialization_signature": "6346b284c6e6d3f181ecb3b9d9af9468643737d89e860aba285968c6dc2753d4"
+    },
+    {
+      "root_id": "obs54_C_53",
+      "layout_seed": "261020853",
+      "scene": "C",
+      "split": "dev",
+      "target_color_private": "pink",
+      "geometry_private": "offset_localY_12mm",
+      "preparation_private": "grasp_attempt_high",
+      "assigned_action_private": "lift_closed",
+      "parent_root": null,
+      "collection_status": "NOT_STARTED",
+      "execution_rank": 48,
+      "seed": 261020853,
+      "target_color": "pink",
+      "geometry": "offset_localY_12mm",
+      "preparation": "grasp_attempt_high",
+      "action": "lift_closed",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.07366492114950489,
+            -0.10011908955115517,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.08239057929114996
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17609743024161995,
+            -0.08271967294634261,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.18405091942818436
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2845762776712589,
+            -0.10762241225395783,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.19082870375577105
+          ]
+        }
+      },
+      "drawer_initial_q_m": 0.005,
+      "nearest_registered_max_position_gap_m": 0.016704040576293294,
+      "initialization_signature": "0274421ae3991abea21d4221512b96bec95085a940b0838b0ab27508f9a45aa0"
+    }
+  ],
+  "root_execution_order": [
+    "obs54_B_33",
+    "obs54_A_08",
+    "obs54_B_34",
+    "obs54_A_11",
+    "obs54_C_47",
+    "obs54_A_01",
+    "obs54_B_26",
+    "obs54_A_00",
+    "obs54_B_32",
+    "obs54_B_27",
+    "obs54_A_17",
+    "obs54_B_30",
+    "obs54_A_06",
+    "obs54_A_03",
+    "obs54_B_23",
+    "obs54_A_15",
+    "obs54_A_13",
+    "obs54_A_05",
+    "obs54_B_35",
+    "obs54_B_18",
+    "obs54_C_43",
+    "obs54_C_39",
+    "obs54_C_36",
+    "obs54_C_38",
+    "obs54_C_44",
+    "obs54_C_51",
+    "obs54_C_37",
+    "obs54_A_04",
+    "obs54_C_41",
+    "obs54_B_24",
+    "obs54_C_49",
+    "obs54_C_52",
+    "obs54_C_46",
+    "obs54_A_16",
+    "obs54_C_45",
+    "obs54_C_42",
+    "obs54_B_31",
+    "obs54_B_21",
+    "obs54_B_28",
+    "obs54_C_40",
+    "obs54_B_25",
+    "obs54_A_07",
+    "obs54_A_10",
+    "obs54_A_14",
+    "obs54_B_19",
+    "obs54_A_12",
+    "obs54_B_22",
+    "obs54_C_53",
+    "obs54_A_09",
+    "obs54_B_29",
+    "obs54_A_02",
+    "obs54_C_48",
+    "obs54_C_50",
+    "obs54_B_20"
+  ],
+  "gates": {
+    "all_integrity_checks": true,
+    "completed_safe_stable_visible_target_roots": {
+      "train_min": 24,
+      "dev_min": 12
+    },
+    "each_color_future_target_class_roots": {
+      "train_positive_min": 2,
+      "train_negative_min": 2,
+      "dev_positive_min": 1,
+      "dev_negative_min": 1
+    },
+    "each_direction_0to1_and_1to0": {
+      "train_min": 2,
+      "dev_min": 1,
+      "colors_total_min": 2
+    },
+    "unchanged_each_0to0_and_1to1": {
+      "train_min": 2,
+      "dev_min": 1
+    },
+    "each_action_hold_closed_and_lift_closed": {
+      "train_positive_min": 3,
+      "train_negative_min": 3,
+      "dev_positive_min": 2,
+      "dev_negative_min": 2,
+      "colors_per_outcome_across_all_min": 2
+    },
+    "each_color_target_supported_hard_negative": {
+      "train_min": 1,
+      "dev_min": 1,
+      "anchor": "pre orpost, distinctrootonce"
+    },
+    "positive_counts_observed": null,
+    "on_failure": "close fixedpilot as insufficientcoverage; noextra roots/offset/tolerance/labels/modeltraining; not proof no dynamics information exists"
+  },
+  "authorization": "standing user instruction Sentinel_9dd2d7c1a5fc8191a759ea02da2c724a, delegated bounded local collection only; no training",
+  "budget": {
+    "roots": 54,
+    "one_initialization_per_root": true,
+    "actions_per_root": 1,
+    "action_controls": 72,
+    "physics_ticks_per_control": 8,
+    "physics_hz": 240,
+    "action_seconds": 2.4,
+    "root_controls_max": 900,
+    "preparation_controls_max_including_settle": 828,
+    "primary_transitions_max": 54,
+    "dual_camera_saved_states_max": 324,
+    "saved_states_per_root_max": 6,
+    "root_replacements": 0,
+    "grasp_retries": 0,
+    "post_run_translate_or_return": false,
+    "new_downloads": 0,
+    "new_model_fits_this_turn": 0,
+    "new_physics_steps_this_turn": 0,
+    "new_render_calls_this_turn": 0,
+    "first50_saved_states_storage_audit": true,
+    "first50_completed_macrotransitions_storage_audit_if_reached": true,
+    "128_transition_check_reached": false,
+    "GPU": "single queue using existing runs/gpu.lock"
+  },
+  "anchors": [
+    0,
+    12,
+    24,
+    36,
+    60,
+    72
+  ],
+  "only_budget_amendment": "explicit current authorization permits at most6 savedstates/root324; endpoints unchanged",
+  "model_input_keys": [
+    "action_program",
+    "duration_seconds",
+    "rgb_gripper_t0",
+    "rgb_static_t0",
+    "robot_obs_t0"
+  ],
+  "randomization": "reuse exact frozen assignments; no outcome-conditioned changes",
+  "prediction_not_individual_counterfactual": true,
+  "training_authorized": false
+}

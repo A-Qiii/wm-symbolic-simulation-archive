@@ -1,0 +1,23 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/delivery_manifest.json": "cec849a69f4ffa871dd39c3cf145584ea2106619ffb400dc00636dd48db7bd55",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/collect.py": "b92f2d5f58d6a331b5be9c387a5de3deb26a808868c0b177d2d8eefb469a858c",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/data/private/fork12_A_00/resolved_config.yaml": "65d84eca8c89054ef320874657a9e007105c38d243fdbdecdd86ef41b58d1274",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/data/private/fork12_A_00/aligned_action_start_checkpoint_private.json": "2f81e063ad9782442cc4279560cfdfad9ba7bd281329984ed4777cb830c6ae24",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/data/private/fork12_A_00/aligned_action_start.bullet": "33b6545ff206ba1535c1d8e55dde4d4a1adb92863cbf7ba2711907e3b7b6ae82",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/data/public/fork12_A_00_aligned_lift_actions.json": "715fc885bd874921e965da34e3afb3c90913515dc5bce4b8661fb6060cf32732",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "/home/robot/research/projects/wm_symbolic/.envs/executor/lib/python3.10/site-packages/pybullet.cpython-310-x86_64-linux-gnu.so": "54596239c69a8ed206759da5388dc69e3b9820815100fb20819d4fabdcda0bcf"
+  },
+  "pybullet_version": "3.2.7",
+  "API_docstrings": {
+    "getJointState": "Get the state (position, velocity etc) for a joint on a body.",
+    "getConstraintState": "Get the user-created constraint state (applied forces), given a constraint unique id.",
+    "saveState": "Save the full state of the world to memory.",
+    "restoreState": "Restore the full state of an existing world.",
+    "setJointMotorControl2": "Set a single joint motor control mode and desired target value. There is no immediate state change, stepSimulation will process the motors."
+  }
+}

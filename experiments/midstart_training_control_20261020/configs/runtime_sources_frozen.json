@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-20T02:07:04.134862+00:00",
+  "before_new_model_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_report.py": "ea302c563617c86c27ad5d40374cab883c2fef39dc2d25f433aa4d9b2f35e9a0",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_assess.py": "4059349f8e059b38ab2482c44aee3c5a4ca52a203b32e664564acd34ec22a806",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/losses.py": "615c09feec3a6b3aa33d93ddd9bb11e117656831c70e75ab327fb69893d5fd5e",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_train.py": "dd131b57c0d8a16e873098cb1da0c88a6fcb9927014b48ee926456261a9d89d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_finalize.py": "054a34acacb9bba6e96bc75d9117d7fc94aab49d28e10428df0cd30689279996",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_fresh_qa.py": "a61efc7f9d87b8a343f40464ac8446f74ad585d73804919ccef8611dd83d3b5d",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_run_evaluate.py": "c918f89d6cc0bf70f1c8135ce9f92145a03c207dc6e2b35c164f5c12f4012521",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/models.py": "d9248fa21e25651c4835403c102f212f514dfb65ee68bfc4f4e1a1eb4d4697ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_resume.py": "1eb5d42cf7713b40a5f9a3251724733777224e685c5eadcf166b0bd27b03f8d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_score.py": "051b7c955d5b88bb6160aa5966fc6b30d3e3f339cded94a66790cdca5ec5ae5e",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_evaluate.py": "00133b662c344b7403010de2142701ebdf06d0139d3e7ef26ddc637991cf55cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_audit.py": "2f63c7559b9e366ad6dda8590b166f1fddecb28e62fae902fe5b98edec62a2ea",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_support_audit.py": "ee10e2464a319f3d1a9f97de2ecb6a5803411ac7a29c4cac43b3532992f3f7f1",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_data.py": "1866b078565746aa1e1aecd78d8215d3a309c9a3d1970fb3e6fc3e1da1c14d24",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/common.py": "b0ec90ba78b067e0a14367aedcec1bb0561a1406cb0127cdaae1600b9263932f",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/original_loss.py": "12eb5a2021a4e568a63d2acaf5d95151f560924031d548eaee5e235ef1c1cc52"
+  }
+}

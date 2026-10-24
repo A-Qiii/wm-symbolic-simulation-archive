@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-18T15:39:21.158989+00:00",
+  "before_dev_prediction": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_object_seed0.pt": "2484d7621d010122249a7430a7bd27988b56be45cd1d20501c5f71a7876f9413",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_pair_seed0.pt": "9e282837748ccfe47ec454dfe06dbd874ee3aebbc634dca143038dba3af21446",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_object_seed1.pt": "96daca7c760844b4c6612dec6b86976d22f689c9c3bbe6765cea68667e6fb189",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_geometry_seed1.pt": "82e7a49d11c17f7b00ab4db79c5ef89304d489550cefec697341e3a9fec6f414",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_pair_seed1.pt": "316c0692662d4b7b6fdbff3c375638fd90aff2512f8e06ca41433e44ad3ba051",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/models/final_geometry_seed0.pt": "49786363967e1f847811dc81628976537313933b077a630452c2fe56786ca585"
+  },
+  "normalization_sha256": "0f421a618e50be483d4b9b53c2fee92f39c74b251df5afd50141c60c531dc067",
+  "fits": 6
+}

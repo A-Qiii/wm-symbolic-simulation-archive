@@ -1,0 +1,146 @@
+{
+  "created_utc": "2026-10-15T10:44:22.486545+00:00",
+  "all_training_complete": true,
+  "total_optimizer_updates": 3000,
+  "runs": [
+    {
+      "run": "uniform_seed0",
+      "seed": 0,
+      "arm": "uniform",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "33bec4592eaf244ab78348ec49c9d438acd661b3e8ae770183b4dc7645bb9833",
+      "start_sha256": "fca50be9a28de158996c6402bdf7749bd6aea060c5f74df15e73b7dc40703432",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/uniform_seed0_final500.pt",
+        "sha256": "7ea0b5bb424c9a157be57e280746c8ac01234de1bb4c581dfdcb8b6fb88779e5"
+      },
+      "seconds": 1.2039228300000104
+    },
+    {
+      "run": "equal_groups_seed0",
+      "seed": 0,
+      "arm": "equal_groups",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "33bec4592eaf244ab78348ec49c9d438acd661b3e8ae770183b4dc7645bb9833",
+      "start_sha256": "fca50be9a28de158996c6402bdf7749bd6aea060c5f74df15e73b7dc40703432",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/equal_groups_seed0_final500.pt",
+        "sha256": "c026eb675ccf68f77b45b8340acf7da24e7b9204386facb0193f67eac4958aa6"
+      },
+      "seconds": 1.0991587940006866
+    },
+    {
+      "run": "uniform_seed1",
+      "seed": 1,
+      "arm": "uniform",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "be886a7c81bc532b50353aeed9d3dc940414beceb8179702dfdf1bc889fcd1bc",
+      "start_sha256": "ebac24124dc9d740224a6b2183c19233a9f340f671daa8a16070630550e3ef8a",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/uniform_seed1_final500.pt",
+        "sha256": "863dbfd8c04f8e30dd6095a269611a406b81478392b3bcb074803e7b20f85f88"
+      },
+      "seconds": 1.0532861199990293
+    },
+    {
+      "run": "equal_groups_seed1",
+      "seed": 1,
+      "arm": "equal_groups",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "be886a7c81bc532b50353aeed9d3dc940414beceb8179702dfdf1bc889fcd1bc",
+      "start_sha256": "ebac24124dc9d740224a6b2183c19233a9f340f671daa8a16070630550e3ef8a",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/equal_groups_seed1_final500.pt",
+        "sha256": "0cba9ee034270df322c4bbb35db6bd982dfa65bdc2570534bad8ed285bd86ed1"
+      },
+      "seconds": 1.0685756520015275
+    },
+    {
+      "run": "uniform_seed2",
+      "seed": 2,
+      "arm": "uniform",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "e5b1ad7ad666676cb75a415d1c67962132e7a3da5fe4208e988a3bf349a92879",
+      "start_sha256": "e4e732958b9b9e4649e8c1f0354a6c6bd4ac74b04983914b7b0d8ae5c038d070",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/uniform_seed2_final500.pt",
+        "sha256": "30a97bec5ffdc57fedf18343a810016f858b8a849c1384d530afd5b5294b49f0"
+      },
+      "seconds": 1.0760441450001963
+    },
+    {
+      "run": "equal_groups_seed2",
+      "seed": 2,
+      "arm": "equal_groups",
+      "updates": 500,
+      "prior_weight_updates": 1500,
+      "trajectory_weight_updates": 2000,
+      "initial_digest": "e5b1ad7ad666676cb75a415d1c67962132e7a3da5fe4208e988a3bf349a92879",
+      "start_sha256": "e4e732958b9b9e4649e8c1f0354a6c6bd4ac74b04983914b7b0d8ae5c038d070",
+      "fresh_optimizer_empty_at_start": true,
+      "schedule_sha256": "1b3ffd7a20ac6bab3741a930e28edb5ff01668414abb93f615b5e2ca83c02224",
+      "examples_per_update": 137,
+      "presentations": 68500,
+      "presentations_per_example": 500,
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "C_optimizer_and_selection_rows": 0,
+      "final500": {
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_group_weight_control_20261015/models/equal_groups_seed2_final500.pt",
+        "sha256": "ef8b9f016b7fc9c14a21055713e33c5610104c147d61d73ea40cf08c84638c0c"
+      },
+      "seconds": 1.0789299179996306
+    }
+  ],
+  "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+  "fixed_final500_only": true,
+  "representatives": [
+    "uniform_seed0",
+    "equal_groups_seed0"
+  ],
+  "C_used_for_selection": false
+}

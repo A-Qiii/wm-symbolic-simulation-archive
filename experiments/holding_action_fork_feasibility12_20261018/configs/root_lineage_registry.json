@@ -1,0 +1,23 @@
+{
+  "all_roots_reserved_by_frozen_protocol": [
+    "fork12_A_00",
+    "fork12_A_01",
+    "fork12_A_02",
+    "fork12_A_03",
+    "fork12_B_04",
+    "fork12_B_05",
+    "fork12_B_06",
+    "fork12_B_07",
+    "fork12_C_08",
+    "fork12_C_09",
+    "fork12_C_10",
+    "fork12_C_11"
+  ],
+  "physically_attempted_roots": [
+    "fork12_A_00"
+  ],
+  "all_descendants_split": "engineering_feasibility_only",
+  "valid_transition_pairs": 0,
+  "stop_reason": "pre_action_restore_mismatch",
+  "all_original_artifacts_kept": true
+}

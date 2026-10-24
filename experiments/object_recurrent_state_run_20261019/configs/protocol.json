@@ -1,0 +1,152 @@
+{
+  "status": "DESIGN_ONLY_NOT_AUTHORIZED_TO_TRAIN",
+  "hypothesis": "Same routed observations and heads; compare one dense global recurrent state versus persistent object states with learned message passing, including observation update and action-bound transition.",
+  "arms": [
+    "GlobalGRU",
+    "ObjectGRU"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "total_state_dimensions": 512,
+  "parameters": {
+    "GlobalGRU": 2454260,
+    "ObjectGRU": 2465492
+  },
+  "deterministic_no_KL": true,
+  "front_end": {
+    "DINO": "existing frozen cache",
+    "encoder_checkpoints": [
+      "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed0/latest.pt",
+      "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed1/latest.pt"
+    ],
+    "frozen_modules": [
+      "vision",
+      "geometry",
+      "robot_token",
+      "spatial",
+      "observation"
+    ],
+    "per_seed_exact_shared_features": true,
+    "features": [
+      "objects[3,512]",
+      "global_context[512]",
+      "availability[3]"
+    ],
+    "normalization": "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/configs/normalization.json",
+    "do_not_load_into_new_recurrence": [
+      "old GRU",
+      "old posterior/prior",
+      "old symbol/outcome heads",
+      "old optimizer"
+    ],
+    "extra_ground_truth_input": false,
+    "inherited_privileged_localization": "Renderer visible instance masks; RGB-majority identity route; numeric uid only cache lookup, never neural input."
+  },
+  "shared_trainable_initialization": [
+    "Interface.action/verb",
+    "Interface.bind_object/bind_null",
+    "Interface.object_head/scene_head/event_head/success_head"
+  ],
+  "recurrence_init": "PyTorch default random initialization at fixed per-seed RNG; incompatible matrices are not elementwise identical. No pretrained recurrent weights or optimizer states.",
+  "training": {
+    "updates_each": 1500,
+    "fits": 4,
+    "total_updates": 6000,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "weight_decay": 0.0001,
+    "microbatch_old": 4,
+    "microbatch_new": 4,
+    "accumulation": 2,
+    "effective_batch": 16,
+    "clip_global_norm": 1.0,
+    "dtype": "BF16 AMP, losses FP32",
+    "dropout": 0.0,
+    "DINO_and_E_frozen": true,
+    "all_new_trainable_modules_joint_gradients": true,
+    "loss": "Lcurrent + 0.5*(Lprior + Lmulti3 + Lterminal_from_h2 + Loutcome). No KL or reconstruction in either arm.",
+    "checkpoints": [
+      500,
+      1000,
+      1500
+    ],
+    "primary_checkpoint": 1500,
+    "development_selection": "None. Fixed1500 primary; intermediate snapshots describe fit only; thresholds0.5 unchanged.",
+    "schedules": [
+      {
+        "seed": 0,
+        "updates": 1500,
+        "old_episode_draws": 12000,
+        "new_episode_draws": 12000,
+        "new_pair_draws": 6000,
+        "all54_training_roles_exposed": true,
+        "same_schedule_both_arms": true,
+        "schedule_sha256": "1306f840f16931c6eec48c73cca3e999764246da33501ca10f40d906dfc33ca7"
+      },
+      {
+        "seed": 1,
+        "updates": 1500,
+        "old_episode_draws": 12000,
+        "new_episode_draws": 12000,
+        "new_pair_draws": 6000,
+        "all54_training_roles_exposed": true,
+        "same_schedule_both_arms": true,
+        "schedule_sha256": "4f3d9b64ede43d3809337fbe81f187d708242b605eef64d08815777e64456f18"
+      }
+    ]
+  },
+  "evaluation": {
+    "role_historical_main_families": 8,
+    "old_historical_roots": 10,
+    "historical_not_new_blind_test": true,
+    "infer_after_all_four_models_frozen": true,
+    "new_CD_samples": 0,
+    "primary": "Both normal and disturbed current h2 plus pure imagined h3-h5 complete Held3/InDrawer3/drawer, all assigned roles retained, family macro.",
+    "first_fit_gate": "Both arms/seeds: role12 family-macro joint3_actual,h0full,normalwhole each>=0.90; old40 root-macro h0full and original b0 whole trajectory each>=0.90. Any failure is budget-limited fitting, not architecture refutation.",
+    "continuation_gate": "Both seeds historical main difference>0 and seed-mean paired8-family95% lower>0; no decline of h0full/normalwhole/H-In correctness, no increase in stable trueIn prior-correct/posterior-wrong rate in either seed. Report moved-positive recall/FPR and relation-change support; insufficient support limits claim.",
+    "CI": "2000 paired family bootstrap, seedwise and seed-mean; exploratory because these families were previously examined.",
+    "cross_object_support": {
+      "train_nontarget_moved": 281,
+      "development_nontarget_moved": 115,
+      "all_moved_positives_in_open_close_drawer": true,
+      "train_nontarget_location_category_changes": 1,
+      "development_nontarget_location_category_changes": 0,
+      "claim_limit": "Container-object movement coupling and stable relations; no evidence for general object-object symbolic relation changes."
+    }
+  },
+  "resource_plan_minutes": {
+    "source_and_route_preflight": 8,
+    "frozen_feature_extraction": 4,
+    "four_fixed_fits": 22,
+    "frozen_evaluation": 8,
+    "analysis_sealing": 8,
+    "reserve": 10
+  },
+  "hard_wall_limit_minutes": 60,
+  "training_must_complete_by_minute": 45,
+  "stop_policy": "No collection, additional seeds, threshold/loss changes, or automatic extension. Any route mismatch/leak/nonfinite stops. If fixed fits unfinished at45min, save partial and report infeasibility rather than compare unequal training. Stop all work safely by60min. If gates fail, conclude this attempt and do not retry variants. New formal test needs separate authorization.",
+  "current_execution": {
+    "training_updates": 0,
+    "simulator_calls": 0,
+    "new_collection": 0,
+    "uploads": 0
+  },
+  "initialization_seeds": [
+    {
+      "model_seed": 0,
+      "shared_interface_torch_seed": 2610207000,
+      "each_arm_recurrence_torch_seed": 2610207100
+    },
+    {
+      "model_seed": 1,
+      "shared_interface_torch_seed": 2610207001,
+      "each_arm_recurrence_torch_seed": 2610207101
+    }
+  ]
+}

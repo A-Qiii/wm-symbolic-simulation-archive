@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-16T13:00:06.600975+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/collect.py": "8acf44ed1711d37e3f10e2336ff0526b5850e40162b59274d4f8d21222db979a",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/config.py": "65572b59ca09f8b09cfce164b8377ae6a5cf93f6dc85ff943afcaa0a766d5072",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/setup.py": "a4d0edf05f867200b8434dc8d7f816e9be7e3db343758a9b889559bc715da204",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/protocol.json": "41de791db311ab49a46b9f3c234b45929150eac1ba35b1e217d952e47bb27888",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/configs/roots.json": "41ceda1a74500810a4f3c55f63df1e2429e8d7e289e40b6aa1fc8ebe84101674",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0"
+  }
+}

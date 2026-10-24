@@ -1,0 +1,175 @@
+{
+  "name": "RSSM direct future-loss gradient routing into observation encoder",
+  "scope": "Known six-skill exploratory mechanism comparison on repeatedly used C. Not independent transfer, pure RGB, open-world, HULC validation or completion of the original guide.",
+  "data": {
+    "source": "core1200_v1/core_ownership_v2",
+    "train_roots": 60,
+    "train_episodes": 180,
+    "train_transitions": 720,
+    "dev_roots": 20,
+    "dev_episodes": 60,
+    "dev_transitions": 240,
+    "dev_original_roles": {
+      "tune_roots": 12,
+      "tune_transitions": 144,
+      "calibration_roots": 8,
+      "calibration_transitions": 96
+    },
+    "D_access": "none except index/manifest registration metadata",
+    "fresh_collection": 0,
+    "support_stratum": "No instantaneous bilateral+table-supported endpoints among inspected AB/C records; denominator unavailable, never report zero FPR.",
+    "input": "Original4-frame dual-camera frozenDINO/visible-segmentation-assisted ROI and coarse tokens, public robot15. Depth/hidden poses/contact/labels not model arguments. The same existing cache in both arms.",
+    "known_contamination": "All C roots previously used for development; original8 calibration roots subsequently in interaction-model development. All22 C four-request sequences also occur inAB. Old D is not a new blind test."
+  },
+  "architecture": {
+    "class": "wm_symbolic.world_model.WorldModel(skill_count=6,event_count=3)",
+    "parameters": 11513563,
+    "E_prefixes": [
+      "vision",
+      "geometry",
+      "robot_token",
+      "spatial",
+      "observation"
+    ],
+    "E_parameters": 2080768,
+    "R_parameters": 9432795,
+    "backbone": "DINO frozen and already cached; no backbone loaded during fitting"
+  },
+  "arms": [
+    "joint",
+    "route_current_only"
+  ],
+  "gradient": {
+    "Ltotal": "obs+sym+0.5*kl+0.5*out+0.5*multi exactly original scalar arithmetic",
+    "Lcurrent": "obs+0.5*mean(current_posterior_symbol_loss)",
+    "Lfuture": "0.5*mean(next_prior_symbol_loss)+0.5*kl+0.5*out+0.5*multi",
+    "joint": "E andR receive full loss gradients",
+    "route_current_only": "E receives only Lcurrent gradients; allR receives full loss gradients. KL0.8/0.2 stop-gradient targets unchanged. Do not detach whole latent or remove objective.",
+    "implementation": "autograd.grad full loss wrt encoded observation tensor+allR; separate autograd.grad Lcurrent wrt encoded tensor; route selected incoming gradient through encoder once. Both arms calculate both paths.",
+    "clipping": "E andR separately clipped at norm1 in both arms, after2microbatch accumulation. Explicit common change from old global norm1 prevents R/future gradient magnitude scaling the current-only E update. AdamW otherwise unchanged.",
+    "residual_coupling": "Control still learns dynamics inR. Evolution ofR indirectly changes later current losses/E updates. No claim that encoder receives no influence of dynamics whatsoever. Pre-mask global clipping was rejected because it would also transmit future-loss magnitude directly into E scaling."
+  },
+  "training": {
+    "seeds": [
+      0,
+      1
+    ],
+    "initialization": "fresh paired random initial weights per seed; do not warmstart from future-trained checkpoints",
+    "fits": 4,
+    "updates_each": 6000,
+    "microbatch": 8,
+    "accumulation": 2,
+    "data_order": "Original batch_indices using independent numpy.default_rng(seed), materialized6000x2x8 and shared acrossarms",
+    "latent_randomness": "Saved seed per microbatch seed261019000+seed*20000+update_index*2+microbatch. Reset CUDA/CPU torch RNG before forward, identical arms; draws/results can differ as probabilities diverge. Original multinomial sampler unchanged.",
+    "optimizer": {
+      "name": "AdamW",
+      "lr_peak": 0.0003,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.0001,
+      "schedule": "original1000 linear warmup then cosine to0.00003"
+    },
+    "precision": "original BF16autocast and float32 master parameters; deterministic algorithms, CUBLAS workspace4096:8; high float32matmul precision shared",
+    "multi_step": "k0 throughupdate5000;k3 updates5001..6000;step_valid excludes padding",
+    "checkpoint": "final6000 only; progress checkpoints1000..6000 for recovery only, noCselection",
+    "normalization": "Copy original train-only core normalization, verify60trainroots; noCfit",
+    "no_earlystop_or_tuning": true
+  },
+  "linear_probe": {
+    "scope": "Known-label accessibility of frozenE, not unseen-relation transfer",
+    "input": "512D encode output, each arm train-only per-channel normalization stdfloor0.0001",
+    "head": "single Linear512->32 for original3x8 object classes,drawer3,slider3,lights2",
+    "seeds": "same associated main seed;paired initialization seed261019600+seed",
+    "updates": 600,
+    "batch": 32,
+    "sampling": "uniform train root then uniform of its15boundaryrecords; materialize one shared schedule perseed",
+    "optimizer": "AdamW lr0.001 weight_decay0.001, gradientclip1; fixedfinal600",
+    "loss": "original masked symbol_nll with same train-only classweights; all valid original labels; no extra or future labels",
+    "train_records": 900,
+    "dev_records": 300,
+    "C_selection": false
+  },
+  "evaluation": {
+    "modes": [
+      "current",
+      "one_step",
+      "persistence",
+      "wrong_action",
+      "free1",
+      "free3",
+      "free4"
+    ],
+    "primary": "C20 root-macro mean unweighted categoricalNLL over3objects+drawer atfree3; paired joint-minus-control delta perseed. FrozenE probe same4field currentNLL checks shared information. Report all other fields separately.",
+    "one_step_requests": 240,
+    "rootstart_three_requested": 60,
+    "rootstart_three_all_actuated": 19,
+    "five_step": "not available; no splicing",
+    "latent_samples": 8,
+    "randomness": "fixed seed81831 at start of each arm/seed evaluation; common random draws for correct/wrong action; save predictions once",
+    "wrong_action_mapping": [
+      1,
+      4,
+      5,
+      0,
+      2,
+      3
+    ],
+    "strata": [
+      "allC",
+      "originalCtune",
+      "originalCcalibration",
+      "nonzero_control",
+      "zero_control",
+      "executor_success",
+      "executed_failure",
+      "actual_changed",
+      "actual_unchanged",
+      "skill",
+      "color",
+      "rootstart3_all_actuated"
+    ],
+    "metrics": [
+      "categoricalaccuracy",
+      "NLL",
+      "Holding_precision_recall_BA",
+      "In_precision_recall_BA",
+      "drawer_open_precision_recall_BA",
+      "all_fields_exact",
+      "eventNLL"
+    ],
+    "threshold": "0.5 for derivedbinary marginal;categoricalargmax;noCcalibration",
+    "bootstrap": {
+      "unit": "entireCroot, allownedbranches/boundaries together",
+      "replicates": 2000,
+      "seed": 261019900,
+      "report_seeds_separately": true,
+      "undefined": "null"
+    },
+    "interpretation": "Intervals and bothseed consistency; no perfection gate. Improvement in rollout alone is not sufficient evidence that E information improved. No unique attribution to semantic-free interaction or causal effects.",
+    "splits": [
+      "train",
+      "dev"
+    ],
+    "train_dev_gap": "Same saved model/probe evaluated onAB and seenC; root-weightedgap, not independent transfer. Scaling and heldoutcomposition designs are report-only; no extra fits."
+  },
+  "collapse": {
+    "sources": "frozenE acrossroots and posterior categorical probability distributions on real observations; stochastic sample noise not treatedas betweenstate diversity",
+    "metrics": [
+      "E_perdimension_std",
+      "E_covariance_effective_rank",
+      "posterior_mean_conditional_entropy",
+      "posterior_marginal_entropy",
+      "posterior_entropy_gap",
+      "posterior_argmax_category_usage",
+      "deterministic_h_betweenstate_std",
+      "observation_and_action_sensitivity",
+      "persistence_comparison"
+    ],
+    "claim_limit": "Nonzero variance or KL near the1nat freefloor alone does not rule out collapse."
+  },
+  "preflight": "Originalscalar and terms match fork atsamebatch/weights/RNG;decomposition;fullRgradient equality;currentE nonzero; routedE equals current-onlyautograd; futureEgradient nonzero before exclusion; bothclippedR equal; Eclipping independent of R magnitude; no future input leakage; counts exact. No optimizer update in preflight.",
+  "guard": "Historical data/checkpoints/source read-only; traincannotopenCsample; noDsample anywhere; isolatednew experiment/reportwrites; singleGPUflock; no162 execution, collection, localizer, restore debugging or SupCon.",
+  "methodology_change_policy": "Repair reversible implementation/runtime defects with logs. Any change to valid comparison must be reported before rerunning. No silent protocol changes."
+}

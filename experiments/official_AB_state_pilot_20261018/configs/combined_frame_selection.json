@@ -1,0 +1,1432 @@
+{
+  "utc": "2026-10-18T06:36:04.106615+00:00",
+  "before_new_frame_download_and_any_restoration_or_label_inspection": true,
+  "original_proposal": "8 uniformly spaced anchors plus successors per episode",
+  "initial_change": "Initial retrieval script selected16 consecutive frames to inspect technical reconstruction and contact temporal continuity, interpreting the requested short fragments; this change was not recorded in the proposal before execution. Original continuous clips preserved.",
+  "authorized_correction": "Parent explicitly requested restore uniform8-anchor+successor set in addition, same4 episodes, <=128 unique frames, <=512MiB total, no label-based selection.",
+  "seed": 170818,
+  "uniform_rule": "floor of linspace(start,end-1,8) within each original official episode; include each immediate successor; deduplicate",
+  "roots": [
+    {
+      "scene": "A",
+      "official_episode_index": 146,
+      "official_episode_inclusive": [
+        1785231,
+        1795044
+      ],
+      "clip_inclusive": [
+        1793606,
+        1793621
+      ],
+      "frame_ids": [
+        1785231,
+        1785232,
+        1786632,
+        1786633,
+        1788034,
+        1788035,
+        1789436,
+        1789437,
+        1790837,
+        1790838,
+        1792239,
+        1792240,
+        1793606,
+        1793607,
+        1793608,
+        1793609,
+        1793610,
+        1793611,
+        1793612,
+        1793613,
+        1793614,
+        1793615,
+        1793616,
+        1793617,
+        1793618,
+        1793619,
+        1793620,
+        1793621,
+        1793641,
+        1793642,
+        1795043,
+        1795044
+      ],
+      "root_id": "official_ABC_A_episode_0146",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true,
+      "continuous_frame_ids": [
+        1793606,
+        1793607,
+        1793608,
+        1793609,
+        1793610,
+        1793611,
+        1793612,
+        1793613,
+        1793614,
+        1793615,
+        1793616,
+        1793617,
+        1793618,
+        1793619,
+        1793620,
+        1793621
+      ],
+      "coverage_anchor_ids": [
+        1785231,
+        1786632,
+        1788034,
+        1789436,
+        1790837,
+        1792239,
+        1793641,
+        1795043
+      ],
+      "coverage_frame_ids": [
+        1785231,
+        1785232,
+        1786632,
+        1786633,
+        1788034,
+        1788035,
+        1789436,
+        1789437,
+        1790837,
+        1790838,
+        1792239,
+        1792240,
+        1793641,
+        1793642,
+        1795043,
+        1795044
+      ],
+      "frame_roles": {
+        "1786632": [
+          "uniform_coverage"
+        ],
+        "1788034": [
+          "uniform_coverage"
+        ],
+        "1788035": [
+          "uniform_coverage"
+        ],
+        "1793606": [
+          "continuous_restoration"
+        ],
+        "1793607": [
+          "continuous_restoration"
+        ],
+        "1793608": [
+          "continuous_restoration"
+        ],
+        "1793609": [
+          "continuous_restoration"
+        ],
+        "1793610": [
+          "continuous_restoration"
+        ],
+        "1793611": [
+          "continuous_restoration"
+        ],
+        "1793612": [
+          "continuous_restoration"
+        ],
+        "1793613": [
+          "continuous_restoration"
+        ],
+        "1793614": [
+          "continuous_restoration"
+        ],
+        "1793615": [
+          "continuous_restoration"
+        ],
+        "1793616": [
+          "continuous_restoration"
+        ],
+        "1793617": [
+          "continuous_restoration"
+        ],
+        "1793618": [
+          "continuous_restoration"
+        ],
+        "1793619": [
+          "continuous_restoration"
+        ],
+        "1793620": [
+          "continuous_restoration"
+        ],
+        "1793621": [
+          "continuous_restoration"
+        ],
+        "1785231": [
+          "uniform_coverage"
+        ],
+        "1785232": [
+          "uniform_coverage"
+        ],
+        "1795043": [
+          "uniform_coverage"
+        ],
+        "1795044": [
+          "uniform_coverage"
+        ],
+        "1793641": [
+          "uniform_coverage"
+        ],
+        "1793642": [
+          "uniform_coverage"
+        ],
+        "1786633": [
+          "uniform_coverage"
+        ],
+        "1792239": [
+          "uniform_coverage"
+        ],
+        "1792240": [
+          "uniform_coverage"
+        ],
+        "1790837": [
+          "uniform_coverage"
+        ],
+        "1790838": [
+          "uniform_coverage"
+        ],
+        "1789436": [
+          "uniform_coverage"
+        ],
+        "1789437": [
+          "uniform_coverage"
+        ]
+      }
+    },
+    {
+      "scene": "A",
+      "official_episode_index": 109,
+      "official_episode_inclusive": [
+        1233060,
+        1248612
+      ],
+      "clip_inclusive": [
+        1244236,
+        1244251
+      ],
+      "frame_ids": [
+        1233060,
+        1233061,
+        1235281,
+        1235282,
+        1237503,
+        1237504,
+        1239724,
+        1239725,
+        1241946,
+        1241947,
+        1244167,
+        1244168,
+        1244236,
+        1244237,
+        1244238,
+        1244239,
+        1244240,
+        1244241,
+        1244242,
+        1244243,
+        1244244,
+        1244245,
+        1244246,
+        1244247,
+        1244248,
+        1244249,
+        1244250,
+        1244251,
+        1246389,
+        1246390,
+        1248611,
+        1248612
+      ],
+      "root_id": "official_ABC_A_episode_0109",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true,
+      "continuous_frame_ids": [
+        1244236,
+        1244237,
+        1244238,
+        1244239,
+        1244240,
+        1244241,
+        1244242,
+        1244243,
+        1244244,
+        1244245,
+        1244246,
+        1244247,
+        1244248,
+        1244249,
+        1244250,
+        1244251
+      ],
+      "coverage_anchor_ids": [
+        1233060,
+        1235281,
+        1237503,
+        1239724,
+        1241946,
+        1244167,
+        1246389,
+        1248611
+      ],
+      "coverage_frame_ids": [
+        1233060,
+        1233061,
+        1235281,
+        1235282,
+        1237503,
+        1237504,
+        1239724,
+        1239725,
+        1241946,
+        1241947,
+        1244167,
+        1244168,
+        1246389,
+        1246390,
+        1248611,
+        1248612
+      ],
+      "frame_roles": {
+        "1237504": [
+          "uniform_coverage"
+        ],
+        "1244167": [
+          "uniform_coverage"
+        ],
+        "1244168": [
+          "uniform_coverage"
+        ],
+        "1244236": [
+          "continuous_restoration"
+        ],
+        "1244237": [
+          "continuous_restoration"
+        ],
+        "1244238": [
+          "continuous_restoration"
+        ],
+        "1244239": [
+          "continuous_restoration"
+        ],
+        "1244240": [
+          "continuous_restoration"
+        ],
+        "1244241": [
+          "continuous_restoration"
+        ],
+        "1244242": [
+          "continuous_restoration"
+        ],
+        "1244243": [
+          "continuous_restoration"
+        ],
+        "1244244": [
+          "continuous_restoration"
+        ],
+        "1244245": [
+          "continuous_restoration"
+        ],
+        "1244246": [
+          "continuous_restoration"
+        ],
+        "1244247": [
+          "continuous_restoration"
+        ],
+        "1244248": [
+          "continuous_restoration"
+        ],
+        "1244249": [
+          "continuous_restoration"
+        ],
+        "1244250": [
+          "continuous_restoration"
+        ],
+        "1244251": [
+          "continuous_restoration"
+        ],
+        "1241946": [
+          "uniform_coverage"
+        ],
+        "1241947": [
+          "uniform_coverage"
+        ],
+        "1235281": [
+          "uniform_coverage"
+        ],
+        "1248611": [
+          "uniform_coverage"
+        ],
+        "1233060": [
+          "uniform_coverage"
+        ],
+        "1233061": [
+          "uniform_coverage"
+        ],
+        "1248612": [
+          "uniform_coverage"
+        ],
+        "1235282": [
+          "uniform_coverage"
+        ],
+        "1239724": [
+          "uniform_coverage"
+        ],
+        "1239725": [
+          "uniform_coverage"
+        ],
+        "1246389": [
+          "uniform_coverage"
+        ],
+        "1246390": [
+          "uniform_coverage"
+        ],
+        "1237503": [
+          "uniform_coverage"
+        ]
+      }
+    },
+    {
+      "scene": "B",
+      "official_episode_index": 52,
+      "official_episode_inclusive": [
+        301603,
+        322957
+      ],
+      "clip_inclusive": [
+        317038,
+        317053
+      ],
+      "frame_ids": [
+        301603,
+        301604,
+        304653,
+        304654,
+        307703,
+        307704,
+        310754,
+        310755,
+        313804,
+        313805,
+        316855,
+        316856,
+        317038,
+        317039,
+        317040,
+        317041,
+        317042,
+        317043,
+        317044,
+        317045,
+        317046,
+        317047,
+        317048,
+        317049,
+        317050,
+        317051,
+        317052,
+        317053,
+        319905,
+        319906,
+        322956,
+        322957
+      ],
+      "root_id": "official_ABC_B_episode_0052",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true,
+      "continuous_frame_ids": [
+        317038,
+        317039,
+        317040,
+        317041,
+        317042,
+        317043,
+        317044,
+        317045,
+        317046,
+        317047,
+        317048,
+        317049,
+        317050,
+        317051,
+        317052,
+        317053
+      ],
+      "coverage_anchor_ids": [
+        301603,
+        304653,
+        307703,
+        310754,
+        313804,
+        316855,
+        319905,
+        322956
+      ],
+      "coverage_frame_ids": [
+        301603,
+        301604,
+        304653,
+        304654,
+        307703,
+        307704,
+        310754,
+        310755,
+        313804,
+        313805,
+        316855,
+        316856,
+        319905,
+        319906,
+        322956,
+        322957
+      ],
+      "frame_roles": {
+        "316855": [
+          "uniform_coverage"
+        ],
+        "316856": [
+          "uniform_coverage"
+        ],
+        "313804": [
+          "uniform_coverage"
+        ],
+        "304653": [
+          "uniform_coverage"
+        ],
+        "304654": [
+          "uniform_coverage"
+        ],
+        "313805": [
+          "uniform_coverage"
+        ],
+        "322956": [
+          "uniform_coverage"
+        ],
+        "322957": [
+          "uniform_coverage"
+        ],
+        "319905": [
+          "uniform_coverage"
+        ],
+        "310754": [
+          "uniform_coverage"
+        ],
+        "301603": [
+          "uniform_coverage"
+        ],
+        "301604": [
+          "uniform_coverage"
+        ],
+        "310755": [
+          "uniform_coverage"
+        ],
+        "319906": [
+          "uniform_coverage"
+        ],
+        "307703": [
+          "uniform_coverage"
+        ],
+        "307704": [
+          "uniform_coverage"
+        ],
+        "317038": [
+          "continuous_restoration"
+        ],
+        "317039": [
+          "continuous_restoration"
+        ],
+        "317040": [
+          "continuous_restoration"
+        ],
+        "317041": [
+          "continuous_restoration"
+        ],
+        "317042": [
+          "continuous_restoration"
+        ],
+        "317043": [
+          "continuous_restoration"
+        ],
+        "317044": [
+          "continuous_restoration"
+        ],
+        "317045": [
+          "continuous_restoration"
+        ],
+        "317046": [
+          "continuous_restoration"
+        ],
+        "317047": [
+          "continuous_restoration"
+        ],
+        "317048": [
+          "continuous_restoration"
+        ],
+        "317049": [
+          "continuous_restoration"
+        ],
+        "317050": [
+          "continuous_restoration"
+        ],
+        "317051": [
+          "continuous_restoration"
+        ],
+        "317052": [
+          "continuous_restoration"
+        ],
+        "317053": [
+          "continuous_restoration"
+        ]
+      }
+    },
+    {
+      "scene": "B",
+      "official_episode_index": 16,
+      "official_episode_inclusive": [
+        72876,
+        74330
+      ],
+      "clip_inclusive": [
+        74131,
+        74146
+      ],
+      "frame_ids": [
+        72876,
+        72877,
+        73083,
+        73084,
+        73291,
+        73292,
+        73498,
+        73499,
+        73706,
+        73707,
+        73913,
+        73914,
+        74121,
+        74122,
+        74131,
+        74132,
+        74133,
+        74134,
+        74135,
+        74136,
+        74137,
+        74138,
+        74139,
+        74140,
+        74141,
+        74142,
+        74143,
+        74144,
+        74145,
+        74146,
+        74329,
+        74330
+      ],
+      "root_id": "official_ABC_B_episode_0016",
+      "role": "quarantine_state_label_quality_only",
+      "sampled_before_reading_frames": true,
+      "continuous_frame_ids": [
+        74131,
+        74132,
+        74133,
+        74134,
+        74135,
+        74136,
+        74137,
+        74138,
+        74139,
+        74140,
+        74141,
+        74142,
+        74143,
+        74144,
+        74145,
+        74146
+      ],
+      "coverage_anchor_ids": [
+        72876,
+        73083,
+        73291,
+        73498,
+        73706,
+        73913,
+        74121,
+        74329
+      ],
+      "coverage_frame_ids": [
+        72876,
+        72877,
+        73083,
+        73084,
+        73291,
+        73292,
+        73498,
+        73499,
+        73706,
+        73707,
+        73913,
+        73914,
+        74121,
+        74122,
+        74329,
+        74330
+      ],
+      "frame_roles": {
+        "74121": [
+          "uniform_coverage"
+        ],
+        "74122": [
+          "uniform_coverage"
+        ],
+        "73291": [
+          "uniform_coverage"
+        ],
+        "73292": [
+          "uniform_coverage"
+        ],
+        "74329": [
+          "uniform_coverage"
+        ],
+        "74131": [
+          "continuous_restoration"
+        ],
+        "74132": [
+          "continuous_restoration"
+        ],
+        "74133": [
+          "continuous_restoration"
+        ],
+        "74134": [
+          "continuous_restoration"
+        ],
+        "74135": [
+          "continuous_restoration"
+        ],
+        "74136": [
+          "continuous_restoration"
+        ],
+        "74137": [
+          "continuous_restoration"
+        ],
+        "74138": [
+          "continuous_restoration"
+        ],
+        "74139": [
+          "continuous_restoration"
+        ],
+        "74140": [
+          "continuous_restoration"
+        ],
+        "74141": [
+          "continuous_restoration"
+        ],
+        "74142": [
+          "continuous_restoration"
+        ],
+        "74143": [
+          "continuous_restoration"
+        ],
+        "74144": [
+          "continuous_restoration"
+        ],
+        "74145": [
+          "continuous_restoration"
+        ],
+        "74146": [
+          "continuous_restoration"
+        ],
+        "73499": [
+          "uniform_coverage"
+        ],
+        "73083": [
+          "uniform_coverage"
+        ],
+        "73706": [
+          "uniform_coverage"
+        ],
+        "73707": [
+          "uniform_coverage"
+        ],
+        "72876": [
+          "uniform_coverage"
+        ],
+        "72877": [
+          "uniform_coverage"
+        ],
+        "74330": [
+          "uniform_coverage"
+        ],
+        "73913": [
+          "uniform_coverage"
+        ],
+        "73914": [
+          "uniform_coverage"
+        ],
+        "73498": [
+          "uniform_coverage"
+        ],
+        "73084": [
+          "uniform_coverage"
+        ]
+      }
+    }
+  ],
+  "additional_members": [
+    {
+      "name": "task_ABC_D/training/episode_0072876.npz",
+      "compressed_size": 260419,
+      "uncompressed_size": 262771,
+      "offset": 21634491422,
+      "crc32": 800132390,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 72876
+    },
+    {
+      "name": "task_ABC_D/training/episode_0072877.npz",
+      "compressed_size": 260234,
+      "uncompressed_size": 262548,
+      "offset": 21634751938,
+      "crc32": 3571558252,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 72877
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073083.npz",
+      "compressed_size": 253848,
+      "uncompressed_size": 256106,
+      "offset": 21693453594,
+      "crc32": 2213718143,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73083
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073084.npz",
+      "compressed_size": 253326,
+      "uncompressed_size": 255622,
+      "offset": 21693707539,
+      "crc32": 1964942849,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73084
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073291.npz",
+      "compressed_size": 272892,
+      "uncompressed_size": 274131,
+      "offset": 21749678945,
+      "crc32": 3161672741,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73291
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073292.npz",
+      "compressed_size": 271927,
+      "uncompressed_size": 273345,
+      "offset": 21749951934,
+      "crc32": 1708303130,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73292
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073498.npz",
+      "compressed_size": 269267,
+      "uncompressed_size": 270635,
+      "offset": 21810809725,
+      "crc32": 1925704042,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73498
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073499.npz",
+      "compressed_size": 268719,
+      "uncompressed_size": 270226,
+      "offset": 21811079089,
+      "crc32": 4291927046,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73499
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073706.npz",
+      "compressed_size": 360748,
+      "uncompressed_size": 362020,
+      "offset": 21868454436,
+      "crc32": 827673611,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73706
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073707.npz",
+      "compressed_size": 361401,
+      "uncompressed_size": 362600,
+      "offset": 21868815281,
+      "crc32": 2408567905,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73707
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073913.npz",
+      "compressed_size": 273066,
+      "uncompressed_size": 274288,
+      "offset": 21934171997,
+      "crc32": 3265010853,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73913
+    },
+    {
+      "name": "task_ABC_D/training/episode_0073914.npz",
+      "compressed_size": 272990,
+      "uncompressed_size": 274268,
+      "offset": 21934445160,
+      "crc32": 3780332097,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 73914
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074121.npz",
+      "compressed_size": 411249,
+      "uncompressed_size": 412595,
+      "offset": 21991675313,
+      "crc32": 2185882764,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74121
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074122.npz",
+      "compressed_size": 411615,
+      "uncompressed_size": 412855,
+      "offset": 21992086659,
+      "crc32": 3223158966,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74122
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074329.npz",
+      "compressed_size": 274968,
+      "uncompressed_size": 276446,
+      "offset": 22053652183,
+      "crc32": 1877198097,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74329
+    },
+    {
+      "name": "task_ABC_D/training/episode_0074330.npz",
+      "compressed_size": 275066,
+      "uncompressed_size": 276464,
+      "offset": 22053927248,
+      "crc32": 581560954,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 74330
+    },
+    {
+      "name": "task_ABC_D/training/episode_0301603.npz",
+      "compressed_size": 258422,
+      "uncompressed_size": 260610,
+      "offset": 104187070824,
+      "crc32": 611591886,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 301603
+    },
+    {
+      "name": "task_ABC_D/training/episode_0301604.npz",
+      "compressed_size": 254412,
+      "uncompressed_size": 256968,
+      "offset": 104187329343,
+      "crc32": 2826516515,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 301604
+    },
+    {
+      "name": "task_ABC_D/training/episode_0304653.npz",
+      "compressed_size": 258368,
+      "uncompressed_size": 260511,
+      "offset": 105072116792,
+      "crc32": 3532587764,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 304653
+    },
+    {
+      "name": "task_ABC_D/training/episode_0304654.npz",
+      "compressed_size": 258339,
+      "uncompressed_size": 260461,
+      "offset": 105072375257,
+      "crc32": 3562975112,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 304654
+    },
+    {
+      "name": "task_ABC_D/training/episode_0307703.npz",
+      "compressed_size": 257228,
+      "uncompressed_size": 259119,
+      "offset": 105946578220,
+      "crc32": 1785988311,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 307703
+    },
+    {
+      "name": "task_ABC_D/training/episode_0307704.npz",
+      "compressed_size": 259462,
+      "uncompressed_size": 261016,
+      "offset": 105946835545,
+      "crc32": 1138512386,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 307704
+    },
+    {
+      "name": "task_ABC_D/training/episode_0310754.npz",
+      "compressed_size": 265960,
+      "uncompressed_size": 267768,
+      "offset": 106845857605,
+      "crc32": 1742336413,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 310754
+    },
+    {
+      "name": "task_ABC_D/training/episode_0310755.npz",
+      "compressed_size": 267727,
+      "uncompressed_size": 269270,
+      "offset": 106846123662,
+      "crc32": 2687870214,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 310755
+    },
+    {
+      "name": "task_ABC_D/training/episode_0313804.npz",
+      "compressed_size": 398277,
+      "uncompressed_size": 400328,
+      "offset": 107715742692,
+      "crc32": 2661970725,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 313804
+    },
+    {
+      "name": "task_ABC_D/training/episode_0313805.npz",
+      "compressed_size": 397365,
+      "uncompressed_size": 399438,
+      "offset": 107716141066,
+      "crc32": 2223131436,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 313805
+    },
+    {
+      "name": "task_ABC_D/training/episode_0316855.npz",
+      "compressed_size": 336347,
+      "uncompressed_size": 337695,
+      "offset": 108612476716,
+      "crc32": 1367747002,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 316855
+    },
+    {
+      "name": "task_ABC_D/training/episode_0316856.npz",
+      "compressed_size": 337201,
+      "uncompressed_size": 338496,
+      "offset": 108612813160,
+      "crc32": 3196350223,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 316856
+    },
+    {
+      "name": "task_ABC_D/training/episode_0319905.npz",
+      "compressed_size": 256942,
+      "uncompressed_size": 259081,
+      "offset": 109486865571,
+      "crc32": 897410937,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 319905
+    },
+    {
+      "name": "task_ABC_D/training/episode_0319906.npz",
+      "compressed_size": 255801,
+      "uncompressed_size": 258152,
+      "offset": 109487122610,
+      "crc32": 3908144539,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 319906
+    },
+    {
+      "name": "task_ABC_D/training/episode_0322956.npz",
+      "compressed_size": 272921,
+      "uncompressed_size": 274249,
+      "offset": 110350643547,
+      "crc32": 970343838,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 322956
+    },
+    {
+      "name": "task_ABC_D/training/episode_0322957.npz",
+      "compressed_size": 272767,
+      "uncompressed_size": 274152,
+      "offset": 110350916565,
+      "crc32": 3235200812,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 322957
+    },
+    {
+      "name": "task_ABC_D/training/episode_1248611.npz",
+      "compressed_size": 259157,
+      "uncompressed_size": 260483,
+      "offset": 361521445697,
+      "crc32": 1751515117,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1248611
+    },
+    {
+      "name": "task_ABC_D/training/episode_1248612.npz",
+      "compressed_size": 258837,
+      "uncompressed_size": 260239,
+      "offset": 361521704951,
+      "crc32": 3162102297,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1248612
+    },
+    {
+      "name": "task_ABC_D/training/episode_1246389.npz",
+      "compressed_size": 250340,
+      "uncompressed_size": 253047,
+      "offset": 362157686302,
+      "crc32": 2296368222,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1246389
+    },
+    {
+      "name": "task_ABC_D/training/episode_1246390.npz",
+      "compressed_size": 248995,
+      "uncompressed_size": 251834,
+      "offset": 362157936739,
+      "crc32": 3726221447,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1246390
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244167.npz",
+      "compressed_size": 260156,
+      "uncompressed_size": 261511,
+      "offset": 362816086351,
+      "crc32": 1428245368,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244167
+    },
+    {
+      "name": "task_ABC_D/training/episode_1244168.npz",
+      "compressed_size": 259928,
+      "uncompressed_size": 261312,
+      "offset": 362816346604,
+      "crc32": 1439889335,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1244168
+    },
+    {
+      "name": "task_ABC_D/training/episode_1241946.npz",
+      "compressed_size": 245844,
+      "uncompressed_size": 248040,
+      "offset": 363459724723,
+      "crc32": 684852227,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1241946
+    },
+    {
+      "name": "task_ABC_D/training/episode_1241947.npz",
+      "compressed_size": 246369,
+      "uncompressed_size": 248574,
+      "offset": 363459970664,
+      "crc32": 1934626592,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1241947
+    },
+    {
+      "name": "task_ABC_D/training/episode_1239724.npz",
+      "compressed_size": 253898,
+      "uncompressed_size": 255477,
+      "offset": 364090904738,
+      "crc32": 3758873491,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1239724
+    },
+    {
+      "name": "task_ABC_D/training/episode_1239725.npz",
+      "compressed_size": 254059,
+      "uncompressed_size": 255599,
+      "offset": 364091158733,
+      "crc32": 3721122512,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1239725
+    },
+    {
+      "name": "task_ABC_D/training/episode_1237503.npz",
+      "compressed_size": 262076,
+      "uncompressed_size": 263212,
+      "offset": 364730398419,
+      "crc32": 1759050005,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1237503
+    },
+    {
+      "name": "task_ABC_D/training/episode_1237504.npz",
+      "compressed_size": 261870,
+      "uncompressed_size": 263041,
+      "offset": 364730660592,
+      "crc32": 2611518478,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1237504
+    },
+    {
+      "name": "task_ABC_D/training/episode_1235281.npz",
+      "compressed_size": 260264,
+      "uncompressed_size": 261657,
+      "offset": 365390982544,
+      "crc32": 3073562859,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1235281
+    },
+    {
+      "name": "task_ABC_D/training/episode_1235282.npz",
+      "compressed_size": 258567,
+      "uncompressed_size": 260231,
+      "offset": 365391242905,
+      "crc32": 1471398908,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1235282
+    },
+    {
+      "name": "task_ABC_D/training/episode_1233060.npz",
+      "compressed_size": 248532,
+      "uncompressed_size": 250702,
+      "offset": 366030646544,
+      "crc32": 3879688525,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1233060
+    },
+    {
+      "name": "task_ABC_D/training/episode_1233061.npz",
+      "compressed_size": 248162,
+      "uncompressed_size": 250332,
+      "offset": 366030895173,
+      "crc32": 1041328914,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1233061
+    },
+    {
+      "name": "task_ABC_D/training/episode_1788034.npz",
+      "compressed_size": 257472,
+      "uncompressed_size": 259259,
+      "offset": 503144363680,
+      "crc32": 2203824298,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1788034
+    },
+    {
+      "name": "task_ABC_D/training/episode_1788035.npz",
+      "compressed_size": 259448,
+      "uncompressed_size": 260880,
+      "offset": 503144621249,
+      "crc32": 4230409713,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1788035
+    },
+    {
+      "name": "task_ABC_D/training/episode_1785231.npz",
+      "compressed_size": 251213,
+      "uncompressed_size": 253366,
+      "offset": 523510786266,
+      "crc32": 3271394960,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1785231
+    },
+    {
+      "name": "task_ABC_D/training/episode_1785232.npz",
+      "compressed_size": 251206,
+      "uncompressed_size": 253389,
+      "offset": 523511037576,
+      "crc32": 3626802946,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1785232
+    },
+    {
+      "name": "task_ABC_D/training/episode_1786632.npz",
+      "compressed_size": 381960,
+      "uncompressed_size": 383177,
+      "offset": 523917625914,
+      "crc32": 4007028691,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1786632
+    },
+    {
+      "name": "task_ABC_D/training/episode_1786633.npz",
+      "compressed_size": 382631,
+      "uncompressed_size": 383697,
+      "offset": 523918007971,
+      "crc32": 920081570,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1786633
+    },
+    {
+      "name": "task_ABC_D/training/episode_1789436.npz",
+      "compressed_size": 378528,
+      "uncompressed_size": 380298,
+      "offset": 524700811416,
+      "crc32": 1108664863,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1789436
+    },
+    {
+      "name": "task_ABC_D/training/episode_1789437.npz",
+      "compressed_size": 378378,
+      "uncompressed_size": 380149,
+      "offset": 524701190041,
+      "crc32": 774074238,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1789437
+    },
+    {
+      "name": "task_ABC_D/training/episode_1790837.npz",
+      "compressed_size": 399531,
+      "uncompressed_size": 400700,
+      "offset": 525116086728,
+      "crc32": 636464828,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1790837
+    },
+    {
+      "name": "task_ABC_D/training/episode_1790838.npz",
+      "compressed_size": 399414,
+      "uncompressed_size": 400624,
+      "offset": 525116486356,
+      "crc32": 293415846,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1790838
+    },
+    {
+      "name": "task_ABC_D/training/episode_1792239.npz",
+      "compressed_size": 390317,
+      "uncompressed_size": 391402,
+      "offset": 525527939309,
+      "crc32": 2064109360,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1792239
+    },
+    {
+      "name": "task_ABC_D/training/episode_1792240.npz",
+      "compressed_size": 391887,
+      "uncompressed_size": 393000,
+      "offset": 525528329723,
+      "crc32": 2426225487,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1792240
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793641.npz",
+      "compressed_size": 246377,
+      "uncompressed_size": 248456,
+      "offset": 525946148747,
+      "crc32": 2322239019,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793641
+    },
+    {
+      "name": "task_ABC_D/training/episode_1793642.npz",
+      "compressed_size": 246903,
+      "uncompressed_size": 248932,
+      "offset": 525946395221,
+      "crc32": 2409470876,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1793642
+    },
+    {
+      "name": "task_ABC_D/training/episode_1795043.npz",
+      "compressed_size": 242896,
+      "uncompressed_size": 245398,
+      "offset": 526351069617,
+      "crc32": 2196160576,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1795043
+    },
+    {
+      "name": "task_ABC_D/training/episode_1795044.npz",
+      "compressed_size": 243403,
+      "uncompressed_size": 245731,
+      "offset": 526351312610,
+      "crc32": 1795344375,
+      "method": 8,
+      "flags": 0,
+      "frame_id": 1795044
+    }
+  ],
+  "unique_frames": 128,
+  "additional_frames": 64,
+  "additional_compressed_bytes": 18537892,
+  "conservative_request_budget_bytes": 22734052,
+  "network_used_before_addition": 249674122,
+  "independent_units": 4,
+  "no_training": true
+}

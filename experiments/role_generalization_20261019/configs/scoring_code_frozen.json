@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T21:33:28.959662+00:00",
+  "before_model_fit_and_any_test_rollout": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/source/metrics.py": "136d2f0573ced4d512a62ebee3def8699514664bf0d3e95e8727ce0d0d7a3216",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/source/evaluate.py": "2e27ce0e530e245260069559d7fadf809d13353bdf51aab6b2fbd934f53edabe",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/source/audit_collection.py": "ad2f051ed5dfbfe3a962ea85f94981c788a5ac6c0f3cef2192a4877b6fa07bea",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/source/train_exact_exposure.py": "05012fb42b0be9e58fef6c6cc4a51c00cee8bf0bd526f35c68bc6b206720e4c7",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/source/verify_pretraining.py": "a41bcb049d4508e2b0bb3515c76029548639d7c6f9aadb7c29bae064f1af36fb"
+  }
+}

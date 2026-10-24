@@ -1,0 +1,31 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00217.npz": "82963790b6e2e27a8639da6087d6bf28a57d68a96317573e8762d8f70e9a43da",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00232.npz": "175b19df71a014efb1a0dff8c1d40080dd8b42ca189540bab7b2a68a529e974d",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00247.npz": "9b4b70fb72e8cd84e5d84e281743e493306710f4185adcf026664520051c7b45",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00262.npz": "61c97249fd5f7588cb8dbf6a78d8ae88a1967f234cd4ace1624a979a7dd6ecac",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00277.npz": "04f71c7c72efc1bcccde89bc92cbdc4d2f2ec924686d9fcaf2d582d04d4cc989",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00292.npz": "2319d948dba170d5f1c5115dae5ebd0247520cd8e84f823e4411f602960e3d1c",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00307.npz": "543a57ceaf91ff8ff27926b7c44386fe2ae15df2d816c26583820c7186c21d4a",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00322.npz": "b084c95ef410838db2d9a43962509d0100f4daf57c4cea987ca043061eba4bc9",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00337.npz": "7840c0acd8aa22efab0ceeefdcd694a0ddeea1a2ecdbb6c9b5b7d288e650c351",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00352.npz": "9fda6b0880ddf3fb9b62ecb5f52f8a9a995309222259a032ab809a541480076a",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00367.npz": "d5b8623de4f5ff47b5ef33793261c1ea31b294a2ac9a86c83ab7675b280644be",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00382.npz": "90131d1b5b6a15bb832369b267106f5c3c10de07e36ea536766530c7f16fa1ec",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00397.npz": "0b04b55f2f26df289466ad1ca1a74cf8bd13eac073ec1d21606db66079f82498",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00412.npz": "1ac1fddf90469900e4e39baa62e56890e12cf3037f1c0fd7a1a153de6c022d52",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00427.npz": "75cb76fbfd6a916caff8c5b68cba30e5535975b238bf9f2d1bc994247ac1584a",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/00442.npz": "5f182cf282d1caed16687f1434df529c0e3cc1079a435718601b6a05fc7ffd8f",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/01060.npz": "7514db72e9bde61b92a67ecd52e330294f8ebe8b716c414453820b288e7bbd73",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/01198.npz": "7f79350f00a25d0c0daa91321304794c8c3aa1ff167178ba8ee7406afdfa7be9",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/01281.npz": "40ce86ecf5623c38dbe549b7283cf967e04bc7d6660aaf3c464dbc23fbd3e9cf",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/data/public/observations/01404.npz": "49ef55a57e927d36413a52f24a19172fc9885ca832467cf0cd473359ae75d087",
+    "/home/robot/research/projects/wm_symbolic/README.md": "a6167c709af25588179457bdf45f8ad28316098163dfa2b68283a91087960080",
+    "/home/robot/research/projects/wm_symbolic/configs/protocol.json": "a0c7ee1bae6865c89f750241c7cd888356adfa3424a6c748354b12385b94cdb8",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/configs/delivery_manifest.json": "76d6544fe5ae91b3c7880763bd7e7441ef0381a96b7ab2fa0cebc7e8d4027aa7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/configs/delivery_manifest.json": "eacf21686aea5dc469f9a7802dd86546f2a585c6b2e37441bfafd15440c31bc1",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_edge_zero_context_control_20261018/configs/delivery_manifest.json": "bf372b6744f5e355e851dcc17cfdbbfd0e7efc8073d2cb01d9231433cf79e2a1",
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1"
+  },
+  "skills_checked": "executor catalog reviewed; no task-relevant box annotation skill or project AGENTS present; existing imagegen is for synthesis and not used to modify evidence"
+}

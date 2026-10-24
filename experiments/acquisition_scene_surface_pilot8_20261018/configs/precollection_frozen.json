@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-18T15:19:12.789519+00:00",
+  "before_first_pilot_render": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/configs/protocol.json": "005d83233953b5b8d63c7a493c8cc8a8f7baf784416db08acdee6bf1df111c3b",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/configs/audit_input_references.json": "9660c613d0b6c4913178b6a137c22a7ccd652d223c29900337f49d5cbc820d4c",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/configs/original_gate_and_lineage.json": "abf7202c9f9376c0716be75cc075d0ad4e2b99735e4d0095cc8472c6e0d4487d",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/configs/historical_exclusion.json": "641849376b1d2797b50ab4d97c7857667258836634ac9cb8c4cd540e1a9cd378",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/source/collect.py": "ce9c526304cc804732701ef7ada6ee499b97d893a758ec505868574a39f9a2de",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/source/common.py": "34e16fdce3035a7c410afddfdedb17b49629092808aff488a5ab59817d6f9515",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/source/audit_existing.py": "006b03964d086ddb1e1012eba5f01184cc4aaed18c3237c499c8f4331daa62f3",
+    "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/source/prepare.py": "699afd539b19d1702ecfb5535456a10125f4b4e09f5869dfa9d319824d9cced2"
+  }
+}

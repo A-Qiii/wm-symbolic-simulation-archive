@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-21T10:05:05.615934+00:00",
+  "scope": "Post hoc analysis requested after fixed evaluation. Existing saved predictions and logs only; no training, new data, thresholds or model changes. Test results descriptive only.",
+  "source_snapshot_sha256": "cfb229f2df8739775a34719cb50d92e64e245cc125ed2dd6d154f8ec8af3e8bc",
+  "endpoint3": "Free relative_step==3, all nonterminal origins with >=3 requests remaining. Joint Held3,In3,drawer at endpoint only. Exact original masks.",
+  "new_window3": "Same origins; separately all future1..3 joint valid/correct and all0..3 joint valid/correct; exclude invalid intervals explicitly.",
+  "six_step": "Only root origins0 of episodes length6, all0..6; old core length4 separately excluded, never padded as six. First eligible joint error; report interval validity.",
+  "first_error_components": "Initial separately. Later wrong Held/In on requested target=target error. Wrong non-target predicate with same before/afterGT=non-target stable error (positive/negative separately); changedGT non-target distinct. Wrong drawer distinct; preserve mixed category instead of priority attribution.",
+  "external": "Scan actual requested/applied gripper logs including old role, do not trust new-only prediction disturbance flag. Temporal relation to first error descriptive; verified paired identical inputs and divergentGT can prove unresolved external ambiguity at that boundary.",
+  "observed_prefix_diagnostic": "Read saved one_step and current posterior at free first-error step. Changes observation information; not exact GT latent-state reset or causal transition ablation. Development supports diagnosis, holdout description only.",
+  "sampling": "Recount saved old/new schedules for fragment draws and effective transitions, context/action coverage; observations do not identify effect of allocation without a new controlled comparison.",
+  "no_GPU_or_model_inference": true,
+  "analysis_source_sha256": "301c1b4e085576ca8985fa49ead68d7f6acfb47e1bc786983439f298756b7456"
+}

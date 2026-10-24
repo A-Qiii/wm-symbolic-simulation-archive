@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-10-15T06:45:37.129691+00:00",
+  "evaluation_source_sha256": "6d8f6c5963a337eb4c37fadca57104ff9ca4b8d82b6741cb9cb3ac2a78ae5baf",
+  "inputs_sha256": "19180b986043488042884f2ac4ff0116704b6ec88f37f30f05d904c9591a4cac",
+  "data_manifest_sha256": "c491505a835af876a087f9cdd7e6f6a0696ac17d16cf3835b47bd844809dc06e",
+  "protocol_sha256": "b527f84854848b0664245b7ef2c6dd8d745a4ab092942bd013536c75e4016a0a",
+  "selected_models": [
+    {
+      "run": "full_seed0",
+      "seed": 0,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.000431400811066851,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0600.pt",
+        "sha256": "bad461d6fd9d6d89dd58987886d29a48bfd40cb41709c5d84cc7958d32d97a3a"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.07023119181394577,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0200.pt",
+          "sha256": "f123c086bac5fead6182eefb8f0e93aed8e32653b2ceface7797f76598be9a50"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.0013965432299301028,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0400.pt",
+          "sha256": "ad527587ac6c3cc1da427c0850bda471f20e0eb8db134cfb7507d0e678a3a304"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.000431400811066851,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0600.pt",
+          "sha256": "bad461d6fd9d6d89dd58987886d29a48bfd40cb41709c5d84cc7958d32d97a3a"
+        }
+      ],
+      "wall_seconds": 1.2190366759969038,
+      "CUDA_elapsed_seconds": 1.2177008056640626,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.00023420550860464573,
+        "batch_latent_SmoothL1": 0.010111753828823566,
+        "batch_total_loss": 0.0007397932349704206,
+        "gradient_norm_before_clip": 0.0018042136216536164,
+        "elapsed_wall_seconds": 1.2159371309971903
+      }
+    },
+    {
+      "run": "full_seed1",
+      "seed": 1,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.14650577306747437,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0600.pt",
+        "sha256": "a05454a522b944b7dad39791aeaf1bf02a4fcac63b203cbc6c0c529dd485a99f"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.23060539364814758,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0200.pt",
+          "sha256": "0619dbcd8ad0f7d20df2f143975d028c449004da611e35e642e24778c01c70d5"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.1776418387889862,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0400.pt",
+          "sha256": "4b7406e9890336dc0cedbc7086ee93abbe34924c28d16bfb44ce751cd945f0b2"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.14650577306747437,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0600.pt",
+          "sha256": "a05454a522b944b7dad39791aeaf1bf02a4fcac63b203cbc6c0c529dd485a99f"
+        }
+      ],
+      "wall_seconds": 0.9036788779994822,
+      "CUDA_elapsed_seconds": 0.9036259765625,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.11479856073856354,
+        "batch_latent_SmoothL1": 0.5056263208389282,
+        "batch_total_loss": 0.14007987082004547,
+        "gradient_norm_before_clip": 0.10228583961725235,
+        "elapsed_wall_seconds": 0.900077621001401
+      }
+    },
+    {
+      "run": "full_seed2",
+      "seed": 2,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.00040617649210616946,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0600.pt",
+        "sha256": "95fc8a76da1f684e43a83eb320ef4b0837b215befe17132df44058ca8e86bb41"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.04028955101966858,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0200.pt",
+          "sha256": "03fc16c8232341267f28aeeedef6d6e555a73ec87c482e46f31695ae829155c5"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.0011350831482559443,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0400.pt",
+          "sha256": "0b78adf248839731e902955797739dac3ae4d26c792ef0435e65ab7bf8cb476b"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.00040617649210616946,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0600.pt",
+          "sha256": "95fc8a76da1f684e43a83eb320ef4b0837b215befe17132df44058ca8e86bb41"
+        }
+      ],
+      "wall_seconds": 0.9148899240026367,
+      "CUDA_elapsed_seconds": 0.9148491821289062,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.00022088864352554083,
+        "batch_latent_SmoothL1": 0.009794618934392929,
+        "batch_total_loss": 0.0007106196135282516,
+        "gradient_norm_before_clip": 0.0017738145543262362,
+        "elapsed_wall_seconds": 0.9118566830002237
+      }
+    }
+  ],
+  "representative_run": "full_seed2",
+  "copy_rules_sha256": "2f680f1c3d846977ed3faf40a47a602f0966c61e89f05a7a74263bb08bc94029",
+  "no_new_selection": true,
+  "training_updates": 0,
+  "collection_complete_before_any_new_model_prediction": true
+}

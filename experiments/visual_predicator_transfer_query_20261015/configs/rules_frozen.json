@@ -1,0 +1,382 @@
+{
+  "created_utc": "2026-10-15T14:19:31.139173+00:00",
+  "operators": [
+    {
+      "id": "open_0",
+      "family": "open",
+      "preconditions": [],
+      "add": [
+        "Open(drawer)"
+      ],
+      "delete": [],
+      "supported": true
+    },
+    {
+      "id": "lift_0",
+      "family": "lift",
+      "preconditions": [
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "add": [
+        "Holding(x)"
+      ],
+      "delete": [],
+      "supported": true
+    },
+    {
+      "id": "place_0",
+      "family": "place",
+      "preconditions": [
+        [
+          "Holding(x)",
+          true
+        ],
+        [
+          "Open(drawer)",
+          true
+        ]
+      ],
+      "add": [
+        "In(x,drawer)"
+      ],
+      "delete": [
+        "Holding(x)"
+      ],
+      "supported": true
+    },
+    {
+      "id": "close_0",
+      "family": "close",
+      "preconditions": [
+        [
+          "Open(drawer)",
+          true
+        ],
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "add": [],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": true
+    }
+  ],
+  "training_supervision": "AB physical sevenfacts + actual controller success/refusal only; no future GT at inference",
+  "scope": "fixed predicate library, learned precondition/effect rules; no predicate invention",
+  "audit": [
+    {
+      "id": "open_0",
+      "family": "open",
+      "preconditions": [],
+      "add": [
+        "Open(drawer)"
+      ],
+      "delete": [],
+      "supported": true,
+      "positive_transitions": 24,
+      "negative_transitions": 0,
+      "negative_real_failures": 0,
+      "negative_other_effect_clusters": 0,
+      "positive_intersection": [
+        [
+          "Open(drawer)",
+          false
+        ],
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "objective": 1.0,
+      "train_accuracy": 1.0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "positive_pair_ids": [
+        "A_longpair_red_closed_0__m0",
+        "B_longpair_blue_open_0__m3",
+        "A_longpair_red_closed_1__m0",
+        "A_longpair_red_open_0__m3",
+        "A_longpair_red_open_1__m3",
+        "A_longpair_blue_closed_0__m0",
+        "A_longpair_blue_closed_1__m0",
+        "A_longpair_blue_open_0__m3",
+        "A_longpair_blue_open_1__m3",
+        "A_longpair_pink_closed_0__m0",
+        "A_longpair_pink_closed_1__m0",
+        "A_longpair_pink_open_0__m3",
+        "A_longpair_pink_open_1__m3",
+        "B_longpair_red_closed_0__m0",
+        "B_longpair_red_closed_1__m0",
+        "B_longpair_red_open_0__m3",
+        "B_longpair_red_open_1__m3",
+        "B_longpair_blue_closed_0__m0",
+        "B_longpair_blue_closed_1__m0",
+        "B_longpair_blue_open_1__m3",
+        "B_longpair_pink_closed_0__m0",
+        "B_longpair_pink_closed_1__m0",
+        "B_longpair_pink_open_0__m3",
+        "B_longpair_pink_open_1__m3"
+      ],
+      "negative_pair_ids": [],
+      "no_negative_coverage": true
+    },
+    {
+      "id": "lift_0",
+      "family": "lift",
+      "preconditions": [
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "add": [
+        "Holding(x)"
+      ],
+      "delete": [],
+      "supported": true,
+      "positive_transitions": 28,
+      "negative_transitions": 8,
+      "negative_real_failures": 8,
+      "negative_other_effect_clusters": 0,
+      "positive_intersection": [
+        [
+          "Holding(x)",
+          false
+        ],
+        [
+          "In(x,drawer)",
+          false
+        ],
+        [
+          "EmptyHand()",
+          true
+        ],
+        [
+          "OtherHeld(x)",
+          false
+        ]
+      ],
+      "objective": 0.999,
+      "train_accuracy": 1.0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "positive_pair_ids": [
+        "A_longpair_red_closed_0__m1",
+        "B_longpair_blue_open_0__m0",
+        "A_longpair_red_closed_1__m1",
+        "A_longpair_red_open_0__m0",
+        "A_longpair_red_open_1__m0",
+        "A_longpair_blue_closed_0__m1",
+        "A_longpair_blue_closed_1__m1",
+        "A_longpair_blue_open_0__m0",
+        "A_longpair_blue_open_1__m0",
+        "A_longpair_pink_closed_0__m1",
+        "A_longpair_pink_closed_1__m1",
+        "A_longpair_pink_open_0__m0",
+        "A_longpair_pink_open_1__m0",
+        "B_longpair_red_closed_0__m1",
+        "B_longpair_red_closed_1__m1",
+        "B_longpair_red_open_0__m0",
+        "B_longpair_red_open_1__m0",
+        "B_longpair_blue_closed_0__m1",
+        "B_longpair_blue_closed_1__m1",
+        "B_longpair_blue_open_1__m0",
+        "B_longpair_pink_closed_0__m1",
+        "B_longpair_pink_closed_1__m1",
+        "B_longpair_pink_open_0__m0",
+        "B_longpair_pink_open_1__m0",
+        "B_statedep_lift_pink_0__b0__diagnostic",
+        "A_statedep_lift_blue_0__b0__diagnostic",
+        "A_statedep_lift_pink_1__b0__diagnostic",
+        "B_statedep_lift_red_1__b0__diagnostic"
+      ],
+      "negative_pair_ids": [
+        "B_statedep_lift_pink_0__b1__diagnostic",
+        "B_statedep_lift_pink_0__b2__diagnostic",
+        "A_statedep_lift_blue_0__b1__diagnostic",
+        "A_statedep_lift_blue_0__b2__diagnostic",
+        "A_statedep_lift_pink_1__b1__diagnostic",
+        "A_statedep_lift_pink_1__b2__diagnostic",
+        "B_statedep_lift_red_1__b1__diagnostic",
+        "B_statedep_lift_red_1__b2__diagnostic"
+      ],
+      "no_negative_coverage": false
+    },
+    {
+      "id": "place_0",
+      "family": "place",
+      "preconditions": [
+        [
+          "Holding(x)",
+          true
+        ],
+        [
+          "Open(drawer)",
+          true
+        ]
+      ],
+      "add": [
+        "In(x,drawer)"
+      ],
+      "delete": [
+        "Holding(x)"
+      ],
+      "supported": true,
+      "positive_transitions": 28,
+      "negative_transitions": 8,
+      "negative_real_failures": 8,
+      "negative_other_effect_clusters": 0,
+      "positive_intersection": [
+        [
+          "Holding(x)",
+          true
+        ],
+        [
+          "In(x,drawer)",
+          false
+        ],
+        [
+          "Open(drawer)",
+          true
+        ],
+        [
+          "EmptyHand()",
+          false
+        ],
+        [
+          "OtherHeld(x)",
+          false
+        ]
+      ],
+      "objective": 0.998,
+      "train_accuracy": 1.0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "positive_pair_ids": [
+        "A_longpair_red_closed_0__m2",
+        "B_longpair_blue_open_0__m1",
+        "A_longpair_red_closed_1__m2",
+        "A_longpair_red_open_0__m1",
+        "A_longpair_red_open_1__m1",
+        "A_longpair_blue_closed_0__m2",
+        "A_longpair_blue_closed_1__m2",
+        "A_longpair_blue_open_0__m1",
+        "A_longpair_blue_open_1__m1",
+        "A_longpair_pink_closed_0__m2",
+        "A_longpair_pink_closed_1__m2",
+        "A_longpair_pink_open_0__m1",
+        "A_longpair_pink_open_1__m1",
+        "B_longpair_red_closed_0__m2",
+        "B_longpair_red_closed_1__m2",
+        "B_longpair_red_open_0__m1",
+        "B_longpair_red_open_1__m1",
+        "B_longpair_blue_closed_0__m2",
+        "B_longpair_blue_closed_1__m2",
+        "B_longpair_blue_open_1__m1",
+        "B_longpair_pink_closed_0__m2",
+        "B_longpair_pink_closed_1__m2",
+        "B_longpair_pink_open_0__m1",
+        "B_longpair_pink_open_1__m1",
+        "A_statedep_place_red_1__b0__diagnostic",
+        "A_statedep_place_pink_0__b0__diagnostic",
+        "B_statedep_place_red_0__b0__diagnostic",
+        "B_statedep_place_blue_1__b0__diagnostic"
+      ],
+      "negative_pair_ids": [
+        "A_statedep_place_red_1__b1__diagnostic",
+        "A_statedep_place_red_1__b2__diagnostic",
+        "A_statedep_place_pink_0__b1__diagnostic",
+        "A_statedep_place_pink_0__b2__diagnostic",
+        "B_statedep_place_red_0__b1__diagnostic",
+        "B_statedep_place_red_0__b2__diagnostic",
+        "B_statedep_place_blue_1__b1__diagnostic",
+        "B_statedep_place_blue_1__b2__diagnostic"
+      ],
+      "no_negative_coverage": false
+    },
+    {
+      "id": "close_0",
+      "family": "close",
+      "preconditions": [
+        [
+          "Open(drawer)",
+          true
+        ],
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "add": [],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": true,
+      "positive_transitions": 28,
+      "negative_transitions": 8,
+      "negative_real_failures": 8,
+      "negative_other_effect_clusters": 0,
+      "positive_intersection": [
+        [
+          "Open(drawer)",
+          true
+        ],
+        [
+          "EmptyHand()",
+          true
+        ]
+      ],
+      "objective": 0.998,
+      "train_accuracy": 1.0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "positive_pair_ids": [
+        "A_longpair_red_closed_0__m3",
+        "B_longpair_blue_open_0__m2",
+        "A_longpair_red_closed_1__m3",
+        "A_longpair_red_open_0__m2",
+        "A_longpair_red_open_1__m2",
+        "A_longpair_blue_closed_0__m3",
+        "A_longpair_blue_closed_1__m3",
+        "A_longpair_blue_open_0__m2",
+        "A_longpair_blue_open_1__m2",
+        "A_longpair_pink_closed_0__m3",
+        "A_longpair_pink_closed_1__m3",
+        "A_longpair_pink_open_0__m2",
+        "A_longpair_pink_open_1__m2",
+        "B_longpair_red_closed_0__m3",
+        "B_longpair_red_closed_1__m3",
+        "B_longpair_red_open_0__m2",
+        "B_longpair_red_open_1__m2",
+        "B_longpair_blue_closed_0__m3",
+        "B_longpair_blue_closed_1__m3",
+        "B_longpair_blue_open_1__m2",
+        "B_longpair_pink_closed_0__m3",
+        "B_longpair_pink_closed_1__m3",
+        "B_longpair_pink_open_0__m2",
+        "B_longpair_pink_open_1__m2",
+        "A_statedep_close_blue_1__b0__diagnostic",
+        "A_statedep_close_red_0__b0__diagnostic",
+        "B_statedep_close_blue_0__b0__diagnostic",
+        "B_statedep_close_pink_1__b0__diagnostic"
+      ],
+      "negative_pair_ids": [
+        "A_statedep_close_blue_1__b1__diagnostic",
+        "A_statedep_close_blue_1__b2__diagnostic",
+        "A_statedep_close_red_0__b1__diagnostic",
+        "A_statedep_close_red_0__b2__diagnostic",
+        "B_statedep_close_blue_0__b1__diagnostic",
+        "B_statedep_close_blue_0__b2__diagnostic",
+        "B_statedep_close_pink_1__b1__diagnostic",
+        "B_statedep_close_pink_1__b2__diagnostic"
+      ],
+      "no_negative_coverage": false
+    }
+  ]
+}

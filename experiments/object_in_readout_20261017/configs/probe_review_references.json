@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-17T04:23:34.157659+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/configs/delivery_manifest.json": "473186426f59f5a78d99017ccb8f9dc25f6e11190888fc683fd55df9f4e978fa",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/configs/delivery_manifest.json": "d3ba5a452227b573eed5e666c6a20d0ebe924c7edfb2f2bc28379a6a01dc20f4",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/configs/query_normalization.npz": "435c7683a9448584999341528ef4dbafbfec9a5b65d26912ce2ceb1a41bbaa2f",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/normalization_object.npz": "20ef6e98d7f6b53ef94fde21f45776a4551a959e9aeff9097fa5649b492dcd4b",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/object_linear.pt": "e8b279505f5a03954e61abd20e71eb805852230a0a4f44f38a7220de4bc5f43d",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/object_mlp32.pt": "b69905f50034a8c218587ac79af61b8d0c12d2ef5d08844556dd67271a00ed9a",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/data/evaluation/old_C_selection.npz": "f8285babf7587b2a4b815cd8e83cb142976795239bac49e536d3c6422791e662",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/data/evaluation/old_C_validation.npz": "fbc00ecfc7d8c2c5a799937b6ac062249adce10aedfd84035beee8da4144fdb0",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/data/evaluation/C_selection.npz": "4078e563477599a56346007dc5b0122609a3c863116ce5179d9d9a1cd5741d8c",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/data/evaluation/C_validation.npz": "93313d4b2ab54b47f583d967e16fc8e94bb1e12c7528a9858e81bd15ab03d2f3"
+  },
+  "fits": 0,
+  "C_never_used_to_fit_saved_probes": true,
+  "normalization": "Undo original Query normalization; apply saved probe AB-only normalization; input corresponding context-enriched object token64.",
+  "self_held": "Ground-truth Holding used only to define evaluation subgroup, never to mask predictions."
+}

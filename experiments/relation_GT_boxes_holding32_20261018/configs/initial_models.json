@@ -1,0 +1,30 @@
+[
+  {
+    "arm": "object",
+    "seed": 0,
+    "parameters": 8711,
+    "sha256": "eff2625904d701cde4cad562c3abe32895c8c4bb13a45625ef7656420e96725d",
+    "tensor_hash": "9dc62dc01f701fa2adbdadebf7db2cdb8e378b0fbd40457389651624dc412fb0"
+  },
+  {
+    "arm": "pair",
+    "seed": 0,
+    "parameters": 8680,
+    "sha256": "c04fae3718f9b5a9b98d5dae3c5a1ed8e516e753b2fdf111a2c1c235237e4d03",
+    "tensor_hash": "15cd25b24124a4e8ec2617cb40c1eac5e677ac62de770fe4d1dde6f4ea55822e"
+  },
+  {
+    "arm": "object",
+    "seed": 1,
+    "parameters": 8711,
+    "sha256": "5464cd9f095fc6742eb54be436891aeb96928b47c2eec8321d7b353d63dda855",
+    "tensor_hash": "46eced7a8c64d0ecae1d9cbe33eb960481a781368dfb47d04216d10af1bdd364"
+  },
+  {
+    "arm": "pair",
+    "seed": 1,
+    "parameters": 8680,
+    "sha256": "9a06648548d1c7f8cbf792ed0455b2ca291b13ac09f55b050ce9854d930527a7",
+    "tensor_hash": "b8f7af654a5c3e3269e79fc6f4fa0c4970f5cf0348e9ca7b42507ccf7007a95e"
+  }
+]

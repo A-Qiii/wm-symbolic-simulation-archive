@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-18T11:27:06.714357+00:00",
+  "selected_ids": [
+    0,
+    1,
+    8,
+    9,
+    32,
+    33,
+    38,
+    39
+  ],
+  "scope": "Only8RGB label adjudication and sensitivity of previously saved predictions; no new model forward, training, feature extraction or data",
+  "adjudicator_exposure": "Same project assistant has historical model-result context, so this is not blind independent ground truth. Current decisions use only selected rawRGB, frozen component definitions and both label sets; no model-output files are read before label freeze.",
+  "decision_rule": "Keep/correct only when visible pixels support identity and extent under original definitions. Record identity/extent disputes as class-leveluncertain/unknown. No voting or averaging coordinates. No hallucinated hidden completion.",
+  "partial": "Do not require full part visibility; when visible part identity/extent is reliable, cropped/occluded remainspartial. When boundary or identity cannot be adjudicated, useuncertain, notnot_visible.",
+  "unchanged_policy": "Only eight selected records get a separate evaluation-labelversion. Neither original nor independent labels are overwritten; unresolved proposed boxes excluded from scoring.",
+  "sensitivity": "After label freeze, use both saved original and corrected decoder predictions at224/448,seeds0/1. Score only selected8 by split/category with fixed thresholds and greedy1:1IoU.5; all retained unmatched predictions areFP on knownclassimages.",
+  "denominators": "Report original-selected versus adjudicated-selected and common-known class-image support separately. List added/dropped class-images/instances. Selected set has4train,2Cseen,2Dseen images,0ABdevelopment. Do not infer full40metrics.",
+  "status_of_full_metrics": "Label audit of other32 images incomplete. Prior full-data scores remain provisional and unchanged; do not replace full-data figures with8image sensitivity.",
+  "stop": "Freeze proposals, report unresolved images requiring external domain adjudication if they are to enter scoring, calculate bounded sensitivity, seal and stop. No additional rounds of assistant voting."
+}

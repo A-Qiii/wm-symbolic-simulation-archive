@@ -1,0 +1,2318 @@
+[
+  {
+    "root_id": "D_identity_blue_pink_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076003,
+    "target": "blue",
+    "other_target": "pink",
+    "pair_group": "seen",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.0437514835638964,
+        -0.045455697066570974,
+        0.46,
+        0.0,
+        0.0,
+        0.054988387466718525
+      ],
+      "block_blue": [
+        0.18146695191371132,
+        -0.065128539674913,
+        0.46,
+        0.0,
+        0.0,
+        -2.089782997606145
+      ],
+      "block_pink": [
+        0.298535236188987,
+        -0.10024974840609321,
+        0.46,
+        0.0,
+        0.0,
+        2.3462280506381203
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_pink_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "reverse_then_lift",
+      "place_then_other_lift",
+      "normal"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.013515105454297979,
+    "nearest_previous_root": "D_interface_accept_red_open_1",
+    "root_execution_order": 0
+  },
+  {
+    "root_id": "D_identity_pink_blue_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076008,
+    "target": "pink",
+    "other_target": "blue",
+    "pair_group": "reverse",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.301515390086793,
+        -0.0524509087717359,
+        0.46,
+        0.0,
+        0.0,
+        0.6398200263946077
+      ],
+      "block_blue": [
+        0.060371302068408225,
+        -0.04928353849880188,
+        0.46,
+        0.0,
+        0.0,
+        -2.1794146991474523
+      ],
+      "block_pink": [
+        0.18178202326966328,
+        -0.061316215689743866,
+        0.46,
+        0.0,
+        0.0,
+        -1.271882362655541
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_blue_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "reverse_then_lift",
+      "normal",
+      "place_then_other_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.024933270919046756,
+    "nearest_previous_root": "D5_objective_red_06",
+    "root_execution_order": 1
+  },
+  {
+    "root_id": "D_identity_red_pink_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076010,
+    "target": "red",
+    "other_target": "pink",
+    "pair_group": "reverse",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.05681003588682169,
+        -0.10583167911631494,
+        0.46,
+        0.0,
+        0.0,
+        0.8523421828325071
+      ],
+      "block_blue": [
+        0.17181995935132388,
+        -0.10207663552486382,
+        0.46,
+        0.0,
+        0.0,
+        -0.8080259775340237
+      ],
+      "block_pink": [
+        0.298096382937572,
+        -0.0656016543274991,
+        0.46,
+        0.0,
+        0.0,
+        3.137001932076097
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_pink_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "place_then_other_lift",
+      "normal",
+      "reverse_then_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.015001928369582484,
+    "nearest_previous_root": "D_interaction_fixtures_red_0",
+    "root_execution_order": 2
+  },
+  {
+    "root_id": "D_identity_blue_red_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076007,
+    "target": "blue",
+    "other_target": "red",
+    "pair_group": "reverse",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.04542902202361572,
+        -0.08164691235778511,
+        0.46,
+        0.0,
+        0.0,
+        0.6966982998992277
+      ],
+      "block_blue": [
+        0.2937409838941041,
+        -0.09916339047629502,
+        0.46,
+        0.0,
+        0.0,
+        -1.1047616220958871
+      ],
+      "block_pink": [
+        0.16838723633325692,
+        -0.09760067027128025,
+        0.46,
+        0.0,
+        0.0,
+        2.889144871907031
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_red_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "normal",
+      "place_then_other_lift",
+      "reverse_then_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.01539727205352211,
+    "nearest_previous_root": "D_interface_02",
+    "root_execution_order": 3
+  },
+  {
+    "root_id": "D_identity_blue_red_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076006,
+    "target": "blue",
+    "other_target": "red",
+    "pair_group": "reverse",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.0569607390559084,
+        -0.050445652082255654,
+        0.46,
+        0.0,
+        0.0,
+        1.4325202548528448
+      ],
+      "block_blue": [
+        0.1634485156962214,
+        -0.08656665217454654,
+        0.46,
+        0.0,
+        0.0,
+        -2.680223425092664
+      ],
+      "block_pink": [
+        0.29729019058463757,
+        -0.08565423001833661,
+        0.46,
+        0.0,
+        0.0,
+        -2.35399468959909
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_red_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "normal",
+      "reverse_then_lift",
+      "place_then_other_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.01870791076483097,
+    "nearest_previous_root": "C_core1200_13",
+    "root_execution_order": 4
+  },
+  {
+    "root_id": "D_identity_red_pink_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076011,
+    "target": "red",
+    "other_target": "pink",
+    "pair_group": "reverse",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.046386341351573594,
+        -0.05028052077519839,
+        0.46,
+        0.0,
+        0.0,
+        2.273985875279302
+      ],
+      "block_blue": [
+        0.16857435994697326,
+        -0.06365068450557888,
+        0.46,
+        0.0,
+        0.0,
+        -2.9966904820799547
+      ],
+      "block_pink": [
+        0.2948715742902603,
+        -0.09620876482864049,
+        0.46,
+        0.0,
+        0.0,
+        -0.6152610704144745
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_pink_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "place_then_other_lift",
+      "reverse_then_lift",
+      "normal"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.012625711422903925,
+    "nearest_previous_root": "D_core1200_04",
+    "root_execution_order": 5
+  },
+  {
+    "root_id": "D_identity_pink_red_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076005,
+    "target": "pink",
+    "other_target": "red",
+    "pair_group": "seen",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.2857718077344332,
+        -0.0868132513823743,
+        0.46,
+        0.0,
+        0.0,
+        -1.9909453037439404
+      ],
+      "block_blue": [
+        0.16413171729792564,
+        -0.09702693624498648,
+        0.46,
+        0.0,
+        0.0,
+        -2.278708014567997
+      ],
+      "block_pink": [
+        0.06093652581620204,
+        -0.06635570620003664,
+        0.46,
+        0.0,
+        0.0,
+        0.09835987688703263
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_red_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "place_then_other_lift",
+      "reverse_then_lift",
+      "normal"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.016204122629723327,
+    "nearest_previous_root": "D_interface_accept_blue_closed_1",
+    "root_execution_order": 6
+  },
+  {
+    "root_id": "D_identity_pink_blue_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076009,
+    "target": "pink",
+    "other_target": "blue",
+    "pair_group": "reverse",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.04812867527433076,
+        -0.09376407750295157,
+        0.46,
+        0.0,
+        0.0,
+        -2.611707286142621
+      ],
+      "block_blue": [
+        0.29506040778751746,
+        -0.09247035908276703,
+        0.46,
+        0.0,
+        0.0,
+        3.131964163754751
+      ],
+      "block_pink": [
+        0.18122091636425458,
+        -0.13199423541845803,
+        0.46,
+        0.0,
+        0.0,
+        0.9213951410409384
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_blue_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "reverse_then_lift",
+      "place_then_other_lift",
+      "normal"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.01941277222985782,
+    "nearest_previous_root": "D_predicate_gap_blue_open",
+    "root_execution_order": 7
+  },
+  {
+    "root_id": "D_identity_red_blue_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076000,
+    "target": "red",
+    "other_target": "blue",
+    "pair_group": "seen",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.305913705234927,
+        -0.06072109674348629,
+        0.46,
+        0.0,
+        0.0,
+        1.1067462458096928
+      ],
+      "block_blue": [
+        0.17824027804990963,
+        -0.05981315619920441,
+        0.46,
+        0.0,
+        0.0,
+        2.9422275138549834
+      ],
+      "block_pink": [
+        0.03771463170492892,
+        -0.08553441193722847,
+        0.46,
+        0.0,
+        0.0,
+        -2.2288512014384176
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_blue_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "normal",
+      "reverse_then_lift",
+      "place_then_other_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.016295307286684466,
+    "nearest_previous_root": "C_core1200_09",
+    "root_execution_order": 8
+  },
+  {
+    "root_id": "D_identity_pink_red_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076004,
+    "target": "pink",
+    "other_target": "red",
+    "pair_group": "seen",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.04338210090219988,
+        -0.07257448484495851,
+        0.46,
+        0.0,
+        0.0,
+        -2.0214920819935207
+      ],
+      "block_blue": [
+        0.18341188371969286,
+        -0.06325361380501697,
+        0.46,
+        0.0,
+        0.0,
+        -1.3778542018448456
+      ],
+      "block_pink": [
+        0.30079581676686606,
+        -0.09932023912981175,
+        0.46,
+        0.0,
+        0.0,
+        0.6381271199513954
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_red_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "lift_red_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "place_then_other_lift",
+      "normal",
+      "reverse_then_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.01672063889492847,
+    "nearest_previous_root": "D2_place_repair_blue_1",
+    "root_execution_order": 9
+  },
+  {
+    "root_id": "D_identity_red_blue_01",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076001,
+    "target": "red",
+    "other_target": "blue",
+    "pair_group": "seen",
+    "replicate": 1,
+    "layout": {
+      "block_red": [
+        0.042633452601963766,
+        -0.08829702275599793,
+        0.46,
+        0.0,
+        0.0,
+        3.0054489079255022
+      ],
+      "block_blue": [
+        0.2984707837724518,
+        -0.06502447847063175,
+        0.46,
+        0.0,
+        0.0,
+        -0.38751068344415174
+      ],
+      "block_pink": [
+        0.16040457999649813,
+        -0.09982009118924617,
+        0.46,
+        0.0,
+        0.0,
+        2.18512148233461
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_blue_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "normal",
+      "place_then_other_lift",
+      "reverse_then_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.016642092823007743,
+    "nearest_previous_root": "D5_objective_red_01",
+    "root_execution_order": 10
+  },
+  {
+    "root_id": "D_identity_blue_pink_00",
+    "environment": "D",
+    "split": "independent_diagnostic_no_training",
+    "seed": 17076002,
+    "target": "blue",
+    "other_target": "pink",
+    "pair_group": "seen",
+    "replicate": 0,
+    "layout": {
+      "block_red": [
+        0.17124619780544342,
+        -0.11842920736746128,
+        0.46,
+        0.0,
+        0.0,
+        1.7650742226828555
+      ],
+      "block_blue": [
+        0.2962931747161118,
+        -0.1295276779675067,
+        0.46,
+        0.0,
+        0.0,
+        2.7996601632603797
+      ],
+      "block_pink": [
+        0.040888743387989285,
+        -0.13436602610843243,
+        0.46,
+        0.0,
+        0.0,
+        -1.8715159590601855
+      ]
+    },
+    "branches": {
+      "normal": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      "reverse_then_lift": [
+        "open_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_pink_block_table"
+      ],
+      "place_then_other_lift": [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_pink_block_table"
+      ]
+    },
+    "branch_actions": {
+      "normal": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reverse_then_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "place_then_other_lift": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "branch_order": [
+      "reverse_then_lift",
+      "normal",
+      "place_then_other_lift"
+    ],
+    "generation_attempt": 1,
+    "nearest_previous_xyz_max_distance": 0.021820343382202394,
+    "nearest_previous_root": "D_independent_red_closed_1",
+    "root_execution_order": 11
+  }
+]

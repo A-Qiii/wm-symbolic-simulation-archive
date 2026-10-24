@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-19T20:06:24.807546+00:00",
+  "purpose": "Test whether jointly supervising both real outcomes of an identical observed prefix/request makes the world model use observations, preserve earlier InDrawer, and improve future predictions. h0 generalization remains a separate gate.",
+  "single_change": "New-data root slot0: b0 -> b1; slot1: b2 unchanged. Control is prior recovery b0+b2; new arm is b1+b2.",
+  "effect_scope": "Skill-family order and global target-color quotas unchanged, but positive target identity changes within each root at action indices1/3 and subsequent real positive trajectory changes. Therefore effect includes matched-request outcome coverage AND changed per-root positive target/trajectory; not merely an added pairing annotation.",
+  "training": {
+    "initialization": "Same original joint latest6000 weights AND AdamW moments, seeds0/1",
+    "new_roots": 12,
+    "new_episodes": 24,
+    "new_transitions": 144,
+    "old_roots": 40,
+    "old_episodes": 120,
+    "old_transitions": 480,
+    "schedule": "Exact byte copies of old/new/latent schedules from prior trial. Same root×slot at each sample; map slot0 to b1 instead of b0. Every root and both branches must have positive counts. No per-batch forced pair or reshuffling.",
+    "mix": "4 old+4 new per microbatch; accumulation2",
+    "updates_each_seed": 1000,
+    "lr": 0.0001,
+    "optimizer": "AdamW betas(.9,.999),weight_decay.0001; original E/R separate clip1",
+    "loss": "Exact previous original full k3 + same corrected true-terminal posterior term",
+    "precision": "BF16,matmulhigh,deterministic,4CPUthreads; same CUDA/runtime",
+    "frozen_DINO": true
+  },
+  "selection": "Same development6 roots/all3 branches. Evaluate objective at500/1000 using same scorer/RNG81831; choose minimum, tie earlier. Also report fixed1000; no criterion/threshold/checkpoint changes after results.",
+  "evaluation": {
+    "splits": [
+      "train",
+      "development",
+      "historical_evaluation_exploratory_only"
+    ],
+    "inference": "Same previous sealed evaluator, 8 samples, paired root RNG, continuous real observations; one-step and pure suffix1/2/3 from h2",
+    "hidden_fault_not_input": true,
+    "no_new_blind_test": true,
+    "no_new_collection": true
+  },
+  "diagnostic_gates": {
+    "training_necessary": "Both seeds: h0 held12/12 AND h2 matched b1/b2 Held plus correct all InDrawer and drawer simultaneously12/12. This is an internal mechanism gate, not original-guide acceptance.",
+    "development_generalizing_support": "Both seeds must improve complete h2 pair correctness AND complete paired3-step-prefix over prior recovery control; h0 held and h2 true-A-InDrawer retention must not regress. Report failure of any component; no post-hoc relaxed gate.",
+    "historical_evaluation": "Exploratory regression only; never model selection or blind acceptance.",
+    "predictive_meaning": "Pre-h2 prior must be identical across hidden-fault pair; do not demand advance prediction of exogenous noise. Count prior-to-posterior corrections and regressions, pair discrimination, past relation retention, then actual post-h2 consequences."
+  },
+  "resource_cap": "Two new1000-update fits if strict reuse audit passes; no extra training beyond stated fits; total round about30min. If reuse mismatch, stop and report matching-retrain need rather than silently use incompatible control.",
+  "no_C_D_upload": true
+}

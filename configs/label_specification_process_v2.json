@@ -1,0 +1,21 @@
+{
+  "extends": "configs/label_specification.json",
+  "event_names": [
+    "red_moved",
+    "blue_moved",
+    "pink_moved",
+    "led_was_off",
+    "led_was_on",
+    "light_was_off",
+    "light_was_on"
+  ],
+  "device_event_semantics": "Any control-step sample including macro start/end equals the specified physical state; endpoint return does not erase event",
+  "table_regions": "Thirds of the calibrated physical native table mesh in table-local coordinates; never placement-sampling bounds",
+  "evidence": [
+    "runs/device_event_audit.json",
+    "runs/label_geometry_audit.json"
+  ],
+  "original_labels_preserved": true,
+  "main_manifest_unchanged": true,
+  "test_data_used": false
+}

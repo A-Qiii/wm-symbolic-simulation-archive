@@ -1,0 +1,107 @@
+{
+  "frozen_utc": "2026-10-16T15:35:31.084330+00:00",
+  "study": "Separate independent paired validation of frozen candidates; originalAB/Cgatefailure preserved and no formal promotion or adoption.",
+  "models": {
+    "mixed_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed0/update0750.pt",
+      "sha256": "be3b7ec4530b109f016c31821e92b5e558fb463191ea6b45c2b11037ff24f2f6",
+      "C_score": 0.3717340752482414
+    },
+    "latent_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed0/update1000.pt",
+      "sha256": "6d3ca5f910db0524921b8b7f7437174bb39c5f1ed18e5a1f3651204df1547a68",
+      "C_score": 0.28229083120822906
+    },
+    "mixed_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed1/update0750.pt",
+      "sha256": "293ee347ca07cff85fc3c73b528243b06c33487400ec6bbeac30792426895cc7",
+      "C_score": 0.37214062362909317
+    },
+    "latent_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed1/update1000.pt",
+      "sha256": "60363e3887861e7f46a1b955bb0b10a900c3827114cf21d83fc4bde59738a735",
+      "C_score": 0.28225962817668915
+    }
+  },
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "thresholds": {
+    "binary": 0.5,
+    "drawer": "argmax"
+  },
+  "initialization": {
+    "environment": "sameCALVIN_D",
+    "roots": 30,
+    "per_target_color": 10,
+    "seeds": "16970000..16970029",
+    "execution_shuffle_seed": 16971000,
+    "distribution": "Same as D4:random object-slot permutation,x slots tablefraction.14/.49/.84 plusuniform±12mm,yuniform tableboundsinset15mm,z.46m,yawuniform[-pi,pi],closed drawer",
+    "table_lower": [
+      0.0,
+      -0.15,
+      0.46
+    ],
+    "table_upper": [
+      0.35,
+      -0.03,
+      0.46
+    ],
+    "reset_settle_controls": 127,
+    "new_environment_complexity": false
+  },
+  "collection": {
+    "branches": [
+      "normal"
+    ],
+    "skills": "open_drawer,lift_target_block_table,place_in_drawer,close_drawer",
+    "planned_roots": 30,
+    "max_invocations": 120,
+    "max_controls_per_skill": 900,
+    "posthold_controls": 96,
+    "internal_attempts_max": 2,
+    "external_retries": 0,
+    "replacement_roots": 0,
+    "stop_per_root": "stop future slots after first nonsuccess, retain observed failure boundary; unreached slots missing",
+    "infrastructure": "preserve partialroot; do not replay; stopcollection and report missingroots if infrastructureblocked",
+    "soft_wall_minutes": 30,
+    "public": "twoRGBcameras,currentrobot15 only",
+    "private": "physicalquaternions,contacts,labels,fullframevideoandtrace"
+  },
+  "inference": "Same actualtrajectory for4frozenmodels. Trueinitial recursive1..4 withno latent correction; trueprevious one-step; actualsuccessor readout. No networks trained or parameters changed. No oldD selection. No post-test choice of checkpoints or thresholds.",
+  "primary": {
+    "metric": "root with all9facts correct at all4skillboundaries",
+    "denominator": "complete observed4-boundary roots with valid9labels at every boundary; same eligible rootset allmodels",
+    "also_report": "n/30 observedconfirmed-all4correct lowerbound and(n+unscorable)/30 missingness upperbound;counts ofplanned,attempted,any-evaluable,complete,full9-evaluable roots; do not silently treatmissing assemanticwrong",
+    "physical_success": "native4call success count separately, never equate predictioncorrectness with physicaltask success"
+  },
+  "facts": {
+    "perstage": "perfactTP/FN/FP/TN withvalidlabel masks andn/N;groupfullaccuracy;actual/one/recursive separate",
+    "positive_change_recall": "GTbefore0->after1,requiresvalidboth;predictedbefore0->after1 using actualbeforequery forone,previouspredictedquery forrecursive,actualbothforreadout",
+    "positive_change_FPR": "predictedonset on valid transitions withoutGTonset / no-GTonset count",
+    "also": "after-statehit amongGTonsets andordinary afterstatepositive recall/FPR, so onset-errors can be distinguished from previous-state readout errors"
+  },
+  "paired_uncertainty": {
+    "unit": "root, never60independentroots from2seeds",
+    "methods": [
+      "gain/loss/tie root counts separatelyperseed",
+      "delta=n_gain/N-n_loss/N",
+      "colorstratifiedpairedrootbootstrappercentile95%CI,10000resamples,seed16972000",
+      "same rootdraws across bothqueryseeds;full9eligibleroots only forprimaryCI",
+      "95%Wilsoninterval for eachobservedrootproportion;descriptive smallN uncertainty"
+    ],
+    "missing": "report coverage andbounds; if no eligible roots in acolor flag reducedscope; no synthetic fill",
+    "decision": "descriptive evidence forparent; no automatic gate,adoption,tuning or newcollection"
+  },
+  "auxiliary": "rawlatentMSE andfeatureerror only auxiliary. Optional interpolationdiagnostic mustnotdelayprimary and cannot be interpreted as realstates; omitted unless needed.",
+  "finite_stop": "Finish afterthis singlefixedtest regardlessoutcome. Preserveoriginalgatefailure. No automatictraining,newDextension,thresholdchange or environmentexpansion."
+}

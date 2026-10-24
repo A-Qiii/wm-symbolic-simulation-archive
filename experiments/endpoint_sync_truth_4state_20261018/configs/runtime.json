@@ -1,0 +1,10 @@
+{
+  "python": "3.10.18 (main, Sep 18 2025, 19:50:32) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "pybullet_version": "3.2.7",
+  "pybullet_API": 202010061,
+  "numpy": "1.26.4",
+  "renderer": "Native CALVIN EGL path on local GPU, no cloud, no fallback renderer",
+  "pid": 33525,
+  "utc": "2026-10-18T12:45:56.749515+00:00"
+}

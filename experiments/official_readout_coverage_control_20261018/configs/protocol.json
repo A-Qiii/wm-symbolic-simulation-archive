@@ -1,0 +1,129 @@
+{
+  "utc": "2026-10-18T07:43:35.515272+00:00",
+  "purpose": "Bounded data coverage contrast at unchanged frozen representation/transition; no formal adoption",
+  "heads": [
+    "Holding",
+    "In"
+  ],
+  "architecture": "shared own-object64 -> Linear32 -> SiLU -> Linear1,2113 parameters each; same recent independent head architecture",
+  "seeds": [
+    0,
+    1
+  ],
+  "arms": [
+    "control",
+    "augmented"
+  ],
+  "max_fits": 8,
+  "updates_each": 600,
+  "batch_states": 32,
+  "common_old_slots": 24,
+  "replacement_slots": 8,
+  "old_pools": {
+    "Holding": {
+      "states": 210,
+      "roots": 36,
+      "source": "/home/robot/research/projects/wm_symbolic/experiments/holding_readout_diagnostic_20261018/data/train/states.npz",
+      "meaning": "156 native-corrected historical AB states plus54 full states from6 old combination training roots, identical recent Holding diagnostic pool"
+    },
+    "In": {
+      "states": 156,
+      "roots": 30,
+      "source": "/home/robot/research/projects/wm_symbolic/experiments/object_in_readout_20261017/data/train/control.npz",
+      "meaning": "Recent object-In CONTROL baseline historical AB pool; prior6-dual-state coverage arm is not mixed into this new contrast"
+    }
+  },
+  "old_normalization": "Copy corresponding existing Holding210/In156 training-only mean/std unchanged; no official/validation/C/D fitting",
+  "positive_weights": {
+    "Holding": [
+      8.545454545454545,
+      8.545454545454545,
+      8.545454545454545
+    ],
+    "In": [
+      5.142857074737549,
+      5.142857074737549,
+      5.142857074737549
+    ]
+  },
+  "optimizer": "fresh AdamW lr.001 wd.001 global clip1; both arms on same CUDA device; no scheduler",
+  "loss": "same group masked positive-weighted BCE; mean valid objects per state then mean batch; unknown never treated as negative",
+  "initialization_seeds": {
+    "Holding": [
+      17078000,
+      17078001
+    ],
+    "In": [
+      17075000,
+      17075001
+    ]
+  },
+  "selection": "fixed final600,threshold.5,no search,no earlystop,no D-based selection",
+  "schedule": "Exact original head-specific control600x32 schedule retained. Both arms first24 identical. Control last8 original old draws; augmented last8 official training,exact2 per newepisode per update,each120 state exactly40 draws. Same official schedule for both heads.",
+  "official_training_states": 120,
+  "official_training_episodes": [
+    "official_ABC_A_episode_0125",
+    "official_ABC_A_episode_0137",
+    "official_ABC_B_episode_0025",
+    "official_ABC_B_episode_0032"
+  ],
+  "official_validation_states": 120,
+  "official_validation_episodes": [
+    "official_ABC_A_episode_0134",
+    "official_ABC_A_episode_0141",
+    "official_ABC_B_episode_0053",
+    "official_ABC_B_episode_0063"
+  ],
+  "old16_retests_excluded": true,
+  "new_state_unknown_In_facts": 4,
+  "all_expansion_unknown6_note": "Two old-retest unknown facts excluded with those16states; four remaining unknown In facts stay masked in official validation.",
+  "official_labels": "Only step96 same-time new RGB/proprio, first6 candidate stability masks; drawer native same-time value/validity used only for evaluation",
+  "object_alignment": "Frozen RGB colour registry already outputs red,blue,pink; simulator slots A pink,blue,red map[2,1,0], B red,blue,pink map[0,1,2] for evaluator identity audit only; no GT encoder input",
+  "frozen_encoder": "Existing DINO batch8 + existing representation.transform/normalization + canonical_matched seed0 update1000 encode only",
+  "frozen_query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "frozen_drawer": "original formal Query entries6:9 unchanged per seed/input, argmax categorical decision",
+  "evaluation_cohorts": [
+    "official_validation",
+    "C_all_available",
+    "old_C_selection",
+    "old_C_validation",
+    "C_selection",
+    "C_validation",
+    "C_endpoints48",
+    "new_AB_validation",
+    "D12_seen_actual135"
+  ],
+  "primary": "Perhead/perseed percolor FPR,FNR,positive/negative root counts; all3 exact; official same-annotation matched positive/negative correctness; paired combinedH+In+originaldrawer full9",
+  "secondary_gate": {
+    "per_head_both_seeds": true,
+    "official_validation": "mean of per-color (FPR+FNR)/2 must improve>=.01; all3 exact rate cannot decrease; each color FPR/FNR increase<=.05",
+    "retention": [
+      "C_all_available",
+      "C_validation",
+      "C_endpoints48",
+      "new_AB_validation"
+    ],
+    "retention_limits": "all3 exact rate decrease<=.02; each defined per-color FPR/FNR increase<=.05; missing class is null, never zero",
+    "D": "previously seen descriptive only, excluded from gate",
+    "if_pass": "Only passed head reads already saved D12 mixed/latent one-step/recursive z, matched seed; no T forward or retraining. Full9 secondary only if both heads pass.",
+    "if_fail": "Stop secondary predicted-z reading for that head; no retuning or new fit"
+  },
+  "no_updates": [
+    "DINO",
+    "representation",
+    "all T",
+    "drawer query"
+  ],
+  "no_new_collection_or_download": true
+}

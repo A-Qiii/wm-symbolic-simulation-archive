@@ -1,0 +1,29 @@
+{
+  "source_episodes": 12,
+  "splits": {
+    "official_ABC_A_episode_0146": "train_candidate",
+    "official_ABC_B_episode_0052": "train_candidate",
+    "official_ABC_B_episode_0016": "train_candidate",
+    "official_ABC_A_episode_0109": "train_candidate",
+    "official_ABC_A_episode_0141": "validation_candidate",
+    "official_ABC_A_episode_0125": "train_candidate",
+    "official_ABC_A_episode_0134": "validation_candidate",
+    "official_ABC_A_episode_0137": "train_candidate",
+    "official_ABC_B_episode_0032": "train_candidate",
+    "official_ABC_B_episode_0053": "validation_candidate",
+    "official_ABC_B_episode_0063": "validation_candidate",
+    "official_ABC_B_episode_0025": "train_candidate"
+  },
+  "old_source_frames_preserved": 128,
+  "new_source_episodes": [
+    "official_ABC_A_episode_0125",
+    "official_ABC_A_episode_0134",
+    "official_ABC_A_episode_0137",
+    "official_ABC_A_episode_0141",
+    "official_ABC_B_episode_0025",
+    "official_ABC_B_episode_0032",
+    "official_ABC_B_episode_0053",
+    "official_ABC_B_episode_0063"
+  ],
+  "no_C_D": true
+}

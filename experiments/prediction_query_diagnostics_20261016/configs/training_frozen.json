@@ -1,0 +1,56 @@
+{
+  "frozen_utc": "2026-10-16T11:53:12.264918+00:00",
+  "models_present_before_freeze": 0,
+  "paired_base_draws_identical": true,
+  "C_selection_validation_root_overlap": 0,
+  "exact_public_content_overlap": 0,
+  "sample_budgets": {
+    "original_coverage_seed0": {
+      "draws": 38400,
+      "distinct_states": 144,
+      "valid_fact_supervision_draws": 345011,
+      "full9_draws": 37811,
+      "partial_draws": 589
+    },
+    "intermediate_coverage_seed0": {
+      "draws": 38400,
+      "distinct_states": 144,
+      "valid_fact_supervision_draws": 319351,
+      "full9_draws": 29391,
+      "partial_draws": 9009
+    },
+    "original_coverage_seed1": {
+      "draws": 38400,
+      "distinct_states": 144,
+      "valid_fact_supervision_draws": 345034,
+      "full9_draws": 37834,
+      "partial_draws": 566
+    },
+    "intermediate_coverage_seed1": {
+      "draws": 38400,
+      "distinct_states": 144,
+      "valid_fact_supervision_draws": 319097,
+      "full9_draws": 29321,
+      "partial_draws": 9079
+    }
+  },
+  "important_limit": "Equal sample/update budget does not mean equal label-information budget: new intermediate records have only6 valid labels. Coverage arm also adds4 AB roots; causal contrast is this coverage-and-sampling package, not isolated oversampling alone.",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_protocol.json": "8f9ba9e8e96d8ec30f85737a45796daa56ae937f2e2ff5495a111a2b8fc13887",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_schedule_intermediate_coverage_seed0.npz": "330641de94020333aeda4e6612156cfdd113fd30aa83f9fbb133f0be3457cae3",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_schedule_intermediate_coverage_seed1.npz": "ee7f392aab9d1073c2e04ae002369eb4eb49dbe022c03d3d586d327cefbe7fe6",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_schedule_original_coverage_seed0.npz": "e3c4c4ee35f9de126ea0db508ac519c1cfafc1d9487e42261b84bfb31e15f0b5",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_schedule_original_coverage_seed1.npz": "cad3b0d3ff9b5cede452d8bc9851fbded999b312ccac7f57bedcc353726c8023",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_selection.json": "a14799bca933eaa6acc10450a9b7a7e49ff0bf7647a7108f27c31f6f5d0d7884",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/configs/head_source_hashes.json": "6023763057c4f22d1980766a6b36850716f44f83ef439c98738e41649bb188e4",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/data/evaluator/C_validation.npz": "f2e8e0012ac9d05c0a90ed3ecd869299e9c248bb8f3ba03d83b435a7b2b83535",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/data/head_train/C_selection.npz": "656f860919e74b3b9c0db7067ab01c6871be126dcd3bd471d66e190eeaa11964",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/data/head_train/intermediate_coverage.npz": "057834cc3fa4e17868e60f9daa5d3963b52124bf294243faaa291fbbb4e2de09",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/data/head_train/original_coverage.npz": "abf70f6271793ec1bb1c9704cf1bd265d97c15b51be21ea9bbbbbe4d12e3c80a",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/source/config.py": "4d6095f40616c4a06540ba9c256f995f901cccb7b8f8f1cd632c23c205b62ec7",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/source/encode_heads.py": "38b31099ffeb37f84af593b8d505477770a6e44ede2b85fadd53567e99208e21",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/source/freeze_training.py": "c203866ffaf4ffaf55d8c35ad1daa764f727a9b707a701be0bdb0de9e65461a3",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/source/prepare_heads.py": "657903029a5fbfa6ed15d7e8f9814c0229387dff02483fea5181066cf43ac9b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/source/train_head.py": "aa0459fd65a07469dfb1287052e0e6d09f50d81e4c07dcf025c8043b134a0ace"
+  }
+}

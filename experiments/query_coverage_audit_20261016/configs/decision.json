@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-15T17:19:40.054535+00:00",
+  "decision": "stop_model_tuning_after_bounded_audit",
+  "new_training_updates": 0,
+  "new_collected_roots": 0,
+  "new_D": 0,
+  "clear_label_or_binding_bug_found": false,
+  "ordinary_closed_tabletop_negative_coverage_absent": false,
+  "AB_target_tabletop_closed_roots": 18,
+  "AB_target_tabletop_closed_windows": 48,
+  "AB_target_closed_contained_roots": 18,
+  "current_falling_window_coverage": 0,
+  "falling_gap_explains_C_closed_tabletop_joint_FP": false,
+  "seed_variance_identified": false,
+  "saved_checkpoint_dependence_observed": true,
+  "rationale": "Closed tabletop negative supervision was present for all18AB roots and actually sampled. Frozen labels and tested object bindings match. One training seed cannot identify seed variance; checkpoint dependence and C normal-state errors remain a generalization/optimization issue, not a proven coverage-only cause. A live-falling coverage gap exists but does not explain the targeted closed-tabletop false completion. Do not start another batch to chase zero C errors.",
+  "remaining_choice": "A broader preregistered comparison of scene/layout diversity, constrained readout/calibration, and seed robustness needs a new primary objective and independent evaluation budget. Plan action negatives and state sufficiency remain separate blockers.",
+  "C_initial_states_copied_into_training": false,
+  "old_scores_preserved": true
+}

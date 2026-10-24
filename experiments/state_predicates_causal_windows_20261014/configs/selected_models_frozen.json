@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-10-14T12:22:58.956504+00:00",
+  "protocol_sha256": "2f4b974d83983f7a152e303a8188ce059ad3558e02b2a2403c351ab49ba13240",
+  "small_acceptance_warranted": false,
+  "selection": "Predeclared old+newC selection; no checkpoint replacement after this freeze",
+  "models": [
+    {
+      "arm": "ordinary_negative",
+      "seed": 0,
+      "selected_update": 225,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/ordinary_negative/seed0/update0225.pt",
+      "checkpoint_sha256": "1a988fbb546ed554e08711fa08988bed6468d21d49eb76e8f10de31f456b9f27",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "ordinary_negative",
+      "seed": 1,
+      "selected_update": 1500,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/ordinary_negative/seed1/update1500.pt",
+      "checkpoint_sha256": "fd99cf59b7d537c54f610ff31c179fe216a6e17a4f0cb6ff1e3b25d4480f676f",
+      "qualified": false,
+      "thresholds": [
+        1.000001,
+        0.975,
+        0.5
+      ]
+    },
+    {
+      "arm": "ordinary_negative",
+      "seed": 2,
+      "selected_update": 1425,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/ordinary_negative/seed2/update1425.pt",
+      "checkpoint_sha256": "6abb255c92518da62a54d5a20b0c926e2bd445b25c00c2f6b1aec732fe56cdd2",
+      "qualified": false,
+      "thresholds": [
+        0.5,
+        1.000001,
+        0.5
+      ]
+    },
+    {
+      "arm": "hard_negative",
+      "seed": 0,
+      "selected_update": 225,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/hard_negative/seed0/update0225.pt",
+      "checkpoint_sha256": "10842611e3cc289bdf1235fac12bee4ce7b7169a6dadd68ab7df30a934f2afa8",
+      "qualified": false,
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "hard_negative",
+      "seed": 1,
+      "selected_update": 75,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/hard_negative/seed1/update0075.pt",
+      "checkpoint_sha256": "6acf2a11abc8a197bc343db3124ee24d1dd2e8031ddc881fc4ad0b2b731bb11a",
+      "qualified": false,
+      "thresholds": [
+        1.000001,
+        1.000001,
+        0.5
+      ]
+    },
+    {
+      "arm": "hard_negative",
+      "seed": 2,
+      "selected_update": 1500,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/models/hard_negative/seed2/update1500.pt",
+      "checkpoint_sha256": "58ee8a0dd281eb0e767de37e8debb7f4dba1008a145d097b5dcb85ca6b101181",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

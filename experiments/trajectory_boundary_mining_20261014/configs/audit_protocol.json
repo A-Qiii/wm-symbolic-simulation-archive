@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-14T11:55:01.430842+00:00",
+  "scope": "Existing A/B source trajectories only. C and D trajectory content remains unopened by this mining run.",
+  "held_semantics": "At the anchor frame: bilateral force-bearing descendant fingers, force>0.01, no external force-bearing contact. Previous frames may have different labels. No future frame is an input.",
+  "hard_negative_definition": "Anchor bilateral force-bearing fingers AND external force-bearing contact, closed command, TCP<75mm; exactly not held under unchanged physical rule. Frame history at t-3..t must exist.",
+  "original_supplement_selection": "Original predicate required all4frames to be visible, nonheld, externally supported, near, closed-command, descend_named_block. This audit separately counts transient anchor facts and stable4 requirements.",
+  "visibility": "Supplement has saved exact mask pixel counts in private audit. Core full video has only RGB colour-pixel proxy; not exact segmentation. Visibility is reported separately, never invented.",
+  "public_input_contract": "Existing reader requires original RGB, per-frame visible masks and robot_obs. Decoded MP4 is lossy and no substitute mask may be generated from private states.",
+  "training": "No training unless complete original public windows and held-out development design are feasible; no model or controller change.",
+  "finger_families": [
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "training_roots_only": true,
+  "prior_preflight": "Supplement A/B preliminary trace inspection already showed3stable roots versus12anchor roots; protocol freezes the full audit definitions, not a claimed blind discovery."
+}

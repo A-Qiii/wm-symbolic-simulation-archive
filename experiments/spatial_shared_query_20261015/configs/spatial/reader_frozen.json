@@ -1,0 +1,279 @@
+{
+  "update": 600,
+  "C_selection_loss": 0.011838712729513645,
+  "path": "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/models/spatial/query9_seed0_update0600.pt",
+  "sha256": "9ff14139b0aa7d49d9fdf664e10b0aec6b0050618919f9894aa3289336aab634",
+  "C_new": {
+    "windows": 210,
+    "fully_valid9": 209,
+    "all9_correct_fully_valid": 203,
+    "valid_facts": 1889,
+    "correct_valid_facts": 1882,
+    "Holding_all3_correct": 210,
+    "facts": {
+      "Holding(red)": {
+        "positive": 2,
+        "negative": 208,
+        "TP": 2,
+        "TN": 208,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(blue)": {
+        "positive": 2,
+        "negative": 208,
+        "TP": 2,
+        "TN": 208,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(pink)": {
+        "positive": 2,
+        "negative": 208,
+        "TP": 2,
+        "TN": 208,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(red,drawer)": {
+        "positive": 48,
+        "negative": 161,
+        "TP": 48,
+        "TN": 161,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(blue,drawer)": {
+        "positive": 49,
+        "negative": 161,
+        "TP": 48,
+        "TN": 160,
+        "FP": 1,
+        "FN": 1,
+        "UNKNOWN": 0
+      },
+      "In(pink,drawer)": {
+        "positive": 44,
+        "negative": 166,
+        "TP": 44,
+        "TN": 163,
+        "FP": 3,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Closed(drawer)": {
+        "positive": 40,
+        "negative": 170,
+        "TP": 40,
+        "TN": 170,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Open(drawer)": {
+        "positive": 99,
+        "negative": 111,
+        "TP": 98,
+        "TN": 111,
+        "FP": 0,
+        "FN": 1,
+        "UNKNOWN": 0
+      },
+      "Intermediate(drawer)": {
+        "positive": 71,
+        "negative": 139,
+        "TP": 71,
+        "TN": 138,
+        "FP": 1,
+        "FN": 0,
+        "UNKNOWN": 0
+      }
+    }
+  },
+  "C_legacy_Holding": {
+    "windows": 84,
+    "fully_valid9": 0,
+    "all9_correct_fully_valid": 0,
+    "valid_facts": 252,
+    "correct_valid_facts": 252,
+    "Holding_all3_correct": 84,
+    "facts": {
+      "Holding(red)": {
+        "positive": 9,
+        "negative": 75,
+        "TP": 9,
+        "TN": 75,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(blue)": {
+        "positive": 12,
+        "negative": 72,
+        "TP": 12,
+        "TN": 72,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(pink)": {
+        "positive": 11,
+        "negative": 73,
+        "TP": 11,
+        "TN": 73,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(red,drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(blue,drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(pink,drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Closed(drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Open(drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Intermediate(drawer)": {
+        "positive": 0,
+        "negative": 0,
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      }
+    }
+  },
+  "AB_new": {
+    "windows": 420,
+    "fully_valid9": 413,
+    "all9_correct_fully_valid": 412,
+    "valid_facts": 3773,
+    "correct_valid_facts": 3772,
+    "Holding_all3_correct": 420,
+    "facts": {
+      "Holding(red)": {
+        "positive": 4,
+        "negative": 416,
+        "TP": 4,
+        "TN": 416,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(blue)": {
+        "positive": 4,
+        "negative": 416,
+        "TP": 4,
+        "TN": 416,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Holding(pink)": {
+        "positive": 4,
+        "negative": 416,
+        "TP": 4,
+        "TN": 416,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(red,drawer)": {
+        "positive": 90,
+        "negative": 326,
+        "TP": 90,
+        "TN": 325,
+        "FP": 1,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(blue,drawer)": {
+        "positive": 97,
+        "negative": 322,
+        "TP": 97,
+        "TN": 322,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "In(pink,drawer)": {
+        "positive": 88,
+        "negative": 330,
+        "TP": 88,
+        "TN": 330,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Closed(drawer)": {
+        "positive": 83,
+        "negative": 337,
+        "TP": 83,
+        "TN": 337,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Open(drawer)": {
+        "positive": 198,
+        "negative": 222,
+        "TP": 198,
+        "TN": 222,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      },
+      "Intermediate(drawer)": {
+        "positive": 139,
+        "negative": 281,
+        "TP": 139,
+        "TN": 281,
+        "FP": 0,
+        "FN": 0,
+        "UNKNOWN": 0
+      }
+    }
+  }
+}

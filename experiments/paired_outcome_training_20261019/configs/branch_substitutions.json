@@ -1,0 +1,974 @@
+[
+  {
+    "slot": 0,
+    "root_id": "A_recovery_train_00",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 1,
+    "root_id": "A_recovery_train_00",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 2,
+    "root_id": "B_recovery_train_00",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 3,
+    "root_id": "B_recovery_train_00",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ]
+  },
+  {
+    "slot": 4,
+    "root_id": "A_recovery_train_01",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 5,
+    "root_id": "A_recovery_train_01",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 6,
+    "root_id": "B_recovery_train_01",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 7,
+    "root_id": "B_recovery_train_01",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ]
+  },
+  {
+    "slot": 8,
+    "root_id": "A_recovery_train_02",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 9,
+    "root_id": "A_recovery_train_02",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "failed",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "failed",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 10,
+    "root_id": "B_recovery_train_02",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 11,
+    "root_id": "B_recovery_train_02",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 12,
+    "root_id": "A_recovery_train_03",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "failed"
+    ]
+  },
+  {
+    "slot": 13,
+    "root_id": "A_recovery_train_03",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 14,
+    "root_id": "B_recovery_train_03",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 15,
+    "root_id": "B_recovery_train_03",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ]
+  },
+  {
+    "slot": 16,
+    "root_id": "A_recovery_train_04",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 17,
+    "root_id": "A_recovery_train_04",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 18,
+    "root_id": "B_recovery_train_04",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 19,
+    "root_id": "B_recovery_train_04",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 20,
+    "root_id": "A_recovery_train_05",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 21,
+    "root_id": "A_recovery_train_05",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "failed"
+    ]
+  },
+  {
+    "slot": 22,
+    "root_id": "B_recovery_train_05",
+    "control_branch": 0,
+    "paired_branch": 1,
+    "changed_action_indices": [
+      1,
+      3
+    ],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "success",
+      "failed",
+      "refused",
+      "refused",
+      "success"
+    ]
+  },
+  {
+    "slot": 23,
+    "root_id": "B_recovery_train_05",
+    "control_branch": 2,
+    "paired_branch": 2,
+    "changed_action_indices": [],
+    "control_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "paired_requested": [
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "control_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ],
+    "paired_actual_status": [
+      "success",
+      "failed",
+      "refused",
+      "success",
+      "failed",
+      "success"
+    ]
+  }
+]

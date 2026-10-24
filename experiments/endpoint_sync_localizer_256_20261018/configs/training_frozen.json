@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-18T13:22:04.915139+00:00",
+  "before_first_optimizer_update": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/net.py": "09482358350203a4e562f5f804b4adaeff74764b00606954eb18faae26e098b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/collect.py": "8ad7c3d17775257b0ecb602cce27ebfbfe3c22a7d08404d139c7ba9c3f77907d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/predict.py": "cc1a86cea6515a7b3b3560936c346ba85f22cf04052305f41c00c897b533e683",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/score.py": "6687933018d78a84dd64dabed40c281bc2c564939a4d8fa2d7164629870b0437",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/geometry.py": "e81746c91c8b0d2ee97ce98792f6b089c4634a2c78a04adae070d2f3168827a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/features.py": "886b10ec60a4195a9b2711880c8fecbb511c43f7018e944e9bd1cde0f9eaf757",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/train.py": "244a40c72759b65f68423fb681d48554f089ca168e14cf03e7cc501375f93231",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/common.py": "4eec80b80d2b2589c5f8d5a5740eed4b39bf7102e1fc8db27b7d64d3e1080be2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/prepare_train.py": "d8593bf8a515aff52c894430c410e0ecc26961030b2eaa86c5fc3425d71dcdb5",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/prepare.py": "63ef8752ecba5e35f69856fd05ec0fb197bc41ad8543f59ba5a138b5a29d72e6",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/source/gate.py": "34a0e6c8081b6ae192454fe0804e20e2ee31a1b3d40691869e66272512e07646",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/models/initial_seed1.pt": "0fbe9a306dff4350b13c11508bbbdd21a555c24b5e000cb14cb3b0bc5d2e16cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/models/initial_seed0.pt": "49ef590a2e47b17ed1c88dc4aae64a33ba98a9aff3cb13d33415ef25672e4dd3",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/data/train/train.npz": "10164da4aa82c0131ef1b2bd65a9ca4fc9934c7e4ce9f6e1a5571d716590fdb3",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/protocol.json": "cacd29341c27c2eea445dad2cdbf926001de646cec3934055c3f53c449157648",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/normalization.npz": "ee995abdb5c7a378d6cf4bf0d4413efb944eee6d1bc9dc9f584cef9291e31d8a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/schedule_seed1.npy": "983c7d7bd555814fba79e643b1c0e5177e6d2aea3f3e270cda753e26ccf583de",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_localizer_256_20261018/configs/schedule_seed0.npy": "9c58e69d953d9f3f84fd61883be63e8dada79b8c4bef7edf50ee9ef5400dc856"
+  }
+}

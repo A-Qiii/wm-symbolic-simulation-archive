@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T02:59:45.458596+00:00",
+  "status": "design_sealed_for_review_not_execution_authorization",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/PROTOCOL.md": "ddfe3bea073b4ed80a41b4427a713b41ad1e37b04f3e79f583e04b99e2836c2f",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/audit/action_binding.json": "eaa9e26ee61a6a90e5d8eda0cc327da93b23130f8c901e494982b65b6ff97fd9",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/audit/controller_support.json": "a6605eb8edcaa5f88f43d7eb5d5fca30eb9d928824653bd000e78cc40b5c3474",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/audit/design_verification.json": "7e85f322aa1e446f4eb6527907f31ebc0f18796887e938f10d8496aa85dc0b19",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/audit/initialization_exclusion.json": "dde90c68fc6c22e8f430c49182e683d63e7d8432b01eed3ff030272e4fb0a63d",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/audit/preservation.json": "f00991d528925389372d244e84790f6083fed8a63f73a79896021dde88eaca82",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/configs/expected_states_design_only.json": "90ad0d1a188dfa1e26fedcb990c8e41a7094e8ac15a7e67f3edb7ea0eb9f02a3",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/configs/frozen_references.json": "90b978c05a8728e5863970818963d3f75dd4df9d49764cf243fe06101cd70e1c",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/configs/native_geometry_proposed.json": "d0c296426991328d00f17be6d6b102e61d8a6b85f0f6f3c454ab754c8c97c80c",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/configs/protocol_proposed.json": "7e8f2182855cb201d01ffdeb3797db80faf5105ef504ec6a561fd32106173850",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/configs/roots_proposed.json": "8ebff1e0323d6f80f12e256525f7168d5833260371f09fc3cf9c5c136dbf61ef",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/source/build_protocol.py": "9c82dca99c911c96f243674e2b3e76886389cddc12a7f0d4e3a8955cf84afbdc"
+  }
+}

@@ -1,0 +1,978 @@
+{
+  "operators": [
+    {
+      "id": "open_0",
+      "family": "open",
+      "preconditions": [],
+      "add": [
+        "Open(drawer)"
+      ],
+      "delete": [
+        "Closed(drawer)"
+      ],
+      "supported": true
+    },
+    {
+      "id": "lift_0",
+      "family": "lift",
+      "preconditions": [],
+      "add": [
+        "Holding(x)"
+      ],
+      "delete": [],
+      "supported": true
+    },
+    {
+      "id": "place_0",
+      "family": "place",
+      "preconditions": [],
+      "add": [
+        "In(x,drawer)"
+      ],
+      "delete": [
+        "Holding(x)"
+      ],
+      "supported": true
+    },
+    {
+      "id": "close_0",
+      "family": "close",
+      "preconditions": [],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false
+    },
+    {
+      "id": "close_1",
+      "family": "close",
+      "preconditions": [
+        [
+          "AnyIn()",
+          true
+        ],
+        [
+          "TwoOrMoreIn()",
+          false
+        ]
+      ],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false
+    },
+    {
+      "id": "close_2",
+      "family": "close",
+      "preconditions": [
+        [
+          "AnyIn()",
+          true
+        ],
+        [
+          "TwoOrMoreIn()",
+          false
+        ]
+      ],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false
+    }
+  ],
+  "AB_only": true,
+  "audit": [
+    {
+      "id": "open_0",
+      "family": "open",
+      "preconditions": [],
+      "add": [
+        "Open(drawer)"
+      ],
+      "delete": [
+        "Closed(drawer)"
+      ],
+      "supported": true,
+      "positive_calls": 6,
+      "negative_calls": 0,
+      "real_failures": 0,
+      "other_effect_clusters": 0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "objective": 1.0,
+      "accuracy": 1.0,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          0
+        ]
+      ],
+      "negative_episode_steps": []
+    },
+    {
+      "id": "lift_0",
+      "family": "lift",
+      "preconditions": [],
+      "add": [
+        "Holding(x)"
+      ],
+      "delete": [],
+      "supported": true,
+      "positive_calls": 6,
+      "negative_calls": 0,
+      "real_failures": 0,
+      "other_effect_clusters": 0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "objective": 1.0,
+      "accuracy": 1.0,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          1
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          1
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          1
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          1
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          1
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          1
+        ]
+      ],
+      "negative_episode_steps": []
+    },
+    {
+      "id": "place_0",
+      "family": "place",
+      "preconditions": [],
+      "add": [
+        "In(x,drawer)"
+      ],
+      "delete": [
+        "Holding(x)"
+      ],
+      "supported": true,
+      "positive_calls": 6,
+      "negative_calls": 0,
+      "real_failures": 0,
+      "other_effect_clusters": 0,
+      "no_exact_separator": false,
+      "unbound_effect_columns": [],
+      "objective": 1.0,
+      "accuracy": 1.0,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          2
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          2
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          2
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          2
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          2
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          2
+        ]
+      ],
+      "negative_episode_steps": []
+    },
+    {
+      "id": "close_0",
+      "family": "close",
+      "preconditions": [],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false,
+      "positive_calls": 42,
+      "negative_calls": 12,
+      "real_failures": 7,
+      "other_effect_clusters": 5,
+      "no_exact_separator": true,
+      "unbound_effect_columns": [],
+      "objective": 0.7777777777777778,
+      "accuracy": 0.7777777777777778,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          3
+        ]
+      ],
+      "negative_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ]
+      ]
+    },
+    {
+      "id": "close_1",
+      "family": "close",
+      "preconditions": [
+        [
+          "AnyIn()",
+          true
+        ],
+        [
+          "TwoOrMoreIn()",
+          false
+        ]
+      ],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false,
+      "positive_calls": 4,
+      "negative_calls": 50,
+      "real_failures": 7,
+      "other_effect_clusters": 43,
+      "no_exact_separator": true,
+      "unbound_effect_columns": [
+        4
+      ],
+      "objective": 0.5165185185185185,
+      "accuracy": 0.5185185185185185,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ]
+      ],
+      "negative_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "close_2",
+      "family": "close",
+      "preconditions": [
+        [
+          "AnyIn()",
+          true
+        ],
+        [
+          "TwoOrMoreIn()",
+          false
+        ]
+      ],
+      "add": [
+        "Closed(drawer)"
+      ],
+      "delete": [
+        "Open(drawer)"
+      ],
+      "supported": false,
+      "positive_calls": 1,
+      "negative_calls": 53,
+      "real_failures": 7,
+      "other_effect_clusters": 46,
+      "no_exact_separator": true,
+      "unbound_effect_columns": [
+        5
+      ],
+      "objective": 0.46096296296296296,
+      "accuracy": 0.46296296296296297,
+      "positive_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ]
+      ],
+      "negative_episode_steps": [
+        [
+          "A_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ],
+        [
+          "A_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "A_semantics_v2_chain_pink_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_red_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_red_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_blue_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_blue_0__chain",
+          3
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_0__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__table_open",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__single_inside",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__stacked",
+          0
+        ],
+        [
+          "B_semantics_v2_fixtures_pink_1__separated",
+          0
+        ],
+        [
+          "B_semantics_v2_chain_pink_0__chain",
+          3
+        ]
+      ]
+    }
+  ],
+  "candidate_preconditions": "Existing9 facts plus EmptyHand,AnyIn,TwoOrMoreIn (fixed derived predicates); no colour identity and no hidden geometry in learner; unsupported clusters not available for search.",
+  "GT_supervision_only_not_visual_inference": true
+}

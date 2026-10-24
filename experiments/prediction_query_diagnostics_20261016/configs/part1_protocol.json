@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-16T11:45:55.012299+00:00",
+  "model": "canonical_matched seed0/update1000 and original query head",
+  "cohorts": "Same5 complete normal reference roots and10 complete refusal-containing recorded-action roots from sealed horizon diagnostic; all85 observed steps retained as supplementary.",
+  "comparisons": [
+    "actual successor encoded/read",
+    "one-step from true preceding observation",
+    "recursive from initial observation only"
+  ],
+  "paired_analysis": "By trajectory, step and each of9 propositions; do not subtract aggregate accuracies as causal attribution.",
+  "model_updates": 0,
+  "simulation_calls": 0,
+  "planning_calls": 0
+}

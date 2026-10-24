@@ -1,0 +1,5 @@
+{
+  "algorithm": "Fixed seeded swaps, <=100000; reject reversed bin midpoints; no physics/outcome/model scores",
+  "iterations": 92,
+  "violations": 0
+}

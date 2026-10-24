@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-19T02:50:46.556507+00:00",
+  "before_any_saved_model_prediction": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/evaluate.py": "96d29bb65118d1cc93ece5cb7ba18dc4c17114e291e42b01826d3f768fa19ae8",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/probes.py": "c4f2217019981697aa35cf2a81de03748e97ff811f9fb40448ce62bc993c9fb4",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/score.py": "ca9c9e2be36ed7b6f8de366eb03e8d9bbf2ed77e7e64d07481b38bb22cc3de3f",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/test_score.py": "04c572e5a3d497967cf3cf4964332d7d8dd2ac0a64f4d1a2b77d59e680705d50",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/freeze_evaluation.py": "cebe6df7423f206115261006680c7c8d533dc7b2a8430659850b76da7688a2eb",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/scope_design.py": "5ed2b345ee42b6259ce3c51c4d510ca1932a7e55269803ab1cc7330c8e4a0c20",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/source/common.py": "def0116ce85b3e191e4a8bc0d60c4ac04f467aa57880613b5b74c26fef085320",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_encoder_gradient_20261019/configs/evaluation_addendum.json": "a5b275278acb8cfbeff49d61aebe8b063bec9bbcf3ac0805c91dffb0c5009e35"
+  }
+}

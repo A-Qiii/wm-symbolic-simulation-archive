@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-19T15:22:02.424572+00:00",
+  "before_validation_prediction": true,
+  "fits": 6,
+  "updates": 9000,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/geometry_seed0.pt": "f0ec0c4a47aaf6302c01d5599c56fafa7613700723d90890263001428633271d",
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/geometry_seed1.pt": "dad5601dcbc18b5ef925b21af2edff9132fbccb043d2ead00df5a7e2c6bbcdf2",
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/linear_seed0.pt": "7a8f7d6b6c6965e319115e87198c0693dfb0d526cacf8ccf2ab2caba61cf715d",
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/linear_seed1.pt": "9aead006764900671d857a32934880e13e822a1bf365e398f9382a9e1ea2bd1e",
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/mlp_seed0.pt": "169830767d38429af194fbed40aebec2f7d19281a62bd8788c83507b040930f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_run_20261019/models/mlp_seed1.pt": "72b9d9cc8599cca6b5dada80c6b554fffc60284572471d77312f932d04a9faba"
+  }
+}

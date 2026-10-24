@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-19T15:22:02.459660+00:00",
+  "before_evaluation_prediction": true,
+  "criterion": "Final-step validation h0 root-weighted MAE, tie linear; no refit",
+  "selection": [
+    {
+      "seed": 0,
+      "validation_h0_root_MAE_mm": {
+        "linear": 57.645748576583934,
+        "mlp": 43.17167102951596
+      },
+      "selected": "mlp"
+    },
+    {
+      "seed": 1,
+      "validation_h0_root_MAE_mm": {
+        "linear": 53.16643556154041,
+        "mlp": 59.01787357560704
+      },
+      "selected": "linear"
+    }
+  ]
+}

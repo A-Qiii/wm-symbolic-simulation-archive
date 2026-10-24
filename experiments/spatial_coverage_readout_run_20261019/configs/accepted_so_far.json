@@ -1,0 +1,584 @@
+[
+  {
+    "root_id": "A_coverage_train_00",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019100,
+    "initial_state": "open_held",
+    "held_color": "pink",
+    "layout": {
+      "block_red": [
+        -0.042146280807523404,
+        -0.13651874580082685,
+        0.46,
+        0.0,
+        0.0,
+        -2.846294909126831
+      ],
+      "block_blue": [
+        0.32548484337700867,
+        -0.10147939938357498,
+        0.46,
+        0.0,
+        0.0,
+        0.9410215097952568
+      ],
+      "block_pink": [
+        -0.1149909814044275,
+        -0.07465146394888862,
+        0.46,
+        0.0,
+        0.0,
+        0.3977546842015198
+      ]
+    },
+    "branches": [
+      [
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_red_block_table"
+      ],
+      [
+        "close_drawer",
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer"
+      ],
+      [
+        "lift_red_block_table",
+        "place_in_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "paired_old_root": "A_core1200_02"
+  },
+  {
+    "root_id": "A_coverage_train_01",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019101,
+    "initial_state": "closed_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        0.2596445447309696,
+        -0.1032929177178077,
+        0.46,
+        0.0,
+        0.0,
+        -2.769974692769711
+      ],
+      "block_blue": [
+        0.11089042166155327,
+        -0.07175693904960723,
+        0.46,
+        0.0,
+        0.0,
+        1.3418447432752707
+      ],
+      "block_pink": [
+        -0.08544422320989901,
+        -0.05791056219115108,
+        0.46,
+        0.0,
+        0.0,
+        2.9408880324398714
+      ]
+    },
+    "branches": [
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_pink_block_table",
+        "close_drawer",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [],
+    "paired_old_root": "A_core1200_03"
+  },
+  {
+    "root_id": "A_coverage_train_02",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019102,
+    "initial_state": "open_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        -0.018962673368427774,
+        -0.11008654367207266,
+        0.46,
+        0.0,
+        0.0,
+        -3.01684860688313
+      ],
+      "block_blue": [
+        0.2675684429646257,
+        -0.09236840766217518,
+        0.46,
+        0.0,
+        0.0,
+        0.3929904885345379
+      ],
+      "block_pink": [
+        0.045867397382428385,
+        -0.06944247556642491,
+        0.46,
+        0.0,
+        0.0,
+        -2.170001420084172
+      ]
+    },
+    "branches": [
+      [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "lift_red_block_table",
+        "close_drawer",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer"
+    ],
+    "paired_old_root": "A_core1200_04"
+  },
+  {
+    "root_id": "A_coverage_train_03",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019103,
+    "initial_state": "closed_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        0.33266542679763567,
+        -0.1173696938522926,
+        0.46,
+        0.0,
+        0.0,
+        -2.990702323964252
+      ],
+      "block_blue": [
+        0.006409561303765038,
+        -0.11296738570241174,
+        0.46,
+        0.0,
+        0.0,
+        0.06682825150298788
+      ],
+      "block_pink": [
+        0.12860971703018972,
+        -0.09748515036066406,
+        0.46,
+        0.0,
+        0.0,
+        -2.8620424077311313
+      ]
+    },
+    "branches": [
+      [
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_blue_block_table",
+        "close_drawer",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [],
+    "paired_old_root": "A_core1200_05"
+  },
+  {
+    "root_id": "A_coverage_train_04",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019104,
+    "initial_state": "open_held",
+    "held_color": "red",
+    "layout": {
+      "block_red": [
+        -0.13587649738732646,
+        -0.06542571951365415,
+        0.46,
+        0.0,
+        0.0,
+        0.01318740161871279
+      ],
+      "block_blue": [
+        0.19795435914380485,
+        -0.055780662840534304,
+        0.46,
+        0.0,
+        0.0,
+        0.8970425098270862
+      ],
+      "block_pink": [
+        0.08796138604895237,
+        -0.10162005392655095,
+        0.46,
+        0.0,
+        0.0,
+        -2.3750779081662796
+      ]
+    },
+    "branches": [
+      [
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer",
+        "lift_blue_block_table"
+      ],
+      [
+        "close_drawer",
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer"
+      ],
+      [
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "paired_old_root": "A_core1200_06"
+  },
+  {
+    "root_id": "A_coverage_train_05",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019105,
+    "initial_state": "closed_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        -0.09316343280683391,
+        -0.060000102889904997,
+        0.46,
+        0.0,
+        0.0,
+        -1.1275807242068385
+      ],
+      "block_blue": [
+        0.29378437525243284,
+        -0.09389823297018737,
+        0.46,
+        0.0,
+        0.0,
+        -3.116238247274976
+      ],
+      "block_pink": [
+        -0.011595122014012537,
+        -0.06213288538421842,
+        0.46,
+        0.0,
+        0.0,
+        -2.9918638636288764
+      ]
+    },
+    "branches": [
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_pink_block_table",
+        "close_drawer",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [],
+    "paired_old_root": "A_core1200_09"
+  },
+  {
+    "root_id": "A_coverage_train_06",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019106,
+    "initial_state": "closed_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        0.12400429753283349,
+        -0.07983621609975744,
+        0.46,
+        0.0,
+        0.0,
+        2.3704972751359525
+      ],
+      "block_blue": [
+        0.29853246231416236,
+        -0.06627561312889527,
+        0.46,
+        0.0,
+        0.0,
+        2.157148539406033
+      ],
+      "block_pink": [
+        0.025154008449812068,
+        -0.13291376554931617,
+        0.46,
+        0.0,
+        0.0,
+        2.199465769193213
+      ]
+    },
+    "branches": [
+      [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "close_drawer",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [],
+    "paired_old_root": "A_core1200_10"
+  },
+  {
+    "root_id": "A_coverage_train_07",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019107,
+    "initial_state": "open_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        0.05437253960969184,
+        -0.1204054051019113,
+        0.46,
+        0.0,
+        0.0,
+        1.740141822861193
+      ],
+      "block_blue": [
+        0.17291243864254727,
+        -0.1044099277560509,
+        0.46,
+        0.0,
+        0.0,
+        -1.3830317114647133
+      ],
+      "block_pink": [
+        -0.040240867644548435,
+        -0.07863175286570273,
+        0.46,
+        0.0,
+        0.0,
+        2.9021721939401006
+      ]
+    },
+    "branches": [
+      [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "lift_blue_block_table",
+        "close_drawer",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer"
+    ],
+    "paired_old_root": "A_core1200_11"
+  },
+  {
+    "root_id": "A_coverage_train_08",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019108,
+    "initial_state": "closed_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        -0.09990147838665159,
+        -0.07811108595167257,
+        0.46,
+        0.0,
+        0.0,
+        -3.1144365170358648
+      ],
+      "block_blue": [
+        0.008647442491902616,
+        -0.10742578784219273,
+        0.46,
+        0.0,
+        0.0,
+        0.8416544510358639
+      ],
+      "block_pink": [
+        0.3475015233749172,
+        -0.13941029102499747,
+        0.46,
+        0.0,
+        0.0,
+        -0.21092755514572126
+      ]
+    },
+    "branches": [
+      [
+        "open_drawer",
+        "lift_blue_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "place_in_drawer",
+        "open_drawer",
+        "lift_pink_block_table",
+        "place_in_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "close_drawer",
+        "place_in_drawer"
+      ]
+    ],
+    "setup_skills": [],
+    "paired_old_root": "A_core1200_13"
+  },
+  {
+    "root_id": "A_coverage_train_09",
+    "environment": "A",
+    "split": "train",
+    "dev_role": null,
+    "seed": 261019109,
+    "initial_state": "open_empty",
+    "held_color": null,
+    "layout": {
+      "block_red": [
+        0.07746117576843811,
+        -0.13373853926230847,
+        0.46,
+        0.0,
+        0.0,
+        2.2249817184529688
+      ],
+      "block_blue": [
+        -0.08925144196186241,
+        -0.1270909358515312,
+        0.46,
+        0.0,
+        0.0,
+        1.0383139735617206
+      ],
+      "block_pink": [
+        0.1604096716598644,
+        -0.11740416047975075,
+        0.46,
+        0.0,
+        0.0,
+        0.4605843441628945
+      ]
+    },
+    "branches": [
+      [
+        "lift_pink_block_table",
+        "place_in_drawer",
+        "close_drawer",
+        "open_drawer"
+      ],
+      [
+        "open_drawer",
+        "lift_red_block_table",
+        "place_in_drawer",
+        "close_drawer"
+      ],
+      [
+        "lift_blue_block_table",
+        "close_drawer",
+        "place_in_drawer",
+        "close_drawer"
+      ]
+    ],
+    "setup_skills": [
+      "open_drawer"
+    ],
+    "paired_old_root": "A_core1200_14"
+  }
+]

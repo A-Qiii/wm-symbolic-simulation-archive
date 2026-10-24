@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-20T01:33:08.639663+00:00",
+  "before_model_evaluation": true,
+  "check": "Matched pre-fault public observations and identical requested action must produce identical deterministic one-step priors; distinguish this unavoidable ambiguity from posterior correction. Original errors remain counted.",
+  "source_sha256": "b3bba10cd6db2fe8ebaf8f0a6929c7526dcc20d6ef47ac8e5f70196cbe1d4d0a"
+}

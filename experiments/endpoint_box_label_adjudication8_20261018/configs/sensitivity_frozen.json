@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-18T11:34:49.449269+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/results/sensitivity.json": "6a9feb3b6d48d6005e27df04887fa69693d79c32a1456f8be56edb8b581131f0",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/results/saved_predictions_selected8.json": "8e536c3d84574d3027c1d22793d62419e703f5cda64b6285df39560f88e6dbf4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/data/labels/denominator_changes.json": "8e7d206bbb78d5822ff0c78d427795bd6bc9e5c65098c4979447092669e9901f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_label_adjudication8_20261018/source/score.py": "4dfc9ef664f3f15e82159ff9c3f1ad1f260735ef787be686ecec3754fcdba213"
+  }
+}

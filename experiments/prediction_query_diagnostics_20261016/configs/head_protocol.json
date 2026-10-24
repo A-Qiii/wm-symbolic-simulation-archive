@@ -1,0 +1,72 @@
+{
+  "frozen_utc": "2026-10-16T11:52:27.187367+00:00",
+  "scope": "Only retrain original25473-parameter Query MLP. Same canonical_matched world-model seed0/update1000 frozen for all runs; seeds0/1 below are QUERY initialization and sampler seeds, not two encoders. No dynamics/encoder/planner training, simulation, new evaluation collection, packages or threshold changes.",
+  "arms": [
+    "original_coverage",
+    "intermediate_coverage"
+  ],
+  "query_seeds": [
+    0,
+    1
+  ],
+  "initialization": "Fresh original Query class, torch seed3000+query_seed, identical state within paired arms. No extra capacity.",
+  "normalization": "Original query_seed0 normalization reused exactly, fitted previously on AB representation states; no recomputation from C/D or added states.",
+  "updates_per_run": 1200,
+  "batch_size": 32,
+  "sample_draws_per_run": 38400,
+  "distinct_training_states_per_arm": 144,
+  "shared_training_states": 128,
+  "replacement_states": 16,
+  "base_draws_per_update": 20,
+  "aux_draws_per_update": 12,
+  "control_aux": "12 root-balanced draws from original144-state pool.",
+  "coverage_aux": "4 root-balanced draws each from holding_open, post_place, holding_closed strata.",
+  "shared_base": "Exactly same20 state IDs per update across arms, from common128 states, root-balanced.",
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1
+  },
+  "loss": "Same original masked average of Holding BCE, In BCE and drawer3-class CE; validity masks preserved. Both arms use same fixed weights computed from original144 labels, not arm-dependent weights.",
+  "class_weights": [
+    20.0,
+    20.0,
+    20.0,
+    5.142857074737549,
+    5.142857074737549,
+    5.142857074737549,
+    0.6760563254356384,
+    0.8888888955116272,
+    2.526315689086914
+  ],
+  "checkpoints": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "selection": "Minimum C-selection root-macro masked query loss; earlier tie. All1200 updates run. C-validation not loaded for selection.",
+  "thresholds": "Holding/In probability>=0.5, drawer argmax; unchanged.",
+  "C_selection_roots": [
+    "C_semantics_v2_chain_blue_0",
+    "C_semantics_v2_fixtures_red_0",
+    "C_semantics_v2_fixtures_blue_0",
+    "C_semantics_v2_fixtures_pink_0",
+    "C_statedep_place_blue_0"
+  ],
+  "C_validation_roots": [
+    "C_semantics_v2_chain_pink_0",
+    "C_semantics_v2_chain_red_0",
+    "C_semantics_v2_fixtures_blue_1",
+    "C_semantics_v2_fixtures_pink_1",
+    "C_semantics_v2_fixtures_red_1",
+    "C_statedep_place_pink_1"
+  ],
+  "C_split_rule": "Public root-name rule fixed before new training: blue chain, rep0 fixtures in each colour, blue matched root for selection; remaining C roots held out for query validation.",
+  "known_history": "C was used in earlier representation experiments; current query selection/validation roots are disjoint but this is not a brand-new unseen world-model generalization test. D/D2 have been inspected repeatedly and are diagnostic backtests only.",
+  "source_labels": "Existing frozen v2.1 labels, no new labels inferred. Extra matched states have6 valid Holding/drawer facts and3 unknown In facts due missing orientations. Unknown never becomesfalse.",
+  "partial_coverage_limit": "AB held_closed8 states/4roots; C held_closed4 states/2roots, one root2states in selection and one root2states in validation. Cannot establish complete9-fact held_closed readability or robust cross-root generalization from this data.",
+  "allowed_training_data": "AB true observation encodings only. No predicted-state labels, D, D2, the5 normal diagnostic roots, or recorded test streams in training/selection.",
+  "one_shot": "One predefined pair of coverage arms x2 seeds, no iterative repairs or validation-driven changes."
+}

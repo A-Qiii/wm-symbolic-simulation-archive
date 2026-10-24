@@ -1,0 +1,55 @@
+{
+  "utc": "2026-10-19T23:48:43.584022+00:00",
+  "actual_status": "completed_comparative_benefit_confirmed_joint_reliability_gate_failed",
+  "elapsed_minutes": 25.0763738155365,
+  "collection_seconds": 922.2428923089974,
+  "cache_seconds": 30.713978435996978,
+  "new_families": 8,
+  "roles": 48,
+  "branches": 96,
+  "real_transitions": 576,
+  "valid_physical_pairs": 48,
+  "frozen_model_checkpoints": 4,
+  "checkpoint_update": 1500,
+  "new_training_updates": 0,
+  "model_selection": false,
+  "threshold_changes": 0,
+  "new_labels_used_for_training": false,
+  "comparative_subcriteria_passed": true,
+  "relation_confirmation_gate": false,
+  "failed_current_conditions": [
+    {
+      "seed": 0,
+      "criterion": "h0_held",
+      "value": 0.75,
+      "rule": ">=0.95",
+      "passed": false
+    },
+    {
+      "seed": 0,
+      "criterion": "h0_relation",
+      "value": 0.75,
+      "rule": ">=0.95",
+      "passed": false
+    },
+    {
+      "seed": 0,
+      "criterion": "h2_pair",
+      "value": 0.7916666666666666,
+      "rule": ">=0.9",
+      "passed": false
+    }
+  ],
+  "old_training_fit_gate": false,
+  "old_record_unchanged": true,
+  "old_protocol_text_correction": {
+    "immutable_old_protocol_status": "DESIGN_ONLY_NOT_AUTHORIZED_TO_TRAIN",
+    "actual_old_execution": "four fits x1500 updates completed; fixed evaluation completed; full-state training-fit gate false",
+    "authority": "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/results/execution_complete.json",
+    "rule": "Frozen historical protocol text stays unchanged; actual execution is recorded separately here and in the old execution_complete.json."
+  },
+  "legacy_feasibility_phrase_correction": "All4models frozen before geometric preflight and collection; no model selection, current or future training in this run.",
+  "CD_rollouts_and_scoring": 0,
+  "uploads": 0,
+  "scope": "Known objects and fixed6-skill chain, AB new-layout transfer and observation recovery; not complete planning safety/HULC/TS-LTL acceptance."
+}

@@ -1,0 +1,65 @@
+{
+  "utc": "2026-10-17T04:26:21.680411+00:00",
+  "purpose": "Assess separate object In readout while preserving original formal Query Holding/drawer exactly. This changes architecture and objective, not a pure data-only comparison.",
+  "architecture": "shared64->32SiLU->1 MLP,2113parameters, corresponding context-enriched object token only",
+  "arms": [
+    "control",
+    "coverage"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "initialization_seeds": [
+    17075000,
+    17075001
+  ],
+  "paired_initial_weights_identical": true,
+  "batch_states": 32,
+  "objects_per_state": 3,
+  "updates": 600,
+  "schedule": "Exact previous24commonold+8replacement schedule, seed-specific. Control156oldstates;coverage156old+6dualstates. No additional states.",
+  "root_split": {
+    "diagnostic_D_seen": [
+      "D_combination_blue_00",
+      "D_combination_blue_01",
+      "D_combination_pink_00",
+      "D_combination_pink_01",
+      "D_combination_red_00",
+      "D_combination_red_01"
+    ],
+    "train": [
+      "A_combination_blue_00",
+      "A_combination_pink_00",
+      "A_combination_red_00",
+      "B_combination_blue_00",
+      "B_combination_pink_00",
+      "B_combination_red_00"
+    ],
+    "validation": [
+      "A_combination_blue_01",
+      "A_combination_pink_01",
+      "A_combination_red_01",
+      "B_combination_blue_01",
+      "B_combination_pink_01",
+      "B_combination_red_01"
+    ]
+  },
+  "normalization": "One common mean/std from156historicalABtrainingstates x3objecttokens;std floor0.01;no validation/C/D or added6states used in normalization.",
+  "optimizer": "freshAdamWlr0.001wd0.001,globalclip1",
+  "loss": "Only original In-group masked weightedBCE,mean overvalidobjects withinstate thenmean overstates;no Holding/drawer loss",
+  "positive_weights": [
+    5.142857074737549,
+    5.142857074737549,
+    5.142857074737549
+  ],
+  "fixed_outputs": "Original formal Query probability entries0:3 and6:9 copied unchanged for each seed/input; onlyentries3:6 replaced. No trueHolding/action mask.",
+  "selection": "fixedfinal600,no earlystop/hypersearch/thresholdfit;allfourrunsexposed",
+  "threshold": 0.5,
+  "evaluation": "Actual all9,In3,all9facts confusion,dual/nondual,selfheldobjectIn andnotselfheld;rootpaired metrics,unknownmasks;then same savedmixed/latent one-step/recursivez;oldquery+previouswholequeryarms parallel.",
+  "D": "previouslyobserved diagnostic only,no train/norm/selection",
+  "saved_probe_C_review": "performed before thistraining;MLParchitecture already specified byauthorization,not selected by C",
+  "stop": "no automatic adoption,new collection or further tuning;stop at analysis if retention fails",
+  "world_model_updates": 0,
+  "new_physical_calls": 0
+}

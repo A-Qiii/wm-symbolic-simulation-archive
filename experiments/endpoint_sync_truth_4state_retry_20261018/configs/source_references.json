@@ -1,0 +1,22 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/meshes/drawer_link.obj": "1edaf9102d40d48798dff1e0a47ababbe6696ff4e3eca8be9d7b1c19a50b29e2",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/urdf/calvin_table_A.urdf": "b2b84edb36450bc7cf807b2c6c7e9a7838aa03d17951b9188bd739b07a233bc9",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_B/meshes/drawer_link.obj": "1edaf9102d40d48798dff1e0a47ababbe6696ff4e3eca8be9d7b1c19a50b29e2",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_B/urdf/calvin_table_B.urdf": "c92dab7a62cb042aec29b8de3976a6483ece9ca53fc7ae4018a4ddc4c89aa2d6",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_C/meshes/drawer_link.obj": "1edaf9102d40d48798dff1e0a47ababbe6696ff4e3eca8be9d7b1c19a50b29e2",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_C/urdf/calvin_table_C.urdf": "ed191f3f480b9bf8319f7111ac39fd444f62b21b27279b2501e8875c90fb64fe",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_C.yaml": "a7cf204d27465ae80ec41aaa3a62ea4fc30346dda8413d6702969fc1e70a7ddc",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_D/meshes/drawer_link.obj": "1edaf9102d40d48798dff1e0a47ababbe6696ff4e3eca8be9d7b1c19a50b29e2",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_D/urdf/calvin_table_D.urdf": "b1068f81ec0af69cc784e9d42610fb83ea63ec150997d74a8a9b4e2c87d057f3",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_D.yaml": "f4515e439dd6b2edb55369ed421d2e47088543655970e049e5ffe760c1448c11",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/franka_panda/panda_longer_finger.urdf": "264bbb28f54af13f9392f5a2a3ee8e9be2e9dfc3a9231cf4f9147b6acc8d7ab9",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/camera/camera.py": "b538e1ef06f78f6b4d0d766a9c5c8d8ac9e0675e4faac7b967c7738b1a8da680",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/camera/static_camera.py": "aec23cf05bdcdbc5768d6f7b0a4b8415925c3ac0b703405bc270130f11cc0dcf",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/camera/gripper_camera.py": "aa0cd1e8e8cc0451f31ae600234c858c82442049828ef2b7c0c03405e93d5cf5",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda"
+  }
+}

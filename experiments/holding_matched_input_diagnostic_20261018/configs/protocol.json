@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-18T15:55:48.700549+00:00",
+  "scope": "Exploratory matched-input diagnosis on already-seen C; no new collection, labels or data changes; not confirmatory",
+  "frozen_dataset": "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018",
+  "roots": {
+    "train_AB": 24,
+    "dev_C": 12
+  },
+  "query_rows": {
+    "train": 920,
+    "dev": 470
+  },
+  "label_and_eligibility": "All original labels, missingness, records and train/dev assignments unchanged",
+  "arms": {
+    "full": "all261 normalized features",
+    "geometry_masked_RGB": "normalized dimensions0:256 replaced by exact zero; keep dimensions256:261",
+    "RGB_masked_geometry": "keep normalized dimensions0:256; dimensions256:261 replaced by exact zero"
+  },
+  "architecture": "Linear261x33, SiLU, Linear33x1; all8680 parameter scalars and tensor shapes identical",
+  "initialization": [
+    {
+      "seed": 0,
+      "tensor_hash": "15cd25b24124a4e8ec2617cb40c1eac5e677ac62de770fe4d1dde6f4ea55822e",
+      "shapes": {
+        "0.weight": [
+          33,
+          261
+        ],
+        "0.bias": [
+          33
+        ],
+        "2.weight": [
+          1,
+          33
+        ],
+        "2.bias": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "tensor_hash": "b8f7af654a5c3e3269e79fc6f4fa0c4970f5cf0348e9ca7b42507ccf7007a95e",
+      "shapes": {
+        "0.weight": [
+          33,
+          261
+        ],
+        "0.bias": [
+          33
+        ],
+        "2.weight": [
+          1,
+          33
+        ],
+        "2.bias": [
+          1
+        ]
+      }
+    }
+  ],
+  "normalization": "exact original train-only pair_mean/std for all arms; mask after normalization; no per-arm refit",
+  "training": {
+    "seeds": [
+      0,
+      1
+    ],
+    "torch_seeds": [
+      261019210,
+      261019211
+    ],
+    "runs": 6,
+    "updates": 600,
+    "batch": 32,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "clip_grad_norm": 1.0,
+    "BCE_pos_weight": 4.75,
+    "dtype": "float32",
+    "deterministic": true,
+    "TF32": false,
+    "schedule": "exact original saved600x32 indices shared by all arms within each seed",
+    "selection": "final600 only",
+    "early_stopping": false,
+    "augmentation": false,
+    "dev_tuning": false
+  },
+  "full_baseline": "Run full anew under the same matched code; compare tensor hashes and CPU predictions to original pair as reproducibility diagnostic, without retraining if different",
+  "evaluation": {
+    "threshold": 0.5,
+    "metrics": [
+      "precision",
+      "recall",
+      "balanced_accuracy",
+      "F1",
+      "NLL"
+    ],
+    "groups": [
+      "all",
+      "color",
+      "camera",
+      "color_camera",
+      "root",
+      "dev_geometry_alias8"
+    ],
+    "paired_comparisons": [
+      "full-minus-geometry_masked_RGB",
+      "full-minus-RGB_masked_geometry",
+      "RGB_masked_geometry-minus-geometry_masked_RGB"
+    ],
+    "bootstrap": "Reuse original2000 paired whole12Croot multiplicities(seed261019420); recompute pooled confusion/NLL; percentile95CI; undefined null; no multiple-comparison correction",
+    "seed_aggregation": "report both; do not select best"
+  },
+  "alias_diagnostic": {
+    "roots": [
+      "relation36_C_24",
+      "relation36_C_34"
+    ],
+    "colors": [
+      "red",
+      "blue"
+    ],
+    "anchors": "inspect all8 existing anchors, focus s03 support vs s04 lifted and s05/s06 neighbors",
+    "evidence": [
+      "actual full static/wrist RGB and exact model crops",
+      "pixel and mask differences, cached feature differences",
+      "existing camera matrices and depth only as private diagnosis",
+      "per-control contacts including body/link/force/normal/gap and label recomputation at3 thresholds",
+      "quantized visible-mask boxes vs full pixels/context"
+    ],
+    "no_claim": "Identical boxes do not establish identical RGB or information-theoretic visual ambiguity; changed pixels alone do not prove reliable contact-state observability"
+  },
+  "forbidden": [
+    "new collection",
+    "new encoder features",
+    "label change",
+    "threshold tuning",
+    "best seed selection",
+    "WM",
+    "localization",
+    "SupCon",
+    "In experiment",
+    "D sample feature prediction score access"
+  ]
+}

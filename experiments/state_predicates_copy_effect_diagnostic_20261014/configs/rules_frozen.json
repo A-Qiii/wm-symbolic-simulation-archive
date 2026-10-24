@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-14T16:43:52.960130+00:00",
+  "rules": {
+    "close_drawer": {
+      "AB_pairs": 24,
+      "AB_roots": 24,
+      "binding": "drawer",
+      "effects": [
+        {
+          "slot": "open(drawer)",
+          "set_to": 0,
+          "after_support": 24,
+          "total_AB_pairs": 24,
+          "observed_transitions": {
+            "1->0": 24
+          }
+        }
+      ],
+      "non_effect_facts": "copy current ternary readout; no overwrite"
+    },
+    "lift": {
+      "AB_pairs": 24,
+      "AB_roots": 24,
+      "binding": "declared_lift_colour",
+      "effects": [
+        {
+          "slot": "held(target)",
+          "set_to": 1,
+          "after_support": 24,
+          "total_AB_pairs": 24,
+          "observed_transitions": {
+            "0->1": 24
+          }
+        }
+      ],
+      "non_effect_facts": "copy current ternary readout; no overwrite"
+    },
+    "open_drawer": {
+      "AB_pairs": 24,
+      "AB_roots": 24,
+      "binding": "drawer",
+      "effects": [
+        {
+          "slot": "open(drawer)",
+          "set_to": 1,
+          "after_support": 24,
+          "total_AB_pairs": 24,
+          "observed_transitions": {
+            "0->1": 24
+          }
+        }
+      ],
+      "non_effect_facts": "copy current ternary readout; no overwrite"
+    },
+    "place_in_drawer": {
+      "AB_pairs": 24,
+      "AB_roots": 24,
+      "binding": "unique_current_held_from_readout",
+      "effects": [
+        {
+          "slot": "held(target)",
+          "set_to": 0,
+          "after_support": 24,
+          "total_AB_pairs": 24,
+          "observed_transitions": {
+            "1->0": 24
+          }
+        },
+        {
+          "slot": "in(target,drawer)",
+          "set_to": 1,
+          "after_support": 24,
+          "total_AB_pairs": 24,
+          "observed_transitions": {
+            "0->1": 24
+          }
+        }
+      ],
+      "non_effect_facts": "copy current ternary readout; no overwrite"
+    }
+  },
+  "AB_fit_pair_count": 96,
+  "AB_fit_only": true,
+  "protocol_sha256": "479dd92595e351ed092add0511bf49efbab1937c15b6497fad181b1e8ff79419"
+}

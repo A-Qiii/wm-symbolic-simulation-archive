@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-18T12:54:23.165031+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/source/collect.py": "c43cce1fcc29aeece53cb824463b0f19cdc7055ccfb25e1fd11d64e35c079c85",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/source/geometry.py": "e81746c91c8b0d2ee97ce98792f6b089c4634a2c78a04adae070d2f3168827a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/source/prepare_retry.py": "87b3a6b0a9f65dfd7ce722f7c08fa693c51b3b56e497e705f80b2661957fa1f7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/source/common.py": "a19141faa2aacd9d4760d61ee6f8c956c8f8904a9b58e9845f47cea6c1d0d856",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/configs/mesh_semantics.json": "1d258543d98d58659c4994bd9f55d34abd318e064f29dd8cf4fb6e66406edd68",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/configs/protocol.json": "9435332fd0a0a5370e1199e8cb76ec39a2ce207209ad50ac0df607320305ef6c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/configs/technical_retry_addendum.json": "b9a44bbc5554be32be1edc17bad2b624229e0d4f6c71b47dca790a4f5e38d62c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/configs/mesh_visual_review.json": "dff03b124bf951630b1d031d50f9e6a5f0cc4e3b41500a38b1818d12f6dc9c32",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_sync_truth_4state_retry_20261018/configs/source_references.json": "b0d7eea68cb818168672b5106ccb9afae9475805d105aeeaca6f67547ff23564"
+  }
+}

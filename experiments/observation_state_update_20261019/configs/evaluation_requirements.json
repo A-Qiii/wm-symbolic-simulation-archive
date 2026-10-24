@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-19T20:27:15.604601+00:00",
+  "before_new_model_evaluation": true,
+  "original_frozen_gates_preserved": true,
+  "additional_stronger_metrics": [
+    "h2 complete pair AND all h3-h5 complete pair",
+    "normal b0+b1 full relationship correctness across h0-h6",
+    "same actual prehistory, common RNG, both branches supplied the same actual h2 E must have identical states and predictions, therefore lose success/failure pair discrimination"
+  ],
+  "additional_training_gate": "h0 identity12/12 AND h2 plus h3-h5 joint pair12/12 for both seeds",
+  "additional_development_gate": "Original pair/suffix improvement and no h0/In retention regression plus improvement in joint h2+h3-h5 pair count for both seeds",
+  "no_changed_selection_or_threshold": true,
+  "same_observation_control": "Both actual-success E and actual-failure E used as equal-input controls. E includes both RGB and robot. No off-distribution h/z splicing. Fixed separate RNG, not used to replace primary scores.",
+  "gradient_start_check": "One loss backward on exact first scheduled microbatch at zero initialization per seed; no optimizer update."
+}

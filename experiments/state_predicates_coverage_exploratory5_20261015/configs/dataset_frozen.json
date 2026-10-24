@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-15T09:57:08.916959+00:00",
+  "passed": true,
+  "rows": 196,
+  "old_AB": 132,
+  "new_AB": 10,
+  "dev": 54,
+  "cohorts": {
+    "closed137": 137,
+    "open137": 137
+  },
+  "posthoc_exploration": true,
+  "unbalanced_colour_cycle_counts": [
+    2,
+    2,
+    1
+  ],
+  "selected_only_by_original_pose_gate": true,
+  "excluded_both_branches": [
+    "B_coverage_pink_1__b0",
+    "B_coverage_pink_1__b1"
+  ],
+  "shared_first132_identical": true,
+  "new_root_indices_pairwise_correspond": true,
+  "readout_wrong_rows_retained": [
+    {
+      "pair_id": "A_longpair_blue_open_1__m0",
+      "group": "AB_original132",
+      "before_wrong": true,
+      "after_wrong": false
+    },
+    {
+      "pair_id": "C_drawer_factor_blue_0__b0__diagnostic",
+      "group": "C_drawer",
+      "before_wrong": true,
+      "after_wrong": true
+    }
+  ],
+  "C_optimizer_rows": 0,
+  "files_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/data/training/public/inputs.npz": "f2555277f186498c40023f4b9b9108f99bd61421b7eda55862cdf16a8cbc3a88",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/data/training/_private/targets.npz": "699b3b3552755fb3ad2162b1f0963361fe3263e3bfe976cb625044a60e8bc225",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/data/training/public/pairs.json": "5f9bdf4fde88f47afc46d3c7277eaae9f2c57d78c7d255355b73bc0685a63a9d",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/data/training/_private/metadata.json": "d289c4f4576da09e0e35b393760c17e65c5c551b6fa27bd44121b41efc141215",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/data/training/public/cohorts.json": "cc54d31c09a3e16b50f919690c451695fa73fb15622157229b101672b6250b20",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/results/original132_cached_predictions.npz": "86f141056cae468bde5c940d984cf78ffa39f6b7004a28f440a0ed3ba8dc7564",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/results/original132_cached_latents.npz": "c2dc3d7932e4ad8733c106129076d7b5278cfc6eac36b3c4e1cbdb415c750ae0"
+  },
+  "protocol_sha256": "7488a9bd4790448d02aec1ba682c26a8ba2d7fe6fc49b9ff03ad11446e66312b",
+  "old132_predictions_reused_no_new_reference_model_forward": true
+}

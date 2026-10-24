@@ -1,0 +1,7 @@
+{
+  "initial_model_state_sha256": "f3fc5a4cd35b19f748fb56a6a08b758b624d85eed03dce900a6a547e462cc738",
+  "max_probability_difference_from_original": 0.0,
+  "same_initial_function_verified": true,
+  "trainable_parameters": 247569,
+  "frozen_parameters": 662784
+}

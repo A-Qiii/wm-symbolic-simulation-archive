@@ -1,0 +1,1922 @@
+[
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1785231,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1785231.npz",
+    "source_sha256": "d076d2ea4a840d79cc44fcb25f2c2e08f004298bd5d07822fd15c9f2cc03a601"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1785232,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1785232.npz",
+    "source_sha256": "d643b18492d69c255ebe16850449b687d2d61216390e3a5c57f9e1e7e9804a40"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1786632,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1786632.npz",
+    "source_sha256": "38e70c57314dc475f330c50e5f4bb903f1606c4f9bbdaa8ce5f22a5f712d69cc"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1786633,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1786633.npz",
+    "source_sha256": "bff8d8035d61aa90d2d4488dd2a7818923ffe4c8d856b8495d7366201e00d64b"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1788034,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1788034.npz",
+    "source_sha256": "12d291b9383a29fb0dbd94dff2852b38d5ab2733299079c81fbd93308742d272"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1788035,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1788035.npz",
+    "source_sha256": "7d56af7b06069d56e6edf20bca2b23a1d0377a86e1acf4e960db6458e08b631e"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1789436,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1789436.npz",
+    "source_sha256": "99942665552834b74fa290c80a39e7aaba7ade2928dbaffe64f92e9936eb97da"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1789437,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1789437.npz",
+    "source_sha256": "75df8155be937f1e042a5a1ddbdeb03e9ec8d94c49c98d6df346c1f461ead98a"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1790837,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1790837.npz",
+    "source_sha256": "e4f1ef2b28554d47e54653f6f41c89f882d5bd0e30125977039c32634d3099a2"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1790838,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1790838.npz",
+    "source_sha256": "c132ea58fc7fb8a0ba4ef8cbddc8769c34660632b1d128c612383ce541f58fc3"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1792239,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1792239.npz",
+    "source_sha256": "ab5aee43ebe379baf935d73cd6c855b35d29617ee1c055146c4c812432e0fb7d"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1792240,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1792240.npz",
+    "source_sha256": "47f577f5173f833d988932e9c8f577c0f71e876e71b9ed87f24a86d37565dc92"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793606,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793606.npz",
+    "source_sha256": "ba282501e22d9ac769f258df62e986e42cce2cd8f6f8cdf89e58834c289f0ea4"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793607,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793607.npz",
+    "source_sha256": "f061a0364795d7ae7e1042be3809b1de725dadcbb5a57264d70598b80a3d78bf"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793608,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793608.npz",
+    "source_sha256": "6fd39655b660289add802773fceb14297c410c0ec99943f84df7ecb98499f6fa"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793609,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793609.npz",
+    "source_sha256": "36c1df31773786e9f2a1d47753b4f95b6777c20349e490ba34287d44b87ed1d0"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793610,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793610.npz",
+    "source_sha256": "a8358016b9caa6466990ae09531784fcdcc9fb206aceaf3fec61dc96987ac6a9"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793611,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793611.npz",
+    "source_sha256": "6b7f141356a89959cccc20d3d8e686bae1e6fe79893b85272322638a5da3fdb0"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793612,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793612.npz",
+    "source_sha256": "5776774b0bc32c5e6dfc1ad00b07d38caa8b46abdba8c6e517407945dd5d6c85"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793613,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793613.npz",
+    "source_sha256": "bc58e06db46169ead71bfa266b12fbac5ddd612d1bfbb03d497bcc991041381e"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793614,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793614.npz",
+    "source_sha256": "ea94e768dc8a7e7c73a8352e49e902d00fefdb5528b51bca4a349f170645f5c5"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793615,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793615.npz",
+    "source_sha256": "270ac96eeaa46970230d825f52bc0ea679414ca67ca9984762cdb48add676004"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793616,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793616.npz",
+    "source_sha256": "75efb2f88187e0ef64200302027696dbf087dfa82ed559752f1e63ca3b318ee9"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793617,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793617.npz",
+    "source_sha256": "23ff9a5ef16a4576da6fc5611b21bc1231ec887f0be116085af86e627e9168c8"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793618,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793618.npz",
+    "source_sha256": "9cdd22467e900914124a4a837ada4a7ede0a03fb1f96f4c8c69508852ff74391"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793619,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793619.npz",
+    "source_sha256": "b57b73d3df2d501986c16c09fd221664f0950a162d34d44d291ab576c8ab7041"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793620,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793620.npz",
+    "source_sha256": "ad60983c3e69bb2e48b69089e4056ef583b122232741beb358cd15028acdf0bd"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793621,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793621.npz",
+    "source_sha256": "546f4bdaa3ec94bd24cf42ecd8e814f16f8ce6ed8bda5b06c694954f3dbbea40"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793641,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793641.npz",
+    "source_sha256": "4eca300b4beaf5b66260fb83b948c25022488e80794d2f6c73ba3305f40b538c"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1793642,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1793642.npz",
+    "source_sha256": "706c7b37d7cde788ecf24dbd752358d1d1eb3720491feb4f4249a4a9caf38cad"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1795043,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1795043.npz",
+    "source_sha256": "865b3bdd8f37ac926efdc824e99804f1d696fcd9af5fad1b2be03b583eb8e6f2"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0146",
+    "scene": "A",
+    "official_episode_index": 146,
+    "official_episode_inclusive": [
+      1785231,
+      1795044
+    ],
+    "frame_id": 1795044,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0146/episode_1795044.npz",
+    "source_sha256": "e630fff97d603b43754cd66fb993aab46ea4035925458c0a12eb1f1694d2f92d"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1233060,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1233060.npz",
+    "source_sha256": "41403adbc5f4221c2f9bc74ce4673833db9e4f3ff23c9530578f4cfef480e3bd"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1233061,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1233061.npz",
+    "source_sha256": "c79e89185760da9031487ea1bc89fda08cb73ebab2f4a6d089bc8d945b9afd6f"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1235281,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1235281.npz",
+    "source_sha256": "d1c70eecc4bc41c7cbdf9e2239ebb9975302d63eec627cdc8d52c2ed92c43851"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1235282,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1235282.npz",
+    "source_sha256": "a7e50ffb559128dc61f42e7d1f2e541a6e3bcdbd79bebcf1a816243fd1bf3946"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1237503,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1237503.npz",
+    "source_sha256": "7818c89cddb109f55d4bba950c5137286945bcfe0f33e2fbd5fa58752c9c2f49"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1237504,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1237504.npz",
+    "source_sha256": "00b98b4d677b14c3866c2e16c730eacee72de041b9bab6664c9f463b4e2e9d5b"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1239724,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1239724.npz",
+    "source_sha256": "0303bacdb38e419eda54ef450dc454ccf93f04fe93bd02afee91784d16a69611"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1239725,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1239725.npz",
+    "source_sha256": "8c0e4ff78f167dc961d66a6d24cac7d930d1ff217a079067106bc570e305a973"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1241946,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1241946.npz",
+    "source_sha256": "140ffca1d587ca28e48c50d9445e65336ddece706c6f82519fd9ce2ce938808c"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1241947,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1241947.npz",
+    "source_sha256": "4ffaa5b3fc0a8531f4c51b56fb42efb968b7653cef63db1c006df98567dcdbaa"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244167,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244167.npz",
+    "source_sha256": "4a956aa7edaa1c1f8457d514fb789dfbe5c541fce36e93761368c8ffb76ef33d"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244168,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244168.npz",
+    "source_sha256": "d2f08f969c8c54e159d783ce40c7cee42c89ce5872aa451616f5184f3a348d45"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244236,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244236.npz",
+    "source_sha256": "4b112b697def9e05d4e6d59d88be8b9582d2ba5752056b7be87df39b1c18253d"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244237,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244237.npz",
+    "source_sha256": "b0de135adb0855b9acb0402d53e5b281f6ca1462d3ec209a5e4ffc5a31317b4c"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244238,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244238.npz",
+    "source_sha256": "c3df35f6625db57794faffd1fb8acbf64e4b94f3bbd055e731669277e5dc9f0c"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244239,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244239.npz",
+    "source_sha256": "f1f4d6b4deb542160cf3632c0cf72247b43f669a42fd6c83733e610b783ca523"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244240,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244240.npz",
+    "source_sha256": "e6bc415bb06320b47c2cbec2c04c5d153e1eebf12dc7b7f4e3ef51a67f08bc91"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244241,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244241.npz",
+    "source_sha256": "7be0f4a699977c7d1aa18e941514cde106e15ed1a5fb4e01caf32321a46f697c"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244242,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244242.npz",
+    "source_sha256": "8b530430ad7247e1ac8798ba39ac62c8d63a5ef0cd5214ee3bdc1e90caf42e70"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244243,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244243.npz",
+    "source_sha256": "84943b53dd36ccdc06cf0211217adc3c95254087fc7d7d374de8af0776948875"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244244,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244244.npz",
+    "source_sha256": "d80e8bfcdc5e46c1dba5384010d5d51a3758668c07a3f4e0ddf7d97cefca58fc"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244245,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244245.npz",
+    "source_sha256": "16ceff951bb5f89d85b59af49a0a39251a32cbf306b0aef4971c860853c867e3"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244246,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244246.npz",
+    "source_sha256": "e4f25f66bf2cd26f39a74a56a08ffc34229fd405492f0a32a09685d657325310"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244247,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244247.npz",
+    "source_sha256": "349626585d4f86e657933e7425b8432eca7cd341bbbf4d8cb745793a5553dc66"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244248,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244248.npz",
+    "source_sha256": "ba0e6ab3a58fe66674c8027da5c04e072fe4474e3502578103634fc844251565"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244249,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244249.npz",
+    "source_sha256": "ede94aade3508ce251d20b9d9b8a7eac51dd221493303df0b77b2a468b69e677"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244250,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244250.npz",
+    "source_sha256": "00e69a2d3726769e9d5d91df6f721d3e8571ed2bf7cd6b7b9b4f49485ae48803"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1244251,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1244251.npz",
+    "source_sha256": "4cccefd3e0295ace87dbc2085950e18196beabc975ccd55c5f51611a09182ba6"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1246389,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1246389.npz",
+    "source_sha256": "f8bff7858ab5a8b048de139a9f5e9051c3d83c81039b31b8ef35777578e7b255"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1246390,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1246390.npz",
+    "source_sha256": "cda153060d7c0f3ad156dfc174526932b2c215534f86014479843a7af11aa0a5"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1248611,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1248611.npz",
+    "source_sha256": "9323f9adbc814f5003e8dcdf1359bd539d95a24c32010789f97c0c0f94e3c0b4"
+  },
+  {
+    "root_id": "official_ABC_A_episode_0109",
+    "scene": "A",
+    "official_episode_index": 109,
+    "official_episode_inclusive": [
+      1233060,
+      1248612
+    ],
+    "frame_id": 1248612,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_A_episode_0109/episode_1248612.npz",
+    "source_sha256": "070c1acedbfb28ced188ca871beb2f95fde5b2b667765f1e38f57c0d99a30109"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 301603,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0301603.npz",
+    "source_sha256": "76a53b0afb9adf41240d7ea092ad84ad5c340dfa5203a8d4d15cbc6ecf6470ef"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 301604,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0301604.npz",
+    "source_sha256": "c460d978bf1e7746a097b44204762c50e27fafbb1d2f0a2aa2a2a36c8e70eef9"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 304653,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0304653.npz",
+    "source_sha256": "e4625c545efa17dd4d7c91ec36ca7a1e32b0061ee4884a24e709895f4ba17e08"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 304654,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0304654.npz",
+    "source_sha256": "f6c170be72ebb705b7ffc4ad1ea6d6b53e328259bde58716b1315afc6af6403c"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 307703,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0307703.npz",
+    "source_sha256": "e7982f9d65d22bb7b55071bd59ba5b419d73cd26eba3deaaedf4697fef49ec52"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 307704,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0307704.npz",
+    "source_sha256": "d41cd3fac20862857d5da462d4f780228d00bd8eca8a57c3b56fe492db9e479d"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 310754,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0310754.npz",
+    "source_sha256": "233ee26877c03c5fd9958e3e832fb0960597ec819f43bfa3470cb3e48f711b71"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 310755,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0310755.npz",
+    "source_sha256": "dd279bd061ab6e19cfa8643bc9017d3b4c9c7f0f4ef38b3941f45b5204b3356e"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 313804,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0313804.npz",
+    "source_sha256": "9e7f4266d5a354da72fc64cecfd980cbb5f937275a8d7ffcc50da3926d1ac86d"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 313805,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0313805.npz",
+    "source_sha256": "0d2f11e6151a0bb600d646eaf8e07c4616f212aae99299c4ef5fef3641dc93b9"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 316855,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0316855.npz",
+    "source_sha256": "fb6fd85108c931c2417b3cf6571cdcac8623661ab1f5aa88fe55b9b4707170ef"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 316856,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0316856.npz",
+    "source_sha256": "81d617516d100b41a539449be89885b99344aed14ca9a612820baf2b474296d0"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317038,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317038.npz",
+    "source_sha256": "732269517f4093245e3bd946eafec2688682c036c27db11a9f64dbc7fbc01c2b"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317039,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317039.npz",
+    "source_sha256": "fa89849e829860a0bd26c2896c644574bedc140d6db020a0310bb8ff28e352bd"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317040,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317040.npz",
+    "source_sha256": "f9432e541536095c1b08aa01734d7d2ed7162a97a0e6c5f816a01d76d0d70ff2"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317041,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317041.npz",
+    "source_sha256": "5a3f4f903969b77272dafaf4b63ca282042c2d6c0cc77a20721e3f00636b92a6"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317042,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317042.npz",
+    "source_sha256": "ade5e148f4cad085e3b5483679e5c5b66ded5870b84e6b02323335b762759a3e"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317043,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317043.npz",
+    "source_sha256": "434909ff7bba0407bb5ddfb175f651b6cd3c8ba0d741c2dce9a18d224f44c1ac"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317044,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317044.npz",
+    "source_sha256": "24f6d8adf382f5d436ce40ab0dccc90825f60d46c27d0175ba758d4c99c0cac1"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317045,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317045.npz",
+    "source_sha256": "792eb57db1b102a88415f75d9f811fca64791fde19c945cfe1601d9712bdfe17"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317046,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317046.npz",
+    "source_sha256": "e4bfd3089512722cb98fa1f669a79c8cb672c53bbd24964d5e3a49710d3f74cf"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317047,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317047.npz",
+    "source_sha256": "0f4a5394281b13a4e01b32b60ff11653e9aac650228ac8fea75081f5f2e04538"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317048,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317048.npz",
+    "source_sha256": "ba72ebf351ad2fbfb4aee25204d1e69154b63668dc89c70085408073cd30457a"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317049,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317049.npz",
+    "source_sha256": "6391c5811538f6c6c29083639cf7db0e8cf0e5d55c1f64515c60a836fe39219a"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317050,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317050.npz",
+    "source_sha256": "9232a8723d00ab8c55881d4ad83b7553bf1b36037d5b05dc1d7bbfd79a2a7b14"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317051,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317051.npz",
+    "source_sha256": "26fea1d67608ebd90a7acdf77af64ebd186a100fe44ecdcde79545aa5d005014"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317052,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317052.npz",
+    "source_sha256": "7036085b80e89977dd63258aba087b385e9b68c37a46aea78d57aab297fb6390"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 317053,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0317053.npz",
+    "source_sha256": "68b1d905a8d0406612c7cb771103e965fc16011b57ae54f72cd635017b897f38"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 319905,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0319905.npz",
+    "source_sha256": "ccc70d5a2f731cc23f84048c1dcdbbaee62a7aaf0c6c624c827fd50bc47082ee"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 319906,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0319906.npz",
+    "source_sha256": "025c4e06b1f24ccf3062c0d36b5efd3620829c0af5e224ca61426f0f8e578a34"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 322956,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0322956.npz",
+    "source_sha256": "56fff83ce14ef36e3d16248c7c433565b681e22da5860427ae3f38471d03abeb"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0052",
+    "scene": "B",
+    "official_episode_index": 52,
+    "official_episode_inclusive": [
+      301603,
+      322957
+    ],
+    "frame_id": 322957,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0052/episode_0322957.npz",
+    "source_sha256": "b975ecc0a828708bf717a4e8187e21fed2ee9247655c67db6f54c17ec53b2c90"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 72876,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0072876.npz",
+    "source_sha256": "7301107909327db5cb24e8544b48ee4767e50a526e862a2ce905d61f138d101f"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 72877,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0072877.npz",
+    "source_sha256": "234cf70c3bbc65b205b8cf56308aa061a2cf013a71d9ec6b0cac9608a34784b8"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73083,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073083.npz",
+    "source_sha256": "4fe37bf145de60520c9f55e054976f7948ca782bb39183a3c8f6ec97e03b44b7"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73084,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073084.npz",
+    "source_sha256": "93aba83c80a28448b58cf511d40ce511c130fd1369eef2e2c348f94159c7bdf8"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73291,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073291.npz",
+    "source_sha256": "4aec3676d5b70e4fd2d12c94e40eb078b5b4d1d70c91b65d9366eab58f9493b2"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73292,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073292.npz",
+    "source_sha256": "fe60d9013555698a97c3436beef4777869efb3dcbfbda434c708f6e5492ccede"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73498,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073498.npz",
+    "source_sha256": "9c34492c6475419a1a60232b47097df5f362ff5789c90b8184aa6e1a200cdc4b"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73499,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073499.npz",
+    "source_sha256": "f4bdc84d3c2055c049b86fc2f8f38c21e55db84dd5ce2211cf877d4b29d16e9a"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73706,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073706.npz",
+    "source_sha256": "52b0e0a748779f8c2de6dd2d17d1ca9ed098b439584c464e782285e24ce3d628"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73707,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073707.npz",
+    "source_sha256": "b1b7675c5627bb1244fb9fb172f06fd18eeea5de54c0e140c6a5be15b02b167e"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73913,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073913.npz",
+    "source_sha256": "3738d3032c25165b187749807d3014d155177c933e372475abd4edc203a0d7b2"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 73914,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0073914.npz",
+    "source_sha256": "584116baad3da7fb59e6e45ceae11458aa512ad24386a7f5be9d5a65690f5082"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74121,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074121.npz",
+    "source_sha256": "fcc639d4eea3b9a662435bead574b424b0caa112fb23ea2d5668822f277cf609"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74122,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074122.npz",
+    "source_sha256": "c2a30dac2c25430762849701aa8742c54afd46d37965e660e593cd306911f98b"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74131,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074131.npz",
+    "source_sha256": "f5175a38c9b1e6a3d08abf00c53489f26bd2d05d269fbc16441cb6c8ccd61948"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74132,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074132.npz",
+    "source_sha256": "6083331138429a7af2f0675ff7ceb06c05c985bf2f5fc3ee17b4874a5fa002ed"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74133,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074133.npz",
+    "source_sha256": "ab487c59b4a7f2932ce5a19a5c1022036939671187d6658f365c7abac0c1d888"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74134,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074134.npz",
+    "source_sha256": "e1a7874d2b6bf0f29e26865e592ffb51bd54596e4955ece0dd79aeb30abf25d5"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74135,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074135.npz",
+    "source_sha256": "828f9671f0473c1a272e3d55634759375f6ed3e634767bd2d269a54a4ae9116a"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74136,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074136.npz",
+    "source_sha256": "2dc2021817181e155aeb6a6283d54dc1869ef3cb9b7b480dc3ec8bbc5e564a00"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74137,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074137.npz",
+    "source_sha256": "44ddbb07b57f43be21001cb35611a82b93fb83bd7658d456cd4855b2b3e73255"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74138,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074138.npz",
+    "source_sha256": "2264b1dc4360b3ba2c33f438147cc8bc767fa9fcbdcda5a9c0001001749c63ef"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74139,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074139.npz",
+    "source_sha256": "dc291f8bf52c54fea92ff45491f3c3df5f87d6b4edfc9649baaf7befbdb5fe12"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74140,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074140.npz",
+    "source_sha256": "701540077cae390d3e6536d4f911d91aef48d4755bbd92b8c4a4dbcff5181446"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74141,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074141.npz",
+    "source_sha256": "08d5a6db8d0986cfc03a8eb7e89eea22a845c572e4719b7a4fdab17229bb6fe6"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74142,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074142.npz",
+    "source_sha256": "6f503cb7ce6d3d8aa855357c8abf2754489121b7523e355ab76e57a5fcaced33"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74143,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074143.npz",
+    "source_sha256": "0ae420f5e90c67570c422da45c36161336728d6b7496bdcf03903fd8d5aa83a3"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74144,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074144.npz",
+    "source_sha256": "d7e3032548c76a541a8e41db3ea13885b2df92e784e31efe00fc1ddfca7aae04"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74145,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074145.npz",
+    "source_sha256": "19c545516ed5814fd360f27588256f5390c04f29fe6460ae5dd19afe369625b9"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74146,
+    "sample_roles": [
+      "continuous_restoration"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074146.npz",
+    "source_sha256": "3f3a95d93a2de42caf023f6cd3b7d975a2416329fc05fc44967167bc560a3983"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74329,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074329.npz",
+    "source_sha256": "cb95fb48b74c7222c2d00b385b8719081cbf4994e23f325ff3cb32f3c88c5059"
+  },
+  {
+    "root_id": "official_ABC_B_episode_0016",
+    "scene": "B",
+    "official_episode_index": 16,
+    "official_episode_inclusive": [
+      72876,
+      74330
+    ],
+    "frame_id": 74330,
+    "sample_roles": [
+      "uniform_coverage"
+    ],
+    "source_path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/frames/official_ABC_B_episode_0016/episode_0074330.npz",
+    "source_sha256": "3dcdaeb7e78288429390555de9ec2a633a51072945353b67d2cbf0d666a3f99b"
+  }
+]

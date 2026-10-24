@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-20T12:37:25.772286+00:00",
+  "families": 200,
+  "roots": 400,
+  "episodes": 800,
+  "task_calls": 4800,
+  "before_rollouts": true,
+  "geometry_only": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/data/families_manifest.json": "edaac3bc6a28e7ad5f5049241af8c9ddb5c195c6d9cc6edd107b929384bee830",
+    "/home/robot/research/projects/wm_symbolic/experiments/factorial_expansion_20261020/data/roots_manifest.json": "e067405b9efa5b26c6b557271d1685429d7be9a7f547093941382fecf733e5a7"
+  }
+}

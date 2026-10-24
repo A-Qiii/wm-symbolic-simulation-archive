@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-18T09:02:49.192664+00:00",
+  "before_inference": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/configs/protocol.json": "127e666b9dc63f1ad98ca5ddc8bae377526c74b6827db2abdfd1ddff9349d1f5",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/configs/templates.json": "6a3e0608df4c3c4843a0db725d537abaf109a57324cc2c1595d41f044199c198",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/configs/source_references.json": "ab0ca046df8e51a453187e68bc6c5d96174d2dfe69eb22f3f7b576fe708bbfc2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/source/probe.py": "db91aef011c117310ceda7091fadfe1a4974db88eb95c7d48889af6e6984e706",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/source/contact.py": "bf7e6fd22c71e2ccc7bacf82ae25bbabffd99b8423fe115201e1b463f017041a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/source/common.py": "8a67960282a3b311cd8116998f739c21a154503fc6404eb29de408cc6fa58500",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/source/prepare.py": "a1256362a44e2ef14df8170ccb7f924e35b09f00ccc14191198d5935e05c8adc",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00210.npz": "f32ca160eb7cbe29f5f2b11b59febd3c17f5505cd3852357215d74d0e45886c2",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00450.npz": "7b34dfdbcb1ce1f1eacc433998f4d8e9f507c9d0204aa3dacb6af786c86cfd71",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00269.npz": "010a18784a20b4d791ab270ede728c60b87c18207c20cd33ca9dcb7393f15813",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/01409.npz": "3de46ef768cfa84a700e633b54b3b575144a5e18d3805b7b6d27bb39f02da35a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00161.npz": "1e86645357c24c5061a3164b896bb09ff150f4b639443be38f4ccca00e0b177f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/01220.npz": "04f05bd75743467c04be7704c2350422582803c954603da65fc2f09d3b5224eb",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/01342.npz": "0164d3c9047e604e65571fb7f72ddf2ff2f658bb4545345c44121deb16b0bbf8",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00018.npz": "2f34c716e4d20a15d8de644ea5ceb64596856c8d795d9d8318cce13b9a7eb035",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/states.json": "08222b855233628a758ce6f58c7c277d95aa0292b0f3e9620792cf56ae38402c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00835.npz": "3288bc30dbe2121463652b900b073c9aa12ab8d84c0750c1383536d5d2296be9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/01275.npz": "6568705ad55a421eaa3816331dccdce75702c64ef1c3a2c47d127cae24b2bf0f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00270.npz": "8fb2d57468444746a072ce78fc2929e5fabd57d73b35faaba6d67905785530fa",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00169.npz": "9786be0b78f62e0f3c96a08c4bf4ef02484b959a683e90524e279af61c707537",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00000.npz": "839834cb40f755652399d095a0004c58e5af7de7042b520c2fb5120047c0001e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_rgb_feasibility_20261018/data/00329.npz": "5c0d25bca482eecfcd5eea790186e79e698a365190a73a6524f9f700c6b4341d"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T14:32:47.397334+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/models/head_coverage_seed0.pt": "ee94d1eca567f3b8f5fb9ff08bdb02163fa3bb4bdceb9e16bb0c55fe756cd2da",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/models/head_coverage_seed1.pt": "2348191ca5705cccddd51f5ab52dfb41f35d8d26df8bc330c79567fa42bf563e"
+  },
+  "new_head_updates": 3000,
+  "extra_control_fits": 0,
+  "new_RSSM_updates": 0,
+  "eval_collected": false
+}

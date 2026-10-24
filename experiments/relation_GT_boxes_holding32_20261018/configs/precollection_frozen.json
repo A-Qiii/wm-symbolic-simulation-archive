@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-18T15:01:26.684989+00:00",
+  "before_first_new_render": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/initial_models.json": "31837e8b67d35a37e7248026880609c1909b5d75102724b2ce3d39a2ddf30a6d",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/input_references.json": "5af42005e72c9f23a8bdbfcedd4a64993bd9b267724d7ac0350e17ffba9f398e",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/protocol.json": "26f47c1acd6395153381f5b64275f89206a23366fac81179da6becef86057c46",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/visual_projection.npy": "63a5108c026983e0e9928c9a00db9fd135910d40c8ea928ef6eb9f2ca91df6e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/historical_exclusion.json": "d986a108cf39665b3e42ca1395a3ea62b5cb2a2b2f8f19b2ca50db3f9741b42d",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/collect.py": "8036e166d247b93c79487821ab4307b02b67ae31e3efa410ec2db0cb79a6a3eb",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/models.py": "8d9224909f3a1a7d30dce227812ab54fb1b376b25e1a4ae193608e23e352b98f",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/inventory.py": "643f08b725074fbf75206f7e2385178f77a0e5040c5d8f050fe582edd8d022a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/common.py": "e48f1d9e71fc99d3260742a228811641fa5a144f759894152c16a969dff2b608",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/source/prepare.py": "b3334d92c249daf402f307b8169479effce7af01da24e7c89401ee42452d6f9d",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/models/initial_pair_seed0.pt": "c04fae3718f9b5a9b98d5dae3c5a1ed8e516e753b2fdf111a2c1c235237e4d03",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/models/initial_pair_seed1.pt": "9a06648548d1c7f8cbf792ed0455b2ca291b13ac09f55b050ce9854d930527a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/models/initial_object_seed0.pt": "eff2625904d701cde4cad562c3abe32895c8c4bb13a45625ef7656420e96725d",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/models/initial_object_seed1.pt": "5464cd9f095fc6742eb54be436891aeb96928b47c2eec8321d7b353d63dda855"
+  }
+}

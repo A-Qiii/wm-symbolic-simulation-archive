@@ -1,0 +1,35 @@
+{
+  "original_training": {
+    "initialization": "fresh per seed residual zero-last-layer initialization",
+    "updates": 1500,
+    "batch_size": 16,
+    "presentations_total_each": 24000,
+    "new5_presentations_each": 175,
+    "optimizer": "fresh AdamW at start; no reset within run",
+    "final_five_fit_each_seed": "0/5"
+  },
+  "previous_diagnostic_joint_arms": {
+    "initialization": "warm start from original open137_seed0 final1500 weights",
+    "additional_updates_each": 500,
+    "weight_trajectory_updates": 2000,
+    "batch_size": 137,
+    "presentations_additional_each": 68500,
+    "new5_additional_presentations_each": 500,
+    "new5_cumulative_presentations_each": 675,
+    "optimizer": "reset AdamW zero state, no old momentum",
+    "original_weight_final_five_fit": "5/5",
+    "equal_group_final_five_fit": "5/5",
+    "difference_from_original": "More optimization and exposure, full batches, warm start, reset optimizer; cannot attribute improvement to weighting alone."
+  },
+  "this_control": {
+    "start": "original open137_seed0/1/2 final1500 checkpoints, not prior diagnostic final500 models",
+    "paired_same_start_optimizer_batches_budget": true,
+    "new_updates_total": 3000,
+    "additional_updates_each": 500,
+    "trajectory_updates_each": 2000,
+    "full_batch": 137,
+    "new5_additional_presentations_each": 500,
+    "optimizer": "same reset AdamW zero state for every run",
+    "sole_between_arm_change": "old132/five group weights132:5 versus1:1"
+  }
+}

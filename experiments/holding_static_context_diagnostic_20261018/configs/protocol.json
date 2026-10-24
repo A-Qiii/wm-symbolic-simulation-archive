@@ -1,0 +1,119 @@
+{
+  "utc": "2026-10-18T16:13:31.297756+00:00",
+  "scope": "Final static-readout mechanism diagnostic on existing frozen36roots, already-seen C. Oracle boxes and synchronized multi-view scene context; not equal sensor budget to wrist-only.",
+  "dataset": "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018",
+  "queries": {
+    "train": 920,
+    "dev": 470
+  },
+  "samples": "same original eligibility/labels/root splits, no new collection or rendering; all failures/missingness unchanged",
+  "features": "Existing261 pairRGB+relative2D unchanged, concatenate128 mean-patch DINOv2-small feature of full same-state staticRGB; bilinear224 align_cornersFalse, ImageNet normalization, same frozen384x128 data-independent projection. No new encoder weights/downloads. Both cameras share same context within state.",
+  "model": "Linear389x33,SiLU,Linear33x1;12904 parameter scalars for both arms. Hidden33 chosen once, no sweep.",
+  "arms": {
+    "context_zero": "normalize389 using train query rows then replace last128 with exact0",
+    "context_present": "same389 normalized features, context retained"
+  },
+  "initializations": [
+    {
+      "seed": 0,
+      "tensor_hash": "f24ba65211e6434252625c4936acf10dca47925cd81a61ec0b746ee818009567",
+      "tensor_shapes": {
+        "0.weight": [
+          33,
+          389
+        ],
+        "0.bias": [
+          33
+        ],
+        "2.weight": [
+          1,
+          33
+        ],
+        "2.bias": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "tensor_hash": "5a85a59953efeb8060a89f2f5a0eeb1277d605aaa8753a0e0dbf28cc9bb12a0b",
+      "tensor_shapes": {
+        "0.weight": [
+          33,
+          389
+        ],
+        "0.bias": [
+          33
+        ],
+        "2.weight": [
+          1,
+          33
+        ],
+        "2.bias": [
+          1
+        ]
+      }
+    }
+  ],
+  "normalization": "train920query mean/popstd floor.05 for all389; first261 must equal original pair stats; shared by arms; no dev normalization fit",
+  "training": {
+    "seeds": [
+      0,
+      1
+    ],
+    "torch_seeds": [
+      261019210,
+      261019211
+    ],
+    "fits": 4,
+    "updates": 600,
+    "batch": 32,
+    "schedule": "original saved600x32 indices, identical within seed",
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "BCE_posweight": 4.75,
+    "clip": 1,
+    "dtype": "float32",
+    "deterministic": true,
+    "TF32": false,
+    "selection": "final600 only",
+    "hard_negative_oversampling": false,
+    "threshold": 0.5
+  },
+  "primary": {
+    "target": "all original color==target_color queries",
+    "supported_negative": "original target, anchor closed_on_support and y==0",
+    "measures": "target P/R/BA/NLL and FP; supported-negative FP counts/FPR (no BA if no positives)",
+    "uncertainty": "original2000 paired complete12Croot bootstrap, pooled counts recomputed, percentile95CI, null undefined, count/FPR differences reported"
+  },
+  "secondary": [
+    "overall P/R/BA/NLL",
+    "per camera and color",
+    "train vs dev for all/target/supported-negative",
+    "C24/C34 both cameras and temporal neighbors; two-case success not sufficient"
+  ],
+  "decision": "Clear primary gain requires both seeds targetBA difference95CI entirely positive AND supported-negative FPR difference95CI entirely negative. Otherwise report mixed/no clear gain and close static tuning. This is a diagnostic interpretation rule, not guide acceptance. No further tuning in this task regardless.",
+  "limitations": [
+    "already-seen C exploratory, not confirmatory",
+    "context_zero new389fan-in initializations not equal previous261 model",
+    "static queries gain full-frame context; wrist queries gain a second synchronized camera",
+    "zero input reduces usable degrees of freedom despite identical tensor shapes",
+    "no explicit support-learning claim from classifier score alone",
+    "no deterministic planner integration"
+  ],
+  "forbidden": [
+    "new data",
+    "threshold tuning",
+    "dev selection",
+    "label changes",
+    "best-seed choice",
+    "localization",
+    "SupCon",
+    "In",
+    "WM/transition fitting",
+    "closed loop",
+    "D sample/feature/prediction/score access"
+  ],
+  "next_step": "Document needed evidence for controlled action-conditioned transition pilot only; do not collect or train it"
+}

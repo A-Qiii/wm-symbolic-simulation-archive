@@ -1,0 +1,420 @@
+[
+  {
+    "root_id": "D_combination_blue_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.3044343901375163,
+        -0.10233426354247273,
+        0.4599869107644835
+      ],
+      [
+        0.17270129125043168,
+        -0.052320725566826605,
+        0.45998988973690325
+      ],
+      [
+        0.04543885182965232,
+        -0.08658823296717116,
+        0.45998986055743757
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_00/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_blue_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.3044343901375163,
+        -0.10233426354247273,
+        0.4599869107644835
+      ],
+      [
+        0.17270129125043168,
+        -0.052320725566826605,
+        0.45998988973690325
+      ],
+      [
+        0.04543885182965232,
+        -0.08658823296717116,
+        0.45998986055743757
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_00/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_blue_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.3044343901375163,
+        -0.10233426354247273,
+        0.4599869107644835
+      ],
+      [
+        0.17270129125043168,
+        -0.052320725566826605,
+        0.45998988973690325
+      ],
+      [
+        0.04543885182965232,
+        -0.08658823296717116,
+        0.45998986055743757
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_00/normal/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16805599423683795,
+        -0.07226461402138712,
+        0.4599777733494131
+      ],
+      [
+        0.2974791582111241,
+        -0.0506825612007141,
+        0.4599899913958812
+      ],
+      [
+        0.048696473534641634,
+        -0.0541060992503511,
+        0.4599896788789618
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_00/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16805599423683795,
+        -0.07226461402138712,
+        0.4599777733494131
+      ],
+      [
+        0.2974791582111241,
+        -0.0506825612007141,
+        0.4599899913958812
+      ],
+      [
+        0.048696473534641634,
+        -0.0541060992503511,
+        0.4599896788789618
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_00/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16805599423683795,
+        -0.07226461402138712,
+        0.4599777733494131
+      ],
+      [
+        0.2974791582111241,
+        -0.0506825612007141,
+        0.4599899913958812
+      ],
+      [
+        0.048696473534641634,
+        -0.0541060992503511,
+        0.4599896788789618
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_00/normal/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.0511984121463445,
+        -0.061258963606070124,
+        0.45999000947765795
+      ],
+      [
+        0.16190225985352424,
+        -0.12583906482616808,
+        0.45998788148564745
+      ],
+      [
+        0.28913058955623894,
+        -0.06283272453511198,
+        0.4599900095245941
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_red_00/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.0511984121463445,
+        -0.061258963606070124,
+        0.45999000947765795
+      ],
+      [
+        0.16190225985352424,
+        -0.12583906482616808,
+        0.45998788148564745
+      ],
+      [
+        0.28913058955623894,
+        -0.06283272453511198,
+        0.4599900095245941
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_red_00/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16270353557022,
+        -0.06246394462007327,
+        0.45999001131978745
+      ],
+      [
+        0.043859246015584406,
+        -0.1186393234511329,
+        0.45998983186809983
+      ],
+      [
+        0.2826483639936212,
+        -0.12833419037470703,
+        0.4599901104079074
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_01/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16270353557022,
+        -0.06246394462007327,
+        0.45999001131978745
+      ],
+      [
+        0.043859246015584406,
+        -0.1186393234511329,
+        0.45998983186809983
+      ],
+      [
+        0.2826483639936212,
+        -0.12833419037470703,
+        0.4599901104079074
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_01/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_pink_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.16270353557022,
+        -0.06246394462007327,
+        0.45999001131978745
+      ],
+      [
+        0.043859246015584406,
+        -0.1186393234511329,
+        0.45998983186809983
+      ],
+      [
+        0.2826483639936212,
+        -0.12833419037470703,
+        0.4599901104079074
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_pink_01/normal/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_blue_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.043903492964687076,
+        -0.1250766633536628,
+        0.45998988562003795
+      ],
+      [
+        0.3043609964589019,
+        -0.04878039006884099,
+        0.459989956642136
+      ],
+      [
+        0.1595294431164965,
+        -0.11585512781229242,
+        0.45998956669806695
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_01/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_blue_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.043903492964687076,
+        -0.1250766633536628,
+        0.45998988562003795
+      ],
+      [
+        0.3043609964589019,
+        -0.04878039006884099,
+        0.459989956642136
+      ],
+      [
+        0.1595294431164965,
+        -0.11585512781229242,
+        0.45998956669806695
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_01/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_blue_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.043903492964687076,
+        -0.1250766633536628,
+        0.45998988562003795
+      ],
+      [
+        0.3043609964589019,
+        -0.04878039006884099,
+        0.459989956642136
+      ],
+      [
+        0.1595294431164965,
+        -0.11585512781229242,
+        0.45998956669806695
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_blue_01/normal/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.042613892303807833,
+        -0.1337311304052802,
+        0.45996930815492404
+      ],
+      [
+        0.15964101054555108,
+        -0.12320557475673702,
+        0.45999000593290645
+      ],
+      [
+        0.2851485903712953,
+        -0.10356444919226653,
+        0.45998952450738595
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_red_01/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.042613892303807833,
+        -0.1337311304052802,
+        0.45996930815492404
+      ],
+      [
+        0.15964101054555108,
+        -0.12320557475673702,
+        0.45999000593290645
+      ],
+      [
+        0.2851485903712953,
+        -0.10356444919226653,
+        0.45998952450738595
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_red_01/place_then_other_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_01",
+    "environment": "D",
+    "xyz": [
+      [
+        0.042613892303807833,
+        -0.1337311304052802,
+        0.45996930815492404
+      ],
+      [
+        0.15964101054555108,
+        -0.12320557475673702,
+        0.45999000593290645
+      ],
+      [
+        0.2851485903712953,
+        -0.10356444919226653,
+        0.45998952450738595
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/D_combination_red_01/normal/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.0511984121463445,
+        -0.061258963606070124,
+        0.45999000947765795
+      ],
+      [
+        0.16190225985352424,
+        -0.12583906482616808,
+        0.45998788148564745
+      ],
+      [
+        0.28913058955623894,
+        -0.06283272453511198,
+        0.4599900095245941
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v1/data/raw/D_combination_red_00/reverse_then_lift/_private/reset_signature.json"
+  },
+  {
+    "root_id": "D_combination_red_00",
+    "environment": "D",
+    "xyz": [
+      [
+        0.0511984121463445,
+        -0.061258963606070124,
+        0.45999000947765795
+      ],
+      [
+        0.16190225985352424,
+        -0.12583906482616808,
+        0.45998788148564745
+      ],
+      [
+        0.28913058955623894,
+        -0.06283272453511198,
+        0.4599900095245941
+      ]
+    ],
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v1/data/raw/D_combination_red_00/normal/_private/reset_signature.json"
+  }
+]

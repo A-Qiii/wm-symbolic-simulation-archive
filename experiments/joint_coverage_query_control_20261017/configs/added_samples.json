@@ -1,0 +1,116 @@
+[
+  {
+    "state_index": 17,
+    "combo_state_index": 207,
+    "root_id": "B_combination_blue_00",
+    "environment": "B",
+    "split": "train",
+    "observation_sha256": "86c17e168ec13efa1a22418830a3174156e138098c09e81b2cb297b1a26a4dee",
+    "source_indices": [
+      207
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "pink",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/B_combination_blue_00/place_then_other_lift/public/001958.npz",
+    "native_all_valid": true
+  },
+  {
+    "state_index": 40,
+    "combo_state_index": 454,
+    "root_id": "A_combination_pink_00",
+    "environment": "A",
+    "split": "train",
+    "observation_sha256": "176e2b4b59890d78a498131637466657e38eb6ec1fb1bef009573a54c5a290ad",
+    "source_indices": [
+      454
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "red",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/A_combination_pink_00/place_then_other_lift/public/001839.npz",
+    "native_all_valid": true
+  },
+  {
+    "state_index": 62,
+    "combo_state_index": 733,
+    "root_id": "B_combination_red_00",
+    "environment": "B",
+    "split": "train",
+    "observation_sha256": "f15bc2eabcbb514eb89086cafc1da635564f3a9cd44d1a1435f7f98abfb32795",
+    "source_indices": [
+      733
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "blue",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/B_combination_red_00/place_then_other_lift/public/001833.npz",
+    "native_all_valid": true
+  },
+  {
+    "state_index": 67,
+    "combo_state_index": 766,
+    "root_id": "B_combination_pink_00",
+    "environment": "B",
+    "split": "train",
+    "observation_sha256": "9be7be6d3e75422a295371d38f87b2f8c9db2a4e7cb1bef1c2c592c81a2b2e00",
+    "source_indices": [
+      766
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "red",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/B_combination_pink_00/place_then_other_lift/public/001975.npz",
+    "native_all_valid": true
+  },
+  {
+    "state_index": 89,
+    "combo_state_index": 1045,
+    "root_id": "A_combination_red_00",
+    "environment": "A",
+    "split": "train",
+    "observation_sha256": "b3fa3e4e31cf6d987bffa7ca3f23705f2487e5aa4a923b18725b1f66f76f13cf",
+    "source_indices": [
+      1045
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "blue",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/A_combination_red_00/place_then_other_lift/public/001807.npz",
+    "native_all_valid": true
+  },
+  {
+    "state_index": 143,
+    "combo_state_index": 1669,
+    "root_id": "A_combination_blue_00",
+    "environment": "A",
+    "split": "train",
+    "observation_sha256": "bbf5fc2c2a4fd31da63e66aea699f52d99f824ce59193a38708031e0e81d05af",
+    "source_indices": [
+      1669
+    ],
+    "source_branches": [
+      "place_then_other_lift"
+    ],
+    "held_color": "pink",
+    "holding_count": 1,
+    "dual_relation": true,
+    "public_path": "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/formal_run_v2/data/raw/A_combination_blue_00/place_then_other_lift/public/001903.npz",
+    "native_all_valid": true
+  }
+]

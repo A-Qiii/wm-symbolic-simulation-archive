@@ -1,0 +1,16 @@
+{
+  "version": "geometry_v1",
+  "units": "metres and radians",
+  "table_bands": "thirds of each native scene table sampling bounds",
+  "boundary_margin_m": 0.005,
+  "drawer_closed_max": 0.025,
+  "drawer_open_min": 0.16,
+  "slider_right_max": 0.055,
+  "slider_left_min": 0.22,
+  "moved_displacement_m": 0.02,
+  "held_max_tcp_distance_m": 0.075,
+  "held_contacts": "closing gripper, contact with a finger, no supporting table/part contact, near TCP",
+  "unresolved": "Label validity mask is false near boundaries or ambiguous grasps; other is a physical category, not UNKNOWN",
+  "source": "Native scene calibration, full control-step evaluator contacts/positions; never model inputs",
+  "frozen_before": "Any world-model training or test observation"
+}

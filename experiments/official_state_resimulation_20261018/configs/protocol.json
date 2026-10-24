@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-18T06:53:43.636805+00:00",
+  "dataset_type": "official-state-initialized resimulation",
+  "scope": "new rendered RGB/proprio paired ONLY with simultaneous new complete physical state and labels; official RGB remains isolated reference",
+  "input_initializations": 128,
+  "independent_source_episodes": 4,
+  "new_download_bytes": 0,
+  "training_updates": 0,
+  "model_forward_calls": 0,
+  "fixed_controller_transition_training": false,
+  "scene_binding": {
+    "A": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "B": [
+      "red",
+      "blue",
+      "pink"
+    ]
+  },
+  "control_restore_audit": "native robot.reset sets arm targets to recorded joint angles and finger targets to observed width/2, both force200; merely assigning robot.gripper_action does not restore a command. Native apply_action is used exactly once before integration to hold recorded robot_obs TCP position/euler orientation and robot_obs[-1] grip command. Capture every issued motor target. Close uses target0 and force200, open uses target.04 and force2, according to unmodified native config. No dataset next-action motion is replayed.",
+  "initialization": "fresh native world per input; set recorded scene/robot positions once; explicitly zero unrecorded object velocities. No env.reset implicit tick. performCollisionDetection records t0; no integration before command audit.",
+  "fixed_physics_steps": 8,
+  "physics_dt_seconds": 0.004166666666666667,
+  "image_checkpoints": [
+    1,
+    4,
+    8
+  ],
+  "physical_record_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "native_action_equivalence": "one fixed absolute native command, then8 physics ticks; native scene.step only at8 as in normal control period; intermediate observations at1/4 do not alter controls",
+  "candidate_selection": "ALWAYS step8. Never select a per-state best step. Retain step1/4/8 raw strict labels and new images. Candidate fact is reliable only if native value and native validity are stable at EVERY tick4..8 and force confidence is unambiguous at every tick. Otherwise unknown.",
+  "force_confidence_mask": "Holding positive: both finger families max force>=.015N and every external contact force<=.005N. Holding negative: external support force>=.015N OR at least one family max force<=.005N. In positive: frozen evaluator valid and certain contained support path; In negative: evaluator valid and value false. For geometrically contained/borderline objects also require confident Holding status. Thresholds add conservative uncertainty masks only, not predicate changes; .005/.015 are existing support uncertainty bounds.",
+  "pose_drift": "Record object translations/rotations and TCP displacement/orientation from original and initialized state at every tick; do not adjust steps or move objects to improve labels.",
+  "prohibited_after_init": [
+    "object/joint teleport",
+    "new constraint",
+    "dynamics changes",
+    "external force/torque"
+  ],
+  "failure_policy": "Each input at most once. Persist started ledger before world reset. On technical failure preserve partial files, stop entire run and report; no silent retry or replacement.",
+  "maximum_physics_ticks": 1024,
+  "no_formal_adoption": true
+}

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-19T14:10:05.944308+00:00",
+  "authorization": "User continuous execution relayed by parent; bounded proposal accepted",
+  "proposal_sha256": "edc41c73ad94c9fa94a0b8bda2cc59385793d1134aaac7fc6f15441031eff1ca",
+  "controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+  "counts": {
+    "train": 40,
+    "old_band": 10,
+    "gap": 10,
+    "branches": 3,
+    "skills_per_branch": 4
+  },
+  "candidate_limit_per_root": 256,
+  "geometry": {
+    "footprint": "Entire rotated footprint sampled on <=2mm grid including all edges/corners; base-link top z=.440 +/-1mm and upward normals required. Finite geometric test, not a mathematical proof.",
+    "pair_clearance_m": 0.01,
+    "scene_penetration_limit_m": 0.001,
+    "reset_drift_limit_m": 0.003,
+    "approach": "Five downward TCP poses z .62,.59,.54,.50,.463; IK within30mm plus whole-arm/table penetration check. Query world only; does not certify motor success."
+  },
+  "sampling": "Conditional Latin strata by scene/color/class; fixed y/yaw, same-class original order. Max256 deterministic draws per root. Geometric rejections retained. No outcome-driven replacement after accept.",
+  "heads": {
+    "seeds": [
+      0,
+      1
+    ],
+    "updates": 1500,
+    "batch": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "loss": ".75 unweighted objectCE + .25 drawerCE",
+    "norm": "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/configs/normalization.json",
+    "paired_schedule": "explicit old root/branch/boundary to new mapping"
+  },
+  "evaluation": "Recipes frozen before fits, capture only after heads frozen; C20 exploratory only. h0 paired2000rootbootstrap; per seed.",
+  "h0_gate": "Exact paired labels required. Any mismatch retained and stops formal fit; no replacement.",
+  "fixed_encoder_limitation": "E previously trained on old narrow40; not on new wide40",
+  "no_upload": true
+}

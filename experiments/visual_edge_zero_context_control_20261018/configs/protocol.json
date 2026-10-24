@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-18T08:46:18.612712+00:00",
+  "purpose": "Strict matched zero-context control plus read-only domain/error diagnosis after observing node/edge results",
+  "reference": "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018",
+  "context_full": "reuse sealed full-edge4trained heads and their scores; no reference refit",
+  "new_fits": 4,
+  "heads": [
+    "Holding",
+    "In"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "updates_each": 600,
+  "batch_states": 32,
+  "architecture": "identical207->32->SiLU->1,6689params",
+  "initialization": "exact copied full-edge initialization tensors perhead/seed, not just same seed",
+  "difference": "after original normalization, set channels74:207 to exact0 during both training and inference; keep channels0:74 bit-identical",
+  "zeroed_channels": "endpoint visual128 and image-relative geometry5; constant zero contains no endpoint presence or source metadata",
+  "schedule": "exact full-edge24old+8official600x32 schedule",
+  "optimizer": "identical AdamW lr.001 wd.001 clip1; same masked positive-weighted BCE",
+  "positive_weights": {
+    "Holding": [
+      8.545454545454545,
+      8.545454545454545,
+      8.545454545454545
+    ],
+    "In": [
+      5.142857074737549,
+      5.142857074737549,
+      5.142857074737549
+    ]
+  },
+  "old_pool_states": {
+    "Holding": 210,
+    "In": 156
+  },
+  "normalization": "copy full-edge train-only normalization unchanged",
+  "no_tuning": "all validation cohorts already viewed; no new independent evaluation,threshold.5,no seed/weight/ROI sweep",
+  "scope": "fixed-scene contextual region probe, not generic instance graph; full-image DINO node tokens already contain context",
+  "new_data": false,
+  "T_or_DINO_training": false,
+  "SupCon": "remains paused",
+  "model_adoption": false
+}

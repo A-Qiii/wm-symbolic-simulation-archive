@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-15T16:00:14.943722+00:00",
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/metadata.json": "ba560ee05cd34cacf2b1b8b11c6f328c2b7bd0dcd3a91fbc4b13c92612a28c23",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/inputs.npz": "af46b4b1b15f9c9c045efc63d717a6ec7b7891d54504dfe30b37f6ea3b3a1acd",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/targets.npz": "a9fbd14827796ec425948d3492c5c5ee933835614605f602f622806b0b857089",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_hardcontrast_20261015/configs/AB_pairs.json": "a05f63bc541c9ff98b21337c5665db506561e1876ef2515dfdb56e38b7e05881",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_hardcontrast_20261015/configs/protocol.json": "d367dd7070a5fc5490f0dd811fbadb239edd7f15beac295f368f3ac528c907e1",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_hardcontrast_20261015/source/model.py": "393f2bbd07d20744aef3e201e65ff9a06e4355be871d50e9a9ba306f63b532ce",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_hardcontrast_20261015/source/train.py": "ac66ec1a428b034e7f3a52f1e493e9d7b85173d723c4d60bbf80faa6bb9e0cf7"
+  },
+  "C_is_development_not_blind_test": true,
+  "new_D": 0
+}

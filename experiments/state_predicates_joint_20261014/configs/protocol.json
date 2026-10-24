@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-10-14T10:48:42.007861+00:00",
+  "authorization": "用户要求继续本地感知到命题模块；不逐微步骤询问。",
+  "short_plan": [
+    "先用现有checkpoint在原C与新增C开发集联合选模、校准，隔离上轮选模混杂。",
+    "根据开发证据最多做两项轻量单因素对照，不访问D或已看过test进行选择。",
+    "若某方法至少2/3种子同时满足开发标准，固定合格模型后采12独立D根作一次验收；否则报告小规模对照定位的瓶颈。"
+  ],
+  "budget": {
+    "existing_checkpoints": 9,
+    "maximum_training_variants": 2,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "updates_per_seed": 1500,
+    "batch_size": 60,
+    "presentations_per_seed": 90000,
+    "maximum_new_updates": 9000,
+    "new_acceptance_roots": 12,
+    "new_acceptance_trajectories_max": 30,
+    "no_replacement_of_failed_roots": true,
+    "single_gpu_serial_lock": "runs/gpu.lock"
+  },
+  "selection": {
+    "tune": "old C tune180/12roots + new C dev37/6roots; equal domain,predicate,root,class weighting for BCE tie-break",
+    "calibration": "old C calibration120/8roots + same new C dev37/6roots; reused new dev acknowledged, no confidence-guarantee claim",
+    "rank": "Minimize number of failed domain/predicate raw gates, then sum excess over gates, then joint root/class macro BCE; earliest checkpoint breaks ties",
+    "raw_gates": "For EACH old/new domain and EACH held,in,open: raw0.5 FPR <=1%, positive recall >=95% where positives exist. A no-positive set cannot establish recall.",
+    "thresholds": "Symmetric grid .5,.6,.7,.8,.85,.9,.95,.975,.99,.995. Each domain coverage>=95%, known error<=2%, known FP/all negatives<=1%, known TP/all positives>=95%; choose maximum worst-domain coverage then lower threshold. No eligible threshold means failure, not all-UNKNOWN success.",
+    "existing_pool": "Each seed: original1500, prior-new selected, prior-new final1500 only; unavailable intermediate weights not reconstructed.",
+    "family_acceptance": "At least2/3 independently trained seeds pass tune and calibration raw gates plus threshold constraints. Freeze all qualifying seeds; evaluate all seeds for transparency, never choose by acceptance outcome."
+  },
+  "training": {
+    "architecture": "exact old model.py",
+    "initialization": "from scratch same0,1,2 seeds",
+    "optimizer": "AdamW lr.001 wd.001 clip1",
+    "data": "old900 plus supplementary73, natural shuffled window ratio900:73; no new training roots",
+    "candidate_1": "If joint development exposes unsupported in drift, change only supplementary target-in mask from0 to1 after read-only label/contact audit; all other training masks/loss/architecture unchanged.",
+    "candidate_2": "If candidate1 fails, change only loss aggregation to equal held/in/open groups and inverse-frequency positive/negative weighting within each group, weights computed solely from training labels. Same candidate1 masks and architecture. No grid search.",
+    "checkpoint_frequency": 75
+  },
+  "independent_acceptance": {
+    "predefined_seed_base": 10142600,
+    "environment": "D",
+    "factorial": "3 target colours x2 initial drawer states x2 new layouts =12roots",
+    "collection": "unchanged lift and fixed empty-gripper probe on all12roots; unchanged lift then place_in_drawer on6open roots for positive in. At most30trajectories.",
+    "layout_exclusion": "Before execution exclude prior same-environment layouts; all3positions within20mm or within30mm with close yaw count as too close; log rejected candidates.",
+    "gate": "Report all counts/roots/gaps. Raw held/in/open FPR<=1% and positive recall>=95%, coverage>=95%, effective known positive recall>=95% where positives exist. Require planned12held-positive roots and6in-positive roots for full narrow-scope acceptance; collection misses remain misses/insufficient evidence, not resampled.",
+    "one_shot": "Freeze candidates, thresholds, roots and collector before new acceptance inference. No acceptance-driven correction.",
+    "scope": "Known RGB colours and native D environment, not novel object categories or LTL performance."
+  },
+  "not_used_for_selection": [
+    "old D300",
+    "previous supplementary test38"
+  ],
+  "no_control_or_vision_change": true,
+  "no_world_model_or_planning": true,
+  "no_upload": true,
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/inputs_targets.npz": "4a10e7cedf9bc6347e21ac3c9008537a60d8f99f1b2b903f86d837e96c651d2e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/data/supplement_train_dev.npz": "316426686507c9b963b87e6235265b88d0610f65e10e6ddf176d36c83fa7e417",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/source/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/target_supervision_manifest.json": "515e26c90a97c183564224825614e421f92d7bf0bdd9c18a20f4131401563ebf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/models/direct_predicates_seed0.pt": "bf6fbe53de79989c27cdf635d2ea4e840656e237585a313614ec81a78e0f5ef8",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/models/direct_predicates_seed2.pt": "3a350843fb3d0b02697146deee7d16d0c54b657cbcc70d075af9cadc7e46efe1",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/models/direct_predicates_seed1.pt": "d855e003e282218a375aa2a7608329965e132b51603f144a1a82d851299d3b6a",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed0_final.pt": "8b605d1cbf0e2213204366525610342ca5379d557a5b9e2b56b8926e2f38176c",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed2_selected.pt": "ae7376bf0ea1333580b2612e558b22dfe110e2e7bda9fe46e61d35ddccc81a31",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed0_selected.pt": "fa20e0b1143b61ed40b3b0ac61c1149304e46d3e0d06b3334f21e5e11b997a03",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed1_selected.pt": "79451337636cd7ef4df7d99a98588c4f17420837f8c71996757fda8d3c5b87f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed1_final.pt": "e4bada99fc121a163f4308ee8030f11f48b60fbe60fec70ab69e0bc105da9553",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/models/augmented_seed2_final.pt": "76c918f77dceac60651fed6f737beb0b7b02a18e9019b44cb5542b278261ccbc"
+  }
+}

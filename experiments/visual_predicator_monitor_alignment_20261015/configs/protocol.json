@@ -1,0 +1,22 @@
+{
+  "created_from": "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_minimal_20261015",
+  "change": "Single causal monitor-alignment correction; native failed flag remains unchanged. If current observed symbolic literals match every learned add/delete effect, replan; refused calls still stop. Visual arm consumes no GT.",
+  "source_evidence": "PhysicalOracle.in_drawer requires direct force-bearing drawer contact. core_ownership labels allow an upward support chain through another block. Prior v1 second placements ended with both In true but native failed; policy stopped before closure.",
+  "training_updates": 0,
+  "checkpoint_or_rule_changes": 0,
+  "test": {
+    "new_roots": 3,
+    "arms": [
+      "visual_learned_rules",
+      "GT_symbols_learned_rules"
+    ],
+    "goals": "two different blocks in drawer, drawer closed",
+    "maximum_calls": 48,
+    "max_calls_per_episode": 8,
+    "fixed_new_layouts_before_execution": true,
+    "prior_v1_results_not_replaced": true,
+    "scope": "targeted validation of this monitor correction, not an untouched hypothesis test or general robot reliability estimate"
+  },
+  "fixed_model_sha256": "ea51c169d2330d1066fe3cefa18c3d6378191eb07655f5887d82d4e8bb7fb944",
+  "fixed_rules_sha256": "0b38557f03bde50576eee9976749bdb0963a63df38ad0ba4212117b19b928fe5"
+}

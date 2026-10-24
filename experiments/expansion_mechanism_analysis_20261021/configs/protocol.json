@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-21T12:40:50.788319+00:00",
+  "scope": "Second posthoc mechanism analysis, no training/inference/collection/original writes. New development diagnostic focus; holdout descriptive only.",
+  "matched_windows": "Same free origin/episode with >=3remaining. One_step at same origin andrelative1..3 has exactly same start; receives actual public observations after each preceding action. Never use origin0 one_step for matching different origins.",
+  "chain_rule": "P(C1)*P(C2|C1)*P(C3|C1C2)=count(C1C2C3)/allvalid matchedwindows. Future boundaries1..3 only; initial correctness separate.",
+  "paired": "Old/new identical episode,origin,actions,target labels; initial state/action/relation strata all retained with counts, no outcome-driven sampling.",
+  "mechanism": "Compare drawer GT and free/observed forecasts, actual control status, continuous distance tolabel thresholds, training analogous before/action/after exposure. No blanket attribution to rollout instability.",
+  "training_audit": "Read actual objective, per-update logs, schedules andtargets; count actual supervision horizons, fixed classweights, per-class exposure andmovingmean. No new LR/epoch/architecture ablation exists."
+}

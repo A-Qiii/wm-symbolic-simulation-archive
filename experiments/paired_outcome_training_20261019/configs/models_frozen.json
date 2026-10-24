@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-19T20:16:06.748678+00:00",
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "paired",
+      "update": 500,
+      "development_objective": 4.477594176928203,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed0_step500.pt",
+      "sha256": "168db5a851b9b0f0bf64fe97fc19993543e364fbe663f147b6657d2f859ce5a4"
+    },
+    {
+      "seed": 1,
+      "arm": "paired",
+      "update": 500,
+      "development_objective": 4.698257525761922,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed1_step500.pt",
+      "sha256": "368a9653030b4e160cfbee1aeaa1e29eeaec0e820c2a8a028608aff73bece3ba"
+    }
+  ],
+  "fits": 2,
+  "updates": 2000,
+  "control_reused": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed0_step500.pt": "168db5a851b9b0f0bf64fe97fc19993543e364fbe663f147b6657d2f859ce5a4",
+    "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed0_step1000.pt": "425cb4cc32313f268b01e5917a820046b155f99a8acac787052a3394868909f8",
+    "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed1_step500.pt": "368a9653030b4e160cfbee1aeaa1e29eeaec0e820c2a8a028608aff73bece3ba",
+    "/home/robot/research/projects/wm_symbolic/experiments/paired_outcome_training_20261019/models/paired_seed1_step1000.pt": "da795987ba0d4280a93e5888af952bf85f01b4d5da66537d9754e7f4ef06c99a"
+  },
+  "historical_evaluation_is_not_blind": true
+}

@@ -1,0 +1,10 @@
+{
+  "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+  "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/state_labels.py": "d2c9bfee479afb09fa41b7749c6d836435a73d961d1787a8395025d36613fa48",
+  "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+  "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/world_model.py": "480376ab096af5a8ba7cbef5603ff51f910a1abbbc98e830ff86e6e9592d0a4f",
+  "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/public_geometry.py": "2eebb6f3dca47f00fbbd0195680c536f3988e6611c66f419b6130108846fb6dd",
+  "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+  "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+  "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_C.yaml": "a7cf204d27465ae80ec41aaa3a62ea4fc30346dda8413d6702969fc1e70a7ddc"
+}

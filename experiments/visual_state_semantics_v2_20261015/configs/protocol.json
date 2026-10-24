@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-10-15T15:24:17.616422+00:00",
+  "scope": "One bounded AB/C semantic repair, full support and geometry evidence, fixed executor. No D authorized until preregistered development gate assessed.",
+  "labels": {
+    "version": "contained_supported_drawer3_v2",
+    "In": "Full object OBB inside native drawer cavity (sidewalls AND below rim), upward load-bearing path to drawer, not Held. All supporting movable ancestors must also fit the cavity. A protruding stacked block is NOT In.",
+    "box_dimensions_m": [
+      [
+        0.05600000000000001,
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      [
+        0.04000000000000001,
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      [
+        0.08000000000000002,
+        0.04000000000000001,
+        0.04000000000000001
+      ]
+    ],
+    "drawer_local_lo_m": [
+      -0.18000000000000002,
+      0.020000000000000004,
+      -0.04000000000000001
+    ],
+    "drawer_local_hi_m": [
+      0.18000000000000002,
+      0.08000000000000002,
+      0.16000000000000003
+    ],
+    "geometry_signed_side_and_rim_margin_m": 0.002,
+    "floor_penetration_tolerance_m": 0.003,
+    "support_force_N": 0.01,
+    "support_up_normal_z": 0.5,
+    "support_max_gap_m": 0.003,
+    "support_force_uncertainty_N": [
+      0.005,
+      0.015
+    ],
+    "support_normal_uncertainty": [
+      0.45,
+      0.55
+    ],
+    "Closed_q_max_m": 0.02,
+    "Open_q_min_m": 0.18,
+    "drawer_threshold_uncertainty_m": 0.003,
+    "Intermediate": "0.02<q<0.18; boundary bands invalid for all three labels. Closed and Open are separate queries, never negations.",
+    "Holding": "Unchanged bilateral force-bearing finger-family contacts with no external body support, from frozen PhysicalOracle.",
+    "model_access": "No simulator fields; labels, poses, contacts and scenario condition are evaluator-only."
+  },
+  "root_groups": 27,
+  "fixture_root_groups": 18,
+  "chain_root_groups": 9,
+  "train_root_groups": 18,
+  "dev_root_groups": 9,
+  "root_split": "A/B train,C dev. All paired fixture branches retain same root. Old312windows may be reused for Holding supervision ONLY; their In/drawer labels are not silently migrated.",
+  "fixtures": [
+    "table_open",
+    "single_inside",
+    "edge_straddle",
+    "outside_front",
+    "stacked",
+    "separated",
+    "empty_mid",
+    "empty_closed"
+  ],
+  "matched_close_conditions": [
+    "table_open",
+    "single_inside",
+    "stacked",
+    "separated"
+  ],
+  "fixture_hold_controls": 127,
+  "post_skill_hold_controls": 96,
+  "chain": [
+    "open_drawer",
+    "lift_target",
+    "place_in_drawer",
+    "close_drawer"
+  ],
+  "capture": "Complete contacts, body poses, drawer link transform, joint position and old/new labels every30Hz control. Public RGB/proprio allowlist separate. 4-frame causal windows offsets63/42/21/0.",
+  "diagnostic_windows": "fixture frames63,127; after eachskill+96; intermediate first q<=.14 and first q<=.07; first closed-gripper descend; lower_into_drawer frame63 when available. Probes used for supervised development only.",
+  "physical_guard": "No teleport after reset, no changed force, collision, externalforce or dynamics; unchanged PhysicalOracle SHA frozen. Layout changes are explicitly paired reset branches, never a simulated transition.",
+  "maximum_skill_calls": 108,
+  "maximum_control_frames": 140000,
+  "training": {
+    "seed": 0,
+    "updates": 1200,
+    "batch": 32,
+    "checkpoint_updates": [
+      300,
+      600,
+      900,
+      1200
+    ],
+    "optimizer": "AdamW lr0.001 weight_decay0.001 clip1",
+    "architecture": "Frozen previous object/scene encoders and temporal GRUs; fresh shared query-conditioned head, five relation types Holding/In/Closed/Open/Intermediate; 9 output facts. Drawer outputs normalized jointly with softmax.",
+    "sampling": "16 samples from old AB Holding-only root pool,16 from new AB root pool; uniform root then window.",
+    "loss": "Equal group weights Holding BCE, In BCE, drawer3wayCE; inverse class weights from valid AB labels only; missing groups excluded.",
+    "selection": "New C root-macro group loss plus0.2*old C Holding loss, tie earlier. No test selected."
+  },
+  "development_gate": {
+    "audit": "All source separation, full evidence and frozen code checks pass. Every requested counterexample family has actual AB/C physical evidence; failed intended fixtures stay recorded.",
+    "reader": "All9 accuracy on new C>=90%; Closed false-positive0 on valid Intermediate/Open; In false-positive0 on valid outside/suspended/protruding counterexamples; all classes have Cpositive+negative support. Old C Holding must not regress by more than1 of84windows.",
+    "rules": "Explicit Closed goal; no unsupported failed transition forced into success effects. Conflicting identical-state outcomes or incomplete failure coverage must be reported and can block an independent test.",
+    "next_step": "Only if audit and perception gates pass, assess one frozen new-root acceptance. Otherwise stop additionalD and produce concrete limitations, no repeated tuning."
+  },
+  "old_report_correction": "Original7fact6/6 included partiallyopen drawer; strictclosed5/6. Priorreport already separates both."
+}

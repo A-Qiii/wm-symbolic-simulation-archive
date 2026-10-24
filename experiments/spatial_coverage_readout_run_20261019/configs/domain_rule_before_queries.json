@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-19T14:10:05.944628+00:00",
+  "finite_grid_per_object": 33,
+  "scope": "Same class physical prior intersect fixed y/yaw footprint and approach; nearest modulo-pi V1 orientation; then conditional quantile sampling",
+  "max_candidates_per_root": 256,
+  "no_test_performance_access": true,
+  "first_attempt_archived": "geometry_attempt1"
+}

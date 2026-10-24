@@ -1,0 +1,16 @@
+from common import *
+import csv,collections
+sys.addaudithook(guard)
+oldchecks=read(S/'results/old40_geometry.json');oldroots={r['root_id']:r for r in read(P/'data/core1200_v1/roots_manifest.json')};oldrows=read(P/'data/core1200_v1/data_manifest.json')['records'];records=[]
+for check in oldchecks:
+ rid=check['root_id'];root=oldroots[rid];failedcolors={x['color']for x in check.get('reach',[])if x['max_position_error_m']>.03 or x['scene_penetrations']};failedcolors|={reason.split('_')[-1]for reason in check['reasons']if reason.startswith('footprint_support_')}
+ for r in oldrows:
+  if r['root_id']!=rid or not r['skill'].startswith('lift_'):continue
+  color=r['skill'].split('_')[1];j=COLORS.index(color);lab=read(r['labels_path']);before=lab['before'];target=before['continuous']['objects'][color]['position_m'];initial=root['layout']['block_'+color][:3];close=float(np.linalg.norm(np.array(target)-initial));res=read(Path(r['labels_path']).parent/'result_private.json');info=read(Path(r['labels_path']).parent/'endpoint_info_private.json')['before']['scene_info']['movable_objects']['block_'+color];q=info['current_orn'];yaw=float(np.arctan2(2*(q[3]*q[2]+q[0]*q[1]),1-2*(q[1]**2+q[2]**2)));yaw_difference=float(abs((yaw-root['layout']['block_'+color][5]+np.pi/2)%np.pi-np.pi/2))
+  if before['categorical'][j]in[0,1,2]and before['categorical_valid'][j]and not any(v==6 for v in before['categorical'][:3])and close<.002 and yaw_difference<.025:
+   records.append({'root_id':rid,'old_admission_pass':not check['reasons'],'color':color,'this_color_geometric_failure':color in failedcolors,'episode_id':r['episode_id'],'step':r['step'],'position_difference_m':close,'yaw_mod_pi_difference_rad':yaw_difference,'status':res['status'],'goal_success':res['goal_success'],'reason':res.get('reason'),'controls':len(read(r['low_level_log']))})
+failed=[r for r in records if r['this_color_geometric_failure']];out={'utc':now(),'old40_pass':sum(not x['reasons']for x in oldchecks),'old40_fail':sum(bool(x['reasons'])for x in oldchecks),'failure_types':dict(collections.Counter(v for x in oldchecks for v in x['reasons'])),'matching_actual_lift_attempts_on_geometrically_flagged_colors':len(failed),'matching_actual_success':sum(r['goal_success']for r in failed),'matching_actual_success_roots':sorted({r['root_id']for r in failed if r['goal_success']}),'matching_actual_failed':sum(not r['goal_success']for r in failed),'interpretation':'Static fixed-native-start IK is a conservative proxy. Actual V1 starts after physical setup/actions, may use different wrist branch and contact-limited motion. A failure of this check does not itself establish old data invalidity. Success at same object position provides counterevidence to an absolute-unreachable claim, not proof every approach is collision-free.','design_limit':'Report full40 and old-pass29 descriptive paired strata. All heads trained on40, so29-stratum cannot isolate pure geometry or remove training confounding. No root deletion/refit/reweighting.','records':records}
+save(S/'results/admission_fairness_audit.json',out)
+with(S/'results/admission_actual_lifts.csv').open('w',newline='')as f:
+ w=csv.DictWriter(f,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
+print({k:v for k,v in out.items()if k!='records'})

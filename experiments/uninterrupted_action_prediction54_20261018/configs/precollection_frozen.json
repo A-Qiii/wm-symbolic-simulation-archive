@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-18T18:18:40.363949+00:00",
+  "before_any_new_physics": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/collect.py": "e48d1b92907add59e389ada94214f8676c0dd022638c9f1d654165893dbb1a01",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/gates.py": "b1dc26c769fa1cc53cf1a948d880bc1ccc49f564ac9f4de816dfa28c6ddccf80",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/preflight.py": "cb6757a1341739d08f9aa845817aa21f138ba4d021d7875e212c9da158d31862",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/model_input_reader.py": "1f48d1f1b148698d1ee78675e5f30821b1d13fd3014d8b3ac4e497aee3ca304c",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/safety.py": "741fc000f1530e7509952fe47c1efad92bdef42f0c4e616b5b0d19f2b2de2e9d",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/common.py": "ce4e45cbe9a04e0ba7fbbac637b002110e8b83541ad8c9aa01759cee2495718f",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/source/prepare.py": "ed601c65083ffe35f213e04c366a98819a8c696e3eca1ae6d730713f0dc2f381",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/configs/input_references.json": "a4477d7b0026f20d7704948fb9694996e1c13c63dfb6cb3f4d784d9a6b193be8",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/configs/protocol.json": "0f715d6b6ea9e004e2b1d116dd5cc5dd10f5649adf93c6318d1113b55b3b377d",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/configs/assignments.csv": "72bab16eb2f08202026d5e9558c1c546676c01a0b5f0f980e74da6fe47f0b44e",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/configs/historical_frozen.json": "27d18ea597d6f8462a70be897d8a57649b88c8fa6b94bfece89c2ce04eeb3ef5",
+    "/home/robot/research/projects/wm_symbolic/experiments/uninterrupted_action_prediction54_20261018/configs/historical_exclusion.json": "c0190c1b1dd333ddf84c74f69464dc6f7a8d08a7ecee4dcf44849d510d1a98b4"
+  }
+}

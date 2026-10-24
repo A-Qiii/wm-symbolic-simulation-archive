@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-19T21:23:49.751784+00:00",
+  "status": "PRECOLLECTION_FIXED",
+  "selected_plan": "train12",
+  "families": {
+    "train": 12,
+    "development": 4,
+    "locked_test": 8
+  },
+  "roles_per_training_family_per_arm": 3,
+  "branches": [
+    1,
+    2
+  ],
+  "episodes_each_arm": 72,
+  "transitions_each_arm": 432,
+  "total_collect_episodes": 252,
+  "total_collect_transitions": 1512,
+  "proposal": "/home/robot/research/projects/wm_symbolic/reports/role_generalization_proposal_20261019/PROPOSAL.md",
+  "intervention": "Geometry-conditional role assignment only; equal environment-specific ordered color pair marginals, same families, 3 unique roles per family, 2 real branches per role; shared trajectories reused. Objects assets/colors/dimensions/mass/base poses unchanged within family. Actual setup role changes robot pose and held object, recorded.",
+  "preflight": "128 finite geometry candidates/family; original support/collision/IK/reset checks for every object => every H/T role. No model scores, no task-success screening. New test actual motor setups and rollouts only after models frozen.",
+  "training": "Same original joint6000+AdamW112 states, zero W, exact residual model and full k3+terminal loss; 2arms x2seeds x1000updates;4old+4new,accumulate2;AdamW1e-4,clip1,BF16; 8000old+8000new draws/fit. Old40 only. No new architecture/loss/threshold.",
+  "selection": "Same newdev4 families all6roles2branches; full objective at500/1000 min,tieearlier.250 snapshot descriptive only. Fixed1000 also reported.",
+  "metrics": {
+    "primary": "Per role both normal and disturbed h2 complete Held3+InDrawer3+drawer and all pure imagined h3-h5 complete. Average six roles within each test family, then8families.",
+    "secondary": [
+      "h0 complete and Held identity",
+      "h2 complete paired",
+      "pure imagined h6 terminal and h2-h6 entire4future prefix",
+      "all7 observed boundaries per branch",
+      "success/event Brier/NLL by step; no refusal head invented",
+      "absolute prior/post InDrawer; non-action stable trueIn prior-correct posterior-wrong forgetting sets"
+    ],
+    "inference": "8samples, matched role RNG across branches/arms; threshold.5, no future observations, hidden disturbance never input",
+    "uncertainty": "2000 paired family bootstrap, seedwise and averaged across2seeds;8clusters not96episodes. Training fit shown; insufficient fit reported. One data-assignment seed only.",
+    "claim": "Both seeds positive primary differences, seed-averaged family CI lower>0 and no h0/normaltrajectory/retention sacrifice required for evidence. Otherwise inconclusive or negative. Not guide acceptance."
+  },
+  "physical_validity": "Retain every setup failure, actual success/failure/refusal. Score intended/all rows plus actually valid pairs. No root replacement after admission. Pilot first A/B train family; require at least one real valid matched pair in each environment to proceed. No selective exclusion from training.",
+  "old_negative": "Prior20-to40 scaling negative remains evidence; this is a finite role-confounding hypothesis test, not erasure of earlier failure.",
+  "resource": {
+    "utc": "2026-10-19T21:21:32+00:00",
+    "deadline_utc": "2026-10-19T22:51:32+00:00",
+    "authorization": "User selected smaller 12/4/8 design; no silent budget extension."
+  },
+  "no_CD_or_upload": true
+}

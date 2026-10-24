@@ -1,0 +1,14 @@
+[
+  {
+    "name": "success_chain",
+    "count": 150,
+    "inputs": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/public/paired_inputs_v1.npz",
+    "supervision": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/data/_private/supervision.npz"
+  },
+  {
+    "name": "state_conditions",
+    "count": 108,
+    "inputs": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_state_dependence_20261014/data/public/inputs_full.npz",
+    "supervision": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_state_dependence_20261014/data/_private/supervision_full.npz"
+  }
+]

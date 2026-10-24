@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-18T14:35:49.532253+00:00",
+  "before_first_new_render": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/mesh_semantics.json": "1d258543d98d58659c4994bd9f55d34abd318e064f29dd8cf4fb6e66406edd68",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/protocol.json": "114b11d05ca72b4a5459517348df73ee810ae463854e81bc8cce1c20e02fae74",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/historical_registry.json": "423c98a0de1883d23ff89ee5a4e7a2585e6d27417bb99c69fce51b1dd7d5766b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/input_frozen.json": "6d6432709fb97eca7a7dbe614215c9bcb46521e39a3b29d1a2a237364e8ef6ed",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/calibration_locked.json": "64d8d601a96054aa2f7cc60b1c10ae026164ae4da2bcf52d07af8744f342e976",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/configs/normalization.npz": "ee995abdb5c7a378d6cf4bf0d4413efb944eee6d1bc9dc9f584cef9291e31d8a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/net.py": "09482358350203a4e562f5f804b4adaeff74764b00606954eb18faae26e098b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/collect.py": "bd5c82e94e73576f06650d9d76903909f2c49423eeedcb5a93a4fe55f831cef5",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/geometry.py": "e81746c91c8b0d2ee97ce98792f6b089c4634a2c78a04adae070d2f3168827a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/features.py": "562e6de9da993861c6855281b7de9940ab8ae5b39f6bfac0cf1b73810cf4d7e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/pr_engine.py": "e7d8d752e5910b281cd7cef623559af2941217db3e289cdae89ce10d8756305f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/common.py": "65e53233d7a23395179ab3e54905fcf157ad49ba79b60c107496df16ba684f99",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/source/prepare.py": "84508e515dffbed0798f0609235c0226585fec8ac8f1c9d23365b17ea5594ea9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/models/final_seed0.pt": "c1cb3230abc9762d57493ab1df1bb283018263b38393d269b1741a9d08387349",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_focal_calibration_freshC16_20261018/models/final_seed1.pt": "ef6f6bc1b4d5223702b45381e700aa838ed4aa08cb203b7774624f98f05adce2"
+  }
+}

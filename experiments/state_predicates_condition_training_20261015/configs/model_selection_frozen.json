@@ -1,0 +1,394 @@
+{
+  "created_utc": "2026-10-15T07:14:34.268789+00:00",
+  "protocol_sha256": "eabfbcf779792ed66efded2956d79e6aeca5075c106d29f6a086a7122e41b5d1",
+  "runs": [
+    {
+      "run": "old96_seed0",
+      "seed": 0,
+      "cohort": "old96",
+      "updates": 1500,
+      "training_pairs": 96,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 250,
+      "per_example_max_presentations": 250,
+      "initial_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 1200,
+        "tune_root_macro_BCE": 2.1039481163024902,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update1200.pt",
+        "sha256": "2f4b9c7d8952995df0bdce8a6b33573b680a43fcfca4dff1ab34fd9c95edf0d3"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 2.108893871307373,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update1500.pt",
+        "sha256": "a3f626a9e8597f21f0a4ac7b605082a195c104d573d4bd9257f3e202bf59392c"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 2.953123092651367,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update0300.pt",
+          "sha256": "f1b24f08548f49349aebe378d6386d969e3c8c0c0d4047a3acaf5435b5734806"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 2.217737913131714,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update0600.pt",
+          "sha256": "2963b8c037ce784828daf08bb16f8dc2786c30792a449a32421742ea37011459"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 2.1064400672912598,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update0900.pt",
+          "sha256": "fe5e3450307f9ec7aaf10283875f26e43299bf4ca41132c348ef2687394cd272"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 2.1039481163024902,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update1200.pt",
+          "sha256": "2f4b9c7d8952995df0bdce8a6b33573b680a43fcfca4dff1ab34fd9c95edf0d3"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 2.108893871307373,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed0/update1500.pt",
+          "sha256": "a3f626a9e8597f21f0a4ac7b605082a195c104d573d4bd9257f3e202bf59392c"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.406857284000125,
+      "CUDA_seconds": 2.40409912109375,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    },
+    {
+      "run": "aug132_seed0",
+      "seed": 0,
+      "cohort": "aug132",
+      "updates": 1500,
+      "training_pairs": 132,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 181,
+      "per_example_max_presentations": 182,
+      "initial_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.11100064963102341,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1500.pt",
+        "sha256": "40c015a4f15a1652c40054120a3759d02c25b2de67948f6fff118d1d00d59764"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.11100064963102341,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1500.pt",
+        "sha256": "40c015a4f15a1652c40054120a3759d02c25b2de67948f6fff118d1d00d59764"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 0.27216893434524536,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0300.pt",
+          "sha256": "80973d1c99902023527fb14240e77b8732b6c5ab50df3dfc9669d6c54b269f7c"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.12010908126831055,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0600.pt",
+          "sha256": "f7916b92a57ee8527b7fe00d412ac1371dfb0be518b1cf5bca61f8d0a0fe6099"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 0.11387370526790619,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update0900.pt",
+          "sha256": "fc1b9313573418428f5a70155425c9edcf3cae982f2215c2a67fd2ee205ba331"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 0.11111132800579071,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1200.pt",
+          "sha256": "65dab42e3674ca9bb869109caf29bc93a4efc7f721a48a15d21e781c444eabef"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 0.11100064963102341,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed0/update1500.pt",
+          "sha256": "40c015a4f15a1652c40054120a3759d02c25b2de67948f6fff118d1d00d59764"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.1459354989997337,
+      "CUDA_seconds": 2.146259521484375,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    },
+    {
+      "run": "old96_seed1",
+      "seed": 1,
+      "cohort": "old96",
+      "updates": 1500,
+      "training_pairs": 96,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 250,
+      "per_example_max_presentations": 250,
+      "initial_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 300,
+        "tune_root_macro_BCE": 2.81382417678833,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update0300.pt",
+        "sha256": "833898b075708db6c1d5bcec5e64a108439569335b76a9b4feb0df91e4e1780e"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 3.000046730041504,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update1500.pt",
+        "sha256": "40dda6c57417c9d07535bbfa1dad0f88b87af06ce9207581d38a63390e8948df"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 2.81382417678833,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update0300.pt",
+          "sha256": "833898b075708db6c1d5bcec5e64a108439569335b76a9b4feb0df91e4e1780e"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 2.905048131942749,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update0600.pt",
+          "sha256": "bbcff95929bbd85d9803ab47b7710a56b6e2ec54993ec34b679499b4a1a27cc7"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 2.9747519493103027,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update0900.pt",
+          "sha256": "5a781972e3855f07f6a136f116814e5ac624c84d0948a2921f2840a6fcf635c4"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 3.022763729095459,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update1200.pt",
+          "sha256": "e87eb157230f56e5edf4d1eb5296e08ab4fc4a5831af852922bf5841b409ccdd"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 3.000046730041504,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed1/update1500.pt",
+          "sha256": "40dda6c57417c9d07535bbfa1dad0f88b87af06ce9207581d38a63390e8948df"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.2842529849999664,
+      "CUDA_seconds": 2.2845517578125,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    },
+    {
+      "run": "aug132_seed1",
+      "seed": 1,
+      "cohort": "aug132",
+      "updates": 1500,
+      "training_pairs": 132,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 181,
+      "per_example_max_presentations": 182,
+      "initial_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.1255761981010437,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1500.pt",
+        "sha256": "20cf680a8e431dd864602a17827d2d3321723b9ec23504956dbb9c8ee8af15b3"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.1255761981010437,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1500.pt",
+        "sha256": "20cf680a8e431dd864602a17827d2d3321723b9ec23504956dbb9c8ee8af15b3"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 0.23956716060638428,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update0300.pt",
+          "sha256": "abe2e22a94fabf0aee9a729418bd2dff640c1846780fa488d52481a59a4cfa8e"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.13712918758392334,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update0600.pt",
+          "sha256": "f19215d05c93ad1eedc808c9b9d1da792dbca4b11718e2596223bb2948652aaf"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 0.1293461173772812,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update0900.pt",
+          "sha256": "24b261a543759dd3d7e490d93132672de497457291e7d4cbc6844619baaf68e7"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 0.12706591188907623,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1200.pt",
+          "sha256": "5706f48678882d93608eb533e6bc41940ef060f93918f4dfbac2b3cab51d9e86"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 0.1255761981010437,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed1/update1500.pt",
+          "sha256": "20cf680a8e431dd864602a17827d2d3321723b9ec23504956dbb9c8ee8af15b3"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.2680699710003864,
+      "CUDA_seconds": 2.268419677734375,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    },
+    {
+      "run": "old96_seed2",
+      "seed": 2,
+      "cohort": "old96",
+      "updates": 1500,
+      "training_pairs": 96,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 250,
+      "per_example_max_presentations": 250,
+      "initial_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 1200,
+        "tune_root_macro_BCE": 2.9529616832733154,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update1200.pt",
+        "sha256": "eb822e78dd21a38f4308ae46df7d45f7218808f5745860f1208c3db9ced15185"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 3.0333118438720703,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update1500.pt",
+        "sha256": "f0fa4d07ab42f466ab6628e2687b7c76c11ae30a56fd570fe390f4077a4b3667"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 3.0952367782592773,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update0300.pt",
+          "sha256": "12df811d4487e6c842ba7d540f76226765d7d92eda5e3bc6c25efdc4d1ea8e47"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 3.1044325828552246,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update0600.pt",
+          "sha256": "798fc8cdf9f4fa593189b6ffee62933ef6f5bd3a19b487884598179f8ec3909d"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 3.0208373069763184,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update0900.pt",
+          "sha256": "2bb9bf7ef08af74b2c2926e9fa8ed6c73dd2588a378667155ec58ce93aac9f30"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 2.9529616832733154,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update1200.pt",
+          "sha256": "eb822e78dd21a38f4308ae46df7d45f7218808f5745860f1208c3db9ced15185"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 3.0333118438720703,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/old96_seed2/update1500.pt",
+          "sha256": "f0fa4d07ab42f466ab6628e2687b7c76c11ae30a56fd570fe390f4077a4b3667"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.2901683229997616,
+      "CUDA_seconds": 2.290519287109375,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    },
+    {
+      "run": "aug132_seed2",
+      "seed": 2,
+      "cohort": "aug132",
+      "updates": 1500,
+      "training_pairs": 132,
+      "example_presentations": 24000,
+      "per_example_min_presentations": 181,
+      "per_example_max_presentations": 182,
+      "initial_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.1417970359325409,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1500.pt",
+        "sha256": "a285dd546395929621913cfcd6c7efe80c9b65d5d3c61d5d11e978bad5ed91a1"
+      },
+      "final1500": {
+        "update": 1500,
+        "tune_root_macro_BCE": 0.1417970359325409,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1500.pt",
+        "sha256": "a285dd546395929621913cfcd6c7efe80c9b65d5d3c61d5d11e978bad5ed91a1"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "tune_root_macro_BCE": 0.24728946387767792,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update0300.pt",
+          "sha256": "a9d1ccaa990872f2586e81198fe9a10811e9de9b697d8be6ed9f973a3a59ad4e"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.15475086867809296,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update0600.pt",
+          "sha256": "6c168abdfe5b3f3b8cc5ce4c979d1fc610892edd6e55078c213cebbfd99a2d3c"
+        },
+        {
+          "update": 900,
+          "tune_root_macro_BCE": 0.14652042090892792,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update0900.pt",
+          "sha256": "5e0415851f3dea564de26c24db03f205b0d130691217c8f3b915fc680c54e322"
+        },
+        {
+          "update": 1200,
+          "tune_root_macro_BCE": 0.1432638317346573,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1200.pt",
+          "sha256": "538e00f5036cc3059e51228ed2b4e12cd530e62ec16de13425d306764e10927a"
+        },
+        {
+          "update": 1500,
+          "tune_root_macro_BCE": 0.1417970359325409,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_training_20261015/models/aug132_seed2/update1500.pt",
+          "sha256": "a285dd546395929621913cfcd6c7efe80c9b65d5d3c61d5d11e978bad5ed91a1"
+        }
+      ],
+      "parameters": 76224,
+      "frozen_reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_calibration_not_used": true,
+      "wall_seconds": 2.300156180999693,
+      "CUDA_seconds": 2.300505126953125,
+      "peak_torch_allocated_bytes": 23216128,
+      "peak_torch_reserved_bytes": 27262976
+    }
+  ],
+  "representatives": {
+    "old96": "old96_seed0",
+    "aug132": "aug132_seed0"
+  },
+  "all_training_complete": true,
+  "selected_before_final_evaluation": true,
+  "C_calibration_not_used_for_selection": true,
+  "total_optimizer_updates": 9000,
+  "total_wall_seconds": 15.19771711300018,
+  "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b"
+}

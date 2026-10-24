@@ -1,0 +1,24 @@
+{
+  "variant": "balanced_loss",
+  "weights": {
+    "held": {
+      "positive": 4.814236111111111,
+      "negative": 0.5579476861167002,
+      "n_positive": 288.0,
+      "n_negative": 2485.0
+    },
+    "in_drawer": {
+      "positive": 3.667989417989418,
+      "negative": 0.5789144050104384,
+      "n_positive": 378.0,
+      "n_negative": 2395.0
+    },
+    "open_drawer": {
+      "positive": 0.6852112676056338,
+      "negative": 1.849809885931559,
+      "n_positive": 710.0,
+      "n_negative": 263.0
+    }
+  },
+  "balanced_formula": "mean_g [ sum_valid BCE * (N_g/(2Npos_g) if y=1 else N_g/(2Nneg_g)) / count_valid_g ]"
+}

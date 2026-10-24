@@ -1,0 +1,8 @@
+{
+  "syntax_all_passed": true,
+  "old8force_difference_retained": 8,
+  "core_plus_pixels_exact": true,
+  "full_comparison_still_fails_on_historical_forces": true,
+  "same_state_full_comparison_passes": true,
+  "physical_execution_controls": 0
+}

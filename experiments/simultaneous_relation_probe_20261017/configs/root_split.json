@@ -1,0 +1,26 @@
+{
+  "diagnostic_D_seen": [
+    "D_combination_blue_00",
+    "D_combination_blue_01",
+    "D_combination_pink_00",
+    "D_combination_pink_01",
+    "D_combination_red_00",
+    "D_combination_red_01"
+  ],
+  "train": [
+    "A_combination_blue_00",
+    "A_combination_pink_00",
+    "A_combination_red_00",
+    "B_combination_blue_00",
+    "B_combination_pink_00",
+    "B_combination_red_00"
+  ],
+  "validation": [
+    "A_combination_blue_01",
+    "A_combination_pink_01",
+    "A_combination_red_01",
+    "B_combination_blue_01",
+    "B_combination_pink_01",
+    "B_combination_red_01"
+  ]
+}

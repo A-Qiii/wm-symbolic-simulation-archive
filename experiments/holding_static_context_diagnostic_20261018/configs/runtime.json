@@ -1,0 +1,9 @@
+{
+  "python": "3.11.13 (main, Sep 18 2025, 19:46:39) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "torch_CUDA_build": "12.8",
+  "numpy": "1.26.4",
+  "GPU_order": "frozen encoder264existingframes then four600stepfits; exclusive samegpu.lock",
+  "offline_cache_reused": "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056"
+}

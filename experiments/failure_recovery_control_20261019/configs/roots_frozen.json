@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T19:06:28.191356+00:00",
+  "roots": 24,
+  "no_physical_skill_outcomes_used": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/data/roots_manifest.json": "542cea8223db399cabfd5400e086ed0e21003a41781751003e3fa8aa5baa7f60",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/configs/protocol.json": "e863371bc334bc9142eebf19e94e5d5e7bb8d2db783e511329896cb6b05ef617"
+  },
+  "seconds": 26.283995919999143
+}

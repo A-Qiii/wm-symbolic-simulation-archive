@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-15T16:49:18.657559+00:00",
+  "scope": "Two matched-capacity shared-query networks, AB/C development only. Frozen original temporal reader remains read-only reference. No newD, newbackbone, controller change, planning run or extra data.",
+  "data": {
+    "windows": 942,
+    "new_semantics": 630,
+    "legacy_Holding_only": 312,
+    "new_AB_roots": 18,
+    "new_C_roots": 9,
+    "legacy_AB_roots": 48,
+    "legacy_C_roots": 18,
+    "source": "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/metadata.json",
+    "legacy_missing_In_drawer_masks_retained": true,
+    "new9Close_diagnostic_data_excluded": true,
+    "C_already_seen_during_diagnostic_not_blind": true
+  },
+  "architecture": {
+    "common": "Frozen old96d temporal object/scene nodes concatenated with96d current spatial nodes; shared384to32 patch projection; object8slots*32+12bbox to96; scene32slots*32+15proprio to96. Shared typed query [a,b,a-b,a*b,type16]784->128LN/GELU->64GELU->1, drawer3 queries jointly softmax. Five relation types, nine facts.",
+    "pooled": "Object4patch mean repeated4; scene4x4 reduced2x2 then repeated to4x4. Old temporal representation retained.",
+    "spatial": "Original object2x2 and scene4x4 slots retained, no fine patch averaging. Old temporal representation retained.",
+    "matched_parameters": true,
+    "initialization": "Both arms load same initial semantic query selected600; original head columns copied; new spatial columns initializedzero, yielding same initial logits. All new module weights seed0 and identical across arms.",
+    "all_relations_use_same_query_head": true,
+    "missing_RGB_object_ROI": "zeroed by current-frame RGB visibility, no hidden-location imputation",
+    "anchors": "drawer/gripper use typed scene anchors, not claimed segmented 3D instances.",
+    "no_GT_geometry_input": true
+  },
+  "training": {
+    "seeds": [
+      0
+    ],
+    "updates_per_arm": 1200,
+    "total_updates_budget": 2400,
+    "checkpoints": [
+      300,
+      600,
+      900,
+      1200
+    ],
+    "optimizer": "AdamW lr0.0005 weight_decay0.001 clip1",
+    "batch": 32,
+    "sampling": "Same stored root-uniform schedule for both arms,16newAB+16legacyAB eachstep; rng170151.",
+    "loss": "Same AB-weighted HoldingBCE,InBCE,drawerCE, meanoverpresentgroups. No41-subset-specific loss, no paired loss, noC gradient.",
+    "selection": "Per arm min newCrootmacrogroup loss+0.2oldCHoldingrootmacro loss, ties earlier; no result-specific checkpoint switching.",
+    "budget_stop": "Complete two fixed runs. No rerun seed, extra updates or tuning if failed. Runtime fixes may resume only preserving evidence."
+  },
+  "evaluation": {
+    "core_perception_gate": "unchanged newCfull9>=90%,ClosedFP0,allvalidoutside/protruding/suspendedInFP0,all9classespositive+negative,oldCHolding>=83of84",
+    "normal_class_regression_guards": "newC Holding_all3>=209of210,drawer3class>=208of210,In positive FN<=2, joint In(x)&Closed FP0. Added pretraining safeguards, not relaxed existing gates.",
+    "all_common_facts": "perfactTP/TN/FP/FN/UNKNOWN,all9 valid-window exact,allvalidfactaccuracy,Holding/In/drawerfamilies",
+    "joint_goal": "For each object independently In(object,drawer) AND Closed(drawer), bothlabelsvalid; FP/FN and all3 jointgoals exact. Also intended target fromfixture/chainmetadata for reportonly.",
+    "counterexamples": "Unique object-window facts, no doubling indirect-support subset",
+    "reference": "Original initial9network scored same942 windows; prior linear probe results not counted as sharednetwork performance",
+    "planning": "Keep learned operator unsupported flags untouched. Candidate perception pass only supports design of a later frozen independent test; doesnot authorize runningD or certify planning."
+  }
+}

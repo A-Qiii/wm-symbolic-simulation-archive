@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-19T18:16:55.256004+00:00",
+  "reason": "Injected missing collections namespace needed by extracted CachedData class. Initial pixel/E audit already passed. No paired RSSM output existed when failure occurred.",
+  "unchanged_original_compute_sha256": "15d9f77aa59493fd8aca740530bc2bf16fcbea642ebc988ff5427a22fedb1b91",
+  "resume_sha256": "f126a86d668862694c9b480fc0971a266a8c6d057b67b99c00f7f4a3600f9a76",
+  "protocol_weights_rng_thresholds_unchanged": true,
+  "resume_without_repeating_passed_pixel_check": true
+}

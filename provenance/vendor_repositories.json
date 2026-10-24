@@ -1,0 +1,30 @@
+[
+  {
+    "path": "calvin",
+    "head": "fa03f01f19c65920e18cf37398a9ce859274af76",
+    "remote": "https://github.com/mees/calvin.git",
+    "status_short": "",
+    "status_exit": 0
+  },
+  {
+    "path": "hulc",
+    "head": "7fdb09f5f1ff831ec8df29cfc61a41db573e9a06",
+    "remote": "https://github.com/lukashermann/hulc.git",
+    "status_short": "",
+    "status_exit": 0
+  },
+  {
+    "path": "calvin/calvin_env",
+    "head": "1431a46bd36bde5903fb6345e68b5ccc30def666",
+    "remote": "https://github.com/mees/calvin_env.git",
+    "status_short": "",
+    "status_exit": 0
+  },
+  {
+    "path": "calvin/calvin_env/tacto",
+    "head": "dd53360d9a8c186f0d6439372ec0be0fa5e21731",
+    "remote": "https://github.com/lukashermann/tacto.git",
+    "status_short": "",
+    "status_exit": 0
+  }
+]

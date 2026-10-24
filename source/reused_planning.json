@@ -1,0 +1,6 @@
+{
+  "source": "/home/robot/research/projects/robot_state/src/task_state/planning/automaton.py",
+  "sha256": "8ea1e458737967acc1d6c769bd2ef8d89be7bc87ce8f3e0e63bf3b7fb384fe55",
+  "source_modified": false,
+  "reused": "FiniteAutomaton.advance and finish; no old model, data, thresholds or transition effects"
+}

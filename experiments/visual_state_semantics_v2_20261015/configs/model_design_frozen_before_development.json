@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-15T15:33:15.193326+00:00",
+  "no_C_results_inspected_for_model_design": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/model.py": "393f2bbd07d20744aef3e201e65ff9a06e4355be871d50e9a9ba306f63b532ce",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/train.py": "08de7091f3dd5f9ad1ea78f407d78e6ebb2ab85adc090e880c1245244ffb6457",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/cache_inputs.py": "d8985c861fd6c3af3a108b5a1ca5f31109a435810116d05a71e43361d9587a01",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/protocol_v2_1.json": "fe927a44f95fe78ad7fd19ef5c46df4582541c94af00e8dbd44e063b0a527e4f"
+  }
+}

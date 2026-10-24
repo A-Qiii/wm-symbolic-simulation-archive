@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-10-14T11:38:03.035865+00:00",
+  "protocol_sha256": "38aa1119b48b74aac46c515eeaa43bf7c3125dad39bbc3173b0cbee366cad2e6",
+  "decision_sha256": "00be8843ea2e65bd2a5c8b1574d1f04dbb98787694eacd81709646bbba13b7ee",
+  "role": "Post-development freeze only; no new independent acceptance was collected",
+  "collection_warranted": false,
+  "reason": "Both arms qualify2/3 and total raw failures2; relative mean tune BCE0.006498 exceeds appearance0.005020; predeclared benefit criterion false.",
+  "selected": [
+    {
+      "arm": "appearance_only",
+      "seed": 0,
+      "selected_update": 1500,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/appearance_only/seed0/update1500.pt",
+      "checkpoint_sha256": "b0f4bdf3c43caac8f3d420db4fbd41ec66eb649c55d8997e9a09e985d954c876",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "appearance_only",
+      "seed": 1,
+      "selected_update": 150,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/appearance_only/seed1/update0150.pt",
+      "checkpoint_sha256": "64887d4e10f4acf64a1efaea18db246ef34b4a43dc2f7001211e2c3139c8d00e",
+      "qualified": false,
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "appearance_only",
+      "seed": 2,
+      "selected_update": 225,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/appearance_only/seed2/update0225.pt",
+      "checkpoint_sha256": "2972d2afe977bdddd76071e72bddbaecc7c03f1d4b3e519cad083a39d6ebfb66",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "relative_geometry",
+      "seed": 0,
+      "selected_update": 1500,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/relative_geometry/seed0/update1500.pt",
+      "checkpoint_sha256": "f9701c57d9084f91ceb6367cde4ff8b64c944cf4e625ba1ba9c3fe7fcc595a7f",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "relative_geometry",
+      "seed": 1,
+      "selected_update": 375,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/relative_geometry/seed1/update0375.pt",
+      "checkpoint_sha256": "57cb154afad8576dd696a25c1910ab1ad7cdd6a8d2652d587af74f9eaaa21da3",
+      "qualified": true,
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "relative_geometry",
+      "seed": 2,
+      "selected_update": 150,
+      "checkpoint_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_relations_20261014/models/relative_geometry/seed2/update0150.pt",
+      "checkpoint_sha256": "df1fc2c12eb2661ed0fd54a35a4bd39bedf1fa10c39924938a5e8345139970fd",
+      "qualified": false,
+      "thresholds": [
+        0.85,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "object",
+    "seed": 0,
+    "parameters": 8711,
+    "tensor_hash": "9dc62dc01f701fa2adbdadebf7db2cdb8e378b0fbd40457389651624dc412fb0",
+    "sha256": "eff2625904d701cde4cad562c3abe32895c8c4bb13a45625ef7656420e96725d"
+  },
+  {
+    "arm": "pair",
+    "seed": 0,
+    "parameters": 8680,
+    "tensor_hash": "15cd25b24124a4e8ec2617cb40c1eac5e677ac62de770fe4d1dde6f4ea55822e",
+    "sha256": "c04fae3718f9b5a9b98d5dae3c5a1ed8e516e753b2fdf111a2c1c235237e4d03"
+  },
+  {
+    "arm": "geometry",
+    "seed": 0,
+    "parameters": 8709,
+    "tensor_hash": "6f0f51b558713d605a23590cdadb66d359f1f54518e330ebac2e414681e657a2",
+    "sha256": "c6d6eff43face878be9cef9562914086f443c14d8470b0bc375601e2ac85a8e9"
+  },
+  {
+    "arm": "object",
+    "seed": 1,
+    "parameters": 8711,
+    "tensor_hash": "46eced7a8c64d0ecae1d9cbe33eb960481a781368dfb47d04216d10af1bdd364",
+    "sha256": "5464cd9f095fc6742eb54be436891aeb96928b47c2eec8321d7b353d63dda855"
+  },
+  {
+    "arm": "pair",
+    "seed": 1,
+    "parameters": 8680,
+    "tensor_hash": "b8f7af654a5c3e3269e79fc6f4fa0c4970f5cf0348e9ca7b42507ccf7007a95e",
+    "sha256": "9a06648548d1c7f8cbf792ed0455b2ca291b13ac09f55b050ce9854d930527a7"
+  },
+  {
+    "arm": "geometry",
+    "seed": 1,
+    "parameters": 8709,
+    "tensor_hash": "b06c239633fa00c5d29faf8768a349aa65dad0b9c838ef6409be7ee8eb994bbb",
+    "sha256": "6dad00d17cb3c9fd017a981552c768a80b8af4a7f96c677b401a4b76408a9f4a"
+  }
+]

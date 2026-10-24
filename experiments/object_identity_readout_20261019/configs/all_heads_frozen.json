@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T13:07:56.166087+00:00",
+  "before_heldout_read": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/models/head_object_seed1.pt": "73918894838dd3a37ba1c660010901cd1cac14e385c4d1d01714fd207305d3cb",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/models/head_global_seed1.pt": "cff109dcdccc582f5d567d93556fa973581e7d7e38d616504a593005e2292f54",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/models/head_global_seed0.pt": "e55c2b84e6155fddff48fc3f57c2bc216ab76102bfe02ee0d8522595c917db62",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/models/head_object_seed0.pt": "dbce4c4fa904b89c31239a32ad0647b13a39f694b80e5690f24fc5a58971f5c3"
+  }
+}

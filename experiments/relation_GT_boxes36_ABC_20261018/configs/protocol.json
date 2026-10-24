@@ -1,0 +1,2385 @@
+{
+  "utc": "2026-10-18T15:33:36.780748+00:00",
+  "purpose": "New independent conditional Holding readout, correct native boxes; known A/B/C scenes and held-out initial configurations, not unseen-scene generalization. D samples untouched.",
+  "roots": [
+    {
+      "root_id": "relation36_A_00",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019500,
+      "target_color": "red",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.10836043587520557,
+            -0.10962827900441958,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.13783925445318074
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07058179998617704,
+            -0.07704200452844895,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.01984414892225206
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.24318474481185454,
+            -0.07592099551383666,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10831406809224715
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "8623026337edf8e728b90465667bc000f1c388d3fbd967413aa35faa10285b14"
+    },
+    {
+      "root_id": "relation36_A_01",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019501,
+      "target_color": "blue",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.10326648362563945,
+            -0.0949744531329102,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0802841003354434
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.07105379411437991,
+            -0.0791036777936047,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10973641017117144
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2558036257025917,
+            -0.05614257055474109,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1793112015740213
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "b60a7c39636ab868839c4ecc5b745cc25bf2a97785a0c95b5ab56a81107063ec"
+    },
+    {
+      "root_id": "relation36_A_02",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019502,
+      "target_color": "pink",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09815736265485273,
+            -0.06830551004755647,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18885831033764772
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.08607082267346064,
+            -0.11350153926615601,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.15447353441912642
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2500101229450011,
+            -0.10239952246179261,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1884682199573448
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "35df506ac4cabf75eb619e6333e7d944625de83c8118f33baa39b6ce723c9ca7"
+    },
+    {
+      "root_id": "relation36_A_03",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019503,
+      "target_color": "red",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.10937621891768269,
+            -0.07719001017030644,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1855311425863332
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06361847341819328,
+            -0.10156454515821821,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.07627606178841662
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.24418689018392453,
+            -0.07781911113196394,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16357597384769185
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "820463bf883088d40aeb5034cfe42d1569e69e8612cbefa71ce5a2bf9c5d5311"
+    },
+    {
+      "root_id": "relation36_A_04",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019504,
+      "target_color": "blue",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09560951965898566,
+            -0.09973153686079327,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1615853220157677
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06901724139791868,
+            -0.10004055122650532,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14844516811702413
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2528914809611336,
+            -0.10354236290799446,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.15559442547361502
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "c17b186aa9b5521aa49ab6ce50bcbf183d3ea9165a3e2dea02f20662337b45ba"
+    },
+    {
+      "root_id": "relation36_A_05",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019505,
+      "target_color": "pink",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.09370219877064329,
+            -0.08707948111601169,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.010738768277780919
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.08132101893959441,
+            -0.07626738873593314,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07303453621262646
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.25868468982600046,
+            -0.08327780494829201,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.12144202470619697
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "762f0e76d3a7386349b7496814568d47c3051b7241b90ad1ad283593752a0d6d"
+    },
+    {
+      "root_id": "relation36_A_06",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019506,
+      "target_color": "red",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.0931954641339408,
+            -0.10555792434849227,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.153241140206001
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.0663371586122241,
+            -0.10407293309266878,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1436341655133762
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.24430889914721687,
+            -0.11251819004040138,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.08936614027566903
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "035b4f12042accd9b3aa4c24a29463fbb46e1560e8f50620de8fb1fd05838064"
+    },
+    {
+      "root_id": "relation36_A_07",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019507,
+      "target_color": "blue",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.10608107281960122,
+            -0.05925327106390392,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.06276972625087096
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07672075082517452,
+            -0.0646929471668124,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1747395061774838
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.24460156065109442,
+            -0.08150479306667921,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10840245346848904
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "d7dfa93b0e571a1de6fba87dc0d656e526b2fe36fbe59ae56c41cfc719bf7fc3"
+    },
+    {
+      "root_id": "relation36_A_08",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019508,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.0998900059439268,
+            -0.06792698962310527,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11111977252171484
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07823199399693566,
+            -0.060834755148561064,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.030771889568892485
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.26006717641950755,
+            -0.0860188957313908,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11028647406238484
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "0b8583845097485b70a0813a178a5bdb052f7716d3ff8b6fe583e9dd122e9b8d"
+    },
+    {
+      "root_id": "relation36_A_09",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019509,
+      "target_color": "red",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.11047145468832219,
+            -0.07070944742851676,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.001855404346968209
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.08094611407139037,
+            -0.11389840840310372,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11590749574316939
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2562923749184747,
+            -0.09605632580308772,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.004933409974032077
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "e32171cb3d6b209a3597424db462f55bcabd75e7b1d766e094192acfcf3d614e"
+    },
+    {
+      "root_id": "relation36_A_10",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019510,
+      "target_color": "blue",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.11080320090450184,
+            -0.06210184344981872,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.18082604093321775
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.07718960149729814,
+            -0.06067372899683591,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.17823408861249695
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.25657744519464687,
+            -0.08881500610991537,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.09878066856736974
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "0e9fccdda2e136742966778cd1670c660a69c1d2b84fb05d5e049d12821369fe"
+    },
+    {
+      "root_id": "relation36_A_11",
+      "scene": "A",
+      "environment": "A",
+      "split": "train",
+      "seed": 261019511,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.10198544892561374,
+            -0.0790438541655121,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07572293463958724
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06783140498609594,
+            -0.0927777994243816,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10069186771374561
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2407789404157511,
+            -0.07765993385265044,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1916382255550259
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "17851f22c0004b3d10554ba1b51f245bbdfdf6fb858deb4659a5f67949d6fe0a"
+    },
+    {
+      "root_id": "relation36_B_12",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019512,
+      "target_color": "red",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26632497159560053,
+            -0.06813535081620115,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1840778635470627
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09412908078852295,
+            -0.10571366953272984,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.09248681364844696
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06610960210770779,
+            -0.06340612231088269,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.039579472501902
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "7c80b35680366165fe60aedbb949ecf39b93d24eebe895184f677b11f5d82d80"
+    },
+    {
+      "root_id": "relation36_B_13",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019513,
+      "target_color": "blue",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26958552620245063,
+            -0.07162882960476202,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.023427191101253297
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09581262942514894,
+            -0.06374542593233451,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10601607830573084
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.07073822700938737,
+            -0.11333555504795985,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.0033743952827330614
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "30a4fff6de483f4dde6827b1ba36eb4a4d2ddcc08223579e7d260c7bf4755358"
+    },
+    {
+      "root_id": "relation36_B_14",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019514,
+      "target_color": "pink",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26760861114686174,
+            -0.07295532847593662,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10883462818479979
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.10734166542250266,
+            -0.06838209136291289,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.0701853942816385
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06849578968351105,
+            -0.08970950394388696,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.13998732796033342
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "8dd3d539c65799294aade4c7bdf8da3b8d3a8a7a3100050cf595f57187dd6221"
+    },
+    {
+      "root_id": "relation36_B_15",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019515,
+      "target_color": "red",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.24847223942991858,
+            -0.0956335252342377,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11692994213034996
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.1026462189743949,
+            -0.05734879012999754,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.15588617688959241
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.054162604958593534,
+            -0.10952882451677268,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.021204454847890075
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "d77028f033e498ecf43b82ba4be223d3532b268fd0993632ae1e0ed319721275"
+    },
+    {
+      "root_id": "relation36_B_16",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019516,
+      "target_color": "blue",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.2665161433255388,
+            -0.05572805992868395,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10872887684646615
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.10499007920215252,
+            -0.0796133584592267,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.006667508390619414
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.059685730963298385,
+            -0.09070599089437968,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03799944543586134
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "df2201561387e68beef0a064a9d023ed4532d08c77a80ca70bf10c288e44efdd"
+    },
+    {
+      "root_id": "relation36_B_17",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019517,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.26605961758403124,
+            -0.08002264047768129,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08648077001405441
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09148035194219628,
+            -0.10871757625995675,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10679377860684919
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.06558492175428397,
+            -0.08404515458358067,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.01218920000385712
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "8b6b4bacfd2bb5de39ffe11b9610a0c5c867f579316895c3b6c14b8256a5ec33"
+    },
+    {
+      "root_id": "relation36_B_18",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019518,
+      "target_color": "red",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.2667453148463661,
+            -0.09771578405160009,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14418586413354245
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.1013296240539581,
+            -0.05684728493132664,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.011174966604952818
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06068379848923901,
+            -0.06503497901685454,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.02608553506019287
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "c32d146a11dd0d290323f14ea5cdb9a0494ed3414abcc1a97ad6f9da5930517a"
+    },
+    {
+      "root_id": "relation36_B_19",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019519,
+      "target_color": "blue",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.265644170770908,
+            -0.07913717480846488,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.19240152032110197
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.09588006071504268,
+            -0.10694063116088681,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.09422456175580002
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07182384291564861,
+            -0.11295055163261745,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.005401386270601438
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "3484eca65cb4ae366a948bf157876cf0f5412986a18dfb9ab1134f9e00e01ac5"
+    },
+    {
+      "root_id": "relation36_B_20",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019520,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.26378399524449014,
+            -0.07930064828521322,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.06350109094726095
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            -0.1002103566562008,
+            -0.11449392180621126,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.011221580074080195
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06964736233575707,
+            -0.05871911450180624,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.04782215171258031
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "d43af56ab04d7e8ca61165b88555717bc025a5bf939377dd52e9285bb657c2ee"
+    },
+    {
+      "root_id": "relation36_B_21",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019521,
+      "target_color": "red",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.2636351151485946,
+            -0.08165446906319754,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11852684381282602
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.10622491988932509,
+            -0.07357967802206421,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.003534064937211978
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06463332729582222,
+            -0.10486810034800108,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19689264327280226
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "3e3d15761491afce53a1c7a23c5d50d7e3fb7cabe3bbc7e65f0a00d52d0762f1"
+    },
+    {
+      "root_id": "relation36_B_22",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019522,
+      "target_color": "blue",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.2676085407881444,
+            -0.07750950802340495,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1415269109053901
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.1076753460864168,
+            -0.07767038524024955,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16151010839700386
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.051589671519418415,
+            -0.0805045204952363,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.025923433506468724
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "db543aabbc9d62fa8b348d03f1ceb953ca30f644b9f6915d5f004189554c5e8b"
+    },
+    {
+      "root_id": "relation36_B_23",
+      "scene": "B",
+      "environment": "B",
+      "split": "train",
+      "seed": 261019523,
+      "target_color": "pink",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26754108189107095,
+            -0.09560349677558583,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10527431983883878
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.09981783588487583,
+            -0.0773009494919526,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10738882449673642
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.051365084829659916,
+            -0.07004501247519954,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16491198099117255
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "b96af8bc1d9b37240449f72e681f8adec3dbfa5615e9cc68c9335b26cd8fb4c8"
+    },
+    {
+      "root_id": "relation36_C_24",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019524,
+      "target_color": "red",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.07090145478325677,
+            -0.08753592353440912,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.187585365777102
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.18217483514073401,
+            -0.058686826728590144,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.17926042755554733
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2920854015895786,
+            -0.11494627346251234,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03464691535037892
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "04c48bde19ee4aad89ab200f8e6db26fc7651cc8530a8e1fb665fb6b335abdad"
+    },
+    {
+      "root_id": "relation36_C_25",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019525,
+      "target_color": "blue",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06368561913876775,
+            -0.10176734098114291,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11424586435512302
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.1737649285184264,
+            -0.09843874470364658,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19309762871270708
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2900412805817034,
+            -0.0986634548499628,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.028990524048385147
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "6f90b5c79aa2a8d05a91269566753beb7deff03a0f6e009e35cb356173a286c5"
+    },
+    {
+      "root_id": "relation36_C_26",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019526,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.06855639561241214,
+            -0.08601281078849528,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.06475151104199173
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.17651388322936493,
+            -0.05726945420826273,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.07470798049387517
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2884908348341918,
+            -0.09156299566827393,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10742066805671775
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "3197867abc67592a567a50e67ee213982911826e1bfd31b9ffae8a18559b0ee7"
+    },
+    {
+      "root_id": "relation36_C_27",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019527,
+      "target_color": "red",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.06328818199533724,
+            -0.08645153516580681,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14957119494764315
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17215618743729602,
+            -0.0843971395135499,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11894088323536503
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.29827707601721193,
+            -0.09091837167766453,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.058805496295734394
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "9aeccb091cd87fc2184b456ab1ec2ef4e28d203271df12832562f55dea350dc7"
+    },
+    {
+      "root_id": "relation36_C_28",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019528,
+      "target_color": "blue",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.0729949362358184,
+            -0.07146255084837758,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.14738228119190772
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.1800697600207433,
+            -0.0855580448122973,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1723295640259998
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2915543017180157,
+            -0.0900783652308906,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.006771204507854872
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "76b5d78bfd401f3d5951aa51b3dbdfe92a1b95a6fc4c1cf086ffcfaa9755a27f"
+    },
+    {
+      "root_id": "relation36_C_29",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019529,
+      "target_color": "pink",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.052233752150353925,
+            -0.0724753536263685,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.05495324177366989
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.18486274414125575,
+            -0.11485464970988866,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10163269712098773
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2972210323066397,
+            -0.06894077352676976,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.08402998029446329
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "d0accd7985624905c07befb51fbb201a994412f4eda3e3c251f50a96278f001e"
+    },
+    {
+      "root_id": "relation36_C_30",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019530,
+      "target_color": "red",
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.06141370400458987,
+            -0.08912626151380182,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.01295760984997818
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.18022917916314235,
+            -0.09064490109420766,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08220603368389262
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.29858319041721487,
+            -0.06531101508579579,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19346588516637456
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "a163234d203fda1b8e1c0efe885e76a7288d4fc06c5face6b2818ec88b0c4411"
+    },
+    {
+      "root_id": "relation36_C_31",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019531,
+      "target_color": "blue",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.05101889736726535,
+            -0.06031209103112686,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03835717939409769
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.17737012634637284,
+            -0.05735836746039388,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10987366086545686
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28686560872531686,
+            -0.059966708320565644,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1439304612946325
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "317498ff3b19909db1fde0b71a6d2f94d32de54aca5eb36aa462157de7c0d3ad"
+    },
+    {
+      "root_id": "relation36_C_32",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019532,
+      "target_color": "pink",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06070472724242068,
+            -0.09106318237104312,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05472236032668448
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.1677092681693058,
+            -0.08141430085002418,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10272798362470931
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.28489500231712706,
+            -0.07160890301067344,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.19101645042648602
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "7a0762c90de4209e4070052c8ff2e0dcc6a2e243314c32e125cf1f5cbe9dfab4"
+    },
+    {
+      "root_id": "relation36_C_33",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019533,
+      "target_color": "red",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06838744938577061,
+            -0.08854120739455346,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.15128865666842276
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.1857553790658388,
+            -0.10996462560633427,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11217867529122011
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.27664088338221654,
+            -0.06910681759606298,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.18633866595645993
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "ac0ac09c834744c43f1f514155b06d1477fc065fd8ce4774f6c40dd0d5e0a464"
+    },
+    {
+      "root_id": "relation36_C_34",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019534,
+      "target_color": "blue",
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.06712314865786134,
+            -0.0971467075630082,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.13685490241020987
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.176206570754371,
+            -0.11433166932291411,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.15688218279781702
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.27825518207849514,
+            -0.10721397300110799,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03302594675976639
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "post_lift_translate_x_m": 0.03,
+      "parent_root": null,
+      "initialization_signature": "fc673c88d1fd62f1e41b76a1beb388cda85adec971dce8662421c1a27a48c659"
+    },
+    {
+      "root_id": "relation36_C_35",
+      "scene": "C",
+      "environment": "C",
+      "split": "dev",
+      "seed": 261019535,
+      "target_color": "pink",
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            0.05945608655309914,
+            -0.09112030317927106,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1878442074051578
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.17657561548826686,
+            -0.10433928998369132,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16917965121232592
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2949291262073575,
+            -0.09899500134783802,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.04891753880054556
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "post_lift_translate_x_m": -0.03,
+      "parent_root": null,
+      "initialization_signature": "d10690a86f1c374a0ab95899cc690b394233b166a2651dbafc066a95db93f514"
+    }
+  ],
+  "anchors": [
+    "initial_settled",
+    "above_named_block",
+    "descend_open_near_block",
+    "closed_on_support",
+    "lifted",
+    "post_run_stable",
+    "translated_closed",
+    "released_near_table"
+  ],
+  "budget": {
+    "exact_roots_attempted": 36,
+    "train_roots": 24,
+    "dev_roots": 12,
+    "max_saved_states_per_root": 8,
+    "max_saved_states": 288,
+    "max_controls_per_root": 900,
+    "replacement_roots": 0,
+    "max_fits": 6,
+    "training_updates_each": 600,
+    "new_downloads": 0
+  },
+  "split": {
+    "train": "A12+B12; four targets per color per scene,8 targets per color total",
+    "dev": "C12,4 targets per color",
+    "test": "none; D untouched",
+    "lineage": "fresh seeds261019500..535, root ids, initialization signatures, near1mm layout and RGB/file hash exclusion. All views/colors/states of root remain together. Original32 and pilot8 engineering only; never merged.",
+    "claim": "C assets known; dev labels used only for preregistered gate then final fixed model evaluation, not hyperparameter selection"
+  },
+  "collection": {
+    "sampler": "unchanged pilot scene-relative x fractions.18,.5,.82 + jitter±.012, y[-.115,-.055],z.46,yaw±.2; all attempts preserved",
+    "controller": [
+      "y uniform[-.115,-.055]",
+      "x jitter[-.012,.012]m",
+      "z.46m",
+      "yaw[-.2,.2]rad",
+      "color permutation",
+      "drawer initialization alternating .005/.22m",
+      "same PhysicalOracleV2 source and original bounded retries",
+      "12mm moving-device and2mm other-obstacle margins",
+      "same contact/stability/visibility definitions",
+      "same8anchor execution sequence"
+    ],
+    "trace": "same private full per-control trace and synchronous dual-camera capture",
+    "failure": "no replacement or resampling; retain real negative/unknown labels even on failed controller roots"
+  },
+  "supervision": {
+    "Holding": "unchanged oracle bilateral finger-family force>0.01N with no other-body support",
+    "validity": "same value over previous12 actual controls and at contact-force cutoffs .005,.01,.015; conflicting multi-held states unknown; y remains current .01 definition",
+    "negative": "physical stable not-held only; missing visible pixels never negative",
+    "In": "frozen labels_v2_1 current geometry+support and boundary mask, private-only",
+    "sync": "same-tick RGB/mask/depth and contacts/state before/after exact, flags-off RGB/depth equality",
+    "boxes": "block uid by native name; each finger+fixed tip family resolved by native link names; tight visible xyxy, not projected centers",
+    "observability": "both target block >=4 pixels and each finger family >=4 pixels needed in that camera; endpoint visibility is necessary proxy, not proof force is visually identifiable. Missing/occluded endpoints are unobservable; contact-force state is not directly RGB-visible."
+  },
+  "data_gates": {
+    "train_per_color": {
+      "positive_records": 8,
+      "negative_records": 24,
+      "positive_roots": 4,
+      "negative_roots": 6
+    },
+    "dev_per_color": {
+      "positive_records": 3,
+      "negative_records": 6,
+      "positive_roots": 1,
+      "negative_roots": 2
+    },
+    "each_camera_train": {
+      "positive_records": 12,
+      "negative_records": 36,
+      "positive_roots": 6
+    },
+    "each_camera_dev": {
+      "positive_records": 6,
+      "negative_records": 12,
+      "positive_roots": 2
+    },
+    "integrity": "all synchronous checks and contact/box recomputation pass; no old exact RGB or cross-root split duplicates; source/model hashes fixed",
+    "eligibility": "unchanged physical stability validity AND native endpoints>=4px; controller status is not a model input or a reason to discard valid failure negatives; safety-checked successful-run coverage reported separately",
+    "on_failure": "STOP before features/fits; do not add roots or relax gate"
+  },
+  "inputs": {
+    "encoder": "cached frozen DINOv2-small, RGB crops only, independent tight box bilinear resize224 align_corners=False; /255, ImageNet normalization, mean all patch tokens384; float32,noAMP,noaugmentation",
+    "projection": "same saved data-independent orthonormal384x128 matrix from original precollection design",
+    "object": "block crop descriptor128",
+    "pair": "same block128 + finger-family union crop128 + geometry5",
+    "geometry": "geometry5 only: (block_center-gripper_center)/image_wh; log(block_wh/gripper_wh); IoU",
+    "box_setting": "oracle tight visible native masks, not predicted detector boxes; rectangular RGB crops may include background/occluders. Finger union crop includes space between fingers. Correct-box conditional diagnostic only.",
+    "prohibited_feature_inputs": [
+      "3D pose",
+      "contact",
+      "robot_obs",
+      "scene_obs",
+      "action",
+      "phase",
+      "root id",
+      "color name",
+      "label",
+      "controller status"
+    ],
+    "missing": "abstain UNKNOWN; no zero-box filling; all three arms use identical eligible queries; report full physical-valid denominators"
+  },
+  "comparison": {
+    "arms": [
+      "object",
+      "pair",
+      "geometry"
+    ],
+    "models": {
+      "object": "128->67->1 SiLU,8711 parameters",
+      "pair": "261->33->1 SiLU,8680 parameters",
+      "geometry": "5->1244->1 SiLU,8709 parameters"
+    },
+    "capacity": "all one hidden layer, max31 parameter difference (~.36%); different widths and fan-in explicitly disclosed, not identical architecture/initial weights",
+    "initialization": "same torch seed261019210+s and defaultLinear rule; all6 initial states saved before acquisition",
+    "attribution": "geometry-only is a control for box information. Pair superiority over object alone is not sufficient evidence for visual relation learning; compare pair with geometry and report both seeds/uncertainty, otherwise refrain."
+  },
+  "training": {
+    "seeds": [
+      0,
+      1
+    ],
+    "updates": 600,
+    "batch_size": 32,
+    "optimizer": "AdamW lr.001 weight_decay.001 clip_grad_norm1.0",
+    "loss": "BCEWithLogits pos_weight=train eligible negatives/positives; target labels used only as supervision",
+    "sampler": "uniformly choose eligible TRAIN root then uniformly eligible query within root; save shared schedule for all3 arms within seed; numpy seed261019410+s",
+    "normalization": "train eligible feature dimension mean and population std only, floor.05. Pair first128 and geometry last5 use same stats as respective single arms. No dev-dependent statistics.",
+    "numerics": "float32, deterministic Torch CUDA, TF32 off, no AMP or augmentation; serialized GPU lock",
+    "checkpoint": "final600 only, no dev tuning, no earlystop, no seed selection",
+    "threshold": 0.5,
+    "in_training": false
+  },
+  "metrics": {
+    "precision": "TP/(TP+FP), undefined null if no predicted positives",
+    "recall": "TP/(TP+FN), undefined null if no actual positives",
+    "balanced_accuracy": "(TPR+TNR)/2, undefined null if either actual class absent",
+    "F1": "2TP/(2TP+FP+FN), undefined if denominator0",
+    "NLL": "unweighted binary cross entropy, probability clipped[1e-7,1-1e-7]",
+    "strata": "overall,each color,each camera,each root,train anddev separately; confusion/class counts and positive/negative roots alongside every metric",
+    "coverage": "full physically valid query denominator; eligible-only metrics; missing endpoints abstain and count as unreturned positives for full-denominator recall",
+    "uncertainty": "dev entire-root paired bootstrap2000, seed261019420; same draws for arms and seeds; recompute pooled counts/NLL, percentile95% intervals, report undefined replicates. Paired pair-object and pair-geometry differences per seed. Only12devroots, no independent-view CI.",
+    "identifiability": "report identical RGB crop/geometry/feature inputs with opposing physical labels; no dataset removal based on these",
+    "model_claim": "no In, no localizer optimization, no world model/SupCon/planning/closed-loop; retain geometry-only control even if it wins"
+  },
+  "old_outcome": "original32 failed gate and pilot8 remain sealed engineering evidence; no merge or reinterpretation"
+}

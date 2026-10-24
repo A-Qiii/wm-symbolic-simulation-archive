@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T13:04:22.326780+00:00",
+  "before_any_training": true,
+  "protocol_sha256": "822a92f821779890727d5a30fc3efb339b6f1c248b58bf10746182f180ecbc0c",
+  "source_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/run.py": "73cc0a180cde9907e6fe28d5a8f8b8e69657553ddde4b30b6d63be45ef64a4df",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/preregister.py": "1648190372d6edfafcd5bdafc2833f20a2a07090e3da344750da9b73ebfbce8c",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_identity_readout_20261019/source/common.py": "dfed2757b545d1329424694d354776194cde29d35cbbc6e5465c248535ad1ab4"
+  }
+}

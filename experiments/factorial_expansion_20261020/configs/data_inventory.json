@@ -1,0 +1,51 @@
+[
+  {
+    "source": "original_model_train",
+    "trajectories": 228,
+    "transitions": 1128,
+    "roots": 94,
+    "purpose": "training;120core+108role; count once"
+  },
+  {
+    "source": "original_development",
+    "trajectories": 78,
+    "transitions": 408,
+    "roots": 34,
+    "purpose": "development only"
+  },
+  {
+    "source": "historical_evaluation",
+    "trajectories": 126,
+    "transitions": 696,
+    "roots": 58,
+    "purpose": "historical evaluation; not training"
+  },
+  {
+    "source": "object_recurrent_confirm",
+    "trajectories": 96,
+    "transitions": 576,
+    "roots": 48,
+    "purpose": "diagnostic confirmation; not training"
+  },
+  {
+    "source": "relation_generalization_frozen",
+    "trajectories": 72,
+    "transitions": 336,
+    "roots": 36,
+    "purpose": "explored independent evaluation; not training"
+  },
+  {
+    "source": "midstart_crops",
+    "trajectories": 0,
+    "transitions": 0,
+    "roots": 0,
+    "purpose": "reused original228; no new experience"
+  },
+  {
+    "source": "midstart_fresh_partial",
+    "trajectories": 5,
+    "transitions": 20,
+    "roots": 5,
+    "purpose": "unfinished independent validation; sealed, not scored or training"
+  }
+]

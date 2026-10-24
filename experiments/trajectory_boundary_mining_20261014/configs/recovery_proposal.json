@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-14T12:02:55.020820+00:00",
+  "status": "proposal_only_not_executed",
+  "reason_for_decision": "Missing full public mask/RGB frames prevents an unchanged-input controlled training comparison. User requested reporting feasibility before new collection.",
+  "minimal_first_step": {
+    "type": "physical replay of2existing training roots, not new scene sampling",
+    "roots": [
+      "A_predicate_gap_red_closed",
+      "B_predicate_gap_red_closed"
+    ],
+    "source": "Original reset parameters and the recorded low-level action sequence, including original settling. No intermediate GT state injection.",
+    "write": "Save every actual public RGB/depth/mask/robot/calibration frame separately from private audit. Retain real short states and all outcomes.",
+    "validation": "Compare replay action sequence, per-step robot/object state, contact labels, and original saved RGB endpoints. Stop on material divergence; do not silently call reconstructed/synthetic masks recorded data.",
+    "resource_estimate": "About600control frames total; at prior per-public-frame file size roughly0.10GB. This is an estimate, not a new run."
+  },
+  "conditional_small_extension_if_recovery_confirmed": {
+    "training": "Recover the12 existing A/B supplement grasp roots;12effective hard roots, including9notpreviouslyexported. Existing train roots are not counted as new independent roots.",
+    "development": "Use a small fresh C root list, e.g.6 roots covering3colours x2drawer settings, frozen before collection; old C remains historical regression only. Do not relabel prior D/test acceptance as fresh validation.",
+    "maximum_scope": "12training replays(including2pilot)+6fresh C trajectories if separately decided, not432attempts or299rootcertification.",
+    "comparison": "Keep675395parameter baseline reader, frozenDINO, normalization, controller, trainingbudget and jointcalibration fixed. Same-root equal-count hard-vsordinary negatives, same positive/background supervision. Pre-register exact ordinary-control availability and missingness after recovery.",
+    "control_confound": "Existing closed-empty near negatives typically have nearzero aperture and~60mmTCPdistance; open near negatives differ in command/aperture. Thus this tests training coverage of a difficult state bundle, not an isolated effect of support with all other physics identical.",
+    "decision_metric": "Root-level directional evidence on fresh C held errors/recall/UNKNOWN plus existing held,in/open regression; do not equate a tiny threshold pass with proof."
+  },
+  "not_authorized_or_started": [
+    "large-scale scene collection",
+    "new network variants",
+    "test-driven training",
+    "full world model",
+    "planning",
+    "upload"
+  ]
+}

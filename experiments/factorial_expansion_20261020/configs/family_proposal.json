@@ -1,0 +1,3402 @@
+[
+  {
+    "family_id": "A_factorial_train_000",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 0,
+    "geometry_seed": 2610280000,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "B_factorial_train_001",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 1,
+    "geometry_seed": 2610280001,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "A_factorial_train_002",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 2,
+    "geometry_seed": 2610280002,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "B_factorial_train_003",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 3,
+    "geometry_seed": 2610280003,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "A_factorial_train_004",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 4,
+    "geometry_seed": 2610280004,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_005",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 5,
+    "geometry_seed": 2610280005,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_006",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 6,
+    "geometry_seed": 2610280006,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_007",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 7,
+    "geometry_seed": 2610280007,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_008",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 8,
+    "geometry_seed": 2610280008,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_009",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 9,
+    "geometry_seed": 2610280009,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_010",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 10,
+    "geometry_seed": 2610280010,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_011",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 11,
+    "geometry_seed": 2610280011,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_012",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 12,
+    "geometry_seed": 2610280012,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_013",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 13,
+    "geometry_seed": 2610280013,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_014",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 14,
+    "geometry_seed": 2610280014,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_015",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 15,
+    "geometry_seed": 2610280015,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_016",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 16,
+    "geometry_seed": 2610280016,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_017",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 17,
+    "geometry_seed": 2610280017,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_018",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 18,
+    "geometry_seed": 2610280018,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_019",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 19,
+    "geometry_seed": 2610280019,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_020",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 20,
+    "geometry_seed": 2610280020,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_021",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 21,
+    "geometry_seed": 2610280021,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_022",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 22,
+    "geometry_seed": 2610280022,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_023",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 23,
+    "geometry_seed": 2610280023,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_024",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 24,
+    "geometry_seed": 2610280024,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_025",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 25,
+    "geometry_seed": 2610280025,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_026",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 26,
+    "geometry_seed": 2610280026,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_027",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 27,
+    "geometry_seed": 2610280027,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_028",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 28,
+    "geometry_seed": 2610280028,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_029",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 29,
+    "geometry_seed": 2610280029,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_030",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 30,
+    "geometry_seed": 2610280030,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_031",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 31,
+    "geometry_seed": 2610280031,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_032",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 32,
+    "geometry_seed": 2610280032,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_033",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 33,
+    "geometry_seed": 2610280033,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_034",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 34,
+    "geometry_seed": 2610280034,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_035",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 35,
+    "geometry_seed": 2610280035,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_036",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 36,
+    "geometry_seed": 2610280036,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_037",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 37,
+    "geometry_seed": 2610280037,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_038",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 38,
+    "geometry_seed": 2610280038,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_039",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 39,
+    "geometry_seed": 2610280039,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_040",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 40,
+    "geometry_seed": 2610280040,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_041",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 41,
+    "geometry_seed": 2610280041,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_042",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 42,
+    "geometry_seed": 2610280042,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_043",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 43,
+    "geometry_seed": 2610280043,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_044",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 44,
+    "geometry_seed": 2610280044,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_045",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 45,
+    "geometry_seed": 2610280045,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_046",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 46,
+    "geometry_seed": 2610280046,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_047",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 47,
+    "geometry_seed": 2610280047,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_048",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 48,
+    "geometry_seed": 2610280048,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_049",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 49,
+    "geometry_seed": 2610280049,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_050",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 50,
+    "geometry_seed": 2610280050,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_051",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 51,
+    "geometry_seed": 2610280051,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_052",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 52,
+    "geometry_seed": 2610280052,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_053",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 53,
+    "geometry_seed": 2610280053,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_054",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 54,
+    "geometry_seed": 2610280054,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_055",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 55,
+    "geometry_seed": 2610280055,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_056",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 56,
+    "geometry_seed": 2610280056,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_057",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 57,
+    "geometry_seed": 2610280057,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_058",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 58,
+    "geometry_seed": 2610280058,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_059",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 59,
+    "geometry_seed": 2610280059,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_060",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 60,
+    "geometry_seed": 2610280060,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_061",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 61,
+    "geometry_seed": 2610280061,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_062",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 62,
+    "geometry_seed": 2610280062,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_063",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 63,
+    "geometry_seed": 2610280063,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_064",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 64,
+    "geometry_seed": 2610280064,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_065",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 65,
+    "geometry_seed": 2610280065,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_066",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 66,
+    "geometry_seed": 2610280066,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_067",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 67,
+    "geometry_seed": 2610280067,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_068",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 68,
+    "geometry_seed": 2610280068,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_069",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 69,
+    "geometry_seed": 2610280069,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_070",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 70,
+    "geometry_seed": 2610280070,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_071",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 71,
+    "geometry_seed": 2610280071,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_072",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 72,
+    "geometry_seed": 2610280072,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_073",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 73,
+    "geometry_seed": 2610280073,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_074",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 74,
+    "geometry_seed": 2610280074,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_075",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 75,
+    "geometry_seed": 2610280075,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_076",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 76,
+    "geometry_seed": 2610280076,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_077",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 77,
+    "geometry_seed": 2610280077,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_078",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 78,
+    "geometry_seed": 2610280078,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_079",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 79,
+    "geometry_seed": 2610280079,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_080",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 80,
+    "geometry_seed": 2610280080,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_081",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 81,
+    "geometry_seed": 2610280081,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_082",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 82,
+    "geometry_seed": 2610280082,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_083",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 83,
+    "geometry_seed": 2610280083,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_084",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 84,
+    "geometry_seed": 2610280084,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_085",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 85,
+    "geometry_seed": 2610280085,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_086",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 86,
+    "geometry_seed": 2610280086,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_087",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 87,
+    "geometry_seed": 2610280087,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_088",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 88,
+    "geometry_seed": 2610280088,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_089",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 89,
+    "geometry_seed": 2610280089,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_090",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 90,
+    "geometry_seed": 2610280090,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_091",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 91,
+    "geometry_seed": 2610280091,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_092",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 92,
+    "geometry_seed": 2610280092,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_093",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 93,
+    "geometry_seed": 2610280093,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_094",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 94,
+    "geometry_seed": 2610280094,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_095",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 95,
+    "geometry_seed": 2610280095,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_096",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 96,
+    "geometry_seed": 2610280096,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_097",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 97,
+    "geometry_seed": 2610280097,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_098",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 98,
+    "geometry_seed": 2610280098,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_099",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 99,
+    "geometry_seed": 2610280099,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_100",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 100,
+    "geometry_seed": 2610280100,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_101",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 101,
+    "geometry_seed": 2610280101,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_102",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 102,
+    "geometry_seed": 2610280102,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_103",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 103,
+    "geometry_seed": 2610280103,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_104",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 104,
+    "geometry_seed": 2610280104,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_105",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 105,
+    "geometry_seed": 2610280105,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_106",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 106,
+    "geometry_seed": 2610280106,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_107",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 107,
+    "geometry_seed": 2610280107,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_108",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 108,
+    "geometry_seed": 2610280108,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_109",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 109,
+    "geometry_seed": 2610280109,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_110",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 110,
+    "geometry_seed": 2610280110,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_111",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 111,
+    "geometry_seed": 2610280111,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_112",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 112,
+    "geometry_seed": 2610280112,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_113",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 113,
+    "geometry_seed": 2610280113,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_114",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 114,
+    "geometry_seed": 2610280114,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_115",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 115,
+    "geometry_seed": 2610280115,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_116",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 116,
+    "geometry_seed": 2610280116,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_117",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 117,
+    "geometry_seed": 2610280117,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_118",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 118,
+    "geometry_seed": 2610280118,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_119",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 119,
+    "geometry_seed": 2610280119,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_120",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 120,
+    "geometry_seed": 2610280120,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_121",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 121,
+    "geometry_seed": 2610280121,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_122",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 122,
+    "geometry_seed": 2610280122,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_123",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 123,
+    "geometry_seed": 2610280123,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_124",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 124,
+    "geometry_seed": 2610280124,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_125",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 125,
+    "geometry_seed": 2610280125,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_126",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 126,
+    "geometry_seed": 2610280126,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_127",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 127,
+    "geometry_seed": 2610280127,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_128",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 128,
+    "geometry_seed": 2610280128,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_129",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 129,
+    "geometry_seed": 2610280129,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_130",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 130,
+    "geometry_seed": 2610280130,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_131",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 131,
+    "geometry_seed": 2610280131,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_132",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 132,
+    "geometry_seed": 2610280132,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_133",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 133,
+    "geometry_seed": 2610280133,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_134",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 134,
+    "geometry_seed": 2610280134,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_135",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 135,
+    "geometry_seed": 2610280135,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_136",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 136,
+    "geometry_seed": 2610280136,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_137",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 137,
+    "geometry_seed": 2610280137,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_138",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 138,
+    "geometry_seed": 2610280138,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_139",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 139,
+    "geometry_seed": 2610280139,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_140",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 140,
+    "geometry_seed": 2610280140,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_141",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 141,
+    "geometry_seed": 2610280141,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_142",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 142,
+    "geometry_seed": 2610280142,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_143",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 143,
+    "geometry_seed": 2610280143,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_144",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 144,
+    "geometry_seed": 2610280144,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_145",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 145,
+    "geometry_seed": 2610280145,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_146",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 146,
+    "geometry_seed": 2610280146,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_147",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 147,
+    "geometry_seed": 2610280147,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_148",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 148,
+    "geometry_seed": 2610280148,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_149",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 149,
+    "geometry_seed": 2610280149,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_150",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 150,
+    "geometry_seed": 2610280150,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_151",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 151,
+    "geometry_seed": 2610280151,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_152",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 152,
+    "geometry_seed": 2610280152,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_153",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 153,
+    "geometry_seed": 2610280153,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_154",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 154,
+    "geometry_seed": 2610280154,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_155",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 155,
+    "geometry_seed": 2610280155,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_156",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 156,
+    "geometry_seed": 2610280156,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_157",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 157,
+    "geometry_seed": 2610280157,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_train_158",
+    "environment": "A",
+    "split": "train",
+    "index_in_split": 158,
+    "geometry_seed": 2610280158,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_train_159",
+    "environment": "B",
+    "split": "train",
+    "index_in_split": 159,
+    "geometry_seed": 2610280159,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_000",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 0,
+    "geometry_seed": 2610280160,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "B_factorial_development_001",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 1,
+    "geometry_seed": 2610280161,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "A_factorial_development_002",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 2,
+    "geometry_seed": 2610280162,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_003",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 3,
+    "geometry_seed": 2610280163,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_004",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 4,
+    "geometry_seed": 2610280164,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_005",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 5,
+    "geometry_seed": 2610280165,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_006",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 6,
+    "geometry_seed": 2610280166,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_007",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 7,
+    "geometry_seed": 2610280167,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_008",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 8,
+    "geometry_seed": 2610280168,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_009",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 9,
+    "geometry_seed": 2610280169,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_010",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 10,
+    "geometry_seed": 2610280170,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_011",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 11,
+    "geometry_seed": 2610280171,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_012",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 12,
+    "geometry_seed": 2610280172,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_013",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 13,
+    "geometry_seed": 2610280173,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_014",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 14,
+    "geometry_seed": 2610280174,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_015",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 15,
+    "geometry_seed": 2610280175,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      0,
+      1
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_016",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 16,
+    "geometry_seed": 2610280176,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      2,
+      3
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_017",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 17,
+    "geometry_seed": 2610280177,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      0
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_development_018",
+    "environment": "A",
+    "split": "development",
+    "index_in_split": 18,
+    "geometry_seed": 2610280178,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      1,
+      2
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_development_019",
+    "environment": "B",
+    "split": "development",
+    "index_in_split": 19,
+    "geometry_seed": 2610280179,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      3,
+      4
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_000",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 0,
+    "geometry_seed": 2610280180,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "B_factorial_combination_test_001",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 1,
+    "geometry_seed": 2610280181,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": true
+  },
+  {
+    "family_id": "A_factorial_combination_test_002",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 2,
+    "geometry_seed": 2610280182,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_003",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 3,
+    "geometry_seed": 2610280183,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_004",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 4,
+    "geometry_seed": 2610280184,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_005",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 5,
+    "geometry_seed": 2610280185,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_006",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 6,
+    "geometry_seed": 2610280186,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_007",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 7,
+    "geometry_seed": 2610280187,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_008",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 8,
+    "geometry_seed": 2610280188,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_009",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 9,
+    "geometry_seed": 2610280189,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_010",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 10,
+    "geometry_seed": 2610280190,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_011",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 11,
+    "geometry_seed": 2610280191,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_012",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 12,
+    "geometry_seed": 2610280192,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_013",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 13,
+    "geometry_seed": 2610280193,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_014",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 14,
+    "geometry_seed": 2610280194,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_015",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 15,
+    "geometry_seed": 2610280195,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_016",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 16,
+    "geometry_seed": 2610280196,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_017",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 17,
+    "geometry_seed": 2610280197,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "A_factorial_combination_test_018",
+    "environment": "A",
+    "split": "combination_test",
+    "index_in_split": 18,
+    "geometry_seed": 2610280198,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  },
+  {
+    "family_id": "B_factorial_combination_test_019",
+    "environment": "B",
+    "split": "combination_test",
+    "index_in_split": 19,
+    "geometry_seed": 2610280199,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "state_kinds": [
+      4,
+      5
+    ],
+    "pilot": false
+  }
+]

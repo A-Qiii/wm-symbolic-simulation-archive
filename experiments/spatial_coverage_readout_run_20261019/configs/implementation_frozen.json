@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-19T14:31:57.183867+00:00",
+  "before_any_fit": true,
+  "source_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/common.py": "de4f8fe11ed474e9334c440acf2de961d7690a6dc51b09f4bafa05ff74c6ca90",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/compute.py": "a2b6b3a26349125faeb62c556dfa88a7b4a1d4dba763b5745aa2384db668c63e",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/collect.py": "78772244ff5225ab69e8dbaf5ff7ac7f16a2996d8e1c513c49dae47bc1e7b653",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/control_audit.py": "ea4d90e26745e28f90ca3e3039191ce9e07b4428aa73a161247d438b76b9a74e",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/training_audit.py": "f804828fc038fcd7218858faaaa0ea4371e6aed0123d2dc8f4e6e956e479dca1",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/analyze.py": "d969485ff96c01fd7b587e477be0be38c8206c892b9eaca82a9050fb3b30f80d",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/preflight.py": "efbc238a5e8044adf2dc04adcd3b78b4413d107a1f7584499d410b661c625c8e",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/preflight_feasible.py": "82e418575c6da87aca8c6ff3fd8c1f925f43cf3106b9ea1585c22664f3c84f91",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_coverage_readout_run_20261019/source/preflight_joint.py": "49f42ebd427512c5e8ebb9c80c014c55919afe1624d9fa7f16b08e9dc1f25325"
+  },
+  "torch_deterministic_algorithms": true,
+  "float32_matmul_precision": "high",
+  "num_threads": 4,
+  "same_as_control": true
+}

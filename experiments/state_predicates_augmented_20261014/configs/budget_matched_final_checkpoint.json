@@ -1,0 +1,5 @@
+{
+  "saved_before_training": true,
+  "secondary_control": "Also retain the final update1500 checkpoint and its dev-calibrated thresholds. Evaluate after freeze as budget-matched secondary diagnostic, never use test to replace selected checkpoint.",
+  "all_selected_checkpoints_may_be_earlier_than1500": true
+}

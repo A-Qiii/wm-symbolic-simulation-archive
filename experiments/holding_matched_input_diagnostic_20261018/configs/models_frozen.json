@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T15:56:07.110342+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_geometry_masked_RGB_seed0.pt": "e238d73e8ae6bf86ddc1338993215806c016bd8562d2fe5b24dbc90668ff153b",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_full_seed1.pt": "4435dae9efd219cac11d7e4b3e46ddb7ff9f80f5a63c13b479eebeb42224aaa3",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_RGB_masked_geometry_seed0.pt": "cc1490ef4ba83d1b6b7f942f60e9faf27886a1fd675bd415d0f4e6d2cef268e3",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_RGB_masked_geometry_seed1.pt": "4ecec11ce24e5986caee4fffee9e556fc2abfa13f442f44868bda7326e6f6d01",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_geometry_masked_RGB_seed1.pt": "48a83bbafe1e79ca63ab9ef02628a6ba5eabe9ed42bbc8f719a687bde837ae6b",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_matched_input_diagnostic_20261018/models/final_full_seed0.pt": "48496fa8947bd5cf03e82d5be91ba6e670f6c5f9819e2f12892b0374e96c0bad"
+  },
+  "before_dev_prediction": true,
+  "fits": 6
+}

@@ -1,0 +1,448 @@
+{
+  "created_utc": "2026-10-14T16:14:15.952216+00:00",
+  "protocol_sha256": "680a41186114578a4cf7eff14cf405ae8cf0750adca530f48594a44eb675b69d",
+  "all_runs": [
+    {
+      "run": "full_seed0",
+      "seed": 0,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.000431400811066851,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0600.pt",
+        "sha256": "bad461d6fd9d6d89dd58987886d29a48bfd40cb41709c5d84cc7958d32d97a3a"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.07023119181394577,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0200.pt",
+          "sha256": "f123c086bac5fead6182eefb8f0e93aed8e32653b2ceface7797f76598be9a50"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.0013965432299301028,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0400.pt",
+          "sha256": "ad527587ac6c3cc1da427c0850bda471f20e0eb8db134cfb7507d0e678a3a304"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.000431400811066851,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed0/update0600.pt",
+          "sha256": "bad461d6fd9d6d89dd58987886d29a48bfd40cb41709c5d84cc7958d32d97a3a"
+        }
+      ],
+      "wall_seconds": 1.2190366759969038,
+      "CUDA_elapsed_seconds": 1.2177008056640626,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.00023420550860464573,
+        "batch_latent_SmoothL1": 0.010111753828823566,
+        "batch_total_loss": 0.0007397932349704206,
+        "gradient_norm_before_clip": 0.0018042136216536164,
+        "elapsed_wall_seconds": 1.2159371309971903
+      }
+    },
+    {
+      "run": "action_only_seed0",
+      "seed": 0,
+      "mode": "action_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.17634336650371552,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed0/update0600.pt",
+        "sha256": "cc281a7f92af13836f7da67956aa7dda482255a764006ed3203bf275e95de781"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.17849162220954895,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed0/update0200.pt",
+          "sha256": "d972a69bbea01dde69792f3405d03fee0eb542b61ae6dfccc6597ee8f7d5e14c"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.1774231493473053,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed0/update0400.pt",
+          "sha256": "f07b6ad08dc935647aa12ca4f88184064d6f2ea0abb72af83edfc632721a5f20"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.17634336650371552,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed0/update0600.pt",
+          "sha256": "cc281a7f92af13836f7da67956aa7dda482255a764006ed3203bf275e95de781"
+        }
+      ],
+      "wall_seconds": 0.8698689779994311,
+      "CUDA_elapsed_seconds": 0.8698268432617188,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.19858884811401367,
+        "batch_latent_SmoothL1": 0.11718300729990005,
+        "batch_total_loss": 0.20444799959659576,
+        "gradient_norm_before_clip": 0.053722187876701355,
+        "elapsed_wall_seconds": 0.8664112910046242
+      }
+    },
+    {
+      "run": "state_only_seed0",
+      "seed": 0,
+      "mode": "state_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.22578935325145721,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed0/update0600.pt",
+        "sha256": "0a553bfa6af8816de430055c88bb46b0bd8a20f8e9efec09380e6d549044c9d5"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.24249915778636932,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed0/update0200.pt",
+          "sha256": "394d61d1ffb730b894cd1715a04403c0ebbaf5fb39b741b7b7fa8819b22f557d"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.23394964635372162,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed0/update0400.pt",
+          "sha256": "0065681db720e2afe0674e60cf55905e3e90ffb693803d7114dae630dceea752"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.22578935325145721,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed0/update0600.pt",
+          "sha256": "0a553bfa6af8816de430055c88bb46b0bd8a20f8e9efec09380e6d549044c9d5"
+        }
+      ],
+      "wall_seconds": 0.8908673179976176,
+      "CUDA_elapsed_seconds": 0.8908242797851562,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.16678094863891602,
+        "batch_latent_SmoothL1": 0.5193238854408264,
+        "batch_total_loss": 0.19274714589118958,
+        "gradient_norm_before_clip": 0.3184433877468109,
+        "elapsed_wall_seconds": 0.8877466030025971
+      }
+    },
+    {
+      "run": "full_seed1",
+      "seed": 1,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.14650577306747437,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0600.pt",
+        "sha256": "a05454a522b944b7dad39791aeaf1bf02a4fcac63b203cbc6c0c529dd485a99f"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.23060539364814758,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0200.pt",
+          "sha256": "0619dbcd8ad0f7d20df2f143975d028c449004da611e35e642e24778c01c70d5"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.1776418387889862,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0400.pt",
+          "sha256": "4b7406e9890336dc0cedbc7086ee93abbe34924c28d16bfb44ce751cd945f0b2"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.14650577306747437,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed1/update0600.pt",
+          "sha256": "a05454a522b944b7dad39791aeaf1bf02a4fcac63b203cbc6c0c529dd485a99f"
+        }
+      ],
+      "wall_seconds": 0.9036788779994822,
+      "CUDA_elapsed_seconds": 0.9036259765625,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.11479856073856354,
+        "batch_latent_SmoothL1": 0.5056263208389282,
+        "batch_total_loss": 0.14007987082004547,
+        "gradient_norm_before_clip": 0.10228583961725235,
+        "elapsed_wall_seconds": 0.900077621001401
+      }
+    },
+    {
+      "run": "action_only_seed1",
+      "seed": 1,
+      "mode": "action_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.17618750035762787,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed1/update0600.pt",
+        "sha256": "93b2c6c492cb876023d9611ded42fd15227945b955826a302214822074fed8d9"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.1777273416519165,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed1/update0200.pt",
+          "sha256": "c92c98f883660d3f844ae97bec13c29045359ff578741ba6986befadbeb48c8e"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.17892763018608093,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed1/update0400.pt",
+          "sha256": "0bfb66ae85df120dca3afcf00afb49d28db7eaac9b6619ef032f021690b7f78b"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.17618750035762787,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed1/update0600.pt",
+          "sha256": "93b2c6c492cb876023d9611ded42fd15227945b955826a302214822074fed8d9"
+        }
+      ],
+      "wall_seconds": 0.9157064469982288,
+      "CUDA_elapsed_seconds": 0.9156602783203125,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.20793399214744568,
+        "batch_latent_SmoothL1": 0.11594101786613464,
+        "batch_total_loss": 0.213731050491333,
+        "gradient_norm_before_clip": 0.11111921817064285,
+        "elapsed_wall_seconds": 0.9119204939997871
+      }
+    },
+    {
+      "run": "state_only_seed1",
+      "seed": 1,
+      "mode": "state_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.221511572599411,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed1/update0600.pt",
+        "sha256": "e8b0e98a60526abe8caff5ad72e387d9c2fcf90dee9a66db5e433da30d82b20a"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.2577100694179535,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed1/update0200.pt",
+          "sha256": "c7c50425c74970544d92ced4359701ba1c53899f4672d050a85982c2dd8f8488"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.22470629215240479,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed1/update0400.pt",
+          "sha256": "71705acaa3770b74dcbd3dab157dc8d255f6438a95f6c95b16b22b6641171e9b"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.221511572599411,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed1/update0600.pt",
+          "sha256": "e8b0e98a60526abe8caff5ad72e387d9c2fcf90dee9a66db5e433da30d82b20a"
+        }
+      ],
+      "wall_seconds": 0.9168396369932452,
+      "CUDA_elapsed_seconds": 0.91679541015625,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.1818414032459259,
+        "batch_latent_SmoothL1": 0.20562325417995453,
+        "batch_total_loss": 0.19212256371974945,
+        "gradient_norm_before_clip": 0.516360342502594,
+        "elapsed_wall_seconds": 0.9131837079985416
+      }
+    },
+    {
+      "run": "full_seed2",
+      "seed": 2,
+      "mode": "full",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.00040617649210616946,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0600.pt",
+        "sha256": "95fc8a76da1f684e43a83eb320ef4b0837b215befe17132df44058ca8e86bb41"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.04028955101966858,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0200.pt",
+          "sha256": "03fc16c8232341267f28aeeedef6d6e555a73ec87c482e46f31695ae829155c5"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.0011350831482559443,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0400.pt",
+          "sha256": "0b78adf248839731e902955797739dac3ae4d26c792ef0435e65ab7bf8cb476b"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.00040617649210616946,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/full_seed2/update0600.pt",
+          "sha256": "95fc8a76da1f684e43a83eb320ef4b0837b215befe17132df44058ca8e86bb41"
+        }
+      ],
+      "wall_seconds": 0.9148899240026367,
+      "CUDA_elapsed_seconds": 0.9148491821289062,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.00022088864352554083,
+        "batch_latent_SmoothL1": 0.009794618934392929,
+        "batch_total_loss": 0.0007106196135282516,
+        "gradient_norm_before_clip": 0.0017738145543262362,
+        "elapsed_wall_seconds": 0.9118566830002237
+      }
+    },
+    {
+      "run": "action_only_seed2",
+      "seed": 2,
+      "mode": "action_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 600,
+        "tune_root_macro_BCE": 0.17655229568481445,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed2/update0600.pt",
+        "sha256": "90ae1079e42c7ef3d0e4115493bb332ec0fa151fbd75435cbbeecad5a9bd9434"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.1778281182050705,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed2/update0200.pt",
+          "sha256": "8583d3f1d72897ea735d18ebb392ce30653b7cc4b052e57f885dac2a7a3d3bc8"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.1768254041671753,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed2/update0400.pt",
+          "sha256": "58a9d4a694e5deaeb03c549cda123f151fd31d1bc5dd5dbe91d3cce9bb7e10a4"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.17655229568481445,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/action_only_seed2/update0600.pt",
+          "sha256": "90ae1079e42c7ef3d0e4115493bb332ec0fa151fbd75435cbbeecad5a9bd9434"
+        }
+      ],
+      "wall_seconds": 0.9188698550060508,
+      "CUDA_elapsed_seconds": 0.9188307495117187,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.19899097084999084,
+        "batch_latent_SmoothL1": 0.11743625998497009,
+        "batch_total_loss": 0.2048627883195877,
+        "gradient_norm_before_clip": 0.06585877388715744,
+        "elapsed_wall_seconds": 0.915867783005524
+      }
+    },
+    {
+      "run": "state_only_seed2",
+      "seed": 2,
+      "mode": "state_only",
+      "updates": 600,
+      "parameters": 76224,
+      "initial_state_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "selected": {
+        "update": 400,
+        "tune_root_macro_BCE": 0.16099514067173004,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed2/update0400.pt",
+        "sha256": "5bc2e28c9727054d66b64e1274d92f7435fe019a00d7f50f8e05f55b551a77e6"
+      },
+      "all_checkpoints": [
+        {
+          "update": 200,
+          "tune_root_macro_BCE": 0.19172462821006775,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed2/update0200.pt",
+          "sha256": "fe922214a2ab90477b5abe48af77a60fc395f1a4833a31444714bd4f2d88fca5"
+        },
+        {
+          "update": 400,
+          "tune_root_macro_BCE": 0.16099514067173004,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed2/update0400.pt",
+          "sha256": "5bc2e28c9727054d66b64e1274d92f7435fe019a00d7f50f8e05f55b551a77e6"
+        },
+        {
+          "update": 600,
+          "tune_root_macro_BCE": 0.1911313533782959,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_one_step_20261014/models/state_only_seed2/update0600.pt",
+          "sha256": "e643d84edcf2e56ae12ec51d46b337989bfec4524cd4c9665d13a8f38ad77945"
+        }
+      ],
+      "wall_seconds": 0.9173050329991383,
+      "CUDA_elapsed_seconds": 0.9172164916992187,
+      "peak_torch_allocated_bytes": 22756864,
+      "peak_torch_reserved_bytes": 27262976,
+      "frozen_reader_digest_unchanged": true,
+      "calibration_not_scored": true,
+      "final_batch_loss": {
+        "update": 600,
+        "batch_BCE": 0.08987168967723846,
+        "batch_latent_SmoothL1": 0.09194576740264893,
+        "batch_total_loss": 0.09446898102760315,
+        "gradient_norm_before_clip": 0.430751234292984,
+        "elapsed_wall_seconds": 0.9132798409991665
+      }
+    }
+  ],
+  "representative_run_per_mode": {
+    "full": "full_seed2",
+    "action_only": "action_only_seed1",
+    "state_only": "state_only_seed2"
+  },
+  "C_calibration_not_scored": true,
+  "selected_before_final_C_evaluation": true,
+  "total_optimizer_updates": 5400,
+  "total_wall_seconds": 9.991167006999603,
+  "frozen_candidate_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b"
+}

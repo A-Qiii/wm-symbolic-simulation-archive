@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-20T01:56:26.975560+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/losses.py": "615c09feec3a6b3aa33d93ddd9bb11e117656831c70e75ab327fb69893d5fd5e",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_train.py": "dd131b57c0d8a16e873098cb1da0c88a6fcb9927014b48ee926456261a9d89d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/models.py": "d9248fa21e25651c4835403c102f212f514dfb65ee68bfc4f4e1a1eb4d4697ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_evaluate.py": "00133b662c344b7403010de2142701ebdf06d0139d3e7ef26ddc637991cf55cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_audit.py": "2f63c7559b9e366ad6dda8590b166f1fddecb28e62fae902fe5b98edec62a2ea",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/mid_data.py": "1866b078565746aa1e1aecd78d8215d3a309c9a3d1970fb3e6fc3e1da1c14d24",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/common.py": "b0ec90ba78b067e0a14367aedcec1bb0561a1406cb0127cdaae1600b9263932f",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/source/original_loss.py": "12eb5a2021a4e568a63d2acaf5d95151f560924031d548eaee5e235ef1c1cc52",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/input_normalization.json": "2790c24c214ef3424ce7ab309b67e70d09dddb1c458e49296397ae86a6b2b7a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/schedule_seed1.npz": "000522a21fdb5caa661dd3be788a6343b8b877540d10671b6be5531e285d9e26",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/protocol.json": "8b3348a441761964be172ada182b68de2e3a2636e215e38f2ea184d113b4efca",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/schedule_seed0.npz": "14e40f4a5477a08d75ac617d14a6c7f0ccf72758096146dc7fbca418b10e4970",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/launch.json": "9207c99bce15436be2fbbaf4b7e6e7b0abfba67f208d9044789828d80acbfcc7",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/configs/episode_order.json": "5eebb6f7511247671b4050673298d153432095b56b5e4e46ef0848106f7d7977",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/train_metadata.json": "766fa88bb0011323c6730d824dde61b7b764238c634cda3da98b7cf583e39862",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/cache/train_geometry_raw.npz": "b73f6d45d0c99d1ec4857020265e748bdc65524de78ac6c4a78861b1c626097c",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/train_seed0.npz": "36ce18c72fc89d7851909d17eafa2a4a5cdf745899e12374d74f25206742fdb2",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/train_seed1.npz": "16964ff66916d56f6760d503ffce14208c1922b64d9164fecbb11b1ba1bc9d7a",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/development_metadata.json": "28ccf31cd2bc85e232a3486299bf7843bd048ec031ff241d19d426b49ac05646",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/cache/development_geometry_raw.npz": "709cc2452b8bccd11f5ca32ca86fb504cfedfda8c843ff2cac1eed4718d576f6",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/development_seed0.npz": "1bdc11bf127417398395f1a7d55633a9de09bd67882b915a4333c963ffc68fd9",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019/cache/development_seed1.npz": "11526e3b245f343b5c85025b127201ba9888795b44bd6b0e63417120da77d078",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/models/geometry_seed0_step1500.pt": "395dd6285b4c277e5a23ce6eb51c45a450da584a09126751729085dc645c19dc",
+    "/home/robot/research/projects/wm_symbolic/experiments/rgbd_observation_control_20261020/models/geometry_seed1_step1500.pt": "177bc383ae437e79713db67c0a18873a8b0a252c13fd84751b0d61a539ad947d",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/world_model.py": "480376ab096af5a8ba7cbef5603ff51f910a1abbbc98e830ff86e6e9592d0a4f"
+  }
+}

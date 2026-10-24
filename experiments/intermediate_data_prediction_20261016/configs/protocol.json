@@ -1,0 +1,106 @@
+{
+  "frozen_utc": "2026-10-16T13:00:06.600762+00:00",
+  "scope": "One finite local data-coverage and prediction study. No task or planning evaluation. Same controller,6-skill canonical8D interface,9 propositions,vision/representation architecture,loss definitions and thresholds. No new dependencies, dataset uploads or cloud compute.",
+  "roots": {
+    "A_train": 6,
+    "B_train": 6,
+    "C_select": 6,
+    "C_validate": 6,
+    "D3_test": 12,
+    "colours": "red,blue,pink balanced in every split",
+    "D3": "New root batch in same physical CALVIN D environment; not a new environment. Collect only after model/query/threshold selection sealed."
+  },
+  "collection": {
+    "branches_per_root": 2,
+    "resets": 72,
+    "max_skill_calls": 288,
+    "max_controls_per_skill": 900,
+    "posthold_controls": 96,
+    "reset_settle_controls": 127,
+    "max_control_steps": 295992,
+    "internal_attempts_per_skill": 2,
+    "external_retries": 0,
+    "wall_minutes_soft_ceiling": 90,
+    "storage_soft_ceiling_GiB": 5,
+    "normal": "open,lift(target),place(no target),close. Stop after first non-success, count remaining as unreached.",
+    "held_closed": "lift(target),place,open,close. After a successful lift continue all3 calls even if refused; stop after failed physical call. No forced prerequisite repair.",
+    "reset": "Only native reset sets initial tabletop xyz/yaw and closed drawer; both branches share same declared layout/root. Reset is not an action transition. No teleport,attachment,force or nonrobot motor during calls.",
+    "recording": "Continuous dual-camera MP4 and full physical pose/contact/control trace every control; public RGB+15D proprio at boundaries, phase endpoints and before gripper changes. Records follow fixed phase events, not predicted/GT success selection. Failed/refused calls and unreached slots retained.",
+    "labels": "Unchanged contained_supported_drawer3_v2_1 using full quaternions,contacts,drawer geometry; validity masks. Uncertain never filled0. Private truth never model input.",
+    "root_boundary": "All branches,phase frames,and derived features remain in parent root split. No test material opened for training/selection."
+  },
+  "query": {
+    "fixed_model": "canonical_matched_seed0/update1000",
+    "original_head_reference": "query_seed0",
+    "architecture": "unchanged25473parameter Query",
+    "arms": [
+      "old_coverage",
+      "new_coverage"
+    ],
+    "query_seeds": [
+      0,
+      1
+    ],
+    "updates": 1200,
+    "batch": 32,
+    "sample_draws": 38400,
+    "checkpoints": [
+      300,
+      600,
+      900,
+      1200
+    ],
+    "optimizer": "original AdamW lr.001 wd.001 clip1",
+    "normalization_and_class_weights": "reuse original query_seed0 AB normalization and original144-state weights, unchanged",
+    "shared_states": 96,
+    "old_arm_pool": "original144 AB budget",
+    "new_arm_pool": "same96 old plus up to48 new AB states: held_open,hover_above_drawer,post_place,held_closed once per root. Missing/unknown retained as missing/masked; no replacement collection.",
+    "batch_sampling": "same20 shared root-balanced draws; old12 original pool; new3 per each of4 coverage strata root-balanced. If a stratum has0 states stop/report instead of substitute.",
+    "selection": "Per arm/seed min .5 oldC-selection root-macro masked loss +.5 newC-select root-macro same loss; earlier tie. Then choose old/new arm per query seed by same C score for transition comparison; earlier arm in tie. Never C-validation or D.",
+    "other_state_retention": "old96 shared training and old C-validation116 retained in reporting. NewC-validation6 roots assessed once, never tuned."
+  },
+  "transition": {
+    "execute": "After query choices frozen, run one old/new transfer pair x2 sampler seeds, no joint query updates.",
+    "initial": "same fixed canonical_matched_seed0/update1000 in all4 runs",
+    "frozen": "DINO,registry,normalization,encoder,decoder,selected query perseed,thresholds",
+    "trainable": "transition only",
+    "updates": 1000,
+    "batch": 64,
+    "checkpoints": [
+      0,
+      250,
+      500,
+      750,
+      1000
+    ],
+    "optimizer": "existing AdamW lr.0001 wd.0001 clip5",
+    "loss": "unchanged equal4-group changed-weighted decoded feature error +.25 actual-successor latent MSE; every4 updates common-base observed2/3-step terms weighted.25, same existing implementation",
+    "sampling": "same48 oldAB root-balanced base; extra16 old or newAB. New12 normal-branch and4 held_closed-branch draws; old aux matched to same canonical skill distribution. No labels/native success in selection of draws.",
+    "selection": "minimum .5 oldC37-root-macro existing feature error +.5 newC-select6-root-macro feature error; earlier checkpoint. No semantic or test score for selection.",
+    "budget": "4x1000 updates,256000 sample draws; no further adjustment or third arm."
+  },
+  "evaluation": {
+    "normal_primary": true,
+    "refusal_separate": true,
+    "paths": [
+      "true-state readout",
+      "true-previous-state one-step",
+      "recursive1..4skills from initial only"
+    ],
+    "metrics": "full9 exact correctness only where all9valid; validity-masked and perHolding/In/drawer separately; fixed complete-root cohort plus all-available denominators; same-trajectory proposition pairing of actual-readout correctness vs prediction correctness; original latentMSE supplementary, not semantic metric.",
+    "D3_opening": "all chosen models sealed before collection/opening; report one new evaluation, after which this batch is seen. No test-driven resampling,thresholding,reselection or repair.",
+    "comparison": "First all query heads under original fixed transition; then old/new transitions under same C-selected query within seed. Never credit joint changes as one cause.",
+    "media": "show fixed first colour-stratified C root examples of above-drawer held vs after release; D examples only descriptive after freeze."
+  },
+  "estimate": {
+    "collection_minutes": [
+      10,
+      20
+    ],
+    "whole_study_minutes": [
+      30,
+      60
+    ],
+    "basis": "previous same-machine4skill records ~7sec before denser physical recording; allow overhead and analysis. Estimates only."
+  }
+}

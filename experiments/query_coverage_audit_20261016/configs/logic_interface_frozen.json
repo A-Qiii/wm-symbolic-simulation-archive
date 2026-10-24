@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/query_coverage_audit_20261016/source/query_to_logic.py": "2b83ee3e918e84c086703b4cfb815d22f5a74322a9d4992a1e032031a571ff13",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/learn_actions.py": "c9c575cdd642d43f0b7d8643953f3490b179e08da4ec7cbc4ec9c15a1f8c7f62",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/learned_rules9.json": "5a4a5f0821e13140c2a22dcf7ebd407e19ef615f37996fb2a1692e60d9801488",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/verify_delivery.py": "3b2431dc784dc9a6cc6a98f619dae6a6342502957c142c9e7cf13e833c6c1580",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/model.py": "317215b9c71572d2a779a153b9263a1da08b12701a707496d83c42b7b85b7b55",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/report.py": "c621c7146a59ddc11a77de89680fce486ae2a59ab048a71cbc56b3df3a7c9680",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/train.py": "34d805d5cb69a9d959626267f1479008e5cbd5846b347ea89167245764d0c085",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/numerical_validation.py": "95ef0d26e2a3a88b14c57786cca6ef4dc71df3e06013a358da9502f18fd266ee",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/evaluate.py": "e755b76eb857fee1f75b3c39dc34193bb7b3db1b9bbe68d7d34177531edcdc20",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/seal_initial.py": "d2369c87f3fa88f89d3a3d5e10fa1273322486069bf392c363cee611e445782c",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/query.py": "4720a2998e4ba8f8f6642e4faef57ca1b517c987f07d66f47df9c47fc351f6e7",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/common.py": "82b33feef22b6a2731e3362848280242e12e44738243281d1c2c7abe4e81a55e",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/seal.py": "d0adf6002f5055029bb40e2de00bbb153a8dbaacfc06aa8fb1d4db23d6693f4c",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/baseline_model.py": "393f2bbd07d20744aef3e201e65ff9a06e4355be871d50e9a9ba306f63b532ce",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/source/prepare.py": "dfec71f2a901f06c3c0b89475ac5e6faddbe102e2d881d1f9692bac1faa158a1",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/configs/pooled/reader_frozen.json": "8b23d32a3a17f07184d60fa2662d9dca1a7a34d45073d3990e6f34786c8c1e65",
+    "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/configs/spatial/reader_frozen.json": "034a26729f6c11639499fbbf02c3d155450bcfdd6a8ced08c019794ca91b046b"
+  },
+  "no_physical_actions": true,
+  "no_new_or_changed_operators": true
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-20T01:23:35.096881+00:00",
+  "families": 4,
+  "template_roots": 36,
+  "episodes": 72,
+  "task_calls": 336,
+  "before_rollouts": true,
+  "geometry_only": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_generalization_frozen_20261020/data/families_manifest.json": "712f2c129154d0a8a9da49e3aa93fb55da06fc58d8ebb172f3f9f0593fad4c78",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_generalization_frozen_20261020/data/roots_manifest.json": "a757f787f6dc956d210a223c5ba3488f4187927592c1152029a404dafe69dbb3"
+  }
+}

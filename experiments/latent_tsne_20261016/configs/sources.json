@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/states.json": "47f6ada6e0de8cfd662cee37b7b6ce1ee3133466e26b310dbffd585f798ea7e1",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/pairs.json": "ccfce8679d5ef76d4679095bde51298595a866764195325c16c949d9cac1b03d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/_private/labels.json": "4556eef5a2e4605eb5c346863815d1217dedbeda1581c43be6a80a3f2f986d0f",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/public/inputs.npz": "c67a77e01e47e9ab5741f5b995a6e71040a51de166110497f9137cb14ab5c6e0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/D/public/states.json": "2db21ebd8679e4928b8950f720e081a8d5b9351ec3959d28eb303c9b32d3860f",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/D/public/pairs.json": "9baf876d5f43b6decc76d24c9e56ac336bd1f0e352422826060b1f57e900d697",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/D/_private/labels.json": "cf13a91977c80b86496cef7d74ba7e26dea31ee9e6dc3a65ed7735683472db94",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/data/D/public/inputs.npz": "2bc64e9aec9d695532c9fd445ac438a61ec9559f7bd769d67064e4d4462c3157",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/states.json": "92a9dd425c83a49a6f097297f9956fe958aed94d095dee141c0021ecf744006d",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/pairs.json": "349fc98b6487e879546f3e74cb3308fb591d5e01653d4539c3caf7a3c802500a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/_private/labels.json": "119092660fdd1d7ddd4cc8a2291533c219b7ddee400923fd7e335cdadfd7baee",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/D2/public/inputs.npz": "f7d9eb6f92905dba7f41c6366af31685cff48850aaef1fda119fb0d670422b93",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/results/D2_canonical_control_seed0.npz": "6a16c328799349a8ff2db273b807e5cef93bf7a7ad5255f510f0723fafcd3622",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/results/D2_canonical_matched_seed0.npz": "d301237497284bba046b90a9fdffc7393ef89400d881434e8b2bf60d1465afd7"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T02:15:37.839386+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed0_step1500.pt": "c07d69aea93a16b1eec9fd3a8bccdb9892d2687be00ab372426465750b2ef78a",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed1_step1500.pt": "d808ccc31ef425af47963808f5f49cdafd7d665360750096708330eeed7d9730",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/full_seed0_step1500.pt": "d6f0bf94d015dd33ed1e98eb3c5ea898f15cf4e8e41e9adb3839ce45cab5320d",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/full_seed1_step1500.pt": "05d402d099ff5151668f0df226a65aacf172f09f2d99d03230748ce9ec8e4900",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/history_mix_seed0_step1500.pt": "48c4ab7dece9ba29d2dd86b3cd295546aecaa9937d2526adc7530e7f4344b948",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/history_mix_seed1_step1500.pt": "8e7bba4e06f6fedfaa2c0b37de54633b31cccc8acc92aa960686e9113e2e0757"
+  },
+  "no_selection": true
+}

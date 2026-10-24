@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-19T20:59:16.815460+00:00",
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "balanced",
+      "update": 500,
+      "development_objective": 4.815078953901927,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed0_step500.pt",
+      "sha256": "fa491962634cf58803cce355eb912803ca604a64712b9e2752a9d95406168769"
+    },
+    {
+      "seed": 1,
+      "arm": "balanced",
+      "update": 1000,
+      "development_objective": 4.654595136642456,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed1_step1000.pt",
+      "sha256": "c95c6b71489c619b47355edfd89b35e4b910d871d0539ec5dbd4ac074a1c0e6b"
+    }
+  ],
+  "fits": 2,
+  "updates": 2000,
+  "control_reused": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed0_step500.pt": "fa491962634cf58803cce355eb912803ca604a64712b9e2752a9d95406168769",
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed0_step1000.pt": "3f84715fa523042a1b2eadd7b85d23f636d2f09ca5b15f62281e20a2f198a5a5",
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed1_step500.pt": "c6c1aeff8b1e87362147f9490b92e49680de6e8da71101b6c3e9f30fab5ed590",
+    "/home/robot/research/projects/wm_symbolic/experiments/balanced_branches_20261019/models/balanced_seed1_step1000.pt": "c95c6b71489c619b47355edfd89b35e4b910d871d0539ec5dbd4ac074a1c0e6b"
+  }
+}

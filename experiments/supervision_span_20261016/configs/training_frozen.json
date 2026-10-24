@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-16T14:34:31.661936+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/configs/schedule_seed0.npz": "bdeccc13d3dadfa330ef46e6c69731c7245b9c00c2b4d77d98c50b349295ef24",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/configs/schedule_seed1.npz": "0cf4cbcb7ed60c08e82642d36c2d6b689b3ad95afa4b2094fe1ade437636e7e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/score.py": "0e7cf4164c1accbcd4d3499063ca66519d62b814fd87f5aa7b6d695beab3b707",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/config.py": "9ea9d6567f83f1839ee03d79a05e3f831a493fa59b3581c346ec0ccadb314a36",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/train.py": "13a3df4a17e09a356b2d8cc4a748a1e2df35651ebc1b01b1395b1a30a2b65837",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/evaluate.py": "10f21fe35effc5b55b07003c2c8fa514782b844a107c2a4950977f25bff7030e",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/freeze.py": "1e51a8c005ad17d3e81aaf77848f24f2d3e200e198cbec319d367805fb0036a6",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/setup.py": "0adef309369503fd43c8524279e5292a1833d44fb5755f4ecf89500c251fbe6e",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/source/gate.py": "a2726ad982db4366c4de863c3d3893975b293206afac278dd1f310ce3bc7573b",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/configs/protocol.json": "ba03bfad81c8576498665f1326fa643f1f98d8966424adae5221d01b483654ba",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/configs/chains.json": "c228b8ddc92fef71b5bbb3977e48a59b6e156833b09aa303d153a90b603663e9",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/inputs.npz": "bd36dc47ab961d17aa1fa80633071f05b732c2c9a29fd0ca31386402e59c90cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/pairs.json": "930bd084b4a1dab2b83fff563d6f532ea8d16c09873aeb557a0abeb506be1eb6",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/selected.json": "8daf06cd29817d89b7e1c9d8848cf05fecd7707d819ba9dd107a096e958fb267",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/public/normalization.npz": "7511375c9c0f257e8c043e11a5f4818dad985dc15c27743739a206fee09b226a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/model.py": "ac39f4266f8d73d9784cdee91732f479e1e02c8436bdc874a8f2978f6059695b",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/runtime.py": "d06cd37015747b73bc7537b908176a3b782fab0100d1f8e5cf1d8186ec143f35",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3"
+  }
+}

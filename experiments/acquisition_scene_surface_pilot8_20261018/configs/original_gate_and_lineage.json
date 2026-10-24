@@ -1,0 +1,5207 @@
+{
+  "original_protocol": {
+    "utc": "2026-10-18T15:01:26.671762+00:00",
+    "purpose": "Conditional relation-readout diagnostic with correct native visible boxes, not visual end-to-end or planning",
+    "inventory_result": "old physical labels lack native masks; native-mask localization samples lack force contacts; intersection zero, supplement required",
+    "primary_relation": "Holding(gripper,block), shared binary diagnostic per queried block; no planner predicates or HandEmpty claims",
+    "secondary_In": "save current v2.1 geometry/support audit only; no In fit in this fixed Holding collection; front crop never substitutes cavity evidence",
+    "budget": {
+      "max_independent_roots": 32,
+      "max_saved_synchronous_states": 256,
+      "max_states_per_root": 8,
+      "max_new_fits": 4,
+      "updates_each": 600,
+      "replacement_roots": 0,
+      "new_software_or_model_downloads": 0,
+      "control_execution": "native motor control steps required to reach the8anchors are not extra training states; intermediate RGB not rendered or saved; private last12 physical checks support stability only",
+      "max_controller_controls_per_root": 900,
+      "fixed_controller_original_bounded_retries": "unchanged maximum two attempts inside PhysicalOracleV2.run; no external retries"
+    },
+    "roots": [
+      {
+        "root_id": "relation32_A_00",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019100,
+        "target_color": "red",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.16173235957513035,
+              -0.06309548613742935,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.03251964414516659
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07144783540341389,
+              -0.05748178145047259,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.04054546298645181
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3031895706273435,
+              -0.06560448835708398,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.029224416173316226
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "ea6f1805968656f505339f26e68e8c4cb0b41f3a15eb90695d4ae01ed9b391fa"
+      },
+      {
+        "root_id": "relation32_A_01",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019101,
+        "target_color": "blue",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.15404276874178527,
+              -0.05914836861208728,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.07050019080633813
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.06471164234870344,
+              -0.10712957655322727,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.1614741327512757
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.3073781589043054,
+              -0.11283983412972987,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.05128866318436898
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "ac477e4ef58fd8628ccf94913a2929198b19696c4ee5eb5dcffdc2d2d9ae9f2b"
+      },
+      {
+        "root_id": "relation32_A_02",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019102,
+        "target_color": "pink",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.14522932900683752,
+              -0.10475234412927326,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.07399878401294988
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.08281995050921366,
+              -0.056711374183148394,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.14912319883149228
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.2971863644260765,
+              -0.0647469225015012,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.037738606499830685
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "c209459b24cfc34c71579cdbe2bf947f4a1a5abd3ef33b9b67396f3622b0ea81"
+      },
+      {
+        "root_id": "relation32_A_03",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019103,
+        "target_color": "red",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.15800464548839208,
+              -0.055821931629766314,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.06144093702622788
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.06748461422017978,
+              -0.08525382848759194,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.17029119671967924
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.3112039948918914,
+              -0.06535081865046265,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.02336708235375018
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "30aa48adf6d7816359ce44d1a744b581bde4fa7f835b2920a8f6e96168a33559"
+      },
+      {
+        "root_id": "relation32_A_04",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019104,
+        "target_color": "blue",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1491392192702847,
+              -0.06630814782362701,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.017227047339286317
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.0832954625498752,
+              -0.05850793819967833,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.02880730466666251
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.30251313808650315,
+              -0.10824272952898531,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.11905251538522532
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "f8c521e025860612642281b80fccc7a3df6bb8d071e11888add1b9de2573529a"
+      },
+      {
+        "root_id": "relation32_A_05",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019105,
+        "target_color": "pink",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.13998255011147795,
+              -0.07415725633636255,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.18166592703279116
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.06445730479039649,
+              -0.0854258681707915,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.06835811915502699
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.2988317657345259,
+              -0.08651782674996994,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.052389831865336745
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "19c48d020dd1b426cda969d2798c61270615cf5278aa3306acf8feffa48a468d"
+      },
+      {
+        "root_id": "relation32_A_06",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019106,
+        "target_color": "red",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.14351328025193316,
+              -0.07575265732014724,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.10165166075159685
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07667815813896205,
+              -0.09930478518621191,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.047933842773001334
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.31080629424108264,
+              -0.08787857910967842,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.020724253561080264
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "bd6736ddcb17f693ed45168201409c925ae516e67a0224de20a4fb0280c4275b"
+      },
+      {
+        "root_id": "relation32_A_07",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019107,
+        "target_color": "blue",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.14143295256276525,
+              -0.06886251760818253,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.06035761376988888
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07031288168171503,
+              -0.08589616805449751,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.18523779656898037
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.3099996152867859,
+              -0.10691439112410324,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.028811476697843258
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "ee70c8934d4b4876eced718a21abd2a99046796b508396910b649393e371ff06"
+      },
+      {
+        "root_id": "relation32_A_08",
+        "scene": "A",
+        "environment": "A",
+        "split": "train",
+        "seed": 261019108,
+        "target_color": "pink",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1532101497255255,
+              -0.0602909005689158,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.16975614291619573
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07065647831071617,
+              -0.0814527834635011,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.1056060284208189
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3050715519966875,
+              -0.08729864989859676,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.056944556866568435
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "f4bd430bf2f50019a57c12807ecf3276be912e6531b07fd017f08b28d978b5d6"
+      },
+      {
+        "root_id": "relation32_B_09",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019109,
+        "target_color": "red",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.1567212522500525,
+              -0.09648607595738962,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.18882535955586613
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07466417314263504,
+              -0.10485945843206253,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.035895224961687955
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3028447573542455,
+              -0.10008285422018667,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.06002867136566026
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "2f696262a8930658ea8aa41a7c61b8b37fcbaf1940dc9fc2c928abf8f1d901c6"
+      },
+      {
+        "root_id": "relation32_B_10",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019110,
+        "target_color": "blue",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.15345380189276817,
+              -0.06249408704951856,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.07676040740507589
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.08186104689725071,
+              -0.11051445151036286,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.12083927105071651
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.2901946392314525,
+              -0.06389725713684347,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.09549953979044795
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "cf02ef8e20986e10ed0e01651fb8d7afd06b36a2d81f3ec897e623ab5a9e129e"
+      },
+      {
+        "root_id": "relation32_B_11",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019111,
+        "target_color": "pink",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.15159971523959534,
+              -0.10831685392993756,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.14220147514369375
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07708440927150509,
+              -0.08992858757834318,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.10181246215121109
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3058531826966517,
+              -0.10174853428737958,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.17667905201285133
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "c9001121cd74aa45bce38f0d56a953f48eb516100730eebc355871c57794f23b"
+      },
+      {
+        "root_id": "relation32_B_12",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019112,
+        "target_color": "red",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.14720802424071522,
+              -0.11112564958412117,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.1722903978615059
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.0757783769970142,
+              -0.08820217084361229,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.04630483391610926
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.2896381394393969,
+              -0.09261926564007694,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.15516995977446008
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "f4f215c61d274c60f8c0485f4dc7bf0e2a2ca76cfd667fff9117b26ff1cef90f"
+      },
+      {
+        "root_id": "relation32_B_13",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019113,
+        "target_color": "blue",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.15633543782069745,
+              -0.05616595037853704,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.022253950095138336
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07623500075260504,
+              -0.07131101364663676,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.07269508165141825
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3105447967959235,
+              -0.05753217375813404,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.19706106821137476
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "68311e1f10aa4015af458cb2a8f634cdbfc702e834fc2e664657180ca34d1d50"
+      },
+      {
+        "root_id": "relation32_B_14",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019114,
+        "target_color": "pink",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.15118123153115054,
+              -0.08421688886875306,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.05601382523626905
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.06932087506420434,
+              -0.0559391978740259,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.14986697774761454
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.30897558255543006,
+              -0.09511772040783396,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.1336807396138449
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "bee61c5481fa58562afea8ac09ffb1c5783420f8a1725c126a775af3d6ca6d44"
+      },
+      {
+        "root_id": "relation32_B_15",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019115,
+        "target_color": "red",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.14780115441966127,
+              -0.09270312854695872,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.08228544335401052
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.08685382974935936,
+              -0.063292281981464,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.006392201133921749
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.30597164802687093,
+              -0.05913460940283516,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0726571825723149
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "6137d1891dcc9ba224bda66ea499f94c0a30528abc27b354ff34d3ab024a06ce"
+      },
+      {
+        "root_id": "relation32_B_16",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019116,
+        "target_color": "blue",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.14995041305078002,
+              -0.08733549870992319,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0670358111197557
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.06575579808612045,
+              -0.11005300391256245,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.07118652390319788
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.3031891510949122,
+              -0.07232374085343446,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.07639290717043634
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "60db3856349763401fdd0a1390ae3b0d77739ff3313d766969f7db91aa88e94c"
+      },
+      {
+        "root_id": "relation32_B_17",
+        "scene": "B",
+        "environment": "B",
+        "split": "train",
+        "seed": 261019117,
+        "target_color": "pink",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.15973057221962547,
+              -0.07577167257518028,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.13029999565685257
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.08446291499653907,
+              -0.07081699205628983,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.013170740034308459
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.2986811232035531,
+              -0.07381475590707459,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.11372366054461852
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "2c388b128a4ea95635cf4298b1c59bb2f36793ae1e736a89a1dbb7e44943c1e6"
+      },
+      {
+        "root_id": "relation32_C_18",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019118,
+        "target_color": "red",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.13916634872335956,
+              -0.09483384849898355,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.12149231637303709
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07025523060363632,
+              -0.07527702882804749,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.1111757691965447
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3077470077999521,
+              -0.07579005674995827,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.02075320327998656
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "7c5c3652e68d0e995661f3dc803f28d271b46680579f8e7e229fcce6338c0776"
+      },
+      {
+        "root_id": "relation32_C_19",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019119,
+        "target_color": "blue",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.14525123691878442,
+              -0.09478881314704174,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.15694388190380398
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07661734279880543,
+              -0.10678466260892863,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.16992504149971088
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.30943856922184054,
+              -0.05885823572124719,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.07014114606548494
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "6a034379c203faf5cbe2699d52b8282236c4d827e516ef3acb8d3cf8daa1d046"
+      },
+      {
+        "root_id": "relation32_C_20",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019120,
+        "target_color": "pink",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.153674456225485,
+              -0.08716360576510274,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.16879263733301195
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.06489371388665728,
+              -0.06369242828560759,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.10685887226319855
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3104774273742042,
+              -0.05708493689994056,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.15165254406327222
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "fdffe61fa4bbf680f898aa17e92c0cd3a3454bca0c989fa88ce519aba10f6c66"
+      },
+      {
+        "root_id": "relation32_C_21",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019121,
+        "target_color": "red",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.13852679675068208,
+              -0.0683356093800293,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.04423211188820306
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.0823852248740031,
+              -0.08735046170325213,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.05789075083735634
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.3038424721498388,
+              -0.062038302414736755,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.08348584309149504
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "d022df4333cff914a738e34ae112a0bc26f944e7943600a908b603523f01bfb6"
+      },
+      {
+        "root_id": "relation32_C_22",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019122,
+        "target_color": "blue",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.16134246347531486,
+              -0.07177270223698207,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.1858691975424101
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.06361294906500249,
+              -0.06671043154081854,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.029655213269412284
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.3006232873715692,
+              -0.09243771420269004,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.1849861229983315
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "495ea083eda909e692c1187b9ce66064a3f9d0b2eef2a9234cbe9e97d7404fd6"
+      },
+      {
+        "root_id": "relation32_C_23",
+        "scene": "C",
+        "environment": "C",
+        "split": "dev",
+        "seed": 261019123,
+        "target_color": "pink",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.15174958849543257,
+              -0.09916111634713011,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0657430658628625
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07732425704608273,
+              -0.09564302452711489,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.1155935374527764
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.29655699417632736,
+              -0.08111170392598167,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.0638417802476604
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "40db16c4bc469ae20595f20a811b19b58ef0f6657045363488f748ca16b609e1"
+      },
+      {
+        "root_id": "relation32_C_24",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019124,
+        "target_color": "red",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.13896491580119466,
+              -0.10336350532091707,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.14435705621673833
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07036298319378129,
+              -0.06309091525321697,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.17658705135034536
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.3090861230658124,
+              -0.08374594380348149,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.019019744127913046
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "74ce5a33a7d494633cd7e1777084f95651b0ede7b6e134cc5cfd9df71fd498cf"
+      },
+      {
+        "root_id": "relation32_C_25",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019125,
+        "target_color": "blue",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.1383334402905269,
+              -0.08957283961883736,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.026266399433870102
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.06475704135369094,
+              -0.09957159463440808,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.19939983360160513
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.30079032837842773,
+              -0.10522730247223422,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.09558414501424371
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "f683b15e5232110af4cf7037b9a3057804eababca5d1669a2c9ca7dc87481525"
+      },
+      {
+        "root_id": "relation32_C_26",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019126,
+        "target_color": "pink",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.13804593772904925,
+              -0.09971554293489482,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.015354550674336137
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.06783242785457347,
+              -0.0999376538606293,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.028597983388434278
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.304337222259629,
+              -0.05661918732340873,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.15364643414221701
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "d03722692a4d080753744dc6382d8cf3469c0a0e77d7adea5dc255a58b846df9"
+      },
+      {
+        "root_id": "relation32_C_27",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019127,
+        "target_color": "red",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.14886530751656468,
+              -0.10443377489286049,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.034718640611454715
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07865031941638309,
+              -0.07280955396878237,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.0765022356980063
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.2902183827291628,
+              -0.09000953027509785,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.16585502965638316
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "eac974538dae9ee8011d9aa02341c5feb2316e170799086d3f9db300eb2dd032"
+      },
+      {
+        "root_id": "relation32_C_28",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019128,
+        "target_color": "blue",
+        "blocks": {
+          "red": {
+            "initial_pos": [
+              -0.14309513248559277,
+              -0.11367467815972934,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.08999164498870577
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.07786566615744545,
+              -0.10783165995587495,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.14464847683914883
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.29904826804696677,
+              -0.06727537305679365,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.18461017040355776
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "5cda37c8d60f018430bb53892fc325a9b725763a282f8b5da66644ad0fdde875"
+      },
+      {
+        "root_id": "relation32_C_29",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019129,
+        "target_color": "pink",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.139302630082613,
+              -0.11040889950670947,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.03519469698681124
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.0783320244825051,
+              -0.06505326326995356,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.06364943806633205
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.2905048156810181,
+              -0.06104154552793159,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.12538866734973575
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "df3c0a1f4422d8ab4977c4cf6ef2f77123bd871ae6189027251426e8b3560225"
+      },
+      {
+        "root_id": "relation32_C_30",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019130,
+        "target_color": "red",
+        "blocks": {
+          "blue": {
+            "initial_pos": [
+              -0.1526982813878803,
+              -0.10642605480102678,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.05389328246458336
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07683410731474226,
+              -0.08291494531540597,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.1179305810014225
+            ]
+          },
+          "pink": {
+            "initial_pos": [
+              0.2943229499106768,
+              -0.08455417122366106,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.12208521945731543
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.005,
+        "post_lift_translate_x_m": 0.03,
+        "initialization_signature": "3029f60d442273b60836515be36509d3bcc24ca276b3a53bcb49109e449381fd"
+      },
+      {
+        "root_id": "relation32_C_31",
+        "scene": "C",
+        "environment": "C",
+        "split": "test",
+        "seed": 261019131,
+        "target_color": "blue",
+        "blocks": {
+          "pink": {
+            "initial_pos": [
+              -0.1612177564356878,
+              -0.10439600673131483,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              -0.03318150944217324
+            ]
+          },
+          "red": {
+            "initial_pos": [
+              0.07007984476102688,
+              -0.06706946645357603,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.04374672000497162
+            ]
+          },
+          "blue": {
+            "initial_pos": [
+              0.2984125121423206,
+              -0.11160470430287346,
+              0.46
+            ],
+            "initial_orn": [
+              0.0,
+              0.0,
+              0.147526117577383
+            ]
+          }
+        },
+        "drawer_initial_q_m": 0.22,
+        "post_lift_translate_x_m": -0.03,
+        "initialization_signature": "6406b0ded51f9e6c692275de410940b344ece709bd5a9078c40b6a366edf2911"
+      }
+    ],
+    "split": {
+      "train": "18 fresh roots, A9/B9, 6 target roots per color",
+      "dev": "6 fresh C roots,2 per color; descriptive only, no tuning",
+      "test": "8 fresh C roots,red3/blue3/pink2, never used in training or normalization",
+      "lineage": "all states and both cameras from one root stay in one split; prior data metadata only for exclusion, no reused learning rows",
+      "claim": "known native A/B/C scenes; unseen root initializations and motor interactions; C assets already observed historically"
+    },
+    "anchors": [
+      "initial_settled",
+      "above_named_block",
+      "descend_open_near_block",
+      "closed_on_support",
+      "lifted",
+      "post_run_stable",
+      "translated_closed",
+      "released_near_table"
+    ],
+    "missing_anchor": "retain failure and available states, do not fabricate/fill or replace root",
+    "controller": {
+      "name": "PhysicalOracleV2 frozen candidate0",
+      "sha256": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+      "private_GT_control": "controller may use GT geometry in isolated query world; readout cannot. This is controlled perception data, not HULC or closed-loop model success.",
+      "physics_guard": "existing guard permits native motors in execution world and resets only in isolated query client; no dynamics/collision/constraint/force changes"
+    },
+    "supervision": {
+      "Holding": "unchanged oracle bilateral finger-family force>0.01N with no other-body support",
+      "validity": "same value over previous12 actual controls and at contact-force cutoffs .005,.01,.015; conflicting multi-held states unknown; y remains current .01 definition",
+      "negative": "physical stable not-held only; missing visible pixels never negative",
+      "In": "frozen labels_v2_1 current geometry+support and boundary mask, private-only",
+      "sync": "same-tick RGB/mask/depth and contacts/state before/after exact, flags-off RGB/depth equality",
+      "boxes": "block uid by native name; each finger+fixed tip family resolved by native link names; tight visible xyxy, not projected centers",
+      "observability": "both target block >=4 pixels and each finger family >=4 pixels needed in that camera; endpoint visibility is necessary proxy, not proof force is visually identifiable. Missing/occluded endpoints are unobservable; contact-force state is not directly RGB-visible."
+    },
+    "input": {
+      "encoder": "same cached frozen DINOv2-small, each tight RGB box independently bilinear resized224, ImageNet normalized, patch-mean384; not full-scene contextual tokens",
+      "projection": "one data-independent seeded orthonormal384->128 matrix, same for both endpoints/cameras/arms; no labels/PCA fitting",
+      "object": "block RGB descriptor128 only",
+      "pair": "same block128 + union-of-two-visible-finger-families RGB descriptor128 +5 relative2D box geometry(dx,dy,logwratio,loghratio,IoU)",
+      "no_inputs": [
+        "3D poses",
+        "contacts",
+        "robot_obs",
+        "scene_obs",
+        "phase",
+        "action",
+        "root",
+        "color name",
+        "labels",
+        "visibility mask as relation feature"
+      ],
+      "missing": "UNKNOWN/abstain, no zero-box imputation; both arms train/evaluate same eligible pair subset; report full physical-labeled query denominator and coverage"
+    },
+    "training": {
+      "heads": "object128->67->1(8711 params), pair261->33->1(8680 params); SiLU",
+      "parameter_difference": 31,
+      "initialization": "same seed261019210+s and standard Linear initialization rule per arm; shapes/width/fan-in differ, so weights cannot be identical; all initial weights saved before collection",
+      "seeds": [
+        0,
+        1
+      ],
+      "updates": 600,
+      "batch": 32,
+      "optimizer": "AdamW lr.001 wd.001 clip1, no augmentation/AMP, deterministic CUDA TF32off",
+      "loss": "BCEWithLogits positive weight nneg/npos from eligible train only; same query schedule within seed, uniformly sampled root then eligible record",
+      "normalization": "train eligible records only, separately for each feature dimension; stdfloor.05",
+      "checkpoint": "final600 only",
+      "threshold": 0.5,
+      "selection": "none; no dev tuning, no earlystop or further loss/head search"
+    },
+    "data_gates": {
+      "train_per_color": {
+        "positive_records": 8,
+        "negative_records": 24,
+        "positive_roots": 4,
+        "negative_roots": 6
+      },
+      "dev_test_per_color": {
+        "positive_records": 3,
+        "negative_records": 6,
+        "positive_roots": 1,
+        "negative_roots": 2
+      },
+      "each_camera_train": {
+        "positive_records": 12,
+        "negative_records": 36,
+        "positive_roots": 6
+      },
+      "each_camera_dev_test": {
+        "positive_records": 6,
+        "negative_records": 12,
+        "positive_roots": 2
+      },
+      "rationale": "minimum viable conditional comparison, not project acceptance; both labels and at least multiple roots represented",
+      "failed_gate": "no fitting, report exact deficit, no all-negative model or relaxed gate"
+    },
+    "evaluation": {
+      "primary": "predicate precision/recall/F1/balanced accuracy/NLL at .5; both seeds/arms retained",
+      "strata": "all/per-color/per-camera/per-root, exact FP/FN and missing/physical-unknown rates; train/dev/test separate",
+      "uncertainty": "test root-paired bootstrap2000 seed261019220, do not treat views/objects as independent",
+      "full_denominator": "eligible accuracy separate; missing endpoints abstain and count as unreturned true positives in physical-valid positive recall",
+      "predicted_box_replacement": "not part of primary; current locator lacks blocks, so no full end-to-end comparison claimed. No detector fitting in this task.",
+      "false_identifiability": "report exact RGB/feature conflicts and difficult near-contact vs held subsets; visibility does not prove force relation observable"
+    },
+    "stop": "one fixed two-arm/two-seed relation experiment only if data gate passes; no world-model/SupCon/closed-loop; failed roots remain; no old locator modification"
+  },
+  "original_gate": {
+    "utc": "2026-10-18T15:03:38.678888+00:00",
+    "passed": false,
+    "failures": [
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "red",
+        "quantity": "positive_roots",
+        "required": 4,
+        "actual": 2,
+        "deficit": 2
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "blue",
+        "quantity": "positive_roots",
+        "required": 4,
+        "actual": 3,
+        "deficit": 1
+      }
+    ],
+    "verification": {
+      "states": 200,
+      "rendered_images": 400,
+      "query_boxes": 1200,
+      "force_trace_checks": 7200,
+      "native_truth_recomputed": 200
+    },
+    "historical_overlap": [],
+    "within_new_exact_RGB_duplicates": [],
+    "cross_split_exact_RGB": [],
+    "unknown_reasons": {
+      "block_lt4_visible_pixels": 229
+    },
+    "controller_status": {
+      "failed": 14,
+      "success": 18
+    },
+    "controller_failure_reasons": {
+      "no_collision_free_grasp_candidate": 8,
+      "unrequested_device_change": 4,
+      "unrequested_object_change:block_blue": 1,
+      "unrequested_object_change:block_red": 1
+    },
+    "post_anchor_failures": [],
+    "missing_anchors": [
+      {
+        "root_id": "relation32_A_00",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_A_04",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_A_07",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_09",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_10",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_11",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_12",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_14",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_B_15",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_C_18",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_C_24",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_C_27",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_C_28",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      },
+      {
+        "root_id": "relation32_C_29",
+        "missing": [
+          "above_named_block",
+          "descend_open_near_block",
+          "closed_on_support",
+          "lifted"
+        ]
+      }
+    ],
+    "strata": [
+      {
+        "split": "train",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 648,
+        "known_records": 648,
+        "positive_records": 60,
+        "negative_records": 588,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 648,
+        "known_records": 528,
+        "positive_records": 60,
+        "negative_records": 468,
+        "unknown_records": 120,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "all",
+        "group": "all",
+        "relation": "In",
+        "scope": "physical",
+        "records": 648,
+        "known_records": 648,
+        "positive_records": 0,
+        "negative_records": 648,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 12,
+        "negative_records": 204,
+        "unknown_records": 0,
+        "positive_roots": 2,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 216,
+        "known_records": 172,
+        "positive_records": 12,
+        "negative_records": 160,
+        "unknown_records": 44,
+        "positive_roots": 2,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "red",
+        "relation": "In",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 0,
+        "negative_records": 216,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 22,
+        "negative_records": 194,
+        "unknown_records": 0,
+        "positive_roots": 3,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 216,
+        "known_records": 176,
+        "positive_records": 22,
+        "negative_records": 154,
+        "unknown_records": 40,
+        "positive_roots": 3,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "In",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 0,
+        "negative_records": 216,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 26,
+        "negative_records": 190,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 216,
+        "known_records": 180,
+        "positive_records": 26,
+        "negative_records": 154,
+        "unknown_records": 36,
+        "positive_roots": 4,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "In",
+        "scope": "physical",
+        "records": 216,
+        "known_records": 216,
+        "positive_records": 0,
+        "negative_records": 216,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 324,
+        "known_records": 324,
+        "positive_records": 30,
+        "negative_records": 294,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 324,
+        "known_records": 323,
+        "positive_records": 30,
+        "negative_records": 293,
+        "unknown_records": 1,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "In",
+        "scope": "physical",
+        "records": 324,
+        "known_records": 324,
+        "positive_records": 0,
+        "negative_records": 324,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 324,
+        "known_records": 324,
+        "positive_records": 30,
+        "negative_records": 294,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 324,
+        "known_records": 205,
+        "positive_records": 30,
+        "negative_records": 175,
+        "unknown_records": 119,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "In",
+        "scope": "physical",
+        "records": 324,
+        "known_records": 324,
+        "positive_records": 0,
+        "negative_records": 324,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_00",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_00",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 19,
+        "positive_records": 0,
+        "negative_records": 19,
+        "unknown_records": 5,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_00",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_01",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_01",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_01",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_02",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_02",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_02",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_03",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_03",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 36,
+        "positive_records": 6,
+        "negative_records": 30,
+        "unknown_records": 12,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_03",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_04",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_04",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 20,
+        "positive_records": 0,
+        "negative_records": 20,
+        "unknown_records": 4,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_04",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_05",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_05",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_05",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_06",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_06",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 37,
+        "positive_records": 6,
+        "negative_records": 31,
+        "unknown_records": 11,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_06",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_07",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_07",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 22,
+        "positive_records": 0,
+        "negative_records": 22,
+        "unknown_records": 2,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_07",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_08",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_08",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_A_08",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_09",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_09",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_09",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_10",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_10",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_10",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_11",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_11",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_11",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_12",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_12",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 19,
+        "positive_records": 0,
+        "negative_records": 19,
+        "unknown_records": 5,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_12",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_13",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_13",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 42,
+        "positive_records": 8,
+        "negative_records": 34,
+        "unknown_records": 6,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_13",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_14",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_14",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 19,
+        "positive_records": 0,
+        "negative_records": 19,
+        "unknown_records": 5,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_14",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_15",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_15",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_15",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_16",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_16",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 8,
+        "negative_records": 30,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_16",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_17",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_17",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 40,
+        "positive_records": 8,
+        "negative_records": 32,
+        "unknown_records": 8,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "root",
+        "group": "relation32_B_17",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 108,
+        "known_records": 106,
+        "positive_records": 0,
+        "negative_records": 106,
+        "unknown_records": 2,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "In",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 54,
+        "known_records": 47,
+        "positive_records": 0,
+        "negative_records": 47,
+        "unknown_records": 7,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 54,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 18,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 6,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 3,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 54,
+        "known_records": 36,
+        "positive_records": 6,
+        "negative_records": 30,
+        "unknown_records": 18,
+        "positive_roots": 3,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "In",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 18,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 54,
+        "known_records": 45,
+        "positive_records": 18,
+        "negative_records": 27,
+        "unknown_records": 9,
+        "positive_roots": 9,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "In",
+        "scope": "physical",
+        "records": 54,
+        "known_records": 54,
+        "positive_records": 0,
+        "negative_records": 54,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 9,
+        "roots": 9
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 18,
+        "negative_records": 90,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 108,
+        "known_records": 96,
+        "positive_records": 18,
+        "negative_records": 78,
+        "unknown_records": 12,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "In",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 18,
+        "negative_records": 90,
+        "unknown_records": 0,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 108,
+        "known_records": 92,
+        "positive_records": 18,
+        "negative_records": 74,
+        "unknown_records": 16,
+        "positive_roots": 9,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "In",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 108,
+        "known_records": 70,
+        "positive_records": 0,
+        "negative_records": 70,
+        "unknown_records": 38,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "train",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "In",
+        "scope": "physical",
+        "records": 108,
+        "known_records": 108,
+        "positive_records": 0,
+        "negative_records": 108,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 18,
+        "roots": 18
+      },
+      {
+        "split": "dev",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 264,
+        "known_records": 264,
+        "positive_records": 32,
+        "negative_records": 232,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 264,
+        "known_records": 210,
+        "positive_records": 32,
+        "negative_records": 178,
+        "unknown_records": 54,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "all",
+        "group": "all",
+        "relation": "In",
+        "scope": "physical",
+        "records": 264,
+        "known_records": 264,
+        "positive_records": 0,
+        "negative_records": 264,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 6,
+        "negative_records": 82,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 88,
+        "known_records": 74,
+        "positive_records": 6,
+        "negative_records": 68,
+        "unknown_records": 14,
+        "positive_roots": 1,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "red",
+        "relation": "In",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 0,
+        "negative_records": 88,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 14,
+        "negative_records": 74,
+        "unknown_records": 0,
+        "positive_roots": 2,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 88,
+        "known_records": 71,
+        "positive_records": 14,
+        "negative_records": 57,
+        "unknown_records": 17,
+        "positive_roots": 2,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "In",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 0,
+        "negative_records": 88,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 12,
+        "negative_records": 76,
+        "unknown_records": 0,
+        "positive_roots": 2,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 88,
+        "known_records": 65,
+        "positive_records": 12,
+        "negative_records": 53,
+        "unknown_records": 23,
+        "positive_roots": 2,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "In",
+        "scope": "physical",
+        "records": 88,
+        "known_records": 88,
+        "positive_records": 0,
+        "negative_records": 88,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 132,
+        "known_records": 132,
+        "positive_records": 16,
+        "negative_records": 116,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 132,
+        "known_records": 132,
+        "positive_records": 16,
+        "negative_records": 116,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "In",
+        "scope": "physical",
+        "records": 132,
+        "known_records": 132,
+        "positive_records": 0,
+        "negative_records": 132,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 132,
+        "known_records": 132,
+        "positive_records": 16,
+        "negative_records": 116,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 132,
+        "known_records": 78,
+        "positive_records": 16,
+        "negative_records": 62,
+        "unknown_records": 54,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "In",
+        "scope": "physical",
+        "records": 132,
+        "known_records": 132,
+        "positive_records": 0,
+        "negative_records": 132,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_18",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_18",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 22,
+        "positive_records": 0,
+        "negative_records": 22,
+        "unknown_records": 2,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_18",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_19",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_19",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 37,
+        "positive_records": 8,
+        "negative_records": 29,
+        "unknown_records": 11,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_19",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_20",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_20",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 37,
+        "positive_records": 6,
+        "negative_records": 31,
+        "unknown_records": 11,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_20",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_21",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_21",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_21",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_22",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_22",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_22",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_23",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_23",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "root",
+        "group": "relation32_C_23",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "In",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 30,
+        "known_records": 25,
+        "positive_records": 0,
+        "negative_records": 25,
+        "unknown_records": 5,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 30,
+        "known_records": 20,
+        "positive_records": 0,
+        "negative_records": 20,
+        "unknown_records": 10,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 2,
+        "negative_records": 28,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 30,
+        "known_records": 20,
+        "positive_records": 2,
+        "negative_records": 18,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "In",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 10,
+        "negative_records": 20,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 30,
+        "known_records": 25,
+        "positive_records": 10,
+        "negative_records": 15,
+        "unknown_records": 5,
+        "positive_roots": 5,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "In",
+        "scope": "physical",
+        "records": 30,
+        "known_records": 30,
+        "positive_records": 0,
+        "negative_records": 30,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 5,
+        "roots": 5
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 10,
+        "negative_records": 26,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 36,
+        "known_records": 31,
+        "positive_records": 10,
+        "negative_records": 21,
+        "unknown_records": 5,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "In",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 10,
+        "negative_records": 26,
+        "unknown_records": 0,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 36,
+        "known_records": 28,
+        "positive_records": 10,
+        "negative_records": 18,
+        "unknown_records": 8,
+        "positive_roots": 5,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "In",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 36,
+        "known_records": 25,
+        "positive_records": 0,
+        "negative_records": 25,
+        "unknown_records": 11,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "dev",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "In",
+        "scope": "physical",
+        "records": 36,
+        "known_records": 36,
+        "positive_records": 0,
+        "negative_records": 36,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 6,
+        "roots": 6
+      },
+      {
+        "split": "test",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 288,
+        "known_records": 288,
+        "positive_records": 26,
+        "negative_records": 262,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "all",
+        "group": "all",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 288,
+        "known_records": 233,
+        "positive_records": 26,
+        "negative_records": 207,
+        "unknown_records": 55,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "all",
+        "group": "all",
+        "relation": "In",
+        "scope": "physical",
+        "records": 288,
+        "known_records": 288,
+        "positive_records": 0,
+        "negative_records": 288,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 8,
+        "negative_records": 88,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "red",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 96,
+        "known_records": 81,
+        "positive_records": 8,
+        "negative_records": 73,
+        "unknown_records": 15,
+        "positive_roots": 1,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "red",
+        "relation": "In",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 0,
+        "negative_records": 96,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 12,
+        "negative_records": 84,
+        "unknown_records": 0,
+        "positive_roots": 2,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 96,
+        "known_records": 78,
+        "positive_records": 12,
+        "negative_records": 66,
+        "unknown_records": 18,
+        "positive_roots": 2,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "blue",
+        "relation": "In",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 0,
+        "negative_records": 96,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 6,
+        "negative_records": 90,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 96,
+        "known_records": 74,
+        "positive_records": 6,
+        "negative_records": 68,
+        "unknown_records": 22,
+        "positive_roots": 1,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "color",
+        "group": "pink",
+        "relation": "In",
+        "scope": "physical",
+        "records": 96,
+        "known_records": 96,
+        "positive_records": 0,
+        "negative_records": 96,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 144,
+        "known_records": 144,
+        "positive_records": 13,
+        "negative_records": 131,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 144,
+        "known_records": 142,
+        "positive_records": 13,
+        "negative_records": 129,
+        "unknown_records": 2,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "static",
+        "relation": "In",
+        "scope": "physical",
+        "records": 144,
+        "known_records": 144,
+        "positive_records": 0,
+        "negative_records": 144,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 144,
+        "known_records": 144,
+        "positive_records": 13,
+        "negative_records": 131,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 144,
+        "known_records": 91,
+        "positive_records": 13,
+        "negative_records": 78,
+        "unknown_records": 53,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "camera",
+        "group": "gripper",
+        "relation": "In",
+        "scope": "physical",
+        "records": 144,
+        "known_records": 144,
+        "positive_records": 0,
+        "negative_records": 144,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_24",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_24",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 22,
+        "positive_records": 0,
+        "negative_records": 22,
+        "unknown_records": 2,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_24",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_25",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_25",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_25",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_26",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_26",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 35,
+        "positive_records": 6,
+        "negative_records": 29,
+        "unknown_records": 13,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_26",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_27",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_27",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_27",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_28",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_28",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 20,
+        "positive_records": 0,
+        "negative_records": 20,
+        "unknown_records": 4,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_28",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_29",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_29",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 18,
+        "positive_records": 0,
+        "negative_records": 18,
+        "unknown_records": 6,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_29",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_30",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_30",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 41,
+        "positive_records": 8,
+        "negative_records": 33,
+        "unknown_records": 7,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_30",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_31",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 6,
+        "negative_records": 42,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_31",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 38,
+        "positive_records": 6,
+        "negative_records": 32,
+        "unknown_records": 10,
+        "positive_roots": 1,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "root",
+        "group": "relation32_C_31",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 1,
+        "roots": 1
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 47,
+        "positive_records": 0,
+        "negative_records": 47,
+        "unknown_records": 1,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "initial_settled",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 21,
+        "positive_records": 0,
+        "negative_records": 21,
+        "unknown_records": 3,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "above_named_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 16,
+        "positive_records": 0,
+        "negative_records": 16,
+        "unknown_records": 8,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "descend_open_near_block",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 2,
+        "negative_records": 22,
+        "unknown_records": 0,
+        "positive_roots": 1,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 16,
+        "positive_records": 2,
+        "negative_records": 14,
+        "unknown_records": 8,
+        "positive_roots": 1,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "closed_on_support",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 8,
+        "negative_records": 16,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 24,
+        "known_records": 20,
+        "positive_records": 8,
+        "negative_records": 12,
+        "unknown_records": 4,
+        "positive_roots": 4,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "lifted",
+        "relation": "In",
+        "scope": "physical",
+        "records": 24,
+        "known_records": 24,
+        "positive_records": 0,
+        "negative_records": 24,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 4,
+        "roots": 4
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 40,
+        "positive_records": 8,
+        "negative_records": 32,
+        "unknown_records": 8,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "post_run_stable",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 8,
+        "negative_records": 40,
+        "unknown_records": 0,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 41,
+        "positive_records": 8,
+        "negative_records": 33,
+        "unknown_records": 7,
+        "positive_roots": 4,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "translated_closed",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "Holding",
+        "scope": "eligible",
+        "records": 48,
+        "known_records": 32,
+        "positive_records": 0,
+        "negative_records": 32,
+        "unknown_records": 16,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      },
+      {
+        "split": "test",
+        "group_type": "anchor",
+        "group": "released_near_table",
+        "relation": "In",
+        "scope": "physical",
+        "records": 48,
+        "known_records": 48,
+        "positive_records": 0,
+        "negative_records": 48,
+        "unknown_records": 0,
+        "positive_roots": 0,
+        "negative_roots": 8,
+        "roots": 8
+      }
+    ],
+    "stop_on_gate_failure": true,
+    "normalization_or_training_started": false
+  },
+  "old_manifest_sha256": "4823571c19297461d26903e6d804ff5b2bcebe999d9170eb89c7bcd2a030975c",
+  "must_not_merge_pilot": true
+}

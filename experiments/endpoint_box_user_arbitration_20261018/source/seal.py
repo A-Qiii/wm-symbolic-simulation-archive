@@ -1,0 +1,26 @@
+from common import *
+import re,shutil
+
+def main():
+ manifest=E/'configs/delivery_manifest.json';assert not manifest.exists()
+ for name in['pre_review_frozen','user_labels_and_audit_frozen','evaluation_frozen','source_references']:check_manifest(E/f'configs/{name}.json')
+ v=read(E/'results/verification.json');assert v['passed']
+ for name,x in v['old_seals_unchanged'].items():
+  p=P/f'experiments/{name}/configs/delivery_manifest.json';assert sha(p)==x['sha256'];check_manifest(p)
+ a=read(E/'data/labels/user_semantics_v2.json')['annotations'];assert sorted(x['image_id']for x in a)==IDS
+ cc=[c for x in a for c in x['classes']];assert sum(c['status']!='uncertain'for c in cc)==14 and sum(len(c['boxes'])for c in cc)==21
+ unknown=[{'image_id':x['image_id'],'category':c['category']}for x in a for c in x['classes']if c['status']=='uncertain'];assert unknown==[{'image_id':1,'category':'drawer_front'},{'image_id':8,'category':'gripper_finger'}]
+ assert not list(E.rglob('*.pt'))and not(E/'data/features').exists()
+ links=0
+ for p in R.glob('*.md'):
+  for target in re.findall(r'\]\(([^)]+)\)',p.read_text()):
+   if '://'in target or target.startswith('#'):continue
+   q=(p.parent/target.split('#')[0]).resolve();assert q==manifest or q.is_file(),(p,target);links+=1
+ for p in Path('/tmp').glob('user_arbitration_*_20261018.log'):shutil.copy2(p,E/'logs'/p.name)
+ shutil.copy2(__file__,E/'source'/Path(__file__).name)
+ save(E/'results/completion_audit.json',{'utc':now(),'status':'completed_bounded_user_semantic_adjudication_and_saved_prediction_reevaluation','source_user_message_id':'Sentinel_e8ac4202db30819186484f78c1871a42','source_user_message_utc':'2026-10-18T12:02:56+00:00','source_library_file_id':'libfile_057f412211848191935b3d5681bc0795','panel_mapping':[{'position':'top_left','id':0,'user_selected':'orange original finger pair'},{'position':'top_right','id':8,'user_identified':'horizontal white segment is drawer handle, not finger'},{'position':'bottom_left','id':1,'user_identified':'brown boards belong to moving drawer'},{'position':'bottom_right','id':9,'user_identified':'diagonal wood rim is drawer front'}],'all4user_semantic_facts_accepted':True,'user_did_not_supply_exact_pixel_boxes':True,'labels_and_readonly_audit_frozen_before_new_output_file_read':True,'historical_model_context_exposure_disclosed':True,'selected8_images':IDS,'changed4class_images_only':True,'other12class_images_exactly_inherited':True,'v1_known_class_images_and_boxes':[12,18],'v2_known_class_images_and_boxes':[14,21],'common_v1_v2_class_images_and_boxes':[12,18],'added_v2_vs_v1_class_images_and_boxes':[2,3],'remaining_unknown':unknown,'image8_not_converted_to_not_visible':True,'no_whole_mixed_handle_rectangle_used_as_training_negative':True,'read_only_AB_images':32,'other28_AB_images_not_relabelled':True,'other4_CD_images_not_reviewed':True,'full_remaining32_label_audit_incomplete':True,'confirmed_original_label_extent_issues':[8,13,21,31],'previous_v1_extent_fix_retained':[1],'suspected_connection_boundary_images':[4,28],'needs_visibility_or_occlusion_review':[12,22,30],'independent_review_identity_errors_not_used_in_original_training':[0,8],'no_confirmed_repetition_of_horizontal_handle_as_whole_finger_instance_in_development':True,'original_and_v1_score_records_reproduced':256,'independent_matching_records':296,'aggregate_rows_verified':3240,'old_seals_unchanged':v['old_seals_unchanged'],'new_training_steps':0,'new_model_forwards':0,'new_feature_extractions':0,'new_decoding_runs':0,'threshold_changes':0,'GPU_used':False,'new_data_or_model_downloads':0,'AB_development_metrics_recomputed':False,'full40_scores_recomputed':False,'all_full_data_scores_provisional':True,'method_conclusion':'Tight crops can isolate background but may remove part-parent connection context. User evidence supports handle/finger hard-negative identity and local connection review, not a proven need to replace the network.','next_minimal_proposal_only':'Review remaining boundaries in1/8 and obvious old loose extents13/21/31 before any training decision; proposal not executed','no_training_or_architecture_decision_made':True,'figures_visually_inspected':['user_adjudication4.png','context_vs_tight_crop.png','readonly_audit_examples.png','saved_prediction_decomposition.png'],'presentation_repair':'Only context-figure margins; label/score freeze hashes unchanged','links_checked':links,'resource_or_permission_blockers':[],'overall_guide_complete':False,'new_experiments_stopped':True})
+ save(E/'logs/seal_checks.json',{'utc':now(),'passed':True,'links_checked':links,'old_files_unchanged':sum(x['files_verified']for x in v['old_seals_unchanged'].values()),'label_and_score_freeze_hashes_unchanged':True,'figures_inspected':True})
+ files=sorted(p for root in[E,R]for p in root.rglob('*')if p.is_file()and p!=manifest);sizes={str(p):p.stat().st_size for p in files}
+ save(manifest,{'utc':now(),'status':'sealed','files':len(files),'bytes':sum(sizes.values()),'sha256':{str(p):sha(p)for p in files},'sizes':sizes,'manifest_excludes_itself':True,'scope':'User-semantic4case review,8image saved-prediction scoring,32ABread-only suspicion audit; no model execution or old-label edits'})
+ check_manifest(manifest);print('USER_ARBITRATION_SEALED',len(files),sum(sizes.values()),sha(manifest),flush=True)
+if __name__=='__main__':main()

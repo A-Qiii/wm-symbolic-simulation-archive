@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-19T13:07:21.052364+00:00",
+  "before_any_feature_extraction_or_head_fit": true,
+  "test_C_samples_read": 0,
+  "change_count": 1,
+  "reason": "Loose RGB mean rule classified brown A-scene wood as red: red block mean[205,0,0], wooden mask mean[108,63,42]. The new ambiguity gate correctly stopped with 289/571 visible red records unresolved; blue/pink and all assigned identities were correct.",
+  "rule": "Use existing wm_symbolic.public_geometry.colour_masks pixel predicates. An anonymous visible mask is a candidate for a color only if strictly more than half of its pixels pass that color predicate. Multiple candidates remain unresolved; no GT identity fallback. Current four frames only.",
+  "unchanged": "Data, model, heads, schedule, optimizer, evaluation, thresholds for routing gate, budgets; original feature cache untouched.",
+  "original_protocol_sha256": "822a92f821779890727d5a30fc3efb339b6f1c248b58bf10746182f180ecbc0c",
+  "first_attempt_audit_sha256": "19ddfc0930902820583bfab922a51758ab615b46073272aaa375df9cd8a8fa95",
+  "no_head_metric_used_to_choose_rule": true
+}

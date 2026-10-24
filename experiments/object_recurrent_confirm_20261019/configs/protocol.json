@@ -1,0 +1,73 @@
+{
+  "registered_utc": "2026-10-19T23:27:20.780145+00:00",
+  "purpose": "New independent family confirmation of relation prediction and observation recovery, separate from prior full-state fitting criterion.",
+  "previous_full_state_training_fit_gate": false,
+  "previous_experiment_immutable": "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_state_run_20261019",
+  "distinction": "Held/InDrawer/drawer relations directly determine this task success, recovery and retention. Table left/middle/right labels remain diagnostic; their task causal role has not been established. No retrospective reclassification of prior gate.",
+  "families": 8,
+  "environments": {
+    "A": 4,
+    "B": 4
+  },
+  "roles_per_family": 6,
+  "branches_per_role": 2,
+  "skills_per_branch": 6,
+  "planned_transitions": 576,
+  "actions": [
+    "place_H_in_drawer",
+    "lift_T_from_table",
+    "place_in_drawer",
+    "lift_T_from_table",
+    "place_in_drawer",
+    "close_drawer"
+  ],
+  "disturbance": "Second branch second skill: applied gripper remains open during requested close, identical public action request; branch/fault not model input.",
+  "geometry": "Fixed seeds, native assets/dimensions; footprint<=2mmgrid, >=10mm pair clearance, <1mm penetration, approach5poses IK<=30mm, reset drift<=3mm. First feasible of128geometry-only draws. All rejected candidates logged, never rejected for executor outcome or prediction.",
+  "physical_validity": "Every accepted role retained. Primary=valid physical success/failure pair AND actual h2+futureh3-h5 relations correct in both branches. Invalid pair counts0; actual-label metric separate. Paired initial/prefault state equality and physics guard required. Overall valid pair fraction>=90%.",
+  "inputs": "Exact same immutable frozen DINO and seed-specific E, current4-frame dualcamera visible instance masks+RGBidentity routing; all3object512vectors/global512/availability3; public verb/requested lift pointer/budget only. Place has noGT held binding.",
+  "models": {
+    "global": 2454260,
+    "object": 2465492,
+    "state_dimensions": 512,
+    "seeds": [
+      0,
+      1
+    ],
+    "checkpoint": 1500,
+    "new_training": 0
+  },
+  "thresholds": {
+    "probability": 0.5,
+    "h0_held_each_object_seed": 0.95,
+    "h0_complete_HeldInDrawerDrawer_each_object_seed": 0.95,
+    "h2_current_pair_each_object_seed": 0.9,
+    "H_In_h2_post_each_object_seed": 0.9,
+    "joint3": "Object>global both seeds AND seed-mean paired family95%CI lower>0",
+    "normal_whole": "Object>global both seeds AND seed-mean paired family95%CI lower>0",
+    "stable_non_target_In_forgetting": "<=2% fixed eligible opportunities and no greater than global, both seeds"
+  },
+  "secondary": [
+    "h0 full8-category locations",
+    "normal full8-category states",
+    "terminal4",
+    "success/eventBrierNLL",
+    "non-target moved recall/FPR",
+    "first relationship error",
+    "prior-correct conditional retention denominator",
+    "new In opportunities"
+  ],
+  "statistics": "Family macro;2000pairedbootstrap draws stratified4A+4Bfamilies seed2610209901; seedwise and two-seed mean; no role/branch independence assumption. Main gate conjunction of declared checks, no threshold adjustment.",
+  "scope_limit": "Known3objects and knownskills, AB layout transfer and observation recovery only. Physical oracle frozen executor used. Not HULC acceptance, not TS-LTL planner safety or general unseen-object interaction.",
+  "budget": {
+    "source_and_admission_minutes": 8,
+    "collection_minutes_expected": 15,
+    "features_and_inference_minutes": 3,
+    "audit_reporting_minutes": 6,
+    "estimate_total_minutes": 32,
+    "hard_total_minutes": 45,
+    "collection_cutoff_minutes": 35
+  },
+  "failure_policy": "No outcome/model driven sample replacement, no model updates, no threshold changes, no extra variants; if truncated keepallpartialdata and report incomplete rather than compare unequal subset.",
+  "CD_samples": 0,
+  "uploads": 0
+}

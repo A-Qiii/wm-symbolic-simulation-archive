@@ -1,0 +1,55 @@
+{
+  "annotations": [
+    {
+      "name": "drawer_handle_A",
+      "target": "drawer_handle",
+      "index": 210,
+      "camera": 0,
+      "box": [
+        48,
+        169,
+        110,
+        196
+      ]
+    },
+    {
+      "name": "drawer_handle_B",
+      "target": "drawer_handle",
+      "index": 270,
+      "camera": 0,
+      "box": [
+        53,
+        175,
+        120,
+        200
+      ]
+    },
+    {
+      "name": "gripper_finger_A",
+      "target": "gripper_finger",
+      "index": 210,
+      "camera": 1,
+      "box": [
+        15,
+        5,
+        29,
+        27
+      ]
+    },
+    {
+      "name": "gripper_finger_B",
+      "target": "gripper_finger",
+      "index": 270,
+      "camera": 1,
+      "box": [
+        18,
+        5,
+        34,
+        27
+      ]
+    }
+  ],
+  "origin": "assistant rough RGB-only visible part boxes drawn before inference; not independently validated instance ground truth",
+  "selection": "first A/B official training RGB only; no C/D template or tuning",
+  "limits": "drawer handle is only a part; single finger is not whole gripper; boxes may include background; no simulator or robot inputs"
+}

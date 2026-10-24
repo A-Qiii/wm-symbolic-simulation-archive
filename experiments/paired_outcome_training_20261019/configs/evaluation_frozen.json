@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-19T20:16:21.019091+00:00",
+  "protocol_sha256": "1221b74847eeb9dc277d62d13bc14c6e03f8bf5dd8e294553c30faa430b468e3",
+  "legacy_evaluator_sha256": "4f06065f7b213e7c965adb8cf249f582da922c4c1a37854b2ed91a3b484ed3cc",
+  "local_evaluator_sha256": "41a3a9ef8392a35677701613b5a89f61881b37daca2c05ddc0066f13b3037f37",
+  "analysis_sha256": "9f3f224caaaffe8ab7a7e0da346e6e78250229e851eb0f5242e5ef050bb85458",
+  "before_new_model_predictions": true,
+  "historical_evaluation_exploratory_only": true
+}

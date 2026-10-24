@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-16T13:53:25.465221+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/freeze_choices.py": "b4b1c9ca049049ff309e6133db5168a39baeb5fe7d4570b306af7473a6458842",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/predict.py": "04d9751a9e92f0f9362fc3aa84f16c8d7083dbfccdaa3736b02f7887ffa0e539",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/score.py": "28d590f18e5d9e70c580b46dc751b73596e05cd319015e99bdb548b7c50365eb",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/config.py": "593fb781b64ac723128456cddfdbf2df4e0f98524433496b093826bd6e8ff362",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/train.py": "5194b97daa6ea965f61dd7dc550961f532217fa08898fba5d89c0fd6abdc2670",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/setup.py": "2e6c48f2143536a570c7309ec0e6d7bb097c35ca74f041d50ed07771c06aa73e",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/source/gate.py": "0ef5726379cfa026f3e3c76205fb3e36f09a210e0e5bb03334e0c969955f79d2",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/configs/schedule_seed0.npz": "9d6eda9df5693b527df57fa6ac871f7cab6713d9158f84aeb1fb37dfa5d3304b",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/configs/schedule_seed1.npz": "ff52301a50a2b76e317f95e9db2d3bf2f4b61b26d81c4917ca699f36a57ee39d",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/configs/chain_matching.json": "8414477f2b1e91485e8ba3e77d543104c6ea82d5e56b23b93d95643bf79343bc",
+    "/home/robot/research/projects/wm_symbolic/experiments/multistep_chain_source_20261016/configs/protocol.json": "f71794ae897f67e8699b159bdb6ece15755b2215e9fdfe45c24ea424f9ec06cb",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/inputs.npz": "bd36dc47ab961d17aa1fa80633071f05b732c2c9a29fd0ca31386402e59c90cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/pairs.json": "930bd084b4a1dab2b83fff563d6f532ea8d16c09873aeb557a0abeb506be1eb6",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/data/transition_train/states.json": "2f577d20baf3d13b66ba7ee580efdf1850a139b7194f2f9a6f1a3b2725f362c7",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/data/public/normalization.npz": "7511375c9c0f257e8c043e11a5f4818dad985dc15c27743739a206fee09b226a",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/selected.json": "8daf06cd29817d89b7e1c9d8848cf05fecd7707d819ba9dd107a096e958fb267",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/query_seed0.pt": "dace25e5307f8499e7df1c6dcbba931b26721135260625116cee4e4d50ef46d0",
+    "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/score.py": "703837bd8500c2e682ce19e066198fafb1a5fb4ae425771b7bd9903d18a06ada",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/model.py": "ac39f4266f8d73d9784cdee91732f479e1e02c8436bdc874a8f2978f6059695b",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/runtime.py": "d06cd37015747b73bc7537b908176a3b782fab0100d1f8e5cf1d8186ec143f35",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+    "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3"
+  }
+}

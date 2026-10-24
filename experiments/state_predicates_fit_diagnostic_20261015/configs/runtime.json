@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-15T10:26:02.307206+00:00",
+  "torch": "2.11.0+cu128",
+  "python": "3.11.13",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "pid": 20675,
+  "serial_gpu_lock": true
+}

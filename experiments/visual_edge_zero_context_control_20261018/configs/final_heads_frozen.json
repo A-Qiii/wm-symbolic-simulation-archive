@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T08:51:02.041118+00:00",
+  "before_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_edge_zero_context_control_20261018/models/Holding_zero_context_seed0_update0600.pt": "c962453c05f761605bd897f2c3c125ae33246b957ea379be9c9e2bae41ad9376",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_edge_zero_context_control_20261018/models/Holding_zero_context_seed1_update0600.pt": "5f868118aad4c1b635436ef2df557b98f6b5d192fd51e639c8665492a2fe83e7",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_edge_zero_context_control_20261018/models/In_zero_context_seed0_update0600.pt": "5570a2f27353340d4317cdfb640f8ef32b153eb286c6401d7fe4d30815e5fe1b",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_edge_zero_context_control_20261018/models/In_zero_context_seed1_update0600.pt": "bddd8a859f0a2807ec90d060e4c71c14423124786dcc21bf43eaa71337cbf844"
+  }
+}

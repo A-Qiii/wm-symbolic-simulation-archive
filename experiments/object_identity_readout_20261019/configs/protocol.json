@@ -1,0 +1,179 @@
+{
+  "utc": "2026-10-19T12:59:56.371335+00:00",
+  "status": "PREREGISTERED_BEFORE_ROUTING_AND_FITS",
+  "question": "Does retaining publicly observable object identity in pre-pooling frozen spatial features improve current-state readout?",
+  "scope": "Current state only; no dynamics modification or rollout claim",
+  "encoders": [
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed0/final6000.pt",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed1/final6000.pt"
+  ],
+  "frozen_encoder_inputs": "Existing DINO cache and original common20 normalization; spatial Transformer frozen, pre-global-mean 256-dimensional token output; both pools use the same frozen observation LayerNorm/Linear to 512D",
+  "members": {
+    "train": [
+      "A_core1200_02",
+      "A_core1200_03",
+      "A_core1200_04",
+      "A_core1200_05",
+      "A_core1200_06",
+      "A_core1200_09",
+      "A_core1200_10",
+      "A_core1200_11",
+      "A_core1200_13",
+      "A_core1200_14",
+      "A_core1200_15",
+      "A_core1200_16",
+      "A_core1200_17",
+      "A_core1200_20",
+      "A_core1200_21",
+      "A_core1200_23",
+      "A_core1200_24",
+      "A_core1200_26",
+      "A_core1200_28",
+      "A_core1200_29",
+      "B_core1200_00",
+      "B_core1200_01",
+      "B_core1200_02",
+      "B_core1200_03",
+      "B_core1200_05",
+      "B_core1200_06",
+      "B_core1200_07",
+      "B_core1200_08",
+      "B_core1200_09",
+      "B_core1200_10",
+      "B_core1200_11",
+      "B_core1200_12",
+      "B_core1200_16",
+      "B_core1200_17",
+      "B_core1200_18",
+      "B_core1200_20",
+      "B_core1200_24",
+      "B_core1200_25",
+      "B_core1200_27",
+      "B_core1200_28"
+    ],
+    "validation": [
+      "A_core1200_01",
+      "A_core1200_07",
+      "A_core1200_12",
+      "A_core1200_18",
+      "A_core1200_19",
+      "B_core1200_13",
+      "B_core1200_14",
+      "B_core1200_15",
+      "B_core1200_21",
+      "B_core1200_22"
+    ],
+    "test": [
+      "A_core1200_00",
+      "A_core1200_08",
+      "A_core1200_22",
+      "A_core1200_25",
+      "A_core1200_27",
+      "B_core1200_04",
+      "B_core1200_19",
+      "B_core1200_23",
+      "B_core1200_26",
+      "B_core1200_29"
+    ],
+    "externalC": [
+      "C_core1200_00",
+      "C_core1200_01",
+      "C_core1200_02",
+      "C_core1200_03",
+      "C_core1200_04",
+      "C_core1200_05",
+      "C_core1200_06",
+      "C_core1200_07",
+      "C_core1200_08",
+      "C_core1200_09",
+      "C_core1200_10",
+      "C_core1200_11",
+      "C_core1200_12",
+      "C_core1200_13",
+      "C_core1200_14",
+      "C_core1200_15",
+      "C_core1200_16",
+      "C_core1200_17",
+      "C_core1200_18",
+      "C_core1200_19"
+    ]
+  },
+  "supervision": "All 40 training roots, 3 episodes x 5 boundaries = 600 records; same targets and schedule both arms. Old common20 linear probes are not a matched comparator.",
+  "arms": {
+    "global": "Focal vector is global mean over valid spatial output tokens including robot, projected through frozen observation LN/Linear to 512D, repeated for each requested color; zero focal if that color is unresolved/invisible, same fallback as object arm",
+    "object": "Focal vector is mean over valid ROI output tokens publicly registered to the requested color across ONLY the current four frames and two cameras, then the same frozen observation LN/Linear to 512D; zero if unresolved/invisible"
+  },
+  "shared_context": "Same projected 512D global mean, same learned color query, same per-color visible-token fraction for BOTH arms; no extra boxes/geometry/confidence for either head",
+  "head": "Shared LayerNorm(1057)-Linear(1057,256)-SiLU-Linear(256,8) object classifier plus identity embedding(3,32); separate shared scene LayerNorm(512)-Linear(512,64)-SiLU-Linear(64,3) drawer classifier",
+  "parameters_each": 309165,
+  "route_source": "Existing VisibleRegistry public RGB mean-color tests and anonymous visible masks; raw simulator UID/name only in separate offline routing AUDIT, never to construct features",
+  "route_unseen": "No GT fallback, no guessed UID; zero object focal plus availability=0 if no visible registered token; fresh registration per boundary, restricted to the current four frames; no identity information from earlier episode history",
+  "routing_gate": "Stop before fitting for any incorrect registered color identity or cache geometry mismatch. Missing/ambiguous routing uses the fixed zero fallback, retains every sample, and is reported. Stop if unresolved among visibly present objects exceeds 5% in train or 10% in any heldout split. GT is used only for audit, never to repair mapping.",
+  "updates_each": 1500,
+  "batch_size": 64,
+  "heads_total": 4,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "object_grad_clip": 1.0,
+    "drawer_grad_clip": 1.0
+  },
+  "loss": "Unweighted mean cross entropy of red, blue, pink location and drawer (4 fields); separate object/drawer gradient clipping keeps drawer updates identical between arms",
+  "schedule": "Uniform root, then uniform one of 15 stored boundaries; materialized 1500x64 schedule per encoder block, shared arms",
+  "initialization_seed": "261019800 + encoder_seed; identical initial head weights within pair",
+  "compute": "FP32 heads, no dropout; original BF16 encoder extraction, 4 episodes/batch matching original evaluator. No DINO recomputation.",
+  "selection": "Final step 1500 only; no early stopping or hyperparameter search. All four heads frozen before validation/test/C prediction.",
+  "evaluation": {
+    "splits": [
+      "train",
+      "validation",
+      "test",
+      "externalC"
+    ],
+    "cohorts": {
+      "h0": "One branch b0 initial record per independent root",
+      "all_boundaries": "15 boundary records per root, including repeated root starts; inferential unit remains root"
+    },
+    "strata": [
+      "all",
+      "initial_held",
+      "initial_not_held"
+    ],
+    "primary": [
+      "Object location class recalls/confusions and macro recall over supported classes",
+      "Holding positive recall, precision, false positive rate, identity errors, multiple-held conflicts, and exact held-object identity",
+      "InDrawer positive recall and false positive rate",
+      "Drawer class recalls/accuracy"
+    ],
+    "secondary": [
+      "four_field_exact",
+      "nine_relation_exact",
+      "mean_four_field_NLL"
+    ],
+    "bootstrap": "2000 paired root-cluster resamples per encoder seed, stratified only by requested reporting subset; preserve all sibling records; no pooling the encoder seeds",
+    "permutation": "Randomly reorder the three object bundles together with requested identity and visibility; shared-head probabilities must follow the same permutation (max abs tolerance 1e-6). Plumbing/equivariance test, not semantic color-swap robustness.",
+    "blindness": "Exploratory reuse: test and C have already been inspected historically; no claim of new blind generalization."
+  },
+  "interpretation": {
+    "support": "Object arm improves supported-class macro recall and Holding identity/positive recall consistently across two blocks without a material InDrawer regression; paired intervals and denominators shown. Supports usefulness of identity-conditioned selection for these frozen features, not proof global pooling is sole cause.",
+    "mixed_or_null": "Report as mixed/null, inspect frozen-feature and supervision limitations; no automatic extra run or conclusion that world-model approach fails.",
+    "confounds": "Object arm receives structured public color-to-ROI association restricted to current four frames; content selection and pooling information differ. Equal parameter count/context cannot separate association advantage from bottleneck preservation. Spatial tokens are already contextualized; this is not training a new object encoder."
+  },
+  "stops": [
+    "Any routing gate violation",
+    "Nonfinite features/loss",
+    "Frozen state or sealed file hash change",
+    "GPU lock conflict",
+    "Unexpected sample scope",
+    "More than 45 minutes compute: stop and report, do not expand budget"
+  ],
+  "budget": {
+    "expected_minutes": 10,
+    "maximum_compute_minutes": 45,
+    "expected_feature_cache_MiB": 15,
+    "new_full_RSSM_fits": 0,
+    "new_collection": 0,
+    "uploads": 0
+  }
+}

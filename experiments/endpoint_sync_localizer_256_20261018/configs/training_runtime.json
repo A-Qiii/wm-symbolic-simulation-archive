@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-18T13:30:57.845188+00:00",
+  "python": "3.11.13 (main, Sep 18 2025, 19:46:39) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "torch_cuda_build": "12.8",
+  "numpy": "1.26.4",
+  "transformers": "4.56.2",
+  "DINO_cache": "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "DINO_weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+  "trainable_parameters": 25615,
+  "training_GPU_peak_allocated_bytes": 526751232,
+  "features_GPU_peak_allocated_bytes": 305991168,
+  "note": "Runtime metadata collected at final sealing in the same unchanged independent world_model environment."
+}

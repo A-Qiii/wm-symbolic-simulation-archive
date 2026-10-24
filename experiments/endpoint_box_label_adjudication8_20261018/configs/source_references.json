@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/annotations/final.json": "1acb6899374cdac04cfe82204d279c6f286ea798f7d3e0ab1c21fb61a724437b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/configs/protocol.json": "ad4374373fc7b248b9324c66de29f81006d74c19564b3b66a6b246fecf9f6a3e",
+    "/home/robot/Documents/Codex/2026-10-18/task/review/REPORT.md": "ae7685f3f7d2115cac850f2d153b6704dea1dcba6e2c88ffbd5aa519d57b1aac",
+    "/home/robot/Documents/Codex/2026-10-18/task/review/selection.json": "e40ae198fe4f176bb890235801801f512207976851e6cced4c06a7c0219a43b8",
+    "/home/robot/Documents/Codex/2026-10-18/task/review/independent_annotations.json": "52dc33e26c05cae7771b7648d16b9fb84c643891eb8e42f4bce01d811ae46759",
+    "/home/robot/Documents/Codex/2026-10-18/task/review/comparison.json": "08c90c47a8bc86035bf7ba8ad964d7bbbbaf6b74967a1c9a7b15e2174aec3841",
+    "/home/robot/Documents/Codex/2026-10-18/task/review/comparison_contact_sheet.png": "e5aac27e23946ac818c19560be01cd716d27c995e452db8ec781c2a147172f5a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_00.npz": "82963790b6e2e27a8639da6087d6bf28a57d68a96317573e8762d8f70e9a43da",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_04.npz": "04f71c7c72efc1bcccde89bc92cbdc4d2f2ec924686d9fcaf2d582d04d4cc989",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_16.npz": "7514db72e9bde61b92a67ecd52e330294f8ebe8b716c414453820b288e7bbd73",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_19.npz": "49ef55a57e927d36413a52f24a19172fc9885ca832467cf0cd473359ae75d087"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-19T21:48:36.433202+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_middle.urdf": "a6f92bca6ca19460b461a08171a66ce3ab27b12bb2a9fbbd8ebe6e2bc5a44107",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_small.urdf": "eb0c1a324fd79652fbabba26cd88755c5136015528f30de5ed2f50f77657a868",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_small.urdf": "6a205c802bd508fd6bff6d90583c7308db856828f0dc227edd50627c149357d1"
+  },
+  "intervention": "Same original body assets and environment-specific dimensions; only physical setup H and requested T roles change."
+}

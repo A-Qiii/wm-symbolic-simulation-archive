@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T12:28:22.245140+00:00",
+  "scope": "Audit all40 existing images, both classes, 80 cells. No collection, training, model execution, feature extraction, threshold tuning or old file changes.",
+  "definition": "Original component definitions, visible extent only; unknown class-image ignored entirely, not negative. Inclusive lower/exclusive upper integer RGB pixel coordinates.",
+  "evidence": "User identity evidence for4 specified panels, assistant full RGB/pixel review elsewhere; assistant labels are not independent human gold. Historical model context is disclosed. No saved output file access until new labels are frozen.",
+  "review": "Keep or fix only visually supportable boundaries, retain unknown for identity/boundary ambiguity. Prior8 decisions remain consistent unless new direct pixel evidence warrants a documented change.",
+  "splits": "Preserve exact original source episode/root splits; C/D are previously seen diagnostics.",
+  "score": "One saved prediction sensitivity evaluation: original/corrected decoder,224/448,seeds0/1,score>=.5,NMS already applied .3,IoU>=.5 greedy one-to-one. Fixed common-known support plus explicit additions/removals and full-known denominators. No model selection.",
+  "stop": "After frozen labels, supervision coverage, saved-output sensitivity, verification and bounded usability report."
+}

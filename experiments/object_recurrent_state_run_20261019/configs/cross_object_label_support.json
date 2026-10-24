@@ -1,0 +1,26 @@
+{
+  "train/core": {
+    "valid_event_opportunities": 876,
+    "valid_moved_positive": 100,
+    "valid_relation_opportunities": 876,
+    "valid_category_changes": 0
+  },
+  "train/role": {
+    "valid_event_opportunities": 756,
+    "valid_moved_positive": 181,
+    "valid_relation_opportunities": 756,
+    "valid_category_changes": 1
+  },
+  "development/core": {
+    "valid_event_opportunities": 222,
+    "valid_moved_positive": 28,
+    "valid_relation_opportunities": 222,
+    "valid_category_changes": 0
+  },
+  "development/role": {
+    "valid_event_opportunities": 336,
+    "valid_moved_positive": 87,
+    "valid_relation_opportunities": 336,
+    "valid_category_changes": 0
+  }
+}

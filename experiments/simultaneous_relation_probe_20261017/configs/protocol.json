@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-17T03:47:41.317854+00:00",
+  "authorization": "Bounded offline diagnostic approved; no collection/WM updates/query replacement; D is previously observed diagnostic only.",
+  "question": "Is simultaneous In information linearly/nonlinearly readable from current actual-observation z and corresponding object token?",
+  "inputs": {
+    "object": "current corresponding object token64",
+    "context": "same object64 + scene64 + mean of3objecttokens64; total192, same ingredients as frozenquery forconstantIn type"
+  },
+  "models": [
+    "linear",
+    "mlp32"
+  ],
+  "seed": 17073000,
+  "fits": 4,
+  "training_roots": [
+    "A_combination_blue_00",
+    "A_combination_pink_00",
+    "A_combination_red_00",
+    "B_combination_blue_00",
+    "B_combination_pink_00",
+    "B_combination_red_00"
+  ],
+  "validation_roots": [
+    "A_combination_blue_01",
+    "A_combination_pink_01",
+    "A_combination_red_01",
+    "B_combination_blue_01",
+    "B_combination_pink_01",
+    "B_combination_red_01"
+  ],
+  "seen_D_diagnostic_roots": [
+    "D_combination_blue_00",
+    "D_combination_blue_01",
+    "D_combination_pink_00",
+    "D_combination_pink_01",
+    "D_combination_red_00",
+    "D_combination_red_01"
+  ],
+  "selection": "No early stop, hyperparameter search or checkpoint selection; fixed final500updates, validation descriptive only, D evaluator loaded only after final weights frozen.",
+  "training": "CPU fullbatch AdamW lr0.001 wd0.001,500updates; BCEWithLogits weighted so each root and each within-root class contributes equally; perinput standardization fromtrainonly,std floor0.01; shared3objectclassifier,no colour/held/sequence/history/physics inputs.",
+  "label_budget": "All3objects at actual skill boundaries, exactRGB+robot duplicate states withinroot deduplicated; no dense intermediateframes; no historicalsamples added to probe training.",
+  "normal_and_combination_states": "All3frozenbranches provide positive/negative In underempty andheldgripper; original/secondtarget are metadata only.",
+  "metrics": "In TP/FN/FP/TN,recall,FPR,balancedaccuracy; joint3In stateexact; bysplit,objectcolour,heldidentity,dualcondition androot; majorityclass andtraincolourpriorbaselines; uniformincorrect/correct ifmissingsupport reported; rootmacro notframeindependence.",
+  "limits": "Smallprobe success onlysupports decodability; failuredoesnotproveinformationabsence. Probe exposure differs from originalquery; no causalattributionsolely to addedcoverage. Frozenencoder was previously trained on AB scene distribution; rootisolation appliesnewprobe labels, not newpretraining. D observed diagnostic only.",
+  "matched_identity_control": "For every positive(objectcolor,heldcolor)combination, same split includes negative examples with identical objectcolor+heldcolor; metadata neverinput toprobe."
+}

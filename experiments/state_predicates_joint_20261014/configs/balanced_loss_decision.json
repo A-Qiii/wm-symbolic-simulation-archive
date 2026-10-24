@@ -1,0 +1,958 @@
+{
+  "created_utc": "2026-10-14T10:51:43.968202+00:00",
+  "variant": "balanced_loss",
+  "trigger": "First single-mask change did not yield2/3 qualified seeds; use predeclared class/predicate-balanced loss only.",
+  "same_architecture": true,
+  "supplementary_target_in_audit": [
+    {
+      "sample_id": "A_predicate_gap_blue_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "cd0387787436fa8e623f993f1b55cf042dfa5cd4982a045309de9686926fac80",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "4fdfba3568837a6a204fdf7fe82bdd7307bc1fdb267c6500f56b3373a88f0e02",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__grasp__contact_supported_close_command_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__grasp/samples/contact_supported_close_command_negative/labels_private.json",
+      "sha256": "71f87192f85ef7cd5f7f3988208a958d8d379db5136c7689ebd5a9ee98d88070",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "d44885287a6bf4b5c0680616f36809ce201d0d995bba6397ad7c85a79d3cc5db",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "dff2d8f2a3dfe4550c3b11079d6f67189d4d039e2b94124615b930e6f733f6dd",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "dbc1c09b65878483f41001c6d989b8edf12d6284da19625f6ff4b82415a2a3d7",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_closed__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_closed__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "49d9741f978b0b516b922b0186617deced5d5d909d0cda4d789d15ef645e0b74",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "4172298cc70642c695af5fc9aeff18abaab42bda758a23f6e5608fd972f63c3e",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "d4905da2f6d6eadf5fdd95081066283709ce8e93313f685e16b4e2577251b64c",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__grasp__contact_supported_close_command_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__grasp/samples/contact_supported_close_command_negative/labels_private.json",
+      "sha256": "445a2263e1bba88f7cb50113914745dbad581140674977ce6b6f9b0c51d47be8",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "5189f8ad21a43f084aa6b8d3a658e41aef5b2dcaade4243b40644226b281e3c2",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "2b91ff39c4209900894bd1d2baf9afaecef198f272a56c6ef362f646c699cdab",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "1920e1319c579f530e0633b20060b68b22a309580e48e4a1d03bef1f05a96962",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_blue_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_blue_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "0fbdefd94ba9844b01f1c33aaa13c85b08186e65d8a4ed18496cce967c5abcdf",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "23d5f3ef3d2adedb93b7b9201550fdd8b60520448ddd2e1469730c8a41a8fb3a",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "76c8d458e3eefac6538354c92221e00b798705ffeafeeb82a19ab975ed9b4a0d",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "49b44e90bc948aea823d0b414009985c3596d24b3d662a0dc34e3f48166f5a7c",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "7e0c369d5d403410f516f5b9249d7a09b616e3f5acb00d4cc4611382d232bcdc",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "5dac668ca419ccad7dc2054975baf0fe81c7721fcc783e673797d23af9fb644b",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_closed__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_closed__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "3c688e5a1c8fc6a77467cdc76271fecafa6c52abca3fb543a70c79b1efd93e59",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "3b3c2aaa685def389e9b2454c03f0bc9029c1f72f8f2c9077f01c39070403d1d",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "7fb8b6a546babd615b8d1f922eee81f157d19051c28fa1970c2e7f022b0a7545",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__grasp__contact_supported_close_command_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__grasp/samples/contact_supported_close_command_negative/labels_private.json",
+      "sha256": "9e080e3d1195f33c84da4aa1f477af40bc57988318c84846af0b2a49e0ffa4f9",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "0291106a738ac7141e64f8bd596fed47b1298a514087784875c54c213cfbd032",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "19f7ad7d1a31196f4ef4b344dac923a20139754eb2cb423454434dab25070830",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "69603749b35ed7d877a32e13a7dbf1c96ce72d50545bc7e1fe1a63112f5d11dd",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_pink_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_pink_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "0e040a23f5994e688bc6146f4222eddbe07e82561333def18ff0291f126b4120",
+      "four_frame_categories": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "b558066aaa7a0c7892935cb0b53c714ead3c3eaff7396be0a712bf6697537a6f",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "4aede4915de8b91b7aba3d1f4aaba2db253301956f6dd7c0044c4fac1cd87dad",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "b97e168ac5ff10a6b5583d30d4b8452044d41dd6e02de23c5ff61f3c6ca8283e",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "1643e4b7840daefb60ee25339c6b05b362747f8671f7e75363da118961864478",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "d505462bc30e319c461f3f720f8f6d2d840e6ab46e58ee8c2759cb934b150a41",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_closed__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_closed__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "5fabd109c73cbb4b9ff0ba433bcba73a7dbca0a0ad6f82c49e32d9671e18199d",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "16b1fb21257bd7cb4afedb95a0694416f0ab5c6366b3ba608574e3daf4854abf",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "d6ccd06d8ac5206784e9a485572b303094085146d39837b4060866b1e332637c",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "b0808f948415732eb804d2ff1df541b3a860b9aaaae198b609e349e8b8d4ad89",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "f9660b7b3dd3f71f2d4dbe83ba42f01e7c71995bf6a1e82efe90a3e433ccb0da",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "b13de38eba244d937dc63a76a95bf9d858e326a8ebd52806253d472505ea85c3",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "A_predicate_gap_red_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/A_predicate_gap_red_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "64e1092b377fa20f89acc9fbc3224bfd52d19fca1ea7e6ab4af3cd6a2fbb189d",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "6798bef3bf2dedcd9d9faefadb2e4f390064b8841f86733b24efd516dc9b56e2",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "34b79185f37a63186a8fe9d902d60fa94e9afb16263653f07c9f2ee08bfbe95a",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "34930432a47fc8d9574a0853de39d57b7ab6ec0cefaed7c414b44222b015e45d",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "687d02a4bb9785989611675ec04457896a5195b4ed3cecc020afacd31c331f61",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "9bd28b8ab480b6bfdb9c5eaf3f7843b1f4bbe55466dc57f49318b7c6dd52ce11",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "37ef205aa480d5b67d870df85d39acb86a674401d3592eb9bad57d777db34313",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "03eb5da8da815e7eba962d53f599de112e9b48b58beac5381f0ffd4c40368df1",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "cbf47b04e2ac3559e0166f61e5798136e6cb860d15699d4788997ac99b85f679",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "e46f4b3cf2d66c829d548154aaefe539d870fb02091dc6fa74070a0a5e7a5aa2",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_blue_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_blue_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "b086e3a0544d8ca9a8c0497f7411faaaec43fb3b4df5310aa5ff242024433fa8",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "bc41c5131d9caa3ec92d327f34069c85fef8e9eae882cafa41f2941dd2e987eb",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "2fc0b8f5c5771305b9e95aed7ad744b987b28e0e7484358b88104b9a44a13e47",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "4e80ba56e46f6eaadfe4b290c2707812eba0c24627e026c82caf7692b3484737",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "bb8be9e40c47628cc4b81b8efecb99b9bd3821f290b5d870ba182aa0438c2276",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "a96cb2115523058e9a34ba05cf39f0a16574fa51f038acff3dd5ce36cdba0a06",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_closed__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_closed__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "86ef353966bc90f65996482d115dc7c2e1217ef517272db7c95c8eda0e6d80f9",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "24a90ea50683766db63b66cdfd9350ec758e9eea8531075fa63a300188cba1b0",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "fedc619aed35f9be29798d78c3c64d2776a931b9dc0690a40f70c5ef9206d73d",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "de0358f3f3e0b1918075fa6b1ed1c0a7eee67564c12b0046d2324b43f691d88c",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "6f1c11370d9892478d3a2b97539c454d2ab0ae7b039eca58096b18575f611910",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "54b8eced230b90230fc92f666e1e00432268383238fbf94d8e52e8c460eb6ccc",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_pink_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_pink_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "9ce9f3c5c57635d5795bfbb6ba2489ce4c21c37645ce47c897ff7d6782f8909e",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "eec06bc5e119e962bddd9c07e168881a8e83fdd0375f11a9b81b3ac99c211426",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "6dc6b2519a5c49ee197469be0468e750dd1e3cf1be5192bd9340f81e23f25e02",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__grasp/samples/held_positive/labels_private.json",
+      "sha256": "e3d8a850f1a971639d6263919e7ecf6332df08d95d4a7b931d77e19a01212277",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "9af67cc7f02d525a8d112add3e726cea2580118f4e772ae1845c6bae2a402afb",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "c6040db7731cc4d50ef1d53dc731f3d1bc176b5c974e59be59afb07a24098475",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_closed__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_closed__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "6e7471f1704cbcfc4be63badce645c7319c64137d57487ce50ed7161fa78586a",
+      "four_frame_categories": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__grasp__far_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__grasp/samples/far_open_negative/labels_private.json",
+      "sha256": "9a820d9a7edb74f06c30b021fd069d5be13bfb7c13366e67dd0a896f039f5068",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__grasp__near_open_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__grasp/samples/near_open_negative/labels_private.json",
+      "sha256": "00aa3aef1c3adfa7df9f134d43fe716b18a9cda609328853d641f668248814da",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__grasp__held_positive",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__grasp/samples/held_positive/labels_private.json",
+      "sha256": "3fae1a1da667f3717b7949662e2f63994fa55a2ef3307e4b305b523869975444",
+      "four_frame_categories": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__near_closed_empty__far_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__near_closed_empty/samples/far_closed_negative/labels_private.json",
+      "sha256": "f02b7f0fd26fda0f6ac752343c3211fd03461000a3e89579bfaab968ce76d721",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__near_closed_empty__near_closed_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__near_closed_empty/samples/near_closed_negative/labels_private.json",
+      "sha256": "d4015531e5d7903533f38fccc39f48eb3fcbb3ed4b69315022666c18cf0c1f64",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    },
+    {
+      "sample_id": "B_predicate_gap_red_open__near_closed_empty__near_closed_motion_negative",
+      "source": "/home/robot/research/projects/wm_symbolic/data/predicate_gap_supplement_20261014/episodes/B_predicate_gap_red_open__near_closed_empty/samples/near_closed_motion_negative/labels_private.json",
+      "sha256": "152e009c603b7556129862669c1a92158f1a7a0bd1bf8f0bd5a8828a331d694c",
+      "four_frame_categories": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_valid": true,
+      "target_in": false
+    }
+  ],
+  "test_results_not_used": true
+}

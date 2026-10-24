@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-19T17:28:20.215833+00:00",
+  "status": "FROZEN_BEFORE_NEW_FITS",
+  "goal": "Separate current task-relation recognition errors from action-consequence errors, including held identity, drawer membership/state, actual success/refusal and non-target movement",
+  "data": "Existing core1200_v1, fixed A/B train40 validation10 test10; same 3 branches x4 actions; no collection; no C/D",
+  "visual_models": "Two frozen roots40 joint RSSMs; reuse cached current/one_step/free1..4 predictions. Test includes existing h2 supplement; no encoder forward or RSSM fit",
+  "truth_inputs": {
+    "relations": "held red/blue/pink + in-drawer red/blue/pink + drawer3 onehot, plus7 known flags",
+    "physics_enriched": "same relation state plus before-only object xyz/quaternion/linear/angular velocities, robot proprioception, door/button/switch/light scalars, contact summaries, static scene surface coordinates"
+  },
+  "physics_limit": "Enriched recorded boundary state, not proven complete Markov state: robot joint velocities, controller internal/collision-solver state not recorded. Do not label remaining errors as dynamics inability.",
+  "architecture": "Identical padded input dimension and parameter count: initial Linear->SiLU->Linear(128), GRUCell(action7,128), Linear128->SiLU->Linear15; relation arm zeros all physical dimensions. Output H3,I3,drawer3,status3,moved3.",
+  "updates": 1500,
+  "seeds": [
+    0,
+    1
+  ],
+  "arms": [
+    "relations",
+    "physics_enriched"
+  ],
+  "fits": 4,
+  "total_updates": 6000,
+  "batch_episodes": 32,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0
+  },
+  "loss": "Equal .5 teacher-reset one-step and .5 free4; within each: (heldBCE+inBCE+drawerCE)/3 + .5 statusCE + .25 movedBCE; validity masked, no class weighting",
+  "checkpoints": [
+    750,
+    1500
+  ],
+  "selection": "Per arm and seed select lower fixed validation objective (.5 one-step + .5 free4), tie earlier; freeze selected hashes before test. No refit/search beyond2 prespecified checkpoints.",
+  "sampling": "Uniform training root then one of3 branches; seeded materialized1500x32 schedule shared arms within seed",
+  "normalization": "Physical mean/std from train action-before states t0..3 only; min std .001; contacts force log1p; no future/label/status/actual-duration input",
+  "known_actions": "Six declared skills one-hot plus planned budget/900, no actual success/control count/selected target oracle",
+  "extra_no_fit_control": "Reuse relation model with hard visual current relations substituted for GT initial relations, same weights/action sequence; pairing measures input sensitivity within this model, not pure perception contribution in original RSSM",
+  "metrics": "Per relation exact, changed-state exact, positive holding/in-drawer recall, action success Brier/recall/false-success-on-refused, non-target moved recall/FPR; root-cluster2000 intervals; strata visual initial relation correct vs wrong, actual success/refused/executed_failure",
+  "state_sufficiency": "Group same before coarse relation+action and full symbolic category+action; count conflicting observed successors/status on train; retain geometry-differing examples, not counterfactual causal effects",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "interpretation": "Current only-correct relation stratum does not guarantee latent/geometry correctness. Cross-architecture score gaps are not pure sensory causal contributions. Open-loop replayed actions are not new closed-loop planning.",
+  "limits": {
+    "compute_seconds": 1200,
+    "round_target_minutes": 30,
+    "new_RSSM_fits": 0,
+    "new_encoder_forwards": 0,
+    "new_collection": 0,
+    "uploads": 0
+  },
+  "no_post_test_tuning": true
+}

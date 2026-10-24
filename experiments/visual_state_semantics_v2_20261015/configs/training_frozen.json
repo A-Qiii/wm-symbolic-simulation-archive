@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-15T15:50:49.654437+00:00",
+  "new_windows": 630,
+  "legacy_Holding_only_windows": 312,
+  "train_roots": 66,
+  "dev_roots": 27,
+  "no_D": true,
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/inputs.npz": "af46b4b1b15f9c9c045efc63d717a6ec7b7891d54504dfe30b37f6ea3b3a1acd",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/targets.npz": "a9fbd14827796ec425948d3492c5c5ee933835614605f602f622806b0b857089",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/metadata.json": "ba560ee05cd34cacf2b1b8b11c6f328c2b7bd0dcd3a91fbc4b13c92612a28c23",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/model.py": "393f2bbd07d20744aef3e201e65ff9a06e4355be871d50e9a9ba306f63b532ce",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/train.py": "08de7091f3dd5f9ad1ea78f407d78e6ebb2ab85adc090e880c1245244ffb6457",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/protocol_v2_1.json": "fe927a44f95fe78ad7fd19ef5c46df4582541c94af00e8dbd44e063b0a527e4f",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-19T19:06:01.164463+00:00",
+  "before_any_new_physical_outcomes": true,
+  "purpose": "Real failed grasp observation should remove phantom held identity while retaining an already-true InDrawer relation, and support subsequent learned predictions.",
+  "roots": {
+    "train": 12,
+    "development": 6,
+    "locked_evaluation": 6,
+    "total_independent": 24,
+    "branches_per_root": 3,
+    "skills_per_branch": 6,
+    "total_transitions": 432
+  },
+  "root_families": "Each new physical layout is its own family; all3 branches remain in its split. Reject geometry near duplicates across new roots and known A/B history, including color-permuted geometry. Fixed seeds and preassigned split before admission; no outcome/model-score root replacement.",
+  "controller": {
+    "file": "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py",
+    "sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "version": "physical_oracle_v1_candidate3",
+    "unchanged": true
+  },
+  "branches": {
+    "b0": "Nominal primary-object chain",
+    "b1": "Nominal matched-object chain",
+    "b2": "Same root and requested macro actions as b1, one declared execution disturbance at action index1 (the second action)."
+  },
+  "chain": "Place the initially held block A into drawer; lift B; place B; lift B; place B; close drawer. From failure at h2 there are4 subsequent real action/observation targets. Zero-step refusals retained.",
+  "execution_disturbance": "During b2 action1 only, actuator wrapper replaces requested closed-gripper command -1 by open-gripper +1, while preserving target xyz/quaternion and all original controller code. Use ordinary robot motor path under physics_guard; no reset/attachment/object force/dynamics/collision changes. Record every requested and applied command. Restore normal actuator for all later actions.",
+  "observability": "Disturbance is exogenous execution noise, NOT a requested macro-action parameter and NOT known to the model before it occurs. No disturbance flag/status/branchID/control trace is input. The same observed prefix/request may have two physical outcomes; do not demand deterministic advance prediction of hidden failure. Report pre-fault prior as paired distribution/calibration only. Primary forecasts start AFTER actual failure observation with no further injected disturbance.",
+  "valid_failure": "controls>0, target not physically held and hand empty after injected grasp, and previously placed A still truly InDrawer. Labels derive from physical contacts/ownership, never from branch intent. Also report nominal success, incidental failure, refused0steps, later control counts.",
+  "physical_gates": "Motor-only runtime guard; exact branch root replay within1e-5; same requested b1/b2 prefixes verified. Fixed finite geometry admission128 candidates/root, no task-success screening. Setup or matching failure retained; no replacement. Pilot first6 train roots, one per environment and held color, then continue only if at least1 valid disturbance failure and nominal paired success per environment with InDrawer retained. Formal train needs>=8/12 roots with valid matched success/failure; eval report actual count without tuning.",
+  "single_factor_training": {
+    "arms": [
+      "nominal",
+      "recovery"
+    ],
+    "nominal_new_data": "b0+b1 of same12 train roots =24episodes/144transitions, retain every actual failure",
+    "recovery_new_data": "b0+b2 of same12 train roots =24episodes/144transitions, retain every actual success/failure/refusal",
+    "common_old_data": "Original train40 only,120episodes/480transitions; same saved normalization/common20 classweights",
+    "loss": "Identical original full k3 loss PLUS corrected true-terminal posterior symbol term0.5*sum terminalNLL/sum valid transitions in BOTH arms. No loss, architecture, threshold or optimizer difference between arms. Only b1 versus b2 data differs.",
+    "initialization": "Original joint final6000 and optimizer latest6000, paired seeds0/1",
+    "updates_per_fit": 1000,
+    "fits": 4,
+    "total_updates": 4000,
+    "microbatch": 8,
+    "accumulation": 2,
+    "mix": "Each microbatch4 old episodes +4 new episodes; paired old index and new root/slot schedule. New slot0=b0 both; slot1=b1 nominal or b2 recovery. Equal episodes,6-step lengths,new samples,optimizer updates.",
+    "optimizer": "AdamW original moments; common constant lr0.0001,betas0.9/0.999,weight_decay0.0001; original E/R separate clip1; BF16,matmulhigh,deterministic,4CPUthreads; frozen DINO cache",
+    "selection": "Candidates500/1000, same new development6 roots all3 branches, common loss fullk3+terminal; no locked evaluation read until all models/selection frozen. Also report matchedfinal1000. Original old development10 not used for selection or acceptance in this trial."
+  },
+  "inference": "8 stochastic samples. Same root RNG reset for b1/b2 and each model; all original observations are real. Current h2 primary; imagine-only post-h2 successor1/2/3 and full3-prefix, no future observations. Also nominal branches and persistent A membership to expose regressions. Primary one-step excludes the injected action itself. Score success/refusal consequences after h2 using original outcome head, never input status.",
+  "comparison": "Original model reference plus equal-data/equal-update nominal versus recovery. Improvement is effect of added failure-recovery experience relative to ordinary new experience, conditional on common terminal fix; no claim that data and loss effects separately estimated against old original baseline.",
+  "evaluation": "6 fresh roots A/B balanced by held color, no family overlap with train/dev. Aggregate whole-root bootstrap and per-seed; small-sample uncertainty explicit. Historical B_gap04 optional descriptive only, never selection. No old C/D.",
+  "resources": {
+    "round_minutes_expected": [
+      50,
+      70
+    ],
+    "training_seconds_cap": 1800,
+    "collection_seconds_cap": 1800,
+    "maximum_new_transitions": 432,
+    "estimated_raw_GiB": 0.8,
+    "estimated_features_GiB": 0.25,
+    "single_gpu_serial": true
+  },
+  "stop": "No model-driven root replacement, threshold tuning, repeated fits or budget extension. Preserve failures. If matching/validity gate is not met, report collection blocker and do not fit mislabeled contrasts.",
+  "no_upload": true
+}

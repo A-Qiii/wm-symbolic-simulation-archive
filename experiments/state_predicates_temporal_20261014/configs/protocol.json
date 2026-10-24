@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-14T12:42:49.880961+00:00",
+  "question": "At the same recovered root and current target anchor, does observable temporal evidence improve held/support discrimination?",
+  "scope": "Finite targeted temporal-input intervention on36existingtrain/18existingCdev anchors, with common unchanged historical rehearsal. No new roots, test inference, world-model or planner.",
+  "arms": {
+    "current_only": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "short_history": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "long_history": [
+      63,
+      42,
+      21,
+      0
+    ]
+  },
+  "offset_units": "Recorded30Hz control steps before the anchor; spans0,0.1,2.1simulated seconds. Long arm has4sparse frames, not64dense inputs. Current frame is repeated4times solely to match GRU unrolling/capacity.",
+  "choice_of_long_span": "Training-root audit:4frame held medianTCP motion0.438mm vs64frame83.130mm;64span contains completed lift rather than only final dwell. This is the only long span trained.",
+  "common_anchor_rule": "All54existingwindows included in every arm; all have>=64history and targetvisible throughout. No outcome-selected exclusions or new anchors. Original/current target labels unchanged.",
+  "architecture": {
+    "parameters": 675395,
+    "shared_encoder": "Original frozen DINOv2 small and original normalization; unchanged object/context encoders and GRUs. No contact/GT pose/phase/success/future input.",
+    "input_shapes": "objects4x3x780,context4x3072,robot4x15 in every arm",
+    "historical_rehearsal": "Original900+73trainingwindows remain their original4frames identically in every arm. The temporal treatment affects only36recovered train windows; historical C regression inputs also stay original4frames. This is not an all-corpus single-frame-vs-long-history benchmark."
+  },
+  "data": {
+    "pool_size": 1009,
+    "new_train_windows": 36,
+    "same_targets_and_masks": true,
+    "unique_train_roots": 72,
+    "new_C_roots": 6,
+    "fresh_tune_roots": 3,
+    "fresh_cal_roots": 3,
+    "D_inference_or_evaluation": false,
+    "in_positive_support": "Recoveredwindows have0in positives; unchanged historicalrehearsal suppliesin-positive training and regression."
+  },
+  "training": {
+    "initialization": "From scratch, same initial randomseed in each arm, no warmstart",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "updates": 600,
+    "batch_size": 60,
+    "presentations_per_run": 36000,
+    "optimizer": "AdamW lr=.001 weight_decay=.001 clipnorm=1",
+    "loss": "Samepreviousjointbalancedloss weights, no retuning",
+    "sampling": "Save seeded shuffled1009sampleindexstream; reuseexactlyacrossall3arms",
+    "checkpoints": [
+      1,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600
+    ]
+  },
+  "analysis": {
+    "primary": "Fixedupdate600 pairedseedcomparison to avoid checkpoint selection confounding. Rawheld/in/open errors, held Brier/BCE and confidence; counts and roots, not solely1%gate.",
+    "secondary_selection": "SamejointoldC+historicalsuppC+fresh_tune rank as previouscomparison; calibrate onoldcal+historicalsuppC+fresh_cal, reportUNKNOWN separately.",
+    "evidence": "Reporteachseed andcondition. Consistentpairedbenefits are suggestive in this6root development set; tiny null differences are not equivalence. No statistical certification claimed.",
+    "stop": "Stopafter3armsx3seedsx600updates and predefinedcomparisons even ifnegative; no tuningsecondlongspan, addedroots, replacementarchitecture or failure-specificfix.",
+    "limitations": [
+      "Sparsehistorymayaliasbriefcontactevents.",
+      "Earlierframesmayvaryactionphaseandcameraappearance; no claim isolatedsupportcausality.",
+      "Identicalhistorical4framerehearsallimitsglobaltemporalclaim.",
+      "NewCreusedfordevelopment,notindependentacceptance."
+    ]
+  },
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/inputs_targets.npz": "4a10e7cedf9bc6347e21ac3c9008537a60d8f99f1b2b903f86d837e96c651d2e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_20261014/data/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_augmented_20261014/data/supplement_train_dev.npz": "316426686507c9b963b87e6235265b88d0610f65e10e6ddf176d36c83fa7e417",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/results/balanced_loss.json": "0fded0fe0579bab9c1a59a00f9e7719988ba02c2f7d39764033bc7dfcc40892f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/state_labels.py": "d2c9bfee479afb09fa41b7749c6d836435a73d961d1787a8395025d36613fa48",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/models/balanced_loss/seed0/update0150.pt": "e8465e722e2e3f3b5563f6c8c94166e652227b26861acf7c9dff3eecbad5b6ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/models/balanced_loss/seed1/update1500.pt": "9c8612594ce3531e604f2b69d084490bd14510edf4844c3919818d72b2ff52bb",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/models/balanced_loss/seed2/update1500.pt": "43c4cabcae9b32ad0b0bd88be5e43bccf97c7fd34e62306579105ec0b088541b",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/data/causal_train_dev.npz": "b69834a0bdf807e39aebbaa1ff226a9e7d6c5e1699d88826d8f53c359de21816",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/data/metadata.json": "e69465100e963cdc64b8c219e56eb64cb61bd985de5919a1d714032a460f486e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_causal_windows_20261014/delivery_manifest.json": "303aab885132eb056118bf110affa3094fb9141b1d5b38a6eeb56cf161f34627",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/source/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/results/audit.json": "6af97e1efa659194dbcf9172739fb780d8f4b4ca50ebaa296e63931ad4ef8606",
+    "/home/robot/research/projects/wm_symbolic/data/predicate_causal_replay_20261014/delivery_manifest.json": "57ccf31de814a23e5f2ccc8dd1c46b88df8200497f1fb6d60e08b8a7e2254a1e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/configs/balanced_loss_loss.json": "8806804e1de68fd19c004a3ac4c189aec3bae1f7bde11af729cfec6f887791f5",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60"
+  }
+}

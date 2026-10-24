@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-19T04:19:29.802151+00:00",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "root_memberships_unchanged": true,
+  "main_fit_budget_unchanged": 8,
+  "known_old_evidence_motivation": "CurrentfourfieldNLL includes coarse tablebins and isnot relation9coherence. Savedpredictions show differing patterns; predeclare both before any newfit.",
+  "co_primary_readouts": [
+    "samefourfieldNLL for probe andfree3, retain historical definition",
+    "relation9_exact for probe andfree3 atsamefixedthresholds, reported alongsideNLL, no scalarcombinedscore"
+  ],
+  "secondary": [
+    "all5/all7exact",
+    "Holding/In precision, recall, BA and multiple-holding violations",
+    "changed/unchanged fields",
+    "zero-control/nonzero/executedfailure",
+    "current,one-step,free1/free3/free4",
+    "Cinitialheld4roots vsnonheld16roots"
+  ],
+  "future_interpretation": "A lowerNLL without coherentrelation/endpoint benefit is limited averageprobability gain, not generalizedsharedstate competence. No perfection gate or posthocthreshold changes.",
+  "C_caveat": "Cchanges scene andheld-object→second-object order. CminusABis externaldistributiongap, not pure scene causal effect. Report raw scores, each initialtype, and predeclared0.5closed+0.3openempty+0.2openheld standardization for bothABtest andC; descriptive only, no selecting favorable subgroup.",
+  "batch_pairing": "Within eachsize/seed, exactsame materializedbatches andlatent RNG starts forbothgradientarms. Across sizes usepaired initialization/trainingseeds; samplecontents necessarilydiffer, not claimedidentical.",
+  "test_timing": "Freeze all8finalmodels and8probes before ABtest/Cpredictions; validation neverselectscheckpoint/threshold; technicalfailure repair canresume fixedbudget but no extrafits.",
+  "new_fits_executed": 0
+}

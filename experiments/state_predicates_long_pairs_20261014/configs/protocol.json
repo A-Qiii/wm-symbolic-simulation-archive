@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-14T15:10:00.661041+00:00",
+  "scope": "Collect fixed30newABCroots only, at most120 macro calls; freeze public visual encoder and candidate; no training, candidate inference, Dcollection or upload.",
+  "root_counts": {
+    "train_A": 12,
+    "train_B": 12,
+    "dev_C": 6
+  },
+  "balance": "EachA/B:3colours x2initialdrawerpositions x2layouts;C:3colours x2initialdrawerpositions. C tune/calibration3roots each, one percolour.",
+  "root_exclusion": "Use archived root metadata only to reject near duplicates; no old D observations/predictions/labels used. Generator rejects allnamedcentre distances<=12.5mm or all<=20.5mm with yaw modulo pi<=.255rad. Actual initialized layouts checked against12mm /20mm+.25rad rule.",
+  "pilot_roots": [
+    "A_longpair_red_closed_0",
+    "B_longpair_blue_open_0"
+  ],
+  "maximum_macro_calls": 120,
+  "macro_contract": {
+    "name": "frozen_skill_plus_posthold96_v1",
+    "initial_history": "One reset, then96existing hold controls with grip+1 outside all macros.",
+    "macro_start": "Current actual observation immediately before frozen PhysicalOracle.run(skill).",
+    "primitive": "Unchanged controller, budget900, existing max2 bounded attempts; no parameter changes.",
+    "post_hold": "Exactly96existing PhysicalOracle.hold controls INSIDE macro interval, retain public robot_obs[-1] grippercommand at primitive end. Endpoint afterthishold; nextmacro starts there.",
+    "macro_end": "After posthold96; before/after history uses exact[t-63,t-42,t-21,t].",
+    "action_conditioning": "Declared skill and arguments, primitivebudget900, posthold96. Actual duration, success, phase, contacts and target labels prohibited as predictive inputs.",
+    "failures": "Record failed/refused primitive and posthold state effects. Continue fixedremaining calls through unchanged controller precondition checks unless infrastructure/physicsguard error; no replacementroots or added attempts. Refusal remains a macro with96hold; do not call it a zero-duration selfloop.",
+    "waiting_effects": "Record TCP/allobject displacement, held losses at any wait frame, label changes and endpoint goals; never hide a drop behind earlier primitive success.",
+    "future_training_test": "Same exact wrapper and waiting convention must be used in training and later tests."
+  },
+  "history": {
+    "control_Hz": 30,
+    "physics_Hz": 240,
+    "physics_steps_per_control": 8,
+    "offsets": [
+      63,
+      42,
+      21,
+      0
+    ],
+    "seconds": 2.1,
+    "time_verification": "Count actual pybullet.stepSimulation calls afterreset; frame f must equal8f physicssteps; no repeats or futureinputs; timestamps derive counted simulationsteps, wall time separate."
+  },
+  "labels": {
+    "order": [
+      "held(red)",
+      "held(blue)",
+      "held(pink)",
+      "in(red,drawer)",
+      "in(blue,drawer)",
+      "in(pink,drawer)",
+      "open(drawer)"
+    ],
+    "all_entities": true,
+    "held": "Unchanged bilateral descendantfinger force>.01N with no external force-bearing contact.",
+    "in": "Unchanged primary drawerownership (existing held override and supportlabelaudit), not generic geometriccontainment or whole-action completion.",
+    "open": "Unchanged categorical draweropen>.16 and valid outside frozen5mm boundaries at.025/.16.",
+    "validity": "Preserve existing physicalvalid mask for all7facts; visibility does not mask labels. No target-only mask.",
+    "storage": "Private full audit separate from public NPZ/actions; only7taskpredicates become supervision arrays. Tableleft/middle/right not a required modeling target."
+  },
+  "features": {
+    "backbone": "Frozen existingDINOv2-small; sameRGB/pad/ROI/visiblegeometry and normalization",
+    "registry": "FreshVisibleRegistry per4frame window, originalpixel-based registration. Missingentity stayszeros; no GT ID substitution.",
+    "shapes": {
+      "objects": [
+        4,
+        3,
+        780
+      ],
+      "context": [
+        4,
+        3072
+      ],
+      "robot": [
+        4,
+        15
+      ]
+    },
+    "candidate": "Seed1 reader unchanged; no readerforward in this task; only frozenvision featureextraction authorized.",
+    "queue": "Collection andDINO cache serialized byexistingGPU lock."
+  },
+  "pilot_gate": "After2fixedtrainingroots, verify all8attempts accounted for; completecausal inputs for eachcompletedmacro, actualtick/time alignment, allentitylabels, hashes, no forbiddenphysicsmutation; failures retained. Projectremainingdisk from measuredbytes/frame timesworstcase remaining120*(900+96)+30*96 controls, require1.5xprojection+5GiB free. No controller-success quota used to discard failures.",
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/state_labels.py": "d2c9bfee479afb09fa41b7749c6d836435a73d961d1787a8395025d36613fa48",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/metrics.py": "65f8032066ff75ff10f2fee1a18117dc5496af1c236ef5f07da21446bb45cbaf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/INPUT_CONTRACT.json": "983daf6994d9e4624fc6a90fe895e097117fc22bc1139b63e062a8b6ac034fe6",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/candidate_manifest.json": "81997fa30b1b113239c7d32e14cd1ff53131d5669ba925af04c76aae8ae8e350",
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_long_pairs_20261014/source/collect.py": "c7fcea883ce386e4e74fbf34719f1255ed90b5160e47c4d07e5608435837fac1",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_long_pairs_20261014/source/validate_data.py": "17842e5fc39e123540901a0b331bb997e2fddc3485e0256750b4f5d79e778d4c",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_long_pairs_20261014/source/cache.py": "9797daad6612dcbdfe626d699e231a64c4c583401fee286d5bee3131ede25037"
+  },
+  "no_training": true,
+  "no_D_collection": true,
+  "no_upload": true,
+  "roots_manifest_sha256": "77ad581dfe6534d81592f3cd3b42dd05f4821a14651bee1855fd9bed67589266"
+}

@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-15T15:24:17.617148+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/configs/protocol.json": "4d33abc5f481379776f148d678af323c3fd7a3ec871a1b1838c400d57ec9289f",
+    "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/roots_manifest.json": "c31dc0a2a625bba5c60fab12556f7816593954f9a61abbdda9ffdd75ee7047ec",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/common.py": "fb37a0b41b4ea879ed095f92b8f4c3ecce966fd95d8f1df4ede905ac1c8e29c0",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/labels_v2.py": "59ec778efb0c6cfa5b41629f8f1f43dae7a6dca85a4659d17849a02eec3fd20f",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/source/collect.py": "c5c7161515c67c1b4452a1e4e44876da611e8bb5ef5b98c267f79b7353e16bdd",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f"
+  }
+}

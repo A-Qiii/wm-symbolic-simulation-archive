@@ -1,0 +1,115 @@
+{
+  "utc": "2026-10-17T04:02:10.868763+00:00",
+  "question": "Is adding true simultaneous relation coverage sufficient for existingquery architecture, under matched continuation budget?",
+  "authorization": "Parent explicitly authorizes bounded2seeds x2arms queryonlytraining,600updates; no newcollection,WMchanges or formalreplacement.",
+  "initial_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "arms": [
+    "control",
+    "coverage"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "updates": 600,
+  "batch": 32,
+  "optimizer": "AdamW lr0.001 wd0.001,clipglobalnorm1,fresh optimizer eacharm",
+  "loss_source": "/home/robot/research/projects/wm_symbolic/experiments/intermediate_data_prediction_20261016/source/train_query.py",
+  "loss": "unchangedmean ofHoldingmaskedBCE,InmaskedBCE,drawerCE; fixed originalpositive/classweights; all9 supervised",
+  "class_weights": [
+    20.0,
+    20.0,
+    20.0,
+    5.142857074737549,
+    5.142857074737549,
+    5.142857074737549,
+    0.6760563254356384,
+    0.8888888955116272,
+    2.526315689086914
+  ],
+  "checkpoints": [
+    0,
+    600
+  ],
+  "selection": "fixed600,no hypersearch/earlystop/validation/Dselection",
+  "root_split": {
+    "diagnostic_D_seen": [
+      "D_combination_blue_00",
+      "D_combination_blue_01",
+      "D_combination_pink_00",
+      "D_combination_pink_01",
+      "D_combination_red_00",
+      "D_combination_red_01"
+    ],
+    "train": [
+      "A_combination_blue_00",
+      "A_combination_pink_00",
+      "A_combination_red_00",
+      "B_combination_blue_00",
+      "B_combination_pink_00",
+      "B_combination_red_00"
+    ],
+    "validation": [
+      "A_combination_blue_01",
+      "A_combination_pink_01",
+      "A_combination_red_01",
+      "B_combination_blue_01",
+      "B_combination_pink_01",
+      "B_combination_red_01"
+    ]
+  },
+  "historic_training_roots": [
+    "A_intermediate_v3_blue_0",
+    "A_intermediate_v3_blue_1",
+    "A_intermediate_v3_pink_0",
+    "A_intermediate_v3_pink_1",
+    "A_intermediate_v3_red_0",
+    "A_intermediate_v3_red_1",
+    "A_semantics_v2_chain_blue_0",
+    "A_semantics_v2_chain_pink_0",
+    "A_semantics_v2_chain_red_0",
+    "A_semantics_v2_fixtures_blue_0",
+    "A_semantics_v2_fixtures_blue_1",
+    "A_semantics_v2_fixtures_pink_0",
+    "A_semantics_v2_fixtures_pink_1",
+    "A_semantics_v2_fixtures_red_0",
+    "A_semantics_v2_fixtures_red_1",
+    "B_intermediate_v3_blue_0",
+    "B_intermediate_v3_blue_1",
+    "B_intermediate_v3_pink_0",
+    "B_intermediate_v3_pink_1",
+    "B_intermediate_v3_red_0",
+    "B_intermediate_v3_red_1",
+    "B_semantics_v2_chain_blue_0",
+    "B_semantics_v2_chain_pink_0",
+    "B_semantics_v2_chain_red_0",
+    "B_semantics_v2_fixtures_blue_0",
+    "B_semantics_v2_fixtures_blue_1",
+    "B_semantics_v2_fixtures_pink_0",
+    "B_semantics_v2_fixtures_pink_1",
+    "B_semantics_v2_fixtures_red_0",
+    "B_semantics_v2_fixtures_red_1"
+  ],
+  "new_samples": 6,
+  "old_pool": 156,
+  "coverage_pool": 162,
+  "common_old_slots": 24,
+  "replacement_slots": 8,
+  "replacement_fraction": 0.25,
+  "contrast": "control19200old draws;coverage14400old+4800new;sharedfirst24slots exact;eachnewroot800draws;actualvalidpositive/negativecellsreported,informationbudgetsnotclaimedidentical.",
+  "geometry_correction": "same native correctedhistoricaly/v botharms;oldsealsunchanged;Cretentionalso correctedwherefullsnapshotavailable,12partialoldCstateskeepInunknown.",
+  "evaluation": "actual full9/groups/all9factconfusion/dualpositiveandnegative/newABnondual/oldCretentionfirst;then sameheads readfrozenmixed/latent actual,onestep,recursive z; matchedseed query andtransition; rootpaired6-rootABvalidationand6-rootDdiagnostic; no newgate.",
+  "D": "previously observed diagnostic only; no training or selection.",
+  "no_automatic_adoption": true
+}

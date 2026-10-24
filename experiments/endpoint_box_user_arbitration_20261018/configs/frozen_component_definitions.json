@@ -1,0 +1,21 @@
+{
+  "drawer_front": "visible movable drawer front panel INCLUDING attached pull handle, EXCLUDING cavity floor/interior, side panels, cabinet face/doors; box tight to visible front-panel-plus-handle extent; no hidden/amodal completion",
+  "gripper_finger": "one box per visibly identifiable mechanical finger distal to main palm (up to2); include finger body/tip, exclude palm/wrist/arm and held object; same unordered class, no physical left/right ID",
+  "statuses": [
+    "visible",
+    "partial",
+    "not_visible",
+    "uncertain"
+  ],
+  "reasons": [
+    "none",
+    "occluded",
+    "out_of_frame",
+    "occluded_and_out_of_frame",
+    "not_identifiable"
+  ],
+  "unknown": "no box when cannot identify/bound visible target; ignore uncertain class-image in training/scoring, report its prediction rate separately",
+  "no_fixed_fallback": true,
+  "coordinates": "integer RGB xyxy pixels, exclusive upper bounds; drawn after actually viewing RGB only",
+  "annotator": "assistant visual annotation, reviewed overlays, not independent human gold standard"
+}

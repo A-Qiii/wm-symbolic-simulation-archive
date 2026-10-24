@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-18T14:15:03.812492+00:00",
+  "python": "3.11.13 (main, Sep 18 2025, 19:46:39) [Clang 20.1.4 ]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.26.4",
+  "cuda_build": "12.8",
+  "training_GPU_peak_allocated_bytes": 526752256,
+  "GPU_scheduling": "single shared lock, sequential train then prediction; all scoring/probes/report CPU",
+  "new_training_runs": 2,
+  "extra_optimizer_updates_in_probes": 0
+}

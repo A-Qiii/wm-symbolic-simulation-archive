@@ -1,0 +1,16 @@
+[
+  {
+    "url": "http://calvin.cs.uni-freiburg.de/dataset/calvin_debug_dataset.zip",
+    "archive": "/home/robot/research/projects/wm_symbolic/cache/calvin_debug_dataset.zip",
+    "bytes": 1299150917,
+    "sha256": "c66d09147e2c806b244f18ea7d61e388d4dac11f828929779437f728d03e1204",
+    "extracted_to": "/home/robot/research/projects/wm_symbolic/data/raw"
+  },
+  {
+    "url": "http://hulc.cs.uni-freiburg.de/model_weights/HULC_ABC_D.zip",
+    "archive": "/home/robot/research/projects/wm_symbolic/cache/HULC_ABC_D.zip",
+    "bytes": 479026990,
+    "sha256": "010b514df5d43d242a19cff5c852b99969e734d0c1e90dba5e7477f9cb7e498f",
+    "extracted_to": "/home/robot/research/projects/wm_symbolic/models"
+  }
+]

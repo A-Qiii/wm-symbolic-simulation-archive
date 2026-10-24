@@ -1,0 +1,60 @@
+{
+  "selected_utc": "2026-10-14T03:39:45.939860+00:00",
+  "selected_version": "physical_oracle_v1_candidate3",
+  "python_class": "wm_symbolic.physical_oracle.PhysicalOracle",
+  "public_entrypoint": "execute",
+  "controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+  "frozen_source": "source/controller_snapshots/physical_oracle_v1/physical_oracle.py",
+  "selection_reason": "v1 has no observed goal execution failure in90 feasible held-out calls; its only2 strict failures were the same user-accepted small slider side effect. v2 introduced a genuine planner candidate-search failure in1/135 feasible calls; no reason to require its stricter avoidance for the present task.",
+  "supported_skills": [
+    "open_drawer",
+    "close_drawer",
+    "lift_red_block_table",
+    "lift_blue_block_table",
+    "lift_pink_block_table",
+    "place_in_drawer"
+  ],
+  "limits": {
+    "max_controls": 900,
+    "max_attempts": 2,
+    "stable_goal_controls": 12
+  },
+  "observed_scope": "Native A/B/C separated tabletop blocks, tested colors/yaws and four-step drawer storage chain. Nine development and18 held-out v1 roots. No D, clutter/stacking, arbitrary shelf reach or remaining19 skills verified.",
+  "original_strict": {
+    "chains": [
+      17,
+      18
+    ],
+    "feasible": [
+      88,
+      90
+    ],
+    "correct_refusals": [
+      90,
+      90
+    ]
+  },
+  "user_amended_retrospective": {
+    "chains": [
+      18,
+      18
+    ],
+    "feasible": [
+      90,
+      90
+    ],
+    "correct_refusals": [
+      90,
+      90
+    ]
+  },
+  "scoring_protocol": "runs/core_executor_selection_20261014/scoring_protocol.json",
+  "controller_frozen_for_six_skill_WM_core_validation": true,
+  "general_reliability_guarantee": false,
+  "original_full_guide_completed": false,
+  "formal_collection_authorized": false,
+  "formal_training_authorized": false,
+  "formal_pipeline_resumed": false,
+  "new1200_proposal": "runs/physical_oracle_v2/wm_1200_proposal_review.json",
+  "next": "Return research focus to the six-skill world-model dataset design; preserve60/20/20 proposal as unexecuted until separately authorized."
+}

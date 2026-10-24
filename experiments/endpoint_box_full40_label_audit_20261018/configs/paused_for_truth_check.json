@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-18T12:33:59.268011+00:00",
+  "reason": "Latest user request prioritizes simulator truth feasibility.",
+  "prepared_images": 40,
+  "prepared_class_cells": 80,
+  "review_sheets_actually_viewed_this_round": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "new_final_label_decisions": 0,
+  "cleaned40_frozen": false,
+  "saved_prediction_evaluation_runs": 0,
+  "previous_user_semantics_v2_8_images_remain_sealed": true,
+  "continuation": "Do not resume subjective difficult-boundary guesses until reliable automatic labeling route is assessed."
+}

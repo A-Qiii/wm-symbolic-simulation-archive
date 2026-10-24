@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-10-16T09:12:53.196064+00:00",
+  "purpose": "Sealed diagnostic visualization only, no model training, new simulation, model selection or threshold tuning.",
+  "model_seed": 0,
+  "representation": "Actual continuous interaction encoder output:3 object tokens+scene token,4x64 flattened256. Frozen v1 interaction seed0; identical non-transition parameters in repaired model. AE seed0 separate contextual comparison. Not query probabilities or raw DINO.",
+  "main_candidates": "Only actual before/after indices in recorded skill pairs with existing9-column ground-truth labels. No moving interior windows. Ground truth only used for colour/hover and post-hoc diagnostics, never fitted to representation/PCA/tSNE or sample selection.",
+  "sampling": {
+    "per_root_max": 8,
+    "order": "SHA256 of tsne20261016:<batch>:<state index>, independent of labels and embedding",
+    "exact_dedup": "hash raw RGB and robot arrays; one actual representative, original IDs retained",
+    "near_dedup": "within same root, both-camera mean absolute RGB difference/255 <=0.005 and max absolute difference of15 proprio entries <=0.005; keep first hash-ordered actual state; no averaging",
+    "root_cap_after_dedup": true
+  },
+  "main_preprocess": {
+    "latent_dimensions": 256,
+    "standardization": "mean/std fitted to selected AB training states only, std floor1e-6, separately for each encoder",
+    "PCA_dimensions": 50,
+    "PCA_fit": "all selected unlabeled points, full SVD; only diagnostic transductive coordinates",
+    "labels_used": false
+  },
+  "tsne": {
+    "n_components": 2,
+    "perplexity": 30,
+    "random_state": 42,
+    "init": "pca",
+    "learning_rate": "auto",
+    "early_exaggeration": 12,
+    "max_iter": 1500,
+    "method": "barnes_hut",
+    "angle": 0.5,
+    "metric": "euclidean",
+    "n_jobs": 1
+  },
+  "stability": "One prespecified alternative perplexity15, same seed42 and all preprocessing/points; keep both, never select prettier one. Compare10-neighbour overlap.",
+  "joint": "D2 same selected pairs: actual successor, sealed control seed0 predicted successor, sealed matched seed0 predicted successor jointly fit once. Reuse main interaction AB scaling; PCA50 fitted unlabeled union.",
+  "joint_sampling": "Each of12 roots:held_closed,held_open,empty_open for even root ordinal else empty_closed; reference slot ordinal modulo planned reference length, omit unavailable endpoint and record omission. No outcome-driven replacement.",
+  "paired_lines": "Six predetermined pair IDs:held_closed on red_0/blue_0/pink_0 and held_open on red_1/blue_1/pink_1, two prediction-to-actual lines each.",
+  "environment": "A/B/C/D are actual CALVIN physical scene domains. D2 uses scene D, distinct used-test sampling batch only. Models share robot/cameras; appearances and scene geometry can differ.",
+  "outputs": [
+    "main shared-coordinate semantic/domain PNG",
+    "same-state cross-domain PNG",
+    "AE separate projection",
+    "shared successor joint PNG",
+    "stability PNG",
+    "offline Plotly HTML with click-to-RGB and truth/query text"
+  ],
+  "no_installs": true
+}

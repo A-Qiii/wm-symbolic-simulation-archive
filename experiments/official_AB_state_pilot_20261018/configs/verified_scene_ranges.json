@@ -1,0 +1,101 @@
+{
+  "utc": "2026-10-18T06:32:35.898987+00:00",
+  "ranges": {
+    "B": [
+      0,
+      598909
+    ],
+    "C": [
+      598910,
+      1191338
+    ],
+    "A": [
+      1191339,
+      1795044
+    ]
+  },
+  "interval_convention": "inclusive endpoints",
+  "B_start_zero": "verified BININT1 0 at opcode172 in disassembly",
+  "verification": [
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/metadata/training/scene_info.npy",
+      "sha256": "cd254dd8c94abe8c9c360b079f8839eac1811c306a35248d8a5afe7a5820be67",
+      "literal_opcodes_checked": [
+        [
+          "scene",
+          "B"
+        ],
+        [
+          "end",
+          598909
+        ],
+        [
+          "scene",
+          "C"
+        ],
+        [
+          "start",
+          598910
+        ],
+        [
+          "end",
+          1191338
+        ],
+        [
+          "scene",
+          "A"
+        ],
+        [
+          "start",
+          1191339
+        ],
+        [
+          "end",
+          1795044
+        ]
+      ],
+      "object_pickle_executed": false
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/data/metadata/scene_info_fix/training/scene_info.npy",
+      "sha256": "cd254dd8c94abe8c9c360b079f8839eac1811c306a35248d8a5afe7a5820be67",
+      "literal_opcodes_checked": [
+        [
+          "scene",
+          "B"
+        ],
+        [
+          "end",
+          598909
+        ],
+        [
+          "scene",
+          "C"
+        ],
+        [
+          "start",
+          598910
+        ],
+        [
+          "end",
+          1191338
+        ],
+        [
+          "scene",
+          "A"
+        ],
+        [
+          "start",
+          1191339
+        ],
+        [
+          "end",
+          1795044
+        ]
+      ],
+      "object_pickle_executed": false
+    }
+  ],
+  "source_fix_url": "http://calvin.cs.uni-freiburg.de/scene_info_fix/task_ABC_D_scene_info.zip",
+  "no_pickle_execution": true
+}

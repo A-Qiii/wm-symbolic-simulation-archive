@@ -1,0 +1,2094 @@
+[
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_26_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_03_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_08_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_28_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_09_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_20_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_16_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_21_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_23_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_20_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_21_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_24_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_01_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_20_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_00_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_04_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_05_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_14_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_25_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_14_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_11_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_02_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_13_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_12_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_15_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_00_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_02_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_18_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_12_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_12_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_11_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_23_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_09_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_19_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_25_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_07_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_06_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_24_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_22_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_17_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_07_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_26_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_16_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_21_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_23_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_15_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_04_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_06_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_29_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_19_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_15_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_04_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_29_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_23_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_16_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_25_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_22_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_16_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_20_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_00_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_27_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_15_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_28_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_03_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_25_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_27_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_09_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_07_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_04_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_14_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_04_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_28_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_07_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_09_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_19_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_06_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_01_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_28_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_10_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_17_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_12_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_08_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_22_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_22_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_27_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_17_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_00_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_05_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_19_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_29_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_02_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_10_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_20_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_14_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_10_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_03_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_13_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_21_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_15_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_24_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_01_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_25_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_17_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_07_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_12_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_10_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_00_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_25_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_24_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_26_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_28_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_26_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_15_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_26_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_17_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_23_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_08_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_28_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_13_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_11_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_29_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_14_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_05_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_24_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_06_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_05_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_11_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_21_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_26_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_22_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_29_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_18_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_27_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_17_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_01_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_06_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_03_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_05_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_22_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_27_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_13_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_05_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_29_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_00_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_09_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_12_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_18_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_14_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_06_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_01_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_18_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_07_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_03_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_19_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_23_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_04_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_09_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_01_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_11_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_13_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_11_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_16_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_03_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_21_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_08_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_19_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_13_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_18_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_20_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_08_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_10_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_10_b2/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_18_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_16_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_27_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/B_core1200_24_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_08_b0/root_reset_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/episodes/A_core1200_02_b1/root_reset_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_18/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_23/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_06/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_11/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_06/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_24/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_26/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_01/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_26/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_13/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_21/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_08/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_09/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_14/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_25/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_10/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_29/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_17/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_18/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_00/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_04/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_15/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_14/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_29/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_22/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_27/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_03/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_01/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_10/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_23/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_13/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_16/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_27/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_00/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_28/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_19/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_20/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_07/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_16/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_05/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_02/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_03/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_21/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_25/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_12/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_22/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_20/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_24/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_19/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_11/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_12/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_28/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_17/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_07/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_08/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_15/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_04/branch0_initial_private.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/B_core1200_05/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_02/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/core1200_v1/roots/A_core1200_09/branch0_initial_private.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v2/A_train_root001/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v2/B_train_root001/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v2/A_train_root000/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v2/B_train_root000/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v2/A_train_root002/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/storage_probe_v1/A_train_root000/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root056/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root033/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root047/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root101/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root018/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root022/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root090/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root086/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root093/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root084/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root108/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root087/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root098/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root090/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root032/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root031/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root080/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root058/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root036/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root076/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root071/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root074/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root093/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root026/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root091/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root007/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root054/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root016/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root057/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root104/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root078/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root083/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root010/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root084/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root020/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root077/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root081/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root088/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root103/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root055/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root066/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root073/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root072/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root053/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root082/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root036/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root049/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root064/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root038/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root024/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root030/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root039/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root045/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root100/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root004/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root102/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root107/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root014/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root106/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root005/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root081/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root083/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root034/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root025/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root039/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root088/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root073/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root015/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root069/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root052/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root061/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root109/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root063/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root040/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root003/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root051/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root010/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root085/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root016/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root021/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root043/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root112/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root072/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root048/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root059/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root050/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root054/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root032/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root080/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root076/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root065/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root092/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root105/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root012/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root025/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root082/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root015/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root027/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root113/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root095/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root052/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root102/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root067/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root112/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root030/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root061/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root078/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root040/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root086/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root028/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root089/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root020/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root007/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root006/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root105/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root008/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root047/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root087/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root070/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root111/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root065/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root041/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root060/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root019/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root111/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root035/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root035/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root070/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root034/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root011/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root103/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root024/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root026/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root096/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root012/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root095/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root099/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root002/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root062/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root097/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root017/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root023/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root056/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root071/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root058/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root089/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root110/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root108/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root062/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root044/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root029/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root037/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root033/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root069/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root094/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root074/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root013/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root046/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root063/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root022/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root053/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root027/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root092/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root004/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root064/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root077/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root038/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root066/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root079/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root008/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root041/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root055/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root021/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root098/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root023/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root017/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root043/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root113/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root037/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root085/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root029/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root107/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root049/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root097/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root014/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root096/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root099/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root019/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root011/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root068/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root101/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root031/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root109/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root094/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root046/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root050/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root060/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root044/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root075/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root059/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root042/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root009/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root006/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root104/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root079/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root100/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root013/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root045/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root091/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root075/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root067/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root003/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root110/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root009/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root028/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root051/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root057/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root106/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root042/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root018/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root048/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/A_train_root005/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/data/roots/main_v1/B_train_root068/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_development_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_development_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_development_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_05/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_development_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_development_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_05/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_development_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/A_acceptance_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v1/roots/B_acceptance_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_08/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_06/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_05/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_07/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_05/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_08/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/B_acceptance_v3_06/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_07/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v3/roots/A_acceptance_v3_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_08/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_06/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_08/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_01/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_06/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_07/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_05/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_02/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_07/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_03/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_04/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "A",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/A_acceptance_v2_00/reset_evaluator_only.npz"
+  },
+  {
+    "environment": "B",
+    "path": "/home/robot/research/projects/wm_symbolic/runs/physical_oracle_v2/roots/B_acceptance_v2_05/reset_evaluator_only.npz"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "family_id": "A_relation_confirm_00",
+    "environment": "A",
+    "split": "confirm",
+    "geometry_seed": 2610209000,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_confirm_00",
+    "environment": "B",
+    "split": "confirm",
+    "geometry_seed": 2610209100,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "A_relation_confirm_01",
+    "environment": "A",
+    "split": "confirm",
+    "geometry_seed": 2610209001,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_confirm_01",
+    "environment": "B",
+    "split": "confirm",
+    "geometry_seed": 2610209101,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "A_relation_confirm_02",
+    "environment": "A",
+    "split": "confirm",
+    "geometry_seed": 2610209002,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_confirm_02",
+    "environment": "B",
+    "split": "confirm",
+    "geometry_seed": 2610209102,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "A_relation_confirm_03",
+    "environment": "A",
+    "split": "confirm",
+    "geometry_seed": 2610209003,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_confirm_03",
+    "environment": "B",
+    "split": "confirm",
+    "geometry_seed": 2610209103,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "family_id": "A_relation_generalization_00",
+    "environment": "A",
+    "split": "independent",
+    "geometry_seed": 2610239000,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_generalization_00",
+    "environment": "B",
+    "split": "independent",
+    "geometry_seed": 2610239001,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "A_relation_generalization_01",
+    "environment": "A",
+    "split": "independent",
+    "geometry_seed": 2610239002,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  },
+  {
+    "family_id": "B_relation_generalization_01",
+    "environment": "B",
+    "split": "independent",
+    "geometry_seed": 2610239003,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "coordinates": "Only geometry admission may reject deterministic candidates; freeze before task rollouts."
+  }
+]

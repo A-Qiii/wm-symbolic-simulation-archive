@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-19T21:24:32.180013+00:00",
+  "before_task_collection": true,
+  "geometry_only": true,
+  "families": 24,
+  "roles": 126,
+  "seconds": 23.293764747999376,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/data/families_manifest.json": "873066f9b9c4de5d8ef80badcc286e16cb2dd44351eabea377b54a9b9e1d0344",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/data/roots_manifest.json": "017f6105cc0897a7987ae2461a978d86b2672c0937e09074164ee0876e614a30",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/configs/protocol.json": "2c593281a4e0f2f4bb4c963716d9e27b484a0f2b067f855b4c09839d75dd8291",
+    "/home/robot/research/projects/wm_symbolic/experiments/role_generalization_20261019/configs/family_role_proposal.json": "3f103edaa525acf0d8009d0af820dc137a7b311bfe1ef1dc75ee4affc93077f5"
+  }
+}

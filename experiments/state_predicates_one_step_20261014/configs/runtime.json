@@ -1,0 +1,10 @@
+{
+  "torch": "2.11.0+cu128",
+  "python": "3.11.13",
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "total_vram_bytes": 16611278848,
+  "cuda_version": "12.8",
+  "pid": 960432,
+  "max_updates_each": 600,
+  "sequential_single_gpu": true
+}

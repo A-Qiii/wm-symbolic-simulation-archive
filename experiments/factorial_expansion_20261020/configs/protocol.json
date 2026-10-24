@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-20T12:34:00.927857+00:00",
+  "scope": "Data expansion only, using existing fixed four verbs/six grounded actions; not full25-skill guide acceptance",
+  "counts": {
+    "new_episodes": 800,
+    "new_requests": 4800,
+    "train_episodes": 640,
+    "development_episodes": 80,
+    "combination_test_episodes": 80,
+    "new_families": 200,
+    "new_intended_roots": 400,
+    "branches_per_root": 2,
+    "steps_per_episode": 6,
+    "pilot_episodes": 32,
+    "combined_train_if_no_quarantine": 868,
+    "combined_train_requests_if_no_quarantine": 4968
+  },
+  "initial_state_kinds": {
+    "0": "all_table_empty_open_or_closed",
+    "1": "one_Held_open",
+    "2": "one_In_empty_open_or_closed",
+    "3": "one_In_plus_other_Held_open",
+    "4": "two_In_empty_open",
+    "5": "two_In_plus_third_Held_open_TEST_ONLY"
+  },
+  "holdout": "At least two objects In(drawer), and ALL THREE objects individually In(drawer) or Held. Includes twoIn+thirdHeld and threeIn. Audit all new control states and public boundary windows. Whole training/development family quarantined if encountered. No outcome replacement.",
+  "old_train_holdout": "Original228 macro-boundary categorical cache audited: zero such combinations. Does not certify every historical low-level control.",
+  "splits": "New family disjoint and assigned before geometry or motor outcomes. Test results sealed from model selection. No historical evaluation backfill. A/B native environments only.",
+  "geometry": {
+    "centers_A": [
+      -0.1,
+      0.06,
+      0.22
+    ],
+    "centers_B": [
+      -0.22,
+      -0.08,
+      0.08
+    ],
+    "x_jitter": 0.022,
+    "y_range": [
+      -0.145,
+      -0.065
+    ],
+    "yaw_range": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "max_proposals_per_family": 128,
+    "near_duplicate_m": 0.02
+  },
+  "setup": "Initial relation states established physically by unchanged controller, with full private setup controls. Setup failures retained with intended and actual state; no result-based replacement.",
+  "branches": "Matched initial physical roots; fixed nominal versus gripper-open miss+retry when valid, otherwise fixed different order. Branches are distinct experiences but not independent roots.",
+  "failure": "All successful, failed, refused, interrupted outcomes retained; no fake no-change target. Requested/applied disturbance stored privately, never an observation.",
+  "pilot_gate": "32episodes/192requests, all physics guards;6commits each; same-root public equality; explicit public allowlist; no admitted train/dev heldout combination; feasible intended states across five factors. First50 storage, first128 record QA. Stop for genuine factor or provenance blocker.",
+  "budget": {
+    "max_seconds": 21600,
+    "estimated_hours": [
+      3,
+      5
+    ],
+    "estimated_raw_GB": [
+      12,
+      18
+    ],
+    "min_free_GiB": 30
+  },
+  "training_updates": 0,
+  "feature_cache": "deferred until collection acceptance",
+  "controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+  "old_partial": "Independent24 request deferred; its completed5 and interrupted6th preserved, not mixed into expansion",
+  "no_upload": true
+}

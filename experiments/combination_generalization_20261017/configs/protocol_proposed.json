@@ -1,0 +1,320 @@
+{
+  "status": "PROPOSED_AWAITING_PARENT_REVIEW_AND_EXECUTION_INSTRUCTION",
+  "created_utc": "2026-10-17T02:59:45.443962+00:00",
+  "collection_authorized": false,
+  "training_authorized": false,
+  "design_only": true,
+  "question": "Does the frozen scaled-latent candidate benefit alternative legal action compositions, including fourth-step true Holding, drawer reversal and target switch, beyond normal open-lift-place-close?",
+  "models": {
+    "mixed_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed0/update0750.pt",
+      "sha256": "be3b7ec4530b109f016c31821e92b5e558fb463191ea6b45c2b11037ff24f2f6",
+      "C_score": 0.3717340752482414
+    },
+    "latent_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed0/update1000.pt",
+      "sha256": "6d3ca5f910db0524921b8b7f7437174bb39c5f1ed18e5a1f3651204df1547a68",
+      "C_score": 0.28229083120822906
+    },
+    "mixed_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed1/update0750.pt",
+      "sha256": "293ee347ca07cff85fc3c73b528243b06c33487400ec6bbeac30792426895cc7",
+      "C_score": 0.37214062362909317
+    },
+    "latent_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed1/update1000.pt",
+      "sha256": "60363e3887861e7f46a1b955bb0b10a900c3827114cf21d83fc4bde59738a735",
+      "C_score": 0.28225962817668915
+    }
+  },
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "thresholds": {
+    "binary": 0.5,
+    "drawer": "argmax"
+  },
+  "unchanged": "DINO,current-two-RGB encoder,object registry,normalizers,decoder,transition weights,query weights,canonical8D action encoding including final coordinate1 as D5; no model input GT/environment/branch/expected-state metadata.",
+  "training_provenance": {
+    "mixed": "F+0.25Z",
+    "latent": "alpha*Z",
+    "alpha": 3.341086352737259,
+    "calibration": "initial AB-only64 batches incl16multistep; median full parameter gradient norms before clip; no C/D",
+    "mixed_grad_median": 0.633464515209198,
+    "rawZ_grad_median": 0.18959836661815643,
+    "optimizer": "AdamW lr1e-4 weight_decay1e-4 clip5; identical schedules and total1000update budget",
+    "selected_checkpoint": "same C selection rule, mixed750 vs latent1000; freeze existing choices",
+    "runs": {
+      "mixed_seed0": {
+        "training_updates_budget": 1000,
+        "single_draws": 64000,
+        "multi_starts": 12000,
+        "selected_update": 750,
+        "max_gradient_norm_before_clip": 1.5436023473739624,
+        "clipped_updates": 0
+      },
+      "mixed_seed1": {
+        "training_updates_budget": 1000,
+        "single_draws": 64000,
+        "multi_starts": 12000,
+        "selected_update": 750,
+        "max_gradient_norm_before_clip": 1.4748225212097168,
+        "clipped_updates": 0
+      },
+      "latent_seed0": {
+        "training_updates_budget": 1000,
+        "single_draws": 64000,
+        "multi_starts": 12000,
+        "selected_update": 1000,
+        "max_gradient_norm_before_clip": 1.2349799871444702,
+        "clipped_updates": 0
+      },
+      "latent_seed1": {
+        "training_updates_budget": 1000,
+        "single_draws": 64000,
+        "multi_starts": 12000,
+        "selected_update": 1000,
+        "max_gradient_norm_before_clip": 1.2786134481430054,
+        "clipped_updates": 0
+      }
+    },
+    "causal_limit": "Candidate package comparison includes loss composition, fixed gradient scaling, Adam optimization dynamics and C-selected update differences. Not isolated proof of removing F or Z alone; no new scaling ablation."
+  },
+  "branches": {
+    "normal": "open,lift(target_from_table),place_in_drawer,close",
+    "reverse_then_lift": "open,close,open,lift(target_from_table)",
+    "place_then_other_lift": "open,lift(target_from_table),place_in_drawer,lift(other_from_table); other fixedcycle red->blue->pink->red"
+  },
+  "roots": {
+    "environments": [
+      "A",
+      "B",
+      "D"
+    ],
+    "per_environment": 6,
+    "per_target_color_per_environment": 2,
+    "independent_roots": 18,
+    "episodes": 54,
+    "root_order_seed": 17071000,
+    "root_seed_ranges": [
+      "17070000..17070005",
+      "17070100..17070105",
+      "17070200..17070205"
+    ],
+    "within_root_branch_order": "all six branch permutations used once perenvironment; eachbranch appears twice in eachorderposition",
+    "initial_distribution": "native scene tabletop range; three x slots14%/49%/84% plusuniform±12mm, y nativeboundsinset15mm, z.46m, yawuniform[-pi,pi]; samephysicalinitialcondition for all3branches",
+    "reset": "fresh native scene instance and same seed/layout/robot defaults for eachbranch;127settlecontrols; no preparation skill; beforefirstcall require identicalrobot_obs/scene_obs arrays andRGBhashes acrossbranches; namealignedphysicspositions/velocities and sign-equivalentquaternions within1e-8;contacts/supportstate/labels identical. Mismatchretainedandstop,noresetretry. Never copy D scene vector into A/B"
+  },
+  "split": "All54episodes and derivedframes/features evaluation-only; no new train or dev. A/B are known training scenes with fresh roots; D is existing heldout scene with fresh roots but a research history including D5. No claim of unseen environment or entirely unseen primitive coverage. Allbranches stay grouped byroot.",
+  "budget": {
+    "roots": 18,
+    "resets": 54,
+    "max_skill_invocations": 216,
+    "max_controls_per_skill": 900,
+    "posthold_controls": 96,
+    "reset_settle_controls": 127,
+    "max_control_steps": 221994,
+    "internal_attempts_max": 2,
+    "external_retries": 0,
+    "replacement_roots": 0,
+    "soft_wall_minutes": 45,
+    "storage_soft_ceiling_GiB": 5,
+    "stop": "Stop only currentbranch at first nonsuccess; retain observed failure/refusal and mark remaining slots unreached; next preregisteredbranch starts from independentreset. Infrastructure/initialization mismatch -> preservepartialbranch and stop for report, no replay. Never extend budget."
+  },
+  "truth": {
+    "version_proposal": "v2_1 semantics plus scene-native collision box dimensions, pendingreview; do not edit original labelsource",
+    "native_dimensions": {
+      "A": {
+        "scene_yaml": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml",
+        "scene_sha256": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+        "table_bounds": [
+          [
+            -0.2,
+            -0.15,
+            0.46
+          ],
+          [
+            0.35,
+            -0.03,
+            0.46
+          ]
+        ],
+        "global_scaling": 0.8,
+        "objects": {
+          "red": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf",
+            "sha256": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+            "collision_box_m": [
+              0.05600000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "blue": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf",
+            "sha256": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+            "collision_box_m": [
+              0.08000000000000002,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "pink": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_small.urdf",
+            "sha256": "eb0c1a324fd79652fbabba26cd88755c5136015528f30de5ed2f50f77657a868",
+            "collision_box_m": [
+              0.04000000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          }
+        },
+        "drawer_collision_mesh": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/meshes/drawer_link_vhacd2.obj",
+        "drawer_collision_sha256": "aaec11dec06816960fc043561071278e4f68d8db1146f283172f899adfea88ea",
+        "table_urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_A/urdf/calvin_table_A.urdf",
+        "table_urdf_sha256": "b2b84edb36450bc7cf807b2c6c7e9a7838aa03d17951b9188bd739b07a233bc9"
+      },
+      "B": {
+        "scene_yaml": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml",
+        "scene_sha256": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+        "table_bounds": [
+          [
+            -0.35,
+            -0.15,
+            0.46
+          ],
+          [
+            0.15,
+            -0.03,
+            0.46
+          ]
+        ],
+        "global_scaling": 0.8,
+        "objects": {
+          "red": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_small.urdf",
+            "sha256": "6a205c802bd508fd6bff6d90583c7308db856828f0dc227edd50627c149357d1",
+            "collision_box_m": [
+              0.04000000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "blue": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf",
+            "sha256": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+            "collision_box_m": [
+              0.08000000000000002,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "pink": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_middle.urdf",
+            "sha256": "a6f92bca6ca19460b461a08171a66ce3ab27b12bb2a9fbbd8ebe6e2bc5a44107",
+            "collision_box_m": [
+              0.05600000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          }
+        },
+        "drawer_collision_mesh": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_B/meshes/drawer_link_vhacd2.obj",
+        "drawer_collision_sha256": "aaec11dec06816960fc043561071278e4f68d8db1146f283172f899adfea88ea",
+        "table_urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_B/urdf/calvin_table_B.urdf",
+        "table_urdf_sha256": "c92dab7a62cb042aec29b8de3976a6483ece9ca53fc7ae4018a4ddc4c89aa2d6"
+      },
+      "D": {
+        "scene_yaml": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_D.yaml",
+        "scene_sha256": "f4515e439dd6b2edb55369ed421d2e47088543655970e049e5ffe760c1448c11",
+        "table_bounds": [
+          [
+            0.0,
+            -0.15,
+            0.46
+          ],
+          [
+            0.35,
+            -0.03,
+            0.46
+          ]
+        ],
+        "global_scaling": 0.8,
+        "objects": {
+          "red": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf",
+            "sha256": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+            "collision_box_m": [
+              0.05600000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "blue": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_small.urdf",
+            "sha256": "932df4c1cd498aa1980534af1b0ee4c437be6d89bae68a6bebadd5566e44e04c",
+            "collision_box_m": [
+              0.04000000000000001,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          },
+          "pink": {
+            "urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_big.urdf",
+            "sha256": "7655ebb6197ac16a6be6e24bbdcf108f9bef5e5c907acf905d0f59d84c71b4b1",
+            "collision_box_m": [
+              0.08000000000000002,
+              0.04000000000000001,
+              0.04000000000000001
+            ]
+          }
+        },
+        "drawer_collision_mesh": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_D/meshes/drawer_link_vhacd2.obj",
+        "drawer_collision_sha256": "aaec11dec06816960fc043561071278e4f68d8db1146f283172f899adfea88ea",
+        "table_urdf": "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/calvin_table_D/urdf/calvin_table_D.urdf",
+        "table_urdf_sha256": "b1068f81ec0af69cc784e9d42610fb83ea63ec150997d74a8a9b4e2c87d057f3"
+      }
+    },
+    "reason": "OriginalSIZES is D-only: Ablue/Apink and Bred/Bblue/Bpink differ. Frozen models may carry earlier training-label limitations; this study does not retrain or relabel oldsealedresults.",
+    "holding": "unchangedbilateral force-bearing finger-family contacts and no external body support",
+    "inside": "native full oriented collisionbox within native drawer cavity, upward support path, no held; supporting ancestors also fit; frozen2mmmargin and3mmfloor tolerance",
+    "drawer": "Closedq<=.02;Openq>=.18;Intermediatebetween; ±.003m thresholdbands invalid",
+    "timing": "snapshotactualfullquaternions/contacts/drawer pose after everycall+96hold; failedcall stillscored; no truth from planned sequence/native successbit",
+    "uncertainty": "preserve existing validity masks; unknown neverfalse",
+    "privacy": "URDFdimensions and fullscenephysics evaluatoronly; no publicfeature/model access"
+  },
+  "metrics": {
+    "primary": "full9correct at all4boundaries for eachbranch andseed, perenvironment n/N_completevalid; mixed-vs-latent paired gains/losses/ties on identicalcohort",
+    "coverage": "planned/attempted/anyvalid/complete/full9eligible/physicalall4success counts separate perenv+branch; n/6 and(n+unscorable)/6 missingnessbounds; failedbutcomplete included",
+    "paths": [
+      "actualsuccessorreadout",
+      "truepreviousstateone-step",
+      "trueinitialstate recursive1..4 withoutcorrection"
+    ],
+    "perstage": "eachof9fact TP/FN/FP/TN, full9 andHolding/In/drawergroups; n/N masks; positiveonset recall/FPR andtrueonset-afterstatehit asD5",
+    "new_errors": "Report firstall9wrong boundary and cumulativeprefixcorrect; perstage latentwrong/mixedcorrect versus latentcorrect/mixedwrong. Also factwise correctbefore->wrongafter andrepairs, actual/one/recursive separately, bothstatesvalid. Never treatunevaluableaswrong.",
+    "critical": "reverse_then_lift h4 targetHoldingrecall andplace_then_other_lift h4 otherHoldingrecall amongactualpositives; bothfirst/secondobjectIn andHolding; percolorHoldingTP/FN/FP/TN andanyHoldingFP onactualfalse; normalh4negativecontrol; drawerclassconfusion andunexpectedInFP. Positiveandnegative coveragecounts explicit; ifnoactualpositiveexamples, limitation notsuccess.",
+    "readout_pairing": "For eachqueryseed actualreadout must beidenticalbetweenarms; partitionrecursiveerrors byactualreadoutcorrect/wrong to distinguishtransition/driftfromreadoutfailure.",
+    "crossbranch": "normal vsplace_then_other_lift share first3commands fromsamestate. Audit prefix physical/observational equality, but always useactuallyobservedGT. Compareh4conditionalonsharedcompletevalidprefix; ifresetorprefixmismatch retainandreport, do not force/synthesize equality.",
+    "uncertainty": "Root is resamplingunit, notbranch,frame,seed. Perbranchpairedbootstrap10000 seed17072000 stratifiedenv×target overeligible roots; samedraws bothseeds. EachperenvN<=6 isdescriptive. Crossbranchdifferences oncommoneligible roots withentire rootbranchvector resampled together; noper-branchindependent pooling. No newpass/failgate."
+  },
+  "future_execution_checks": [
+    "obtain explicit parentexecution instruction includingnative-size evaluator amendment",
+    "verifythisproposalandallfrozenhashes",
+    "implementcollector adaptationandnative-size evaluator innewdirectory only; staticchecks andD-reductionparity beforedata",
+    "validateactualreset againstdeclaredlayout andpriorresethashes/initialstates; noresample afteroutcomes; stopifcollision/mismatch",
+    "serializecollection,featurecache,inferenceunderexistingGPUlock; nooptimizer",
+    "finishonce withfulltablesanddenominator-awareplots; noautomaticadoption,extraexperiment,orpost-testselection"
+  ],
+  "read_only_findings": "Primitives supported underplannedpreconditions; newcompletecompositions notexecuted inthisdesign turn. Prior normal-chainA6/B6/D12 had closefailures1/0/1; D5had openfailure1 andclosefailure1. Cannot guarantee newcompositionsphysicalsuccess.",
+  "prior_gate": "AB/C gate failure preserved; D5 remains independent positiveevidence, noformalmodelpromotion."
+}

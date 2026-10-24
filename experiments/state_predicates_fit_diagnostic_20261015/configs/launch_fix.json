@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-15T10:25:58.603331+00:00",
+  "reason": "Initial diagnostic launcher had missing whitespace in two conditional expressions: else500, else137. Python parser stopped before any imports or optimizer creation.",
+  "original_source": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_fit_diagnostic_20261015/source/train_diagnostic.py",
+  "original_source_sha256": "bfeadf4d58513633c6c52704742453e657b97d8ef35b6b8cc580c9858f31306b",
+  "corrected_source": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_fit_diagnostic_20261015/source/train_diagnostic_v2.py",
+  "corrected_source_sha256": "9ba4338d2b47d018e85bcae7d9c927fcb1c3b48cbca577107218c0f6668907b6",
+  "frozen_protocol_sha256_unchanged": "07676aea9bf669901a4a3f5b4a8f7cdad8eebc6ad42b9b63db9f93fe31bb4de4",
+  "changes": [
+    "Insert whitespace in else 500 and else 137 metadata expressions",
+    "Verify this sidecar source hash before main"
+  ],
+  "optimizer_updates_before_fix": 0,
+  "original_failed_log_retained": "logs/training.log",
+  "successful_attempt_log": "logs/training_after_syntax_fix.log",
+  "data_model_loss_budget_stop_rules_unchanged": true
+}

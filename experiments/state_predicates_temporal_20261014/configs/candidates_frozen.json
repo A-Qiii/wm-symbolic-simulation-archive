@@ -1,0 +1,241 @@
+{
+  "created_utc": "2026-10-14T12:45:05.333206+00:00",
+  "models": [
+    {
+      "arm": "current_only",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed0/update0600.pt",
+      "checkpoint_sha256": "ec3897fd1b230068416e012fdab18fc35a6eface63bf2389b1fb251bc1949c51",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "current_only",
+      "seed": 0,
+      "mode": "selected",
+      "update": 100,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed0/update0100.pt",
+      "checkpoint_sha256": "ae3b554d13a42690a85f2edcda98a41010b2e36dc2e02c557ae7423464095dca",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "current_only",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed1/update0600.pt",
+      "checkpoint_sha256": "ffadec9430b83260678275c3f7b9084d473d7916f4024207cb55d634336fab9b",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "current_only",
+      "seed": 1,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed1/update0600.pt",
+      "checkpoint_sha256": "ffadec9430b83260678275c3f7b9084d473d7916f4024207cb55d634336fab9b",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "current_only",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed2/update0600.pt",
+      "checkpoint_sha256": "7aa423c9876251fb8fb24db1d260596ecf7cb8b47bd2ac0a5e39dac4d93444c6",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "current_only",
+      "seed": 2,
+      "mode": "selected",
+      "update": 100,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/current_only/seed2/update0100.pt",
+      "checkpoint_sha256": "7480051a2ce9ba00c1f4cfdc857cd8095316046140fa622f1fb8823a06fc0a8f",
+      "thresholds": [
+        1.000001,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed0/update0600.pt",
+      "checkpoint_sha256": "863a955c1f5e19275d36d42511df2e4152ce6fb2289c8b01cf03da6947e42fba",
+      "thresholds": [
+        1.000001,
+        1.000001,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 0,
+      "mode": "selected",
+      "update": 100,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed0/update0100.pt",
+      "checkpoint_sha256": "65c8399a5a06d21772f952d47454eee85170de2446328aeee4eb336aa17a4327",
+      "thresholds": [
+        1.000001,
+        0.975,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed1/update0600.pt",
+      "checkpoint_sha256": "f369eeeb3e0b4860c9a40271e7bbbd40afcb5cc606a075919ac06848bb938030",
+      "thresholds": [
+        0.5,
+        1.000001,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 1,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed1/update0600.pt",
+      "checkpoint_sha256": "f369eeeb3e0b4860c9a40271e7bbbd40afcb5cc606a075919ac06848bb938030",
+      "thresholds": [
+        0.5,
+        1.000001,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed2/update0600.pt",
+      "checkpoint_sha256": "053257cb81a2b6b55008c82c883d1fbea31a8098872f7e7182cec93e65aec034",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "short_history",
+      "seed": 2,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/short_history/seed2/update0600.pt",
+      "checkpoint_sha256": "053257cb81a2b6b55008c82c883d1fbea31a8098872f7e7182cec93e65aec034",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 0,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt",
+      "checkpoint_sha256": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 0,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed0/update0600.pt",
+      "checkpoint_sha256": "73d16ca529b6d3b96ad8edab64349f4756fe86711b62937b0733c891d4be52cc",
+      "thresholds": [
+        0.6,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 1,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+      "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 1,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+      "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 2,
+      "mode": "fixed600",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt",
+      "checkpoint_sha256": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "long_history",
+      "seed": 2,
+      "mode": "selected",
+      "update": 600,
+      "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed2/update0600.pt",
+      "checkpoint_sha256": "a57a8e24d7c2cb22293ea1ffd5eceef31439a64c2c94152141c8a4a74e1c3afd",
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "no_test": true,
+  "no_promotion": true
+}

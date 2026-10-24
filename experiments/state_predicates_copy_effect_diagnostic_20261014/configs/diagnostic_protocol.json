@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-14T16:43:52.959794+00:00",
+  "status": "POST_HOC_DIAGNOSTIC_NOT_AMENDED_PREREGISTRATION",
+  "original_result_preserved": true,
+  "no_neural_training": true,
+  "no_collection": true,
+  "no_D": true,
+  "no_controller_changes": true,
+  "fit": "AB96 paired ground-truth labels only; C labels never an argument to fit_rules",
+  "input": "current frozen readout probabilities plus declared skill/arguments only",
+  "effect_induction": "Copy all current facts; collect AB changed predicate roles per action family, overwrite only roles whose post-value is unanimous across all AB examples in that family. Other facts never reset. Conflicting/unsupported effects become UNKNOWN.",
+  "target_binding": "lift: explicit declaration; place: all three current held facts known and exactly one true; never root mission colour, actual successor or executor outcome",
+  "preconditions": "No execution applicability rule is imported or inferred from controller. Learned assignments extrapolate the observed successful AB action effects. Only target binding is a prerequisite to role instantiation. This is a simple effect table, not learned failure/refusal dynamics.",
+  "unknown": "Keep copied UNKNOWN unless an AB-supported assignment determines that fact. Unresolved place target (including known empty hand) makes all possible held/in target effect facts UNKNOWN; open is copied. Unseen action makes all seven UNKNOWN. Reapply multiple-positive-held UNKNOWN rule. No zero-time self-loop is assumed.",
+  "evaluation": "All original120 pairs retained; C all24/tune12/cal12 reported. UNKNOWN counts as wrong in strict metrics. This design is post hoc because earlier C results were already known.",
+  "AB_data_sha256": "f8de72819a36c0ff420d06e383e747f92f1d3a60c9f4e26980b82e1273600ae2",
+  "AB_pairs_sha256": "ef9ee5ff49fd77f30e00f6767dd771584cad7d47df00cc02330483301c168cbc",
+  "source_sha256": "e1248f9f51d401083b4eb4f8e345aa9f866128fa02298c7e9e823cffc44f14a2",
+  "original_manifest_sha256": "d15825f77cbf1310d45ab3a5ac15366bb4f734d8183ff3ab134457d17be9f16e",
+  "original_decision_sha256": "d65a7ad3427447c5c0c703a4b0432c46cfa6cf4cc0301bae8720b8a05d5c712d",
+  "controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f"
+}

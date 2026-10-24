@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-18T06:41:32.797514+00:00",
+  "correction_number": 1,
+  "scope": "image analysis mask only; no rerender, no simulation, no downloaded frames changed, no model or predicate definition change",
+  "cause_evidence": "A frame1785231 original red threshold selected23011 pixels across the brown table, while native red object occupied238 pixels, all238 matching red; original/rendered static RGB MAE=.085833/255 and blue/pink shapes align. Raw coarse global color IoU therefore measured brown background contamination, not object geometry failure.",
+  "single_fixed_change": "For all A/B frames red channel ratios r>1.5g,1.5b become r>3g,3b. Existing r>65 retained; blue and pink masks unchanged. No further threshold search.",
+  "preserved_preliminary": [
+    "results/restoration.json",
+    "results/color_mapping_evidence.json",
+    "configs/restoration_protocol.json"
+  ],
+  "evaluation_thresholds_unchanged": "all3 color identity, purity>=.5, medianIoU>=.3 on >=5 visible pixels; all historical-force positives unknown",
+  "before_reanalysis": true
+}

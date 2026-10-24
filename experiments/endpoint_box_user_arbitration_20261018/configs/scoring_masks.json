@@ -1,0 +1,232 @@
+{
+  "all_known_selected8": [
+    {
+      "image_id": 0,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 0,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 1,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 1,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 8,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 8,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 9,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 9,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 32,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 32,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 33,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 33,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 38,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 38,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 39,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 39,
+      "category": "gripper_finger"
+    }
+  ],
+  "common_v1_v2": [
+    {
+      "image_id": 0,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 1,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 8,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 9,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 32,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 32,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 33,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 33,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 38,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 38,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 39,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 39,
+      "category": "gripper_finger"
+    }
+  ],
+  "added_v2_vs_v1": [
+    {
+      "image_id": 0,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 9,
+      "category": "drawer_front"
+    }
+  ],
+  "common_original_v2": [
+    {
+      "image_id": 0,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 0,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 1,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 8,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 9,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 32,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 33,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 38,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 38,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 39,
+      "category": "gripper_finger"
+    }
+  ],
+  "added_v2_vs_original": [
+    {
+      "image_id": 9,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 32,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 33,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 39,
+      "category": "drawer_front"
+    }
+  ],
+  "dropped_original_vs_v2": [
+    {
+      "image_id": 8,
+      "category": "gripper_finger"
+    }
+  ],
+  "all_three_common": [
+    {
+      "image_id": 0,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 1,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 8,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 9,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 32,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 33,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 38,
+      "category": "drawer_front"
+    },
+    {
+      "image_id": 38,
+      "category": "gripper_finger"
+    },
+    {
+      "image_id": 39,
+      "category": "gripper_finger"
+    }
+  ]
+}

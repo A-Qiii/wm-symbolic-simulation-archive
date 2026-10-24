@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-15T09:58:04.748418+00:00",
+  "files_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/configs/shared_batch_schedule_seed0.npz": "d2c06526d0f8c29249ab40c32ea1481a03ec9c2310ddf46137ab5e3ff8eeba65",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/configs/shared_batch_schedule_seed1.npz": "800dbb07a0856b2e707ec75d3a1929a5fd7bae2c2a1cd75befb95416aa78ca61",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/configs/shared_batch_schedule_seed2.npz": "86fd955c6a7a14baf519c6897c00fbdf6331ab9d77fc28852132bbae05a5fead"
+  },
+  "all_written_before_first_optimizer_update": true
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-18T06:53:43.637564+00:00",
+  "before_any_physics_run": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/official_state_resimulation_20261018/source/run.py": "345deabb726e677e35795715653458be5f080dfdc68f040d38e09b984ecd05db",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/experiments/combination_generalization_20261017/evaluator_review_v1/source/native_evaluator.py": "7790f8482900766607dc2ae26a41f790222b14ddae8ba819952622a879d7aa78",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/robot.py": "65721aa5f6bbb74a7bfabd53fe05699c0fc281d682363f065600f94622a396a7",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/mixed_ik.py": "a8c3f9942969d9d630f5648d4cb6e3ea281d47ddfed4dba78a43c5d1e514333e",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/scene/play_table_scene.py": "ef09d5748deb4a3e75247943689e294cc616b8e183cf8e8284ae510988b5aed0",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/configs/delivery_manifest.json": "a6b89fbc4944dec27a4dcfbba5da5031d14cd243d87726e53273bde4c88b6583",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/configs/combined_frame_selection.json": "9a45b425f295c0b2c0c1efe3f0bc786adf5e7fb0e2b52db917f8a2a6cfbf13e7",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_AB_state_pilot_20261018/results/color_mapping_evidence_refined.json": "66cc79651a56f0eef9cbcbb0783db146d52feb128104d4bae33f420f76295572",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_middle.urdf": "0858ed14985658312e0d4385af2a3c0456800b8db6c9a84c05a876d6effc4b31",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_small.urdf": "eb0c1a324fd79652fbabba26cd88755c5136015528f30de5ed2f50f77657a868",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/conf/scene/calvin_scene_B.yaml": "7577625ef8dc40918936875697806b3dc1fa53a7ba59c4d0950cd2937a47baa0",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_red_small.urdf": "6a205c802bd508fd6bff6d90583c7308db856828f0dc227edd50627c149357d1",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/data/blocks/block_pink_middle.urdf": "a6f92bca6ca19460b461a08171a66ce3ab27b12bb2a9fbbd8ebe6e2bc5a44107",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_state_resimulation_20261018/configs/protocol.json": "0870c6817f4b8c7ab0796a4f9fb76459948bf0aefc41a81273a0fa4b50511582",
+    "/home/robot/research/projects/wm_symbolic/experiments/official_state_resimulation_20261018/configs/inputs.json": "089a446dfead95ad9f5300a07dac01f77aa5ac6904b6cb24dcf022c113b59527"
+  }
+}

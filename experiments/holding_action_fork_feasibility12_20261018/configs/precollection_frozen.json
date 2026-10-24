@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T16:39:48.767182+00:00",
+  "before_first_new_root": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/input_references.json": "f53a09e3b3b325ca469be13c1da38ae3a3b2ec619f98d3471471c2526c071547",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/protocol.json": "6e4d0a6c5b3055e1a199ec50e36b49838dd7ebfde231828638b261ba96d3b016",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/historical_exclusion.json": "4f37d3b630372e2176af3ca1c45f7ae2f7cd7ca186afe0bd6f4c1aeafe4f58e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/collect.py": "b92f2d5f58d6a331b5be9c387a5de3deb26a808868c0b177d2d8eefb469a858c",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/common.py": "5f32ac590e9f92a272f3e44e3c86f44313553385a3dd2ab0c528f0f3ccdac3c9",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/source/prepare.py": "92fc6c206f5d157f5e8ba786e4e2acdcf06aec666677344e04be9fc071405f43"
+  }
+}

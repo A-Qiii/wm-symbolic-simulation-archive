@@ -1,0 +1,48 @@
+{
+  "frozen_utc": "2026-10-16T14:35:24.830615+00:00",
+  "selected": {
+    "span3_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed0/update0250.pt",
+      "sha256": "3b601d2d5a5b2f03737a5bb1cb744f55be2187a778ca6588dc7d5f532939c64b",
+      "C_score": 1.1888126581907272
+    },
+    "span4_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed0/update0250.pt",
+      "sha256": "9100c1a1605b86ce8fa54946717f36d4e592ae648a26e491f1f10102f2808d64",
+      "C_score": 1.1990782022476196
+    },
+    "span3_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed1/update0250.pt",
+      "sha256": "db5d643c1f74c21d8ca40d2150f46c4c7520fd2486050e74551d0e56628007e9",
+      "C_score": 1.2024592906236649
+    },
+    "span4_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed1/update0250.pt",
+      "sha256": "4937f19665012b9a6ae01e369f283e8c78b392f2735fa1eaf889b87443109d1b",
+      "C_score": 1.2049647867679596
+    }
+  },
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "C_validation_or_test_used": false,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed0/update0250.pt": "3b601d2d5a5b2f03737a5bb1cb744f55be2187a778ca6588dc7d5f532939c64b",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/results/train_span3_seed0.json": "73dd631ff19a9fdaa6e5cb960c95cb3103db1a0ea1f947fa3fc09176622e284b",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed0/update0250.pt": "9100c1a1605b86ce8fa54946717f36d4e592ae648a26e491f1f10102f2808d64",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/results/train_span4_seed0.json": "d8ea7489ad435179554364720015338787f8050f909f50b2ac157b46feb6d0ff",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span3_seed1/update0250.pt": "db5d643c1f74c21d8ca40d2150f46c4c7520fd2486050e74551d0e56628007e9",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/results/train_span3_seed1.json": "cc1a397167e55d47caef89eecc738d1d92958756555d61f87a07751ecc1a516d",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/models/span4_seed1/update0250.pt": "4937f19665012b9a6ae01e369f283e8c78b392f2735fa1eaf889b87443109d1b",
+    "/home/robot/research/projects/wm_symbolic/experiments/supervision_span_20261016/results/train_span4_seed1.json": "5a5fbf84b552e162887c237ac1fbe8515c9874964bcb909d9523b2ae12a26717"
+  }
+}

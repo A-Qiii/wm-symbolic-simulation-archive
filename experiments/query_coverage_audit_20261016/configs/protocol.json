@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-15T17:14:11.101537+00:00",
+  "scope": "Read-only bounded AB coverage and object-binding audit. No new training or collection before evidence review. C restricted to previously reported errors.",
+  "independent_unit": "Existing root initial layout/seed, not frames, queries, reset branches or adjacent windows. Count each root once per category; positive/negative memberships may overlap.",
+  "population": "All420new-semantics AB windows; legacy228 AB windows do not carry In/drawer supervision and are excluded from those coverages.",
+  "categories": {
+    "tabletop_closed": "Closed valid true; object has upward table-base contact, bottom z0.44±0.005m, not Held.",
+    "contained_closed": "Closed valid true AND In valid true; positive-defined state, with all_closed_states separately reporting unbiased positive/negative composition.",
+    "falling_now": "Unheld, no current upward external support force>0.01N/nz>0.5/gap<=3mm, downward vz<-0.02m/s.",
+    "fallen_below_table": "Unheld, no drawer load-bearing path, whole object top z<0.30m; distinguish from active falling.",
+    "protruding_supported": "Outside by frozen full-OBB labels but drawer load-bearing path exists.",
+    "near_boundary_supported": "Drawer-supported and abs minimum side/rim clearance<5mm; descriptive audit, no label threshold change."
+  },
+  "implementation_checks": "Recompute all AB labels from original physical snapshots, inspect saved target column and object-region mapping, all6entity permutations and alias/order checks on allAB with frozen checkpoints; target goal metadata must not affect shared reader probability.",
+  "randomness": "Existing runs use onlyseed0; do not claim seed variance or create extra seeds merely to explain one C error. Saved checkpoints may be read solely to explain existing C failures.",
+  "decision": "Clear label/binding bug can justify original fixed experiment repair. Coverage-only deficiency may justify one preregistered independent AB/C batch. Otherwise stop tuning and report wider choice needed.",
+  "preserve": "All old source, labels, scores and candidate decisions read-only. No newD, cloud, paid APIs, controller or original gate changes."
+}

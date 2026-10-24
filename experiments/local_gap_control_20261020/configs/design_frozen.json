@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-20T00:53:48.403076+00:00",
+  "before_training": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/local_gap_view.py": "36364a9b4dc95a4ca4e5100f9cbd62c3fc5b9e84eb1fea362b7fab05d19dd08a",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/score.py": "539fd210668a3e9ad98967f3c9499aa73316e4f8fe14d77e30996b83162cfe00",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/losses.py": "12eb5a2021a4e568a63d2acaf5d95151f560924031d548eaee5e235ef1c1cc52",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/losses_reference.py": "b22660095f0dd10a0a9446a3bc6d346208cd6958e577e71131c118dd87752341",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/local_gap_support_audit.py": "472c0df05b5c38427de8ef604c5d57f44c1aed3358122672374c03d3fd6186d6",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/models.py": "d9248fa21e25651c4835403c102f212f514dfb65ee68bfc4f4e1a1eb4d4697ab",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/data.py": "fafe788864f259025d9f58ad90ab135cef042ecbc156f5020c0bdfad51636a13",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/train.py": "cdc8b54544f75bf693a5faa27c7c2aa47514aca27291d198b0a5de2b46827be3",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/local_gap_install.py": "65a56440ce42c94ea9955d4e3224145b282b964862d36adbfc90bcff889a82d6",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/evaluate.py": "786bc4f5089acca6526e0a2f3a9eaff46590c725bcc3ad6a23a211f61c7af105",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/freeze.py": "5b4bdd814908647c22585899270a7de1b9f7350771f54a2f1dd848d5f8c97745",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/common.py": "3aa05fa01c8c239275c4ad87331a045ac6d495013c6cd842503c4ad2852cff4c",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/source/local_gap.py": "3c58df6e1bf4f60b504c62a6e6912717a5e4f0b89cbec214adcd656d62274b5b",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/protocol.json": "452595da3e00e7ad20b013baa1d6baf7bd09a33851128cced52211113b6b37e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/data_membership.json": "c45b5d80e5462950c3cb3ab7c65f60447c2f966ea3038ece04f01735928b05a6",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/episode_order.json": "5eebb6f7511247671b4050673298d153432095b56b5e4e46ef0848106f7d7977",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/schedule_seed0.npz": "1306f840f16931c6eec48c73cca3e999764246da33501ca10f40d906dfc33ca7",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/schedule_seed1.npz": "4f3d9b64ede43d3809337fbe81f187d708242b605eef64d08815777e64456f18",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/original_geometry_normalization.json": "2790c24c214ef3424ce7ab309b67e70d09dddb1c458e49296397ae86a6b2b7a7",
+    "/home/robot/research/projects/wm_symbolic/experiments/local_gap_control_20261020/configs/local_normalization.json": "65f02ad5039b464dcd15848974808af052720550e3bae110bb9683fc700f5144"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-19T19:06:01.164772+00:00",
+  "before_collection": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/world_model.py": "480376ab096af5a8ba7cbef5603ff51f910a1abbbc98e830ff86e6e9592d0a4f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/dataset.py": "3e82e173e925518fdc66cf8395809e244630ca06408afa5530665b50a80e1a1f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+    "/home/robot/research/projects/wm_symbolic/experiments/terminal_posterior_supervision_20261019/source/losses.py": "9777729c20559e9883648a9a66729ae203353593a4b0286a41171586ccbfd60d",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/configs/normalization.json": "0e1f593437e790dba4ffc13db0f8913eed43c23d6dede6187af50ec7d29317e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/configs/fixed_design.json": "6f68dbf98ab093c2fb699adbf32d0013d76124ee084f76f63b17b0b9a91ab6c6",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed0/latest.pt": "bf3ddca744ba0ba008fdd3c45485c2e6829a191328481cd3620aa7de1cb46941",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed0/final6000.pt": "3823ee9bd6428ac9a80b92650bc11c5cf3f05df434537bd55b95ed67b5476dbf",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed1/latest.pt": "2ee08ad67bc2dbde0cd89660ae3f1033e18732e9a55680be89faf7e26ef28330",
+    "/home/robot/research/projects/wm_symbolic/experiments/rssm_scaling_run_20261019/cells/roots40/models/joint_seed1/final6000.pt": "c8b44cec9bdee9c46b47088566d2a01b89f3772e4f48de79984d482a2d78af00",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/collect.py": "1bc199e5188e2ef202e9d371beace76f0c6c72291f34b0c3ee4379dee297d268",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/preflight.py": "9f409c2db130f94213abd1f09c8b9b39e4d57a314fd1318fddbb4dc7e5f24241",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/episode.py": "79a1f07872aff4f42be096bc8e771a563460e1dfe704d24bdd346562d7077891",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/freeze.py": "d2679e86acf0e85fa19af6fb651da70587c670437053793d00eadc7a643753c2",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/cache.py": "3aab412023fc4a38db2043f3a30563311a744f832a2045745c3dfe405f29c61e",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/common.py": "568008faa72a4645f142ecee1c1ec0f06a7a4f53e4caeaf67fd74c4eb727aa18",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/configs/protocol.json": "e863371bc334bc9142eebf19e94e5d5e7bb8d2db783e511329896cb6b05ef617",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/configs/root_recipes.json": "60efc5824634ab87f166bf810aefc7b636cc7023c583eaee13c88e29d8997c7f"
+  }
+}

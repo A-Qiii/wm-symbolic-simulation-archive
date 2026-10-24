@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-19T15:20:54.680468+00:00",
+  "status": "FROZEN_BEFORE_ANY_FIT",
+  "plan": "/home/robot/research/projects/wm_symbolic/experiments/table_position_probe_plan_20261019/DESIGN.md",
+  "question": "Can fixed current-observation features decode table-local x and signed region-boundary distance?",
+  "feature_columns": [
+    "object512",
+    "global512",
+    "fixed_color_onehot3",
+    "public_availability1"
+  ],
+  "gt_use": "targets, eligibility masks and offline scoring only; separate privileged_geometry heads deliberately receive signed GT distances",
+  "coordinate": "table-local x from calibrated physical mesh; x_world minus table origin, zero native rotation; q=(x+.44)/.88",
+  "cuts_m": [
+    -0.14666666666666667,
+    0.14666666666666672
+  ],
+  "table_bounds_m": [
+    -0.44,
+    0.44
+  ],
+  "valid_margin_m": 0.005,
+  "fits": 6,
+  "updates_per_fit": 1500,
+  "total_updates": 9000,
+  "batch": 64,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0
+  },
+  "visual_architectures": {
+    "linear": [
+      1028,
+      1
+    ],
+    "mlp": [
+      1028,
+      256,
+      1
+    ]
+  },
+  "geometry_architecture": [
+    2,
+    256,
+    3
+  ],
+  "visual_loss": "SmoothL1 beta=.005/.88; mean eligible objects per boundary then mean nonempty boundaries",
+  "geometry_loss": "Cross entropy on same eligible objects and same sample indices",
+  "input_normalization": "training eligible object mean/std for first1024 dims, std min1e-6; onehot and availability unchanged",
+  "initialization_seeds": {
+    "linear": [
+      261019900,
+      261019901
+    ],
+    "mlp": [
+      261019910,
+      261019911
+    ],
+    "geometry": [
+      261019920,
+      261019921
+    ]
+  },
+  "selection": "Final update1500 only. Select linear vs MLP separately per E by lowest validation h0 root-weighted MAE, exact tie -> linear; retain/report both. No hyperparameter change or refit. Freeze selection before old_band/gap scoring.",
+  "primary": "h0 b0, root-weighted MAE mm, RMSE mm, fixed-region accuracy, error smaller than true boundary margin",
+  "secondary": "all boundaries root-cluster paired2000 bootstrap; per-region confusion and margin bins [5,10),[10,20),[20,40),[40,infinity) mm",
+  "old_classifier": "reuse saved coverage-trained original 8-way head predictions and old narrow-control predictions; full argmax of 8 categories, non-table output counts wrong",
+  "scope": "Exploratory reuse of historically seen A/B only; C/D forbidden, no new collection, no encoder forwards, no RSSM fits",
+  "compute_limit_seconds": 1800,
+  "configuration_changes_after_evaluation": 0
+}

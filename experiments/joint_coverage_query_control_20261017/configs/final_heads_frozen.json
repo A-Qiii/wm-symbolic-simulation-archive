@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-17T04:11:03.632080+00:00",
+  "before_evaluation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/control_seed0/update0600.pt": "7e6cd8cdee51ba54cb5d674cbbf0e8ac4bf6b2bf870b7210e978fd70cbc0ac85",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/control_seed0/update0000.pt": "327b8bad689211d1642e7dbee958bb98e41d70183edebee5d3e6606c9cd6f6ff",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/coverage_seed0/update0600.pt": "36328bc3562c81f146737cee72f129c1c5e5aa968ae7954976bbdb938c8537d8",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/coverage_seed0/update0000.pt": "327b8bad689211d1642e7dbee958bb98e41d70183edebee5d3e6606c9cd6f6ff",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/control_seed1/update0600.pt": "777f8f4a93af725ae2c8b34771943a67b70147b79163502dfcd6bbcb44fbf2df",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/control_seed1/update0000.pt": "6f213bb8eeb891c3eddbc79c98f50ada437a171a63322dba9c61dfaa3da1e2d6",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/coverage_seed1/update0600.pt": "d9711a1687093c0cbf98ca48ee872ef5869ce98ee25f91b44a31658181d6b64b",
+    "/home/robot/research/projects/wm_symbolic/experiments/joint_coverage_query_control_20261017/models/coverage_seed1/update0000.pt": "6f213bb8eeb891c3eddbc79c98f50ada437a171a63322dba9c61dfaa3da1e2d6"
+  }
+}

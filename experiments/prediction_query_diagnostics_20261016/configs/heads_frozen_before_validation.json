@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-16T11:54:40.466266+00:00",
+  "selection_complete_before_C_validation_read": true,
+  "selected_heads": {
+    "original_coverage_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/original_coverage_seed0/update0600.pt",
+      "sha256": "41fe3786b5e7f29162f344e36fc165d90ddb631d24fcc29da5d5359138ecbc7f",
+      "C_selection_root_macro_loss": 0.31895074248313904,
+      "selection": "minimum fixed C-selection root-macro query loss; earlier tie"
+    },
+    "original_coverage_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/original_coverage_seed1/update0600.pt",
+      "sha256": "9240de92b80c26656ea93df1ad1fc3a6fbcf4f9fa3c46fc45485965317287c37",
+      "C_selection_root_macro_loss": 0.33401766419410706,
+      "selection": "minimum fixed C-selection root-macro query loss; earlier tie"
+    },
+    "intermediate_coverage_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/intermediate_coverage_seed0/update0600.pt",
+      "sha256": "ef8f443498fc5b1cd0f94beb9964d1ca8e9d0da8437b50f7908fa752ea4df45c",
+      "C_selection_root_macro_loss": 0.28425613045692444,
+      "selection": "minimum fixed C-selection root-macro query loss; earlier tie"
+    },
+    "intermediate_coverage_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/intermediate_coverage_seed1/update0600.pt",
+      "sha256": "a8acc96b5d985326a4a8232c60b969d9a88e64a4e16b4c8c9d42251e0497c7ea",
+      "C_selection_root_macro_loss": 0.35529839992523193,
+      "selection": "minimum fixed C-selection root-macro query loss; earlier tie"
+    }
+  },
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/original_coverage_seed0/update0600.pt": "41fe3786b5e7f29162f344e36fc165d90ddb631d24fcc29da5d5359138ecbc7f",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/original_coverage_seed1/update0600.pt": "9240de92b80c26656ea93df1ad1fc3a6fbcf4f9fa3c46fc45485965317287c37",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/intermediate_coverage_seed0/update0600.pt": "ef8f443498fc5b1cd0f94beb9964d1ca8e9d0da8437b50f7908fa752ea4df45c",
+    "/home/robot/research/projects/wm_symbolic/experiments/prediction_query_diagnostics_20261016/models/intermediate_coverage_seed1/update0600.pt": "a8acc96b5d985326a4a8232c60b969d9a88e64a4e16b4c8c9d42251e0497c7ea"
+  }
+}

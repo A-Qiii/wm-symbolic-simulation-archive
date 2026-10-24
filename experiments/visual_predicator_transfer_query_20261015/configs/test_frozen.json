@@ -1,0 +1,186 @@
+{
+  "created_utc": "2026-10-15T14:50:18.246085+00:00",
+  "roots": 6,
+  "arms": [
+    "visual_learned_rules",
+    "GT_symbols_learned_rules"
+  ],
+  "max_calls": 96,
+  "max_calls_per_episode": 8,
+  "pilot_root": "D_relquery_transfer_red_closed_0",
+  "freeze_before_test_physics": true,
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/configs/protocol.json": "ff7ace416a72a83924c6e7a4fb2907e70e19ccbc264d79154db89c9bfe5e9c22",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/configs/reader_frozen.json": "caf714ac47bc63777646c9250fd836206e67b42059314237c90dbf460d19b2b6",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/models/query_seed0_update0300.pt": "a76beb5ce7aec8670128d6075ebcb4f849b1a342ebf2b8864986fa96b7b764f7",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/configs/rules_frozen.json": "0b38557f03bde50576eee9976749bdb0963a63df38ad0ba4212117b19b928fe5",
+    "/home/robot/research/projects/wm_symbolic/data/visual_predicator_transfer_query_test_20261015/roots_manifest.json": "fce09905abd3808178f2298b0113c2a884fbc475cd00588872a7f763b3738eb0",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/configs/root_exclusion.json": "3cbabe7d7cec07eb13c688838265d086d3321a7f4487c7ca0ecaeb3201417f95",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/source/cache.py": "d235ee0a0b0969e9551d3990683dc4aa9b58f87dfff7ca6213e0fc06fa80b17a",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_rgb_registry_v1_20261014/source/registry.py": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/common.py": "b45c3cea08f1ce987f28f6c3257fb166f44aebb92184280c8206bed7f5f9dc31",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/model.py": "dda36f90b2ceb342057d45c5798215b47bdca56880bef29e9c4a91f100f953e6",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/symbolic.py": "a7fbf254faab089a26d4213a6cd95cf214031fee5a34c989e13e17725acdc42a",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/worker.py": "72d9f699dfb013e6d386d87f1acf9d83ff55ccbb415a7475a952babd43aec329",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/collect_test.py": "640d30605bebe42de3fb88a29700904a91ff670f8bdefac042924c03ae657783",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/source/validate_test.py": "52394dc6499f4abe6faa36e55bb64b098b463591777bb0668bb12eacab3554f0"
+  },
+  "reader": {
+    "update": 300,
+    "C_root_macro_BCE": 0.02130189910531044,
+    "path": "/home/robot/research/projects/wm_symbolic/experiments/visual_predicator_transfer_query_20261015/models/query_seed0_update0300.pt",
+    "sha256": "a76beb5ce7aec8670128d6075ebcb4f849b1a342ebf2b8864986fa96b7b764f7",
+    "C": {
+      "windows": 84,
+      "all7": 83,
+      "valid_facts": 588,
+      "correct_facts": 587,
+      "UNKNOWN": 0,
+      "facts": {
+        "Holding(red)": {
+          "positive": 9,
+          "negative": 75,
+          "TP": 9,
+          "TN": 75,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "Holding(blue)": {
+          "positive": 12,
+          "negative": 72,
+          "TP": 11,
+          "TN": 72,
+          "FP": 0,
+          "FN": 1,
+          "UNKNOWN": 0
+        },
+        "Holding(pink)": {
+          "positive": 11,
+          "negative": 73,
+          "TP": 11,
+          "TN": 73,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(red,drawer)": {
+          "positive": 5,
+          "negative": 79,
+          "TP": 5,
+          "TN": 79,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(blue,drawer)": {
+          "positive": 6,
+          "negative": 78,
+          "TP": 6,
+          "TN": 78,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(pink,drawer)": {
+          "positive": 6,
+          "negative": 78,
+          "TP": 6,
+          "TN": 78,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "Open(drawer)": {
+          "positive": 44,
+          "negative": 40,
+          "TP": 44,
+          "TN": 40,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        }
+      }
+    },
+    "AB": {
+      "windows": 228,
+      "all7": 228,
+      "valid_facts": 1596,
+      "correct_facts": 1596,
+      "UNKNOWN": 0,
+      "facts": {
+        "Holding(red)": {
+          "positive": 27,
+          "negative": 201,
+          "TP": 27,
+          "TN": 201,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "Holding(blue)": {
+          "positive": 24,
+          "negative": 204,
+          "TP": 24,
+          "TN": 204,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "Holding(pink)": {
+          "positive": 25,
+          "negative": 203,
+          "TP": 25,
+          "TN": 203,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(red,drawer)": {
+          "positive": 22,
+          "negative": 206,
+          "TP": 22,
+          "TN": 206,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(blue,drawer)": {
+          "positive": 21,
+          "negative": 207,
+          "TP": 21,
+          "TN": 207,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "In(pink,drawer)": {
+          "positive": 21,
+          "negative": 207,
+          "TP": 21,
+          "TN": 207,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        },
+        "Open(drawer)": {
+          "positive": 130,
+          "negative": 98,
+          "TP": 130,
+          "TN": 98,
+          "FP": 0,
+          "FN": 0,
+          "UNKNOWN": 0
+        }
+      }
+    }
+  },
+  "rule_source": "learnedAB_only",
+  "fixed_manual_rules_not_used_for_search": true,
+  "no_D_training_or_reselection": true
+}

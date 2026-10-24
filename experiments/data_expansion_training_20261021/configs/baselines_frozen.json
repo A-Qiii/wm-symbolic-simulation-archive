@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-21T09:20:48.880180+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed0_step1500.pt": "c07d69aea93a16b1eec9fd3a8bccdb9892d2687be00ab372426465750b2ef78a",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed1_step1500.pt": "d808ccc31ef425af47963808f5f49cdafd7d665360750096708330eeed7d9730"
+  },
+  "fits": [
+    {
+      "utc": "2026-10-20T02:06:53.630638+00:00",
+      "arm": "cold_mix",
+      "seed": 0,
+      "updates": 1500,
+      "parameters": 2490068,
+      "initial_sha256": "a85e360ac26540cea58f3dcadf62e236df6f3568d2717d4f135b862460261b41",
+      "seconds": 162.78773617744446,
+      "max_gpu_bytes": 143687168,
+      "full_original_parity": null,
+      "checkpoint_sha256": "c07d69aea93a16b1eec9fd3a8bccdb9892d2687be00ab372426465750b2ef78a"
+    },
+    {
+      "utc": "2026-10-20T02:15:37.824197+00:00",
+      "arm": "cold_mix",
+      "seed": 1,
+      "updates": 1500,
+      "parameters": 2490068,
+      "initial_sha256": "5cb94ae9ba681445192588b1b855fa02ef7fe98300a9465bb01b9bfee2da1fc4",
+      "seconds": 164.30691051483154,
+      "max_gpu_bytes": 143687168,
+      "full_original_parity": null,
+      "checkpoint_sha256": "d808ccc31ef425af47963808f5f49cdafd7d665360750096708330eeed7d9730"
+    }
+  ]
+}

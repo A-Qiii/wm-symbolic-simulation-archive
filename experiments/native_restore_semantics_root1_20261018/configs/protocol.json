@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-18T16:54:46.480232+00:00",
+  "purpose": "Resolve native restore semantics only; existing first root, no new layouts/dataset/model",
+  "old_failed_pilot_immutable": "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018",
+  "root": "fork12_A_00",
+  "runs": [
+    {
+      "name": "H1_reference",
+      "primitive": "hold24",
+      "previous_history": "initial archive bridge into new same-layout client; native S"
+    },
+    {
+      "name": "H2_after_same_H",
+      "primitive": "hold24",
+      "previous_history": "H1 only, no different primitive since reference"
+    },
+    {
+      "name": "L1_short_lift",
+      "primitive": "lift24",
+      "previous_history": "H2"
+    },
+    {
+      "name": "H3_after_L1",
+      "primitive": "hold24",
+      "previous_history": "L1 short lift"
+    },
+    {
+      "name": "L2_short_lift",
+      "primitive": "lift24",
+      "previous_history": "H3"
+    },
+    {
+      "name": "H4_after_L2",
+      "primitive": "hold24",
+      "previous_history": "L2 short lift"
+    }
+  ],
+  "budget": {
+    "max_prefixes": 6,
+    "controls_per_prefix": 24,
+    "max_execution_controls": 144,
+    "ticks_per_control": 8,
+    "max_execution_ticks": 1152,
+    "native_initialization_resets": 2,
+    "new_layouts": 0,
+    "fits": 0,
+    "replacement_runs": 0
+  },
+  "same_snapshot": "Load old aligned_action_start.bullet into identically configured existing bodies/constraints, restore typed Python state and reissue exact archived motor commands. Require exact archived evolving fields, contacts and dualcamera arrays before creating one new native in-memory S. All6prefixes restore sameS. Archive materialization differences stop the harness, not repaired by physical resets.",
+  "actions": "H is original saved first absolute target/quaternion/closedgrip repeated24. L is exactly original saved lift commands1..24:hold12thenrise12x2.5mm=30mm. Thus all6sharefirst12commands; H1/H2/H3/H4shareall24, L1/L2shareall24. No72step full-lift replay due144control bound; report scope precisely.",
+  "restoration": "Original native restoreState only at run boundaries; restore all archived robot/IK/scene/RNG/camera/controller/history values, converting JSON enum names back to same enum types and monitor arrays to same ndarray types; reissue13exact motor commands covering7arm,2fingers,4tablejoints. No resetJointState/resetBase/dynamics/collision/attachment/external-force changes during prefixes. Record physical before native restore, after native restore, after motor reissue.",
+  "prior_output_classification": "getJointState field3 for alljoints and getConstraintState are separately retained as prior solver outputs according to matching3.2.7C++ source. None deleted; fullcomparison retained. At step0 classify these fields rather than treating stale values as evolving state by assumption. Other fields and Python must match exactly. From first physicaltick onward every field including torques/constraint output is compared.",
+  "tolerances": {
+    "primary": "exact canonical numeric/structural identity, tolerance0 in each native unit; contacts sorted only for permutation; no numerical pass threshold",
+    "reason": "same binary, client, restored snapshot, exact issued commands, fixedstep and render schedule; deterministic reproduction is the hypothesis. Any nonzero difference will be quantified with units and called a divergence, not excused using label agreement. No threshold fitted after seeing results.",
+    "units": "body/link xyz m; angular/joint revolute rad; prismaticjoint m; linearvelm/s,angularvelrad/s; revolutemotorN*m,prismaticmotorN; gear nativeconstraintimpulse/dt, report separately; RGBuint8/depthfloat32/maskint exact"
+  },
+  "measurements": "Everycontrol0..24:fullphysicalstate, bothindividualfingers, allcontacts, support/Holding threecutoffs/history, Python and actualcommand, same-time dualRGB/depth/mask withrenderinvariance andmaskflagRGBcheck. Firstcontrol also fullstate aftereachof8physics ticks and dualimages aftertick1. No model/public dataset output.",
+  "comparisons": "H2/H3/H4 versusH1 all24; L2versusL1 all24; all6versusH1 first12. Pre-step readbacks, firsttick refresh, firstcontrol endpoint and onset over24. Contact-topology and support/Holding separately; no action-effect inference.",
+  "safety_and_stops": "Existing guard/motor/IK configuration, device3mm, non-targetobject10mm, robotpenetration10mm, non-targetrobotcontact>.01N. Abort for unsafe or core/Python/archive-bridge mismatch. If trajectories diverge but safe, finish only prespecified comparisons to localize effect; no repair/retry/action-effect interpretation.6prefixes is maximum, not target afterabort.",
+  "source_semantics": "Exact installed3.2.7API docstrings/binaryhash; official3.2.7PyPIsdistSHA042879db8d101ac7590dee475fc6aded508b85fe1273fdbbfde1d88bd200e14f. Readback=constraintstoredimpulse/dt; restore_existing syncsposes/velocities/contactmanifolds, doesnotrestore existing motor targets/appliedimpulses. Noncontact impulses reused only whenSOLVER_USE_ARTICULATED_WARMSTARTING set; default source excludesflag; stockCALVIN only setsdeterministicOverlappingPairs. Source-version match is not binary build attestation; trajectory test remains necessary.",
+  "supported_start_analysis": "Readonly originalpreparationtrace andnativeURDFgeometry; identify firstsupportloss/Holding, stage, TCPtargets, individualfingercontacts andverticalforces; no labelmodification or new supported-startpilot.",
+  "interpretation": "Reproducibility if observed is finite existing-root validation, not general solver-state completeness,72step after-history proof, or action/state prediction evidence. Old failedpilot remainsfailed; any new collection requires independentfreeze."
+}

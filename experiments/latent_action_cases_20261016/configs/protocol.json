@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-16T09:48:56.495804+00:00",
+  "purpose": "Four sealed action cases: no training, no new physics, no threshold or test score changes.",
+  "model": "canonical_matched_seed0 selected update1000",
+  "selection": "Fixed categories in order open-blue/reference/success, lift-pink/reference/success, place-red/held_open/success, place-blue/held_closed/refused. Within each choose lexicographically smallest (root_id,pair_id) not previously used. Fixed target colours promote diversity. No selection by latent errors, query agreement, coordinates or visual appearance.",
+  "background": "All 338 frozen selected actual boundary states from latent_tsne_20261016; no new sampling.",
+  "union": "Concatenate 338 background vectors and 4 cases x current/predicted/actual. Alias an actual endpoint to existing background state ID when present; deduplicate exact vector duplicates with shared coordinates. Keep full logical-to-unique map. No jitter or point relocation.",
+  "scaling": "Reuse frozen 256D interaction AB-training mean/std from previous tSNE (102 AB points). No case or test data changes scaling.",
+  "projection": {
+    "PCA": 50,
+    "PCA_solver": "full",
+    "fit": "once on full unique unlabeled union",
+    "n_components": 2,
+    "perplexity": 30,
+    "random_state": 42,
+    "init": "pca",
+    "learning_rate": "auto",
+    "early_exaggeration": 12,
+    "max_iter": 1500,
+    "method": "barnes_hut",
+    "angle": 0.5,
+    "metric": "euclidean",
+    "n_jobs": 1
+  },
+  "error": "mean over256 dimensions of ((prediction-actual)/frozen_AB_std)^2, unitless AB-standardized latent squared distance. Supplement raw latent MSE for crosscheck only.",
+  "render": "All four panels share one fitted coordinate system and exact axis ranges. Blue circle current, orange triangle prediction, green star actual; dashed orange prediction arrow and solid green actual arrow. Labels may use leader lines, coordinates never shifted.",
+  "ground_truth": "Only selecting user-requested outcome strata, semantic annotations and posthoc diagnostics. Never model, scaling, PCA or tSNE input.",
+  "refusal": "Executed place request was refused before controls; settling frames still recorded. Do not describe as mechanical movement failure."
+}

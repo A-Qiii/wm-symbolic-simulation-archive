@@ -1,0 +1,48 @@
+{
+  "frozen_utc": "2026-10-16T15:15:02.258509+00:00",
+  "selected": {
+    "mixed_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed0/update0750.pt",
+      "sha256": "be3b7ec4530b109f016c31821e92b5e558fb463191ea6b45c2b11037ff24f2f6",
+      "C_score": 0.3717340752482414
+    },
+    "latent_seed0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed0/update1000.pt",
+      "sha256": "6d3ca5f910db0524921b8b7f7437174bb39c5f1ed18e5a1f3651204df1547a68",
+      "C_score": 0.28229083120822906
+    },
+    "mixed_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed1/update0750.pt",
+      "sha256": "293ee347ca07cff85fc3c73b528243b06c33487400ec6bbeac30792426895cc7",
+      "C_score": 0.37214062362909317
+    },
+    "latent_seed1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed1/update1000.pt",
+      "sha256": "60363e3887861e7f46a1b955bb0b10a900c3827114cf21d83fc4bde59738a735",
+      "C_score": 0.28225962817668915
+    }
+  },
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "C_validation_or_test_used": false,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed0/update0750.pt": "be3b7ec4530b109f016c31821e92b5e558fb463191ea6b45c2b11037ff24f2f6",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/results/train_mixed_seed0.json": "e6fa574a3468cc43991e91e1f11cc22f91301bd45ff2f834a9d502e58b604c04",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed0/update1000.pt": "6d3ca5f910db0524921b8b7f7437174bb39c5f1ed18e5a1f3651204df1547a68",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/results/train_latent_seed0.json": "16c45c0385c18db858d435dcbaf303a6b00c59b811fe89666e8b298d7d953463",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/mixed_seed1/update0750.pt": "293ee347ca07cff85fc3c73b528243b06c33487400ec6bbeac30792426895cc7",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/results/train_mixed_seed1.json": "9fb82dadf74562985baf4ea429c35fe12897db724d4cf7bce2ae6e974997c396",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/models/latent_seed1/update1000.pt": "60363e3887861e7f46a1b955bb0b10a900c3827114cf21d83fc4bde59738a735",
+    "/home/robot/research/projects/wm_symbolic/experiments/transition_objective_ablation_20261016/results/train_latent_seed1.json": "49d195cdd8117ab2b98ef5669c210366427fa490ad77046b1204c0847d065cd3"
+  }
+}

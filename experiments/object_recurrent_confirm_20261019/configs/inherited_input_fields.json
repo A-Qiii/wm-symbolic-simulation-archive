@@ -1,0 +1,43 @@
+{
+  "model_inputs": {
+    "objects": "3x512 public current four-frame dual-camera frozen DINO and spatial encoder features",
+    "context": "512 shared frozen encoder context",
+    "availability": "3 RGB-routed visible mask ROI fractions",
+    "verb": "requested action verb0open1close2lift3place",
+    "pointer": "explicit requested color only for lift; zeros for place",
+    "budget": "executor requested budget900"
+  },
+  "target_only": [
+    "categorical",
+    "categorical_valid",
+    "binary",
+    "binary_valid",
+    "success",
+    "events",
+    "events_valid"
+  ],
+  "metadata_only": [
+    "root_id",
+    "family_id",
+    "held_color",
+    "target_color",
+    "branch",
+    "status",
+    "physical validity"
+  ],
+  "excluded_as_inputs": [
+    "true held state",
+    "true InDrawer state",
+    "GT poses",
+    "success labels",
+    "future observations",
+    "branch identifier",
+    "root identifier",
+    "H/T role labels"
+  ],
+  "mask_caveat": "Renderer visible instance/link masks provide privileged localization. RGB-majority matching routes identity. UID numeric values used solely for cache lookup. Shared both arms.",
+  "global_fairness": "all3separate512objectvectors flattened in stable red blue pink order, context512, availability3; no averaging bottleneck",
+  "source_batching": "Only algebraic vectorization of independent six directed edges and independent rollout starts; FP32 loss and gradient agreement required before first update",
+  "from_scratch": "All recurrent states and interfaces freshly initialized. Only frozen perceptual encoder reused.",
+  "storage": "All outputs inside new experiment; original studies unchanged; single GPU lock; offline; no collection."
+}

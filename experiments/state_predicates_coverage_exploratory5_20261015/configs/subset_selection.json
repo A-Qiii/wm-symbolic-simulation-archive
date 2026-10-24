@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-15T09:55:59.781151+00:00",
+  "posthoc_exploration": true,
+  "human_authorized_after_original_gate_failure": true,
+  "selection_rule": "All and only roots with strictly_matched=true under original frozen pose gate; both conditions retained or both excluded. No model outputs or scores consulted.",
+  "selection_uses_model_predictions": false,
+  "selected_root_ids": [
+    "A_coverage_red_0",
+    "B_coverage_red_1",
+    "A_coverage_blue_0",
+    "B_coverage_blue_1",
+    "A_coverage_pink_0"
+  ],
+  "excluded_root_ids": [
+    "B_coverage_pink_1"
+  ],
+  "target_colour_counts": {
+    "red": 2,
+    "blue": 2,
+    "pink": 1
+  },
+  "held_to_target_counts": {
+    "blue_to_red": 2,
+    "pink_to_blue": 2,
+    "red_to_pink": 1
+  },
+  "environment_counts": {
+    "A": 3,
+    "B": 2
+  },
+  "source_gate_path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_condition_coverage_control_20261015/results/training_collection_gate.json",
+  "source_gate_sha256": "e4dbe8f7c2f0578c528b166d76cd2aacc5ddbec46bc275bbf9ce4f388eedd3b7",
+  "all_original6roots_and12calls_remain_sealed": true
+}

@@ -1,0 +1,10 @@
+{
+  "launch_utc": "2026-10-19T23:03:00+00:00",
+  "start_time_choice": "Conservative turn-start bound, includes integration before first clock returned23:04:31",
+  "launch_epoch": 1792450980.0,
+  "training_deadline_epoch": 1792453680.0,
+  "deadline_epoch": 1792454580.0,
+  "training_deadline_utc": "2026-10-19T23:48:00+00:00",
+  "deadline_utc": "2026-10-20T00:03:00+00:00",
+  "authorization": "Latest user explicitly approved minimal two-arm four-fit experiment1500updates each; no retuning."
+}

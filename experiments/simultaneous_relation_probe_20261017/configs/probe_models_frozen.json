@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-17T03:51:07.619376+00:00",
+  "before_validation_or_D_scoring": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/object_linear.pt": "e8b279505f5a03954e61abd20e71eb805852230a0a4f44f38a7220de4bc5f43d",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/object_mlp32.pt": "b69905f50034a8c218587ac79af61b8d0c12d2ef5d08844556dd67271a00ed9a",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/normalization_object.npz": "20ef6e98d7f6b53ef94fde21f45776a4551a959e9aeff9097fa5649b492dcd4b",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/context_linear.pt": "614236662cb492a5b8bf41fd027b6154e48ac74a62f57b6d1dcc6e78e1a639ea",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/context_mlp32.pt": "3374b16c3bee21c77a6b2d9a628d04ee183de921584716ba55c8a962a2a23064",
+    "/home/robot/research/projects/wm_symbolic/experiments/simultaneous_relation_probe_20261017/models/normalization_context.npz": "353ea3794eb335746dfd00543e7a29e587630a4a9cc3c605e5acf3ea1be81cff"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-19T20:34:47.585006+00:00",
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "state_update",
+      "update": 1000,
+      "development_objective": 4.32920088370641,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed0_step1000.pt",
+      "sha256": "390053de6a63aa2eceb9b72bfef25a73f70ea3300a955f417add6b75ac3b838a"
+    },
+    {
+      "seed": 1,
+      "arm": "state_update",
+      "update": 500,
+      "development_objective": 4.489455461502075,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed1_step500.pt",
+      "sha256": "1cea8acf97c7cc406199117cb917f431cc9adf940456a9db8bb76e314bcf73a1"
+    }
+  ],
+  "fits": 2,
+  "updates": 2000,
+  "control_reused": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed0_step500.pt": "9f4d02bc91207b68f49bcae8bd968f7513c30a0a0b0e75bd481dd1594cee12cd",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed0_step1000.pt": "390053de6a63aa2eceb9b72bfef25a73f70ea3300a955f417add6b75ac3b838a",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed1_step500.pt": "1cea8acf97c7cc406199117cb917f431cc9adf940456a9db8bb76e314bcf73a1",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/models/state_update_seed1_step1000.pt": "3d466efdd0bd26af1fdd77b036f289f551519e339a2256e3a43888b6ebb71875"
+  }
+}

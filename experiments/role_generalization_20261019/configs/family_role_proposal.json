@@ -1,0 +1,1178 @@
+[
+  {
+    "family_id": "A_role_train_00",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195200,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "pink"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_train_01",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195201,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_train_02",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195202,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "blue",
+        "red"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_train_03",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195203,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "blue",
+        "red"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_train_04",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195204,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_train_05",
+    "split": "train",
+    "environment": "A",
+    "geometry_seed": 2610195205,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_00",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196200,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_01",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196201,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_02",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196202,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_03",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196203,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "random_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_04",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196204,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "blue"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "B_role_train_05",
+    "split": "train",
+    "environment": "B",
+    "geometry_seed": 2610196205,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "balanced_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "random_roles": [
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "pink"
+      ]
+    ],
+    "collect_union_roles": [
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze after geometry-only admission, before task outcomes"
+  },
+  {
+    "family_id": "A_role_development_00",
+    "split": "development",
+    "environment": "A",
+    "geometry_seed": 2610225200,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "A_role_development_01",
+    "split": "development",
+    "environment": "A",
+    "geometry_seed": 2610225201,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_development_00",
+    "split": "development",
+    "environment": "B",
+    "geometry_seed": 2610226200,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_development_01",
+    "split": "development",
+    "environment": "B",
+    "geometry_seed": 2610226201,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "A_role_locked_test_00",
+    "split": "locked_test",
+    "environment": "A",
+    "geometry_seed": 2610235200,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "A_role_locked_test_01",
+    "split": "locked_test",
+    "environment": "A",
+    "geometry_seed": 2610235201,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "pink",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "A_role_locked_test_02",
+    "split": "locked_test",
+    "environment": "A",
+    "geometry_seed": 2610235202,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "red",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "A_role_locked_test_03",
+    "split": "locked_test",
+    "environment": "A",
+    "geometry_seed": 2610235203,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_locked_test_00",
+    "split": "locked_test",
+    "environment": "B",
+    "geometry_seed": 2610236200,
+    "color_assignment_to_x_sorted_slots": [
+      "blue",
+      "pink",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_locked_test_01",
+    "split": "locked_test",
+    "environment": "B",
+    "geometry_seed": 2610236201,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "red",
+      "blue"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_locked_test_02",
+    "split": "locked_test",
+    "environment": "B",
+    "geometry_seed": 2610236202,
+    "color_assignment_to_x_sorted_slots": [
+      "pink",
+      "blue",
+      "red"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  },
+  {
+    "family_id": "B_role_locked_test_03",
+    "split": "locked_test",
+    "environment": "B",
+    "geometry_seed": 2610236203,
+    "color_assignment_to_x_sorted_slots": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "collect_union_roles": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "red",
+        "pink"
+      ],
+      [
+        "blue",
+        "red"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ],
+      [
+        "pink",
+        "blue"
+      ]
+    ],
+    "actual_coordinates": "NOT_GENERATED; freeze before task outcomes"
+  }
+]

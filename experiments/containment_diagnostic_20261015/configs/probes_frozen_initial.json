@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-15T16:23:45.384936+00:00",
+  "source_sha256": "f4f96be9ccc06c34ef42bcbe69a6752cc968b30e7508237a774a8f60b86fe84c",
+  "protocol_sha256": "a15dc491e5aca2f394cd0bb9598af2ce63aa67254d53ee2ded8e24c1041ee8d1",
+  "no_C_selection": true,
+  "source_features": "Existing DINO caches; no backbone run",
+  "no_D": true
+}

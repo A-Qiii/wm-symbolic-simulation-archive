@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-10-16T15:44:54.683387+00:00",
+  "DINO_matches_preexisting_representation_hash": true,
+  "newD_model_predictions_seen": false,
+  "sha256": {
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/results/feature_cache.json": "933e9acc6c3ed27ab2df05ce1befb8871f2c1e1d838dbbe499be06ccdb588015",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/source/score.py": "4abb9575ec40518214d23ad18182c7e1d9697ed73d6a2b833d953ef9af8c9b03",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/source/predict.py": "beefcf1fd4207b9e13914d4f54707733e68c29bb0bd9368c09c4dbc61423a8b1",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/source/cache.py": "e2ed2581a53f576e3668756606df9a553ce54d338cb2f5374c3cab13f676b4f2",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/configs/protocol.json": "3746d445b463f7d7c2ea9114e54f36c7c5e608f9d4fd91efadb188717be59744",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/data/D5/public/states.json": "ffd1c7fb55998e0497b1eccbbb82c1fdf2e1004cdfee535766942f630b37df3d",
+    "/home/robot/research/projects/wm_symbolic/experiments/independent_objective_D5_20261016/data/D5/public/pairs.json": "e69981f5992975c02a04b9186f84d34aaf60132ee302a102e938054bb5c02fb5"
+  }
+}

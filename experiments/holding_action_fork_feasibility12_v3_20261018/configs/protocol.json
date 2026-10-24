@@ -1,0 +1,916 @@
+{
+  "utc": "2026-10-18T17:40:40.057838+00:00",
+  "purpose": "Bounded same-process action-fork feasibility from actual symmetrically restored live native starts; qualification then original12layout plan",
+  "roots": [
+    {
+      "root_id": "fork12_A_00",
+      "scene": "A",
+      "seed": 261019700,
+      "target_color": "red",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.09450235582952674,
+            -0.1089640192648947,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.0533628995061064
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06835707080247191,
+            -0.08954751917550081,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.04570018019557626
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2600345924055155,
+            -0.08265913602291874,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.01755844957444236
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "e7ff147afcf91385c2504203888c9ee948e2c70b1a42f3b3b8176532edc2ac25"
+    },
+    {
+      "root_id": "fork12_A_01",
+      "scene": "A",
+      "seed": 261019701,
+      "target_color": "blue",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09982834371160187,
+            -0.061327151969459696,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.054428260839540304
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07231191027232906,
+            -0.08708453406184448,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1777901742415548
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2407433614228845,
+            -0.05506738173510952,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.03942467877696981
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "029fdc78465f70e05cf66818d6154d0513398283c8136e33636ff58327de407a"
+    },
+    {
+      "root_id": "fork12_A_02",
+      "scene": "A",
+      "seed": 261019702,
+      "target_color": "pink",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.09839631460018924,
+            -0.0757118191844985,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.18258833114908224
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07384395236076391,
+            -0.07759196560673606,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.16011504145076674
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.24975988988269757,
+            -0.08557039418474877,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.10407329358999924
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "934244d2e6c960a18b56be9df8e3aff0a430eb1991ddb1e18b0b403f5c4f12b3"
+    },
+    {
+      "root_id": "fork12_A_03",
+      "scene": "A",
+      "seed": 261019703,
+      "target_color": "red",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.1127036584608756,
+            -0.059713303911224175,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.034361865943000336
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.06906739864057403,
+            -0.05878084114365111,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03165828752777328
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2521977777853087,
+            -0.09885226394311805,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.09443834486780872
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.2,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "133d64709fcf581ce5ec922fb36f5388a7b05b1def8110d60bcb0ebaf973be83"
+    },
+    {
+      "root_id": "fork12_B_04",
+      "scene": "B",
+      "seed": 261019704,
+      "target_color": "blue",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.26570901332123237,
+            -0.063214446401977,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16248473210745823
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.11094830297061772,
+            -0.0660676501133155,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.16094994024556308
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.07064391079811314,
+            -0.10854185305808194,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.054340026100947375
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "a325f8dfea371de2ee53722438735634358e6390f1f73a5a948dc4f2b0d75ba9"
+    },
+    {
+      "root_id": "fork12_B_05",
+      "scene": "B",
+      "seed": 261019705,
+      "target_color": "pink",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            -0.2527317951120224,
+            -0.11275353504283503,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1307680529262556
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            -0.09831022611978507,
+            -0.08010068529406714,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1998289971375387
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.054864502668306475,
+            -0.09981026152929458,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11735638065595527
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "63ffea209e90b1e89b5e5659d69860b0cd5c5cccc06e701944449e4bb91a04f4"
+    },
+    {
+      "root_id": "fork12_B_06",
+      "scene": "B",
+      "seed": 261019706,
+      "target_color": "red",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            -0.24826449931736083,
+            -0.11407961654243268,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.06548048638103937
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.10483284843721882,
+            -0.06183703422793557,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11730209814788756
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.06768247338109343,
+            -0.09855144147314496,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.11613939190848982
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "64a51f60c07b735ce3a2524cca87d637c601dd38b77b1153e5d4cdd8fa7e9ce4"
+    },
+    {
+      "root_id": "fork12_B_07",
+      "scene": "B",
+      "seed": 261019707,
+      "target_color": "blue",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "pink": {
+          "initial_pos": [
+            -0.24813242482991155,
+            -0.104841807069739,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.14770092949037267
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            -0.0921139072901335,
+            -0.09307555195738469,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.05767118980233621
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.07126509136042086,
+            -0.08182241023484545,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.019206769354276065
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          -0.35,
+          -0.15,
+          0.46
+        ],
+        [
+          0.15,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "1edac0835a5272e1c13aaa04c3daac14c7b2172fa07940eb7e27780d43546487"
+    },
+    {
+      "root_id": "fork12_C_08",
+      "scene": "C",
+      "seed": 261019708,
+      "target_color": "pink",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.05829832454038722,
+            -0.1126777420026866,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1257428555501135
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.1666828523778151,
+            -0.11382079031082766,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.10276087320160937
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.2927221680981938,
+            -0.10157841534971418,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1704876630059256
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "0003c5528c9750cda4156266a98fa50676a5bf340e72a61aad08e0578c5fb4a1"
+    },
+    {
+      "root_id": "fork12_C_09",
+      "scene": "C",
+      "seed": 261019709,
+      "target_color": "red",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.06833846079085402,
+            -0.07467277647950835,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.05081029372948773
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.18461873182827593,
+            -0.09525417803738753,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.11952023364640502
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.2887424184381858,
+            -0.06175871638712168,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.08284762286039432
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "a38461168a47e2658090d9f8a18f36bfe5f2e06d4e0de3250f9f07300e3eb4e4"
+    },
+    {
+      "root_id": "fork12_C_10",
+      "scene": "C",
+      "seed": 261019710,
+      "target_color": "blue",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "red": {
+          "initial_pos": [
+            0.05747334587973051,
+            -0.057653154599495854,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.1438430686821041
+          ]
+        },
+        "blue": {
+          "initial_pos": [
+            0.17563692140723658,
+            -0.09568205317342195,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.024087694697991824
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.2759061193827013,
+            -0.10355197627273159,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.03225631878555646
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.005,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "lift",
+        "hold"
+      ],
+      "initialization_signature": "518711f511a00e404ea04c9ad56680436658032acef136a2df801914d8de5475"
+    },
+    {
+      "root_id": "fork12_C_11",
+      "scene": "C",
+      "seed": 261019711,
+      "target_color": "pink",
+      "split": "engineering_feasibility_only",
+      "parent_root": null,
+      "blocks": {
+        "blue": {
+          "initial_pos": [
+            0.05178021266608413,
+            -0.06263995779875625,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.1470254736239506
+          ]
+        },
+        "pink": {
+          "initial_pos": [
+            0.1770948056242784,
+            -0.08074068342363502,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            0.09378215643493859
+          ]
+        },
+        "red": {
+          "initial_pos": [
+            0.29701735648629174,
+            -0.11396561485262596,
+            0.46
+          ],
+          "initial_orn": [
+            0.0,
+            0.0,
+            -0.14650914034899887
+          ]
+        }
+      },
+      "native_table_surface": [
+        [
+          0.0,
+          -0.15,
+          0.46
+        ],
+        [
+          0.35,
+          -0.03,
+          0.46
+        ]
+      ],
+      "drawer_initial_q_m": 0.22,
+      "condition_order": [
+        "aligned",
+        "offset_12mm"
+      ],
+      "action_order": [
+        "hold",
+        "lift"
+      ],
+      "initialization_signature": "8924427fced320666922c30db29c1b15b959838b4bac1494bd0ae7659e8a088e"
+    }
+  ],
+  "budget": {
+    "max_layout_roots": 12,
+    "roots_per_target_color": 4,
+    "roots_per_scene": 4,
+    "conditions_per_root": 2,
+    "branches_per_condition": 2,
+    "max_branches": 48,
+    "saved_control_indices": [
+      0,
+      12,
+      24,
+      36,
+      60,
+      72
+    ],
+    "max_states_per_branch": 6,
+    "max_saved_states": 288,
+    "max_actual_controls_per_condition_including_both_branches": 900,
+    "root_initial_settle_controls": 24,
+    "replacement_roots": 0,
+    "retries_or_candidate_reselection": 0,
+    "new_downloads_installs": 0,
+    "model_fits": 0,
+    "already_used_root_counted_in12": "fork12_A_00",
+    "additional_distinct_layouts_at_most": 11,
+    "max_branches_new_version": 48,
+    "max_saved_RGB_states_new_version": 288,
+    "qualification_traces_separate": true,
+    "installs_downloads": 0,
+    "max_distinct_layouts_across_pilot_versions": 12,
+    "max_qualification_branch_controls": 288,
+    "qualification_new_layouts": 0,
+    "qualification_preparation": "same original first layout, aligned geometry; one native initialization,24settle plus existing preparation, no replacement",
+    "collection_saved_states": 288,
+    "diagnostic_RGB_outside_anchors": "collection only transient RAM comparisons, not persisted as extra dataset states; qualification saves all73states/program plus firstphysics tick separately"
+  },
+  "lineage": "Exactly the original12 root IDs/seeds/layouts, unchanged:fork12_A_00 counts once acrossversions; all conditions/branches/frames/cameras share root, all engineering only. The original historical exclusion registry is retained; same-root first-layout replay is deliberate, no claim of new independence. NoD sample/features/predictions/scores; no new registry search.",
+  "preparation": {
+    "base": "one fresh native CALVIN reset with prescribed scene-relative layouts,24open-gripper controls; native base checkpoint restored for both conditions",
+    "aligned": "frozen PhysicalOracleV2 candidate0 first ranked valid grasp plan; execute raise/above/descend then20closed controls, stop before lift",
+    "offset_12mm": "same base and same deterministic first valid plan, shift above/grasp/lift targets by +0.012m along gripper localY (closing axis); fixed once, not chosen by result; unchanged shadow geometry check must pass before movement",
+    "close": "same original20close controls, no forced contact, attachment or target object reset",
+    "outcomes": "Conditions describe commanded geometry only:original candidate and fixed+12mm localY offset. Never force support or failure; record actual pre-prefix state0 and matched-action start12 Holding/support/unknown. No changed label, offset, force, candidate selection or replacement."
+  },
+  "actions": {
+    "duration_controls": 72,
+    "physics_ticks_per_control": 8,
+    "seconds_at240Hz": 2.4,
+    "common_prefix": "steps1..12 identical absolute TCP hold command, quaternion and gripper=-1, enabling actual replay comparison within the same48branches",
+    "hold": "all72 commands keep exact saved pre-action TCP position/quaternion, gripper closed",
+    "lift": "steps1..12 same hold; steps13..60 linear world-z +0.12m at0.0025m/control; steps61..72 hold final target, same quaternion/closed grip",
+    "absolute_command_caveat": "Same relative primitive across starts; absolute command origins differ with start. Action-only shortcut must be considered in later learned study.",
+    "matched_action_start": "Control12 after identical common prefix is the matched action-effect start. Divergent commands begin13; both branches run total72controls=2.4s,60controls=2.0s after common prefix. Savedanchors0,12,24,36,60,72 remain6perbranch. State0 is preparation output, not assumed supported."
+  },
+  "safety": {
+    "executor": "unchanged physical_oracle_v2_candidate0 plus existing stock IK/motors and collector8tick ordering",
+    "clearance": "unchanged12mm moving table links0/1/2,2mm other non-target geometry; target object ignored in shadow check as original grasp; IK18mm bound",
+    "monitor": "unchanged device drift3mm, unrelated object displacement10mm, robot penetration10mm acceptance; non-target robot contact force>.01N reported and treated as unsafe condition/branch, never forced through",
+    "no_relaxation": true,
+    "mutations": "only native saveState/restoreState at branch/base boundaries plus reapply identical saved motor targets and Python bookkeeping; no resets/mutation inside execution, no collision/dynamics/force modifications"
+  },
+  "fork_gate": {
+    "prior_qualification": "Prepare existing firstlayout once in fresh native process with identical frozen config. Create live in-memory S. H1->L1->L2->H2, all restore S using exact collector method; each72step original relativeprogram. Compare H1/H2 all72, L1/L2 all72, H1/L1 onlycommon12. Allstarts, firsttick and8substeps, controlends physical/Python/actions/labels/history anddualRGB/depth/masks exact. No file reload or historical trajectory gate.",
+    "native": "Every branch, including first, invokes same live restoreState(stateId), savedPython/controller/RNG/cameras/history andexact13motorcommands. SameRuntime.prepare_condition/execute_branch/Adapter.step/record/capture_native used forqualificationandcollection. No extra warmup or changedsolver/parameters.",
+    "start0": "Compare original snapshot core to each restoredstart; preserve and separately report prior-step appliedmotor/constraint readbacks as previously verified. Pairedrestoredstart core/Python/labels/dualimagery exact. Motorreissue cannot change physical fields. Fullfreshforces requiredfrom first actualphysics tick.",
+    "first_tick_and_prefix": "First8substep physical/Python/cutoff snapshots andfirsttickdualRGB/depth/masks; full12commonprefix controlrecords anddualimagery eachstep; zero tolerance. Collectionsecondbranch mustpass eachprefixstep beforeitsdivergentcommands. Saved6datasetanchors unchanged.",
+    "history": "Full72firstbranch beforesecondbranch; exactreplay qualificationtests bothH andL histories. Qualification and collection use same actualcamera calls everycontrol; only persistence differs.",
+    "equality": "Canonical sort only complete14fieldcontact tuples as multiset; preserve duplicates and everyvalue. Do not sort history/time-series, arbitraryvectors or simulatorinternalcontactorder. Record raw_before_contact_sort equality too. No rounding/tolerance.",
+    "stop": "Any requiredstart/core/Python/pixel/freshforce/substep/commonprefix mismatch stopswholepilot. Geometry/safetyfailures remainfailed, unknown remainsunknown, no replacements orlabelchanges. No extra physics afterqualificationfails."
+  },
+  "labels": {
+    "Holding": "original bilateral finger-family contacts>.01N and no external contacts; annotations only",
+    "stable": "last12realcontrol snapshots agree at.005,.01,.015N, no simultaneous multiple Holding; otherwise UNKNOWN",
+    "support": "annotation-only external table/base upward force source, not inferred from closed gripper",
+    "visibility": "native visible block and each finger family>=4pixels; keep unknown/missing, no resampling",
+    "branch_outcome": "post72stable physical Holding plus explicit safety/exact-fork validity; no label changes"
+  },
+  "outputs": "Collection <=48branches and<=288saveddualcameraRGBstates at0/12/24/36/60/72. All othercollectioncamera calls transient, except comparison hashes/counts; fullphysical/Pythonprefix/substep traces retained. Qualification dataseparate, no modelinput. No training/features/D.",
+  "decision": "Reportqualification outcome beforepilotoutcome. Onlypasspermits originalbounded12layoutcollection; no archivalserializationinvestigation. If qualifiedcollection lacks eithercoveragepattern, close design withoutadhoctuning.",
+  "version": 3,
+  "parent_failed_protocol_sha256": "49d8f1257fd67d930804e49923b3894b7a7ac275aab2054728eb2ba1331cd9e1",
+  "prior_restore_diagnostic_manifest_sha256": "382b030deb333be2f2377c773e0db23c57f876fdda7d0bcdaf1a57a433eb1b52",
+  "coverage_assessment": {
+    "unit": "onevalidconditionstart=one root+commandedgeometry pair aftercommonprefix12;twoactionchildreninseparable",
+    "primary_outcome": "targetHolding at72withunchanged3cutoff/12controlstablephysicalannotation. Unstable=>UNKNOWN; safety/incomplete=>failed, neverfalse. Reporttable-supportrawand12controlstability separately; reportcameraeligibility separately fromphysicalcounts.",
+    "initial": "recordbothstate0and12;use12foractionpairedandstateconditionedcoverage",
+    "action_dependence": "forvalidcompletepairwithknownstabletargetoutcomes, lifty != holdy atsamepostprefixstart; countroots/colors/initialstates/directions",
+    "state_dependence": "for sameprimitive, knownstabletargetoutcomesvaryacrossprespecifiedstarts; tabulate initialHolding/support,root,color,geometry toshowconfounds. Also reportwithinroot crossgeometry contrasts separately.",
+    "visibility": "do not discardmissing; countbothcamerasandanyview target+eachfinger>=4pixels atstartandend. Physicalcoverage isnotclaimofvisualpredictability.",
+    "proposal_guard": "No training or independent train/dev expansion. Report both required coveragepatterns; their absence closes thisfixeddesign withnegativeevidence. Any laterprojectrequiresseparate scope.",
+    "negative_stop": "If eitherpatternabsent,close thisfixedgeometrydesignwithnegativecoverage, noadhocoffset/retry/tuning."
+  },
+  "previous_failed_manifest_sha256": "181edf5b5ec13c47d4bfedaeee67ee952d872d1a7ef5c024a1f517d098e951eb",
+  "estimand": "Action outcomes from the actual same-process native snapshot after symmetric restoration and common12control prefix. Every branch including first restores the same live S. No claim of original online counterfactuals, cross-process restart, or archival trajectory reproduction. Existing failures remain immutable."
+}

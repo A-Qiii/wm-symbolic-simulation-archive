@@ -1,0 +1,9 @@
+{
+  "/home/robot/research/projects/wm_symbolic/experiments/query_coverage_audit_20261016/source/labels_v2_1.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+  "/home/robot/research/projects/wm_symbolic/experiments/query_coverage_audit_20261016/source/physical_audit.py": "e6d24dcbf7f8893d30432147f77ce12b4185412cccbc09a388ebe59c04611bca",
+  "/home/robot/research/projects/wm_symbolic/experiments/query_coverage_audit_20261016/source/common.py": "c0d2115d45c952ea26d52dedf7f3f9bdd8634c50527c94f58d8e8d43d146883e",
+  "/home/robot/research/projects/wm_symbolic/experiments/query_coverage_audit_20261016/configs/protocol.json": "64c4b8fdafbd48976e4cdbaeabe315f8321daad7d19775eaef1f1420a3184c8d",
+  "/home/robot/research/projects/wm_symbolic/experiments/spatial_shared_query_20261015/configs/training_frozen.json": "785a66a80d45caf55ff008faa41d6fb6d7bc4cdbc25990248c09eb23b0ffd11e",
+  "/home/robot/research/projects/wm_symbolic/experiments/visual_state_semantics_v2_20261015/data/windows.json": "db92c93db8e2a26ef98b55fe9b6f1d83b5c66d75833228d084567b39aa0bfe9b",
+  "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/roots_manifest.json": "c31dc0a2a625bba5c60fab12556f7816593954f9a61abbdda9ffdd75ee7047ec"
+}

@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-15T15:57:21.200083+00:00",
+  "reason": "With only successful Open/Lift/Place examples, shortest separator is empty and could propose Place from an empty closed state. Preserve initial learned fit, but forbid deployment without observed negative coverage. Close remains unsupported because identical nine-fact states have contradictory outcomes.",
+  "new_training_data": 0,
+  "manual_preconditions_or_effects_added": false,
+  "original_fit_preserved": true,
+  "new_D": 0
+}

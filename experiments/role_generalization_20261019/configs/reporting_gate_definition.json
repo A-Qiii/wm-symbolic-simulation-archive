@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-19T21:48:36.433364+00:00",
+  "before_any_fit_or_test_outcome": true,
+  "primary": "Both model seeds positive test family-macro primary difference; seed-mean paired8-family bootstrap95% lower>0.",
+  "no_sacrifice": "No decrease of h0full, normalwhole or absolute H-In correctness in either seed; additionally no new test role/branch forgetting set. Conservative explicit implementation of predeclared no-retention-sacrifice condition.",
+  "threshold": 0.5,
+  "physical_setup_failures": "Do not discard. All-assigned primary versus actual-label joint fit reported separately. Planned frequencies matched, realized frequencies may differ."
+}

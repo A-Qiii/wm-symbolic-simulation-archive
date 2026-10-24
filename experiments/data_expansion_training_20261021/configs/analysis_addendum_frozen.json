@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-21T09:31:49.055961+00:00",
+  "before_models_frozen_and_test_evaluation": true,
+  "change": "Reporting strata only; unchanged metrics, thresholds, models, schedules or training. Join original core/role kind and actual origin relation/color composition to existing fixed evaluation scopes.",
+  "path": "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/reports/tools/expansion_additional_strata.py",
+  "sha256": "f5640423fcc507f29f0ad510d0d7bf7e9e93e5a116ccd1d5609d36cfc65a28f9"
+}

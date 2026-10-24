@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-18T11:05:26.227177+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/source/decode.py": "5f66cba6a3de93ac3a46cb3ca2e3af376f5dc4ce8d7121f1834ea8bce3d398f7",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/source/common.py": "3aa0220d0fb296adac7225f3e6008a2a4aa62c5ceeef19c4c9b5bbe8deaafd1e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/source/prepare.py": "92cc3dd6ff275b647f1658119246634535d6c8c7572f113c0fdfea49681ea7ae",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/images.json": "2fbf493891f9a1a2c86dbcaace554c96be0501612ef5f78f96aa12fd7c8c6d54",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/reference/decoded_predictions.json": "f221079c8ecab9293118e4e9a186ebfb1923f0d6d0a6c5b22142541e0ecebf8b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_AB_episode_heldout_development_seed1.npz": "4cfd37edfd89875a78239aea5a04d3eefc360d2dfaaffc9bde48569bf0ca6cf4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_AB_episode_heldout_development_seed0.npz": "cdad701bbce0e3d9b9630d1b3277ede7648665ffa07fc3f32dfc29df3634d168",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_D_seen_diagnostic_seed1.npz": "077c7f993f058daacefda80c3a6aa3b819ded056a76cce1731ef34caa3d13c5f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_C_seen_diagnostic_seed1.npz": "ef2dccadff7759c4c6e339f993f3219536306d3d9333be0d26803336d27723bc",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_AB_episode_heldout_development_seed1.npz": "5d76600c64999aa5d755a27479e426a256b2db70e00a3ea4aa19ab77a159bf7c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_train_seed0.npz": "ccd03144587ea4e196b7c768cf62f00c01a6081507bffc39247c5aeeb09e4d91",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_train_seed1.npz": "6391f919070ddbcb44223e2d082910969df2f5fba4239931d78b6d4e4482402f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_train_seed0.npz": "978214af82ad265d98d5f6b1eb3e43eda3388c121a118bda0170661f76559762",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_D_seen_diagnostic_seed1.npz": "1d5747b45da8c2eaadba216ce422e179d423450bfae403840702ea05858b267b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_D_seen_diagnostic_seed0.npz": "dc5124d73a112b378771f9f539bbb8dcfd66e4878e91b3c5263af26979e19e63",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_C_seen_diagnostic_seed1.npz": "ffcb1f7aeb0ced49a6c10869578e5a7b530fa759c9501d7533e4cd010696d89f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_AB_episode_heldout_development_seed0.npz": "5d0adfef7689877bc2b4e32c75b4d7253424591312e9ab957494f73fcbd794f4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_C_seen_diagnostic_seed0.npz": "473c166d07c191ef3b2ed9809e867c775dbc83a57bcdcdfc8072e543fc672a5f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_D_seen_diagnostic_seed0.npz": "729f0cf0e971cfcc70f00632752fdaa297634e9cb311147e542a06aed9a5d32b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r224_C_seen_diagnostic_seed0.npz": "9d5aed6f790fa4d4d433eca77a6c2a73a0682bf02b1d03e54f5246d852743b17",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/raw_outputs/r448_train_seed1.npz": "ea8cd520a4891137239cee9aa3e401d1ed48d7c23f4cd432b387cebd7ae6cc84",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/data/annotations/final.json": "1acb6899374cdac04cfe82204d279c6f286ea798f7d3e0ab1c21fb61a724437b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/configs/protocol.json": "f97de78b78dbf412390b3a0a13a6dab8d0720237d0ff00d1ded94ffedea8d3d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/configs/source_references.json": "8ab00c4ec8fd6e7ca5f7c04b2e3f3e8e3633d132d3c465a696df10ff4a575027"
+  }
+}

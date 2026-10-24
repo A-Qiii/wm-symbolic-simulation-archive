@@ -1,0 +1,42 @@
+{
+  "version": "visual_stop_candidate_v2",
+  "status": "frozen_candidate_requires_paired_validation_and_user_review",
+  "source": "C development visible RGB-D and anonymous instance masks; offline labels identify reference examples only",
+  "calibration_roots": [
+    "C_dev_root000",
+    "C_dev_root001",
+    "C_dev_root002",
+    "C_dev_root003",
+    "C_dev_root004",
+    "C_dev_root005",
+    "C_dev_root006",
+    "C_dev_root007",
+    "C_dev_root008",
+    "C_dev_root009"
+  ],
+  "drawer_closed_front_y_m": -0.25975290614714536,
+  "drawer_open_min_m": 0.17,
+  "drawer_closed_max_m": 0.02,
+  "lift_min_rise_m": 0.05,
+  "lift_max_TCP_distance_m": 0.1,
+  "gripper_width_min_m": 0.012,
+  "gripper_width_max_m": 0.07,
+  "consecutive_checks": 3,
+  "check_every_controls": 3,
+  "minimum_controls": 12,
+  "allowed_live_inputs": [
+    "RGB",
+    "depth",
+    "visible anonymous masks",
+    "camera calibration",
+    "public robot observation"
+  ],
+  "forbidden_live_inputs": [
+    "scene_obs",
+    "contacts",
+    "simulator poses",
+    "task checker success"
+  ],
+  "policy_weights_unchanged": true,
+  "no_recovery_actions_added": true
+}

@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-14T14:22:49.105218+00:00",
+  "scope": "Read-only diagnosis and next-step proposal. Preserve completed acceptance. No simulator execution, data collection, model forward, feature backbone forward, training, calibration, decoder change or WM execution.",
+  "accepted_test_cases": [
+    "D_interface_accept_blue_open_1__t0598",
+    "D_interface_accept_pink_open_1__t0471"
+  ],
+  "coverage_domains": "Actual seed1 training pool 900 core+73 supplementary+36 long windows and C development 300 core+37 supplementary+18 long; extra C held-down/countermotion are separate diagnostic evidence. No other D outcomes used for coverage.",
+  "definitions": {
+    "symbolic_in": "Current implemented target is primary categorical location==drawer, after physical held override and support-ownership repair; distinguish XY projection, 3D cavity containment, and task completion. No label changed.",
+    "held_over_open_drawer": "Current physical/categorical held, drawer>0.16m, object centre projected into native drawer inner opening footprint. Vertical above/overlap/inside described separately; no assertion that projection implies in.",
+    "pink_held_blue_supported": "Current held(pink), not held(blue), blue on table/drawer/slider support category; report all such states, wrist co-visibility, and wrist bounding-box gap.",
+    "close_projection_diagnostic": "Both pink and blue >=4 visible wrist pixels and axis-aligned box Euclidean gap <=5 pixels on84px image. Descriptive pre-count bin, never a model threshold or test retuning.",
+    "long_stationary": "Same previously frozen64-frame held+TCP/object displacement from first<=1mm; audit actual saved past states, not four repeated images.",
+    "labels_and_masks": "Report true physical labels and actual loss/evaluation masks separately, including unscored non-target labels.",
+    "input_checks": "Use original public masks and frozen cached feature arrays to check identity, ROI geometry, four-frame offsets and tensor assembly. No new DINO encoding or reader inference.",
+    "saved_C_predictions": "Recompute posthoc full-physical-valid object scores only from already saved C prediction arrays; keep original target-only scores unchanged."
+  },
+  "geometry": "Read native URDF transforms, mesh vertices, recorded drawer joint and block poses; no simulator reconstruction. Visual inner floor plane local y=.025m, side-wall inner x=+-0.225m, interior local z=-.05.. .20m; separately report conservative full collision-mesh upper bound. Validate against each native mesh.",
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/state_labels.py": "d2c9bfee479afb09fa41b7749c6d836435a73d961d1787a8395025d36613fa48",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/world_model.py": "480376ab096af5a8ba7cbef5603ff51f910a1abbbc98e830ff86e6e9592d0a4f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_dataset.py": "36e9025e134e1dde0e435fd43673c9d3779cf4a70fedfe75bce26c88b3551dde",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/source/世界模型与TS-LTL符号规划_核心预实验方案.md": "f4cb908e26db79176263d5002290ac4c94daf3025ce2523fc546eb896e2ad0d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_interface_acceptance_20261014/delivery_manifest.json": "7503db0c6bb37e9b846944d2b6e643756632601164340713af01232436466e96",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_interface_acceptance_20261014/results/evaluation.json": "852e5660614ca92a4b9ea102f7e9363bc378ccc8eeb5f7aa1f544c481166bb65",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/source/train.py": "f83e5c8cf717e1270dd16119520038775a2f57dbad75d608bdde1d7200206cc5",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/source/cache.py": "b7c49df296f926236c69818f57eaef8263a9582539af906cbac613f18f14f20e",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/source/common.py": "eaa7f855ed75244ff497f4f407e4edd049ac9e2f026136284d69beb5d687a929"
+  }
+}

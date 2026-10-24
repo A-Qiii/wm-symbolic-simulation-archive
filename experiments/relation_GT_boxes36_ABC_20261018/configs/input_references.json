@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1"
+  },
+  "old_manifests": [
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes_holding32_20261018/configs/delivery_manifest.json",
+      "sha256": "4823571c19297461d26903e6d804ff5b2bcebe999d9170eb89c7bcd2a030975c",
+      "files_verified": 2445
+    },
+    {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/acquisition_scene_surface_pilot8_20261018/configs/delivery_manifest.json",
+      "sha256": "bd22a3a59b00ead86cc8db0d0ea811f5b1ff9a6a2ebef7111648a46cd08780ed",
+      "files_verified": 765
+    }
+  ]
+}

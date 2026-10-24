@@ -1,0 +1,458 @@
+[
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "bea7b1ef7d2661fb5856cb47042d7780bff8c37efb7769f8df8da50867213fe9"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "b968e191f2f3351adc4ddd86c2b615d2d169c46ce386abf276846e5fd310ef15"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "800b8bc7f24cb61355e6ce75a61b273375557bd637c56fd65d9070d5560ebe1c"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "c2dfb37c2e4d922cc4a775e2d999fdf99ed6430529ed01384adc8bb60de154c4"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "c3994e0d49f57f9cb38da12a7b03d9e260d5ea1071616ecbfbed7ba11d958a9a"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "30f12d979b829ca1e913c23d14c1b8ec2f0a4d52fcc1d5a01bd54e2d547431f2"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "0a9b3c6f661fe8dc4626da3726e927a372bdd02929aa93ffbacdf1cb02378908"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "e7d691353a79d1795e3e4ced260edf7491f01e7231fddd78e8e31aaa70dd5508"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "6d242551f07e8dd8a66792f19f55b8dc2f2f76b0c8b3c909eef0c2227cdd40b3"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "c59b11d1277ebc98e4ddda1ba563907ad1daf9273d7447d397fc96da34534b76"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "e82588dd14ad46f74b85ad89b5c0e0b4efc59db048615139f10fbed832c760c0"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "77bf9d95e0eebd2d72b887969ddaab4d5c15d7684cfc6383456d9bf39fb13729"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "45aaf6f0a6959ca34163e9cc4f208371bc8a6eaa0892b176503d0af5941f6fe6"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "8b71f9ea5fd4517e9e95f4dc92fa2bcda5d39c9fd82fbee336a906e27330ae84"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "90da26c55cacac2e9238b508763e341f4f370c0901e0fa01de166dbab73ab5d4"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "145f6beedf294e8fd397987590f5d3e21904ce3dd769d7e0ccdd34466688c354"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "a2112dc65fba5102439eb5878bbbb85d05711b9082f5e59d082aabc853d5b38b"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_red_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "f2a04456b801f8633a9efdccaef4131b06dd7729fb8773c1be929907dc1ba53b"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_chain_red_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "7f69fcce6f4b686ede6129b6ff6e23096867201e7d3bca2514d24070d9b3f02f"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "53452dcaa545cc4cf7be60b9b616f2fc16a159531617b0b804a96ad4d822d2dd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "321f62e4bdb448a0648de83d228ec3cd864eab7cd41e69936804e24d90fd02ee"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "a6884fae0f36b0e8ff228e2881a8e8e6a4b497ad211d0c3e44553be8d343b4dd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "3afcd0f076f38239b19deb73f9770bae129242d9ad29f77904b9a39811f70040"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "bd7215e97a2768c568486c036f67d7d88400597ce4fece9d54e27c26ed73c244"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "bd506c35accd2cd133d46b1793e3efc9ac6ec857ef576c5797130570d4ef7990"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "15b37e84cbdfe23ff4966739ac73550a3ebeb65ce81d4d6a584912e2f9233cf5"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "3034e176dc66764c5dc0a84228ef670cbdef24184de851dc6e7ddd31036b1371"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "6d21b0d0cca2e49aa51ecd8dac0a45ddaca01893bfcb3310c3169d9b9a36790e"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "36ad2e8f2f3e941e65016147c97ac9556312e6b424c26ea2687df886f91bc1bf"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "5d0f5922fa14f13073b9465caa87bdadd4cf5e4a67ba1c104e34f788382988a3"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "f3ad1d73f281bf2f5a0b4df5ed8e7b2c335fbd3309f3748b90931b8aed43f8d9"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "f09a0ef09dc39115359b7b5e3806b37b52440bdab6be10ed9c852a715ddf4a57"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "acbd714c072d276766b125db60fa6eac43385cd3056d638e1b9a95e7eebe0b43"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "bf35603c180215231441b2d1767a409841e1e08f005f5b00a5960a9e3ce13fd2"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "0588999c52853d28295856a806ccb943781c4970f6cb6affaffd842ffea9e8fd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "c546fbf05358ec49441b7e0a7374159101db60a3094d73995dfd7ae066f0a161"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_blue_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "bae7bc48e1c06e76859b3f8b384314eef2765cab5cdcba338025b36f34b68c78"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_chain_blue_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "2b181d848531018ff640d72ce34fa521d7358749bcb450c77395258c924da094"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "ac9a12c6c8f1774f99209ca21517341d6504cdb066a7a900b27e90355b12d8c4"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "7ca6564a667d5b680e79a63075714c3daa3913269f8ac9f125247fc94c9837b2"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "91a5df14248d8d10b8ce4548c4bebef2fbf059ccf7166cbfad597577b44153b8"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "021415a4b35536bd869455d32c4f6e56e159843fdde7dc72de43645887d30c04"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "f2c44f35c29bfbd665e55a6315ac9f39e1bc8d16f2c8fa096c0953fa93a3f67b"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "98253a93864cafce36bee89362f0b4082cb8eee4ed60e14c6a9d35d03f30ccde"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "05459ecc85e1a60fc2c0597b2fad80e7f3c0f544e76f385a59ed07d1525d9a6f"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "093c132e552cee9a99a0d184700b63a61e4018dd20d19c1b1425209f96a3c9bb"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "00dd13962d9d5d5b8a222cf47ecf7923fbd9a602004e97bddfe82d83db8db3eb"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "cbf759111c845521ffdac38ee97516603938b3db42c60987a435f4bc513a39d5"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "0cc44eb471b435a9aab7bdbe6dadc2e5b938a205760e2fd9966aa525f06123fd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "e1b102dd378cf731853b15be1ee85ed243c37fe9f41552ee6a1654999adba0b5"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "1aa0d9f2adb727eba7383b3aad63348cc5cdd3fb2081cbcfb7c0c1874337ee25"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "656c63622ab574a1efe86bf72848d0c43568865a034f37472e9bdc5798dc6221"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "44788324c03c047496ee3a112219317dcacc85881f4cb314e74b66fb9efae47f"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "ec4977a2da0a1c72e0581ae74328025b86ddc5b0ae2a55465942aa3f8ee13734"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "c81fd781563033c9ce74282a7aaa504f6fc59467c21071a87a32dbc9f53ae988"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_fixtures_pink_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "67ce0c3e2d116ae85cf30d88a0ae348facc1e4d554aef52fcda15006459ea3d0"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/A_semantics_v2_chain_pink_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "f923490f4d70ca6ce248c29756ac9066e68a0a3ab1a627c48f67e90669753a51"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "eac5d3a1745041c26af833fb1deef80e0ae0024ae3f6f5fe5c95b4fc5e82f57c"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "3e30fb24f851d0df48f8e3558ed605ae6a5c5ca5f96e109ac1a4c3cf3621124a"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "2d4d23d9904578abbcea8ed42d2615172054f831746f01b43774b717e9bb7efd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "fa1e60c673c156156a7e429a5793fbb15c39d7bc4e622caeca7bf9219771cbdf"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "2b160a2c990fec3703e2c047e0be05c68d62daf58ec0a8c6a2e18dde5fc64ea6"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "7762f4b24ecb5ebe1f3cf5e417a7f339ce8948d93fce6bc745a4e9eb7efdec95"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "c6fbc0b50bdb3b75bcb0d7fa63335d4c7b43b7415b3ffa88ee66a2251f41bc96"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "5e4df2b6fd405ec378e30d436449360d0dad0f341620574c47a63c77aa14c261"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "8767e42d3816e9e3a0db0c28323929c602ab239b001a1a06e3c05f2af48647de"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "84150387e8e5727bc75983e04a5d4f4a194b43b1a3de7207d17be924fc1381fa"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "35fcf1bdf92e3fa99bf30d3b1f8717503e6883e1a2812603219d07f690e25382"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "3a4b3251704b1765cefec7ce470599f08032079987f2c2e196f0fb8fef14779f"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "f7c1b16e126aa353cb246731b5c8bddb0e9095305f398f78b0068e229d2daa0d"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "55f56026c9816f9121878b0fe01b1a284d523f065a81c1aab7ffe2a98775c9b0"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "56541e6131eb6fd370a20e051e2df40e11f493000a485397e748f788dcc80052"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "c634f69174f213d4996ca06f8cb74d4974adb403491c5890eb00adccd6268fb9"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "73024242da28086766754d923ee4c52a5025b862fead849aacf374442dee9a68"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_red_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "ff4603815f819f6b973eef514d94e6543b2e670e44d97ed62ab4409bc10a1749"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_chain_red_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "947e00d8becab7920431b2254dfa10048e9d973fb81554a75a4c7af945d12c47"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "bf65bd2dcda56d78393419e67291ddf4317b3cd64a34e4dc64e6fb7c6ca4e3a9"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "4951052861d3f643ab0c9b4b48be3084f051cc4087af75a435b63d7ea5cede6e"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "5b8b66e5ac1abf67fa16f55033018a2eb99223a15d0d7c80532238022c23b156"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "85ecd8ac213727e89d1f659f42eb0811c633361255f79476a8bcf37f68902055"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "0baf4752598b857facb74cbcc4582beaf311903e35f785aa4b642e5ae1875676"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "bcf75781bb7fb3d8e7ef118ee3b245b7570eeac227b4a3575047f28182690f58"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "0ae02a51039f010cba9afaf772deac5627f3d1e0a53306405a68775abee5e353"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "a628b98f5148173002d00e3419b2489e253e974c0321282da7ba6d21820daf2a"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "808308c50ce86b72833303a553393ce20c5b9bc4cf90a528c4334ff4a49ce06f"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "abd24be0cda7ead912e59e4eb7a1067efdb6baffbe32b1bd7123e0005a426fc2"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "65416cf1cd948b568745386aa57d7611de4a14282c4e5f0f3c52639cdd2074db"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "deae30a327a2da556ccbe0b431cf065aa7d1d7e1515bf79032ff13c32271ac39"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "3c9dac3071bd44cc94ca926df90d9d658635f82ff12209b94901242c4c6a53ab"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "a2a501754f2959d814785e630338e4b005e28dd8d59474f8523e761aeb581584"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "3723218c54aab33b7be7c78042409b3d357ed8ce2b93edcc08c319f1418174c0"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "44946217d1ea7ba66663431a274a60103d7c284fb1c31403ff7acffa1a41025c"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "f16fdf6d3de64928653e4b681955700f5ccb78b734cd566b376e3ecfcef0e125"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_blue_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "2ca7d5d4e9ed8fc215d6ab85b336cb7b14e0e39c3cb9dde419d09c1e02cc6693"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_chain_blue_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "e0955828c812d0639b85f40a336266c82d38ffb17cecdcbc165f97d2d77e2ee8"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "473fe220a910f79193c187950bd0aabbca4ec381ee89c690132452bbf6f3564c"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "1519be0a0becf5dd76b1a6c0f699ccecf945ddea79494210eaf3c7848e6320a4"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "08e9ec93838ba24a3bd97951e26165acd4d7bb10e6edae855b401be96cf7d44e"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "38cc947001a2768ff4c60ed31203307a3ca256bf3a0e7a300d4ae66dee0a1e4c"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "c2068f4c88ee657b897d4e98b5d8c3dca03c9b847f5ee8617354f50395fbff2e"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__separated/_private/full_physics_trace.json.gz",
+    "sha256": "c5b3fe5c1e57893915bedfcd892a14239e54d4e4313d2213e502659857404b82"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "d70943170fef4bbac6711a4f1a635c4144656ad25489afe1b704b5edf0457a96"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "1443cc7ccaef28d2b4bcb0f60675fcf1f229e5d3941fe3b8866f7a907a3273a6"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_0__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "d0d782cb8d244effd460ce6db4c36941e1714f616de0cb33f37bba3bc4afa374"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__table_open/_private/full_physics_trace.json.gz",
+    "sha256": "88bf6d50df8274207bc6f54796d94a9926add1dcee9a46ae227c132af9b8b116"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__single_inside/_private/full_physics_trace.json.gz",
+    "sha256": "62907f86b89c4ce4fe9c74e8a7434a5ea1b658841904dea472d7223b1b6e0ea7"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__edge_straddle/_private/full_physics_trace.json.gz",
+    "sha256": "15f750d859563b4ec0649088da7af0da0bd50396f9fc65c9e45fd44ee67ad9bd"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__outside_front/_private/full_physics_trace.json.gz",
+    "sha256": "c89a674c750b181b979d401af160828f03229ff1fbed4935a3ee84c5e9d80249"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__stacked/_private/full_physics_trace.json.gz",
+    "sha256": "518f89477883687e124c232465630027e3f0e66e4da5523861b4e65ca799795e"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__separated/_private/full_physics_trace.json.gz",
+    "sha256": "14f3cd01a2ae2c9fc4f3f0090656fb3508779caa78d24d9e1c76e9003fdfa899"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__empty_mid/_private/full_physics_trace.json.gz",
+    "sha256": "f4fc4995df057c78ac9140e7dad42a7fdd38596262ed51c9cbfec06138ff1c48"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__empty_closed/_private/full_physics_trace.json.gz",
+    "sha256": "9488f978465f3a0c83fa26a2067b716a2b1cc21d633559c0c397963ce7d53faa"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_fixtures_pink_1__outside_front_supported/_private/full_physics_trace.json.gz",
+    "sha256": "4d9b1eee73668722025bb2f4d0d920ee45752554145ff5ff9f024344a6c29d90"
+  },
+  {
+    "path": "/home/robot/research/projects/wm_symbolic/data/visual_state_semantics_v2_ABC_20261015/episodes/B_semantics_v2_chain_pink_0__chain/_private/full_physics_trace.json.gz",
+    "sha256": "513fe8a7287211b7709999f512b660b73905c47f001e6e6a0317b75850d242c9"
+  }
+]

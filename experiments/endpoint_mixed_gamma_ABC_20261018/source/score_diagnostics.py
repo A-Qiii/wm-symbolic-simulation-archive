@@ -1,0 +1,11 @@
+from common import *
+def main():
+ install_guard([]);assert not(E/'results/score_comparability.json').exists();records=[];merged=[]
+ for variant,folder in [('focal','baseline'),('BCE','BCE'),('mixed','evaluation')]:
+  for seed in [0,1]:
+   curves={c:np.load(E/f'data/{folder}/pr_seed{seed}_dev_all_{c}.npz')for c in CATS};parts=[]
+   for cat,a in curves.items():
+    dt=np.diff(np.r_[0,a['TP']]).astype(int);df=np.diff(np.r_[0,a['FP']]).astype(int);tp=np.repeat(a['threshold'],dt);other=curves[CATS[1-CATS.index(cat)]];idx=np.searchsorted(-other['threshold'],-tp,side='left')-1;above=np.where(idx>=0,other['FP'][np.maximum(idx,0)],0);records.append({'variant':variant,'seed':seed,'category':cat,'ordinary_TP_count':len(tp),'TP_score_quartiles':np.quantile(tp,[.25,.5,.75]).tolist(),'opposite_class_FP_strictly_above_each_TP_mean':float(above.mean()),'opposite_class_FP_strictly_above_each_TP_median':float(np.median(above))});parts.append((a['threshold'],dt,df))
+   score=np.concatenate([x[0]for x in parts]);tp=np.concatenate([x[1]for x in parts]);fp=np.concatenate([x[2]for x in parts]);order=np.argsort(-score,kind='stable');score,tp,fp=score[order],tp[order],fp[order];ends=np.r_[np.flatnonzero(score[:-1]!=score[1:]),len(score)-1];ct=np.cumsum(tp)[ends];cf=np.cumsum(fp)[ends];precision=ct/(ct+cf);recall=ct/354;ap=float(np.sum(np.diff(np.r_[0,recall])*np.maximum.accumulate(precision[::-1])[::-1]));a=np.load(E/f'data/{folder}/pr_seed{seed}_dev_all_all.npz');original=float(np.sum(np.diff(np.r_[0,a['recall']])*a['precision_envelope']));assert abs(ap-original)<1e-12;merged.append({'variant':variant,'seed':seed,'micro_AP_reconstructed_from_two_class_threshold_counts':ap,'matches_saved_micro_AP':True})
+ save(E/'results/score_comparability.json',{'utc':now(),'scope':'post-result descriptive analysis of existing C normal-candidate curves; no score modification, threshold choice, training or prediction rerun','rows':records,'micro_reconstruction':merged,'limitations':'TP distribution is conditional on current model matches; exact mismatch explanation is descriptive, not isolated causal attribution to shared layer','new_fits':0});print('SCORE_DIAGNOSTICS_COMPLETE',flush=True)
+if __name__=='__main__':main()

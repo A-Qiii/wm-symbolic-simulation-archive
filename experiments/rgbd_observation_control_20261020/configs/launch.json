@@ -1,0 +1,6 @@
+{
+  "start_epoch": 1792454867.0,
+  "training_deadline_epoch": 1792456667.0,
+  "deadline_epoch": 1792457567.0,
+  "budget_minutes": 45
+}

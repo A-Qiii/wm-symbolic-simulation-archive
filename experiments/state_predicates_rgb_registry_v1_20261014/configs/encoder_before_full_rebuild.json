@@ -1,0 +1,7 @@
+{
+  "source_sha256": "d235ee0a0b0969e9551d3990683dc4aa9b58f87dfff7ca6213e0fc06fa80b17a",
+  "rule_sha256": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+  "created_after_rule_frozen_before_C": true,
+  "all_input_arrays_current_or_past_RGB_only": true,
+  "no_GT_geometry": true
+}

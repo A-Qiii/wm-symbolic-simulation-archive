@@ -1,0 +1,30 @@
+[
+  {
+    "seed": 0,
+    "updates": 1500,
+    "episode_draws": 24000,
+    "full_start_draws": 12000,
+    "middle_start_draws": 12000,
+    "effective_transition_draws": 89834,
+    "core_draws": 12000,
+    "six_step_draws": 12000,
+    "unique_new_training_episodes_seen": 640,
+    "new_episode_draws": 10235,
+    "old_schedule_sha256": "14e40f4a5477a08d75ac617d14a6c7f0ccf72758096146dc7fbca418b10e4970",
+    "new_schedule_sha256": "1deaf8d2d6a6c7ee6e0cb586b8eb38c43f530632ba60ab7e2d9e669a8203ced3"
+  },
+  {
+    "seed": 1,
+    "updates": 1500,
+    "episode_draws": 24000,
+    "full_start_draws": 12000,
+    "middle_start_draws": 12000,
+    "effective_transition_draws": 89839,
+    "core_draws": 12000,
+    "six_step_draws": 12000,
+    "unique_new_training_episodes_seen": 640,
+    "new_episode_draws": 10240,
+    "old_schedule_sha256": "000522a21fdb5caa661dd3be788a6343b8b877540d10671b6be5531e285d9e26",
+    "new_schedule_sha256": "f9978c17f14d3780bfc599bc238f57d058c902c90fd27a88e1ecda5538bb0f21"
+  }
+]

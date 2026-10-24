@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T11:09:12.209552+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/GT_candidate_audit.json": "a4b3e76a240d24843fed7805478805cdd839ed141a6e670cf7c3b7cb47a1ef45",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/verification.json": "76b7fe38fc9940223802800e77987121e13e597beb803abdcc46c3d41e1a7b57",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/decoding.json": "968f3de25ed170f25e8992ba1931d9df6739e14a9c6d8530a6b33d6daf3812a0",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/candidate_cause_summary.json": "d77f583b32553a3f6a03f4d00c5fefd940197cebc8c8c4aea37b7c8b30f2b048",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/evaluation.json": "4291382d233f4a60f94e90c03b88de2522e3914cf127976387ce508b999f1228",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/decoded_predictions.json": "525ee16a677dffb1b1c03e4e6228c4e7cbc4ddff600c4028054f404e47362df3",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/candidate_trace.json": "f80f8df026f9501042eb659214e9d9d21f258c39538cc72a8b0615ecc9f7c18e",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_decoder_all_candidates_20261018/results/design_issue_evidence.json": "109f241b1af660235f0b90a6e3f4d212f3cffbcf5e6cb2909486818674dedf56"
+  }
+}

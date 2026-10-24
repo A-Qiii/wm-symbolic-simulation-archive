@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-20T01:23:29.473852+00:00",
+  "status": "FROZEN_BEFORE_NEW_GEOMETRY_OR_MODEL_RESULTS",
+  "time_limit_minutes": 45,
+  "cost_estimate": "72 episodes,336 task calls plus logged setups;12–18min collection; total30–45min; about1–1.5GB including features. No training/download/upload.",
+  "models": {
+    "arms": [
+      "baseline same-capacity Object with frozen-feature random projections",
+      "geometry Object with public RGB-D coarse grid and per-object geometry"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "parameters_each": 2490068,
+    "checkpoint_update": 1500,
+    "weights_and_normalization": "From sealed RGB-D comparison; both arms already trained. geometry remains candidate, not winner. local_gap excluded.",
+    "global_baseline": "Not included: no comparable frozen same-input global model."
+  },
+  "geometry": {
+    "families": 4,
+    "A": 2,
+    "B": 2,
+    "role_pairs_per_family": 3,
+    "pairs": [
+      [
+        "red",
+        "blue"
+      ],
+      [
+        "blue",
+        "pink"
+      ],
+      [
+        "pink",
+        "red"
+      ]
+    ],
+    "branches": 2,
+    "previous_geometry_excluded": 670,
+    "admission": "Deterministic up to128 candidates; geometry-only footprint/clearance/IK/reset; reject all three positions within20mm under any color permutation of old or accepted family. Freeze admitted roots before task rollouts. No outcome/model-based replacement."
+  },
+  "templates": {
+    "recovery_seen6": "open+lift H setup; P,L(T),P,L(T),P,C. Same trained order; new geometry. Branch2 overrides gripper-close on first requested L(T), then existing second L(T) can recover.",
+    "order_known4": "open+lift H+place H setup; L(T),P,C,O. Exact order seen in training.",
+    "order_novel4": "Same open/empty/H-in-drawer setup as order_known4; C,O,L(T),P. Same action multiset, unseen full and contiguous four-step training order. Branch2 overrides first L(T). No new skill."
+  },
+  "prediction_starts": {
+    "current": "h0 then each real observed boundary; no future observations",
+    "one_step": "Each actual previous posterior, predict next boundary without next RGB-D",
+    "free_h0": "From actual h0, whole 4 or6 action sequence with no future observations",
+    "free_h2": "Additional known recovery6 only: observe h0..h2 including grasp outcome, then predict remaining4 actions with no future observations"
+  },
+  "hold_probe": {
+    "source": "Existing unmodified PhysicalOracle lift verify_stable_completion controls4,8,12; no new controllers/actions/physical holds. Public four-frame windows only.",
+    "model_usage": "Apply the same pre-lift action prior independently to each probe observation. No hold verb or hold-transition evaluation claimed. Probe posterior never fed into main trajectory.",
+    "positive_denominator": "Requested target truly Held continuously at every recorded control from probe4 through8 or8 through12. Each eligible interval counted; report positive frames, eligible runs, failures and absent/incomplete probes. Family/episode correlation explicit.",
+    "In_denominator": "Non-target H truly InDrawer throughout corresponding control interval; report retained relations separately.",
+    "additional_controls": 0
+  },
+  "scoring": {
+    "thresholds": "Held/In>=0.5; drawer argmax, unchanged",
+    "per_step": "All-three Held, all-three In, drawer, conjunction; invalid GT counted and shown, never silently dropped",
+    "whole": "Every observed boundary or every predicted boundary correct; report branch and template separately",
+    "semantic_checks": "Requested T Held on lift; T InDrawer and empty hand on placement; non-target H InDrawer; actual execution/refusal/success logged",
+    "close": "All close calls remain in full metrics, plus separate close status/three-class breakdown; no further close-feature search",
+    "retention": "Stable true Held/In at task boundaries and control probes; positive and prior-correct denominators explicit",
+    "family": "Per-family outcomes; paired family bootstrap2000 for geometry-minus-baseline, no acceptance gate invented",
+    "failure_policy": "No replacement or selective dropping. Partial collection reported as partial, preferably complete families; no test-to-training or threshold selection."
+  },
+  "no_training": true,
+  "no_private_model_inputs": true,
+  "CD_accesses": 0,
+  "old_gates_unchanged": true
+}

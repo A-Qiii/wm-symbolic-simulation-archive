@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-16T07:08:12.164617+00:00",
+  "scope": "Object parameter perturbation reported only for complete one-hot declared targets on lift/place, never unbound old place. Supplement to retained all-call exploratory controls.",
+  "sha256": "d0256bcc25480008d2ad62c120edb8328274042aa20f3951673c581752395028",
+  "architecture_or_threshold_or_training_changes": false,
+  "D_model_predictions_seen": false,
+  "comparison_limit": "AE additionally2000 reconstruction updates; joint2000 total and differing RNG consumption. Comparison is not strictly matched compute/batches; no unique causal attribution to interaction loss."
+}

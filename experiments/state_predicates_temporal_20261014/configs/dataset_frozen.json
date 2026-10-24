@@ -1,0 +1,8 @@
+{
+  "pool_per_arm": 1009,
+  "same_labels_masks": true,
+  "identical_historical_inputs": 973,
+  "temporal_train_windows": 36,
+  "metadata_sha256": "e69465100e963cdc64b8c219e56eb64cb61bd985de5919a1d714032a460f486e",
+  "arrays_sha256": "1b46db14fa659ebde7c8d79bd29e172c3601e80712f8a64559ee7ad1641d1339"
+}

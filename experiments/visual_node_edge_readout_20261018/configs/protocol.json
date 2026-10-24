@@ -1,0 +1,90 @@
+{
+  "utc": "2026-10-18T08:29:54.120343+00:00",
+  "scope": "fixed-scene pure-RGB node vs explicit visual-context edge perception feasibility; no world-model training",
+  "object_identity": "unchanged current-RGB HSV largest connected component for red/blue/pink, two cameras independently; known closed object set, no temporal association or open-vocabulary claim",
+  "input_audit": "Old scene1039 includes15 robot_obs; old64 object z receives scene context and is not pure vision. Old z,robot_obs,PCA and learned representation never used by candidate.",
+  "pure_input": [
+    "rgb_static",
+    "rgb_gripper"
+  ],
+  "prohibited_inputs": [
+    "robot_obs",
+    "scene_obs",
+    "simulation identities for localization",
+    "segmentation masks from simulator",
+    "contacts",
+    "3D poses",
+    "actions",
+    "labels"
+  ],
+  "endpoints": {
+    "Holding": {
+      "camera": 1,
+      "box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "meaning": "whole wrist-camera gripper context; fixed camera-role region, not jaw segmentation"
+    },
+    "In": {
+      "camera": 0,
+      "box": [
+        0.1,
+        0.52,
+        0.98,
+        1.0
+      ],
+      "meaning": "lower static-camera drawer region; fixed pixel ROI, not automatic drawer detection"
+    }
+  },
+  "endpoint_limitation": "fixed camera-role wrist and drawer image regions, not true instance segmentation or general gripper/drawer detection; image-derived 2D region geometry allowed",
+  "backbone": "one shared frozen local-cache DINOv2-small for all images and endpoints; full-image patch self-attention means ROI descriptors contain global image context",
+  "node": "74D = two camera object mean ROI descriptors projected to32 each + 2x5 image bbox/visibility; fixed visual descriptor retained, no relation-label clustering",
+  "edge": "207D = same74 object +128 endpoint2x2 DINO/PCA32 grid +5 relative image geometry; Holding uses wrist region, In uses lower static drawer region",
+  "fair_control": "same RGB and frozen backbone,labels,train roots,schedules,batch,updates,optimizer,weights andthreshold. node74->88->1 vs edge207->32->1 both6689parameters; width/input organization differs intentionally. Old robot-conditioned results not causal baseline.",
+  "normalization": "single DINO PCA32 fitted only to union of training RGB tokens; each head train-pool statistics; no heldout/C/D fit",
+  "heads": [
+    "Holding",
+    "In"
+  ],
+  "arms": [
+    "node",
+    "edge"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "max_fits": 8,
+  "updates_each": 600,
+  "batch_states": 32,
+  "old_pool_states": {
+    "Holding": 210,
+    "In": 156
+  },
+  "official_training_states": 120,
+  "positive_weights": {
+    "Holding": [
+      8.545454545454545,
+      8.545454545454545,
+      8.545454545454545
+    ],
+    "In": [
+      5.142857074737549,
+      5.142857074737549,
+      5.142857074737549
+    ]
+  },
+  "schedule": "exact previous augmented24old+8official; identical within head/seed across arms, no sampling change",
+  "optimizer": "AdamW lr.001 wd.001 clip1; masked positive-weighted BCE mean per-state valid objects then batch; no new auxiliary loss",
+  "initialization": "seed17083000+100*head_index+seed, save initial weights separately per architecture before any training",
+  "selection": "fixed600,threshold.5,no hyperparameter search or earlystop; all runs retained",
+  "evaluation": "per-color FP/FN and all3, root-level results, official same-segment positive/negative pairs, unseen six-fact label combinations relative to each training pool; model-only object/endpoint swap probes, no new physical counterfactual claims",
+  "heldout": "AB_heldout16:4old official roots excluded from prior readout training, earlier physics-audited; only5Holding/7Inpositivefacts and2Inunknown, weak evidence. official_validation120/4roots previously readout-evaluated; C and AB54 retention; D repeatedly seen diagnostic only.",
+  "observable_limit": "Single RGB cannot uniquely determine force-based stable contact/support in all cases. Preserve unknown masks; inspect exact-RGB conflicting labels and object visibility strata. Do not relabel failures or claim pure vision sufficient.",
+  "no_collection_download_or_T_training": true,
+  "no_formal_model_adoption": true,
+  "SupCon_remains_paused": true
+}

@@ -1,0 +1,24 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle_v2.py": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle_v2.py": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+    "/home/robot/research/projects/wm_symbolic/experiments/relation_GT_boxes36_ABC_20261018/configs/delivery_manifest.json": "9d8c3926e5d3a50ccb52287e47648f3fcab6caaf1fc9927bf4dc761fcaee0590",
+    "/home/robot/research/projects/wm_symbolic/reports/holding_static_context_diagnostic_20261018/NEXT_TRANSITION_EVIDENCE.md": "4f03f7385252fd521275d21f5a1f60db48d99b1c3d0d67bdfd711c30d4d9ea02",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/robot.py": "65721aa5f6bbb74a7bfabd53fe05699c0fc281d682363f065600f94622a396a7",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/robot/mixed_ik.py": "a8c3f9942969d9d630f5648d4cb6e3ea281d47ddfed4dba78a43c5d1e514333e",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/envs/play_table_env.py": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/scene/play_table_scene.py": "ef09d5748deb4a3e75247943689e294cc616b8e183cf8e8284ae510988b5aed0",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/scene/objects/button.py": "7f35651265589fc240e3ed44cf344619a3be2fe71ce0be0685a70d38e72858ab",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/scene/objects/switch.py": "61fbdcce1735e8d794472bbdaac204f506db666935f45a2c3042b17db95054bf",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/scene/objects/light.py": "a5667bac0d28047587462d9a3abcbe5342eca1205d1d3eb9bdd7717ab62cd24c",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/camera/static_camera.py": "aec23cf05bdcdbc5768d6f7b0a4b8415925c3ac0b703405bc270130f11cc0dcf",
+    "/home/robot/research/projects/wm_symbolic/vendor/calvin/calvin_env/calvin_env/camera/gripper_camera.py": "aa0cd1e8e8cc0451f31ae600234c858c82442049828ef2b7c0c03405e93d5cf5",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/delivery_manifest.json": "cec849a69f4ffa871dd39c3cf145584ea2106619ffb400dc00636dd48db7bd55",
+    "/home/robot/research/projects/wm_symbolic/experiments/native_restore_semantics_root1_final_20261018/configs/delivery_manifest.json": "382b030deb333be2f2377c773e0db23c57f876fdda7d0bcdaf1a57a433eb1b52",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/configs/delivery_manifest.json": "181edf5b5ec13c47d4bfedaeee67ee952d872d1a7ef5c024a1f517d098e951eb",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/collect.py": "896a2825599081e175b640b89cf71b440913d2fa725430eb958a9aeadadfcd24",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_20261018/configs/protocol.json": "6e4d0a6c5b3055e1a199ec50e36b49838dd7ebfde231828638b261ba96d3b016"
+  },
+  "pybullet": "3.2.7"
+}

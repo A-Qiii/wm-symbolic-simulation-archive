@@ -1,0 +1,49 @@
+from common import *
+from net import *
+import baseline_net,shutil,ast
+
+def main():
+ assert not E.exists()
+ for sub in ['configs','source','models','data/predictions','data/baseline','data/evaluation','results','logs']:(E/sub).mkdir(parents=True,exist_ok=True)
+ R.mkdir();(R/'figures').mkdir()
+ inputs=[BASE/'configs/delivery_manifest.json',BASE/'configs/training_frozen.json',BASE/'configs/training_runtime.json',BASE/'configs/normalization.npz',BASE/'data/train/train.npz',BASE/'source/net.py',BASE/'source/train.py',BASE/'source/prepare_train.py',PRBASE/'configs/delivery_manifest.json',PRBASE/'data/ABC_labels_metadata.json',PRBASE/'results/summary.json',PRBASE/'results/fixed_threshold_points.json',PRBASE/'results/slot_and_GT_overlap.json']
+ for seed in [0,1]:
+  inputs.extend([BASE/f'models/initial_seed{seed}.pt',BASE/f'models/final_seed{seed}.pt',BASE/f'configs/schedule_seed{seed}.npy',BASE/f'results/train_seed{seed}.json'])
+  for split in ['train','dev']:
+   inputs.append(BASE/f'data/predictions/raw_seed{seed}_{split}.npz')
+   for cam in ['all','static','gripper']:
+    for cat in ['all']+CATS:inputs.append(PRBASE/f'data/pr_seed{seed}_{split}_{cam}_{cat}.npz')
+ inputs.extend(BASE/f'data/features/{split}.npz'for split in ['train','dev'])
+ opened=install_guard(inputs);oldseal=read(BASE/'configs/delivery_manifest.json')['sha256'];prseal=read(PRBASE/'configs/delivery_manifest.json')['sha256'];hashes={}
+ for p in inputs:
+  h=sha(p);hashes[str(p)]=h
+  if p.name!='delivery_manifest.json':assert h==(oldseal if p.is_relative_to(BASE)else prseal)[str(p)],p
+ # Source-level comparison proves that only the focal modulation expression changes.
+ old=read_text=(BASE/'source/net.py').read_text();local=Path(__file__).parent
+ assert old==(local/'baseline_net.py').read_text();oldweight='weight=torch.where(y>0,.25*(1-pr).square(),.75*pr.square())';newweight='weight=torch.where(y>0,.25,.75)';assert old.count(oldweight)==1 and old.replace(oldweight,newweight)==(local/'net.py').read_text()
+ assert (BASE/'source/train.py').read_text()==Path('/home/robot/Documents/Codex/2026-10-13/task-4/sync_localizer_src/train.py').read_text()
+ runtime=read(BASE/'configs/training_runtime.json');assert runtime['torch']==torch.__version__ and runtime['numpy']==np.__version__;assert runtime['trainable_parameters']==sum(p.numel()for p in make().parameters())==25615
+ frozen=read(BASE/'configs/training_frozen.json')['sha256']
+ for p in [BASE/'data/train/train.npz',BASE/'configs/normalization.npz']+[BASE/f'{kind}/{name}_seed{s}.{ext}'for s in [0,1]for kind,name,ext in [('models','initial','pt'),('configs','schedule','npy')]]:assert sha(p)==frozen[str(p)]
+ protocol={'utc':now(),'scope':'One-factor gamma=2 focal versus gamma=0 equally weighted BCE contrast; maximum two new training runs; reuse sealed focal baseline, do not rerun it','changed_factor':{'baseline':'weight = where(y>0, 0.25*(1-sigmoid(logit))^2, 0.75*sigmoid(logit)^2)','control':'weight = where(y>0, 0.25, 0.75)','removed_only':'focal modulation; alpha and negative weight unchanged','normalization':'sum(BCE*weight*valid) over patches/slots per image, divided by max(number of positive centers in that image,1), then batch mean','not_ordinary_unweighted_BCE':True,'scale_note':'Removing modulation naturally changes loss/gradient scale and clipping behavior; no compensating rescale or learning-rate change is allowed'},'unchanged':{'data':'same saved train.npz x,y,b,v and cached train/dev DINO features; no mask or slot reassignment','RGB_only':'normalized frozen DINOv2-small tokens from same 448 RGB /32x32 patches; no GT or metadata network inputs','head':'Linear384->64, SiLU, Linear64->15; same 25615 parameters and saved initial weights per seed','regression':'5 SmoothL1 + 2 GIoU, same positive indices and targets','optimizer':'AdamW(lr=0.001, weight_decay=0.0001), same defaults and torch version','batch':16,'updates':1200,'seeds':[0,1],'schedule':'same saved 1200x16 permutations; every train image appears 75 times','gradient_clip':1.,'deterministic':'CUBLAS :4096:8, torch deterministic algorithms, TF32 disabled, no AMP','augmentation':'none','checkpoint':'final only','decoder':'all positive-area normal candidates, classwise NMS IoU>0.5, no local peaks or cardinality cap','slot_rule':'front0, finger1 and collision-only finger2; unchanged','unknown':'same image-class validity mask'},'evaluation':{'splits':['train','dev'],'D':'no D data, raw predictions, features or scores may be read','primary':'full normal decoded micro AP50 and class/camera AP50; both paired seeds','AP':'same all-points precision-envelope integral at match IoU>=0.5; all valid GT denominator; same tie rules as prior PR audit','fixed_operating_point':.5,'descriptive_markers':[.5,.3,.1],'no_threshold_selection':True,'no_model_or_hyperparameter_search':True,'no_GT_center_oracle_as_detection':True,'predictions':'both final heads frozen before train/dev inference; raw predictions frozen before scoring','interpretation':'Effect of focal modulation only for this data and fixed budget, not universal loss superiority'},'logging':{'control_training':'all 1200 losses, classification/regression parts, preclip global gradient norm, output-logit row gradient norms, positive slot exposures','baseline_history':'reuse its 13 saved loss snapshots; no historical gradient trace exists and none will be invented','gradient_probes':'no optimizer updates; two fixed train batches, shared initial weights evaluated with gamma2 and gamma0, then each final checkpoint under its own objective; log full-head classification and weighted regression norms and cosine','probe_batches':{'root_balanced':[16*r+(r%2)for r in range(16)],'rare_slot':'all 11 rare-slot images plus earliest 5 non-rare images, derived once before training; explicitly not representative average'},'rare_coverage':'same exact image schedule; compare actual positive exposures to frozen expected counts'},'stop':'stop after two runs and report, even if no gain; no deployment, extension, data expansion or third loss','allowlisted_old_inputs':[str(p)for p in inputs]}
+ save(E/'configs/protocol.json',protocol);save(E/'configs/input_frozen.json',{'utc':now(),'sha256':hashes})
+ z=np.load(BASE/'data/train/train.npz',allow_pickle=False);y=z['y'];v=z['v'];b=z['b'];assert np.array_equal(z['image_ids'],np.arange(256));assert y.shape==(256,1024,3)and np.all(y*(1-v[:,None,:])==0);assert [int(y[:,:,i].sum())for i in range(3)]==[190,499,11]
+ rare=np.where(y[:,:,2].sum(1)>0)[0].tolist();non=[i for i in range(256)if i not in rare][:5];probes={'root_balanced':protocol['logging']['probe_batches']['root_balanced'],'rare_slot':rare+non};assert all(len(a)==16 for a in probes.values());save(E/'configs/probe_batches.json',probes)
+ coverage=[]
+ for seed in [0,1]:
+  sched=np.load(BASE/f'configs/schedule_seed{seed}.npy');assert sched.shape==(1200,16)and np.all(np.bincount(sched.ravel(),minlength=256)==75);shutil.copy2(BASE/f'configs/schedule_seed{seed}.npy',E/f'configs/schedule_seed{seed}.npy');shutil.copy2(BASE/f'models/initial_seed{seed}.pt',E/f'models/initial_seed{seed}.pt');initial=torch.load(E/f'models/initial_seed{seed}.pt',weights_only=True,map_location='cpu');m=make();m.load_state_dict(initial['state']);assert tensor_hash(m.state_dict())==initial['initial_hash'];counts=y.sum(1)[sched].sum((0,1));coverage.append({'seed':seed,'positive_exposures_by_slot':counts.tolist(),'batches_containing_collision_positive':int((y[:,:,2].sum(1)[sched].sum(1)>0).sum()),'collision_image_occurrences':int(np.isin(sched,rare).sum()),'initial_hash':initial['initial_hash']})
+ # Frozen loss/gradient parity tests, using actual targets but no optimizer or model fit.
+ torch.manual_seed(261018);raw=torch.randn(16,1024,15,requires_grad=True);yy=torch.tensor(y[:16]);vv=torch.tensor(v[:16]);bb=torch.tensor(b[:16]);l0,p0=loss(raw,yy,vv,bb);l2,p2=baseline_net.loss(raw,yy,vv,bb);assert torch.equal(p0[1:],p2[1:]);log,_=unpack(raw);manual=((F.binary_cross_entropy_with_logits(log,yy,reduction='none')*torch.where(yy>0,.25,.75)*vv[:,None,:]).sum((1,2))/yy.sum((1,2)).clamp(min=1)).mean();assert torch.allclose(l0,manual+5*p0[1]+2*p0[2],atol=1e-6,rtol=1e-6)
+ zero=torch.randn(1,1024,15,requires_grad=True);lz,_=loss(zero,torch.zeros(1,1024,3),torch.zeros(1,3),torch.zeros(1,1024,3,4));lz.backward();assert float(lz.detach())==0 and torch.count_nonzero(zero.grad)==0
+ shutil.copy2(BASE/'configs/normalization.npz',E/'configs/normalization.npz');shutil.copy2(PRBASE/'data/ABC_labels_metadata.json',E/'data/ABC_labels_metadata.json')
+ for name in ['summary.json','fixed_threshold_points.json','slot_and_GT_overlap.json']:shutil.copy2(PRBASE/'results'/name,E/'data/baseline'/name)
+ for seed in [0,1]:
+  shutil.copy2(BASE/f'results/train_seed{seed}.json',E/f'data/baseline/train_seed{seed}.json')
+  for split in ['train','dev']:
+   for cam in ['all','static','gripper']:
+    for cat in ['all']+CATS:
+     name=f'pr_seed{seed}_{split}_{cam}_{cat}.npz';shutil.copy2(PRBASE/'data'/name,E/'data/baseline'/name)
+ save(E/'results/preflight.json',{'utc':now(),'passed':True,'source_diff_exactly_one_weight_expression':True,'alpha_positive':.25,'alpha_negative':.75,'same_per_image_positive_normalization':True,'regression_components_bitwise_equal':True,'gamma0_equals_alpha_weighted_BCE':True,'unknown_zero_gradient':True,'old_sealed_selected_inputs_verified':len(inputs),'baseline_runtime_equal':True,'coverage':coverage,'old_input_opened':sorted(opened),'D_data_reads':0,'optimizer_updates':0})
+ for f in local.glob('*.py'):shutil.copy2(f,E/'source'/f.name)
+ files=[p for sub in ['configs','source','models']for p in(E/sub).glob('*')if p.is_file()];save(E/'configs/pre_run_frozen.json',{'utc':now(),'before_first_new_optimizer_update':True,'sha256':{str(p):sha(p)for p in files}});print('GAMMA0_PROTOCOL_AND_COMPARABILITY_FROZEN',E,flush=True)
+if __name__=='__main__':main()

@@ -1,0 +1,70 @@
+{
+  "frozen_utc": "2026-10-16T13:53:25.463044+00:00",
+  "scope": "One local, finite, paired multi-step chain-source comparison. No environment expansion, new query fitting, new loss or architecture.",
+  "initial_transition": "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_repair_20261016/models/canonical_matched_seed0/update1000.pt",
+  "initial_sha256": "8d6bf5c8937d147baefc98062635a66f17ca3db3dfc8681d6d7ccc1e36d63698",
+  "query_heads": {
+    "0": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed0/update0150.pt",
+      "sha256": "b32d5f38506d10d8d5b3e8b504d18c1c14ea203b0b32074da948530f6ec34271",
+      "C_score": 0.2316754311323166
+    },
+    "1": {
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/empty_open_readout_correction_20261016/models/empty_open_seed1/update0150.pt",
+      "sha256": "12720019d530aa808bfd70a96b51a6fc2730394173449521d11311ce190ff6e3",
+      "C_score": 0.22401409596204758
+    }
+  },
+  "frozen": "DINO, preprocessing, object encoder, scene encoder, decoder, selected corrected query perseed, query normalization, threshold, controller",
+  "arms": [
+    "old_chains",
+    "new_chains"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "updates": 1000,
+  "single_step_batch": 64,
+  "single_step_draws_per_run": 64000,
+  "single_step_schedule": "Exact prior new-coverage transition schedule:48common oldAB+12new normal+4new held_closed draws, identical in both arms. No change to samples/order/budget.",
+  "multi_step": {
+    "every_updates": 4,
+    "batch": 48,
+    "distinct_windows_per_arm": 24,
+    "root_counts_per_arm": 12,
+    "window_length": 3,
+    "draws_per_run": 12000,
+    "steps_scored": [
+      2,
+      3
+    ],
+    "sampling": "Every multi-step batch contains each paired root and each of its two3-skill windows twice; identical paired order across arms, shuffled by fixed seed. No discontinuous or reset edges.",
+    "only_treatment": "old12 closed longpair roots vs new12 normal roots; same environment,color,full action,window length,count,frequency and weight.",
+    "first_step": "Compute chain first predicted latent from that chain true initial latent. No extra first-step chain loss; this permits identical independent single-step samples in the two arms.",
+    "loss": "Existing .25*(mean equal4group changed-weighted decoded feature error+.25 latent MSE) at steps2 and3, exact same formula; no new loss/weight."
+  },
+  "single_step_loss": "Existing mean equal4group changed-weighted decoded feature error+.25 actual successor latent MSE.",
+  "optimizer": "same AdamW lr1e-4 wd1e-4 clip5; fresh optimizer in each arm; only transition parameters.",
+  "checkpoints": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "selection": "Unchanged minimum .5oldC37-root mean single-step feature error+.5newC-selection6-root same error; earlier tie. No C-validation or D3/D4 reads.",
+  "validation": {
+    "roots": "Existing6 C dev_validate roots excluded from this training and checkpoint selection. Historically seen in previous studies: report as held-out development backtest, not fresh independent test.",
+    "gate_frozen_before_training": {
+      "C_selection": "Both seeds: selected new-chain score strictly less than old-chain score.",
+      "C_backtest_primary": "Both seeds: normal recursive step3 all9 count >= both initial and old-chain count+1; sum recursive step3+step4 >= both reference sums+2.",
+      "retention": "Both seeds: normal recursive step1 and step2 and one-step step3 and step4 cannot each lose more than1/6 root vs either reference. Actual-state query predictions must be identical across transition arms.",
+      "if_pass": "Freeze choices, then collect exactly12 new D5 roots (4/color),2branches,96calls maximum; same900control+96posthold,internal2/external0, no replacements.",
+      "if_fail": "No newD collection, no second tuning round. Report negative/inconclusive result and return for decision.",
+      "interpretation": "Operational finite-study gate; not statistical significance or replacement of original acceptance criteria."
+    }
+  },
+  "evaluation": "Same fixed root cohorts, full9, Holding/In/drawer, paired actual-readout vs one-step vs recursive, per-proposition and physical place truth. Normal primary; refusals separate. D3/D4 only seen diagnostics, not accessed by training/selection.",
+  "budget": "4runs x1000updates,256000single draws,48000three-skill chain draws; no other run or hyperparameter change."
+}

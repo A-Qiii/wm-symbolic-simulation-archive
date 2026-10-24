@@ -1,0 +1,26 @@
+{
+  "status": "VISIBILITY_AND_FEATURE_DESIGN_FROZEN_BEFORE_SCORING_OR_TRAINING",
+  "utc": "2026-10-20T00:46:39.569575+00:00",
+  "maximum_minutes": 40,
+  "hypothesis": "Visible local object-environment geometry improves unseen-layout action consequences without a hand-coded success predicate.",
+  "arms": "Existing32-D coarse scene grid versus32-D local visible-edge distances; all original16-D per-object geometry and old frozen inputs unchanged.",
+  "coordinate_frame": "Calibrated world/base XYZ; no drawer true joint or object pose.",
+  "regions": "Known colored objects routed from current RGB within anonymous visible instance regions, numeric mask IDs never features. Scene is all remaining visible regions, including robot if visible; no semantic drawer/body-link ID selection.",
+  "edges": "4-neighbor instance boundary or adjacent depth discontinuity>0.01m. These are visible point-cloud boundaries, not ground-truth physical edges.",
+  "pair_selection": "Choose closest pair among visible object median centers; generic proximity, no Held/In or action outcome. Pair ordering by existing color slots.",
+  "32_dimensions": "Two closest objects each6 directional[-x,+x,-y,+y,-z,+z] edge distances and6 validity bits=24; pair onehot3 +relative center3+center distance1+pair-valid1=8.",
+  "direction_query": "Visible robust AABB from5/95% object points; environment edge points in directional column, orthogonal bounds expanded15mm, positive distance<=350mm; >=3points needed,10th percentile distance. No neighbor means missing, never zero/free-space truth.",
+  "normalization": "Training-only; zero invalid distances after normalization with per-direction masks. All other inputs bit-identical to preceding geometry arm.",
+  "visibility_gate": "Before any training, on all original train/development role h5 boundaries, require>=90% both objects visible and>=90% selected object-forward(+Y) queries supported in each split. Inspect public RGB-D projections for support on environment beyond objects, not only object occlusion contour. Forward query is inspection of existing fixed setup, not a success rule. If key gap not observable stop this feature path.",
+  "training_if_visible": "Same2,490,068 parameters, same original1128 transitions and schedules,1500 updates per arm per seed, seeds0/1; no iterative tuning.",
+  "evaluation": "Training/development close outcomes by success,jam,joint-limit, macro recall and training-majority baseline; one/four-step plus Held/In and normal observed trajectories. Development is exploratory.",
+  "independent_test_trigger": "Both seeds improve development close one-step and four-step macro recall with positive success-recall change, neither below majority accuracy, h0 Held and normal whole no more than5pp regression, In forgetting not worse by>2pp. Freeze a separate independent test plan only then.",
+  "forbidden_features": [
+    "private contacts",
+    "true object poses",
+    "drawer true joint position",
+    "execution outcome",
+    "future observation"
+  ],
+  "original_gates_unchanged": true
+}

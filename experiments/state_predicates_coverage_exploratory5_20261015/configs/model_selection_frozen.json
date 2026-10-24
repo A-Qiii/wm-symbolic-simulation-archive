@@ -1,0 +1,314 @@
+{
+  "created_utc": "2026-10-15T09:58:20.391909+00:00",
+  "runs": [
+    {
+      "run": "closed137_seed0",
+      "seed": 0,
+      "cohort": "closed137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update1500.pt",
+        "sha256": "07e5e5ae3d6e7fca7af386ad1a3884c9457272f0f0aca74cda4f43a214a3d12a"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update0300.pt",
+          "sha256": "ed29edc89b5731b14aef6c1f6abf6805095720aaa262a5c1bf77295b4dc6815f"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update0600.pt",
+          "sha256": "9c462ff23dc2358cd0e228cb9d3d26d346e4edfd7097f34c24b9e569c4e0ae4b"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update0900.pt",
+          "sha256": "b3861331453b689e7b9e73321344015b0716a372a3b8d5c27dfd16400197cbb7"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update1200.pt",
+          "sha256": "0a1ed8f2120ce6faebea727d1f4740f0fec8002c2ef49ae3d05d48b91889a983"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed0/update1500.pt",
+          "sha256": "07e5e5ae3d6e7fca7af386ad1a3884c9457272f0f0aca74cda4f43a214a3d12a"
+        }
+      ],
+      "shared_schedule_sha256": "d2c06526d0f8c29249ab40c32ea1481a03ec9c2310ddf46137ab5e3ff8eeba65",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.5627219889993285,
+      "peak_torch_allocated_bytes": 23284736
+    },
+    {
+      "run": "open137_seed0",
+      "seed": 0,
+      "cohort": "open137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "7d64112f74f7dbd777d138d6655777cad86b846f3b9d2dad9261d9237ca779a5",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update1500.pt",
+        "sha256": "fca50be9a28de158996c6402bdf7749bd6aea060c5f74df15e73b7dc40703432"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update0300.pt",
+          "sha256": "5afa8f7bf2aa14ec4883aacac166e8414d5224c5684b64f06150196a39b1766e"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update0600.pt",
+          "sha256": "23c4bb2fc014ee1b76265134084c4bea04d27d0ebc5f0a2e8ccfb45c92dc3603"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update0900.pt",
+          "sha256": "cadfaacc225551924d3d171f02cfed1ebd0de5540d9f390460df9707e57f39b2"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update1200.pt",
+          "sha256": "3596889c03159a397cfff96d981b72eda5fbb9d5996ef8c4867f2246bf78e114"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed0/update1500.pt",
+          "sha256": "fca50be9a28de158996c6402bdf7749bd6aea060c5f74df15e73b7dc40703432"
+        }
+      ],
+      "shared_schedule_sha256": "d2c06526d0f8c29249ab40c32ea1481a03ec9c2310ddf46137ab5e3ff8eeba65",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.3436974759988516,
+      "peak_torch_allocated_bytes": 23284736
+    },
+    {
+      "run": "closed137_seed1",
+      "seed": 1,
+      "cohort": "closed137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update1500.pt",
+        "sha256": "d5a0f551f36398f38e1596775aef6a50105c991b12ed9d5f7518b0339b63d2e7"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update0300.pt",
+          "sha256": "cb2814bec7a98fbb1138cdbfbb2e0d7f42ef88d5d6d9e90516c409ac67e35d0f"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update0600.pt",
+          "sha256": "aaa523f3c8382ad3ec7ebdf8d618475b3c7e54d2bd0a81442852c3b974cc16c4"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update0900.pt",
+          "sha256": "4c613799ffa136efb3797a29df51da954b7a34a104834461f61f230207973213"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update1200.pt",
+          "sha256": "7104d2fea260763d80e5b383e81b8b99da1a5ef8f45709f873a5ee3303b8a129"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed1/update1500.pt",
+          "sha256": "d5a0f551f36398f38e1596775aef6a50105c991b12ed9d5f7518b0339b63d2e7"
+        }
+      ],
+      "shared_schedule_sha256": "800dbb07a0856b2e707ec75d3a1929a5fd7bae2c2a1cd75befb95416aa78ca61",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.339189541000451,
+      "peak_torch_allocated_bytes": 23284736
+    },
+    {
+      "run": "open137_seed1",
+      "seed": 1,
+      "cohort": "open137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "bcb305c65a8bd850e4962d8a2c3a2f7384e269b22fdc4651f935452ec6524dce",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update1500.pt",
+        "sha256": "ebac24124dc9d740224a6b2183c19233a9f340f671daa8a16070630550e3ef8a"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update0300.pt",
+          "sha256": "09d8b277134e0fc46276bc6b672762d383fe191538f0e1f92ae6824398d476a7"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update0600.pt",
+          "sha256": "94cbbdbfae850b79d782e233fb7529da3c21b33f7e2d0e14b3c045926a358420"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update0900.pt",
+          "sha256": "8312216a320dd6b83ee8b6915256ca0e953f9bd7b71425087644a2e364f03ba1"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update1200.pt",
+          "sha256": "17d43ff9dbaefdc03a1f2d782bb1eb88d3c63eb158988e8ff39fdc9426f3d45d"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed1/update1500.pt",
+          "sha256": "ebac24124dc9d740224a6b2183c19233a9f340f671daa8a16070630550e3ef8a"
+        }
+      ],
+      "shared_schedule_sha256": "800dbb07a0856b2e707ec75d3a1929a5fd7bae2c2a1cd75befb95416aa78ca61",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.3045602700003656,
+      "peak_torch_allocated_bytes": 23284736
+    },
+    {
+      "run": "closed137_seed2",
+      "seed": 2,
+      "cohort": "closed137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update1500.pt",
+        "sha256": "071c47c8cac8f44591b8e9e32a3d9c50e177aa6c9374adb94e2e036934808151"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update0300.pt",
+          "sha256": "3304f5752dd3efe2ea8c8275e33dc5fac19699fa3cfc124301cdf59a3e96f382"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update0600.pt",
+          "sha256": "c10ddd897cda7510528360aac2e7a1dabcb3fafedd917238bb2f66d7545db612"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update0900.pt",
+          "sha256": "f8b8268d59ad83a05cd85bd8662e05ba46eae7ab5318d6f9c8028724371a97fb"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update1200.pt",
+          "sha256": "9bcfd7cb2b53e828630fec522e33373e46476e28fc9f78db342b8bf0d7b87293"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/closed137_seed2/update1500.pt",
+          "sha256": "071c47c8cac8f44591b8e9e32a3d9c50e177aa6c9374adb94e2e036934808151"
+        }
+      ],
+      "shared_schedule_sha256": "86fd955c6a7a14baf519c6897c00fbdf6331ab9d77fc28852132bbae05a5fead",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.2715944290011976,
+      "peak_torch_allocated_bytes": 23284736
+    },
+    {
+      "run": "open137_seed2",
+      "seed": 2,
+      "cohort": "open137",
+      "updates": 1500,
+      "train_pairs": 137,
+      "presentations": 24000,
+      "min_presentations": 175,
+      "max_presentations": 176,
+      "initial_digest": "0211377a5a56d47e3ce7a3f81bc0b38cfd1d1040eb2651f70d01d11f0ba1ce4c",
+      "same_as_original132_initialization": true,
+      "final1500": {
+        "update": 1500,
+        "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update1500.pt",
+        "sha256": "e4e732958b9b9e4649e8c1f0354a6c6bd4ac74b04983914b7b0d8ae5c038d070"
+      },
+      "checkpoints": [
+        {
+          "update": 300,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update0300.pt",
+          "sha256": "e25d1b3577a4239cfca56cd08b676ba97e65ae6709588e32fb20f013eb1260ba"
+        },
+        {
+          "update": 600,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update0600.pt",
+          "sha256": "77aa383933488879fc460f040c0708c611792f2850deeda0eca9c5e39f2220fd"
+        },
+        {
+          "update": 900,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update0900.pt",
+          "sha256": "c34114beac58ee904c1e33bce82ae7825c5eaa9a06e175a2ca113bdca9f5589c"
+        },
+        {
+          "update": 1200,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update1200.pt",
+          "sha256": "a062f535b32438bc92dfa81378e5692e67afb644c014d424864b29cbad6d6efe"
+        },
+        {
+          "update": 1500,
+          "path": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_coverage_exploratory5_20261015/models/open137_seed2/update1500.pt",
+          "sha256": "e4e732958b9b9e4649e8c1f0354a6c6bd4ac74b04983914b7b0d8ae5c038d070"
+        }
+      ],
+      "shared_schedule_sha256": "86fd955c6a7a14baf519c6897c00fbdf6331ab9d77fc28852132bbae05a5fead",
+      "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+      "frozen_reader_no_grad": true,
+      "C_rows_used_for_optimizer_or_selection": 0,
+      "wall_seconds": 2.324532855000143,
+      "peak_torch_allocated_bytes": 23284736
+    }
+  ],
+  "all_training_complete": true,
+  "total_optimizer_updates": 9000,
+  "fixed_final1500_no_C_selection": true,
+  "representatives": {
+    "closed137": "closed137_seed0",
+    "open137": "open137_seed0"
+  },
+  "reader_digest": "1184829c46fadd4eace3bd7020022d35028632e76609e76afe756b7729c6c00b",
+  "elapsed_seconds": 15.64334260599935
+}

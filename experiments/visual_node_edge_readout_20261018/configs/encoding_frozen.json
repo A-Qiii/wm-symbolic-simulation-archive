@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-18T08:31:16.070632+00:00",
+  "before_feature_extraction": true,
+  "code_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/source/visual.py": "242a6d9b2f8db978e75cc4d39d16765284ba3f009e162b13a8d8043f4cd3da98",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/source/registry.py": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/source/encode.py": "17bb707ff85c5ca5cd2d5cad95c07c7fbee909c2fb5a094ba91b47a59c53e211",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/source/common.py": "c9a000a67665c89918fa334296f9c4c06cc71a367db8f9d9493a58c454711f89",
+    "/home/robot/research/projects/wm_symbolic/experiments/visual_node_edge_readout_20261018/source/prepare.py": "cccea933e7af5dd6c089cadee3a7d8ece9240573bc3146be4ccd2ac4ff03c810"
+  },
+  "DINO_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+  "schema": [
+    "rgb_static",
+    "rgb_gripper"
+  ],
+  "PCA_fit": "training union RGB only",
+  "ROIs": {
+    "Holding": {
+      "camera": 1,
+      "box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "meaning": "whole wrist-camera gripper context; fixed camera-role region, not jaw segmentation"
+    },
+    "In": {
+      "camera": 0,
+      "box": [
+        0.1,
+        0.52,
+        0.98,
+        1.0
+      ],
+      "meaning": "lower static-camera drawer region; fixed pixel ROI, not automatic drawer detection"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-10-14T13:49:33.312778+00:00",
+  "scope": "One finite independent state-interface acceptance of frozen seed1. No training, recalibration, repair, model switching, new root replacement, WM or planning execution. Local only.",
+  "roots": 12,
+  "root_balance": "3 target colours x2 declared drawer initial states x2 independent layouts. Root is statistical cluster, not each window or model output.",
+  "root_exclusion": "New ID and seed; near-duplicate rejection against all archived train/dev/test/controller root layouts across environments and among new roots: all3 named-object distances<=12mm, or all<=20mm and all yaw modulo pi differences<=0.25rad.",
+  "candidate": {
+    "arm": "long_history",
+    "seed": 1,
+    "mode": "fixed600",
+    "update": 600,
+    "checkpoint": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_temporal_20261014/models/long_history/seed1/update0600.pt",
+    "checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "thresholds": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "candidate_contract": {
+    "status": "research_candidate_pending_independent_state_interface_acceptance",
+    "architecture": "Frozen DINOv2-small visible patch/ROI features, shared object MLP, object and scene GRUs, held/in/open heads; 675395 trainable reader parameters. Not the full guide ObjectTransformer/RSSM architecture.",
+    "history": {
+      "fps": 30,
+      "frames": 4,
+      "past_offsets": [
+        63,
+        42,
+        21,
+        0
+      ],
+      "span_seconds": 2.1,
+      "current_label_at_offset": 0
+    },
+    "public_inputs": [
+      "static RGB",
+      "gripper RGB",
+      "visible instance masks and ROI geometry",
+      "15D public robot proprioception"
+    ],
+    "not_used_as_model_inputs": [
+      "private contact/pose/labels",
+      "future frames",
+      "action phase or skill name",
+      "depth (stored only)"
+    ],
+    "tensor_shapes_without_batch": {
+      "objects": [
+        4,
+        3,
+        780
+      ],
+      "context": [
+        4,
+        3072
+      ],
+      "robot": [
+        4,
+        15
+      ]
+    },
+    "object_order": [
+      "red",
+      "blue",
+      "pink"
+    ],
+    "output_order": [
+      "held(red)",
+      "held(blue)",
+      "held(pink)",
+      "in(red,drawer)",
+      "in(blue,drawer)",
+      "in(pink,drawer)",
+      "open(drawer)"
+    ],
+    "thresholds_held_in_open": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "decoding": "Existing model.py predicate_api and metrics.py known: p>=tau is true, p<=1-tau is false, otherwise UNKNOWN; simultaneous known-true held entities become UNKNOWN. At tau=0.5 ordinary confidence rejection is absent.",
+    "unverified_runtime_cases": [
+      "less than 2.1 seconds of history; no padding rule has been accepted",
+      "occluded/missing entity and registry reacquisition",
+      "full closed-loop consumption and completion false-confirmation",
+      "uniform 2.1 second sampling for the historical in/open regression states"
+    ],
+    "external_cached_backbone": {
+      "path": "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056",
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1"
+    },
+    "preprocessing_source": "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/source/evaluate.py",
+    "normalization": "Unchanged original training normalization; copied with SHA-256",
+    "limitations": "Seed1 is selected on C development evidence. A successful development challenge is not independent acceptance or probability calibration proof. No runtime deployment is performed."
+  },
+  "conditions": {
+    "baseline": "Last frame after exactly 96 open-gripper motor holds from initial reset; no history padding.",
+    "near_open": "Last descend_named_block frame with gripper command +1 during lift request, regardless of predicted or actual success.",
+    "near_closed": "First descend_named_block frame with gripper command -1 during lift request. Contact/support truth is audited, not assumed.",
+    "held_after_lift": "Final frame of requested lift, including failures. Condition achieved only if actual held at anchor.",
+    "held_stationary": "Final frame after 96 unchanged closed-gripper hold actions following successful lift. Condition achieved iff all64 consecutive frames held and both TCP/object stay within 1mm of first position. No replacement window.",
+    "held_downward": "Open roots only: anchor at first lower_into_drawer phase frame +63, provided the original phase lasts at least64 frames. Condition achieved iff all64 true-held, TCP and object net drop>=20mm, each consecutive z increment<=0.02mm AND total positive z increments<=0.10mm for each. Numerical tolerance disclosed. No window shifting; failed construction remains recorded.",
+    "in_open": "Open roots only: final frame of 96 open-gripper holds after successful place; actual target in and drawer open required for intended condition.",
+    "in_closed": "Open roots only: final frame of 96 open-gripper holds after successful close; actual target in and drawer closed required.",
+    "natural_one_camera_occlusion": "Earliest t>=63 where target is >=4pixels in other camera at t, and for one camera current pixels<4 but max at the four input times>=20. Score regardless of current held truth; no synthetic occluders.",
+    "natural_held_occlusion": "Same visibility criterion as natural_one_camera_occlusion, earliest eligible current true-held frame. Private truth selects this preregistered diagnostic stratum only, not inputs.",
+    "natural_both_camera_occlusion": "Earliest t>=63 with target<4pixels in both cameras at t and max at any of the four input times>=20; score any physical truth. No synthetic occluders."
+  },
+  "control": "Unmodified PhysicalOracle.run with existing internal bounded retry; extra holds use unmodified PhysicalOracle.hold(96, existing intended grip). No speed, gains, control limits or poses altered. Initial open drawer is a declared root state, not an intermediate completion teleport. Stop dependent place/close/holds on control failure; retain attempt and missing-condition reasons.",
+  "input_processing": {
+    "history_offsets": [
+      63,
+      42,
+      21,
+      0
+    ],
+    "fps": 30,
+    "span_seconds": 2.1,
+    "startup": "No prediction before t>=63; no padding.",
+    "registry": "Fresh VisibleRegistry per complete4-frame window, unchanged RGB colour registration and 2pixel ROI visibility rule. Missing entity stays existing zero feature; no GT identity substitution.",
+    "model": "Same frozen DINO weights, preprocessing, normalization, reader and thresholds. Only objects/context/robot tensors passed.",
+    "occlusion": "No new visibility-based abstention or label masking. Existing held-conflict UNKNOWN decoder only; report registered entity availability separately.",
+    "ground_truth": "Private labels at current t only; ambiguous physical category excluded per existing categorical_valid and counted. Visibility is not a ground-truth validity criterion. Future frames excluded."
+  },
+  "denominators": {
+    "windows": "One preregistered anchor per root-condition; report attempted roots, available windows, achieved condition, control/missing-history gaps, GT-invalid facts. Main condition table includes every anchored attempt even if intended physical condition failed; achieved-only table separately labelled.",
+    "facts": "All7 held(red/blue/pink), in(red/blue/pink,drawer), open(drawer). Current GT-valid facts scored; unavailable public entity still scored. Raw threshold and actual conflict-decoded known output both retained.",
+    "per_condition_root": "Root counts with >=1 FP, FN, UNKNOWN, invalid fact; denominator distinct roots with an available window, plus planned root count. Target truth-positive/negative root denominators separately reported.",
+    "all_facts": "Window passes only if all7 truth-valid and known-correct after conflict decoding. Root passes only if every available mandatory window passes and every planned mandatory condition is achieved. Missing/failed construction never counted as pass.",
+    "pooled": "Distinct roots cluster multiple windows; never label pooled window count independent. Natural occlusion anchors may duplicate other anchors; retain condition membership and report unique root-anchor count."
+  },
+  "decision_rule": "Practical capability report, not 1% statistical certification. Recommend unqualified next-interface integration only when required physical coverage exists for each colour and no consequential known false assertions or recurring missed positive states appear. Localized visibility/condition gaps permit at most explicitly scoped research suggestions; list them without retuning. Do not claim general reliability from zero errors in a small sample. WM integration recommendation only; do not start WM.",
+  "failure_analysis": "First consequential error per root in chronological order, then group existing evidence by cause. No resampling, training, threshold adjustment, repeated acceptance or single-case repair on this set.",
+  "old_vs_new_sampling": "All acceptance windows use2.1s. Older973 rehearsal training windows and prior historical C used original short histories; acceptance does not retroactively change them.",
+  "frozen_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/candidate_manifest.json": "81997fa30b1b113239c7d32e14cd1ff53131d5669ba925af04c76aae8ae8e350",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/INPUT_CONTRACT.json": "983daf6994d9e4624fc6a90fe895e097117fc22bc1139b63e062a8b6ac034fe6",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/reader_seed1.pt": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/metrics.py": "65f8032066ff75ff10f2fee1a18117dc5496af1c236ef5f07da21446bb45cbaf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/normalization.json": "9550b6507fa87d7e69bced3b39e2c38624a6ddec246a39dec623fd2ddef6c9a2",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_held_down_20261014/candidate/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/models/facebook--dinov2-small/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/env_adapter.py": "24119ab04f3c48c70f608870570571d962157dced5e92cb1e5251f459019bbda",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/physical_oracle.py": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/core_ownership.py": "f7c49a747cf9976a0effde957989eb55965029154eeff6ee2cfe92fdf0b760ae",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/calibrated_labels.py": "436c16d0ca2d8505e585fbcd79f730f7befcc90768c43f87a997b516648b1f21",
+    "/home/robot/research/projects/wm_symbolic/src/wm_symbolic/vision_cache.py": "d8e6e86a587eac865104a996f957df1bc2d2dbd949e0431672e0bec7248e2629",
+    "/home/robot/research/projects/wm_symbolic/scripts/core1200_collect.py": "9ee386e01bf033ea92ef79d9ee0e64cca5e2d5df4b89a56160bde2bf77fbb8be",
+    "/home/robot/research/projects/wm_symbolic/scripts/evaluate_physical_oracle.py": "7125cc1b0006624e30ee471a3e1cb2410f4cbff925946a0100fa4e124495c00f",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_interface_acceptance_20261014/source/collect.py": "ab3fe741dc330d7172c6e303c51a84a8d70259ffb9fc51b9dabd3523a1108e16"
+  },
+  "new_roots_sha256": "5913e465a51bc2f7df94c1c39640b807c89659ee4dd6ab458e497824bab4ff01",
+  "no_upload": true
+}

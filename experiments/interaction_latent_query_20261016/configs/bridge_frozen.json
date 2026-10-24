@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-16T07:05:15.083139+00:00",
+  "reason": "Existing Py3.10 executor transformers does not expose Dinov2Model (ImportError verified). Reuse established separate Py3.11 inference worker with JSON stdin/stdout; no package change.",
+  "scope": "Infrastructure-only bridge; original frozen closed_loop.py preserved, same search/model/goal/actions/budget. D reference collection started; no D model predictions consumed before bridge frozen.",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/closed_loop_bridge.py": "3ce75bb878262708b90a024df2a36325165035e915086d13689f32a958a02a35",
+    "/home/robot/research/projects/wm_symbolic/experiments/interaction_latent_query_20261016/source/worker.py": "9a3e5be27f4b60ff026d017b0d3a2b856c13bc5f41a32796259d8b6b84d1c945"
+  }
+}

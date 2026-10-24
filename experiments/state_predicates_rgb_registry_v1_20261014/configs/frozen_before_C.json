@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-14T15:47:33.942886+00:00",
+  "AB_registration_gate_passed": true,
+  "rule_sha256": "d5b51d4a985b633625fd03fd2482e0fdeefc3285daf4860b2894e396b78ccf28",
+  "AB_results_sha256": "f7f43633b52b0cad3ecb300bb98343ad40385a00e6df2925b65c2b1bb081d073",
+  "AB_public_windows_sha256": "81c090da8cb94509cd338561f11cf82214e11633dd466d46767a9d6e99b6f6d5",
+  "no_C_pixels_used_for_rule_development": true,
+  "no_more_rule_edits": true
+}

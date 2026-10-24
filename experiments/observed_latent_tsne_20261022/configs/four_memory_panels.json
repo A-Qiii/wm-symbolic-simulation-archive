@@ -1,0 +1,23 @@
+{
+  "change": "User requested four memories:3object panels reuse unchanged joint object projection;environment c128fit independently, drawer truth/error. No new model inference.",
+  "models": [
+    0,
+    1
+  ],
+  "scene_boundaries_per_model": 960,
+  "labels_in_reduction": false,
+  "same_fixed_TSNE_parameters": {
+    "n_components": 2,
+    "perplexity": 30.0,
+    "early_exaggeration": 12.0,
+    "learning_rate": "auto",
+    "max_iter": 1500,
+    "init": "pca",
+    "random_state": 20261022,
+    "method": "barnes_hut",
+    "angle": 0.5,
+    "metric": "euclidean",
+    "n_jobs": 4
+  },
+  "cross_object_scene_coordinates_comparable": false
+}

@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-10-14T10:54:26.692075+00:00",
+  "root_manifest_sha256": "98bdfc904da5fa7414797c5bdc9b42efc499f10e197c7f769f6afe22b2c3a283",
+  "prior_D_roots_compared": 32,
+  "rows": [
+    {
+      "root_id": "D_joint_accept_red_closed_0",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 32
+    },
+    {
+      "root_id": "D_joint_accept_red_closed_1",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 33
+    },
+    {
+      "root_id": "D_joint_accept_red_open_0",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 34
+    },
+    {
+      "root_id": "D_joint_accept_red_open_1",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 35
+    },
+    {
+      "root_id": "D_joint_accept_blue_closed_0",
+      "rejected_proposals": 1,
+      "prior_comparison_count": 36
+    },
+    {
+      "root_id": "D_joint_accept_blue_closed_1",
+      "rejected_proposals": 2,
+      "prior_comparison_count": 37
+    },
+    {
+      "root_id": "D_joint_accept_blue_open_0",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 38
+    },
+    {
+      "root_id": "D_joint_accept_blue_open_1",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 39
+    },
+    {
+      "root_id": "D_joint_accept_pink_closed_0",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 40
+    },
+    {
+      "root_id": "D_joint_accept_pink_closed_1",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 41
+    },
+    {
+      "root_id": "D_joint_accept_pink_open_0",
+      "rejected_proposals": 0,
+      "prior_comparison_count": 42
+    },
+    {
+      "root_id": "D_joint_accept_pink_open_1",
+      "rejected_proposals": 1,
+      "prior_comparison_count": 43
+    }
+  ],
+  "candidate_freeze_sha256": "033492a08fe2189a6523143bb615264ef6f5567b9c05c3d20512f0108f6d10f4",
+  "source_sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/metrics.py": "65f8032066ff75ff10f2fee1a18117dc5496af1c236ef5f07da21446bb45cbaf",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/model.py": "e663b7ff030b1f5981aaa26f0b39701233f2bcc7dc6a5b4c8b6273fd8a1d3656",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/prepare_acceptance.py": "d2ed980246bf254038a5f1042aa51612b473968fd2e27498482166ad8a669cf6",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/existing.py": "28c190af21e8849372b5f9bec2da53c4e713dafa6b81d6a5047248436f636996",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/cache_acceptance.py": "1c86b25ad72139d18858113613174fc9b3a9ce3b71b36c0b3114659c90321a19",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/collect_acceptance.py": "0ea1ac025cd956abae0849db5610db95e268fb441543031587641792703b375d",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/train.py": "4ee580a35160a1908a4bbd1d89439caf6f88739a0639571293f1bae6fd4a9b35",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/common.py": "eaa7f855ed75244ff497f4f407e4edd049ac9e2f026136284d69beb5d687a929",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/prepare.py": "a4babdb954f093c8825bffca7990f57c39d65432fb8814e9df52943bb3faf185",
+    "/home/robot/research/projects/wm_symbolic/experiments/state_predicates_joint_20261014/source/collector_core.py": "7044f7bbea481b910ab9a65e36e6d020a3d90e222368ea0cd020d97d96448fde"
+  },
+  "root_count": 12,
+  "trajectory_count": 30,
+  "no_outcome_resampling": true
+}

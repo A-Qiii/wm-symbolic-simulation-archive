@@ -1,0 +1,29 @@
+"""Read-only audit of the failed physical matching gate; no simulator/model calls."""
+from experiment import *
+from matching import angle,ternary,score,csvsave
+import numpy as np,gzip
+from scipy.spatial.transform import Rotation
+def main():
+ q=frozen();gate=read(E/'results/training_collection_gate.json');assert not gate['passed'];assert not(E/'configs/dataset_frozen.json').exists();m=read(B/'data_manifest.json');roots=read(B/'roots_manifest.json');matches=gate['matched_pairs'];assert len(roots)==6 and len(m['records'])==12;details=[];alltr=[];failed=[]
+ for root in roots:
+  paths=[B/'episodes'/b['episode_id']for b in root['branches']];tr=[]
+  for path in paths:
+   with gzip.open(path/'_private/trace.json.gz','rt')as f:tr.append(json.load(f))
+  rows=[];assert len(tr[0])==len(tr[1]);pub=[read(p/'public/pairs.json')[0]for p in paths];anchor=pub[0]['start_frame'];assert anchor==pub[1]['start_frame'];expected=root['other_color'];robotids=sorted(set(c[2]for side in tr for c in side[anchor]['contacts_private'][expected]));assert len(robotids)==1
+  for i,(x,y)in enumerate(zip(*tr)):
+   row={'root_id':root['root_id'],'frame':i,'seconds':i/30,'segment_closed':x['segment'],'phase_closed':x['action_private'].get('phase'),'phase_open':y['action_private'].get('phase'),'robot_TCP_position_mm':float(np.linalg.norm(np.array(x['robot_obs'][:3])-y['robot_obs'][:3])*1000),'objects':{}}
+   for c in COLORS:
+    a=x['objects_audit'][c];b=y['objects_audit'][c];row['objects'][c]={'position_mm':float(np.linalg.norm(np.array(a['position_m'])-b['position_m'])*1000),'orientation_deg':angle(a['quaternion_xyzw'],b['quaternion_xyzw']),'closed_robot_contact_count':sum(z[2]==robotids[0]for z in x['contacts_private'][c]),'open_robot_contact_count':sum(z[2]==robotids[0]for z in y['contacts_private'][c])}
+   rows.append(row)
+  alltr.append({'root_id':root['root_id'],'anchor_frame':anchor,'rows':rows});matchrow=next(x for x in matches if x['root_id']==root['root_id'])
+  if not matchrow['strictly_matched']:
+   violations={}
+   for c in COLORS:
+    for key,lim in [('position_mm',1),('orientation_deg',.5)]:
+     hit=next((r for r in rows[:anchor+1]if r['objects'][c][key]>lim),None)
+     if hit:violations[c+'_'+key]={'first_frame':hit['frame'],'seconds':hit['seconds'],'phase_closed':hit['phase_closed'],'phase_open':hit['phase_open'],'first_value':hit['objects'][c][key],'limit':lim}
+   contacts={c:{side:[r['frame']for r in rows[:anchor+1]if r['objects'][c][side+'_robot_contact_count']>0]for side in ['closed','open']}for c in COLORS};failed.append({'root_id':root['root_id'],'anchor_frame':anchor,'history_frames':[anchor-k for k in [63,42,21,0]],'violations':violations,'robot_contact_frames':contacts,'robot_uid_inferred_from_confirmed_held_contacts':robotids[0],'interpretation':'Observed non-drawer pose divergence during real preparation persists through all four scoring-history frames. Contact histories are retained evidence, not a uniquely established causal mechanism.'})
+  for branch,path in zip(root['branches'],paths):
+   pr=read(path/'_private/pairs.json')[0];before=read(path/'public/prediction_before_action.json');after=read(path/'public/observed_after_action.json');a=np.load(before['observed_path'])['probability'][0];b=np.load(after['observed_path'])['probability'][0];pred=np.load(before['predictions_path'])['candidate_seed0'][0];y0=pr['before_targets'];y1=pr['after_targets'];details.append({'root_id':root['root_id'],'episode_id':branch['episode_id'],'environment':root['environment'],'drawer':branch['expected_drawer'],'held_color':root['other_color'],'target_color':root['target_color'],'strict_pair_match':matchrow['strictly_matched'],'current_readout_correct':score(a,y0['y'],y0['valid']),'after_readout_correct':score(b,y1['y'],y1['valid']),'original132_prediction_correct':score(pred,y1['y'],y1['valid']),'current_readout':ternary(a),'actual_after_readout':ternary(b),'original132_prediction':ternary(pred),'current_probability':a.tolist(),'after_probability':b.tolist(),'original132_probability':pred.tolist(),'truth_before':y0['y'],'truth_after':y1['y'],'primitive':pr['primitive'],'unchanged':y0['y']==y1['y'],'before_window':pub[branch['branch']]['before_window_id'],'after_window':pub[branch['branch']]['after_window_id']})
+ save(E/'results/preparation_trajectory_differences.json',alltr);save(E/'results/matching_failure_audit.json',failed);save(E/'results/collection_call_audit.json',details);csvsave(E/'results/collection_call_audit.csv',details);csvsave(E/'results/matching_summary.csv',[{k:v for k,v in x.items()if k!='history'}for x in matches]);summary={'created_utc':now(),'planned_new_AB_roots':6,'completed_calls':12,'legal_preparations_succeeded':sum(p['result']['status']=='success'for s in m['episodes']for p in s['preparation_attempts']),'refused_nochange':sum(r['primitive']['status']=='refused'and r['unchanged']for r in details),'strictly_matched_roots':sum(x['strictly_matched']for x in matches),'unmatched_roots':[x['root_id']for x in matches if not x['strictly_matched']],'current_readout_correct':sum(r['current_readout_correct']for r in details),'actual_after_readout_correct':sum(r['after_readout_correct']for r in details),'training_started':False,'optimizer_updates':0,'cohort_datasets_finalized':False,'new_C_or_D_collection':0,'new_C_model_evaluation':0,'D_model_forward_calls':0,'C_training_effect_evaluation_available':False,'causal_training_benefit_established':False,'reason':'Frozen physical matching gate failed on one required paired root; exact predeclared138-per-arm design not released for training. All12 collected calls retained; no threshold relaxation or replacement.'};save(E/'results/blocked_outcome.json',summary);print(json.dumps({'summary':summary,'failures':failed},ensure_ascii=False),flush=True)
+if __name__=='__main__':main()

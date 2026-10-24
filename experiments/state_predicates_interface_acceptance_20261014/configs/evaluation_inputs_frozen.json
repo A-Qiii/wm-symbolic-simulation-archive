@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-14T13:54:25.721797+00:00",
+  "before_predictions": true,
+  "protocol_sha256": "b2b68efebbaba910073a42e8bb62db9ae85b5629c6dc17b8de371c5c7b23c609",
+  "root_manifest_sha256": "5913e465a51bc2f7df94c1c39640b807c89659ee4dd6ab458e497824bab4ff01",
+  "data_manifest_sha256": "847bb41f9bdadd6b85e28ba7a429c8df8c58686691b6de0f6ebbf12ec79b61b3",
+  "arrays_sha256": "0867a54914df845f5f7d9e34278591fc814091c56b28081368260de8f80b377e",
+  "metadata_sha256": "8756328ba1428c8b73f0e8b6a3a9ee46f6cc81142d3079e2ce1bd1422d7fc856",
+  "candidate_checkpoint_sha256": "9fbfc0992073acc942802339f1fb82c30e2cf44bb7ef90e9c514dd423b5365d3",
+  "evaluator_source_sha256": "26de2c1f9b7102f95f290c0b33cf673e6eab1e7116601fbdbccac49a5c3f589a",
+  "thresholds": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "unique_windows": 90,
+  "one_batch_for_all_unique_windows": true
+}

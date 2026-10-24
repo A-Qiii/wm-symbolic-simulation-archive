@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T12:12:23.726874+00:00",
+  "model_output_files_not_read_this_round_before_freeze": true,
+  "historical_context_disclosed": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/data/labels/user_semantics_v2.json": "22d4e601d279200cdef80911ce70ade6c9582c2b539923982efc23aead9205d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/data/labels/user_decision_ledger.json": "e8906c95a1c94c297da3a9d11c4306f6da78ec8418b5452c8321e26989685866",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/data/audit/AB_readonly_findings.json": "7743dd3976d73e70cd292fa3570a37bdcdf4312a8ce7f0734f2507f285242b3d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/data/audit/confirmed_external_candidate_errors.json": "3026df8715579f6422ae2861efdd730045bb0f4e65a0f00d84ad6887a0a87545",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/source/freeze_labels.py": "dc749f69804058cf8beb2945c5bff28c80f9245906616160e6a0d02c738f98a8",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/configs/pre_review_frozen.json": "36332d541a36dbd87c380201f2b56536e49ff74712151fe6f58b9c20e6c0a474"
+  }
+}

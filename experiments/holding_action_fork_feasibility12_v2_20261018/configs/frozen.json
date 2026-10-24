@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-18T17:17:41.718293+00:00",
+  "before_any_v2_simulation": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/configs/preflight.json": "2daac0f32c685776432c8cb4bc02a4917895458ab858a655cdbc9174bf7845b4",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/configs/input_references.json": "5c42d347412b04c423f8d53b7bd5a54f1c2a31a4d85810584b0cbddb9badac21",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/configs/protocol.json": "49d8f1257fd67d930804e49923b3894b7a7ac275aab2054728eb2ba1331cd9e1",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/configs/historical_exclusion.json": "4f37d3b630372e2176af3ca1c45f7ae2f7cd7ca186afe0bd6f4c1aeafe4f58e5",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/collect.py": "896a2825599081e175b640b89cf71b440913d2fa725430eb958a9aeadadfcd24",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/qualify.py": "691dbb493f09b5a9c4128c8b44f61b54129450217b32f697e2d40751c9674587",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/labels_physical.py": "4f20825de4d75e1f6dccdd44917fc22f2589887b0df5ac2700e725fa2badcda9",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/common.py": "a80b315f56bc487082ac5ad373436c5ea671b41fb232f50e640be9ddfebc6c86",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/source/prepare.py": "1dc24672da5c61eba45d7b0712649a7b00fa695549cf16fa1d2cad41cb440235",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/qualification/configs/protocol.json": "43a0149c589c1791dd86db5a22504acc3642a29048cfbd83575e6a9738a50dad",
+    "/home/robot/research/projects/wm_symbolic/experiments/holding_action_fork_feasibility12_v2_20261018/qualification/configs/action_programs.json": "6514f0383a3d312e030d9548507de52a88057ed8bc724ed73ac11d0c00a39241"
+  }
+}

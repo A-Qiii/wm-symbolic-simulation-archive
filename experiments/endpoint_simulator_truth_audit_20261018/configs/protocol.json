@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-18T12:33:59.405748+00:00",
+  "mode": "Read-only code/resource/source-record inspection plus archival mask decoding, no new simulation.",
+  "simulation_creations": 0,
+  "new_renders": 0,
+  "physics_steps": 0,
+  "model_loads_or_forwards": 0,
+  "training_updates": 0,
+  "data_collection": 0,
+  "old_files_modified": 0,
+  "label_conclusions": "No old RGB receives reconstructed segmentation. No new final labels or prediction evaluation.",
+  "archived_mask_examples_not_current40": true
+}

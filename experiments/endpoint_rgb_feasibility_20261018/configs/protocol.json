@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-18T09:02:49.152164+00:00",
+  "mode": "bounded read-only feasibility after all previous evaluations seen",
+  "states": 14,
+  "images": 28,
+  "sample_selection": "A/B first official train RGB plus each scene first,middle,last available metadata row; 14 unique states frozen before inference",
+  "network": false,
+  "preprocess": "full image resize bilinear to224 square, ImageNet normalization; uses16x16 patches; previous pipeline padded84px wrist into224 giving ~6x6 effective content, so this is not directly interchangeable with old head inputs",
+  "matching": "mean normalized descriptor of patches with centres inside assistant template part box; two A/B templates perpart; maximum cosine template similarity over every candidate patch; report unconditional top1 and spatially distant runner-up, no validated threshold",
+  "targets": [
+    "drawer_handle",
+    "gripper_finger"
+  ],
+  "camera_transfer": "static handle reference and wrist finger reference each applied to both cameras; correspondence not ground truth",
+  "no_object_boxes_from_matching": "a matching point is not an instance boundary or identity guarantee",
+  "context_probe": "four reference part boxes: compare pooled full-image tokens original vs gray outside selected14x14patches after resizing, preserving selected input patches exactly, and separately re-encoded identical local crops; no label scoring",
+  "budget": "one frozen inference pass over28 originals+4 outside-gray variants+8 local crops=40RGB tensors, no sweeps, no retries unless execution error",
+  "training": false,
+  "collection": false,
+  "simulator_masks_or_coordinates_or_robot_obs": false,
+  "independent_evaluation": false,
+  "models_adopted": false
+}

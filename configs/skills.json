@@ -1,0 +1,152 @@
+[
+  {
+    "skill": "push_red_block_right",
+    "family": "push",
+    "command": "go push the red block right",
+    "status": "untested"
+  },
+  {
+    "skill": "push_red_block_left",
+    "family": "push",
+    "command": "go push the red block left",
+    "status": "untested"
+  },
+  {
+    "skill": "push_blue_block_right",
+    "family": "push",
+    "command": "go push the blue block right",
+    "status": "untested"
+  },
+  {
+    "skill": "push_blue_block_left",
+    "family": "push",
+    "command": "go push the blue block left",
+    "status": "untested"
+  },
+  {
+    "skill": "push_pink_block_right",
+    "family": "push",
+    "command": "go push the pink block right",
+    "status": "untested"
+  },
+  {
+    "skill": "push_pink_block_left",
+    "family": "push",
+    "command": "go push the pink block left",
+    "status": "untested"
+  },
+  {
+    "skill": "move_slider_left",
+    "family": "slider",
+    "command": "push the sliding door to the left side",
+    "status": "untested"
+  },
+  {
+    "skill": "move_slider_right",
+    "family": "slider",
+    "command": "push the sliding door to the right side",
+    "status": "untested"
+  },
+  {
+    "skill": "open_drawer",
+    "family": "drawer",
+    "command": "pull the handle to open the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "close_drawer",
+    "family": "drawer",
+    "command": "push the handle to close the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_red_block_table",
+    "family": "lift",
+    "command": "grasp and lift the red block",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_blue_block_table",
+    "family": "lift",
+    "command": "grasp and lift the blue block",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_pink_block_table",
+    "family": "lift",
+    "command": "grasp and lift the pink block",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_red_block_slider",
+    "family": "lift",
+    "command": "lift the red block from the sliding cabinet",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_blue_block_slider",
+    "family": "lift",
+    "command": "lift the blue block from the sliding cabinet",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_pink_block_slider",
+    "family": "lift",
+    "command": "lift the pink block from the sliding cabinet",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_red_block_drawer",
+    "family": "lift",
+    "command": "Take the red block from the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_blue_block_drawer",
+    "family": "lift",
+    "command": "Take the blue block from the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "lift_pink_block_drawer",
+    "family": "lift",
+    "command": "Take the pink block from the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "place_in_slider",
+    "family": "place",
+    "command": "store the grasped block in the sliding cabinet",
+    "status": "untested"
+  },
+  {
+    "skill": "place_in_drawer",
+    "family": "place",
+    "command": "store the grasped block in the drawer",
+    "status": "untested"
+  },
+  {
+    "skill": "turn_on_lightbulb",
+    "family": "device",
+    "command": "use the switch to turn on the light bulb",
+    "status": "untested"
+  },
+  {
+    "skill": "turn_off_lightbulb",
+    "family": "device",
+    "command": "use the switch to turn off the light bulb",
+    "status": "untested"
+  },
+  {
+    "skill": "turn_on_led",
+    "family": "device",
+    "command": "press the button to turn on the led light",
+    "status": "untested"
+  },
+  {
+    "skill": "turn_off_led",
+    "family": "device",
+    "command": "press the button to turn off the led light",
+    "status": "untested"
+  }
+]

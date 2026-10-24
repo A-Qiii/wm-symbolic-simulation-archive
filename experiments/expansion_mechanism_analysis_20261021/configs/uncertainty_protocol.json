@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-21T12:42:41.119833+00:00",
+  "bootstrap_replicates": 10000,
+  "primary_cluster": "family_id:20 independent layout families, retains both roots and branches and overlapping windows",
+  "sensitivity_cluster": "root_id:40 common physical roots, retains both branches and all windows; correlations across roots of same family remain, so primaryfamily is conservative choice",
+  "paired_resampling": "Same selected clusters for observed rate, nonlinear reference, model conditions; no independent-window binomialCI, seeds separately fixed weights not doubleddata",
+  "main_difference": "D_equal = observed free three-boundary all-correct fraction minus matched first-step success fraction cubed",
+  "secondary_differences": "D_marginal = same joint minus product of actual three marginal success fractions; D_unmatched = joint minus all480one-step fraction cubed, shown to explain original4.4pp only",
+  "interval": "Percentile95% group pairedbootstrap, estimates data-layout sampling variability conditional on fitted models; not training-seed variance",
+  "acceptance": "No practical tolerance or planning risk threshold specified. CI including0 does not establish equivalence or acceptance. Cube-root per-step equivalent is descriptive only."
+}

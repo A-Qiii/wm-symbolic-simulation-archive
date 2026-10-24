@@ -1,0 +1,5702 @@
+[
+  {
+    "task_id": "D_test_root000_task0",
+    "root_id": "D_test_root000",
+    "family": 0,
+    "variant": 0,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root000_task1",
+    "root_id": "D_test_root000",
+    "family": 0,
+    "variant": 1,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root001_task0",
+    "root_id": "D_test_root001",
+    "family": 1,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root001_task1",
+    "root_id": "D_test_root001",
+    "family": 1,
+    "variant": 1,
+    "text": "将红块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root002_task0",
+    "root_id": "D_test_root002",
+    "family": 2,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成red_drawer再完成blue_slider_right，不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(red_drawer & X(F(blue_slider_right))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_drawer",
+        "blue_slider_right",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root002_task1",
+    "root_id": "D_test_root002",
+    "family": 2,
+    "variant": 1,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成blue_slider_right再完成red_drawer，不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(blue_slider_right & X(F(red_drawer))) & G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_slider_right",
+        "red_drawer",
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root003_task0",
+    "root_id": "D_test_root003",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(red_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root003_task1",
+    "root_id": "D_test_root003",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!pink_moved)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(blue_drawer & X(F(light_off)))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root004_task0",
+    "root_id": "D_test_root004",
+    "family": 0,
+    "variant": 0,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root004_task1",
+    "root_id": "D_test_root004",
+    "family": 0,
+    "variant": 1,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root005_task0",
+    "root_id": "D_test_root005",
+    "family": 1,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root005_task1",
+    "root_id": "D_test_root005",
+    "family": 1,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root006_task0",
+    "root_id": "D_test_root006",
+    "family": 2,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成blue_drawer再完成pink_slider_right，不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(blue_drawer & X(F(pink_slider_right))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_drawer",
+        "pink_slider_right",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root006_task1",
+    "root_id": "D_test_root006",
+    "family": 2,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成pink_slider_right再完成blue_drawer，不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(pink_slider_right & X(F(blue_drawer))) & G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_slider_right",
+        "blue_drawer",
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root007_task0",
+    "root_id": "D_test_root007",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(blue_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root007_task1",
+    "root_id": "D_test_root007",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!red_moved)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(pink_drawer & X(F(light_off)))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root008_task0",
+    "root_id": "D_test_root008",
+    "family": 0,
+    "variant": 0,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root008_task1",
+    "root_id": "D_test_root008",
+    "family": 0,
+    "variant": 1,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root009_task0",
+    "root_id": "D_test_root009",
+    "family": 1,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root009_task1",
+    "root_id": "D_test_root009",
+    "family": 1,
+    "variant": 1,
+    "text": "将粉块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root010_task0",
+    "root_id": "D_test_root010",
+    "family": 2,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成pink_drawer再完成red_slider_right，不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(pink_drawer & X(F(red_slider_right))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_drawer",
+        "red_slider_right",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root010_task1",
+    "root_id": "D_test_root010",
+    "family": 2,
+    "variant": 1,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成red_slider_right再完成pink_drawer，不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(red_slider_right & X(F(pink_drawer))) & G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_slider_right",
+        "pink_drawer",
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root011_task0",
+    "root_id": "D_test_root011",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(pink_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root011_task1",
+    "root_id": "D_test_root011",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!blue_moved)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(red_drawer & X(F(light_off)))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root012_task0",
+    "root_id": "D_test_root012",
+    "family": 0,
+    "variant": 0,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root012_task1",
+    "root_id": "D_test_root012",
+    "family": 0,
+    "variant": 1,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root013_task0",
+    "root_id": "D_test_root013",
+    "family": 1,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root013_task1",
+    "root_id": "D_test_root013",
+    "family": 1,
+    "variant": 1,
+    "text": "将红块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root014_task0",
+    "root_id": "D_test_root014",
+    "family": 2,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成red_drawer再完成blue_slider_right，不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(red_drawer & X(F(blue_slider_right))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_drawer",
+        "blue_slider_right",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root014_task1",
+    "root_id": "D_test_root014",
+    "family": 2,
+    "variant": 1,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成blue_slider_right再完成red_drawer，不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(blue_slider_right & X(F(red_drawer))) & G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_slider_right",
+        "red_drawer",
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root015_task0",
+    "root_id": "D_test_root015",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(red_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root015_task1",
+    "root_id": "D_test_root015",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!pink_moved)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(blue_drawer & X(F(light_off)))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root016_task0",
+    "root_id": "D_test_root016",
+    "family": 0,
+    "variant": 0,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root016_task1",
+    "root_id": "D_test_root016",
+    "family": 0,
+    "variant": 1,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root017_task0",
+    "root_id": "D_test_root017",
+    "family": 1,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root017_task1",
+    "root_id": "D_test_root017",
+    "family": 1,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root018_task0",
+    "root_id": "D_test_root018",
+    "family": 2,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成blue_drawer再完成pink_slider_right，不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(blue_drawer & X(F(pink_slider_right))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_drawer",
+        "pink_slider_right",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root018_task1",
+    "root_id": "D_test_root018",
+    "family": 2,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成pink_slider_right再完成blue_drawer，不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(pink_slider_right & X(F(blue_drawer))) & G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_slider_right",
+        "blue_drawer",
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root019_task0",
+    "root_id": "D_test_root019",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(blue_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root019_task1",
+    "root_id": "D_test_root019",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!red_moved)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(pink_drawer & X(F(light_off)))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root020_task0",
+    "root_id": "D_test_root020",
+    "family": 0,
+    "variant": 0,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root020_task1",
+    "root_id": "D_test_root020",
+    "family": 0,
+    "variant": 1,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root021_task0",
+    "root_id": "D_test_root021",
+    "family": 1,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root021_task1",
+    "root_id": "D_test_root021",
+    "family": 1,
+    "variant": 1,
+    "text": "将粉块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root022_task0",
+    "root_id": "D_test_root022",
+    "family": 2,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成pink_drawer再完成red_slider_right，不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(pink_drawer & X(F(red_slider_right))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_drawer",
+        "red_slider_right",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root022_task1",
+    "root_id": "D_test_root022",
+    "family": 2,
+    "variant": 1,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成red_slider_right再完成pink_drawer，不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(red_slider_right & X(F(pink_drawer))) & G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_slider_right",
+        "pink_drawer",
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root023_task0",
+    "root_id": "D_test_root023",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(pink_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root023_task1",
+    "root_id": "D_test_root023",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!blue_moved)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(red_drawer & X(F(light_off)))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root024_task0",
+    "root_id": "D_test_root024",
+    "family": 0,
+    "variant": 0,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root024_task1",
+    "root_id": "D_test_root024",
+    "family": 0,
+    "variant": 1,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root025_task0",
+    "root_id": "D_test_root025",
+    "family": 1,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root025_task1",
+    "root_id": "D_test_root025",
+    "family": 1,
+    "variant": 1,
+    "text": "将红块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root026_task0",
+    "root_id": "D_test_root026",
+    "family": 2,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成red_drawer再完成blue_slider_right，不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(red_drawer & X(F(blue_slider_right))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_drawer",
+        "blue_slider_right",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root026_task1",
+    "root_id": "D_test_root026",
+    "family": 2,
+    "variant": 1,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成blue_slider_right再完成red_drawer，不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(blue_slider_right & X(F(red_drawer))) & G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_slider_right",
+        "red_drawer",
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root027_task0",
+    "root_id": "D_test_root027",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(red_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root027_task1",
+    "root_id": "D_test_root027",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!pink_moved)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(blue_drawer & X(F(light_off)))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root028_task0",
+    "root_id": "D_test_root028",
+    "family": 0,
+    "variant": 0,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root028_task1",
+    "root_id": "D_test_root028",
+    "family": 0,
+    "variant": 1,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root029_task0",
+    "root_id": "D_test_root029",
+    "family": 1,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root029_task1",
+    "root_id": "D_test_root029",
+    "family": 1,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动粉块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root030_task0",
+    "root_id": "D_test_root030",
+    "family": 2,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成blue_drawer再完成pink_slider_right，不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(blue_drawer & X(F(pink_slider_right))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_drawer",
+        "pink_slider_right",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root030_task1",
+    "root_id": "D_test_root030",
+    "family": 2,
+    "variant": 1,
+    "text": "将蓝块放入抽屉、粉块放入滑门右侧区域，最后关抽屉；严格先完成pink_slider_right再完成blue_drawer，不移动红块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(pink_slider_right & X(F(blue_drawer))) & G(!red_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_slider_right",
+        "blue_drawer",
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root031_task0",
+    "root_id": "D_test_root031",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(blue_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root031_task1",
+    "root_id": "D_test_root031",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!red_moved)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(pink_drawer & X(F(light_off)))) & G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off",
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root032_task0",
+    "root_id": "D_test_root032",
+    "family": 0,
+    "variant": 0,
+    "text": "将粉块收进抽屉，结束时关上抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root032_task1",
+    "root_id": "D_test_root032",
+    "family": 0,
+    "variant": 1,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root033_task0",
+    "root_id": "D_test_root033",
+    "family": 1,
+    "variant": 0,
+    "text": "将蓝块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!red_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root033_task1",
+    "root_id": "D_test_root033",
+    "family": 1,
+    "variant": 1,
+    "text": "将粉块放入抽屉、蓝块放到滑门右侧区域，最后关闭抽屉，全程不移动红块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!red_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root034_task0",
+    "root_id": "D_test_root034",
+    "family": 2,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成pink_drawer再完成red_slider_right，不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(pink_drawer & X(F(red_slider_right))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_drawer",
+        "red_slider_right",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root034_task1",
+    "root_id": "D_test_root034",
+    "family": 2,
+    "variant": 1,
+    "text": "将粉块放入抽屉、红块放入滑门右侧区域，最后关抽屉；严格先完成red_slider_right再完成pink_drawer，不移动蓝块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(red_slider_right & X(F(pink_drawer))) & G(!blue_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_slider_right",
+        "pink_drawer",
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root035_task0",
+    "root_id": "D_test_root035",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳粉块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(pink_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "pink_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root035_task1",
+    "root_id": "D_test_root035",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!blue_moved)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(red_drawer & X(F(light_off)))) & G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off",
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root036_task0",
+    "root_id": "D_test_root036",
+    "family": 0,
+    "variant": 0,
+    "text": "将红块收进抽屉，结束时关上抽屉，全程不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root036_task1",
+    "root_id": "D_test_root036",
+    "family": 0,
+    "variant": 1,
+    "text": "将蓝块收进抽屉，结束时关上抽屉，全程不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          1
+        ],
+        [
+          1,
+          "01",
+          2
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root037_task0",
+    "root_id": "D_test_root037",
+    "family": 1,
+    "variant": 0,
+    "text": "将粉块放入抽屉、红块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。",
+    "terminal_goals": {
+      "pink_drawer": true,
+      "red_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "G(!blue_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1",
+          2
+        ],
+        [
+          2,
+          "X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root037_task1",
+    "root_id": "D_test_root037",
+    "family": 1,
+    "variant": 1,
+    "text": "将红块放入抽屉、粉块放到滑门右侧区域，最后关闭抽屉，全程不移动蓝块。 附加全程约束：G(led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "pink_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(G(!blue_moved)) & G(led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          "00",
+          2
+        ],
+        [
+          1,
+          "01",
+          1
+        ],
+        [
+          1,
+          "1X",
+          2
+        ],
+        [
+          2,
+          "XX",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root038_task0",
+    "root_id": "D_test_root038",
+    "family": 2,
+    "variant": 0,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成red_drawer再完成blue_slider_right，不移动粉块。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "F(red_drawer & X(F(blue_slider_right))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "red_drawer",
+        "blue_slider_right",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X0",
+          1
+        ],
+        [
+          1,
+          "0X1",
+          2
+        ],
+        [
+          1,
+          "1X0",
+          3
+        ],
+        [
+          1,
+          "1X1",
+          2
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "X00",
+          3
+        ],
+        [
+          3,
+          "X01",
+          2
+        ],
+        [
+          3,
+          "X10",
+          4
+        ],
+        [
+          3,
+          "X11",
+          2
+        ],
+        [
+          4,
+          "XX0",
+          4
+        ],
+        [
+          4,
+          "XX1",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root038_task1",
+    "root_id": "D_test_root038",
+    "family": 2,
+    "variant": 1,
+    "text": "将红块放入抽屉、蓝块放入滑门右侧区域，最后关抽屉；严格先完成blue_slider_right再完成red_drawer，不移动粉块。 附加全程约束：G(!led_on)。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "blue_slider_right": true,
+      "drawer_closed": true
+    },
+    "ltlf": "(F(blue_slider_right & X(F(red_drawer))) & G(!pink_moved)) & G(!led_on)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 7,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "blue_slider_right",
+        "red_drawer",
+        "pink_moved",
+        "led_on"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0X00",
+          1
+        ],
+        [
+          1,
+          "0X01",
+          2
+        ],
+        [
+          1,
+          "0X1X",
+          2
+        ],
+        [
+          1,
+          "1X00",
+          3
+        ],
+        [
+          1,
+          "1X01",
+          2
+        ],
+        [
+          1,
+          "1X1X",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "X000",
+          3
+        ],
+        [
+          3,
+          "X001",
+          2
+        ],
+        [
+          3,
+          "X01X",
+          2
+        ],
+        [
+          3,
+          "X100",
+          4
+        ],
+        [
+          3,
+          "X101",
+          2
+        ],
+        [
+          3,
+          "X11X",
+          2
+        ],
+        [
+          4,
+          "XX00",
+          4
+        ],
+        [
+          4,
+          "XX01",
+          2
+        ],
+        [
+          4,
+          "XX1X",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root039_task0",
+    "root_id": "D_test_root039",
+    "family": 3,
+    "variant": 0,
+    "text": "收纳红块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。",
+    "terminal_goals": {
+      "red_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "G(led_on) & F(red_drawer & X(F(light_off)))",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": false,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "red_drawer",
+        "light_off"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XX",
+          2
+        ],
+        [
+          1,
+          "10X",
+          1
+        ],
+        [
+          1,
+          "11X",
+          3
+        ],
+        [
+          2,
+          "XXX",
+          2
+        ],
+        [
+          3,
+          "0XX",
+          2
+        ],
+        [
+          3,
+          "1X0",
+          3
+        ],
+        [
+          3,
+          "1X1",
+          4
+        ],
+        [
+          4,
+          "0XX",
+          2
+        ],
+        [
+          4,
+          "1XX",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "task_id": "D_test_root039_task1",
+    "root_id": "D_test_root039",
+    "family": 3,
+    "variant": 1,
+    "text": "收纳蓝块并关闭抽屉，随后关闭灯泡，全程保持 LED 开启。 附加全程约束：G(!pink_moved)。",
+    "terminal_goals": {
+      "blue_drawer": true,
+      "drawer_closed": true,
+      "light_off": true
+    },
+    "ltlf": "(G(led_on) & F(blue_drawer & X(F(light_off)))) & G(!pink_moved)",
+    "max_executed_skills": 8,
+    "minimum_reference_skills": 4,
+    "heldout_goal_constraint_combination": true,
+    "task_text_enters_dynamics": false,
+    "reference_visible_to_planner": false,
+    "parser_roundtrip_verified": true,
+    "dfa": {
+      "propositions": [
+        "led_on",
+        "blue_drawer",
+        "light_off",
+        "pink_moved"
+      ],
+      "initial": 1,
+      "accepting": [
+        4
+      ],
+      "transitions": [
+        [
+          1,
+          "0XXX",
+          2
+        ],
+        [
+          1,
+          "10X0",
+          1
+        ],
+        [
+          1,
+          "10X1",
+          2
+        ],
+        [
+          1,
+          "11X0",
+          3
+        ],
+        [
+          1,
+          "11X1",
+          2
+        ],
+        [
+          2,
+          "XXXX",
+          2
+        ],
+        [
+          3,
+          "0XXX",
+          2
+        ],
+        [
+          3,
+          "1X00",
+          3
+        ],
+        [
+          3,
+          "1X01",
+          2
+        ],
+        [
+          3,
+          "1X10",
+          4
+        ],
+        [
+          3,
+          "1X11",
+          2
+        ],
+        [
+          4,
+          "0XXX",
+          2
+        ],
+        [
+          4,
+          "1XX0",
+          4
+        ],
+        [
+          4,
+          "1XX1",
+          2
+        ]
+      ]
+    }
+  }
+]

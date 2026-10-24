@@ -1,0 +1,26 @@
+{
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/annotations/final.json": "1acb6899374cdac04cfe82204d279c6f286ea798f7d3e0ab1c21fb61a724437b",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_user_arbitration_20261018/data/labels/user_semantics_v2.json": "22d4e601d279200cdef80911ce70ade6c9582c2b539923982efc23aead9205d4",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_00.npz": "82963790b6e2e27a8639da6087d6bf28a57d68a96317573e8762d8f70e9a43da",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_01.npz": "175b19df71a014efb1a0dff8c1d40080dd8b42ca189540bab7b2a68a529e974d",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_02.npz": "9b4b70fb72e8cd84e5d84e281743e493306710f4185adcf026664520051c7b45",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_03.npz": "61c97249fd5f7588cb8dbf6a78d8ae88a1967f234cd4ace1624a979a7dd6ecac",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_04.npz": "04f71c7c72efc1bcccde89bc92cbdc4d2f2ec924686d9fcaf2d582d04d4cc989",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_05.npz": "2319d948dba170d5f1c5115dae5ebd0247520cd8e84f823e4411f602960e3d1c",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_06.npz": "543a57ceaf91ff8ff27926b7c44386fe2ae15df2d816c26583820c7186c21d4a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_07.npz": "b084c95ef410838db2d9a43962509d0100f4daf57c4cea987ca043061eba4bc9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_08.npz": "7840c0acd8aa22efab0ceeefdcd694a0ddeea1a2ecdbb6c9b5b7d288e650c351",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_09.npz": "9fda6b0880ddf3fb9b62ecb5f52f8a9a995309222259a032ab809a541480076a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_10.npz": "d5b8623de4f5ff47b5ef33793261c1ea31b294a2ac9a86c83ab7675b280644be",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_11.npz": "90131d1b5b6a15bb832369b267106f5c3c10de07e36ea536766530c7f16fa1ec",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_12.npz": "0b04b55f2f26df289466ad1ca1a74cf8bd13eac073ec1d21606db66079f82498",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_13.npz": "1ac1fddf90469900e4e39baa62e56890e12cf3037f1c0fd7a1a153de6c022d52",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_14.npz": "75cb76fbfd6a916caff8c5b68cba30e5535975b238bf9f2d1bc994247ac1584a",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_15.npz": "5f182cf282d1caed16687f1434df529c0e3cc1079a435718601b6a05fc7ffd8f",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_16.npz": "7514db72e9bde61b92a67ecd52e330294f8ebe8b716c414453820b288e7bbd73",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_17.npz": "7f79350f00a25d0c0daa91321304794c8c3aa1ff167178ba8ee7406afdfa7be9",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_18.npz": "40ce86ecf5623c38dbe549b7283cf967e04bc7d6660aaf3c464dbc23fbd3e9cf",
+    "/home/robot/research/projects/wm_symbolic/experiments/endpoint_box_localizer_20261018/data/public/state_19.npz": "49ef55a57e927d36413a52f24a19172fc9885ca832467cf0cd473359ae75d087"
+  }
+}

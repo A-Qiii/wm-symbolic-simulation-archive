@@ -1,0 +1,342 @@
+{
+  "old_episodes": [
+    "A_core1200_02_b0",
+    "A_core1200_02_b1",
+    "A_core1200_02_b2",
+    "A_core1200_03_b0",
+    "A_core1200_03_b1",
+    "A_core1200_03_b2",
+    "A_core1200_04_b0",
+    "A_core1200_04_b1",
+    "A_core1200_04_b2",
+    "A_core1200_05_b0",
+    "A_core1200_05_b1",
+    "A_core1200_05_b2",
+    "A_core1200_06_b0",
+    "A_core1200_06_b1",
+    "A_core1200_06_b2",
+    "A_core1200_09_b0",
+    "A_core1200_09_b1",
+    "A_core1200_09_b2",
+    "A_core1200_10_b0",
+    "A_core1200_10_b1",
+    "A_core1200_10_b2",
+    "A_core1200_11_b0",
+    "A_core1200_11_b1",
+    "A_core1200_11_b2",
+    "A_core1200_13_b0",
+    "A_core1200_13_b1",
+    "A_core1200_13_b2",
+    "A_core1200_14_b0",
+    "A_core1200_14_b1",
+    "A_core1200_14_b2",
+    "A_core1200_15_b0",
+    "A_core1200_15_b1",
+    "A_core1200_15_b2",
+    "A_core1200_16_b0",
+    "A_core1200_16_b1",
+    "A_core1200_16_b2",
+    "A_core1200_17_b0",
+    "A_core1200_17_b1",
+    "A_core1200_17_b2",
+    "A_core1200_20_b0",
+    "A_core1200_20_b1",
+    "A_core1200_20_b2",
+    "A_core1200_21_b0",
+    "A_core1200_21_b1",
+    "A_core1200_21_b2",
+    "A_core1200_23_b0",
+    "A_core1200_23_b1",
+    "A_core1200_23_b2",
+    "A_core1200_24_b0",
+    "A_core1200_24_b1",
+    "A_core1200_24_b2",
+    "A_core1200_26_b0",
+    "A_core1200_26_b1",
+    "A_core1200_26_b2",
+    "A_core1200_28_b0",
+    "A_core1200_28_b1",
+    "A_core1200_28_b2",
+    "A_core1200_29_b0",
+    "A_core1200_29_b1",
+    "A_core1200_29_b2",
+    "B_core1200_00_b0",
+    "B_core1200_00_b1",
+    "B_core1200_00_b2",
+    "B_core1200_01_b0",
+    "B_core1200_01_b1",
+    "B_core1200_01_b2",
+    "B_core1200_02_b0",
+    "B_core1200_02_b1",
+    "B_core1200_02_b2",
+    "B_core1200_03_b0",
+    "B_core1200_03_b1",
+    "B_core1200_03_b2",
+    "B_core1200_05_b0",
+    "B_core1200_05_b1",
+    "B_core1200_05_b2",
+    "B_core1200_06_b0",
+    "B_core1200_06_b1",
+    "B_core1200_06_b2",
+    "B_core1200_07_b0",
+    "B_core1200_07_b1",
+    "B_core1200_07_b2",
+    "B_core1200_08_b0",
+    "B_core1200_08_b1",
+    "B_core1200_08_b2",
+    "B_core1200_09_b0",
+    "B_core1200_09_b1",
+    "B_core1200_09_b2",
+    "B_core1200_10_b0",
+    "B_core1200_10_b1",
+    "B_core1200_10_b2",
+    "B_core1200_11_b0",
+    "B_core1200_11_b1",
+    "B_core1200_11_b2",
+    "B_core1200_12_b0",
+    "B_core1200_12_b1",
+    "B_core1200_12_b2",
+    "B_core1200_16_b0",
+    "B_core1200_16_b1",
+    "B_core1200_16_b2",
+    "B_core1200_17_b0",
+    "B_core1200_17_b1",
+    "B_core1200_17_b2",
+    "B_core1200_18_b0",
+    "B_core1200_18_b1",
+    "B_core1200_18_b2",
+    "B_core1200_20_b0",
+    "B_core1200_20_b1",
+    "B_core1200_20_b2",
+    "B_core1200_24_b0",
+    "B_core1200_24_b1",
+    "B_core1200_24_b2",
+    "B_core1200_25_b0",
+    "B_core1200_25_b1",
+    "B_core1200_25_b2",
+    "B_core1200_27_b0",
+    "B_core1200_27_b1",
+    "B_core1200_27_b2",
+    "B_core1200_28_b0",
+    "B_core1200_28_b1",
+    "B_core1200_28_b2"
+  ],
+  "new_roles": [
+    {
+      "root_id": "A_role_train_00_Hblue_Tpink",
+      "family_id": "A_role_train_00"
+    },
+    {
+      "root_id": "A_role_train_00_Hblue_Tred",
+      "family_id": "A_role_train_00"
+    },
+    {
+      "root_id": "A_role_train_00_Hpink_Tblue",
+      "family_id": "A_role_train_00"
+    },
+    {
+      "root_id": "A_role_train_00_Hpink_Tred",
+      "family_id": "A_role_train_00"
+    },
+    {
+      "root_id": "A_role_train_00_Hred_Tpink",
+      "family_id": "A_role_train_00"
+    },
+    {
+      "root_id": "A_role_train_01_Hblue_Tpink",
+      "family_id": "A_role_train_01"
+    },
+    {
+      "root_id": "A_role_train_01_Hpink_Tred",
+      "family_id": "A_role_train_01"
+    },
+    {
+      "root_id": "A_role_train_01_Hred_Tblue",
+      "family_id": "A_role_train_01"
+    },
+    {
+      "root_id": "A_role_train_01_Hred_Tpink",
+      "family_id": "A_role_train_01"
+    },
+    {
+      "root_id": "A_role_train_02_Hblue_Tpink",
+      "family_id": "A_role_train_02"
+    },
+    {
+      "root_id": "A_role_train_02_Hblue_Tred",
+      "family_id": "A_role_train_02"
+    },
+    {
+      "root_id": "A_role_train_02_Hpink_Tblue",
+      "family_id": "A_role_train_02"
+    },
+    {
+      "root_id": "A_role_train_02_Hpink_Tred",
+      "family_id": "A_role_train_02"
+    },
+    {
+      "root_id": "A_role_train_02_Hred_Tblue",
+      "family_id": "A_role_train_02"
+    },
+    {
+      "root_id": "A_role_train_03_Hblue_Tpink",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_03_Hblue_Tred",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_03_Hpink_Tblue",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_03_Hpink_Tred",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_03_Hred_Tblue",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_03_Hred_Tpink",
+      "family_id": "A_role_train_03"
+    },
+    {
+      "root_id": "A_role_train_04_Hblue_Tred",
+      "family_id": "A_role_train_04"
+    },
+    {
+      "root_id": "A_role_train_04_Hpink_Tblue",
+      "family_id": "A_role_train_04"
+    },
+    {
+      "root_id": "A_role_train_04_Hpink_Tred",
+      "family_id": "A_role_train_04"
+    },
+    {
+      "root_id": "A_role_train_04_Hred_Tblue",
+      "family_id": "A_role_train_04"
+    },
+    {
+      "root_id": "A_role_train_04_Hred_Tpink",
+      "family_id": "A_role_train_04"
+    },
+    {
+      "root_id": "A_role_train_05_Hblue_Tred",
+      "family_id": "A_role_train_05"
+    },
+    {
+      "root_id": "A_role_train_05_Hpink_Tblue",
+      "family_id": "A_role_train_05"
+    },
+    {
+      "root_id": "A_role_train_05_Hpink_Tred",
+      "family_id": "A_role_train_05"
+    },
+    {
+      "root_id": "A_role_train_05_Hred_Tblue",
+      "family_id": "A_role_train_05"
+    },
+    {
+      "root_id": "A_role_train_05_Hred_Tpink",
+      "family_id": "A_role_train_05"
+    },
+    {
+      "root_id": "B_role_train_00_Hblue_Tred",
+      "family_id": "B_role_train_00"
+    },
+    {
+      "root_id": "B_role_train_00_Hpink_Tblue",
+      "family_id": "B_role_train_00"
+    },
+    {
+      "root_id": "B_role_train_00_Hpink_Tred",
+      "family_id": "B_role_train_00"
+    },
+    {
+      "root_id": "B_role_train_00_Hred_Tblue",
+      "family_id": "B_role_train_00"
+    },
+    {
+      "root_id": "B_role_train_00_Hred_Tpink",
+      "family_id": "B_role_train_00"
+    },
+    {
+      "root_id": "B_role_train_01_Hblue_Tred",
+      "family_id": "B_role_train_01"
+    },
+    {
+      "root_id": "B_role_train_01_Hpink_Tblue",
+      "family_id": "B_role_train_01"
+    },
+    {
+      "root_id": "B_role_train_01_Hred_Tpink",
+      "family_id": "B_role_train_01"
+    },
+    {
+      "root_id": "B_role_train_02_Hblue_Tpink",
+      "family_id": "B_role_train_02"
+    },
+    {
+      "root_id": "B_role_train_02_Hpink_Tblue",
+      "family_id": "B_role_train_02"
+    },
+    {
+      "root_id": "B_role_train_02_Hpink_Tred",
+      "family_id": "B_role_train_02"
+    },
+    {
+      "root_id": "B_role_train_02_Hred_Tblue",
+      "family_id": "B_role_train_02"
+    },
+    {
+      "root_id": "B_role_train_03_Hblue_Tpink",
+      "family_id": "B_role_train_03"
+    },
+    {
+      "root_id": "B_role_train_03_Hblue_Tred",
+      "family_id": "B_role_train_03"
+    },
+    {
+      "root_id": "B_role_train_03_Hpink_Tblue",
+      "family_id": "B_role_train_03"
+    },
+    {
+      "root_id": "B_role_train_03_Hred_Tpink",
+      "family_id": "B_role_train_03"
+    },
+    {
+      "root_id": "B_role_train_04_Hblue_Tpink",
+      "family_id": "B_role_train_04"
+    },
+    {
+      "root_id": "B_role_train_04_Hpink_Tblue",
+      "family_id": "B_role_train_04"
+    },
+    {
+      "root_id": "B_role_train_04_Hpink_Tred",
+      "family_id": "B_role_train_04"
+    },
+    {
+      "root_id": "B_role_train_04_Hred_Tblue",
+      "family_id": "B_role_train_04"
+    },
+    {
+      "root_id": "B_role_train_05_Hblue_Tpink",
+      "family_id": "B_role_train_05"
+    },
+    {
+      "root_id": "B_role_train_05_Hpink_Tred",
+      "family_id": "B_role_train_05"
+    },
+    {
+      "root_id": "B_role_train_05_Hred_Tblue",
+      "family_id": "B_role_train_05"
+    },
+    {
+      "root_id": "B_role_train_05_Hred_Tpink",
+      "family_id": "B_role_train_05"
+    }
+  ]
+}

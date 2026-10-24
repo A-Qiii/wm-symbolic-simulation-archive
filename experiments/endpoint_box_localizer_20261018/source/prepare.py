@@ -1,0 +1,32 @@
+from common import *
+import collections,shutil
+
+def main():
+ assert not E.exists()
+ for d in['configs','data/public','data/annotations','source','models','results','logs']:(E/d).mkdir(parents=True)
+ (R/'figures').mkdir(parents=True)
+ rows=read(BASE/'data/public/states.json');chosen=[]
+ for root in list(dict.fromkeys(r['root_id']for r in rows if r['state_id'].startswith('official:'))):
+  rr=sorted([r for r in rows if r['root_id']==root and r['state_id'].startswith('official:')],key=lambda r:int(r['state_id'].split(':')[-2]));assert len(rr)==30
+  for i in[7,22]:chosen.append((rr[i],'train'if rr[i]['train']else'AB_episode_heldout_development'))
+ for root in['C_intermediate_v3_blue_2','C_intermediate_v3_pink_3','D_identity_blue_pink_01','D_identity_blue_pink_00']:
+  rr=[r for r in rows if r['root_id']==root];chosen.append((rr[len(rr)//2],root[0]+'_seen_diagnostic'))
+ metadata=[];refs={}
+ for si,(r,split)in enumerate(chosen):
+  src=Path(r['path']);dst=E/f'data/public/state_{si:02d}.npz';z=np.load(src);assert set(z.files)=={'rgb_static','rgb_gripper'};shutil.copy2(src,dst);refs[str(src)]=sha(src)
+  for cam,key in enumerate(['rgb_static','rgb_gripper']):metadata.append({'image_id':si*2+cam,'state_order':si,'index':r['index'],'state_id':r['state_id'],'root_id':r['root_id'],'scene':r['scene'],'split':split,'camera':cam,'key':key,'path':str(dst),'source':str(src),'width':z[key].shape[1],'height':z[key].shape[0],'RGB_sha256':hashlib.sha256(z[key].tobytes()).hexdigest()})
+ assert len(metadata)==40
+ for a in['train','AB_episode_heldout_development','C_seen_diagnostic','D_seen_diagnostic']:
+  for b in['train','AB_episode_heldout_development','C_seen_diagnostic','D_seen_diagnostic']:
+   if a==b:continue
+   assert not({r['root_id']for r in metadata if r['split']==a}&{r['root_id']for r in metadata if r['split']==b})
+   assert not({r['RGB_sha256']for r in metadata if r['split']==a}&{r['RGB_sha256']for r in metadata if r['split']==b}),(a,b)
+ save(E/'data/public/images.json',metadata)
+ protocol={'utc':now(),'scope':'RGB-only box annotation consistency and frozen-DINO small localization feasibility; not downstream relations or formal independent test','budget':{'states':20,'RGB_images':40,'train_images':16,'AB_episode_heldout_development_images':16,'C_seen_diagnostic_images':4,'D_seen_diagnostic_images':4,'baseline_architectures':1,'fixed_seeds':[0,1],'updates_each':600,'batch_images':8,'no_retries_or_selection':True},'selection':'official8episodes: frame-sorted indices7 and22 of30; four named historical C/D roots: middle existing record, all chosen before viewing images this round','split':'A/B official source episodes disjoint4train4development; C/D historical roots only viewed diagnostic. All source sets already seen in prior work, no independent-test claim','annotation':{'drawer_front':'visible movable drawer front panel INCLUDING attached pull handle, EXCLUDING cavity floor/interior, side panels, cabinet face/doors; box tight to visible front-panel-plus-handle extent; no hidden/amodal completion','gripper_finger':'one box per visibly identifiable mechanical finger distal to main palm (up to2); include finger body/tip, exclude palm/wrist/arm and held object; same unordered class, no physical left/right ID','statuses':['visible','partial','not_visible','uncertain'],'reasons':['none','occluded','out_of_frame','occluded_and_out_of_frame','not_identifiable'],'unknown':'no box when cannot identify/bound visible target; ignore uncertain class-image in training/scoring, report its prediction rate separately','no_fixed_fallback':True,'coordinates':'integer RGB xyxy pixels, exclusive upper bounds; drawn after actually viewing RGB only','annotator':'assistant visual annotation, reviewed overlays, not independent human gold standard'},'quality_gate':{'overlay_review_all_images':True,'blind_repeat_image_ids':[0,5,10,15,20,25,30,35],'repeat_status_agreement_min':.90,'repeat_box_median_IoU_min':.70,'repeat_box_p10_IoU_min':.50,'min_reliable_train_boxes_perclass':6,'min_train_source_episodes_perclass':3,'max_train_uncertain_class_image_fraction':.50,'failure':'stop before training if unresolvable ambiguity or any gate fails; no threshold relaxation'},'encoder':'cached frozen DINOv2-small fullRGB resized224,16x16x384. no robot or simulator fields; train-only feature normalization; no new model download','baseline':'shared pointwise384->64SiLU->10 outputs2class center logits+4box values perclass; no explicit XY/camera/scene input; same weight across patches, no fixed ROI','loss':'binary focal alpha.25 gamma2 normalized by positive centers perimage plus5 smoothL1 mean of center offsets & normalized widthheight plus2 mean GIoU loss at positives; uncertain class entirely ignored','optimizer':'AdamW lr.001 wd.0001 clip1, two fixed seeds, final600 only','sampling':'random permutations of16training images, batch8,300epochs, no augmentation','decode':'3x3 local maxima,score>=.5,class-wise NMS IoU.3,max1drawer_front/max2finger; no fallback if absent','evaluation':'IoU>=.5 greedy one-to-one; TP/FP/FN, precision/recall, perGT best IoU with no detection=0, localization coverage; known not_visible FP and uncertain prediction rates; split/scene/camera/category/visibility strata; no tuning','relation_stage':'not run in this bounded round even if localization looks promising','prohibitions':['SupCon','T/RSSM training','simulator segmentation/coords/robot_obs','newsoftware','newmodels','newdata','modeldeployment']}
+ save(E/'configs/protocol.json',protocol)
+ for p in[P/'README.md',P/'configs/protocol.json',BASE/'configs/delivery_manifest.json',P/'experiments/endpoint_rgb_feasibility_20261018/configs/delivery_manifest.json',P/'experiments/visual_edge_zero_context_control_20261018/configs/delivery_manifest.json',DINO/'model.safetensors']:refs[str(p)]=sha(p)
+ save(E/'configs/source_references.json',{'sha256':refs,'skills_checked':'executor catalog reviewed; no task-relevant box annotation skill or project AGENTS present; existing imagegen is for synthesis and not used to modify evidence'})
+ for p in Path(__file__).parent.glob('*.py'):shutil.copy2(p,E/'source'/p.name)
+ files=[p for sub in['configs','source','data/public']for p in(E/sub).rglob('*')if p.is_file()];save(E/'configs/pre_annotation_frozen.json',{'utc':now(),'before_image_annotation_and_training':True,'sha256':{str(p):sha(p)for p in files}})
+ print('BOX_PROTOCOL_AND_EPISODES_FROZEN',len(metadata),flush=True)
+if __name__=='__main__':main()

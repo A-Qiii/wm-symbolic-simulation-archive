@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-19T23:31:09.343045+00:00",
+  "before_any_new_model_inference": true,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_confirm_20261019/source/report.py": "82f05874915158fd5baebf8a9997fbb3f3aa0580eb02bacf8932fb4344fbb43d",
+    "/home/robot/research/projects/wm_symbolic/experiments/object_recurrent_confirm_20261019/source/verify_final.py": "b83370d92b791ee150718cb23adfe761269b8d6d56afb54ff958c6803f974061"
+  },
+  "scope": "Presentation and integrity checks; primary scores and gates already frozen before physics."
+}

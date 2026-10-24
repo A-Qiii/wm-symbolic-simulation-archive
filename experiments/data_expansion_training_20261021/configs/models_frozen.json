@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-21T09:34:06.314197+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed0_step1500.pt": "c07d69aea93a16b1eec9fd3a8bccdb9892d2687be00ab372426465750b2ef78a",
+    "/home/robot/research/projects/wm_symbolic/experiments/midstart_training_control_20261020/models/cold_mix_seed1_step1500.pt": "d808ccc31ef425af47963808f5f49cdafd7d665360750096708330eeed7d9730",
+    "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed0_step1500.pt": "84a6639a88ad9445fe2a2c8eae143d31c50a8158b075c4a8a77603cc84d16a26",
+    "/home/robot/research/projects/wm_symbolic/experiments/data_expansion_training_20261021/models/new868_seed1_step1500.pt": "d5ca3cde8594a9f9b34da5b787a579f30d75104d8533bc27e11c693e038e6e2e"
+  },
+  "new_fits": 2,
+  "reused_old_fits": 2,
+  "steps_each": 1500,
+  "no_selection": true
+}

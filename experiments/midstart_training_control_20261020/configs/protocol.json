@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-20T01:56:26.975273+00:00",
+  "frozen_before_training": true,
+  "difference_from_old_reset": "Old posterior_history_diagnostic held models fixed and erased recurrent history. This experiment actually trains initial observation assimilation and downstream transition networks from intermediate public windows.",
+  "arms": {
+    "full": "Original complete trajectories and unmodified objective.",
+    "history_mix": "Same sampled episodes; exactly half full, half uniformly selected nonterminal intermediate starts; matched cropped losses. Prefill only earlier public observations/actions without gradients, then train current observation update and subsequent transitions.",
+    "cold_mix": "Identical sample IDs/crops/targets/normalization to history_mix. Replace intermediate recurrent prior with zeros and train current observation update and subsequent transitions."
+  },
+  "training": {
+    "seeds": [
+      0,
+      1
+    ],
+    "updates_per_fit": 1500,
+    "fits": 6,
+    "total_updates": 9000,
+    "parameters_each": 2490068,
+    "initialization": "Identical original fixed seed initialization, no finetuning",
+    "microbatches": 2,
+    "episodes_per_microbatch": 8,
+    "optimizer": "Original AdamW lr3e-4 weight_decay1e-4 gradient_clip1",
+    "checkpoint": "Only step1500 for comparison; no selection",
+    "loss": "Original current + .5*(prior+multi3+terminal_from_relative_h2+outcome), masks exclude padding; short crops lack terminal terms. history_mix controls all crop-content/exposure changes.",
+    "frozen_encoder_and_RGBD": "Original two seeds frozen encoder, coarse32+16 geometry; original training-only normalization unchanged",
+    "train_roots": 94,
+    "train_episodes": 228,
+    "development_episodes": 78,
+    "development_root_disjoint": true,
+    "no_new_test_to_training": true
+  },
+  "input_scope": "Each intermediate start uses its original causal four-control-frame dual-camera window including preceding frames and current robot states. No future frame or GT label/state is an initializer. Cached visible-region registry can carry earlier public history; only recurrent prior is reset, not a claim of memoryless single-frame input. New independent roots have naturally fresh registry.",
+  "evaluation": {
+    "development": "All original full episodes plus every nonterminal intermediate origin; cold initial Held/In/drawer, subsequent observed and free1..5, non-target stable In and prior-correct denominator. Development has been reused historically; not a pristine test.",
+    "exploratory": "Prior relation_generalization four families only exploratory, never training; normal and externally perturbed branches separate.",
+    "fresh_validation_trigger": "Both cold_mix seeds improve development initial positive In recall >=20 percentage points vs full, and initial joint accuracy does not decline. If true run a small new independent normal-branch known4/novel4 matched cohort; no order-generalization claim without it.",
+    "fresh_scope": "24 episodes:4 new layout families A2/B2 x3 cyclic H/T pairs xknown4/novel4, nominal branch only; no new skill. Deterministic proposals and prior geometry exclusion; no outcome/model replacement.",
+    "thresholds": "Held/In0.5,drawerargmax fixed"
+  },
+  "controls": "World-model input no GT; existing fixed low-level controller uses GT assistance, explicitly authorized and unchanged.",
+  "limits": {
+    "minutes": 45,
+    "new_training_data": 0,
+    "uploads": 0,
+    "C_D": 0,
+    "additional_repairs": 0
+  }
+}

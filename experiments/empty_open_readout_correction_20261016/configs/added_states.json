@@ -1,0 +1,30 @@
+{
+  "indices_in_prior_ABC": [
+    11,
+    57,
+    103,
+    146,
+    192,
+    238,
+    284,
+    332,
+    378,
+    424,
+    470,
+    516
+  ],
+  "root_ids": [
+    "A_intermediate_v3_red_0",
+    "A_intermediate_v3_red_1",
+    "A_intermediate_v3_blue_0",
+    "A_intermediate_v3_blue_1",
+    "A_intermediate_v3_pink_0",
+    "A_intermediate_v3_pink_1",
+    "B_intermediate_v3_red_0",
+    "B_intermediate_v3_red_1",
+    "B_intermediate_v3_blue_0",
+    "B_intermediate_v3_blue_1",
+    "B_intermediate_v3_pink_0",
+    "B_intermediate_v3_pink_1"
+  ]
+}

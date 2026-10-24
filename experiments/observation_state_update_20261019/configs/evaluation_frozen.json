@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-19T20:35:02.106257+00:00",
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/configs/protocol.json": "af21f78c8d8e393af24081eee96843645ceea276d238d69f8799c41b83af962a",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/configs/evaluation_requirements.json": "1a29572e681adcbdaca26193552dc227d9351fbce00acb81f392906ed159c76e",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/source/evaluate_update.py": "3768597f582b0b49e69685bb44c9590cd403a95c49341db2cdedd23f3adae6cc",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/source/analyze.py": "7cecdd42664b62447f02fd416634e329c0dd84cdfae436baab413aca500405e8",
+    "/home/robot/research/projects/wm_symbolic/experiments/observation_state_update_20261019/source/observation_control.py": "fdbc1335e20b979c88ffe32fba78fb5ef9469cea08dfb6945e14e7f1feadddd2",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/source/evaluate.py": "4f06065f7b213e7c965adb8cf249f582da922c4c1a37854b2ed91a3b484ed3cc"
+  },
+  "before_new_model_predictions": true,
+  "historical_evaluation_exploratory_only": true
+}

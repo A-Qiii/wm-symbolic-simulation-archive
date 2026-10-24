@@ -1,0 +1,16 @@
+{
+  "phase": "development candidate0 freeze",
+  "created_utc": "2026-10-14T03:20:13.705622+00:00",
+  "controller_sha256": "3b84fd574746892e6ed89d9cd7217a4180430b1c00c1a98ea34d2f0d7d1f01e1",
+  "base_v1_controller_sha256": "0532b205828126e2b102d5c00dfa349d9534d870b7c077e797731b8fa08b973f",
+  "evaluation_script_sha256": "50e0c285e8d32bffcfb97831894343027efdfe565928bd19dbf85f3346408c04",
+  "fresh_roots_sha256": "95304a40c982198389a8cf2fc73ac171e2c0609116d06900f6017c9923d9702d",
+  "main_manifest_sha256": "3efd5c23f0da99da4048f70362ef4ade8846e046f32130a6740771f619a9968d",
+  "finalized_utc": "2026-10-14T03:24:37.125471+00:00",
+  "source_unchanged_since_before_regression": true,
+  "old_regression_episodes": 36,
+  "old_regression_all_passed": true,
+  "old_regression_results_sha256": "fcc32ac725772e6d5512ce917f59934d1c8de4032223537689227870a66cf437",
+  "future_acceptance_roots": 27,
+  "criteria": "Exactly v1 goal, drift10mm, mechanism3mm, penetration10mm and900 controls /2attempts. No acceptance retuning."
+}

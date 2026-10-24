@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-19T20:33:42.654116+00:00",
+  "no_protocol_change": true,
+  "new_weight_assignment": "observation_to_h is in the existing R group for clip_groups, clip max_norm1. E partition remains unchanged.",
+  "unmatched_effect": "The extra gradient can change the common R clipping coefficient. All original optimizer moments, loss, schedules and update count are matched, but per-update shared gradients and clipping are not claimed numerically identical.",
+  "new_adamw_group": "Same defaults/lr/betas/weight_decay; new matrix begins with absent moments while original112 parameter-state entries are restored."
+}

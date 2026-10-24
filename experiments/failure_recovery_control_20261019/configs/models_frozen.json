@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-19T19:38:30.044221+00:00",
+  "before_new_evaluation_collection": true,
+  "selection": [
+    {
+      "seed": 0,
+      "arm": "nominal",
+      "update": 500,
+      "development_objective": 8.378706296284994,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed0_step500.pt",
+      "sha256": "01be2627e1278e508aad0eddb9b6b85cc9c55af932642258bf65d653d07f597c"
+    },
+    {
+      "seed": 0,
+      "arm": "recovery",
+      "update": 500,
+      "development_objective": 6.367181022961934,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed0_step500.pt",
+      "sha256": "574a96fd7f38f6adce4e5211ec9e6c96f581fdf4ce35186ad531dc8828cf5b17"
+    },
+    {
+      "seed": 1,
+      "arm": "nominal",
+      "update": 500,
+      "development_objective": 7.304967880249023,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed1_step500.pt",
+      "sha256": "9c7ab3abddd5a4c4ff66550ab6c28f6c95970c893a1a8c7b1adefca2f151a8a9"
+    },
+    {
+      "seed": 1,
+      "arm": "recovery",
+      "update": 500,
+      "development_objective": 6.051223874092102,
+      "path": "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed1_step500.pt",
+      "sha256": "2cea8f85f9b83d1fa39eadbc7e8b134039c7e114eaf40f61aa285bb82934ba09"
+    }
+  ],
+  "fits": 4,
+  "updates": 4000,
+  "sha256": {
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed0_step500.pt": "01be2627e1278e508aad0eddb9b6b85cc9c55af932642258bf65d653d07f597c",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed0_step1000.pt": "8476a8f253599f9cea72033b699053bcfc96965ab03989707b9ecc189e648671",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed0_step500.pt": "574a96fd7f38f6adce4e5211ec9e6c96f581fdf4ce35186ad531dc8828cf5b17",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed0_step1000.pt": "66dd5e1eea371fe893c374b7da55ff4d037515d0f308a9a16c549cff4f101882",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed1_step500.pt": "9c7ab3abddd5a4c4ff66550ab6c28f6c95970c893a1a8c7b1adefca2f151a8a9",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/nominal_seed1_step1000.pt": "cc3c75543bebd2d4618e142a914a40f5e3d5cd3862ecf91d8ccfdd66bd50e880",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed1_step500.pt": "2cea8f85f9b83d1fa39eadbc7e8b134039c7e114eaf40f61aa285bb82934ba09",
+    "/home/robot/research/projects/wm_symbolic/experiments/failure_recovery_control_20261019/models/recovery_seed1_step1000.pt": "24bb5b88ff6f4802d04c9b3a8296f9ed72dbaf24475cb9ace3b4ceee56a9610c"
+  }
+}

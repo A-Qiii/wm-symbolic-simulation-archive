@@ -1,0 +1,11 @@
+{
+  "library_file_id": "libfile_34cc3492ea848191817b538d67b0f6f6",
+  "file_id": "file_00000000257881f6ac2eace3bdceed19",
+  "version": 0,
+  "bytes": 47208,
+  "lines": 563,
+  "sha256": "f4cb908e26db79176263d5002290ac4c94daf3025ce2523fc546eb896e2ad0d4",
+  "read_all_lines": true,
+  "execution_override": "User requests this local Ubuntu 24.04.5 host with RTX 5080 Laptop 16GB; original AutoDL description superseded.",
+  "old_project": "/home/robot/research/projects/robot_state (read-only)"
+}
