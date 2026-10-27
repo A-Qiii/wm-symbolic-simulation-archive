@@ -1,0 +1,186 @@
+{
+  "source_project": "wm_blocks",
+  "source_version": "v3 plus v1/v2 controls",
+  "changes": [
+    "Centralize project, CALVIN, DINO, GPU lock and optional font locations in paths.py",
+    "Replace legacy wm_symbolic imports with a minimal local public-observation adapter and pinned DINO resource path",
+    "Add sequential explicit-execution driver and documented baseline outer-scope filter; preserve training loops and model equations",
+    "Quote worker subprocess paths for relocation including spaces; guard worker RPC loop with main for import-only checks",
+    "Normalize fixed-plan hash metadata to a relative path; retain fixed plan contents byte-for-byte"
+  ],
+  "files": [
+    {
+      "path": "src/block_env.py",
+      "original_sha256": "0c499cb241831f0cc09186b207b741057cef960fd1442c8a1872b0b3fd1bef37",
+      "package_sha256": "79601073f9b22a74af356ef18d211e8cb2b7b50880b09eb06ccd784f9c71576c",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/kinematic_guard.py",
+      "original_sha256": "0eb46189cd1dce449f0ee7f7b6c97320557e32224f7f59fb4268a4b2c32c29b0",
+      "package_sha256": "e92cc0ec3c28b6d612441bc3f49dcbfc9cfd81bbe56be144ad37afb2067f9d3f",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/physics_monitor.py",
+      "original_sha256": "8075ce842aa27d85bf9116ff6332cbdf9a933be424cb5f03936bdc78e9282ce5",
+      "package_sha256": "8075ce842aa27d85bf9116ff6332cbdf9a933be424cb5f03936bdc78e9282ce5",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/engineering_gate.py",
+      "original_sha256": "f8fe3f9d38a451f0ce47f8cc83f5937eb72a5ff13b491257f772cb4e14fab60f",
+      "package_sha256": "b8ed6a5712297f6bcb36c2383c140f2c0dd61600da78be8029284e38b27a380d",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/audit_engineering.py",
+      "original_sha256": "86e14e41810df4741bc33d60be940f3982294d85cacb0c7fa093a7358f7b15ec",
+      "package_sha256": "591fac5b0ec78d9af5d4b2d4df9abf3ab6a9ae79319632a6a4ecb74ea29f5cfa",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/protocol.py",
+      "original_sha256": "ca833c08686d51c3d0c4d42737bfcc796a4cc146d5a4f09c2754791f836e7508",
+      "package_sha256": "2fb508845ae71abac7202f45dba8e114a00da8ab9116d929bb0a92020cae1646",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/collect.py",
+      "original_sha256": "c78b35c03f53619029443ceef8c19019f9a7c351143f7faa12bb3e0d86e8cfe4",
+      "package_sha256": "c8fc6f364d44cb7359225e01a2821ef9e6c31619631f1d1efdf581b628bb34c9",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/audit_data.py",
+      "original_sha256": "63a937fb1255a9fb70a85f33e637ca3f50975859368b0f590601a6d6fbeffb8e",
+      "package_sha256": "1b7d2a2ce90c7eef2fb038f2d0283925b8008beda69e8915252b398c33a120f1",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/cache_features.py",
+      "original_sha256": "91e6b51666fb52032e9ff70fcbee8fba9131b1bfd45511d6b38afeba829c83de",
+      "package_sha256": "ece0fa97cee5a40a52be97fb1500e04de2633ba5a38637a111420d83714f60b8",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/smoke128.py",
+      "original_sha256": "bf9e40ed4a5baa6bae4674d031944fbbe59709b05754e59ddb1409922a5d04e9",
+      "package_sha256": "44c553551bd1916e85c5778ee6d24670f36cb9be88ce9bec2e42b7089faa5643",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/rgb_front.py",
+      "original_sha256": "cee239a24ee6cc43b8a49523f186f022f04016b0d9a020ba8fc54875ef61448b",
+      "package_sha256": "c3493cc7950e1ec58a9d798a674e85a6e0be0e52b670d319c3e5698f30e93143",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/models.py",
+      "original_sha256": "47822fba59a0a3a079591784608aef3b3d3e022485feb4224485f97482715eb2",
+      "package_sha256": "47822fba59a0a3a079591784608aef3b3d3e022485feb4224485f97482715eb2",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/models_v2.py",
+      "original_sha256": "698b8d44e5fada1d6c2487c80322de1a32684f6e859a86a3f6a309b3a88c9a6d",
+      "package_sha256": "698b8d44e5fada1d6c2487c80322de1a32684f6e859a86a3f6a309b3a88c9a6d",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/models_v3.py",
+      "original_sha256": "15908af165e3af7b688435f2b4ed5c1b8951ad7caf11eae1396eac3dc30270b1",
+      "package_sha256": "15908af165e3af7b688435f2b4ed5c1b8951ad7caf11eae1396eac3dc30270b1",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/train.py",
+      "original_sha256": "7f4eca78a1c9644dc4c7b06bb05955c947aefc9d48271a5bc77e8609839e56f8",
+      "package_sha256": "4c81069d4fc84e8ab6571182014c2dc04fb4afb12ef49f75523d90b6c0b69672",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/train_v2.py",
+      "original_sha256": "906a7d8f618bade6fcb24fa357a0dae55c9d20cb1f491793d01ac492b3bc9880",
+      "package_sha256": "63942276f2c2510ca5800cae26ad28abb610374281c3e81ded796b017248549c",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/train_v3.py",
+      "original_sha256": "e4dbaa3700645808e1114f77bde34cc06c3bfe05a66d39075582a87d434b5050",
+      "package_sha256": "1398d055a7e660926a290eb1d5080b1b0de5adbae2eef911f28f5565f50bbd1a",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/v2_development_challenge.py",
+      "original_sha256": "b801f128d0571dc403e608800ce7cdb2e8a643cf542b7ebf840c1a06c9e56cb1",
+      "package_sha256": "cc2a22604dd9d1c4b85169c8ce44ef37e45cb69518f14c41cba5a472a653d5e3",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/confirm_v3_data.py",
+      "original_sha256": "73de7ce3fd60c6ee143e88fdc8fd9f2f3e4c91ce6b1fb5123713ce67d4425345",
+      "package_sha256": "9b66f85a06343c26f4bdf63a3b9ee0edd78ebafc64cfb2323d3be6f302f9377b",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/evaluate.py",
+      "original_sha256": "4fa4affd3c720c6acb5cc08f9e9ad45fbcd78bf42be0d66710ffdbe4185a0765",
+      "package_sha256": "28276d614cdbe098eda2a6f461cb106201ed02dde023c7c525da4bd3f71593a6",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/evaluate_v3.py",
+      "original_sha256": "c5f86eab85603dc3218be5ea6d6df53cc93bb1b5d4f17349a683db4295c0693f",
+      "package_sha256": "f084327f624412eb852e61c0b73a033d19bb8c650686fad8ed851debe8693a55",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/live.py",
+      "original_sha256": "390b477ba6ab3e8b95a5fffa3fb47573fcc09e699c7aeffbbe062ca7a4a8e76a",
+      "package_sha256": "aab24ad2cfb86a2f92eff5ea61ee623cc087ace5520a1c23ecd254c57171df5c",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/live_worker.py",
+      "original_sha256": "04d91ac39ed6c34c7601339001449666bb0f392008135a67293d55d2bcf75656",
+      "package_sha256": "cd8a30be551fd527a445c352d955dd1fdcd4e89d55cf7c061341d233a2c61c2e",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/live_v3.py",
+      "original_sha256": "bdaf9e2332ef4d22e1696d4e5e92187b4443fc1f49569e6f0326c0f6ab2ab4b0",
+      "package_sha256": "4843d16e958206a706b4ac2142207a54f5b563cfa53624601ee8431b54b5a52c",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/analyze_v3.py",
+      "original_sha256": "452fcfda3d34a873458a797040a1d3ea7d8645bcea4e0438144d98dca39eddc4",
+      "package_sha256": "112df8942f8361f95e643595748cacbe0d2bc3b1d8973150390270635819337b",
+      "model_math_changed": false
+    },
+    {
+      "path": "src/inspect_v3_condition.py",
+      "original_sha256": "6516bec1c4cf70864d9352813b46706a0f67a7884b08232ccc90f6585a9b41d3",
+      "package_sha256": "5b162484d8ea6bdba2f22022fb95ffc9175fd3b656f7d8834cfcdd3d0025eb01",
+      "model_math_changed": false
+    }
+  ],
+  "unchanged_model_files": [
+    "src/models.py",
+    "src/models_v2.py",
+    "src/models_v3.py"
+  ],
+  "assets": [
+    {
+      "path": "assets/large.urdf",
+      "original_sha256": "dc4097921b1beb1c8dedfc7723d0b40d6735d6cd2ffa7f3b7ac6702640176e57",
+      "package_sha256": "dc4097921b1beb1c8dedfc7723d0b40d6735d6cd2ffa7f3b7ac6702640176e57"
+    },
+    {
+      "path": "assets/small.urdf",
+      "original_sha256": "01f675c19b3f9b24338d1b0eac3f8cf4dc1b73279512c8c6835a58d4d09f6860",
+      "package_sha256": "01f675c19b3f9b24338d1b0eac3f8cf4dc1b73279512c8c6835a58d4d09f6860"
+    }
+  ]
+}
