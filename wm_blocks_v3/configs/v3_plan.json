@@ -1,0 +1,137 @@
+{
+  "version": "v3",
+  "intervention": "Only replace v2 full3x3 learned influence with3 learned per-axis coefficients. Keep v2 actor-state input, frozen v1 visual heads, same data/loss/update/sample budget. No support rules/labels or GT deployment input.",
+  "experiment": "transition",
+  "arm": "holdout",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 3000,
+  "batch": 16,
+  "fit_plan": "configs/experiment_plan.json",
+  "fit_episodes": 360,
+  "fit_transitions": 960,
+  "original_development_gate": ".98 minimum current/one/root-end joint",
+  "additional_development_gate": "At least19/20 joint correct after PickSmall for both cross remove program and existing correct load program. Never fit challenge; checkpoint selected by original dev loss/gate only.",
+  "frozen_old_test": "v1/v2 exposed tests diagnosis only; never v3 fitting/selection",
+  "confirmation_groups": [
+    {
+      "id": "v3_transition_000",
+      "layout_seed": 270001000,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_001",
+      "layout_seed": 270001001,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_002",
+      "layout_seed": 270001002,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_003",
+      "layout_seed": 270001003,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_004",
+      "layout_seed": 270001004,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_005",
+      "layout_seed": 270001005,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_006",
+      "layout_seed": 270001006,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_007",
+      "layout_seed": 270001007,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_008",
+      "layout_seed": 270001008,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_009",
+      "layout_seed": 270001009,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_010",
+      "layout_seed": 270001010,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_011",
+      "layout_seed": 270001011,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_012",
+      "layout_seed": 270001012,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_013",
+      "layout_seed": 270001013,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_014",
+      "layout_seed": 270001014,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_015",
+      "layout_seed": 270001015,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_016",
+      "layout_seed": 270001016,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_017",
+      "layout_seed": 270001017,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_018",
+      "layout_seed": 270001018,
+      "split": "test"
+    },
+    {
+      "id": "v3_transition_019",
+      "layout_seed": 270001019,
+      "split": "test"
+    }
+  ],
+  "confirmation_recipes": [
+    "B_loaded_reverse",
+    "B_empty_reverse",
+    "A_loaded_forward",
+    "A_empty_forward",
+    "A_remove_then_move",
+    "A_load_then_move",
+    "A_beside_remove_then_move"
+  ],
+  "online_tasks": "Frozen v1 vs v3 seed0, each120 tasks on same20 new groups; v2 same-new-reference predictions retained",
+  "prediction_comparison": "Frozen v1/v2/v3,3 seeds on same new references",
+  "model_inputs": "RGB/proprio, frozen learned geometry. No simulation masks/depth/GT input or support labels.",
+  "test_collection_requires_development_freeze": true,
+  "additional_reference_reason": "Record actual consequence of the cross-program branch responsible for v1 basic-task stops, on the same20 new layouts; never fitted/selected. Locked before v2 training or confirmation collection.",
+  "confirmation_reference_episodes": 140,
+  "confirmation_reference_transitions": 400
+}

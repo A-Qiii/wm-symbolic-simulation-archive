@@ -1,0 +1,137 @@
+{
+  "version": "v2",
+  "intervention": "Only actor conditioning changed: learned physical states of both objects plus action; remove h/scene appearance. Keep residual displacement output, perception checkpoints, interaction matrix form, loss, data and budgets.",
+  "experiment": "transition",
+  "arm": "holdout",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 3000,
+  "batch": 16,
+  "fit_plan": "configs/experiment_plan.json",
+  "fit_episodes": 360,
+  "fit_transitions": 960,
+  "original_development_gate": ".98 minimum current/one/root-end joint",
+  "additional_development_gate": "At least19/20 joint correct after PickSmall for both cross remove program and existing correct load program. Never fit challenge; checkpoint selected by original dev loss/gate only.",
+  "frozen_old_test": "v1 used only for diagnosis, never for v2 selection or new confirm claims",
+  "confirmation_groups": [
+    {
+      "id": "v2_transition_000",
+      "layout_seed": 260001000,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_001",
+      "layout_seed": 260001001,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_002",
+      "layout_seed": 260001002,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_003",
+      "layout_seed": 260001003,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_004",
+      "layout_seed": 260001004,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_005",
+      "layout_seed": 260001005,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_006",
+      "layout_seed": 260001006,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_007",
+      "layout_seed": 260001007,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_008",
+      "layout_seed": 260001008,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_009",
+      "layout_seed": 260001009,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_010",
+      "layout_seed": 260001010,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_011",
+      "layout_seed": 260001011,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_012",
+      "layout_seed": 260001012,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_013",
+      "layout_seed": 260001013,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_014",
+      "layout_seed": 260001014,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_015",
+      "layout_seed": 260001015,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_016",
+      "layout_seed": 260001016,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_017",
+      "layout_seed": 260001017,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_018",
+      "layout_seed": 260001018,
+      "split": "test"
+    },
+    {
+      "id": "v2_transition_019",
+      "layout_seed": 260001019,
+      "split": "test"
+    }
+  ],
+  "confirmation_recipes": [
+    "B_loaded_reverse",
+    "B_empty_reverse",
+    "A_loaded_forward",
+    "A_empty_forward",
+    "A_remove_then_move",
+    "A_load_then_move",
+    "A_beside_remove_then_move"
+  ],
+  "online_tasks": "Same20 new groups:20x2 reverse cases and20x2 initial layouts x2 goals=120 per model; frozen v1 seed0 vs v2 seed0.",
+  "prediction_comparison": "v1/v2 H matrix three seeds, same new reference data",
+  "model_inputs": "RGB/proprio, frozen learned geometry. No simulation masks/depth/GT input or support labels.",
+  "test_collection_requires_development_freeze": true,
+  "additional_reference_reason": "Record actual consequence of the cross-program branch responsible for v1 basic-task stops, on the same20 new layouts; never fitted/selected. Locked before v2 training or confirmation collection.",
+  "confirmation_reference_episodes": 140,
+  "confirmation_reference_transitions": 400
+}

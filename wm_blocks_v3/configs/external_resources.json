@@ -1,0 +1,52 @@
+{
+  "calvin_env": {
+    "git_url": "https://github.com/mees/calvin_env.git",
+    "commit": "1431a46bd36bde5903fb6345e68b5ccc30def666",
+    "destination": "vendor/calvin/calvin_env",
+    "tracked_worktree_clean_when_prepared": true,
+    "files_sha256": {
+      "conf/config_data_collection.yaml": "cbbab41b02d7f9848d9c7d4162d3992c67f63d0958bec44fd9136cfd866d8b20",
+      "conf/robot/panda.yaml": "05458ad7e3e9b90fe506a421e6598b2f326029551a708a0f68f554aaea8e9ff3",
+      "conf/cameras/static_and_gripper.yaml": "ef7257edee3eb790c4ef16e8265f845e96d7c162c66b81772b90970e2e289cd5",
+      "conf/scene/calvin_scene_A.yaml": "e91f76b7af0950828ad9bc426768c4600c8badcdbd41a719dcce326e12e7b05d",
+      "data/franka_panda/panda.urdf": "cd11bcb93a9885d7c3961518ebfd6e5ead656b9a0ed88ce967a42430bb1b48da",
+      "data/blocks/block_blue_big.urdf": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+      "data/blocks/block_red_small.urdf": "6a205c802bd508fd6bff6d90583c7308db856828f0dc227edd50627c149357d1"
+    },
+    "license": "MIT",
+    "tacto_and_ikfast_not_used": true
+  },
+  "original_calvin_parent": {
+    "git_url": "https://github.com/mees/calvin.git",
+    "commit": "fa03f01f19c65920e18cf37398a9ce859274af76",
+    "not_required_to_download": "Only pinned calvin_env submodule source/data is needed for this workload"
+  },
+  "dinov2": {
+    "repo_id": "facebook/dinov2-small",
+    "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "destination": "external_models/dinov2-small-ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "files": {
+      "README.md": {
+        "sha256": "4c20dca454a8e5c670e8de5c7e6040f512aeca5438516f7623eedc4e3b00599c",
+        "bytes": 3033
+      },
+      "config.json": {
+        "sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+        "bytes": 547
+      },
+      "model.safetensors": {
+        "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+        "bytes": 88249960
+      },
+      "preprocessor_config.json": {
+        "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+        "bytes": 436
+      }
+    },
+    "license_from_pinned_model_card": "apache-2.0"
+  },
+  "included_own_assets": {
+    "large.urdf": "dc4097921b1beb1c8dedfc7723d0b40d6735d6cd2ffa7f3b7ac6702640176e57",
+    "small.urdf": "01f675c19b3f9b24338d1b0eac3f8cf4dc1b73279512c8c6835a58d4d09f6860"
+  }
+}

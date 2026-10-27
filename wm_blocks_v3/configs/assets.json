@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "name": "large",
+      "source": "vendor/calvin/calvin_env/data/blocks/block_blue_big.urdf",
+      "source_sha256": "f92e33115cebdd63b39d5d71c4c7de2fc5773d7e141dde6e430d942777487a80",
+      "world_size_m": [
+        0.1,
+        0.05,
+        0.05
+      ],
+      "mass_kg": 0.2,
+      "global_scaling": 0.8
+    },
+    {
+      "name": "small",
+      "source": "vendor/calvin/calvin_env/data/blocks/block_red_small.urdf",
+      "source_sha256": "6a205c802bd508fd6bff6d90583c7308db856828f0dc227edd50627c149357d1",
+      "world_size_m": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "mass_kg": 0.025,
+      "global_scaling": 0.8
+    }
+  ],
+  "origin": "CALVIN existing box URDF, dimensions/mass/inertia adapted; no new handle or linkage"
+}
